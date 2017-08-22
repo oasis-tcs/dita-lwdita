@@ -28,7 +28,7 @@
 <div>
 <h3>Further Description of this Repository</h3>
 
-<p>[Any narrative content may be provided here by the TC, for example, if the Members wish to provide an extended statement of purpose.]</p>
+<p>This repository contains official schema files and documents from the OASIS Lightweight DITA subcommittee.</p>
 </div>
 
 <div>
