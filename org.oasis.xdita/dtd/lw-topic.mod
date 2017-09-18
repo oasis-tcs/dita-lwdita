@@ -65,6 +65,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--                     <body> content model                      -->
 <!--    17 Aug 2017  CE: Renamed multimedia elements after 2.0     -->
 <!--                     multimedia domain proposal                -->
+<!--    18 Sep 2017 RDA: Add value attributes to media control     -->
+<!--                     elements, matching main TC proposal       -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
@@ -386,7 +388,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ELEMENT media-controls 	EMPTY        >
 <!ATTLIST media-controls
              %localization;
-             name       CDATA   			#FIXED "controls"
+             name       CDATA            #FIXED "controls"
+             value (true|false)          #IMPLIED
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/param h5m-d/media-controls ">
 <!-- value      CDATA         (y|n)  "y" -->
@@ -395,7 +398,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ELEMENT media-autoplay 	EMPTY        >
 <!ATTLIST media-autoplay
              %localization;
-             name       CDATA   			#FIXED "autoplay"
+             name       CDATA            #FIXED "autoplay"
+             value (true|false)          #IMPLIED
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/param h5m-d/media-autoplay ">
 
@@ -403,7 +407,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ELEMENT media-loop 	EMPTY        >
 <!ATTLIST media-loop
              %localization;
-             name       CDATA   			#FIXED "loop"
+             name       CDATA            #FIXED "loop"
+             value (true|false)          #IMPLIED
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/param h5m-d/media-loop ">
 
@@ -411,7 +416,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ELEMENT media-muted 	EMPTY        >
 <!ATTLIST media-muted
              %localization;
-             name       CDATA   			#FIXED "muted"
+             name       CDATA            #FIXED "muted"
+             value (true|false)          #IMPLIED
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/param h5m-d/media-muted ">
 
@@ -439,6 +445,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %localization;
              name       CDATA           #FIXED "track"
              value      CDATA           #IMPLIED
+             type (subtitles | captions | descriptions | chapters | metadata) #IMPLIED
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/param h5m-d/media-track ">
 
