@@ -67,6 +67,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--                     multimedia domain proposal                -->
 <!--    18 Sep 2017 RDA: Add value attributes to media control     -->
 <!--                     elements, matching main TC proposal       -->
+<!--    18 Sep 2017 RDA: Adjust media class atts to match main TC  -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
@@ -369,7 +370,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %filters;
              %reuse;
              outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/object h5m-d/audio ">
+             class CDATA "+ topic/object media-d/audio ">
 
 <!--                    LONG NAME: Video -->
 <!ELEMENT video (desc?, video-poster?, media-controls?, media-autoplay?, media-loop?, media-muted?, media-source*, media-track*)        >
@@ -380,7 +381,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              outputclass  CDATA          #IMPLIED
              height     NMTOKEN                          #IMPLIED
              width      NMTOKEN                          #IMPLIED
-             class CDATA "+ topic/object h5m-d/video ">
+             class CDATA "+ topic/object media-d/video ">
 
 
 
@@ -391,7 +392,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              name       CDATA            #FIXED "controls"
              value (true|false)          #IMPLIED
              outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param h5m-d/media-controls ">
+             class CDATA "+ topic/param media-d/media-controls ">
 <!-- value      CDATA         (y|n)  "y" -->
 
 <!--                    LONG NAME: Media autoplay  -->
@@ -401,7 +402,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              name       CDATA            #FIXED "autoplay"
              value (true|false)          #IMPLIED
              outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param h5m-d/media-autoplay ">
+             class CDATA "+ topic/param media-d/media-autoplay ">
 
 <!--                    LONG NAME: <Media loop  -->
 <!ELEMENT media-loop 	EMPTY        >
@@ -410,7 +411,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              name       CDATA            #FIXED "loop"
              value (true|false)          #IMPLIED
              outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param h5m-d/media-loop ">
+             class CDATA "+ topic/param media-d/media-loop ">
 
 <!--                    LONG NAME: Media muted  -->
 <!ELEMENT media-muted 	EMPTY        >
@@ -419,7 +420,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              name       CDATA            #FIXED "muted"
              value (true|false)          #IMPLIED
              outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param h5m-d/media-muted ">
+             class CDATA "+ topic/param media-d/media-muted ">
 
 <!--                    LONG NAME: Poster image  -->
 <!ELEMENT video-poster		EMPTY        >
@@ -428,7 +429,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              name       CDATA         #FIXED "poster"
              value      CDATA         #IMPLIED
              outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param h5m-d/video-poster ">
+             class CDATA "+ topic/param media-d/video-poster ">
 
 <!--                    LONG NAME: Source  -->
 <!ELEMENT media-source		EMPTY        >
@@ -437,7 +438,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              name       CDATA           #FIXED "source"
              value      CDATA           #IMPLIED
              outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param h5m-d/media-source ">
+             class CDATA "+ topic/param media-d/media-source ">
 
 <!--                    LONG NAME: Track for captions  -->
 <!ELEMENT media-track		EMPTY        >
@@ -447,7 +448,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              value      CDATA           #IMPLIED
              type (subtitles | captions | descriptions | chapters | metadata) #IMPLIED
              outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param h5m-d/media-track ">
+             class CDATA "+ topic/param media-d/media-track ">
 
 <!--                    LONG NAME: Footnote  -->
 <!ELEMENT fn ( %fn-blocks; )*  >
