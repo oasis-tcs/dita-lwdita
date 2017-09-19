@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="turn-on-off-dim-lights" xml:lang="en-us">
     <title>Turning On/Off or Dimming a Lights</title>
     <shortdesc>You can turn on, turn off, or dim a lighting group in your <keyword keyref="product-name"/> by pressing the group number
