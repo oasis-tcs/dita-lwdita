@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what-is-lwdita">
+ <title>What is Lightweight DITA?</title>
+ <shortdesc>LwDITA is a proposed standard for expressing simplified DITA documents in XML,
+  HTML5, and Markdown.</shortdesc>
+ <conbody>
+  
+  <p>The core goals of LwDITA are the following:</p>
+  
+  <ul>
+   <li>Provide a simpler DITA experience</li>
+    <li>Provide mappings between XML, HTML5, and Markdown that enable individuals to:<ul>
+     <li>Author content in the format of <i>their</i> choice</li>
+     <li>Easily exchange and publish content whose source exists in these different markup languages</li>
+    </ul></li>
+    <li>Foster the growth of new, low-cost tools and applications that support LwDITA</li>
+  </ul>
+  <!--<p>LwDITA users who decide that they need a richer set of features and functionality for their content can easily transition to DITA 1.3.</p>-->
+  <!--  <p>The core features in the DITA standard are semantic tagging, chunking of content into topics,
+   content re-use at various levels, and options for conditional publishing. LwDITA offers all of
+   these features. However, whereas full DITA also contains specialized content types for technical
+   content and learning and training, advanced elements and attributes customizable for a broad
+   range of use-cases, LwDITA deliberately limits itself to generic structures that can be
+   represented in HTML5 and Markdown. This results in a much smaller standard in terms of elements,
+   attributes, and complexity.</p>
+   
+  <p>This pragmatic design has implications for small projects and large content collections alike.
+   For individuals, learning how to use the standard in a sensible way will be much easier. LwDITA
+   is designed to allow the use of more generic authoring workflows than full DITA. For
+   organizations, implementing LwDITA will involve much less change-management effort and lower
+   costs than those associated with full DITA.</p>
+   
+  <p>The choices that keep LwDITA <i>lightweight</i> also mean that this proposed standard has
+   functional limitations compared to full DITA. For users who, after having gained experience with
+   LwDITA in structured content authoring, need more advanced features for customization and diverse
+   content domains, LwDITA serves as a good start to evolve into full DITA.</p>-->
+  
+  <!--LwDITA provides a subset of the functionality of the full DITA standard. It has a limited element and attribute set, stricter content models, and a simplified specialization mechanism. The design is intended to provide the greatest value for the smallest effort on behalf of authors and tool developers. --><!--LwDITA is an open standard; therefore, it is independent of specific tools or vendors. [KJE, 30 November 2016: Not a standard yet; we need to be careful as to how we refer to it. It's currently a work-in-progress.]--> 
+  <!--<p>LwDITA includes the following resources:</p>-->
+  <!--<ul><li><xref href="../xdita/what-is-xdita.dita">XDITA</xref>: The specification for a simplified schema for topics and maps in XML, with fewer elements and tighter content models than the full DITA specification.</li><li><xref href="../hdita/what-is-hdita.dita">HDITA</xref>: The specification for a recommended model for topics and maps in HTML5 that can be used for either content authoring or display </li><li><xref href="../mdita/what-is-mdita.dita">MDITA</xref>: The specification for a recommended model for topics and maps in Markdown.</li><li>A <xref href="../specialization/what-is-lwdita-specialization.dita">template-based specialization</xref> architecture to define new topic types.</li></ul>-->
+  <!--<p>LwDITA's solutions bring the advantages of structured authoring to the domains where people are already creating content, rather than trying to get every author (regardless of technical expertise with XML) to one content platform. LwDITA is intended to be the glue that ties together many different authoring platforms across a company, and it can also be an on-boarding ramp for full DITA XML.</p>-->
+  <p><ph rev="review-1">LwDITA is not a replacement for DITA 1.3. Organizations and teams that are
+    already using DITA are encouraged to explore LwDITA, but they are not the primary audience for
+    this proposed lightweight standard. Organizations <ph rev="review-1">and individuals</ph> that
+    have not adopted DITA, either because <ph rev="review-1">XML is not a tool used in their
+     professional communities or they are not familiar with information typing,</ph> can rely on
+   LwDITA as their introduction to structured authoring and content reuse.</ph></p>
+  <p><ph rev="review-2">LwDITA is intended to be a conforming subset of DITA 1.3. In order to make this possible, the DITA Technical Committee will release a new multimedia domain for use with DITA 1.3.</ph>
+  </p>
+ </conbody>
+</concept>

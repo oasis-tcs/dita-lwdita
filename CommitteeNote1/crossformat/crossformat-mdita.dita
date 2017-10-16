@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="crossformat-mdita">
+ <title>Cross-format example: MDITA topic</title>
+ <shortdesc>The following MDITA extended-profile topic contains a key reference to a product name
+  and a content reference to a paragraph from an HDITA topic.</shortdesc>
+ <conbody>
+<codeblock>---
+id: basic-concepts 
+---
+You can network LED light bulbs together to operate wirelessly from a remote control using the RemotaLux app.
+
+# Basic Concepts of Network Lighting
+   
+Network light bulbs from your <b>[product-name]</b> work with your light fixtures the same way as standard light bulbs. They are different, however, in a couple of ways:
+  
+   - The lighting element in the light bulb uses energy-efficient LED technology.
+   - The light bulb includes wireless technology that allows the light bulb to connect to a network and be managed remotely using the RemotaLux app.
+   
+&lt;p id="power-off">Make sure power to the fixture where you are installing the light bulb is turned OFF.&lt;/p>
+   
+<b>&lt;p conref="low-power.html#low-power/disconnect-warning" /></b>
+</codeblock>
+ </conbody>
+</concept>

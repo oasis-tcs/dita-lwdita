@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="video-example">
+    <title>Example of video element</title>
+    <shortdesc>The following example shows how to use the LwDITA <xmlelement>video</xmlelement> element in XDITA and HDITA. In MDITA extended profile, <xmlelement>video</xmlelement> is represented using raw HDITA code.</shortdesc>
+    <conbody>
+ 
+        <p>In XDITA, <xmlelement>video</xmlelement> can be represented as follows:</p>
+<codeblock>&lt;p>The following video shows a recommended installation pattern for your lightbulbs:&lt;/p>
+&lt;video id="pattern" <b>iframe=</b>"no">
+&lt;controls />
+&lt;source value="pattern.mpg"/>
+&lt;/video>   </codeblock>
+<p>In the previous example, the <xmlatt>iframe</xmlatt> attribute (in bold type) informs processing
+            agents that this video is a local file and does not need to be embedded in an
+                <xmlelement>iframe</xmlelement>. The next example has a video hosted in a service
+            like YouTube that should be embedded in an <xmlelement>iframe</xmlelement>.</p>
+<codeblock>&lt;p>The following video shows a recommended installation pattern for your lightbulbs:&lt;/p>
+&lt;video id="pattern" width="320" height="240" <b>iframe=</b>"yes">
+&lt;controls />
+&lt;source value="https://www.youtube.com/embed/5KE8vkg4ijk?html5=1"/>
+&lt;/video></codeblock>        
+        
+        <p>In HDITA (and MDITA extended profile), <xmlelement>video</xmlelement> is represented as follows:</p>
+<codeblock>&lt;p>The following video shows a recommended installation pattern for your lightbulbs:&lt;/p>
+&lt;video id="pattern" width="320" height="240 controls">
+&lt;source src="pattern.mpg"/>
+&lt;/video>   </codeblock>
+<p>A video hosted in a service like YouTube can be represented in HDITA and MDITA extended profile with the HTML5 <xmlelement>iframe</xmlelement> element as follows:</p>
+<codeblock>&lt;p>The following video shows a recommended installation pattern for your lightbulbs:&lt;/p>
+&lt;iframe src="https://www.youtube.com/embed/5KE8vkg4ijk?html5=1" width="320" height="240">
+&lt;/iframe></codeblock>
+    </conbody>
+</concept>

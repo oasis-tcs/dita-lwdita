@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="why-go-lightweight">
+ <title>Why go Lightweight?</title>
+ <shortdesc>Full DITA has more power (and thus complexity) than is needed in some situations. LwDITA
+  provides a slimmed-down alternative that users can author in the markup flavor of their choice –
+  XML, Markdown, and HTML5.</shortdesc>
+ <conbody>
+  <draft-comment author="Kristen J Eberlein" time="30 November 2016">
+   <p>Good sentence that I think needs to be relocated elsewhere.</p>
+   <p>LwDITA addresses those concerns and shifts with a simplified model that accommodates the needs
+    of diverse groups of content creators while maintaining cross-format collaboration as a core
+    design and implementation value.</p>
+  </draft-comment>
+ </conbody>
+</concept>

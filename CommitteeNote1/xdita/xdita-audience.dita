@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="xdita-audience">
+ <title>Audience for XDITA</title>
+ <shortdesc>XDITA is designed for <ph rev="review-2">users who want to write DITA content</ph> but who do
+  not want (or need) the full power of DITA.</shortdesc>
+ <conbody>
+  <p>Potential users of XDITA include the following:</p>
+  <ul>
+   <li>Information developers who use an XML editor but who want a smaller set of elements and
+    attributes with which to work</li>
+   <li>Departments who want to reduce the cost of developing and maintaining style sheets</li>
+   <li>Content developers who want their DITA content to be subsumed by a product documentation set
+    that is based on Markdown or HTML5</li>
+  </ul>
+ </conbody>
+</concept>

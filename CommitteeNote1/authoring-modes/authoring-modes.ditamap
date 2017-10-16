@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Authoring modes</title>
+ <topicref href="authoring-modes.dita">
+  <mapref keyref="xdita-map"/>
+  <mapref keyref="hdita-map"/>
+  <mapref keyref="mdita-map"/>
+  <mapref keyref="crossformat-map"/>
+ </topicref>
+</map>

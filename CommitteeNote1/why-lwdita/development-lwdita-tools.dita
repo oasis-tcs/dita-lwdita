@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="development-lwdita-tools">
+ <title>Development of LwDITA tools and applications</title>
+ <shortdesc><ph rev="review-1">The DITA Technical Committee hopes</ph> that LwDITA will make it easier for companies to
+  develop inexpensive tools for authoring, aggregating, and publishing LwDITA content.</shortdesc>
+ <conbody>
+  <p>DITA 1.3, with its many elements and advanced features, makes it difficult for companies to
+   implement new authoring and publishing systems. In contrast, the simplified and predictable
+   structure of LwDITA ought to remove many of the barriers that stand in the way of the development
+   of new tools, both commercial and open-source.</p>
+ </conbody>
+</concept>

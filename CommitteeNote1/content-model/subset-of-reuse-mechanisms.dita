@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="subset-of-reuse-mechanisms">
+ <title>Subset of reuse mechanisms</title>
+ <shortdesc>LwDITA <ph rev="review-2">offers a subset of the reuse mechanisms available in DITA 1.3.</ph></shortdesc>
+ <conbody>
+  <dl>
+   <dlentry>
+    <dt>Conditional processing</dt>
+    <dd>The only conditional processing attributes are <xmlatt>props</xmlatt> (in XDITA) or <ph
+      rev="review-1"><xmlatt>data-props</xmlatt></ph> (in HDITA and MDITA extended profile).</dd>
+   </dlentry>
+   <dlentry>
+    <dt>Content reference</dt>
+    <dd>
+     <p>The <xmlatt>conref</xmlatt> (in XDITA) or <ph rev="review-1"><xmlatt>data-conref</xmlatt></ph> (in HDITA and MDITA
+      extended profile) attribute is available on the following elements:</p>
+     <ul>
+      <li>Audio</li>
+      <li>Definition description</li>
+      <li>Definition list
+      </li>
+      <li>Definition list entry</li>
+      <li>Definition term</li>
+      <li>Footnote</li>
+      <li>List item</li>
+      <li>Note</li>
+      <li>Ordered list</li>
+      <li>Paragraph</li>
+      <li>Preformatted text</li>
+      <li>Section</li>
+      <li>Simple table</li>
+      <li>Simple table entry</li>
+      <li>Simple table header</li>
+      <li>Simple table row</li>
+      <li>Unordered list</li>
+      <li>Video</li>
+     </ul>
+     <p>The content reference mechanism is not available in the MDITA core profile.</p>
+   
+    </dd>
+   </dlentry>
+   <dlentry>
+    <dt>Key reference</dt>
+    <dd>The <xmlatt>keyref</xmlatt> (in XDITA) or <ph rev="review-1"
+     ><xmlatt>data-keyref</xmlatt> (in HDITA) or <codeph>[keyref]</codeph> (in MDITA extended profile) attribute can be used
+     on the phrase (XDITA) or span (HDITA) element. It is also available on links, alternative text, and data
+     elements.</ph> </dd>
+   </dlentry>
+   
+   <dlentry>
+    <dt>Linking</dt>
+    <dd>The URI-based and indirect key-based addressing mechanisms from DITA 1.3 are available in
+     LwDITA. </dd>
+   </dlentry>
+   
+   <dlentry>
+    <dt>Variable text</dt>
+    <dd>For variable text, such as product names, authors can use <xmlatt>keyref</xmlatt> on phrase (XDITA)
+     or span (HDITA).</dd>
+   </dlentry>
+   
+   
+  </dl>
+
+  <p>This design simplifies the DITA authoring experience, as there are no choices to be made. To
+    reuse block-level content, authors will use <xmlatt>conref</xmlatt>. For phrase-level content, authors will use
+    <xmlatt>keyref</xmlatt>.</p>
+   <p id="attsappendix">For a complete list of the DITA 1.3 attributes that are included in LwDITA,
+      see <xref href="../elements-and-attributes/lwdita-attributes.dita"/>.</p>
+ </conbody>
+</concept>

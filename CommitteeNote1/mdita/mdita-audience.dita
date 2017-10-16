@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="mdita-audience">
+ <title>Audience for MDITA</title>
+  <shortdesc>MDITA is designed <ph rev="review-2">for users who want to write structured content</ph> with
+    the minimum of overhead, but who also want to take advantage of the reuse mechanisms associated
+    with the DITA standard and the multi-channel publishing afforded by standard DITA
+    tooling.</shortdesc>
+ <conbody>
+  
+  <p>Potential users of the MDITA core profile include the following:</p>
+  <ul>
+   <li>Software developers who want to contribute to DITA-based product documentation without using
+    an XML editor</li>
+   <li>Software developers who want to contribute to product documentation using the tools and
+    markup of their choice</li>
+    <li><ph rev="review-1">Developers and writers in charge of documenting application programming
+          interfaces (APIs) that need to share content with technical publications</ph></li>
+   <li>Individuals authoring content using a platform, such as a mobile device, that does not
+    support an XML editor</li>
+   <li>Individuals authoring content quickly that must be later refactored as structured
+        content</li>
+    <li><ph rev="review-2">Non-English-speaking authors who want to take advantage of DITA reuse and publishing without depending on XML tags written in English</ph></li>
+  </ul>
+  <p>Potential users of the MDITA extended profile include the following:<ul>
+        <li>Content curators who receive occasional contributions from developers written in
+          Markdown</li>
+        <li>Technical editors who need to incorporate Markdown files in DITA or XDITA topic
+          collections </li>
+        <li>Content developers familiar with DITA or XDITA who want to use Markdown as an authoring
+          language on devices that do not support XML editors</li>
+      </ul></p>
+ </conbody>
+</concept>

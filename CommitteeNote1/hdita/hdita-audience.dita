@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="hdita-audience">
+ <title>Audience for HDITA</title>
+ <shortdesc>HDITA is designed for <ph rev="review-2">users who want to use HTML-authoring tools to write structured content.</ph></shortdesc>
+ <conbody>
+  <p>Potential users of HDITA include the following:</p>
+  <ul>
+   <li>Marketing writers who want to contribute to DITA-based product documentation without using an
+    XML editor</li>
+   <li>Software developers who want to contribute to documentation <ph rev="review-2">using HTML-authoring tools</ph></li>
+   <li>Teachers and trainers who want to create course content for a Web site or learning management
+    system (LMS)</li>
+   <li>Bloggers and content strategists who want to be able to create and edit content using mobile
+    devices</li>
+   <li><ph rev="review-2">Authors who want to write content for the Web that does not require a transformation process</ph></li>
+   <li><ph rev="review-1">Non-English-speaking content creators who are comfortable with HTML5 semantic elements</ph></li>
+  </ul>
+ </conbody>
+</concept>

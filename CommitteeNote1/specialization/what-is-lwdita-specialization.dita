@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what-is-lwdita-specialization">
+ <title>LwDITA specialization model</title>
+ <shortdesc>Specialization is a unique and powerful feature of the DITA standard. However,
+  specialization can be intimidating for casual DITA users. LwDITA aims to simplify specialization
+  by introducing a template-based model for creating new element, attribute, and topic
+  types.</shortdesc>
+ <conbody>
+  <draft-comment author="Kristen J Eberlein" time="1 December 2016">
+   <p>This topic (or set of topics) needs to cover the following:</p>
+   <ul>
+    <li>Description of the template-based specialization mechanism</li>
+    <li>Acknowledgement? Coverage? of the attributes added to LwDITA to enable the template-based
+     specialization mechanism</li>
+    <li>Example of a (simple) LwDITA topic that would be input to a tool that generates the
+     specialization</li>
+    <li>Example of the generated grammar file</li>
+    <li>A general description of the algorithm that a tool uses to construct the grammar file for
+     the specialization. <note type="important">The actual LwDITA spec will require a algorithm that
+      is sufficiently precise that an implementer can build a conforming application using ONLY the
+      content of the LwDITA specification.</note></li>
+   </ul>
+  </draft-comment>
+   
+<draft-comment author="carloseviapuerto" time="30 January 2017">The following text came from Mark G and Michael P, with some edits of mine for consistency in note's tone and voice.</draft-comment>
+   
+<p>LwDITA, through its three authoring formats, simplifies the authoring experience and reduces the dependence on XML structures and processes. As a LwDITA author embraces the core benefits of DITA, considering element and topic specialization would be a logical next step. However, the specialization recommended in DITA 1.3 would represent an unnecessary barrier for an author who came to DITA through LwDITA's simplified authoring formats. LwDITA is not just about
+   creating simple formats that will feed into an existing full DITA implementation. LwDITA also
+   helps to simplify DITA's specialization feature. To this effect, LwDITA introduces a
+   small number of new elements and attributes that enable a simplified method for specialization.
+   This is the best way to promote a lightweight specialization mechanism, and help promote LwDITA
+   itself.</p>
+   
+<draft-comment author="carloseviapuerto">From Mark to consider later: Because LwDITA is a standard that spans multiple formats, coordination of the same specialization
+   across formats poses some unique challenges compared to full DITA. While they could be manually
+   coordinated and synchronized, there are clear advantages to a more centralized approach that uses
+   a common template in which a common type definition can be designed and maintained for
+   application to all formats in use by a project. The template can centralize and coordinate not
+   only the core structural elements of the content type, but related content such as the headers
+   for specialized sections, documentation for users, and even authoring prompts for use in editing
+   software. The template becomes a single source for many of the assets that need to be maintained
+   in common for a content type, not only within a single format but across multiple formats.</draft-comment>
+   
+<p>Not all LwDITA formats will support specialization to the same degree: for example, XDITA and
+   HDITA can easily express specialized relationships for any content element using attributes.
+   However, because Markdown has no tags, it cannot always reliably assign attributes to particular
+   elements within a piece of content: so specialization within MDITA may be limited to a subset of
+   use cases (for example, section-level specialization) using HDITA syntax.</p>
+  
+  <p id="elementsappendix">For a complete list of LwDITA's new elements and attributes that enable the template-based specialization mechanism,  see <xref
+   href="../content-model/new-attributes.dita"/>.</p>
+  
+
+ </conbody>
+</concept>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="simplified-specialization-mechanism">
+ <title>Simplified specialization mechanism</title>
+ <shortdesc>DITA specialization is a powerful feature that can be intimidating for authors without XML proficiency. LwDITA provides a simplified template-based alternative.</shortdesc>
+ <conbody>
+  <p>The specialization feature of DITA allows for the creation of new element types and attributes that are explicitly and formally derived from existing types. Specialization is probably the main distinguishing feature of DITA. It is a machine-readable extension mechanism that allows great flexibility while still keeping specialized elements and topics as valid DITA. Specialization is a unique DITA feature (unavailable in XML-based structured languages such as DocBook, S1000D, etc.). Nevertheless, many who are now using DITA do not take advantage of specialization. The perceived complexity of specialization is much of the reason for this.</p>
+  <p>LwDITA introduces a template-based specialization mechanism that allows authors who are not advanced XML users or do not want to specialize information types following DITA 1.3's recommendations, to create elements and topics unique to their work requirements that would still be compatible with DITA and LwDITA. Using a handful of new LwDITA elements and attributes, authors can generate specialized topic types ready to structure content in XDITA and HDITA (because Markdown has no tags, specialization in MDITA will be limited to a subset of use cases based on HDITA syntax.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="xdita-example">
+ <title>Example of an XDITA topic</title>
+ <shortdesc>The following topic is authored in XDITA. In addition to basic DITA elements, note
+   the new <xmlelement>video</xmlelement> element that is  highlighted in bold.</shortdesc>
+ <conbody>
+    <codeblock>&lt;topic id="install-and-setup">
+  &lt;title>Installing and Setting up Remote Lighting&lt;/title>
+  &lt;shortdesc>Installation of your lighting kit includes installing the light bulbs into  light fixtures, preparing the remote control, and programming lighting groups.
+  &lt;/shortdesc>
+  &lt;prolog>
+    &lt;data name="author" value="Kevin Lewis"/>
+  &lt;/prolog>
+  &lt;body>
+   &lt;section>
+    &lt;title>Steps&lt;/title>
+    &lt;ul>
+      &lt;li>&lt;p>Install light bulbs.&lt;/p>&lt;/li>
+      &lt;li>&lt;p>Prepare remote control.&lt;/p>&lt;/li>
+      &lt;li>&lt;p>Program lighting groups.&lt;/p>&lt;/li>
+    &lt;/ul>
+  &lt;/section> 
+  &lt;section>
+    &lt;title>Example&lt;/title>
+    &lt;p>The following video demonstrates a recommended installation:&lt;/p>
+    <b><ph rev="review-2">&lt;video></ph>
+     <ph rev="review-1"> &lt;media-controls />
+      &lt;video-poster value="remote-poster.jpg" />
+      &lt;media-source value="remote.mp4" />
+    &lt;/video></ph></b>
+  &lt;/section>
+  &lt;/body>
+&lt;/topic>
+</codeblock>
+   <p>XDITA topics are fully compatible with DITA topics. An author can work on an XDITA topic and
+      keep it in a collection of LwDITA topics, but that same topic will also be compatible with
+      maps and topics authored in DITA 1.3.</p>
+  </conbody>
+ 
+</concept>

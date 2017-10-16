@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="non-normative-references">
+ <title>References</title>
+ <shortdesc>The following are references to external documents or resources that readers of this
+  document might find useful.</shortdesc>
+ <conbody>
+  <dl>
+ 
+  
+   <dlentry><dt>[GFM]</dt><dd><cite>GitHub Flavored Markdown Spec</cite>. <xref href="https://github.github.com/gfm/"
+      format="html" scope="external">https://github.github.com/gfm/</xref>. </dd></dlentry>
+  
+   <dlentry><dt>[HTML5]</dt><dd><cite>HTML5 W3C Recommendation</cite>. Edited by Ian Hickson, Robin Berjon, Steve Faulkner, Travis Leithead, Erika Doyle Navara, Edward O'Connor, and Silvia Pfeiffer. 28 October 2014. <xref href="http://www.w3.org/TR/2014/REC-html5-20141028/" format="html" scope="external">http://www.w3.org/TR/2014/REC-html5-20141028/</xref>. Latest version: <xref href="http://www.w3.org/TR/html5/" format="html" scope="external">http://www.w3.org/TR/html5/</xref>.</dd></dlentry>
+   <dlentry>
+    <dt>[LwDITA-cross-format-content]</dt>
+    <dd><cite>Cross-format content with Lightweight DITA</cite>. Session by Michael Priestley,
+     Jenifer Schlotfeldt, and Carlos Evia. Session at CMS/DITA North America 2016. Latest version:
+      <xref
+      href="http://www.slideshare.net/mpriestley/crossformat-content-with-lightweight-dita?qid=802e7d40-7bbf-42ba-8aca-a446cdb78ce5&amp;v=&amp;b=&amp;from_search=6"
+      format="html" scope="external"/>.</dd>
+   </dlentry>
+   <dlentry>
+    <dt><ph rev="review-1">[LwDITA-Easy-Way]</ph></dt>
+    <dd><ph rev="review-1"><cite>Authoring Standards-Based Intelligent Content the Easy Way with Lightweight
+     DITA</cite>. Authored by Carlos Evia. <cite> Proceedings of the 35th ACM International
+      Conference on the Design of Communication</cite> (August 2017). <xref
+       href="http://dl.acm.org/citation.cfm?id=3121204&amp;CFID=798954910&amp;CFTOKEN=16471615"
+       format="html" scope="external"/>. </ph></dd>
+   </dlentry>
+   <dlentry>
+    <dt>[LwDITA-pre/overview]</dt>
+    <dd><cite>Lightweight DITA: A pre/overview</cite>. Session by Michael Priestley at CMS/DITA
+     North America 2016. Latest version: <xref
+      href="http://www.slideshare.net/mpriestley/lightweight-dita-a-preoverview?qid=b2aade0d-6c48-4ca7-b572-f69ff3f9467f&amp;v=&amp;b=&amp;from_search=3"
+      format="html" scope="external"/></dd>
+   </dlentry>
+   <dlentry>
+    <dt>[LwDITA-overview]</dt>
+    <dd><cite>Overview of Lightweight DITA</cite>. Blog post by Michael Priestley. 11 April 2014.
+     Latest version: <xref
+      href="http://dita.xml.org/blog/overview-of-lightweight-dita-xdita-and-hdita" format="html"
+      scope="external"/></dd>
+   </dlentry>
+   
+   <dlentry>
+    <dt>[LwDITA-IXIASOFT]</dt>
+    <dd><cite>Lightweight DITA: What Is It and Can I Use It in the IXIASOFT DITA CMS?</cite>
+     Authored by Leigh W. White. 28 November 2016. Latest version:  <xref
+      href="http://www.ixiasoft.com/en/news-and-events/blog/2016/lightweight-dita-what-it-and-can-i-use-it-ixiasoft-dita-cms/"
+      format="html" scope="external"/>.</dd>
+   </dlentry>
+   <dlentry>
+    <dt>[Markingdown-DITA]</dt>
+    <dd><cite>Marking Down DITA</cite>. Authored by Roger Fienhold Sheen. 30 April 2015. Latest
+     version: <xref href="http://infotexture.net/2015/04/dita-ot-markdown-plugin/" format="html"
+      scope="external"/>.</dd>
+   </dlentry>
+   <dlentry>
+    <dt>[Structured-Authoring-wo-XML]</dt>
+    <dd><cite>Structured Authoring without XML: Evaluating Lightweight DITA for Technical Documentation</cite> Authored by Carlos Evia and Michael
+     Priestley. <cite>Technical Communication</cite>, volume 63, number 1 (February 2016):
+     23-37.<xref href="http://www.ingentaconnect.com/contentone/stc/tc/2016/00000063/00000001/art00004" format="html" scope="external"/>.</dd>
+   </dlentry>
+   
+   <dlentry><dt>[YAML]</dt><dd><cite>YAML Specification Index</cite>. Edited by Oren Ben-Kiki, Clark Evans, Ingy döt Net. 29 September 2009. <xref href="http://yaml.org/spec//" format="html" scope="external">http://yaml.org/spec/</xref>. Latest version: <xref href="http://yaml.org/spec/1.2/spec.html" format="html" scope="external">http://yaml.org/spec/1.2/spec.html</xref>.</dd></dlentry>
+   
+  
+  </dl>
+  
+  
+  
+  
+ </conbody>
+</concept>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="introduction">
+ <title>Introduction</title>
+  <shortdesc>Lightweight DITA (LwDITA) is a simplified version of the Darwin Information Typing
+  Architecture (DITA). In comparison to
+  DITA 1.3, LwDITA has a <ph rev="review-2">smaller</ph> element and attribute set, stricter content models, and <ph rev="review-1">a reduced feature set</ph>. LwDITA also <ph rev="review-2">defines</ph> mappings between XML, HTML5, and Markdown, enabling authoring,
+  collaboration, and publishing across different markup languages.</shortdesc>
+ <conbody>
+  <p>This committee note covers the following points:</p>
+  <ul>
+   <li>Rationale for LwDITA</li>
+   <li>Design of LwDITA</li>
+   <li>Authoring formats in LwDITA</li>
+   <li>Potential audiences for LwDITA</li>
+   <li>Cross-format authoring and publishing</li>
+   <li>Current LwDITA tools</li>
+  </ul>
+ </conbody>
+</concept>

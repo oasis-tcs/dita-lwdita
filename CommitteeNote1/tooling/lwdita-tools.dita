@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="lwdita-tools">
+ <title>LwDITA tools</title>
+ <shortdesc><ph rev="review-1">Although many of the LwDITA elements and workflows proposed in this document are still experimental,</ph> tools already exist to support organizations who want to explore using
+    LwDITA.</shortdesc>
+ <conbody>
+    <dl>
+      <dlentry>
+        <dt><ph rev="review-1">DITA Open Toolkit, versions 2.5.1 and later</ph></dt>
+        <dd><ph rev="review-1">The DITA Open Toolkit can be used with the DTD files produced by the
+            Lightweight DITA subcommittee to author and process XDITA topics and maps.</ph></dd>
+      </dlentry>
+      <dlentry>
+        <dt><ph rev="review-2">Lightweight DITA for DITA-OT</ph> plug-in developed and maintained by Jarno Elovirta</dt>
+        <dd>
+          <p>This plug-in contains the following features:</p>
+          <ul>
+            <li>A custom Markdown <ph rev="review-2">and HTML parser that enables the use of some MDITA and HDITA features</ph> with <ph rev="review-1">the</ph> DITA-OT</li>
+            <li>A DITA-OT transformation type that generates Markdown from DITA source files</li>
+          </ul>
+          <p><ph rev="review-2">The plug-in is available at <xref href="https://github.com/jelovirt/com.elovirta.lwdita"
+              format="html" scope="external"/>. </ph>It is licensed for use under the Apache License 2.0
+            and can be used with DITA-OT, version 2.1 and later.</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>oXygen XML Editor, versions 18.1 and later</dt>
+        <dd>
+          <p>Oxygen XML Editor includes features that enable content developers to integrate
+            Markdown documents in a DITA project. The integration between the Markdown editor and
+            DITA includes actions to export or convert Markdown documents to DITA topics; a preview
+            of how topics will look after conversion is also available. In addition, the DITA Maps
+            Manager view also enables content developer<ph rev="review-1">s</ph> to reference Markdown topics in a DITA map.
+            Oxygen XML Editor also includes support and authoring templates for topic and map in
+            XDITA by incorporating the DTD files produced by the Lightweight DITA subcommittee. </p>
+        </dd>
+      </dlentry>
+    </dl>
+    <!--<draft-comment><p>Other tooling:</p><ul><li>Tool in-progress by Tim Grantham for the Lightweight DITA subcommittee</li><li>CitecFemton</li><li>DoX CMS</li></ul></draft-comment>-->
+  <p>The DITA Technical Committee expects that the release of Lightweight DITA as an OASIS standard
+      will lead to a rapid increase in the number of commercial and open-source tools that provide
+      support for LwDITA.</p>
+  
+ </conbody>
+</concept>

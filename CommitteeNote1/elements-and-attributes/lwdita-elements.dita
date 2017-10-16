@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_ig4_cfb_dy">
+ <title>DITA 1.3 elements in LwDITA</title>
+ <shortdesc>This topic lists the DITA 1.3 elements that are available in LwDITA. It also lists how
+  to represent them in XDITA, HDITA, and MDITA.</shortdesc>
+ <conbody>
+  
+  <simpletable frame="all" relcolwidth="1.0* .75* 1.0* 1.0*">
+   <sthead>
+    <stentry>Component</stentry>
+    <stentry>XDITA</stentry>
+    <stentry>HDITA</stentry>
+    <stentry>MDITA</stentry>
+   </sthead>
+   <strow>
+    <stentry>Alternate text</stentry>
+    <stentry><xmlelement>alt</xmlelement></stentry>
+    <stentry>Attribute on <xmlelement>img</xmlelement></stentry>
+    <stentry>[text]</stentry>
+   </strow>
+   <strow>
+    <stentry>Body</stentry>
+    <stentry><xmlelement>body</xmlelement></stentry>
+    <stentry><xmlelement>body</xmlelement></stentry>
+    <stentry>No explicit markup</stentry>
+   </strow>
+   <strow>
+    <stentry>Bold</stentry>
+    <stentry><xmlelement>b</xmlelement></stentry>
+    <stentry><xmlelement>strong</xmlelement></stentry>
+    <stentry>** or __</stentry>
+   </strow>
+   <strow>
+    <stentry>Cross reference</stentry>
+    <stentry><xmlelement>xref</xmlelement></stentry>
+    <stentry><xmlelement>a href</xmlelement></stentry>
+    <stentry>[link](/URI "title")</stentry>
+   </strow>
+   <strow>
+    <stentry>Data</stentry>
+    <stentry><xmlelement>data</xmlelement></stentry>
+    <stentry><xmlelement>meta</xmlelement></stentry>
+    <stentry><b>(MDITA extended profile)</b> Any variables declared in a YAML front matter header.
+     The front matter must be the first block in the file and must be set between triple-dashed
+     lines. </stentry>
+   </strow>
+   <strow>
+    <stentry>Definition description</stentry>
+    <stentry><xmlelement>dd</xmlelement></stentry>
+    <stentry><xmlelement>dd</xmlelement></stentry>
+    <stentry><b>(MDITA extended profile)</b> <xmlelement>dd</xmlelement> in HDITA syntax </stentry>
+   </strow>
+   <strow>
+    <stentry>Definition list entry</stentry>
+    <stentry><xmlelement>dlentry</xmlelement></stentry>
+    <stentry><ph rev="review-1">Possible with a combination of data attributes</ph><fn><ph rev="review-1">Although the XDITA element <xmlelement>dlentry</xmlelement> cannot be mapped directly to HTML5, an author can preserve the structure and attributes of a definition list in HDITA and MDITA with custom data attributes</ph></fn></stentry>
+    <stentry><ph rev="review-1"><b>(MDITA extended profile)</b> Possible with a combination of data
+      attributes</ph></stentry>
+   </strow>
+   <strow>
+    <stentry>Definition term</stentry>
+    <stentry><xmlelement>dt</xmlelement></stentry>
+    <stentry><xmlelement>dt</xmlelement></stentry>
+    <stentry><b>(MDITA extended profile)</b> <xmlelement>dt</xmlelement> in HDITA syntax </stentry>
+   </strow>
+   <strow>
+    <stentry>Definition list</stentry>
+    <stentry><xmlelement>dl</xmlelement></stentry>
+    <stentry><xmlelement>dl</xmlelement></stentry>
+    <stentry><b>(MDITA extended profile)</b> <xmlelement>dl</xmlelement> in HDITA syntax </stentry>
+   </strow>
+   <strow>
+    <stentry>Description</stentry>
+    <stentry><xmlelement>desc</xmlelement></stentry>
+    <stentry><xmlelement>caption</xmlelement> in <xmlelement>table</xmlelement>;
+      <xmlelement>figcaption</xmlelement> in <xmlelement>figure</xmlelement>; not applicable in
+     links</stentry>
+    <stentry>Not applicable</stentry>
+   </strow>
+   <strow>
+    <stentry>Figure</stentry>
+    <stentry><xmlelement>fig</xmlelement></stentry>
+    <stentry><xmlelement>figure</xmlelement></stentry>
+    <stentry>Not applicable</stentry>
+   </strow>
+   <strow>
+    <stentry>Footnote</stentry>
+    <stentry><xmlelement>fn</xmlelement></stentry>
+    <stentry><ph rev="review-1"><xmlelement>span class="fn"</xmlelement></ph></stentry>
+    <stentry><b>(MDITA extended profile)</b> <ph rev="review-1"><xmlelement>span
+       class="fn"</xmlelement></ph></stentry>
+   </strow>
+   <strow>
+    <stentry>Image</stentry>
+    <stentry><xmlelement>image</xmlelement></stentry>
+    <stentry><xmlelement>img</xmlelement></stentry>
+    <stentry>![alt text for an image](images/image_name.jpg)</stentry>
+   </strow>
+   <strow>
+    <stentry>Italics</stentry>
+    <stentry><xmlelement>i</xmlelement></stentry>
+    <stentry><xmlelement>em</xmlelement></stentry>
+    <stentry>* or _</stentry>
+   </strow>
+   <strow>
+    <stentry>Key definition</stentry>
+    <stentry><xmlelement>keydef</xmlelement></stentry>
+    <stentry><ph rev="review-1"><xmlelement>div data-class="keydef"</xmlelement></ph></stentry>
+    <stentry><b>MDITA (extended profile)</b> 
+     <ph rev="review-1"><xmlelement>div data-class="keydef"</xmlelement> in HDITA syntax</ph></stentry>
+   </strow>
+   <strow>
+    <stentry>Link text</stentry>
+    <stentry><xmlelement>linktext</xmlelement></stentry>
+    <stentry><ph rev="review-1"><xmlelement>var data-class="linktext"</xmlelement></ph></stentry>
+    <stentry><b>MDITA (extended profile)</b> 
+     <ph rev="review-1"><xmlelement>var data-class="linktext"</xmlelement></ph></stentry>
+   </strow>
+   <strow>
+    <stentry>List item</stentry>
+    <stentry><xmlelement>li</xmlelement></stentry>
+    <stentry><xmlelement>li</xmlelement></stentry>
+    <stentry>' -, +, or * for ul, and 0-9 and . or ) for ol</stentry>
+   </strow>
+   <strow>
+    <stentry>Map</stentry>
+    <stentry><xmlelement>map</xmlelement></stentry>
+    <stentry><xmlelement>nav</xmlelement></stentry>
+    <stentry>See <xref href="../mdita/mdita-map-example.dita"></xref></stentry>
+   </strow>
+   <strow>
+    <stentry>Note</stentry>
+    <stentry><xmlelement>note</xmlelement></stentry>
+    <stentry><ph rev="review-1"><xmlelement>div data-class="note"</xmlelement></ph></stentry>
+    <stentry><b>(MDITA extended profile)</b> <ph rev="review-1"><xmlelement>div data-class="note"</xmlelement> in HDITA syntax</ph> </stentry>
+   </strow>
+   <strow>
+    <stentry>Ordered list</stentry>
+    <stentry><xmlelement>ol</xmlelement></stentry>
+    <stentry><xmlelement>ol</xmlelement></stentry>
+    <stentry>See list item</stentry>
+   </strow>
+   <strow>
+    <stentry>Paragraph</stentry>
+    <stentry><xmlelement>p</xmlelement></stentry>
+    <stentry><xmlelement>p</xmlelement></stentry>
+    <stentry>Two carriage returns</stentry>
+   </strow>
+   <strow>
+    <stentry>Navigation title</stentry>
+    <stentry><xmlelement>navtitle</xmlelement></stentry>
+    <stentry>Not applicable</stentry>
+    <stentry>Not applicable</stentry>
+   </strow>
+   <strow>
+    <stentry>Phrase</stentry>
+    <stentry><xmlelement>ph</xmlelement></stentry>
+    <stentry><xmlelement>span</xmlelement></stentry>
+    <stentry><b>(MDITA extended profile)</b> <xmlelement>span</xmlelement> in HDITA syntax </stentry>
+   </strow>
+   <strow>
+    <stentry>Preformatted text</stentry>
+    <stentry><xmlelement>pre</xmlelement></stentry>
+    <stentry><xmlelement>pre</xmlelement></stentry>
+    <stentry>Fenced code blocks (e.g. ```text```)<ph rev="review-1"> or indented code blocks (e.g.     text)</ph></stentry>
+   </strow>
+   <strow>
+    <stentry>Prolog</stentry>
+    <stentry><xmlelement>prolog</xmlelement></stentry>
+    <stentry><xmlelement>meta</xmlelement> inside <xmlelement>head</xmlelement></stentry>
+    <stentry>Provided in YAML header</stentry>
+   </strow>
+   <strow>
+    <stentry>Section</stentry>
+    <stentry><xmlelement>section</xmlelement></stentry>
+    <stentry><xmlelement>section</xmlelement></stentry>
+    <stentry>## or ----- underline</stentry>
+   </strow>
+   <strow>
+    <stentry>Short description</stentry>
+    <stentry><xmlelement>shortdesc</xmlelement></stentry>
+    <stentry>Implied in first paragraph</stentry>
+    <stentry>Implied in first paragraph</stentry>
+   </strow>
+   <strow>
+    <stentry>Table</stentry>
+    <stentry><xmlelement>simpletable</xmlelement></stentry>
+    <stentry><xmlelement>table</xmlelement></stentry>
+    <stentry>Tables in MDITA follow the GitHub Flavored Markdown syntax. See section 4.10 of the GFM
+     spec</stentry>
+   </strow>
+   <strow>
+    <stentry>Simple table entry</stentry>
+    <stentry><xmlelement>stentry</xmlelement></stentry>
+    <stentry><xmlelement>th</xmlelement> for headers and <xmlelement>td</xmlelement> for normal
+     entries</stentry>
+    <stentry>See Table</stentry>
+   </strow>
+   <strow>
+    <stentry>Simple table header</stentry>
+    <stentry><xmlelement>sthead</xmlelement></stentry>
+    <stentry><xmlelement>tr</xmlelement></stentry>
+    <stentry>See Table</stentry>
+   </strow>
+   <strow>
+    <stentry>Simple table row</stentry>
+    <stentry><xmlelement>strow</xmlelement></stentry>
+    <stentry><xmlelement>tr</xmlelement></stentry>
+    <stentry>See Table</stentry>
+   </strow>
+   <strow>
+    <stentry>Subscript</stentry>
+    <stentry><xmlelement>sub</xmlelement></stentry>
+    <stentry><xmlelement>sub</xmlelement></stentry>
+    <stentry><b>(MDITA extended profile)</b> <xmlelement>sub</xmlelement> in HDITA syntax </stentry>
+   </strow>
+   <strow>
+    <stentry>Superscript</stentry>
+    <stentry><xmlelement>sup</xmlelement></stentry>
+    <stentry><xmlelement>sup</xmlelement></stentry>
+    <stentry><b>(MDITA extended profile)</b> <xmlelement>sup</xmlelement> in HDITA syntax </stentry>
+   </strow>
+   <strow>
+    <stentry>Title</stentry>
+    <stentry><xmlelement>title</xmlelement></stentry>
+    <stentry>
+     <lines><xmlelement>h1</xmlelement> <ph rev="review-1">and <xmlelement>title</xmlelement></ph> for topic<fn><ph rev="review-1">In order to generate valid DITA XML and HTML5, the XDITA element <xmlelement>title</xmlelement> should map to both <xmlelement>title</xmlelement> and <xmlelement>h1</xmlelement> in HDITA.</ph></fn>
+<xmlelement>h2</xmlelement> for section </lines>
+    </stentry>
+    <stentry>
+     <lines>#  or === underline for topic
+##  or ----- underline for section</lines>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>Topic</stentry>
+    <stentry><xmlelement>topic</xmlelement></stentry>
+    <stentry><xmlelement>article</xmlelement></stentry>
+    <stentry>No explicit markup</stentry>
+   </strow>
+   <strow>
+    <stentry>Topic metadata</stentry>
+    <stentry><xmlelement>topicmeta</xmlelement></stentry>
+    <stentry>Not applicable</stentry>
+    <stentry>Not applicable</stentry>
+   </strow>
+   <strow>
+    <stentry>Topic reference</stentry>
+    <stentry><xmlelement>topicref</xmlelement></stentry>
+    <stentry><xmlelement>a href</xmlelement> inside a <xmlelement>li</xmlelement></stentry>
+    <stentry>[link](/URI "title") inside a list item</stentry>
+   </strow>
+   <strow>
+    <stentry>Underline</stentry>
+    <stentry><xmlelement>u</xmlelement></stentry>
+    <stentry><ph rev="review-1"><xmlelement>u</xmlelement></ph></stentry>
+    <stentry>Not applicable</stentry>
+   </strow>
+   <strow>
+    <stentry>Unordered list</stentry>
+    <stentry><xmlelement>ul</xmlelement></stentry>
+    <stentry><xmlelement>ul</xmlelement></stentry>
+    <stentry>See List item</stentry>
+   </strow>
+  </simpletable>
+  <note type="note"><ph rev="review-1">HDITA is a subset of HTML5 conforming with the W3C HTML
+    standard, and MDITA aligns with the Github Flavored Markdown specification. Instances of valid
+    HTML5 syntax and Markdown practices allowed in other flavors outside the proposed LwDITA
+    elements can be supported by vendors at their discretion. Those syntax components would be
+    handled differently by vendors and might not work across all LwDITA implementations.</ph></note>
+ </conbody>
+</concept>

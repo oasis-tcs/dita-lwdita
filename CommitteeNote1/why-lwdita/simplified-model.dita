@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="simplified-model">
+ <title>Simplified structure</title>
+ <shortdesc>DITA 1.3 has more power (and thus complexity) than is needed in some <ph rev="review-1">authoring</ph> situations. LwDITA
+  provides a simpler alternative.</shortdesc>
+ <conbody>
+  <p>While LwDITA supports core features in the DITA standard – semantic tagging, topic orientation,
+   content reuse, conditional processing, and specialization – LwDITA deliberately limits itself to
+   generic structures that are highly applicable across many industries. This results in a much
+   smaller standard in terms of elements, attributes, features, and complexity.</p>
+  <p>Conference presentations and practitioners' blogs occasionally describe DITA as an intimidating
+   language with too many document and element types. In the base edition, DITA 1.3 has three
+   document types and 189 element types. In contrast, LwDITA has two document types and <ph rev="review-1">48</ph> elements.
+   <ph rev="review-1">39</ph> of the elements are defined in DITA 1.3, <ph rev="review-2">and the other 9 are multimedia elements that are part of a forthcoming domain intended for use with DITA 1.3.</ph></p>
+  <p>This pragmatic design has benefits for both small and large projects, as well as new and
+   existing DITA implementations. Compared to DITA 1.3, the learning curve for LwDITA will be
+   shorter, and implementing LwDITA might involve less change management and, as a result, lower
+   costs.</p>
+  <!--<p>Although the many features and strengths of DITA 1.3 are undoubtedly useful for large content collections and environments that require multiple deliverables in many platforms for diverse audiences, this comes with the added cost of complexity. LwDITA seeks to address this complexity, and it helps overcome some of the barriers to adoption that are faced by DITA 1.3.</p>-->
+  <!-- <p>LwDITA's core design principle is that a simplified DITA will be an easier entry point to DITA
+   for both authors and vendors building commercial tools and applications.</p> -->
+  
+  
+  
+ </conbody>
+</concept>

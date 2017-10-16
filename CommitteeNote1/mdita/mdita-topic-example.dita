@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="mdita-example">
+ <title>Examples of MDITA topics</title>
+ <shortdesc>An MDITA topic is authored in Markdown. MDITA topics can be created using either core or
+    extended profiles.</shortdesc>
+ <conbody>
+    <!--<draft-comment author="Kristen J Eberlein" time="24 November 2016"><p>I commented out the paragraph below. I think the content is now covered in adequately elsewhere – and I think we need to cover the scenarios of building MDITA topics into larger aggregations of content elsewehere.</p></draft-comment>-->
+    <!--<p>In the simplest MDITA workflow, a casual author can create a basic Markdown topic with any number of atx-style headers, paragraphs, and lists and either incorporate it to an existing DITA or LwDITA collection, or create a new collection with MDITA files or a combination of the different LwDITA authoring modes. More advanced authors can add YAML headers for prolog information and raw HTML5 elements from HDITA to take advantage of DITA's content structure and reuse capabilities.</p>-->
+   <section>
+     <title>MDITA core profile</title>
+     
+  
+   
+    <p>The MDITA core profile contains simple information structures that are readily
+      available in Markdown:</p>
+    <ul>
+      <li>Title</li>
+      <li>Paragraph</li>
+      <li>Section title</li>
+      <li>Unordered list</li>
+        <li>Table</li>
+        <li>Code block</li>
+    </ul>
+     <p>The MDITA core profile aligns with the GitHub Flavored Markdown Spec. The following example
+        shows an MDITA core-profile topic:</p>
+<codeblock># Installing and Setting up Remote Lighting
+
+Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.
+
+## Steps
+
+  1. Install light bulbs.
+  2. Prepare remote control.
+  3. Program lighting groups.
+
+## Example
+
+ ![Image](remote.png)</codeblock>
+
+     <p>In an MDITA topic, the required topic <xmlatt>id</xmlatt> attribute is generated with a slug
+        version of the topic title, following a process similar to the WordPress URL creation for
+        posts.</p>
+   </section>
+   <section>
+     <title>MDITA extended profile</title>
+  
+   
+   <p>The MDITA extended profile allows the following elements to enhance interoperability
+        with other LwDITA authoring formats and DITA 1.3:</p>
+    <ul>
+      <li>An optional YAML front matter header. This YAML header can supply a direct value for the
+            <xmlatt>id</xmlatt> attribute that is required on the root element of a DITA topic; it
+          can also include prolog metadata about who authored the DITA topic. If included in a
+          topic, the YAML front matter header must be the first thing in the MDITA file and must be
+          set between triple-dashed lines.</li>
+       <li>Optional raw HDITA attributes and elements. Although MDITA allows for this kind of syntax
+          extension, its validation will depend on specific implementations.</li>
+    </ul>
+      <p>The following example shows an MDITA extended-profile topic with a YAML header indicating
+        its <xmlatt>id</xmlatt> and author, and an HDITA element that enables the topic to reference
+        a video (indicated in bold text.</p>
+<codeblock><b>---
+id: install-and-setup
+author: Kevin Lewis
+---</b>
+
+# Installing and Setting up Remote Lighting
+
+Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.
+
+Before you attempt to install your lighting kit, please turn off the power in your electrical circuit panel,
+
+## Steps
+
+  1. Install light bulbs.
+  2. Prepare remote control.
+  3. Program lighting groups.
+
+## Example
+
+The following video demonstrates a recommended installation:
+
+<b>&lt;video src="remote.mp4" controls poster="remote.png" />
+</b>  </codeblock>
+   <p>MDITA topics are designed as a compatible subset of XDITA and HDITA topics.</p>
+   </section>
+  </conbody>
+</concept>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="example-of-an-xdita-map">
+ <title>Example of an XDITA map</title>
+ <shortdesc>The following  map is authored in XDITA.</shortdesc>
+ <conbody>
+  <codeblock>&lt;map id="remote-main">
+    &lt;topicmeta>
+     &lt;navtitle>Remote Lighting Network&lt;/navtitle>
+    &lt;/topicmeta>
+    &lt;keydef keys="product-name">
+      &lt;topicmeta>
+        &lt;linktext>&lt;ph>Remote Network Lighting&lt;/ph>&lt;/linktext>
+      &lt;/topicmeta>
+    &lt;/keydef>
+    &lt;topicref href="introduction.dita">
+     &lt;topicmeta>
+      &lt;navtitle>Introduction&lt;/navtitle>
+     &lt;/topicmeta>
+    &lt;/topicref>
+    &lt;topicref href="alternatives.dita">
+     &lt;topicmeta>
+      &lt;navtitle>Alternative lighting setups&lt;/navtitle>
+     &lt;/topicmeta>
+     &lt;topicref href="low-power.dita">
+      &lt;topicmeta>
+       &lt;navtitle>Low power installation&lt;/navtitle>
+      &lt;/topicmeta>
+     &lt;/topicref>
+     &lt;topicref href="high-power.dita">
+      &lt;topicmeta>
+       &lt;navtitle>High power installation&lt;/navtitle>
+      &lt;/topicmeta>
+     &lt;/topicref>
+    &lt;/topicref>
+&lt;/map>
+  </codeblock>
+  
+  
+  
+  
+ </conbody>
+ 
+ 
+</concept>

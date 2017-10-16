@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="lwdita-map">
+ <title>LwDITA map</title>
+ <shortdesc>The LwDITA map contains the fundamental structures that are necessary to create a
+  content collection model and establish relationships among resources.</shortdesc>
+ <conbody>
+  <p>A LwDITA map can contain the following structural elements: </p>
+  <dl>
+   <dlentry>
+    <dt>Data</dt>
+    <dd/>
+   </dlentry>
+   <dlentry>
+    <dt>Map</dt>
+    <dd>A map describes the relationships among a set of resources, such as LwDITA and DITA topics</dd>
+   </dlentry>
+   <dlentry>
+    <dt>Navigation title</dt>
+    <dd/>
+   </dlentry>
+   <dlentry>
+    <dt>Topic metadata</dt>
+    <dd/>
+   </dlentry>
+   <dlentry>
+    <dt>Topic reference</dt>
+    <dd/>
+   </dlentry>
+  </dl>
+  <p>A LwDITA map can be represented, with modifications to accommodate different authoring
+   languages, in XDITA, HDITA, and MDITA.</p>
+ </conbody>
+</concept>

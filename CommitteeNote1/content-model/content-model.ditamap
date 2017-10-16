@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>LwDITA design</title>
+ <topicref href="lwdita-design.dita">
+  <topicref href="subset-of-elements-and-attributes.dita"/>
+  <topicref href="subset-of-elements-in-maps.dita"/>
+  <topicref href="stricter-content-model.dita"/>
+  <topicref href="subset-of-reuse-mechanisms.dita"/>
+  <topicref href="new-elements-and-attributes.dita"/>
+  <topicref href="lwdita-specialization.dita" />
+   
+  <!-- <topicref href="new-inline-elements.dita"/>
+   <topicref href="new-attributes.dita"/> 
+  <topicref href="lwdita-content-model.dita">
+   <topicref href="lwdita-topic.dita"/>
+   <topicref href="lwdita-map.dita"/>
+  </topicref>-->
+ </topicref>
+ 
+</map>

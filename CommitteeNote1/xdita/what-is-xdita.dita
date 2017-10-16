@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what-is-xdita">
+ <title>XDITA</title>
+ <shortdesc>XDITA is the authoring format of LwDITA that uses XML to structure information. XDITA is
+  a subset of DITA, with new multimedia elements added to support interoperability with
+  HTML5.</shortdesc>
+</concept>

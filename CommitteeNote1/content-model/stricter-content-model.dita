@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="stricter-content-model">
+ <title>Stricter content model</title>
+ <shortdesc>LwDITA has a much stricter content model than DITA 1.3. This ensures a predictable
+  markup structure in topics that simplifies reuse, transformations, style sheet logic, and tools
+  development. </shortdesc>
+ <conbody>
+  <p>This strict content model minimizes authoring decisions by presenting limited choices for
+   elements and attributes. This model, however, depends on a few strict  rules. For example, in
+   XDITA and HDITA, with a few exceptions, all text must be within paragraph elements. Exceptions
+   are the description, short description, and title elements. Within paragraphs, the following
+   inline elements can appear:</p>
+  <ul>
+   <li>Bold</li>
+   <li>Italics</li>
+   <li>Phrase</li>
+   <li>Superscript</li>
+   <li>Subscript</li>
+   <li>Underline</li>
+  </ul>
+  
+  <p>In DITA 1.3, the following markup is valid:</p>
+  <codeblock>  &lt;section>Compatible light bulbs include the following:
+   &lt;ul>
+    &lt;li>Compact Fluorescent&lt;/li>
+    &lt;li>Light Emitting Diode&lt;/li>
+   &lt;/ul>
+  &lt;/section></codeblock>
+  <p>In contrast, in XDITA the following markup must be used:</p>
+  <codeblock>  &lt;section>
+   &lt;p>Compatible light bulbs include the following:&lt;/p>
+   &lt;ul>
+    &lt;li>
+     &lt;p>Compact Fluorescent&lt;/p>
+    &lt;/li>
+    &lt;li>
+     &lt;p>Light Emitting Diode&lt;/p>
+    &lt;/li>
+   &lt;/ul>
+  &lt;/section></codeblock>
+  <p>Note that all text is wrapped in <xmlelement>p</xmlelement> elements. This restriction of mixed
+   content in block elements simplifies tool development for processing LwDITA content, and it also
+   enables easier content reuse, as authors can <ph rev="review-1">use <xmlatt>conref</xmlatt> in paragraphs from most of the block elements</ph>
+   that are available in LwDITA. </p>
+ </conbody>
+</concept>

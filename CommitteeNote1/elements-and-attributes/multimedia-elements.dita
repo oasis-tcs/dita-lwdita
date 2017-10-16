@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="multimedia-elements">
+ <title>New elements</title>
+ <shortdesc>This topic lists the new XML elements that are part of LwDITA and how to represent them
+  in XDITA and HDITA. These new elements are not available in the MDITA core profile and, if needed,
+  can be represented with their HDITA equivalents as part of the MDITA extended profile.</shortdesc>
+ <conbody>
+  <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0*" id="simpletable_mry_y2b_dy">
+   <sthead>
+    <stentry>Component</stentry>
+    <stentry>XDITA</stentry>
+    <stentry>HDITA</stentry>
+   </sthead>
+   <strow>
+    <stentry>Audio</stentry>
+    <stentry><xmlelement>audio</xmlelement></stentry>
+    <stentry><xmlelement>audio</xmlelement></stentry>
+   </strow>
+   <strow>
+    <stentry><ph rev="review-1">Autoplay</ph></stentry>
+    <stentry><ph rev="review-1"><xmlelement>media-autoplay</xmlelement></ph></stentry>
+    <stentry><ph rev="review-1"><xmlatt>autoplay</xmlatt> in <xmlelement>audio</xmlelement> or
+     <xmlelement>video</xmlelement></ph></stentry>
+   </strow>
+   <strow>
+    <stentry>Controls</stentry>
+    <stentry><ph rev="review-1"><xmlelement>media-controls</xmlelement></ph></stentry>
+    <stentry><xmlatt>controls</xmlatt> in <xmlelement>audio</xmlelement> or
+      <xmlelement>video</xmlelement></stentry>
+   </strow>
+   <strow>
+    <stentry><ph rev="review-1">Loop</ph></stentry>
+    <stentry><ph rev="review-1"><xmlelement>media-loop</xmlelement></ph></stentry>
+    <stentry><ph rev="review-1"><xmlatt>loop</xmlatt> in <xmlelement>audio</xmlelement> or
+     <xmlelement>video</xmlelement></ph></stentry>
+   </strow>
+   <strow>
+    <stentry><ph rev="review-1">Muted</ph></stentry>
+    <stentry><ph rev="review-1"><xmlelement>media-muted</xmlelement></ph></stentry>
+    <stentry><ph rev="review-1"><xmlatt>muted</xmlatt> in <xmlelement>audio</xmlelement> or
+     <xmlelement>video</xmlelement></ph></stentry>
+   </strow>
+   <strow>
+    <stentry>Poster</stentry>
+    <stentry><ph rev="review-1"><xmlelement>video-poster</xmlelement></ph></stentry>
+    <stentry><xmlatt>poster</xmlatt> in <xmlelement>video</xmlelement></stentry>
+   </strow>
+   <strow>
+    <stentry>Source</stentry>
+    <stentry><ph rev="review-1"><xmlelement>media-source</xmlelement></ph></stentry>
+    <stentry><xmlelement>source</xmlelement></stentry>
+   </strow>
+   <strow>
+    <stentry>Track</stentry>
+    <stentry><ph rev="review-1"><xmlelement>media-track</xmlelement></ph></stentry>
+    <stentry><xmlatt>track</xmlatt> in <xmlelement>audio</xmlelement> or
+      <xmlelement>video</xmlelement></stentry>
+   </strow>
+   <strow>
+    <stentry>Video</stentry>
+    <stentry><xmlelement>video</xmlelement></stentry>
+    <stentry><xmlelement>video</xmlelement></stentry>
+   </strow>
+  </simpletable>
+ </conbody>
+</concept>

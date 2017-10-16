@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="example-of-an-mdita-map">
+ <title>Example of an MDITA map</title>
+ <shortdesc>An MDITA map is authored in Markdown. The following example uses MDITA core-profile code
+  to produce a map with a title, and an unordered list (itself containing a nested, unordered list)
+  of titles for topics and their associated file names.</shortdesc>
+ <conbody>
+  <codeblock># Remote Lighting Network
+   
+   - [Introduction](introduction.md)
+   - [Alternative lighting setups](alternatives.md)
+       - [Low power installation](low-power.md)
+       - [High power installation](high-power.md)
+  </codeblock>
+  </conbody>
+</concept>

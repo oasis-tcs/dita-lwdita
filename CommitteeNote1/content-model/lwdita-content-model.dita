@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="lwdita-content-model">
+ <title>LwDITA document types</title>
+ <shortdesc>LwDITA includes document types for topic and map.</shortdesc>
+</concept>

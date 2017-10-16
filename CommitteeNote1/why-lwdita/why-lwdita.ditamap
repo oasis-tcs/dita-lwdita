@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>What is Lightweight DITA?</title>
+ <topicref href="what-is-lwdita.dita">
+  <topicref href="simplified-model.dita"/>
+  <topicref href="support-for-non-xml-formats.dita"/>
+  <topicref href="development-lwdita-tools.dita"/>
+  <!-- <topicref href="simplified-specialization-mechanism.dita"/> -->
+  <!--<topicref href="why-go-lightweight.dita"/>-->
+ </topicref>
+ 
+</map>

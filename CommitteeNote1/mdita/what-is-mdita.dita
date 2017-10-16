@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what-is-mdita">
+ <title>MDITA</title>
+ <shortdesc>MDITA is the authoring format of LwDITA that uses Markdown to structure
+  information.</shortdesc>
+  <conbody>
+    <p>LwDITA includes two profiles for authoring MDITA topics:</p>
+    <dl>
+      <dlentry>
+        <dt>Core profile</dt>
+        <dd>Aligns with the GitHub Flavored Markdown spec and includes elements common to <i>most</i> Markdown flavors.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>Extended profile</dt>
+        <dd>Relies upon features only available in specific flavors of Markdown to enable a more consistent DITA-like experience.</dd>
+      </dlentry>
+    </dl>
+  </conbody>
+</concept>

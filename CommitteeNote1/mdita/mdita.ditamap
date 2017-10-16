@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>MDITA</title>
+ <topicref href="what-is-mdita.dita">
+  <topicref href="mdita-audience.dita" />
+  <topicref href="mdita-topic-example.dita" />
+  <topicref href="mdita-map-example.dita"/>
+  
+
+ </topicref>
+ 
+</map>

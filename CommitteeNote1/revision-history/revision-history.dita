@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="revision-history">
+ <title>Revision history</title>
+ <shortdesc>The following table contains information about revisions to this document.</shortdesc>
+ <conbody>
+  <?oxy_comment_start author="Kristen J Eberlein" timestamp="20170617T111741-0400" comment="Be sure to use the following convention in this topic: working draft #&lt;n&gt;."?>
+  <simpletable frame="all" relcolwidth="1.0* 1.75* 2.0* 3.0*" id="simpletable_yc3_dcb_by"><?oxy_comment_end?>
+   <sthead>
+    <stentry>Revision</stentry>
+    <stentry>Date</stentry>
+    <stentry>Editor</stentry>
+    <stentry>Description of changes</stentry>
+   </sthead>
+   <strow>
+    <stentry>01</stentry>
+    <stentry>5 November 2016</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Created stub files.</stentry>
+   </strow>
+   <strow>
+    <stentry>02</stentry>
+    <stentry>06 December 2016</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Generated working draft #1</stentry>
+   </strow>
+   <strow>
+    <stentry>03</stentry>
+    <stentry>29 December 2016</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Edits to appendix A. Generated working draft #2.</stentry>
+   </strow>
+   <strow>
+    <stentry>04</stentry>
+    <stentry>23 January 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Generated working draft #3.</stentry>
+   </strow>
+   <strow>
+    <stentry>05</stentry>
+    <stentry>30 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Generated working draft #4.</stentry>
+   </strow>
+   <strow>
+    <stentry>06</stentry>
+    <stentry>2 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Generated working draft #5.</stentry>
+   </strow>
+   <strow>
+    <stentry>07</stentry>
+    <stentry>6 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Generated working draft #6.</stentry>
+   </strow>
+   <strow>
+    <stentry>08</stentry>
+    <stentry>16 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Generated working draft #7.</stentry>
+   </strow>
+   <strow>
+    <stentry>09</stentry>
+    <stentry>21 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Generated working draft #8.</stentry>
+   </strow>
+   <strow>
+    <stentry>10</stentry>
+    <stentry>8 March 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Separated MDITA in core and extended profiles. Generated working draft #9.</stentry>
+   </strow>
+   <strow>
+    <stentry>11</stentry>
+    <stentry>20 March 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Generated working draft #10.</stentry>
+   </strow>
+   <strow>
+    <stentry>12</stentry>
+    <stentry>8 May 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Incorporated feedback from internal SC review and generated working draft
+     #11.</stentry>
+   </strow>
+   <strow>
+    <stentry>13</stentry>
+    <stentry>25 May 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Made content and editorial changes after call with K. Eberlein. Generated working draft
+     #12.</stentry>
+   </strow>
+   <strow>
+    <stentry>14</stentry>
+    <stentry>25 May 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>High-level edit to enforce consistent terminology and usage. Generated working draft
+     #13.</stentry>
+   </strow>
+   <strow>
+    <stentry>15</stentry>
+    <stentry>29 May 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Substantial rework of 2 "Why Lightweight DITA and its children." Generated working
+     draft #14.</stentry>
+   </strow>
+   <strow>
+    <stentry>16</stentry>
+    <stentry>29 May 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Incorporated material from Michael Priestley and generated working draft #15.</stentry>
+   </strow>
+   <strow>
+    <stentry>17</stentry>
+    <stentry>02 June 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Edited footnote topic. Generated working draft #16.</stentry>
+   </strow>
+   <strow>
+    <stentry>18</stentry>
+    <stentry>05 June 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Generated working draft #17 for consideration by the DITA TC.</stentry>
+   </strow>
+   <strow>
+    <stentry>19</stentry>
+    <stentry/>
+    <stentry/>
+    <stentry>Generated working draft #18. It includes the following changes:<ul>
+      <li>Updated Acknowledgments</li>
+     </ul></stentry>
+   </strow>
+   <strow>
+    <stentry>20</stentry>
+    <stentry>26 June 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added &lt;footnotes> to table of elements</stentry>
+   </strow>
+   <strow>
+    <stentry>21</stentry>
+    <stentry>26 July 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Improved footnote topic and examples</stentry>
+   </strow>
+   <strow>
+    <stentry>22</stentry>
+    <stentry>17 August 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Removed proposed footnote element/behavior and modified multimedia elements based on
+     multimedia domain proposal</stentry>
+   </strow>
+   <strow>
+    <stentry>23</stentry>
+    <stentry>21 August 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added specialization topic; generated working draft #19</stentry>
+   </strow>
+   <strow>
+    <stentry>24</stentry>
+    <stentry>19 September 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Incorporated subcommittee feedback; generated working draft #20</stentry>
+   </strow>
+   <strow>
+    <stentry>25</stentry>
+    <stentry>9 October 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Incorporated TC feedback. Added Alan Houser to list of editors. Generated working draft
+     #21</stentry>
+   </strow>
+  </simpletable>
+ </conbody>
+</concept>

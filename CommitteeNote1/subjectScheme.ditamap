@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd">
+<subjectScheme>
+    <subjectdef keys="revisions">
+        <subjectdef keys="review-1"/>
+        <subjectdef keys="review-2"/>
+        <subjectdef keys="review-3"/>
+        <subjectdef keys="review-4"/>
+    </subjectdef>
+    <subjectdef keys="outputclass-values">
+        <subjectdef keys="cover"/>
+        <subjectdef keys="no-indent"/>
+        <subjectdef keys="no-italics"/>
+        <subjectdef keys="no-space-before"/>
+        <subjectdef keys="frontmatternotices"/>
+        <subjectdef keys="specificationApproved"/>
+        <subjectdef keys="specification"/>
+        <subjectdef keys="specificationLevel"/>
+        <subjectdef keys="specificationPrefix"/>
+        <subjectdef keys="specificationScope"/>
+        <subjectdef keys="specificationSubtitle1"/>
+        <subjectdef keys="specificationTitle"/>
+        <subjectdef keys="specificationTitles"/>
+    </subjectdef>
+    <subjectdef keys="disposition">
+        <subjectdef keys="accepted"/>
+        <subjectdef keys="deferred"/>
+        <subjectdef keys="informational"/>
+        <subjectdef keys="open"/>
+    </subjectdef>
+    <enumerationdef>
+        <attributedef name="rev"/>
+        <subjectdef keyref="revisions"/>
+    </enumerationdef>
+    <enumerationdef>
+        <attributedef name="outputclass"/>
+        <subjectdef keyref="outputclass-values"/>
+    </enumerationdef>
+    <enumerationdef>
+        <attributedef name="disposition"/>
+        <subjectdef keyref="disposition"/>
+    </enumerationdef>
+</subjectScheme>

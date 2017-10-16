@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="defining-elements">
+  <title>Defining specialized elements</title>
+  <body>
+    <p>The combination of <xmlatt>specname</xmlatt> and <xmlatt>specmodel</xmlatt> values on a
+      template element defines a new element specialized from the template  as follows:<ul>
+        <li>The name of the element comes from the value of <xmlatt>specname</xmlatt>.</li>
+        <li>The type of content model for the element comes from the value for
+            <xmlatt>specmodel</xmlatt>:<ul>
+            <li>"sequence" for a sequence of child elements (each of which will be allowed only once
+              and in only one order)</li>
+            <li>"choice" for a set of choices of child elements (which will be allowed in any number
+              and order)</li>
+            <li>"inherit" for a set of unspecialized child elements that conform to the content
+              model of the specialized element</li>
+          </ul></li>
+      </ul></p>
+    <p>Each child element can have an <xmlatt>importance</xmlatt> value set on it:<ul>
+        <li>"optional" on a child element in a sequence, so that the element is not required to be
+          present in the authored document<draft-comment author="Tim Grantham">But does this mean it
+            can be present more than once or only once? This should be made
+            explicit.</draft-comment></li>
+        <li>"required" on a child element in a choice group, so that the element is required to be
+          present in the authored document<draft-comment author="Tim Grantham">I suggest that it
+            should be explicitly stated that "required" on an element in a choice group means at
+            least one occurrence.</draft-comment></li>
+      </ul></p>
+    <p>Multiple occurrences of an element within a sequence can be defined by using multiple
+      occurrences of the element in the template as a cue. For example, to define a content model
+      for <xmlelement>agendalist</xmlelement> of a required <xmlelement>a-intro</xmlelement>
+      followed by one or more <xmlelement>a-item</xmlelement>, use the following
+        markup:<codeblock>&lt;ul specname="agendalist" specmodel="sequence">
+      &lt;li specname="a-intro"/>
+      &lt;li specname="a-item"/>
+      &lt;li specname="a-item importance="optional"/>
+&lt;/ul></codeblock><draft-comment
+        author="Tim Grantham">This produces the expected result only if the value "optional" on an
+        element means that the element can occur any number of times.</draft-comment></p>
+    <draft-comment author="Tim Grantham">Should we give examples of content models that
+        <i>cannot</i> be defined with this version of the specialization markup?</draft-comment>
+    <section>
+      <title>Defining content for deliverables other than specialization schemas <draft-comment
+          author="carloseviapuerto">I am not sure I understand this section's
+        title</draft-comment></title>
+      <p>Templates can use one or more of the following values for <xmlatt>specrole</xmlatt> to
+        define content for such deliverables as documentation of the specialization, and online
+        editors or templates that authors can use to create content with the specialization:<ul>
+          <li>"doc" identifies the element as a container of description of the
+              specialization<draft-comment author="Tim Grantham">Is this value primarily intended to
+              be used to insert guidance for authors into a generated authoring template? Is the
+              description of the element or some other part of the specialization? Does the element
+              still intended to appear in the generated schema?</draft-comment></li>
+          <li>"generated" identifies the element as a container of fixed content<draft-comment
+              author="Tim Grantham">Meaning that the content must appear in any instance of the
+              topic? Or is it primarily intended for use in a generated authoring template to
+              pre-populate the element?</draft-comment></li>
+          <li>"???" sets the element to non-editable by authors <draft-comment author="Tim Grantham"
+              >how is this different from "generated"? Or is it used in combination with
+              "generated"?</draft-comment></li>
+          <li>"???" identifies the element as the container of an editor prompt<draft-comment
+              author="Tim Grantham">Is the element still part of a generated schema? Or is it
+              intended solely for generation of an authoring template?</draft-comment></li>
+          <li>"???" identifies the element as used for content modeling purposes only <draft-comment
+              author="Tim Grantham">What does "content modeling purposes only" mean? That it can't
+              be used for generating authoring templates?</draft-comment></li>
+        </ul><draft-comment author="Tim Grantham">This should be fleshed out with
+          examples.</draft-comment></p>
+    </section>
+  </body>
+</topic>

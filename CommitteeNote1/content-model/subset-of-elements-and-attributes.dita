@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="subset-of-elements-and-attributes">
+ <title>Elements in the LwDITA topic</title>
+ <shortdesc>LwDITA <ph rev="review-2">uses</ph> a subset of the topic elements that are available in
+        DITA 1.3.</shortdesc>
+ <conbody>
+  <p>The subset was carefully chosen to include <ph rev="review-2">only</ph> the most basic
+            constructions that are needed to structure information effectively. The Lightweight DITA
+            subcommittee considered the needs of diverse industries and sectors (including
+            education, engineering, healthcare, and marketing) when selecting topic elements for
+            LwDITA.</p>
+        <p>The elements selected represent the following 
+            <ph rev="review-2">DITA information types:</ph></p>
+  <ul>
+   <li>Body</li>
+    <li>Cross reference</li>
+    <li>Data</li>
+    <li>Description</li>
+   <li>Figure</li>
+   <li>Footnote</li>
+   <li>Image and alternate text</li>
+   <li>In-line formatting: Bold, italics, underline, subscript, superscript</li>
+      <li><ph rev="review-1">Lists: Definition list, ordered list, unordered list</ph></li>
+   <li>Note</li>
+   <li>Paragraph</li>
+   <li>Phrase</li>
+   <li>Prolog</li>
+   <li>Preformatted text</li>
+   <li>Section</li>
+   <li>Short description</li>
+   <li>Table</li>
+   <li>Title</li>
+   <li>Topic</li>
+  </ul>
+        
+  <p id="elementsappendix">For a complete list of the DITA 1.3 elements that are included in LwDITA and their availability in the authoring formats,
+      see <xref href="../elements-and-attributes/lwdita-elements.dita"/>.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="support-for-non-xml-formats">
+ <title>Support for non-XML formats</title>
+ <shortdesc>LwDITA adds support for structured authoring in HTML5 and Markdown.</shortdesc>
+ <conbody>
+  <p>New forms of non-XML structured authoring have gained popularity. Authors use the extended
+   semantic markup of HTML5 to create structured documents for the Web. Many in industry and
+   academia have adopted plain text languages like Markdown. </p>
+  <p>In its initial release, LwDITA has three authoring formats:</p>
+  <dl>
+   <dlentry>
+    <dt>XDITA</dt>
+    <dd>An XML-based variant</dd>
+   </dlentry>
+   <dlentry>
+    <dt>HDITA</dt>
+    <dd>An HTML5-based variant</dd>
+   </dlentry>
+   <dlentry>
+    <dt>MDITA</dt>
+    <dd>A Markdown-based variant</dd>
+   </dlentry>
+  
+  </dl>
+  <p>These authoring formats will enable and enhance collaboration across divisional silos.
+   Engineers can author in Markdown, marketing writers can author in HTML5, and technical writers
+   and others familiar with DITA can author in XML. Documents authored in the various authoring
+   formats can be aggregated together and published as a single document collection. They also can
+   easily integrate into DITA 1.3 collections.</p>
+ 
+  <p>These three authoring formats do not represent a final version of LwDITA. In the future, based
+   on community interest and development resources, LwDITA might add <ph rev="review-1">mappings,
+   for example,</ph>  between DITA and JSON, AsciiDoc, or MS Word.
+   <!--The Lightweight DITA Subcommittee decided to focus on XML, HTML5, and Markdown for this initial release based on potential users' feedback, and members' interest and expertise. LwDITA can expand to additional authoring formats (e.g., JSON, AsciiDoc, MS Word) based on audience interest and design capability in the Subcommittee membership.--></p>
+  <p><ph rev="review-1">The XDITA and HDITA content models are designed to be functionally equivalent to each other</ph>, while
+   MDITA is a compatible subset. XDITA and HDITA conform with the OASIS DITA and W3C HTML5
+   standards, respectively. In its core profile, MDITA aligns with the GitHub Flavored Markdown
+   specification. In its extended profile, MDITA can incorporate YAML front matter headers and HDITA
+   elements and attributes to overcome Markdown limitations as a language for authoring structured
+   and reusable content.</p>
+  <!-- <p>The multiple authoring formats are designed to enable authors to continue working with the type
+   of structured content – XML, HTML, or Markdown – that they are comfortable with and currently
+   using. Rather than asking authors to adopt a single authoring platform, LwDITA provides
+   mappings from one authoring format to another.</p>
+  <p>LwDITA also acts as an entry point to full DITA for those who need more functionality and
+   richer semantic structures.</p> -->
+ </conbody>
+</concept>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="specialization-example">
+  <title>Example of template-based specialization</title>
+  <shortdesc>LwDITA's template-based specialization model gives authors the power to design new
+    topic types using a handful of new attributes and elements. A template created in XDITA can
+    generate new topic valid topic types in XDITA and HDITA.</shortdesc>
+  <body>
+    <p>The process of designing and deploying a template for specialization in LwDITA consists of
+      the following stages:</p><ol>
+      <li>Create an instance of a valid XDITA topic.<p>For example, a hypothetical project manager
+          wants to create, using XDITA syntax, a specialized topic type to capture meeting notes,
+          and her XDITA topic template would start as
+        follows:</p><codeblock>&lt;topic id="notes1">
+&lt;title>Meeting Notes Template&lt;/title>
+&lt;/topic></codeblock></li>
+      <li>Add markup that defines the specialization's content model. The markup includes XDITA
+        elements and attributes, highlighted in bold, specifically designed for defining
+          specializations.<p>For example:<draft-comment author="Tim Grantham">It's obviously very
+            important that this example is perfect (and a typical use case), especially because it
+            is used later in the topic to explain the content model generated from the template. As
+            a new reader, I think I would have questions as soon as I read the example: e.g. Why
+            does this example define specialized elements that have the same names as existing DITA
+            elements (e.g. "category", "copyright"). How do I define how many times a specialized
+            element can occur? The example should also include use of
+            <xmlatt>specrole</xmlatt>.</draft-comment></p>
+      
+    <codeblock>&lt;topic id="notes1" <b>specname="meeting-notes"</b>>
+ &lt;title <b>specname="meeting-note"</b>>Meeting Notes Template&lt;/title>
+   &lt;prolog>
+      &lt;data <b>specname="date"</b> <b>specrole="prompt"</b> value="date goes here"/>
+    &lt;/prolog>
+     &lt;body <b>specname="meeting-notes-body"</b>>
+       &lt;section <b>specname="todos"</b> <b>specmodel="sequence"</b>>
+       &lt;title <b>specrole="generated"</b>>To dos&lt;/title>
+         &lt;p <b>specrole="doc"</b>>Use the todos element to organize a list of things you need to do&lt;/p>
+          &lt;ul>
+            &lt;li>&lt;/li>
+          &lt;/ul>
+       &lt;/section>
+     &lt;/body>
+&lt;/topic></codeblock>
+        <note>Just as with standard XDITA or DITA content, an author can reuse content from instances of templates with mechanisms such as <xmlatt>conref</xmlatt> and <xmlatt>keyref</xmlatt>.</note>
+      </li>
+  
+<li>Generate the following XDITA topic: <draft-comment author="carloseviapuerto" time="1 Feb 2017"
+          >This part needs love: how is the process without a specific tool? Generate...
+          how???</draft-comment>
+        <codeblock>&lt;meeting-notes id="notes1">
+ &lt;meeting-note>Meeting Notes Template&lt;/meeting-note>
+   &lt;prolog>
+     &lt;date>&lt;/date>
+   &lt;/prolog>
+   &lt;meeting-notes-body>
+     &lt;title>To-dos&lt;/title>
+      &lt;p>Use the to-dos element to organize a list of things you need to do&lt;/p>
+        &lt;ul>
+          &lt;li>&lt;p>Write topic about lightbulb replacement&lt;/p>&lt;/li>
+          &lt;li>&lt;p>Contact SME about remote's short circuit&lt;/p>&lt;/li>
+        &lt;/ul>
+   &lt;/meeting-notes-body>
+&lt;/meeting-notes></codeblock>
+      </li>
+
+<li>Generate, with the same template, the following HDITA topic:
+        <codeblock>&lt;meta name="date" content="">
+&lt;article data-hd-class="meeting-notes" id="notes1">
+  &lt;h1 data-hd-class="meeting-note">Meeting Notes Template&lt;/h1>
+   &lt;section data-hd-class="meeting-notes-body">
+     &lt;h2>To-dos&lt;/h2>
+       &lt;p>Use the to-dos element to organize a list of things you need to do&lt;/p>
+       &lt;ul>
+        &lt;li>&lt;p>Write topic about lightbulb replacement&lt;/p>&lt;/li>
+        &lt;li>&lt;p>Contact SME about remote's short circuit&lt;/p>&lt;/li>
+       &lt;/ul>
+   &lt;/section>
+&lt;/article></codeblock>
+      </li>
+</ol>  
+  </body>
+</topic>

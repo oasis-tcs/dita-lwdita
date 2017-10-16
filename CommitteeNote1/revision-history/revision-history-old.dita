@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="revision-history">
+ <title>Revision history</title>
+ <shortdesc>The following table contains information about revisions to this document.</shortdesc>
+ <conbody>
+  <simpletable frame="all" relcolwidth="1.0* 1.75* 2.0* 3.0*" id="simpletable_yc3_dcb_by">
+   <sthead>
+    <stentry>Revision</stentry>
+    <stentry>Date</stentry>
+    <stentry>Editor</stentry>
+    <stentry>Description of changes</stentry>
+   </sthead>
+   <strow>
+    <stentry>01</stentry>
+    <stentry>5 November 2016</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Created stub files for working draft.</stentry>
+   </strow>
+   <strow>
+    <stentry>02</stentry>
+    <stentry>17 November 2016</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Updates to structure of working draft.</stentry>
+   </strow>
+   <strow>
+    <stentry>03</stentry>
+    <stentry>21  and 22 November 2016</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added content, examples, and information about YAML.</stentry>
+   </strow>
+   <strow>
+    <stentry>04</stentry>
+    <stentry>24 November 2016</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>
+     <ul>
+      <li>Added table to revision history</li>
+      <li>Corrected front matter metadata</li>
+      <li>Added terminology topic</li>
+      <li>General edits for clarity and adherence to IBM style</li>
+      <li>Reworked XDITA, HDITA,and MDITA topic clusters</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>05</stentry>
+    <stentry>30 November 2016</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>
+     <ul>
+      <li>Updated cover page metadata to match OASIS template</li>
+      <li>General edits for clarity and adherence to IBM style</li>
+      <li>General reorganization</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>06</stentry>
+    <stentry>01 December 2016</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>
+     <ul>
+      <li>Added content to Appendix A</li>
+      <li>Added draft comments throughout</li>
+      <li>Added items to "References" topic</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>07</stentry>
+    <stentry>01 December 2016</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>
+     <ul>
+      <li>Added initial content to "Stricter content model" topic</li>
+      <li>Added initial content to "Subset of reuse mechanisms" topic</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>08</stentry>
+    <stentry>05 December 2016</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added initial examples for maps in XDITA, HDITA, and MDITA</stentry>
+   </strow>
+   <strow>
+    <stentry>09</stentry>
+    <stentry>06 December 2016</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Generated working draft 01</stentry>
+   </strow>
+   <strow>
+    <stentry>10</stentry>
+    <stentry>15 December 2016</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>
+     <ul>
+      <li>Replaced <term>authoring mode</term> with <term>authoring format</term></li>
+      <li>Updated chapter three: "Lightweight DITA design"</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>11</stentry>
+    <stentry>15 December 2016</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>
+     <ul>
+      <li>Added xref for Evia-Priestley article</li>
+      <li>Cleaned some sections that implied XDITA equals LwDITA</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>12</stentry>
+    <stentry>15 December 2016</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Improved consistency of LwDITA acronym usage across topics and chapters</stentry>
+   </strow>
+   <strow>
+    <stentry>13</stentry>
+    <stentry>16 December 2016</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Cleaned some short descriptions and added content to authoring formats</stentry>
+   </strow>
+   <strow>
+    <stentry>14</stentry>
+    <stentry>16 December 2016</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>
+     <ul>
+      <li>Updated "Acknowledgements" to include everyone who attended the call in 14 December
+       2016"</li>
+      <li>Updated audience for HDITA</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>15</stentry>
+    <stentry>21 December 2016</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>
+     <ul>
+      <li>Updated references to list blogs and PDFs of conference session slide decks</li>
+      <li>Updated "Subset of DITA 1.3 elements"</li>
+      <li>Updated appendix A, "Lightweight DITA elements and attributes"</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>16</stentry>
+    <stentry>29 December 2016</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>
+     <ul>
+      <li>Edits to appendix A</li>
+      <li>Generated working draft #2</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>17</stentry>
+    <stentry>30 December 2017  </stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>
+     <p>Response to feedback from Deb Bissantz, Healthwise:</p>
+     <ul>
+      <li>Added <xmlelement>u</xmlelement> to 3.2, "Stricter content model"</li>
+      <li>Changed 2.1, "Simplified model" to "Simplified structure"</li>
+      <li>Edited 4.2.1, "Audience for HDITA"</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>18</stentry>
+    <stentry>5 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>
+     <ul id="ul_zpz_mpx_my">
+      <li>Commented out the specialization section from map (it will be the main topic of a future
+       committee note or publication)</li>
+      <li>Updated tables of elements and attributes to reflect input from LwDITA's syntax
+       taskforce</li>
+      <li>Commented out mentions of the specialization mechanism as an initial LwDITA
+       component.</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>19</stentry>
+    <stentry>9 January 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>
+     <ul>
+      <li>Corrected date in revision history</li>
+      <li>Added back specialization topics</li>
+      <li>Corrected typos in draft comments; removed outdated draft comments</li>
+      <li>Updated acknowledgements to include Deb Bissantz, Healthwise</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>20</stentry>
+    <stentry>9 January 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>
+     <p>Response to feedback from Ullakaisa Kalander, Citec:</p>
+     <ul>
+      <li>Added <xmlelement>note</xmlelement> to 3.1, "Subset of DITA 1.3 elements"</li>
+      <li>Added draft comments with feedback from Citec</li>
+      <li>Added <xmlatt>type</xmlatt> to Appendix A.3, "DITA 1.3 attributes in Lightweight
+       DITA"</li>
+      <li>Updated acknowledgements to include Ullakaisa Kalander, Citec</li>
+      <li>Updated "Notices" to have a copyright date of 2017</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>21</stentry>
+    <stentry>9 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added raw draft paragraphs to capture feedback from SC's meeting and minutes of note
+     call from December.</stentry>
+   </strow>
+   <strow>
+    <stentry>22</stentry>
+    <stentry>17 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>
+     <ul id="ul_tvf_sqg_qy">
+      <li>Added content for multimedia elements</li>
+      <li>Improved LwDITA map topic</li>
+      <li>Standardized use of LwDITA in document</li>
+      <li>Drafted rationale for specialization mechanism</li>
+      <li>Added content to tables in appendixes</li>
+      <li>Specified "rules" for YAML headers in MDITA</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>23</stentry>
+    <stentry>19 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added content about compatibility of authoring modes.</stentry>
+   </strow>
+   <strow>
+    <stentry>24</stentry>
+    <stentry>23 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Updated attributes and elements appendixes</stentry>
+   </strow>
+   <strow>
+    <stentry>25</stentry>
+    <stentry>23 January 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Generated working draft #3</stentry>
+   </strow>
+   <strow>
+    <stentry>26</stentry>
+    <stentry>23 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added content explaining multimedia elements</stentry>
+   </strow>
+   <strow>
+    <stentry>27</stentry>
+    <stentry>24 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Updated content model example to follow note's theme of light bulbs</stentry>
+   </strow>
+   <strow>
+    <stentry>28</stentry>
+    <stentry>24 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>
+     <ul id="ul_i3m_hsf_sy">
+      <li>Cleaned multimedia elements topic</li>
+      <li>Added stubs for new 4.4 section on cross-format LwDITA content and examples</li>
+     </ul>
+    </stentry>
+   </strow>
+   <strow>
+    <stentry>29</stentry>
+    <stentry>25 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added draft of cross-format topics</stentry>
+   </strow>
+   <strow>
+    <stentry>30</stentry>
+    <stentry>25 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Updated the cross-format content example</stentry>
+   </strow>
+   <strow>
+    <stentry>31</stentry>
+    <stentry>30 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added specialization content from Mark G and Michael P</stentry>
+   </strow>
+   <strow>
+    <stentry>32</stentry>
+    <stentry>30 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Incorporated feedback from John H</stentry>
+   </strow>
+   <strow>
+    <stentry>33</stentry>
+    <stentry>30 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Edits after reading most recent draft</stentry>
+   </strow>
+   <strow>
+    <stentry>34</stentry>
+    <stentry>30 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Improved consistency in tables of elements and attributes</stentry>
+   </strow>
+   <strow>
+    <stentry>35</stentry>
+    <stentry>30 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Mapped <xmlelement>desc</xmlelement> to HDITA (not applicable in MDITA)</stentry>
+   </strow>
+   <strow>
+    <stentry>36</stentry>
+    <stentry>31 January 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Cleaned specialization introductory topic</stentry>
+   </strow>
+   <strow>
+    <stentry>37</stentry>
+    <stentry>1 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added specialization example</stentry>
+   </strow>
+   <strow>
+    <stentry>38</stentry>
+    <stentry>1 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added Tim G to contributors and incorporated Tim's content on specialization</stentry>
+   </strow>
+   <strow>
+    <stentry>39</stentry>
+    <stentry>3 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Incorporated feedback from Ullakaisa K</stentry>
+   </strow>
+   <strow>
+    <stentry>40</stentry>
+    <stentry>6 February 2007</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added fnref to new elements table and moved all new elements to the same
+     table</stentry>
+   </strow>
+   <strow>
+    <stentry>41</stentry>
+    <stentry>6 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added map elements to table of LwDITA elements</stentry>
+   </strow>
+   <strow>
+    <stentry>42</stentry>
+    <stentry>6 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Removed all references to the proposed specialization mechanism after SC's Feb 6, 2017
+     call</stentry>
+   </strow>
+   <strow>
+    <stentry>43</stentry>
+    <stentry>7 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Changed MDITA's dependence on raw HTML to raw XML for structural elements and
+     reuse</stentry>
+   </strow>
+   <strow>
+    <stentry>44</stentry>
+    <stentry>8 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Updated syntax for shortdesc in MDITA topics</stentry>
+   </strow>
+   <strow>
+    <stentry>45</stentry>
+    <stentry>9 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Updated Tim G's affiliation in acknowledgments </stentry>
+   </strow>
+   <strow>
+    <stentry>46</stentry>
+    <stentry>10 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Incorporated Jan B's content in response to John H's questions. Added Jan B to list of
+     contributors</stentry>
+   </strow>
+   <strow>
+    <stentry>47</stentry>
+    <stentry>20 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added fnref topic and draft comments following 02/20/17 subcommittee meeting</stentry>
+   </strow>
+   <strow>
+    <stentry>48</stentry>
+    <stentry>21 February 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Improved topic for footnotes based on Michael P's email from 02/21/17</stentry>
+   </strow>
+   <strow>
+    <stentry>49</stentry>
+    <stentry>8 March 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added Jarno to acknowledgements and started separation of MDITA for base and extended
+     models</stentry>
+   </strow>
+   <strow>
+    <stentry>50</stentry>
+    <stentry>8 March 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Separated MDITA in core and extended profiles. Generated Working Draft 09</stentry>
+   </strow>
+   <strow>
+    <stentry>51</stentry>
+    <stentry>9 March 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added mechanism for using keys in MDITA core profile</stentry>
+   </strow>
+   <strow>
+    <stentry>52</stentry>
+    <stentry>16 March 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Updated GFM references to reflect spec release</stentry>
+   </strow>
+   <strow>
+    <stentry>53</stentry>
+    <stentry>20 March 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Explained slug process for id generation in MDITA</stentry>
+   </strow>
+   <strow>
+    <stentry>54</stentry>
+    <stentry>8 May 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Incorporated feedback from internal SC review and generated Working Draft 11</stentry>
+   </strow>
+   <strow>
+    <stentry>55</stentry>
+    <stentry>16 May 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Created topics for audio and video examples. Mapped note as a div in HDITA.</stentry>
+   </strow>
+   <strow>
+    <stentry>56</stentry>
+    <stentry>25 May 2017</stentry>
+    <stentry>Carlos Evia/K. Eberlein</stentry>
+    <stentry>Made content and editorial changes after call with K. Eberlein. Generated working draft
+     12.</stentry>
+   </strow>
+   <strow>
+    <stentry>57</stentry>
+    <stentry>25 May 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>High-level edit to enforce consistent terminology and usage. Generated working draft
+     #13.</stentry>
+   </strow>
+   <strow>
+    <stentry>58</stentry>
+    <stentry>29 May 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Substantial rework of 2 "Why Lightweight DITA and its children." Generated Working
+     Draft 14.</stentry>
+   </strow>
+   <strow>
+    <stentry>59</stentry>
+    <stentry>29 May 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Incorporated material from Michael Priestley and generated Working Draft #15.</stentry>
+   </strow>
+   <strow>
+    <stentry>60</stentry>
+    <stentry>29 May 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Added <xmlelement>keydef</xmlelement> and <xmlelement>linktext</xmlelement>.</stentry>
+   </strow>
+   <strow>
+    <stentry>61</stentry>
+    <stentry>30 May 2017</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry>Added keydef and linktext mappings in HDITA and MDITA extended profile. Updated MDITA
+     map example with keys and updated number of elements to 40</stentry>
+   </strow>
+   <strow>
+    <stentry>62</stentry>
+    <stentry>02 June 2017</stentry>
+    <stentry>Kristen James Eberlein</stentry>
+    <stentry>Edited footnote topic. Generated working draft #16.</stentry>
+   </strow> 
+  </simpletable>
+ </conbody>
+</concept>

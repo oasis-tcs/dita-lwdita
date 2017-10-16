@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>LwDITA minimal collection model</title>
+ <topicref href="lwdita-collection-model.dita">
+  <topicref href="what-is-in-it.dita" />
+  <topicref href="collection-model-example.dita" />
+  
+
+ </topicref>
+ 
+</map>

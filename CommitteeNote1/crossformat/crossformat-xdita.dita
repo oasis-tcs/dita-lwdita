@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="crossformat">
+ <title>Cross-format example: XDITA topic</title>
+ <shortdesc>The following XDITA topic contains a key reference to a product name and a content
+  reference to a paragraph from an MDITA topic.</shortdesc>
+ <conbody>
+  <codeblock>&lt;topic id="bulbs-to-groups">
+   &lt;title>Programming Light Bulbs to a Lighting Group&lt;/title>
+   &lt;shortdesc>You can program one or more light bulbs to a lighting group to operate that group with your remote control.&lt;/shortdesc>
+   &lt;body>
+   &lt;section id="context">
+   &lt;p>Your <b>&lt;ph keyref="product-name"/></b> remote control can manage up to 250 network light bulbs on the same lighting network. When you add a light bulb to the network, you can program it to one or more lighting groups.&lt;/p>
+   &lt;p id="assign-disclaimer">You must assign a light bulb to at least one lighting group to operate that light bulb.&lt;/p>
+   &lt;/section>
+   &lt;section id="steps">
+    &lt;ol>
+    &lt;li><b>&lt;p conref="basic-concepts.md#basic-concepts/power-off" /></b>&lt;/li>
+    &lt;li>&lt;p>Remove any existing light bulb from the light fixture.&lt;/p>&lt;/li>
+    &lt;li>&lt;p>Install the network light bulb into the light fixture as you would any standard light bulb.&lt;/p>&lt;/li>
+    &lt;li>&lt;p>Turn power to the light fixture on.&lt;/p>&lt;/li>
+   &lt;/ol>
+   &lt;/section>
+  &lt;/body>
+  &lt;/topic>
+   
+  </codeblock>
+ </conbody>
+</concept>

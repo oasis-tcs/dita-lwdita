@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="hdita-example">
+ <title>Example of an HDITA topic</title>
+ <shortdesc>The following topic is authored in HDITA. The topic uses HTML5 elements and custom data
+    attributes  for content reuse and compatibility with DITA. The custom data attribute highlighted
+    in bold includes a content reference from a DITA topic with a disclaimer expected from all
+    topics in this fictional scenario. </shortdesc>
+ <conbody>
+    <!--<p>In the simplest HDITA workflow, a casual author can create a basic HTML5 topic with any number of W3C-compliant elements and either incorporate it to an existing DITA or LwDITA collection, or create a new collection with HDITA files or a combination of the different LwDITA authoring modes. More advanced authors can add HDITA's custom data attributes to take advantage of DITA's content structure and reuse capabilities.</p>-->
+   <codeblock><ph rev="review-1">&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+  &lt;title>Installing and Setting up Remote Lighting&lt;/title>
+&lt;/head>
+&lt;body>
+  &lt;article id="install-and-setup">
+    &lt;h1>Installing and Setting up Remote Lighting&lt;/h1>
+    &lt;p>Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.&lt;/p>
+    &lt;h2>Steps&lt;/h2>
+    &lt;ul>
+      &lt;li>
+        &lt;p>Install light bulbs.&lt;/p>
+      &lt;/li>
+      &lt;li>
+        &lt;p>Prepare remote control.&lt;/p>
+      &lt;/li>
+      &lt;li>
+        &lt;p>Program lighting groups.&lt;/p>
+      &lt;/li>
+    &lt;/ul>
+    &lt;h2>Example&lt;/h2>
+    &lt;p>The following video demonstrates a recommended installation:&lt;/p>
+    &lt;video src="remote.mp4" controls poster="remote.png">&lt;/video>
+    <b>&lt;p data-conref="bulbs-to-groups.dita#bulbs-to-groups/assign-disclaimer">&lt;/p></b>
+  &lt;/article>
+&lt;/body>
+&lt;/html>
+   </ph></codeblock>
+ 
+ </conbody>
+</concept>

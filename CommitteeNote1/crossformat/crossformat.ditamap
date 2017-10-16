@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Cross-format content</title>
+ <topicref href="crossformat.dita">
+  <topicref href="crossformat-examples.dita" />
+  <topicref href="crossformat-xdita.dita" />
+  <topicref href="crossformat-hdita.dita" />
+  <topicref href="crossformat-mdita.dita" />
+  
+
+ </topicref>
+ 
+</map>

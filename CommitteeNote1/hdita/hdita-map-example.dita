@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="example-of-an-hdita-map">
+ <title>Example of an HDITA map</title>
+ <shortdesc>An HDITA map is authored in HTML5.</shortdesc>
+ <conbody>
+  <codeblock>&lt;nav>
+    &lt;h1>Remote Lighting Network&lt;/h1>
+    &lt;div class="keydef">
+    &lt;var class="linktext">Remote Lighting Network&lt;/var>
+    &lt;/div>
+    &lt;ul>
+     &lt;li>&lt;p>&lt;a href="introduction.html">Introduction&lt;/a>&lt;p>&lt;/li>
+     &lt;li>&lt;p>&lt;a href="alternatives.html">Alternative lighting setups&lt;/a>&lt;/p>
+      &lt;ul>
+       &lt;li>&lt;p>&lt;a href="low-power.html">Low power installation&lt;/a>&lt;/p>&lt;/li>
+       &lt;li>&lt;p>&lt;a href="high-power.html">High power installation&lt;/a>&lt;/p>&lt;/li>
+       &lt;/ul>
+      &lt;/li>
+     &lt;/ul>
+   &lt;/nav></codeblock>
+ </conbody>
+</concept>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what-is-in-it">
+ <title>LwDITA topic</title>
+<shortdesc>The LwDITA topic contains the fundamental structures that are necessary to author a unit
+  of stand-alone information.</shortdesc>
+ <conbody>
+  <p>A LwDITA topic can contain the following structural elements:</p>
+  <dl>
+   <dlentry>
+    <dt>Title</dt>
+    <dd>A label that connotes the purpose of the content that is associated with it.</dd>
+   </dlentry>
+   <dlentry>
+    <dt>Short description</dt>
+    <dd> A brief depiction of the purpose or theme of a topic.
+    </dd>
+   </dlentry>
+   <dlentry>
+    <dt>Prolog</dt>
+    <dd>A container for metadata about a topic (for example, author information or subject category).</dd>
+   </dlentry>
+   <dlentry>
+    <dt>Body</dt>
+    <dd>A container for the main content of a topic. It might include several sections.</dd>
+   </dlentry>
+   <dlentry>
+    <dt>Section</dt>
+    <dd>An organizational division within a topic. It can have an optional title.</dd>
+   </dlentry>
+   
+  </dl>
+  
+   
+  <p>A LwDITA topic can be represented, with modifications to accommodate different authoring
+   languages, in XDITA, HDITA, and MDITA.</p>
+  <!--<draft-comment author="Kristen J Eberlein" time="24 November 2016"><p>Somewhere we need a full list of the elements and attributes that will be available in XDITA – and the equivalent markup for HDITA and MDITA.</p><p>We also need to explicitly call out what new elements and attributes are being proposed – and what purposes they serve.</p><p>And to explicitly call out what mixed content is, that it is not allowed, and why (cost of tooling, style sheets, etc.)</p></draft-comment>-->
+  <!--<ul><li>XDITA, for content creation in DITA</li><li>HDITA, for content creation in HTML5</li><li>MDITA, for content creation in Markdown</li></ul>-->
+
+ </conbody>
+</concept>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what-is-hdita">
+ <title>HDITA</title>
+ <shortdesc>HDITA is the authoring format of LwDITA that uses HTML5 to structure information. It
+  also uses custom data attributes to provide interoperability with DITA.</shortdesc>
+</concept>

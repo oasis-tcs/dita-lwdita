@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="audio-example">
+    <title>Example of audio element</title>
+    <shortdesc>The following example shows how to use the LwDITA <xmlelement>audio</xmlelement> element in XDITA and HDITA. In MDITA extended profile, <xmlelement>audio</xmlelement> is represented using raw HDITA code.</shortdesc>
+    <conbody>
+        
+<p>In XDITA, <xmlelement>audio</xmlelement> is represented as follows:</p>
+<codeblock>&lt;p>Once your system is successfully connected to the network, you should hear the following sound:&lt;/p>
+&lt;audio id="connection">
+&lt;controls />
+&lt;source value="connection.mp3"/>
+&lt;/audio></codeblock>        
+        
+<p>In HDITA (and MDITA extended profile), <xmlelement>audio</xmlelement> is represented as follows:</p>
+<codeblock>&lt;p>Once your system is successfully connected to the network, you should hear the following sound:&lt;/p>
+&lt;audio id="connection" controls>
+&lt;source src="connection.mp3"/>
+&lt;/audio></codeblock>
+    </conbody>
+</concept>

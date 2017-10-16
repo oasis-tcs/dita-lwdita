@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Key definitions for "Introduction to Lightweight DITA"</title>
+ <topichead navtitle="Topic references">
+  <keydef href="resources/oasis-cover.dita" keys="cover-page"/>
+  <keydef href="resources/oasis-notices.dita" keys="notices"/>
+  <keydef href="introduction/introduction.ditamap" keys="introduction-map" format="ditamap"/>
+  <!--<keydef href="lwdita/lwdita.ditamap" keys="lwdita-map" format="ditamap"/>-->
+  <keydef href="content-model/content-model.ditamap" keys="content-model-map" format="ditamap"/>
+  <keydef href="xdita/xdita.ditamap" format="ditamap" keys="xdita-map"/>
+  <keydef href="hdita/hdita.ditamap" format="ditamap" keys="hdita-map"/>
+  <keydef href="mdita/mdita.ditamap" format="ditamap" keys="mdita-map"/>
+  <keydef href="crossformat/crossformat.ditamap" format="ditamap" keys="crossformat-map"/>
+  
+  <!--<keydef href="collection-model/collection-model.ditamap" keys="collection-model-map" format="ditamap"/>-->
+  <!-- <keydef href="specialization/specialization.ditamap" format="ditamap"
+   keys="specialization-map"/> -->
+  <keydef href="tooling/tooling.ditamap" keys="tooling-map"
+   format="ditamap"/>
+  <keydef href="acknowledgments/acknowledgments.dita" keys="acknowledgements"/>
+  <keydef href="revision-history/revision-history.dita" keys="revision-history"/>
+ </topichead>
+
+ <topichead navtitle="Cover page text and variable for file names">
+  <!-- Date of approval -->
+  <keydef keys="approval-date">
+   <topicmeta>
+    <keywords>
+     <keyword>9 October 2017</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <!-- Prefix used for file names-->
+  <keydef keys="file-name-prefix">
+   <topicmeta>
+    <keywords>
+     <keyword>cn</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <!-- Publication level-->
+  <keydef keys="publication-level">
+   <topicmeta>
+    <keywords>
+     <keyword>Working Draft 21</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+ </topichead>
+ <topichead navtitle="This version">
+  <!-- THIS VERSION -->
+  <!-- Needs to have the latest OASIS metadata in @href and link text -->
+  <keydef keys="this-html"
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01.html"
+   scope="external" format="html">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01.html</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="this-pdf" scope="external" format="pdf"
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01.pdf">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01.pdf</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="this-dita" scope="external" format="zip"
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01-DITA-source.zip">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01-DITA-source.zip</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="this-grammars" scope="external" format="zip"
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01-grammars.zip">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01-grammars.zip</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="this-samples" scope="external" format="zip"
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01-samples.zip">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01-samples.zip</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+ </topichead>
+ <topichead navtitle="Previous version">
+  <!-- PREVIOUS VERSION -->
+  <!-- Needs to have the previous OASIS metadata in @href and link text -->
+  <keydef keys="previous-html"
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01.html"
+   scope="external" format="html">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01.html</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="previous-pdf" scope="external" format="pdf"
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01.pdf">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01.pdf</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+ </topichead>
+ <topichead navtitle="Latest version">
+  <!-- LATEST VERSION -->
+  <!-- Needs to have no OASIS metadata in @href and link text-->
+  <!-- Do not change this as the committee note advances through the different phases-->
+  <keydef keys="latest-html"
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/LwDITA-v1.0.html"
+   format="html" scope="external">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/LwDITA-v1.0.html</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="latest-pdf" scope="external" format="pdf"
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/LwDITA-v1.0.pdf">
+   <topicmeta>
+    <keywords>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/LwDITA-v1.0.pdf</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+ </topichead>
+ <topichead navtitle="Latest versions of the DITA 1.3 specification">
+  <!-- LATEST VERSION -->
+  <!-- Needs to have no OASIS metadata in @href and link text-->
+  <!-- Do not change this as the specification advances through the different phases-->
+  <!--HTML only -->
+  <keydef keys="latest-errata-html"
+   href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/dita-v1.3-errata01-os.html"
+   scope="external" format="html"/>
+  <keydef keys="latest-part-0-html"
+   href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part0-overview/dita-v1.3-errata01-os-part0-overview-complete.html"
+   scope="external" format="html"/>
+  <keydef keys="latest-part-1-html"
+   href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part1-base/dita-v1.3-errata01-os-part1-base-complete.html"
+   scope="external" format="html"/>
+  <keydef keys="latest-part-2-html"
+   href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part2-tech-content/dita-v1.3-errata01-os-part2-tech-content-complete.html"
+   scope="external" format="html"/>
+  <keydef keys="latest-part-3-html"
+   href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/dita-v1.3-errata01-os-part3-all-inclusive-complete.html"
+   scope="external" format="html"/>
+ </topichead>
+</map>

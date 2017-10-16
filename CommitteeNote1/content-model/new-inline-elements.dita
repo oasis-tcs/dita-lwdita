@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="new-inline-element">
+  <title>Modified footnote element</title>
+  <shortdesc>LwDITA includes a modified element for footnote. It has a required <xmlatt>id</xmlatt>
+    attribute to force the <term>use-by-reference</term> model that is available in DITA
+    1.3.</shortdesc>
+  <conbody>
+    
+    <p>The LwDITA footnote element has the following characteristics:</p>
+    <ul>
+      <li>Block element</li>
+        <li>Available in all block contexts</li>
+      <li><ph rev="review-1">Grouped under a dedicated footnotes section</ph></li>
+          </ul>
+    
+    
+  </conbody>
+</concept>

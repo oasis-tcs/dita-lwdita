@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="acknowledgments" xml:lang="en-us">
+ <title>Acknowledgments</title>
+ <shortdesc>The following individuals participated in the creation of this document and are
+  gratefully acknowledged.</shortdesc>
+ <refbody>
+  <section>
+   <sl>
+    <sli>Robert D. Anderson, IBM</sli>
+    <sli>Jan Benedictus, Fonto Group BV</sli>
+    <sli>Deb Bissantz, Healthwise</sli>
+    <sli>Stan Doherty, Individual member</sli>
+    <sli>Kristen James Eberlein, Eberlein Consulting LLC</sli>
+    <sli>Carlos Evia, Virginia Tech</sli>
+      <sli>Mark Giffin, Individual member</sli>
+    <sli>Tim Grantham, Precision Content Authoring Solutions Inc.</sli>
+        <sli rev="review-1">Richard Hamilton, Individual member</sli>
+    <sli>Nancy Harrison, Individual member</sli>
+    <sli>Alan Houser, Individual member</sli>
+                <sli rev="review-1">Scott Hudson, The Boeing Company</sli>
+    <sli>Ullakaisa Kalander, Citec</sli>
+    <sli>Eliot Kimber, Individual member</sli>
+                <sli rev="review-1">Tom Magliery, JustSystems Canada</sli>
+        <sli rev="review-1">Chris Nitchie, Oberon Technologies</sli>
+    <sli>Michael Priestley, IBM</sli>
+    <sli>Keith Schengili-Roberts, IXIASOFT</sli>
+                <sli rev="review-1">Dawn Stevens, Comtech Services, Inc.</sli>
+        <sli rev="review-1">Bob Thomas, Individual member</sli>
+                <sli rev="review-1">Leigh White, IXIASOFT</sli>
+    
+    </sl>
+   <p>In addition, the OASIS DITA Technical Committee also would like to recognize the following people for their insights and support:</p>
+   <sl>
+    <sli>Jarno Elovirta</sli>
+    <sli>Kevin Lewis</sli>
+   </sl>
+   </section>
+ </refbody>
+</reference>
+

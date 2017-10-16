@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>LwDITA specialization model</title>
+ <topicref href="what-is-lwdita-specialization.dita">
+  <topicref href="specialization-example.dita"/>
+  <topicref href="defining-elements.dita"/>
+ </topicref>
+ 
+ 
+</map>

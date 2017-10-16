@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what-is-in-it">
+ <title>What is in it?</title>
+<shortdesc></shortdesc>
+ <conbody>
+  <p>The LwDITA minimal collection model...:</p>
+  
+  <p>This minimal collection model is available in the following three authoring modes with equivalent elements:</p>
+  <ul>
+   <li>XDITA, for content creation in a subset of elements from DITA XML.</li>
+   <li>HDITA, for content creation in HTML5.</li>
+   <li>MDITA, for content creation in Markdown.</li>
+  </ul>
+
+ </conbody>
+</concept>
