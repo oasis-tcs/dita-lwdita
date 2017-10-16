@@ -68,6 +68,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--    18 Sep 2017 RDA: Add value attributes to media control     -->
 <!--                     elements, matching main TC proposal       -->
 <!--    18 Sep 2017 RDA: Adjust media class atts to match main TC  -->
+<!--    16 Oct 2017  CE: Added @props to elements that allow it    -->
+<!--                     in DITA 1.3                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
@@ -153,6 +155,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ELEMENT shortdesc     (%all-inline;)* >
 <!ATTLIST shortdesc
              %localization;
+             %filters;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/shortdesc ">
 
@@ -160,6 +163,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ELEMENT prolog (%data;)* >
 <!ATTLIST prolog
              %localization;
+             %filters;
              class CDATA "- topic/prolog ">
 
 
@@ -239,6 +243,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ELEMENT dt             (%all-inline;)*        >
 <!ATTLIST dt
              %localization;
+             %filters;
              %reuse;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/dt ">
@@ -247,6 +252,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ELEMENT dd             (%list-blocks;)*        >
 <!ATTLIST dd
              %localization;
+             %filters;
              %reuse;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/dd ">
@@ -300,10 +306,12 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/stentry ">
 
+<!--                    LONG NAME: Figure  -->
 <!ELEMENT fig   (title?, desc?, (%fig-blocks;|image|xref)*)    >
 <!ATTLIST fig
              %display-atts;
              %localization;
+             %filters;
              outputclass CDATA #IMPLIED
              class CDATA "- topic/fig " >
 
@@ -312,6 +320,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ELEMENT desc		(%common-inline;)*        >
 <!ATTLIST desc
              %localization;
+             %filters;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/desc ">
 
@@ -319,6 +328,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ELEMENT ph             (%all-inline;)*        >
 <!ATTLIST ph
              %localization;
+             %filters;
              %variable-content;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/ph ">
@@ -330,6 +340,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              height     NMTOKEN                          #IMPLIED
              width      NMTOKEN                          #IMPLIED
              %localization;
+             %filters;
              %variable-content;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/image ">
@@ -338,6 +349,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ELEMENT alt           (#PCDATA|%ph;|%data;)*        >
 <!ATTLIST alt
              %localization;
+             %filters;
              %variable-content;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/alt ">
@@ -350,6 +362,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              value      CDATA                            #IMPLIED
              %reference-content;
              %variable-content;
+             %filters;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/data ">
 
@@ -358,6 +371,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ATTLIST xref
              %reference-content;
              %localization;
+             %filters;
              %variable-links;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/xref ">
