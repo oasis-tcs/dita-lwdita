@@ -28,7 +28,7 @@
      </row>
      <row>
       <entry>DITAArchVersion</entry>
-      <entry><xmlatt>DITAArchVersion</xmlatt></entry>
+      <entry><ph rev="review-2"><xmlatt>ditaarch:DITAArchVersion</xmlatt></ph></entry>
       <entry>Not applicable</entry>
      </row>
      <row>
