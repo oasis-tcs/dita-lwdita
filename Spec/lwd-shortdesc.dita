@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="topic_kc2_5xp_kx">
+  <title>Short description</title>
+  <shortdesc>A short description is a brief depiction of the purpose or theme of a
+    topic.</shortdesc>
+  <body>
+    <p>If needed, there's a paragraph here</p>
+  </body>
+</topic>

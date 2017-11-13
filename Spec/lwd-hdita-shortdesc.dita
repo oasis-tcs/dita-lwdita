@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="topic_kc2_5xp_kx">
+  <title>Short description in HDITA</title>
+  <shortdesc>In HDITA, a short description is a paragraph with the data attribute
+      <b>data-hd-class="shortdesc"</b>.</shortdesc>
+  <body>
+    
+    <section>
+      <title>Example</title>
+      
+      
+      <pre>&lt;p data-hd-class="shortdesc"&gt;We need a good paragraph on a subject that becomes a leitmotiff for the LwDITA spec.&lt;/p&gt;</pre>
+      
+    </section> 
+    
+    <section>
+      <title>Attributes</title>
+      <p conref="lwd-common.dita#lwdita-common/availableattributes" />
+      <ul>
+        <li><p>Sample attribute 1</p></li>
+        <li><p>Sample attribute 2</p></li>
+      </ul>
+      
+      
+    </section>
+    
+   
+  </body>
+</topic>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="lwdita-data">
+  <title>Data</title>
+  <shortdesc>Data is a metadata construct that stores a property and its associated value.</shortdesc>
+  <body>
+    <p></p>
+  </body>
+</topic>

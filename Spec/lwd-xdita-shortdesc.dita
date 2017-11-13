@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="topic_kc2_5xp_kx">
+  <title>Short description in XDITA</title>
+  <shortdesc>In XDITA, a short description is delimited by the tags &lt;shortdesc&gt; and
+    &lt;/shortdesc&gt;.</shortdesc>
+  <body>
+   
+   
+    <section>
+      <title>Example</title>
+      
+      
+      <pre>&lt;shortdesc&gt;We need a good paragraph on a subject that becomes a leitmotiff for the LwDITA spec.&lt;/shortdesc&gt;</pre>
+      
+    </section> 
+    
+    <section>
+      <title>Attributes</title>
+      <p conref="lwd-common.dita#lwdita-common/availableattributes" />
+      <ul>
+        <li><p>Sample attribute 1</p></li>
+        <li><p>Sample attribute 2</p></li>
+      </ul>
+      
+      
+    </section>
+  </body>
+</topic>

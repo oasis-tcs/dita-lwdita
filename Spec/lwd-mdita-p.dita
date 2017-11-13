@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="lwd-mdita-p">
+  <title>Paragraph in MDITA</title>
+  <shortdesc>In MDITA, a paragraph consists of one or more consecutive lines of text, separated from surrounding elements by one or more blank lines.</shortdesc>
+  <body>
+   
+        
+    <section>
+      <title>Example</title>
+   
+<pre>We need a good paragraph on a subject that becomes a leitmotiff for the LwDITA spec.
+      
+We need a second paragraph on a subject that becomes a leitmotiff for the LwDITA spec.</pre>
+    
+    </section>
+    
+    <section>
+      <title>Attributes</title>
+      <p conref="lwd-common.dita#lwdita-common/availableattributes" />
+      <ul>
+        <li><p>Sample attribute 1</p></li>
+        <li><p>Sample atrribute 2</p></li>
+      </ul>
+      
+      
+    </section>
+    
+    
+  </body>
+</topic>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="lw-introduction">
+  <title>Introduction to Lightweight DITA (LwDITA)</title>
+  <shortdesc>Lightweight DITA (LwDITA) is a simplified version of the Darwin Information Typing Architecture (DITA). In comparison to DITA 1.3, LwDITA has a smaller element and attribute set, stricter content models, and a reduced feature set. LwDITA also defines mappings between XML, HTML5, and Markdown, enabling authoring, collaboration, and publishing across different markup languages.</shortdesc>
+  <body>
+   <section><title>Why Lightweight DITA?</title>
+  
+<p>Lightweight DITA is a standards-based alternative for situations in which DITA 1.3 would be too complex or for communities that do not use XML as an authoring platform.</p>
+     <p>DITA 1.3 is a mature architecture with a deep set of advanced features. This maturity can be intimidating for those considering adoption, especially for simple scenarios. While simplified versions of DITA exist, most are vendor-developed and proprietary. A standards-based lightweight alternative will enable the DITA community to offer a common starting point for simple DITA scenarios that remains fully compatible with DITA 1.3.</p>
+     <p>Some authoring communities have strong ties to specific formats, such as Markdown or HTML. While these formats do not have the same expressiveness as XML, they bring with them a set of tools and practices that can be a natural fit with a DITA ecosystem. Lightweight DITA defines a lower-function level of interchange and mappings for HTML5 and Markdown, thus becoming the first version of DITA to be truly cross-format —allowing authoring and delivery in a mix of native formats that are all mapped to a common semantic standard.</p>
+    <p>The Lightweight DITA subcommittee began work by identifying key authoring communities that were interested in the benefits that LwDITA could provide; it then identified scenarios including cross-format authoring and reuse. LwDITA represents the common denominator for the functionality that is needed by the following authoring communities: learning and training, software documentation authored by subject matter experts (SMEs), and marketing content.</p>
+      </section>
+  </body>
+</topic>

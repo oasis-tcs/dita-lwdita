@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="lwdita-paragraph">
+  <title>Paragraph in XDITA</title>
+  <shortdesc>In XDITA, a paragraph is delimited by the tags &lt;p&gt; and &lt;/p&gt;.</shortdesc>
+  <body>
+    
+    
+   
+    <section>
+      <title>Example</title>
+ 
+     
+      <pre>&lt;p&gt;We need a good paragraph on a subject that becomes a leitmotiff for the LwDITA spec.&lt;/p&gt;</pre>
+      
+    </section> 
+    
+    <section>
+      <title>Attributes</title>
+      <p conref="lwd-common.dita#lwdita-common/availableattributes" />
+      <ul>
+        <li><p>Sample attribute 1</p></li>
+        <li><p>Sample atrribute 2</p></li>
+      </ul>
+      
+      
+    </section>
+  </body>
+</topic>

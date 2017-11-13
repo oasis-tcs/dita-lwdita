@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="lwd-hdita-p">
+  <title>Paragraph in HDITA</title>
+  <shortdesc>In XDITA, a paragraph is delimited by the tags &lt;p&gt; and &lt;/p&gt;.</shortdesc>
+  <body>
+    
+    <p>According to the <xref href="https://www.w3.org/TR/html5/grouping-content.html#the-p-element"
+        format="html" scope="external">HTML5 spec</xref>, a paragraph's "end tag may be omitted if
+      the p element is immediately followed by an address, article, aside, blockquote, div, dl,
+      fieldset, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, main, nav, ol, p, pre,
+      section, table, or ul, element, or if there is no more content in the parent element and the
+      parent element is not an a element."</p>
+    
+       
+    <section>
+      <title>Example</title>
+      
+      
+      <pre>&lt;p&gt;We need a good paragraph on a subject that becomes a leitmotiff for the LwDITA spec.&lt;/p&gt;</pre>
+      
+    </section> 
+    
+    
+    <section>
+      <title>Attributes</title>
+      <p conref="lwd-common.dita#lwdita-common/availableattributes" />
+      <ul>
+        <li><p>Sample attribute 1</p></li>
+        <li><p>Sample atrribute 2</p></li>
+      </ul>
+      
+      
+    </section>
+  </body>
+</topic>

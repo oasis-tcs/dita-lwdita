@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="topic_kc2_5xp_kx">
+  <title>Simple table</title>
+  <shortdesc>A simple table contains rows and entries, but it does not support spanning across rows
+    or columns</shortdesc>
+  <body>
+    <p></p>
+  </body>
+</topic>

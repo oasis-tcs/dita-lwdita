@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Lightweight DITA (LwDITA)</title>
+ <topicref href="lwd-introduction.dita" keys="introduction" />
+ <topicref href="lwd-rationale.dita" keys="rationale"/>
+ <topicref href="lwd-capabilities.dita" keys="capabilities"/>
+ <topicref href="lwd-terminology.dita" keys="terminology" />
+ 
+
+ 
+  <topicref href="lwd-modesintro.dita" keys="formatsintro">
+  <topicref href="lwd-xdita.dita" keys="xdita" />
+  <topicref href="lwd-hdita.dita" keys="hdita" />
+  <topicref href="lwd-mdita.dita" keys="mdita" />
+  </topicref>
+
+
+  <topicref href="lwd-specialization.dita" keys="specialization">
+  <topicref href="lwd-structuralannotations.dita" keys="structuralannotations"/>
+  <topicref href="lwd-domainannotations.dita" keys="domainannotations"/>
+  </topicref>
+
+ <topicref>
+  <topicmeta>
+   <navtitle>LwDITA elements</navtitle>
+  </topicmeta>
+
+ 
+  <topicref>
+   <topicmeta>
+    <navtitle>Basic topic elements</navtitle>
+   </topicmeta>
+   
+   <topicref href="lwd-topic.dita" keys="topic">
+    <topicref href="lwd-xdita-topic.dita" keys="xdita-topic" />
+    <topicref href="lwd-hdita-topic.dita" keys="hdita-topic" />
+    <topicref href="lwd-mdita-topic.dita" keys="mdita-topic" />
+   </topicref>
+   
+   <topicref href="lwd-title.dita" keys="title">
+    <topicref href="lwd-xdita-title.dita" keys="xdita-title" />
+    <topicref href="lwd-hdita-title.dita" keys="hdita-title" />
+    <topicref href="lwd-mdita-title.dita" keys="mdita-title" />
+   </topicref>
+   
+   <topicref href="lwd-shortdesc.dita" keys="shortdesc">
+    <topicref href="lwd-xdita-shortdesc.dita" keys="xdita-shortdesc" />
+    <topicref href="lwd-hdita-shortdesc.dita" keys="hdita-shortdesc" />
+    <topicref href="lwd-mdita-shortdesc.dita" keys="mdita-shortdesc" />
+   </topicref>
+   
+   <topicref href="lwd-body.dita" keys="body">
+    <topicref href="lwd-xdita-body.dita" keys="xdita-body" />
+    <topicref href="lwd-hdita-body.dita" keys="hdita-body" />
+    <topicref href="lwd-mdita-body.dita" keys="mdita-body" />
+   </topicref>
+   
+  </topicref>
+  
+  <topicref>
+   <topicmeta>
+    <navtitle>Body elements</navtitle>
+   </topicmeta>
+   
+   
+   <topicref href="lwd-alt.dita" keys="alt">
+    <topicref href="lwd-xdita-alt.dita" keys="xdita-alt" />
+    <topicref href="lwd-hdita-alt.dita" keys="hdita-alt" />
+    <topicref href="lwd-mdita-alt.dita" keys="mdita-alt" />
+   </topicref>
+
+   <topicref href="lwd-dd.dita" keys="dd">
+    <topicref href="lwd-xdita-dd.dita" keys="xdita-dd" />
+    <topicref href="lwd-hdita-dd.dita" keys="hdita-dd"/>
+    <topicref href="lwd-mdita-dd.dita" keys="mdita-dd" />
+   </topicref>
+
+   <topicref href="lwd-desc.dita" keys="desc">
+    <topicref href="lwd-xdita-desc.dita" />
+    <topicref href="lwd-hdita-desc.dita" />
+    <topicref href="lwd-mdita-desc.dita"/>
+   </topicref>
+   
+
+   <topicref href="lwd-dl.dita" keys="dl">
+    <topicref href="lwd-xdita-dl.dita" />
+    <topicref href="lwd-hdita-dl.dita" />
+    <topicref href="lwd-mdita-dl.dita"/>
+   </topicref>
+
+   <topicref href="lwd-dlentry.dita" navtitle="dlentry">
+    <topicref href="lwd-xdita-dlentry.dita" />
+    <topicref href="lwd-hdita-dlentry.dita" />
+    <topicref href="lwd-mdita-dlentry.dita"/>
+   </topicref>
+   
+   <topicref href="lwd-dt.dita" navtitle="dt">
+    <topicref href="lwd-xdita-dt.dita" />
+    <topicref href="lwd-hdita-dt.dita" />
+    <topicref href="lwd-mdita-dt.dita"/>
+   </topicref>
+   
+   
+   <topicref href="lwd-fig.dita" keys="fig">
+    <topicref href="lwd-xdita-fig.dita" />
+    <topicref href="lwd-hdita-fig.dita"  />
+    <topicref href="lwd-mdita-fig.dita"/>
+   </topicref>
+   
+   <topicref href="lwd-fn.dita" keys="fn" >
+    <topicref href="lwd-xdita-fn.dita" />
+    <topicref href="lwd-hdita-fn.dita"/>
+    <topicref href="lwd-mdita-fn.dita" />
+   </topicref>
+
+   
+   <topicref href="lwd-image.dita" keys="image" >
+    <topicref href="lwd-xdita-image.dita" />
+    <topicref href="lwd-hdita-image.dita"/>
+    <topicref href="lwd-mdita-image.dita" />
+   </topicref>
+ 
+  
+ <topicref href="lwd-li.dita" keys="li" >
+  <topicref href="lwd-xdita-li.dita" />
+  <topicref href="lwd-hdita-li.dita"/>
+  <topicref href="lwd-mdita-li.dita" />
+ </topicref>
+ 
+ <topicref href="lwd-image.dita" keys="note" >
+  <topicref href="lwd-xdita-image.dita" />
+  <topicref href="lwd-hdita-image.dita"/>
+  <topicref href="lwd-mdita-image.dita" />
+ </topicref>
+ 
+ <topicref href="lwd-ol.dita" keys="ol" >
+  <topicref href="lwd-xdita-ol.dita" />
+  <topicref href="lwd-hdita-ol.dita"/>
+  <topicref href="lwd-mdita-ol.dita" />
+ </topicref>
+ 
+ <topicref href="lwd-p.dita" keys="p" >
+  <topicref href="lwd-xdita-p.dita" />
+  <topicref href="lwd-hdita-p.dita"/>
+  <topicref href="lwd-mdita-p.dita" />
+ </topicref>
+  
+  
+ <topicref href="lwd-ph.dita" keys="phrase" >
+  <topicref href="lwd-xdita-ph.dita" />
+  <topicref href="lwd-hdita-ph.dita"/>
+  <topicref href="lwd-mdita-ph.dita" />
+ </topicref>
+  
+   <topicref href="lwd-pre.dita" keys="pre">
+    <topicref href="lwd-xdita-pre.dita" />
+    <topicref href="lwd-hdita-pre.dita" />
+    <topicref href="lwd-mdita-pre.dita" />
+   </topicref>
+ 
+ <topicref href="lwd-section.dita" keys="section">
+  <topicref href="lwd-xdita-section.dita" />
+  <topicref href="lwd-hdita-section.dita" />
+  <topicref href="lwd-mdita-section.dita" />
+ </topicref>
+
+ <topicref href="lwd-ul.dita" keys="ul">
+  <topicref href="lwd-xdita-ul.dita" />
+  <topicref href="lwd-hdita-ul.dita" />
+  <topicref href="lwd-mdita-ul.dita" />
+ </topicref>
+ 
+   <topicref href="lwd-xref.dita" keys="xref">
+    <topicref href="lwd-xdita-xref.dita" />
+    <topicref href="lwd-hdita-xref.dita" />
+    <topicref href="lwd-mdita-xref.dita" />
+   </topicref>
+
+</topicref>
+
+   <topicref>
+    <topicmeta>
+     <navtitle>Multimedia elements</navtitle>
+    </topicmeta>
+
+    <topicref href="lwd-audio.dita" keys="audio">
+     <topicref href="lwd-xdita-audio.dita" keys="xdita-audio"/>
+     <topicref href="lwd-hdita-audio.dita" keys="hdita-audio" />
+     <topicref href="lwd-mdita-audio.dita" keys="mdita-audio"/>
+    </topicref>
+    
+    <topicref href="lwd-autoplay.dita" keys="autoplay">
+     <topicref href="lwd-xdita-autoplay.dita" keys="xdita-autoplay"/>
+     <topicref href="lwd-hdita-autoplay.dita" keys="hdita-autoplay" />
+     <topicref href="lwd-mdita-autoplay.dita" keys="mdita-autoplay"/>
+    </topicref>
+    
+    <topicref href="lwd-controls.dita" keys="controls">
+     <topicref href="lwd-xdita-controls.dita" keys="xdita-controls"/>
+     <topicref href="lwd-hdita-controls.dita" keys="hdita-controls" />
+     <topicref href="lwd-mdita-controls.dita" keys="mdita-controls"/>
+    </topicref>
+    
+    <topicref href="lwd-loop.dita" keys="loop">
+     <topicref href="lwd-xdita-loop.dita" keys="xdita-loop"/>
+     <topicref href="lwd-hdita-loop.dita" keys="hdita-loop" />
+     <topicref href="lwd-mdita-loop.dita" keys="mdita-loop"/>
+    </topicref>
+    
+    <topicref href="lwd-muted.dita" keys="muted">
+     <topicref href="lwd-xdita-muted.dita" keys="xdita-muted"/>
+     <topicref href="lwd-hdita-muted.dita" keys="hdita-muted" />
+     <topicref href="lwd-mdita-muted.dita" keys="mdita-muted"/>
+    </topicref>
+    
+    <topicref href="lwd-poster.dita" keys="poster">
+     <topicref href="lwd-xdita-poster.dita" keys="xdita-poster"/>
+     <topicref href="lwd-hdita-poster.dita" keys="hdita-poster" />
+     <topicref href="lwd-mdita-poster.dita" keys="mdita-poster"/>
+    </topicref>
+    
+    <topicref href="lwd-source.dita" keys="source">
+     <topicref href="lwd-xdita-source.dita" keys="xdita-source"/>
+     <topicref href="lwd-hdita-source.dita" keys="hdita-source" />
+     <topicref href="lwd-mdita-source.dita" keys="mdita-source"/>
+    </topicref>
+    
+    <topicref href="lwd-track.dita" keys="track">
+     <topicref href="lwd-xdita-track.dita" keys="xdita-track"/>
+     <topicref href="lwd-hdita-track.dita" keys="hdita-track" />
+     <topicref href="lwd-mdita-track.dita" keys="mdita-track"/>
+    </topicref>
+    
+    <topicref href="lwd-video.dita" keys="video">
+     <topicref href="lwd-xdita-video.dita" keys="xdita-video" />
+     <topicref href="lwd-hdita-video.dita" keys="hdita-video" />
+     <topicref href="lwd-mdita-video.dita" keys="mdita-video" />
+    </topicref>
+    
+   </topicref>
+   
+ 
+   <topicref>
+    <topicmeta>
+     <navtitle>Table elements</navtitle>
+    </topicmeta>
+    <topicref href="lwd-simpletable.dita" keys="simpletable">
+     <topicref href="lwd-xdita-simpletable.dita"/>
+     <topicref href="lwd-hdita-simpletable.dita"/>
+     <topicref href="lwd-mdita-simpletable.dita"/>
+    </topicref>
+    
+    <topicref href="lwd-stentry.dita" keys="stentry">
+     <topicref href="lwd-xdita-stentry.dita"/>
+     <topicref href="lwd-hdita-stentry.dita"/>
+     <topicref href="lwd-mdita-stentry.dita"/>
+    </topicref>
+    
+    <topicref href="lwd-sthead.dita" keys="sthead">
+     <topicref href="lwd-xdita-sthead.dita"/>
+     <topicref href="lwd-hdita-sthead.dita"/>
+     <topicref href="lwd-mdita-sthead.dita"/>
+    </topicref>
+    
+    <topicref href="lwd-strow.dita" keys="strow">
+     <topicref href="lwd-xdita-strow.dita"/>
+     <topicref href="lwd-hdita-strow.dita" />
+     <topicref href="lwd-mdita-strow.dita"/>
+    </topicref>
+    
+   </topicref>
+     
+   
+  <topicref>
+   <topicmeta>
+    <navtitle>Related links elements</navtitle>
+   </topicmeta>
+  
+   
+   <topicref href="lwd-linktext.dita" keys="linktext">
+    <topicref href="lwd-xdita-linktext.dita"/>
+    <topicref href="lwd-hdita-linktext.dita" />
+    <topicref href="lwd-mdita-linktext.dita"/>
+ </topicref>
+ 
+</topicref>
+  
+  <topicref>
+   <topicmeta>
+    <navtitle>Map elements</navtitle>
+   </topicmeta>
+ 
+   <topicref href="lwd-map.dita" keys="map">
+    <topicref href="lwd-xdita-map.dita"/>
+    <topicref href="lwd-hdita-map.dita" />
+    <topicref href="lwd-mdita-map.dita"/>
+   </topicref>
+   
+   <topicref href="lwd-topicref.dita" keys="topicref">
+    <topicref href="lwd-xdita-topicref.dita"/>
+    <topicref href="lwd-hdita-topicref.dita" />
+    <topicref href="lwd-mdita-topicref.dita"/>
+   </topicref>
+  
+   <topicref href="lwd-topicmeta.dita" keys="topicmeta">
+    <topicref href="lwd-xdita-topicmeta.dita"/>
+    <topicref href="lwd-hdita-topicmeta.dita" />
+    <topicref href="lwd-mdita-topicmeta.dita"/>
+   </topicref>
+  
+  </topicref>
+  
+ <topicref>
+  <topicmeta>
+   <navtitle>Metadata element</navtitle>
+  </topicmeta>
+ 
+ 
+  <topicref href="lwd-prolog.dita" keys="prolog">
+   <topicref href="lwd-xdita-prolog.dita"/>
+   <topicref href="lwd-hdita-prolog.dita" />
+   <topicref href="lwd-mdita-prolog.dita"/>
+  </topicref>
+  
+ </topicref>
+ 
+  <topicref>
+   <topicmeta>
+    <navtitle>Highlighting elements</navtitle>
+   </topicmeta>
+
+   <topicref href="lwd-b.dita" keys="b">
+    <topicref href="lwd-xdita-b.dita"/>
+    <topicref href="lwd-hdita-b.dita" />
+    <topicref href="lwd-mdita-b.dita"/>
+   </topicref>
+  
+   <topicref href="lwd-i.dita" keys="i">
+    <topicref href="lwd-xdita-i.dita"/>
+    <topicref href="lwd-hdita-i.dita" />
+    <topicref href="lwd-mdita-i.dita"/>
+   </topicref>
+   
+   <topicref href="lwd-sub.dita" keys="sub">
+    <topicref href="lwd-xdita-sub.dita"/>
+    <topicref href="lwd-hdita-sub.dita" />
+    <topicref href="lwd-mdita-sub.dita"/>
+   </topicref>
+
+   <topicref href="lwd-sup.dita" keys="sup">
+    <topicref href="lwd-xdita-sup.dita"/>
+    <topicref href="lwd-hdita-sup.dita" />
+    <topicref href="lwd-mdita-sup.dita"/>
+   </topicref>
+   
+   <topicref href="lwd-u.dita" keys="u">
+    <topicref href="lwd-xdita-u.dita"/>
+    <topicref href="lwd-hdita-u.dita" />
+    <topicref href="lwd-mdita-u.dita"/>
+   </topicref>
+
+  </topicref>
+ 
+</topicref>
+ 
+ <topicref>
+  <topicmeta>
+   <navtitle>LwDITA attributes</navtitle>
+  </topicmeta>
+  
+  <topicref>
+   <topicmeta>
+   <navtitle>Architecture attributes</navtitle>
+  </topicmeta>
+  
+   <topicref href="lwd-ditaarch.dita" keys="ditaarch"/>
+   <topicref href="lwd-ditaarchversion.dita" keys="ditaarchversion"/>
+   <topicref href="lwd-domains.dita" keys="domains"/>
+ 
+  </topicref>
+  
+  
+  <topicref>
+   <topicmeta>
+    <navtitle>Localization attributes</navtitle>
+   </topicmeta>
+ 
+   <topicref href="lwd-dir.dita" keys="dir"/>
+   <topicref href="lwd-lang.dita" keys="lang"/>
+   <topicref href="lwd-translate.dita" keys="translate"/>
+   
+  </topicref>
+ 
+ 
+  <topicref>
+   <topicmeta>
+    <navtitle>Data definition attributes</navtitle>
+   </topicmeta>
+   
+   <topicref href="lwd-name.dita" keys="name"/>
+   <topicref href="lwd-value.dita" keys="value"/>
+ 
+   </topicref>
+    
+    
+  <topicref>
+   <topicmeta>
+    <navtitle>Figure display attributes</navtitle>
+   </topicmeta>
+   
+   <topicref href="lwd-expanse.dita" keys="expanse"/>
+   <topicref href="lwd-frame.dita" keys="frame"/>
+   <topicref href="lwd-scale.dita" keys="scale"/>
+   
+  </topicref>
+  
+  <topicref>
+   <topicmeta>
+    <navtitle>Filtering attribute</navtitle>
+   </topicmeta>
+   
+   <topicref href="lwd-props.dita" keys="props"/>
+   
+  </topicref>
+  
+  <topicref>
+   <topicmeta>
+    <navtitle>Footnote control attribute</navtitle>
+   </topicmeta>
+  
+   <topicref href="att.dita" keys="callout"/>
+   
+  </topicref>
+  
+  <topicref>
+   <topicmeta>
+    <navtitle>Image and video size attributes</navtitle>
+   </topicmeta>
+   
+   <topicref href="lwd-height.dita" keys="height"/>
+   <topicref href="lwd-width.dita" keys="width"/>
+
+  </topicref>
+
+
+  <topicref>
+   <topicmeta>
+    <navtitle>Note type attribute</navtitle>
+   </topicmeta>
+
+   <topicref href="lwd-type.dita" keys="type"/>
+   
+  </topicref>
+  
+  <topicref>
+   <topicmeta>
+    <navtitle>Processing attribute</navtitle>
+   </topicmeta>
+   
+   <topicref href="lwd-outputclass.dita" keys="outputclass"/>
+   
+  </topicref>
+  
+  <topicref>
+   <topicmeta>
+    <navtitle>Reference attributes</navtitle>
+   </topicmeta>
+   
+   <topicref href="lwd-href.dita" keys="href"/>
+   <topicref href="lwd-format.dita" keys="format"/>
+   <topicref href="lwd-scope.dita" keys="scope"/>
+
+  </topicref>
+
+
+  <topicref>
+   <topicmeta>
+    <navtitle>Reuse attributes</navtitle>
+   </topicmeta>
+   
+   <topicref href="lwd-id.dita" keys="id"/>
+   <topicref href="lwd-conref.dita" keys="conref"/>
+   
+  </topicref>
+   
+
+ </topicref>
+ 
+ <topicref href="lwd-common.dita" toc="no" keys="lwd-common" processing-role="resource-only"/>
+</map>

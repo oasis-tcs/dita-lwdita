@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="topic_kc2_5xp_kx">
+  <title>Terminology</title>
+  <body>
+    <p>HDITA, is valid HTML5 markup that also complies with the LwDITA standard.</p>
+    <p>MDITA, is valid CommonMark syntax that also complies with the LwDITA standard.</p>
+    
+  </body>
+</topic>

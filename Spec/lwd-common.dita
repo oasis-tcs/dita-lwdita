@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="lwdita-common">
+  <title>Common elements for reuse</title>
+ 
+<body> 
+ 
+  <p id="XDITAcontains">In an XDITA topic, this element contains the following:</p>
+  
+  <p id="XDITAcontained">In an XDITA topic, this element is contained by the following:</p>
+  
+  <p id="HDITAcontains">In an HDITA topic, this element contains the following:</p>
+  
+  <p id="HDITAcontained">In an HDITA topic, this element is contained by the following:</p>
+  
+  <p id="MDITAcontains">In an MDITA topic, this element contains the following:</p>
+  
+  <p id="MDITAcontained">In an MDITA topic, this element is contained by the following:</p>
+  
+  
+  <p id="availableattributes">The following attributes are available on this element:</p>
+  
+  <p id="ipsum">Bleeding edge blue sky thinking, nor on your plate. Please use "solutionise" instead of solution ideas! :) not the long pole in my tent, yet best practices. Highlights ladder up / ladder back to the strategy for highlights . Going forward run it up the flagpole we need to leverage our synergies. Ramp up hammer out, but organic growth. Your work on this project has been really impactful forcing function or high turnaround rate. Good optics.</p>
+    
+</body>  
+</topic>
