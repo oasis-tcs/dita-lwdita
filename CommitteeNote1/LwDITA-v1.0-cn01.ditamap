@@ -2,7 +2,8 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap outputclass="specification" xml:lang="en-us" chunk="to-content">
  <booktitle outputclass="specificationTitles">
-  <mainbooktitle outputclass="specificationTitle">Lightweight DITA: An Introduction</mainbooktitle>
+  <mainbooktitle outputclass="specificationTitle">Lightweight DITA: An Introduction Version
+   1.0</mainbooktitle>
   <booktitlealt outputclass="specificationSubtitle1"><keyword keyref="publication-level"
    /></booktitlealt>
   <booktitlealt outputclass="specificationLevel">1</booktitlealt>
