@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_kd4_c4c_pw">
+  <title>Comment resolution log</title>
+  <shortdesc>The table summarizes the comments that were received during the 30-day review of the
+    committee note "Lightweight DITA: An Introduction" and their resolution. Comments came to the
+    dita-comment, Lightweight DITA SC, and DITA TC mailing lists, and to Carlos Evia's email
+    address.</shortdesc>
+  <refbody>
+    <section>
+      <p>A status of "Completed" in the Disposition column indicates that the editors have
+        implemented the changes on which the TC decided, which are outlined in the Resolution
+        column. It also is a hyperlink to the GitHub commit notice.</p>
+      <p>The item number is a hyperlink to the e-mail on the dita-comment or DITA TC mailing lists.
+        Carlos Evia forwarded all relevant messages that he received to the DITA TC mailing
+        list.</p>
+      <p>The following abbreviations are used:</p>
+      <ul>
+        <li>CE = Carlos Evia</li>
+        <li>KJE = Kristen James Eberlein</li>
+        <li>AH = Alan Houser</li>
+      </ul>
+      <simpletable frame="all" relcolwidth="1.0* 1.02* 1.01* 1.01* 1.14* 1.01* 1.01* 1.01*">
+        <sthead>
+          <stentry>Item #</stentry>
+          <stentry>Date</stentry>
+          <stentry>Commenter</stentry>
+          <stentry>Description</stentry>
+          <stentry>Date acknowledged</stentry>
+          <stentry>Resolution</stentry>
+          <stentry>Disposition</stentry>
+          <stentry>Listed in errata document?</stentry>
+        </sthead>
+        <strow>
+          <stentry><xref
+              href="https://lists.oasis-open.org/archives/dita-comment/201711/msg00005.html"
+              format="html" scope="external">1</xref></stentry>
+          <stentry>28 November 2017</stentry>
+          <stentry>Roger Hadley</stentry>
+          <stentry/>
+          <stentry>7 December 2017</stentry>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xref
+              href="https://lists.oasis-open.org/archives/dita-comment/201711/msg00006.html"
+              format="html" scope="external">2</xref></stentry>
+          <stentry>28 November 2017</stentry>
+          <stentry>Scott Prentice</stentry>
+          <stentry/>
+          <stentry>7 December 2017</stentry>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xref
+              href="https://lists.oasis-open.org/archives/dita-comment/201711/msg00007.html"
+              format="html" scope="external">3</xref></stentry>
+          <stentry>29 November 2017</stentry>
+          <stentry>Jang Graat</stentry>
+          <stentry/>
+          <stentry>7 December 2017</stentry>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xref
+              href="https://lists.oasis-open.org/archives/dita-comment/201711/msg00008.html"
+              format="html" scope="external">4</xref></stentry>
+          <stentry>29 November 2017</stentry>
+          <stentry>Rodolfo Raya</stentry>
+          <stentry/>
+          <stentry>7 December 2017</stentry>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xref
+              href="https://lists.oasis-open.org/archives/dita-lightweight-dita/201712/msg00006.html"
+              format="html" scope="external">5</xref></stentry>
+          <stentry>11 December 2017</stentry>
+          <stentry>Keith Schengili-Roberts</stentry>
+          <stentry/>
+          <stentry>Not applicable</stentry>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xref
+              href="https://lists.oasis-open.org/archives/dita-lightweight-dita/201712/msg00008.html"
+              format="html" scope="external">6</xref></stentry>
+          <stentry>20 December 2017</stentry>
+          <stentry>Jang Graat</stentry>
+          <stentry/>
+          <stentry>Not applicable</stentry>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
+              format="html" scope="external">7</xref></stentry>
+          <stentry>4 December 2017</stentry>
+          <stentry>
+            <p>Fiona Hanington, via CE</p>
+          </stentry>
+          <stentry/>
+          <stentry>29 November 2017</stentry>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
+              format="html" scope="external">8</xref></stentry>
+          <stentry>4 December 2017</stentry>
+          <stentry>
+            <p>Chris Despopoulos, via CE</p>
+          </stentry>
+          <stentry/>
+          <stentry>28 November 2017</stentry>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
+              format="html" scope="external">9</xref></stentry>
+          <stentry>4 December 2017</stentry>
+          <stentry>Tom Johnson, via CE</stentry>
+          <stentry/>
+          <stentry>30 November 2017</stentry>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
+              format="html" scope="external">10</xref></stentry>
+          <stentry>4 December 2017</stentry>
+          <stentry>Radu Coravu, via CE</stentry>
+          <stentry/>
+          <stentry>4 December 2017</stentry>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+      </simpletable>
+    </section>
+  </refbody>
+</reference>
