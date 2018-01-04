@@ -260,8 +260,10 @@
           </stentry>
           <stentry>Fix redundant statement "can be aggregated together"</stentry>
           <stentry>28 November 2017</stentry>
-          <stentry/>
-          <stentry/>
+          <stentry>Change implemented by CE</stentry>
+          <stentry><xref
+              href="https://github.com/oasis-tcs/dita-lwdita/commit/7f3b2caee8792e30e60dd1ae63241fcb77c1de53"
+              format="html" scope="external">Completed</xref></stentry>
           <stentry/>
         </strow>
         <strow>
