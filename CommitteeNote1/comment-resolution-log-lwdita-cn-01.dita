@@ -116,7 +116,9 @@
           <stentry>Bold "Filtering attribute" subhead within attributes table</stentry>
           <stentry>7 December 2017</stentry>
           <stentry>Change implemented by CE</stentry>
-          <stentry>Completed</stentry>
+          <stentry><xref
+              href="https://github.com/oasis-tcs/dita-lwdita/commit/c46120946fe1d49e79d0326fee15e39756ecb2b2?diff=unified"
+              format="html" scope="external">Completed</xref></stentry>
           <stentry/>
         </strow>
         <strow>
@@ -177,8 +179,8 @@
           </stentry>
           <stentry>Consider Restructured Text as authoring format</stentry>
           <stentry>29 November 2017</stentry>
-          <stentry/>
-          <stentry/>
+          <stentry>It was considered but had no champion in SC</stentry>
+          <stentry>To be discussed in future version of LwDITA</stentry>
           <stentry/>
         </strow>
         <strow>
@@ -271,8 +273,9 @@
             <p>Why not just one Markdown version?</p>
           </stentry>
           <stentry>30 November 2017</stentry>
-          <stentry/>
-          <stentry/>
+          <stentry>Needed to provide an easy entry point for Markdown users; also, Markdown has
+            limitations as structured language that need HTML</stentry>
+          <stentry>Deferred</stentry>
           <stentry/>
         </strow>
         <strow>
@@ -283,7 +286,7 @@
           <stentry>Include definition list support in MDITA</stentry>
           <stentry>30 November 2017</stentry>
           <stentry>Not supported by GitHub-Flavored Markdown</stentry>
-          <stentry/>
+          <stentry>Deferred</stentry>
           <stentry/>
         </strow>
         <strow>
@@ -293,8 +296,8 @@
           <stentry>Tom Johnson, via CE</stentry>
           <stentry>Include conref support in MDITA (Markdown-based)</stentry>
           <stentry>30 November 2017</stentry>
-          <stentry/>
-          <stentry/>
+          <stentry>Considered many approaches before proposing HDITA snippets</stentry>
+          <stentry>Deferred</stentry>
           <stentry/>
         </strow>
         <strow>
@@ -331,8 +334,8 @@
             <p>Specify element ID in MDITA for a conref without HDITA snippet </p>
           </stentry>
           <stentry>4 December 2017</stentry>
-          <stentry/>
-          <stentry/>
+          <stentry>Considered Pandoc-like identifiers, but only work for headings and sections </stentry>
+          <stentry>Deferred</stentry>
           <stentry/>
         </strow>
         <strow>
@@ -340,7 +343,7 @@
               format="html" scope="external">16</xref></stentry>
           <stentry>4 December 2017</stentry>
           <stentry>Radu Coravu, via CE</stentry>
-          <stentry>Add mutlimedia elements later to keep LwDITA as a subset of DITA 1.3</stentry>
+          <stentry>Add multimedia elements later to keep LwDITA as a subset of DITA 1.3</stentry>
           <stentry>4 December 2017</stentry>
           <stentry/>
           <stentry/>
