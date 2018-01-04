@@ -37,7 +37,7 @@
               format="html" scope="external">1</xref></stentry>
           <stentry>28 November 2017</stentry>
           <stentry>Roger Hadley</stentry>
-          <stentry>List of DITA elements not present in LwDITA: "How would LwDITA authoring be
+          <stentry>List DITA elements not present in LwDITA: "How would LwDITA authoring be
             different in my content?"</stentry>
           <stentry>7 December 2017</stentry>
           <stentry/>
@@ -115,8 +115,8 @@
           <stentry>Scott Prentice</stentry>
           <stentry>Bold "Filtering attribute" subhead within attributes table</stentry>
           <stentry>7 December 2017</stentry>
-          <stentry/>
-          <stentry/>
+          <stentry>Change implemented by CE</stentry>
+          <stentry>Completed</stentry>
           <stentry/>
         </strow>
         <strow>
