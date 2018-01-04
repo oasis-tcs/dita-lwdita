@@ -26,8 +26,8 @@
   <p>These authoring formats will enable and enhance collaboration across divisional silos.
    Engineers can author in Markdown, marketing writers can author in HTML5, and technical writers
    and others familiar with DITA can author in XML. Documents authored in the various authoring
-   formats can be aggregated together and published as a single document collection. They also can
-   easily integrate into DITA 1.3 collections.</p>
+   formats can be aggregated and published as a single document collection. They also can easily
+   integrate into DITA 1.3 collections.</p>
  
   <p>These three authoring formats do not represent a final version of LwDITA. In the future, based
    on community interest and development resources, LwDITA might add <ph rev="review-1">mappings,
