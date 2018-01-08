@@ -4,8 +4,7 @@
     <subjectdef keys="revisions">
         <subjectdef keys="review-1"/>
         <subjectdef keys="review-2"/>
-        <subjectdef keys="review-3"/>
-        <subjectdef keys="review-4"/>
+        <subjectdef keys="public-review-1"/>
     </subjectdef>
     <subjectdef keys="outputclass-values">
         <subjectdef keys="cover"/>

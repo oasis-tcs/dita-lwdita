@@ -16,5 +16,11 @@
    <li>Cross-format authoring and publishing</li>
    <li>Current LwDITA tools</li>
   </ul>
+  <note rev="public-review-1">
+   <p>Lightweight DITA is a work in progress. This committee note outlines the current plans in
+    order to gain design clarity and receive feedback from potential users and implementers. Please
+    note that details might change between the publication of this committee note and the actual
+    release of the Lightweight DITA standard.</p>
+  </note>
  </conbody>
 </concept>
