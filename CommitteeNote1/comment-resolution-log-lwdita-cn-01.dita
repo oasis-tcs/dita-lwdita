@@ -51,8 +51,11 @@
           <stentry>Use the term "components" when referring to items like "Paragraph," and
             "elements" when talking about XML or HTML nodes (like "&lt;p>")</stentry>
           <stentry>7 December 2017</stentry>
-          <stentry/>
-          <stentry/>
+          <stentry>Will update topics that mention "elements" when talking about non-XML
+            structures</stentry>
+          <stentry><xref
+              href="https://github.com/oasis-tcs/dita-lwdita/commit/33f9d12339f2b0568737a57b8c1a85e8739ad451"
+              format="html" scope="external">Completed</xref></stentry>
         </strow>
         <strow>
           <stentry><xref
@@ -98,7 +101,7 @@
           <stentry>Add DITA-FMx to list of tools</stentry>
           <stentry>7 December 2017</stentry>
           <stentry>Discussed at subcommittee call</stentry>
-          <stentry/>
+          <stentry>Completed on wiki page</stentry>
         </strow>
         <strow>
           <stentry><xref
@@ -122,7 +125,9 @@
           <stentry>Do not mention any tools</stentry>
           <stentry>7 December 2017</stentry>
           <stentry>Will move "tools" topic to a wiki page maintained by subcommittee </stentry>
-          <stentry/>
+          <stentry><xref
+              href="https://github.com/oasis-tcs/dita-lwdita/commit/33f9d12339f2b0568737a57b8c1a85e8739ad451"
+              format="html" scope="external">Completed</xref></stentry>
         </strow>
         <strow>
           <stentry><xref
@@ -133,7 +138,9 @@
           <stentry>Do not mention any tools</stentry>
           <stentry>7 December 2017</stentry>
           <stentry>Will move "tools" topic to a wiki page maintained by subcommittee</stentry>
-          <stentry/>
+          <stentry><xref
+              href="https://github.com/oasis-tcs/dita-lwdita/commit/33f9d12339f2b0568737a57b8c1a85e8739ad451"
+              format="html" scope="external">Completed</xref></stentry>
         </strow>
         <strow>
           <stentry><xref
@@ -144,8 +151,11 @@
           <stentry>Explain proper way to call keyrefs in MDITA (HDITA snippet or CommonMark shortcut
             reference link)</stentry>
           <stentry>Not applicable</stentry>
-          <stentry>Official way is to use CommonMark shortcut reference links</stentry>
-          <stentry/>
+          <stentry>Official way is to use CommonMark shortcut reference links. Will update
+            samples</stentry>
+          <stentry><xref
+              href="https://github.com/oasis-tcs/dita-lwdita/commit/33f9d12339f2b0568737a57b8c1a85e8739ad451"
+              format="html" scope="external">Completed</xref></stentry>
         </strow>
         <strow>
           <stentry><xref
