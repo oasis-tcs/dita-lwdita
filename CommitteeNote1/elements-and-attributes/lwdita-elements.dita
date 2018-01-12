@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_ig4_cfb_dy">
- <title>DITA 1.3 elements in LwDITA</title>
- <shortdesc>This topic lists the DITA 1.3 elements that are available in LwDITA. It also lists how
+ <title>DITA 1.3 element <ph rev="public-review-1">types</ph> in LwDITA</title>
+ <shortdesc>This topic lists the DITA 1.3 element <ph rev="public-review-1">types</ph> that are available in LwDITA. It also lists how
   to represent them in XDITA, HDITA, and MDITA.</shortdesc>
  <conbody>
   
@@ -54,7 +54,8 @@
    <strow>
     <stentry>Definition list entry</stentry>
     <stentry><xmlelement>dlentry</xmlelement></stentry>
-    <stentry><ph rev="review-1">Possible with a combination of data attributes</ph><fn><ph rev="review-1">Although the XDITA element <xmlelement>dlentry</xmlelement> cannot be mapped directly to HTML5, an author can preserve the structure and attributes of a definition list in HDITA and MDITA with custom data attributes</ph></fn></stentry>
+    <stentry><ph rev="review-1">Possible with a combination of data attributes</ph><fn><ph
+     rev="review-1">Although the XDITA element <ph rev="public-review-1">type</ph> <xmlelement>dlentry</xmlelement> cannot be mapped directly to HTML5, an author can preserve the structure and attributes of a definition list in HDITA and MDITA with custom data attributes</ph></fn></stentry>
     <stentry><ph rev="review-1"><b>(MDITA extended profile)</b> Possible with a combination of data
       attributes</ph></stentry>
    </strow>
@@ -225,7 +226,8 @@
     <stentry>Title</stentry>
     <stentry><xmlelement>title</xmlelement></stentry>
     <stentry>
-     <lines><xmlelement>h1</xmlelement> <ph rev="review-1">and <xmlelement>title</xmlelement></ph> for topic<fn><ph rev="review-1">In order to generate valid DITA XML and HTML5, the XDITA element <xmlelement>title</xmlelement> should map to both <xmlelement>title</xmlelement> and <xmlelement>h1</xmlelement> in HDITA.</ph></fn>
+     <lines><xmlelement>h1</xmlelement> <ph rev="review-1">and <xmlelement>title</xmlelement></ph>
+      for topic<fn><ph rev="review-1">In order to generate valid DITA XML and HTML5, the XDITA element <ph rev="public-review-1">type</ph> <xmlelement>title</xmlelement> should map to both <xmlelement>title</xmlelement> and <xmlelement>h1</xmlelement> in HDITA.</ph></fn>
 <xmlelement>h2</xmlelement> for section </lines>
     </stentry>
     <stentry>

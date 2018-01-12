@@ -173,6 +173,11 @@
       <entry><ph rev="review-1"><xmlatt>data-conref</xmlatt></ph></entry>
      </row>
      <row>
+      <entry><ph rev="public-review-1">Key reference</ph></entry>
+      <entry><ph rev="public-review-1"><xmlatt>keyref</xmlatt></ph></entry>
+      <entry><ph rev="public-review-1"><xmlatt>data-keyref</xmlatt></ph></entry>
+     </row>
+     <row>
       <entry namest="c1" nameend="c3"><b>Video size</b></entry>
      </row>
      <row>

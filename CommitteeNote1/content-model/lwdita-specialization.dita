@@ -7,11 +7,15 @@
 
  <p rev="review-1">Because LwDITA is a proposed standard that spans multiple authoring formats, coordination of the same specialization rules across markup languages poses some unique challenges compared to DITA XML. Therefore, not all LwDITA formats will support specialization to the same degree.</p>
  <ul rev="review-1">
-  <li>In XDITA, authors can build new elements and attributes following the base architecture of
-    LwDITA. Authors cannot add elements from DITA 1.3 to an XDITA specialization. For example, authors working in LwDITA cannot create an element <xmlelement>training-video</xmlelement> specialized from the DITA 1.3 element <xmlelement>object</xmlelement>. They must specialize it from the XDITA element  <xmlelement>video</xmlelement>.</li>
-  <li>In HDITA, an author can express specialized relationships for any content element using HTML5 custom data attributes.</li>
+   <li>In XDITA, authors can build new element <ph rev="public-review-1">types</ph> and attributes following the base architecture of
+     LwDITA. Authors cannot add element <ph rev="public-review-1">types</ph> from DITA 1.3 to an
+     XDITA specialization. For example, authors working in LwDITA cannot create an element <ph
+       rev="public-review-1">type</ph> <xmlelement>training-video</xmlelement> specialized from the
+     DITA 1.3 element <ph rev="public-review-1">type</ph> <xmlelement>object</xmlelement>. They must specialize it from the XDITA element <ph rev="public-review-1">type</ph>  <xmlelement>video</xmlelement>.</li>
+   <li>In HDITA, an author can express specialized relationships for any content element <ph rev="public-review-1">type</ph> using HTML5 custom data attributes.</li>
   <li>In MDITA, the lack of structuring tags does not allow authors to assign reliable attributes to
-        particular elements within a piece of content. As a result, specialization within MDITA <ph
+    particular <ph rev="public-review-1"><!-- elements -->
+      components</ph> within a piece of content. As a result, specialization within MDITA <ph
           rev="review-2">is</ph> limited to a subset of use cases (for example, section-level
         specialization) using raw HDITA syntax.</li>
  </ul>

@@ -32,7 +32,7 @@
    <dlentry> 
     <dt>extended profile</dt>
     <dd>(MDITA) The authoring profile that relies on specific Markdown variants <ph rev="review-2">to access DITA features such</ph> as the <xmlatt>id</xmlatt> attribute on the root element, prolog
-     metadata, and optional use of HTML elements.</dd>
+     metadata, and optional use of HTML element <ph rev="public-review-1">types</ph>.</dd>
    </dlentry>
    <dlentry>
     <dt>HDITA</dt>

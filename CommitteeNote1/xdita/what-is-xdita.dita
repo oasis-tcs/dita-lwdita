@@ -3,6 +3,6 @@
 <concept id="what-is-xdita">
  <title>XDITA</title>
  <shortdesc>XDITA is the authoring format of LwDITA that uses XML to structure information. XDITA is
-  a subset of DITA, with new multimedia elements added to support interoperability with
+   a subset of DITA, with new multimedia element <ph rev="public-review-1">types</ph> added to support interoperability with
   HTML5.</shortdesc>
 </concept>

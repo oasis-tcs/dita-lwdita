@@ -2,8 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="xdita-example">
  <title>Example of an XDITA topic</title>
- <shortdesc>The following topic is authored in XDITA. In addition to basic DITA elements, note
-   the new <xmlelement>video</xmlelement> element that is  highlighted in bold.</shortdesc>
+  <shortdesc>The following topic is authored in XDITA. In addition to basic DITA element <ph
+    rev="public-review-1">types</ph>, note
+    the new <xmlelement>video</xmlelement> element <ph rev="public-review-1">type</ph> that is  highlighted in bold.</shortdesc>
  <conbody>
     <codeblock>&lt;topic id="install-and-setup">
   &lt;title>Installing and Setting up Remote Lighting&lt;/title>

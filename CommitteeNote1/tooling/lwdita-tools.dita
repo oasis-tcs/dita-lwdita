@@ -5,7 +5,21 @@
  <shortdesc><ph rev="review-1">Although many of the LwDITA elements and workflows proposed in this document are still experimental,</ph> tools already exist to support organizations who want to explore using
     LwDITA.</shortdesc>
  <conbody>
-    <dl>
+   <p>The DITA Technical Committee expects that the release of Lightweight DITA as an OASIS standard
+     will lead to a rapid increase in the number of commercial and open-source tools that provide
+     support for LwDITA.</p>
+   <p><ph rev="public-review-1">The Lightweight DITA subcommittee maintains a wiki page with a list
+        of LwDITA tools and resources. The page can be accessed at <xref
+          href="https://wiki.oasis-open.org/dita/LightweightDITASubcommittee/lwditatools"
+          format="html" scope="external"
+          >https://wiki.oasis-open.org/dita/LightweightDITASubcommittee/lwditatools</xref></ph></p>
+   <p><ph rev="public-review-1">Tool developers interested in having resources listed on the wiki
+        page should email the Lightweight DITA subcommittee at <xref
+          href="dita-lightweight-dita-chair@lists.oasis-open.org" format="mail"
+          scope="external">dita-lightweight-dita-chair@lists.oasis-open.org</xref></ph></p>
+   
+   <!--       
+   <dl>
       <dlentry>
         <dt><ph rev="review-1">DITA Open Toolkit, versions 2.5.1 and later</ph></dt>
         <dd><ph rev="review-1">The DITA Open Toolkit can be used with the DTD files produced by the
@@ -36,11 +50,14 @@
             XDITA by incorporating the DTD files produced by the Lightweight DITA subcommittee. </p>
         </dd>
       </dlentry>
+   
     </dl>
-    <!--<draft-comment><p>Other tooling:</p><ul><li>Tool in-progress by Tim Grantham for the Lightweight DITA subcommittee</li><li>CitecFemton</li><li>DoX CMS</li></ul></draft-comment>-->
-  <p>The DITA Technical Committee expects that the release of Lightweight DITA as an OASIS standard
-      will lead to a rapid increase in the number of commercial and open-source tools that provide
-      support for LwDITA.</p>
+    -->
+
+ 
+     
+    
+  
   
  </conbody>
 </concept>

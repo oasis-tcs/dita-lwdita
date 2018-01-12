@@ -2,7 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="hdita-example">
  <title>Example of an HDITA topic</title>
- <shortdesc>The following topic is authored in HDITA. The topic uses HTML5 elements and custom data
+  <shortdesc>The following topic is authored in HDITA. The topic uses HTML5 element <ph
+    rev="public-review-1">types</ph> and custom data
     attributes  for content reuse and compatibility with DITA. The custom data attribute highlighted
     in bold includes a content reference from a DITA topic with a disclaimer expected from all
     topics in this fictional scenario. </shortdesc>

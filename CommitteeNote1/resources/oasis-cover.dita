@@ -87,7 +87,8 @@
     </section>
     <section id="abstract">
       <title>Abstract</title>
-      <p>Lightweight DITA (LwDITA) is a simplified version of DITA. In comparison to DITA 1.3, LwDITA has a <ph rev="review-2">smaller</ph> element and
+      <p>Lightweight DITA (LwDITA) is a simplified version of DITA. In comparison to DITA 1.3,
+        LwDITA has a <ph rev="review-2">smaller</ph> element <ph rev="public-review-1">type</ph> and
         attribute set, stricter content models, and <ph rev="review-2">a reduced feature set</ph>.
         LwDITA also <ph rev="review-2">defines</ph> mappings between XML, HTML5, and Markdown,
         enabling authoring, collaboration, and publishing across different markup languages.</p>

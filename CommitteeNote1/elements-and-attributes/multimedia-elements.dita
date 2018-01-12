@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="multimedia-elements">
- <title>New elements</title>
- <shortdesc>This topic lists the new XML elements that are part of LwDITA and how to represent them
-  in XDITA and HDITA. These new elements are not available in the MDITA core profile and, if needed,
+ <title>New element <ph rev="public-review-1">types</ph></title>
+ <shortdesc>This topic lists the new XML element <ph rev="public-review-1">types</ph> that are part of LwDITA and how to represent them
+  in XDITA and HDITA. These new element <ph rev="public-review-1">types</ph> are not available in the MDITA core profile and, if needed,
   can be represented with their HDITA equivalents as part of the MDITA extended profile.</shortdesc>
  <conbody>
   <simpletable frame="all" relcolwidth="1.0* 1.0* 1.0*" id="simpletable_mry_y2b_dy">
