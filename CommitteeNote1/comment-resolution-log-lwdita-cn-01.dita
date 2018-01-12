@@ -20,7 +20,7 @@
         <li>KJE = Kristen James Eberlein</li>
         <li>AH = Alan Houser</li>
       </ul>
-      <simpletable frame="all" relcolwidth="1.0* 1.02* 1.01* 1.01* 1.14* 1.01* 1.01* 1.01*">
+      <simpletable frame="all" relcolwidth="1.0* 1.02* 1.01* 1.01* 1.14* 1.01* 1.01*">
         <sthead>
           <stentry>Item #</stentry>
           <stentry>Date</stentry>
@@ -29,7 +29,6 @@
           <stentry>Date acknowledged</stentry>
           <stentry>Resolution</stentry>
           <stentry>Disposition</stentry>
-          <stentry>Listed in committee note?</stentry>
         </sthead>
         <strow>
           <stentry><xref
@@ -40,9 +39,8 @@
           <stentry>List DITA elements not present in LwDITA: "How would LwDITA authoring be
             different in my content?"</stentry>
           <stentry>7 December 2017</stentry>
-          <stentry/>
-          <stentry/>
-          <stentry/>
+          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>No change required</stentry>
         </strow>
         <strow>
           <stentry><xref
@@ -55,7 +53,6 @@
           <stentry>7 December 2017</stentry>
           <stentry/>
           <stentry/>
-          <stentry/>
         </strow>
         <strow>
           <stentry><xref
@@ -65,9 +62,8 @@
           <stentry>Scott Prentice</stentry>
           <stentry>Mention if image is always inline and fig/image is break</stentry>
           <stentry>7 December 2017</stentry>
-          <stentry/>
-          <stentry/>
-          <stentry/>
+          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>Deferred for LwDITA spec</stentry>
         </strow>
         <strow>
           <stentry><xref
@@ -79,9 +75,8 @@
             <p>Note the need for map/topicmeta/navtitle in lieu of map/title</p>
           </stentry>
           <stentry>7 December 2017</stentry>
-          <stentry/>
-          <stentry/>
-          <stentry/>
+          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>Deferred for LwDITA spec</stentry>
         </strow>
         <strow>
           <stentry><xref
@@ -91,9 +86,8 @@
           <stentry>Scott Prentice</stentry>
           <stentry>Include topicref/@processing-role </stentry>
           <stentry>7 December 2017</stentry>
-          <stentry/>
-          <stentry/>
-          <stentry/>
+          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>Deferred for LwDITA spec</stentry>
         </strow>
         <strow>
           <stentry><xref
@@ -103,8 +97,7 @@
           <stentry>Scott Prentice</stentry>
           <stentry>Add DITA-FMx to list of tools</stentry>
           <stentry>7 December 2017</stentry>
-          <stentry/>
-          <stentry/>
+          <stentry>Discussed at subcommittee call</stentry>
           <stentry/>
         </strow>
         <strow>
@@ -119,7 +112,6 @@
           <stentry><xref
               href="https://github.com/oasis-tcs/dita-lwdita/commit/c46120946fe1d49e79d0326fee15e39756ecb2b2?diff=unified"
               format="html" scope="external">Completed</xref></stentry>
-          <stentry/>
         </strow>
         <strow>
           <stentry><xref
@@ -129,8 +121,7 @@
           <stentry>Jang Graat</stentry>
           <stentry>Do not mention any tools</stentry>
           <stentry>7 December 2017</stentry>
-          <stentry/>
-          <stentry/>
+          <stentry>Will move "tools" topic to a wiki page maintained by subcommittee </stentry>
           <stentry/>
         </strow>
         <strow>
@@ -141,8 +132,7 @@
           <stentry>Rodolfo Raya</stentry>
           <stentry>Do not mention any tools</stentry>
           <stentry>7 December 2017</stentry>
-          <stentry/>
-          <stentry/>
+          <stentry>Will move "tools" topic to a wiki page maintained by subcommittee</stentry>
           <stentry/>
         </strow>
         <strow>
@@ -154,8 +144,7 @@
           <stentry>Explain proper way to call keyrefs in MDITA (HDITA snippet or CommonMark shortcut
             reference link)</stentry>
           <stentry>Not applicable</stentry>
-          <stentry/>
-          <stentry/>
+          <stentry>Official way is to use CommonMark shortcut reference links</stentry>
           <stentry/>
         </strow>
         <strow>
@@ -166,190 +155,8 @@
           <stentry>Jang Graat</stentry>
           <stentry>Explain (all?) design decisions?</stentry>
           <stentry>Not applicable</stentry>
-          <stentry/>
-          <stentry/>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">12</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>
-            <p>Fiona Hanington, via CE</p>
-          </stentry>
-          <stentry>Consider Restructured Text as authoring format</stentry>
-          <stentry>29 November 2017</stentry>
-          <stentry>It was considered but had no champion in SC</stentry>
-          <stentry>To be discussed in future version of LwDITA</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">13</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>
-            <p>Chris Despopoulos, via CE</p>
-          </stentry>
-          <stentry>Spell out use cases in "Why LwDITA" topic ("collaboration with engineers,
-            breaking into the Marketing silo, aggregating content to generate XDITA out of a mixed
-            book that you can send to an OEM")</stentry>
-          <stentry>28 November 2017</stentry>
-          <stentry/>
-          <stentry/>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">14</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>
-            <p>Chris Despopoulos, via CE</p>
-          </stentry>
-          <stentry>Clarify need for multimedia domain to be added to 1.3</stentry>
-          <stentry>28 November 2017</stentry>
-          <stentry/>
-          <stentry/>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">15</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>
-            <p>Chris Despopoulos, via CE</p>
-          </stentry>
-          <stentry>Check references to DITA as a language instead of a grammar</stentry>
-          <stentry>28 November 2017</stentry>
-          <stentry/>
-          <stentry/>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">16</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>
-            <p>Chris Despopoulos, via CE</p>
-          </stentry>
-          <stentry>Be consistent when using element types/elements</stentry>
-          <stentry>28 November 2017</stentry>
-          <stentry/>
-          <stentry/>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">17</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>
-            <p>Chris Despopoulos, via CE</p>
-          </stentry>
-          <stentry>Rephrase "These authoring formats will enable and enhance collaboration across
-            divisional silos" to present as hypothesis or claim</stentry>
-          <stentry>28 November 2017</stentry>
-          <stentry/>
-          <stentry/>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">18</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>
-            <p>Chris Despopoulos, via CE</p>
-          </stentry>
-          <stentry>Fix redundant statement "can be aggregated together"</stentry>
-          <stentry>28 November 2017</stentry>
-          <stentry>Change implemented by CE</stentry>
-          <stentry><xref
-              href="https://github.com/oasis-tcs/dita-lwdita/commit/7f3b2caee8792e30e60dd1ae63241fcb77c1de53"
-              format="html" scope="external">Completed</xref></stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">10</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>Tom Johnson, via CE</stentry>
-          <stentry>
-            <p>Why not just one Markdown version?</p>
-          </stentry>
-          <stentry>30 November 2017</stentry>
-          <stentry>Needed to provide an easy entry point for Markdown users; also, Markdown has
-            limitations as structured language that need HTML</stentry>
-          <stentry>Deferred</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">11</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>Tom Johnson, via CE</stentry>
-          <stentry>Include definition list support in MDITA</stentry>
-          <stentry>30 November 2017</stentry>
-          <stentry>Not supported by GitHub-Flavored Markdown</stentry>
-          <stentry>Deferred</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">12</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>Tom Johnson, via CE</stentry>
-          <stentry>Include conref support in MDITA (Markdown-based)</stentry>
-          <stentry>30 November 2017</stentry>
-          <stentry>Considered many approaches before proposing HDITA snippets</stentry>
-          <stentry>Deferred</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">13</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>Radu Coravu, via CE</stentry>
-          <stentry>Add DITA-OT Markdown support to tools section</stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry/>
-          <stentry/>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">14</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>Radu Coravu, via CE</stentry>
-          <stentry>
-            <p>Support for both "keyref" and "conref" is a little bit strange. It becomes a mix of
-              DITA 1.1 and 1.2 functionality</p>
-          </stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry/>
-          <stentry/>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">15</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>Radu Coravu, via CE</stentry>
-          <stentry>
-            <p>Specify element ID in MDITA for a conref without HDITA snippet </p>
-          </stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>Considered Pandoc-like identifiers, but only work for headings and sections </stentry>
-          <stentry>Deferred</stentry>
-          <stentry/>
-        </strow>
-        <strow>
-          <stentry><xref href="https://lists.oasis-open.org/archives/dita/201712/msg00009.html"
-              format="html" scope="external">16</xref></stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry>Radu Coravu, via CE</stentry>
-          <stentry>Add multimedia elements later to keep LwDITA as a subset of DITA 1.3</stentry>
-          <stentry>4 December 2017</stentry>
-          <stentry/>
-          <stentry/>
-          <stentry/>
+          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>No change required</stentry>
         </strow>
       </simpletable>
     </section>
