@@ -9,8 +9,8 @@
   <p>This strict content model minimizes authoring decisions by presenting limited choices for
    elements and attributes. This model, however, depends on a few strict rules. For example, in
    XDITA and HDITA, with a few exceptions, all text must be within paragraph elements. Exceptions
-   are the description, short description, and title elements. Within paragraphs, the following
-   inline <ph rev="public-review-1"><!-- elements -->components</ph> can appear:</p>
+   are the description, short description, and title elements. Within paragraphs, the following can
+   appear:</p>
   <ul>
    <li>Bold</li>
    <li>Italics</li>
@@ -41,8 +41,7 @@
   &lt;/section></codeblock>
   <p>Note that all text is wrapped in <xmlelement>p</xmlelement> elements. This restriction of mixed
    content in block elements simplifies tool development for processing LwDITA content, and it also
-   enables easier content reuse, as authors can <ph rev="review-1">use <xmlatt>conref</xmlatt> in
-    paragraphs from most of the block <ph rev="public-review-1"
-    ><!-- elements -->components</ph></ph> that are available in LwDITA. </p>
+   enables easier content reuse, as authors can <ph rev="review-1">conref paragraphs from most of
+    the block contexts</ph> that are available in LwDITA.</p>
  </conbody>
 </concept>

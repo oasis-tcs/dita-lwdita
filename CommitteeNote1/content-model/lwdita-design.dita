@@ -2,12 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="lwdita-design">
  <title>Lightweight DITA design</title>
-  <shortdesc>LwDITA is designed to have a smaller <ph rev="public-review-1"
-      ><!-- element -->component</ph> set, a stricter content model, and fewer reuse mechanisms than
-    DITA 1.3. However, LwDITA also includes new <ph rev="public-review-1"
-      ><!--
-      elements -->components</ph>
-    <ph rev="review-1"><!-- and attributes --></ph> that provide increased multimedia support.
-    <!-- and lay the groundwork for a
-  simplified process for specializing topics. --></shortdesc>
+  <shortdesc>LwDITA is designed to have a smaller element set, a stricter content model, and fewer
+    reuse mechanisms than DITA 1.3. However, LwDITA also includes new <ph rev="public-review-1"
+      >components</ph> that provide increased multimedia support.</shortdesc>
 </concept>

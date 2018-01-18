@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_ig4_cfb_dy">
- <title>DITA 1.3 element <ph rev="public-review-1">types</ph> in LwDITA</title>
- <shortdesc>This topic lists the DITA 1.3 element <ph rev="public-review-1">types</ph> that are available in LwDITA. It also lists how
-  to represent them in XDITA, HDITA, and MDITA.</shortdesc>
+ <title>DITA 1.3 <ph rev="public-review-1">element types</ph> in LwDITA</title>
+ <shortdesc>This topic lists the DITA 1.3 e<ph rev="public-review-1">element types</ph> that are
+  available in LwDITA. It also lists how to represent them in XDITA, HDITA, and MDITA.</shortdesc>
  <conbody>
   
   <simpletable frame="all" relcolwidth="1.0* .75* 1.0* 1.0*">

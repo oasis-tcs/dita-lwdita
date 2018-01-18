@@ -10,7 +10,7 @@
       <dlentry>
         <dt>Core profile</dt>
         <dd>Aligns with the GitHub Flavored Markdown spec and includes <ph rev="public-review-1"
-            ><!-- elements -->components</ph> common to <i>most</i> Markdown flavors.</dd>
+            >markup</ph> common to <i>most</i> Markdown flavors.</dd>
       </dlentry>
       <dlentry>
         <dt>Extended profile</dt>

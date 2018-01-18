@@ -2,9 +2,9 @@
 <val>
 
   <!-- Values used to generate revision marking -->
-  <revprop action="flag" color="red" val="review-1">
-    <startflag><alt-text>►</alt-text></startflag>
-    <endflag><alt-text>◄</alt-text></endflag>
+  <revprop action="flag" color="red" val="public-review-1">
+    <!--<startflag><alt-text>►</alt-text></startflag>
+    <endflag><alt-text>◄</alt-text></endflag>-->
   </revprop>
     
 </val>
