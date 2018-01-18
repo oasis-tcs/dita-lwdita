@@ -10,8 +10,8 @@
   &lt;title>Low-Power Networking&lt;/title>   
   &lt;article id="low-power">
     &lt;h1>Low-Power Networking&lt;/h1> 
-    &lt;p>Your <b>&lt;span data-keyref="product-name" /></b> operates at a low level of networking power but can successfully connect at long distances because they can send information from light bulb to light bulb.&lt;/p>
-<b>&lt;p data-conref="bulbs-to-groups.dita#bulbs-to-groups/assign-disclaimer" /></b>
+    &lt;p>Your <b>&lt;span data-keyref="product-name">&lt;/span></b> operates at a low level of networking power but can successfully connect at long distances because they can send information from light bulb to light bulb.&lt;/p>
+<b>&lt;p data-conref="bulbs-to-groups.dita#bulbs-to-groups/assign-disclaimer">&lt;/p></b>
     &lt;p id="disconnect-warning" class="note">Even in low power networks, be sure to disconnect all devices before performing maintenance tasks.&lt;/p>
   &lt;/article>
 &lt;/html></codeblock>
