@@ -2,7 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="subset-of-reuse-mechanisms">
  <title>Subset of reuse mechanisms</title>
- <shortdesc>LwDITA <ph rev="review-2">offers a subset of the reuse mechanisms available in DITA 1.3.</ph></shortdesc>
+ <shortdesc>LwDITA <ph rev="review-2">offers a subset of the reuse mechanisms <ph
+        rev="public-review-1">that are</ph> available in DITA 1.3.</ph></shortdesc>
  <conbody>
   <dl>
    <dlentry>
@@ -14,10 +15,8 @@
     <dt>Content reference</dt>
     <dd>
      <p>The <xmlatt>conref</xmlatt> (in XDITA) or <ph rev="review-1"
-       ><xmlatt>data-conref</xmlatt></ph> (in HDITA and MDITA extended profile) attribute is
-      available on the following <ph rev="public-review-1"
-      ><!--
-       elements -->components</ph>:</p>
+              ><xmlatt>data-conref</xmlatt></ph> (in HDITA and MDITA extended profile) attribute is
+            available on the following <ph rev="public-review-1">document components</ph>:</p>
      <ul>
       <li>Audio</li>
       <li>Definition description</li>
@@ -47,9 +46,8 @@
     <dt>Key reference</dt>
     <dd>The <xmlatt>keyref</xmlatt> (in XDITA) or <ph rev="review-1"><xmlatt>data-keyref</xmlatt>
       (in HDITA) or <codeph>[keyref]</codeph> (in MDITA extended profile) attribute can be used on
-      the phrase (XDITA) or span (HDITA) <ph rev="public-review-1"><!-- element -->component</ph>.
-      It is also available on links, alternative text, and data <ph rev="public-review-1"
-       ><!-- elements -->components</ph>.</ph>
+      phrase (XDITA) or span (HDITA). It is also available on links, alternative text, and
+      data.</ph>
     </dd>
    </dlentry>
    
@@ -61,8 +59,8 @@
    
    <dlentry>
     <dt>Variable text</dt>
-    <dd>For variable text, such as product names, authors can use <xmlatt>keyref</xmlatt> on phrase (XDITA)
-     or span (HDITA).</dd>
+    <dd>For variable text, such as product names, authors can use <xmlatt>keyref</xmlatt> on phrase
+     (XDITA) or span (HDITA).</dd>
    </dlentry>
    
    
