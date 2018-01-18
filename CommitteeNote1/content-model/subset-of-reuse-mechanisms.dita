@@ -13,10 +13,11 @@
    <dlentry>
     <dt>Content reference</dt>
     <dd>
-     <p>The <xmlatt>conref</xmlatt> (in XDITA) or <ph rev="review-1"><xmlatt>data-conref</xmlatt></ph> (in HDITA and MDITA
-      extended profile) attribute is available on the following <ph rev="public-review-1"><!--
-       elements -->
-       components</ph>:</p>
+     <p>The <xmlatt>conref</xmlatt> (in XDITA) or <ph rev="review-1"
+       ><xmlatt>data-conref</xmlatt></ph> (in HDITA and MDITA extended profile) attribute is
+      available on the following <ph rev="public-review-1"
+      ><!--
+       elements -->components</ph>:</p>
      <ul>
       <li>Audio</li>
       <li>Definition description</li>
@@ -44,12 +45,12 @@
    </dlentry>
    <dlentry>
     <dt>Key reference</dt>
-    <dd>The <xmlatt>keyref</xmlatt> (in XDITA) or <ph rev="review-1"
-     ><xmlatt>data-keyref</xmlatt> (in HDITA) or <codeph>[keyref]</codeph> (in MDITA extended profile) attribute can be used
-     on the phrase (XDITA) or span (HDITA) <ph rev="public-review-1"><!-- element -->
-      component</ph>. It is also available on links, alternative text, and data
-     <ph rev="public-review-1"><!-- elements -->
-      components</ph>.</ph> </dd>
+    <dd>The <xmlatt>keyref</xmlatt> (in XDITA) or <ph rev="review-1"><xmlatt>data-keyref</xmlatt>
+      (in HDITA) or <codeph>[keyref]</codeph> (in MDITA extended profile) attribute can be used on
+      the phrase (XDITA) or span (HDITA) <ph rev="public-review-1"><!-- element -->component</ph>.
+      It is also available on links, alternative text, and data <ph rev="public-review-1"
+       ><!-- elements -->components</ph>.</ph>
+    </dd>
    </dlentry>
    
    <dlentry>

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="new-elements-and-attributes">
- <title>New multimedia <ph rev="public-review-1"><!-- elements -->
-  components</ph></title>
- <shortdesc>LwDITA adds new <ph rev="public-review-1"><!-- elements -->
-  components</ph> for multimedia content. <ph rev="review-2">These <ph rev="public-review-1"><!--
-   elements -->
-   components</ph> are
-   compatible with HTML5; they are part of a forthcoming domain intended for use with DITA
-  1.3.</ph></shortdesc>
+ <title>New multimedia <ph rev="public-review-1"><!-- elements -->components</ph></title>
+ <shortdesc>LwDITA adds new <ph rev="public-review-1"><!-- elements --> components</ph> for
+  multimedia content. <ph rev="review-2">These <ph rev="public-review-1"
+    ><!--
+   elements -->components</ph> are compatible with HTML5; they are part of a forthcoming
+   domain intended for use with DITA 1.3.</ph></shortdesc>
  <conbody>
   <p>For years, authors have used different approaches to embed multimedia content in DITA-based
    deliverables for the Web. The DITA 1.3 specification recommends the
@@ -62,12 +60,12 @@
     <dd>Video is a link to an audiovisual product to be included in the content.</dd>
    </dlentry>
   </dl>
-  <p>These multimedia <ph rev="public-review-1"><!-- elements -->
-   components</ph> are not available in the MDITA core profile; they must be expressed
-   in raw HDITA syntax as part of the MDITA extended profile.</p>
+  <p>These multimedia <ph rev="public-review-1"><!-- elements -->components</ph> are not available
+   in the MDITA core profile; they must be expressed in raw HDITA syntax as part of the MDITA
+   extended profile.</p>
   <p><ph rev="review-1">The DITA Technical Committee is working on a multimedia domain add-on for
-   DITA 1.3 that would include some of these <ph rev="public-review-1"><!-- elements -->
-    components</ph> to maintain compatibility between DITA and LwDITA.</ph></p>
+    DITA 1.3 that would include some of these <ph rev="public-review-1"
+     ><!-- elements -->components</ph> to maintain compatibility between DITA and LwDITA.</ph></p>
   
  </conbody>
 </concept>

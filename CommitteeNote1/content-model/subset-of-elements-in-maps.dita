@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="subset-of-elements-in-maps">
-    <title><ph rev="public-review-1"><!-- Elements -->
-        Components</ph> in the LwDITA map</title>
-    <shortdesc>LwDITA <ph rev="review-2">uses</ph> a subset of the map <ph
-        rev="public-review-1"><!-- elements -->
-        components</ph> that are available
-        in DITA 1.3.</shortdesc>
+    <title><ph rev="public-review-1"><!-- Elements -->Components</ph> in the LwDITA map</title>
+    <shortdesc>LwDITA <ph rev="review-2">uses</ph> a subset of the map <ph rev="public-review-1"
+            ><!-- elements -->components</ph> that are available in DITA 1.3.</shortdesc>
     <conbody>
         <!--<p>LwDITA only includes maps as collection model. Bookmap and specializations of map are not available in LwDITA. The elements available in the LwDITA map vary depending on the authoring format, but they are based on the following:</p>-->
-        <p>The <ph rev="public-review-1"><!-- elements -->
-            components</ph> selected represent the following <ph rev="review-2">DITA information types:</ph></p>
+        <p>The <ph rev="public-review-1"><!-- elements -->components</ph> selected represent the
+            following <ph rev="review-2">DITA information types:</ph></p>
         <ul>
             <li>Data</li>
             <li>In-line formatting: Bold, italics, underline, <ph rev="review-1">superscript</ph>, subscript</li>

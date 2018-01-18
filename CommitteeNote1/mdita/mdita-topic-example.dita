@@ -46,9 +46,9 @@ Installation of your lighting kit includes installing the light bulbs into light
      <title>MDITA extended profile</title>
   
    
-     <p>The MDITA extended profile allows the following <ph rev="public-review-1"><!-- elements -->
-       components</ph> to enhance interoperability
-        with other LwDITA authoring formats and DITA 1.3:</p>
+     <p>The MDITA extended profile allows the following <ph rev="public-review-1"
+          ><!-- elements -->components</ph> to enhance interoperability with other LwDITA authoring
+        formats and DITA 1.3:</p>
     <ul>
       <li>An optional YAML front matter header. This YAML header can supply a direct value for the
             <xmlatt>id</xmlatt> attribute that is required on the root element of a DITA topic; it
