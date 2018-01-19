@@ -18,8 +18,10 @@
     version of DITA to be truly cross-format &#x2014;allowing authoring and delivery in a mix of
     native formats that are all mapped to a common semantic standard.</ph></p>
   <p>The Lightweight DITA subcommittee began work by identifying key authoring communities that were
-   interested in the benefits that LwDITA could provide; it then identified scenarios including
-   cross-format authoring and reuse. LwDITA represents the common denominator for the functionality
-   that is needed by the following authoring communities: learning and training, <ph rev="review-2">software documentation authored by subject matter experts (SMEs)</ph>, and marketing content. </p>
+      interested in the benefits that LwDITA could provide; it then identified scenarios including
+      cross-format authoring and reuse. LwDITA represents common ground for the functionality that
+      is needed by the following authoring communities: learning and training, <ph rev="review-2"
+        >software documentation authored by subject matter experts (SMEs)</ph>, and marketing
+      content. </p>
  </conbody>
 </concept>
