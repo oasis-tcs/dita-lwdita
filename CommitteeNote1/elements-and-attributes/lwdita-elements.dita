@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_ig4_cfb_dy">
  <title>DITA 1.3 <ph rev="public-review-1">element types</ph> in LwDITA</title>
- <shortdesc>This topic lists the DITA 1.3 e<ph rev="public-review-1">element types</ph> that are
+ <shortdesc>This topic lists the DITA 1.3 <ph rev="public-review-1">element types</ph> that are
   available in LwDITA. It also lists how to represent them in XDITA, HDITA, and MDITA.</shortdesc>
  <conbody>
   

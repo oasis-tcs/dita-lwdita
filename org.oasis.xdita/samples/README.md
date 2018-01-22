@@ -1,4 +1,4 @@
-# Cross-format Content with Lightweight DITA (LwDITA draft as of June 15, 2017)
+# Cross-format Content with Lightweight DITA (LwDITA draft as of Jan 22, 2018)
 
 
-**This does not transform... experimental LwDITA authoring modes included**
+**Experimental LwDITA authoring modes included. Not all topics and elements are functional in actual LwDITA transformations**
