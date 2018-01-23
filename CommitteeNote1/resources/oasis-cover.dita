@@ -6,10 +6,9 @@
     <section id="this-version">
       <title>This version</title>
       <sl outputclass="no-indent">
-        <sli><xref keyref="this-html" outputclass="no-italics"><keyword keyref="this-html"/></xref>
+        <sli><xref keyref="this-html" outputclass="no-italics"></xref>
           (Authoritative)</sli>
-        <sli><xref keyref="this-pdf" outputclass="no-italics"><keyword keyref="this-pdf"
-          /></xref></sli>
+        <sli><xref keyref="this-pdf" outputclass="no-italics"></xref></sli>
       </sl>
     </section>
     <section id="previous-version">
@@ -21,10 +20,9 @@
       <title>Latest version</title>
       <sl outputclass="no-indent">
         <sli>
-          <xref keyref="latest-html" outputclass="no-italics"><keyword keyref="latest-html"/></xref>
+          <xref keyref="latest-html" outputclass="no-italics"></xref>
           (Authoritative)</sli>
-        <sli><xref keyref="latest-pdf" outputclass="no-italics"><keyword keyref="latest-pdf"
-            /></xref></sli>
+        <sli><xref keyref="latest-pdf" outputclass="no-italics"></xref></sli>
       </sl>
     </section>
     <section id="technical-committee">
@@ -60,7 +58,7 @@
       <p>This document is part of a work product that also includes:</p>
       <ul>
         <li>ZIP file that contains the DITA source for this document. <xref keyref="this-dita"
-            outputclass="no-italics"><keyword keyref="this-dita"/></xref></li>
+            outputclass="no-italics"></xref></li>
         <li>ZIP files that contains the grammar files for Lightweight DITA. <xref
             keyref="this-grammars"/></li>
         <li>ZIP file that contains a sample LwDITA document. <xref keyref="this-samples"/></li>
@@ -113,9 +111,8 @@
           <dd><cite>Lightweight DITA: An Introduction Version 1.0</cite>. Edited by Carlos Evia,
             Kristen James Eberlein, <ph rev="review-2">and Alan Houser</ph>. <keyword
               keyref="approval-date"/>. OASIS <keyword keyref="publication-level"/>. <xref
-              keyref="this-html" outputclass="no-italics"><keyword keyref="this-html"/></xref>.
-            Latest version: <xref keyref="latest-html" outputclass="no-italics"><keyword
-                keyref="latest-html"/></xref>.</dd>
+              keyref="this-html" outputclass="no-italics"></xref>.
+            Latest version: <xref keyref="latest-html" outputclass="no-italics"></xref>.</dd>
         </dlentry>
       </dl>
     </section>
