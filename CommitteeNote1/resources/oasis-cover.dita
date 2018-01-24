@@ -13,8 +13,12 @@
     </section>
     <section id="previous-version">
       <title>Previous version</title>
-      <p>N/A</p>
-      <!--<sl outputclass="no-indent"><sli><xref keyref="previous-html"><keyword keyref="previous-html"/></xref> (Authoritative version) </sli><sli><xref keyref="previous-pdf"><keyword keyref="previous-pdf"/></xref></sli></sl>-->
+      <!--<p>N/A</p>-->
+      <sl outputclass="no-indent">
+        <sli><xref keyref="previous-html"><keyword keyref="previous-html"/></xref> (Authoritative
+          version) </sli>
+        <sli><xref keyref="previous-pdf"><keyword keyref="previous-pdf"/></xref></sli>
+      </sl>
     </section>
     <section id="latest-version">
       <title>Latest version</title>
