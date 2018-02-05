@@ -83,7 +83,7 @@ Before you attempt to install your lighting kit, please turn off the power in yo
 
 The following video demonstrates a recommended installation:
 
-<b>&lt;video src="remote.mp4" controls poster="remote.png" />
+<b>&lt;video src="remote.mp4" controls poster="remote.png">&lt;/video>
 </b>  </codeblock>
    <p>MDITA topics are designed as a compatible subset of XDITA and HDITA topics.</p>
    </section>

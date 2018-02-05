@@ -7,7 +7,7 @@
   <codeblock>&lt;nav>
     &lt;h1>Remote Lighting Network&lt;/h1>
     &lt;div class="keydef">
-    &lt;var class="linktext">Remote Lighting Network&lt;/var>
+    &lt;span class="linktext" data-keys="product-name">Remote Lighting Network&lt;/span>
     &lt;/div>
     &lt;ul>
      &lt;li>&lt;p>&lt;a href="introduction.html">Introduction&lt;/a>&lt;p>&lt;/li>

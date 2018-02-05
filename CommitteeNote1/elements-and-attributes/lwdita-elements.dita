@@ -94,7 +94,7 @@
    </strow>
    <strow>
     <stentry>Image</stentry>
-    <stentry><xmlelement>image</xmlelement></stentry>
+    <stentry><xmlelement>image</xmlelement><fn><ph rev="TBA">In XDITA, </ph></fn></stentry>
     <stentry><xmlelement>img</xmlelement></stentry>
     <stentry>![alt text for an image](images/image_name.jpg)</stentry>
    </strow>

@@ -10,7 +10,7 @@
     &lt;/topicmeta>
     &lt;keydef keys="product-name">
       &lt;topicmeta>
-        &lt;linktext>&lt;ph>Remote Network Lighting&lt;/ph>&lt;/linktext>
+        &lt;linktext>Remote Network Lighting&lt;/linktext>
       &lt;/topicmeta>
     &lt;/keydef>
     &lt;topicref href="introduction.dita">
@@ -36,8 +36,8 @@
 &lt;/map>
   </codeblock>
   
-  
-  
+   <p rev="TBA">Note that XDITA requires a <xmlelement>navtitle</xmlelement> inside a <xmlelement>topicmeta</xmlelement> to declare a map's title.</p>
+ <!-- Need the rationale for this from Michael -->
   
  </conbody>
  
