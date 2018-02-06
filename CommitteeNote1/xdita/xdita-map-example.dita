@@ -36,7 +36,7 @@
 &lt;/map>
   </codeblock>
   
-   <p rev="TBA">Note that XDITA requires a <xmlelement>navtitle</xmlelement> inside a <xmlelement>topicmeta</xmlelement> to declare a map's title.</p>
+   <p rev="review-3">Note that XDITA requires a <xmlelement>navtitle</xmlelement> inside a <xmlelement>topicmeta</xmlelement> to declare a map's title.</p>
  <!-- Need the rationale for this from Michael -->
   
  </conbody>
