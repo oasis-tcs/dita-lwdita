@@ -114,9 +114,9 @@
    <strow>
     <stentry>Link text</stentry>
     <stentry><xmlelement>linktext</xmlelement></stentry>
-    <stentry><ph rev="TBA"><xmlelement>span data-class="linktext"</xmlelement></ph></stentry>
+    <stentry><ph rev="review-3"><xmlelement>span data-class="linktext"</xmlelement></ph></stentry>
     <stentry><b>MDITA (extended profile)</b> 
-     <ph rev="TBA"><xmlelement>span data-class="linktext"</xmlelement></ph></stentry>
+     <ph rev="review-3"><xmlelement>span data-class="linktext"</xmlelement></ph></stentry>
    </strow>
    <strow>
     <stentry>List item</stentry>

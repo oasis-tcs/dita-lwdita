@@ -43,7 +43,7 @@
   <keydef keys="publication-level">
    <topicmeta>
     <keywords>
-     <keyword>Committee Note 01: Public Review 02</keyword>
+     <keyword>Committee Note Draft 02: Public Review Draft 02</keyword>
     </keywords>
    </topicmeta>
   </keydef>
@@ -52,43 +52,43 @@
   <!-- THIS VERSION -->
   <!-- Needs to have the latest OASIS metadata in @href and link text -->
   <keydef keys="this-html"
-   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01.html"
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd02/LwDITA-v1.0-cnprd02.html"
    scope="external" format="html">
    <topicmeta>
     <keywords>
-     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cnd01/LwDITA-v1.0-cn01.html</keyword>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd02/LwDITA-v1.0-cnprd02.html</keyword>
     </keywords>
    </topicmeta>
   </keydef>
   <keydef keys="this-pdf" scope="external" format="pdf"
-   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01.pdf">
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd02/LwDITA-v1.0-cnprd02.pdf">
    <topicmeta>
     <keywords>
-     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01.pdf</keyword>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd02/LwDITA-v1.0-cnprd02.pdf</keyword>
     </keywords>
    </topicmeta>
   </keydef>
   <keydef keys="this-dita" scope="external" format="zip"
-   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01-DITA-source.zip">
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd02/LwDITA-v1.0-cnprd02-DITA-source.zip">
    <topicmeta>
     <keywords>
-     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01-DITA-source.zip</keyword>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd02/LwDITA-v1.0-cnprd02-DITA-source.zip</keyword>
     </keywords>
    </topicmeta>
   </keydef>
   <keydef keys="this-grammars" scope="external" format="zip"
-   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01-grammars.zip">
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd02/LwDITA-v1.0-cnprd02-grammars.zip">
    <topicmeta>
     <keywords>
-     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01-grammars.zip</keyword>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd02/LwDITA-v1.0-cnprd02-grammars.zip</keyword>
     </keywords>
    </topicmeta>
   </keydef>
   <keydef keys="this-samples" scope="external" format="zip"
-   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01-samples.zip">
+   href="http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd02/LwDITA-v1.0-cnprd02-samples.zip">
    <topicmeta>
     <keywords>
-     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cn01/LwDITA-v1.0-cn01-samples.zip</keyword>
+     <keyword>http://docs.oasis-open.org/dita/LwDITA/v1.0/cnprd02/LwDITA-v1.0-cnprd02-samples.zip</keyword>
     </keywords>
    </topicmeta>
   </keydef>
