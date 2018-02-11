@@ -3,8 +3,8 @@
 
   <!-- Values used to generate revision marking -->
   <revprop action="flag" color="red" val="review-3">
-    <!--<startflag><alt-text>►</alt-text></startflag>
-    <endflag><alt-text>◄</alt-text></endflag>-->
+    <startflag><alt-text>►</alt-text></startflag>
+    <endflag><alt-text>◄</alt-text></endflag>
   </revprop>
     
 </val>
