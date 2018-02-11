@@ -43,6 +43,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--    20 Jun 2017  CE: Added prefix lw- to filename              -->
 <!--    25 Jul 2017  CE: Changed public identifier to LIGHTWEIGHT  -->
 <!--                     DITA                                      -->
+<!--    10 Feb 2018  AH: Added @processing-role to <topicref>      -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
