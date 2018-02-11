@@ -4,7 +4,13 @@
     <subjectdef keys="revisions">
         <subjectdef keys="review-1"/>
         <subjectdef keys="review-2"/>
+        <subjectdef keys="review-3">
+            <topicmeta>
+                <shortdesc>Use for changes made before public review #2</shortdesc>
+            </topicmeta>
+        </subjectdef>
         <subjectdef keys="public-review-1"/>
+        <subjectdef rev="public-review-2"/>
     </subjectdef>
     <subjectdef keys="outputclass-values">
         <subjectdef keys="cover"/>

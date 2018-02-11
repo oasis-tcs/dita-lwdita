@@ -152,6 +152,11 @@
       <entry><xmlatt>type</xmlatt></entry>
      </row>
      <row>
+      <entry><ph rev="review-3">Processing role</ph></entry>
+      <entry><ph rev="review-3"><xmlatt>processing-role</xmlatt></ph></entry>
+      <entry><ph rev="review-3"><xmlatt>data-processing-role</xmlatt></ph></entry>
+     </row>
+     <row>
       <entry>Relationship of source to target</entry>
       <entry><xmlatt>scope</xmlatt></entry>
       <entry><xmlatt>rel</xmlatt></entry>
@@ -171,6 +176,11 @@
       <entry>Content reference</entry>
       <entry><xmlatt>conref</xmlatt></entry>
       <entry><ph rev="review-1"><xmlatt>data-conref</xmlatt></ph></entry>
+     </row>
+     <row>
+      <entry><ph rev="review-3">Key definition</ph></entry>
+      <entry><ph rev="review-3"><xmlatt>keys</xmlatt></ph></entry>
+      <entry><ph rev="review-3"><xmlatt>data-keys</xmlatt></ph></entry>
      </row>
      <row>
       <entry><ph rev="public-review-1">Key reference</ph></entry>

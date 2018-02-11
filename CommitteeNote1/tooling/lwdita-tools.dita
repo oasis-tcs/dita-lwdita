@@ -14,8 +14,8 @@
           format="html" scope="external"
           >https://wiki.oasis-open.org/dita/LightweightDITASubcommittee/lwditatools</xref></ph></p>
    <p><ph rev="public-review-1">Tool developers interested in having resources listed on the wiki
-        page should email the Lightweight DITA subcommittee at <xref
-          href="dita-lightweight-dita-chair@lists.oasis-open.org" format="mail"
+        page should email the Lightweight DITA subcommittee at <xref format="mailto"
+          href="dita-lightweight-dita-chair@lists.oasis-open.org"
           scope="external">dita-lightweight-dita-chair@lists.oasis-open.org</xref></ph></p>
    
    <!--       
