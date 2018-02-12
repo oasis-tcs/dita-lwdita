@@ -65,7 +65,7 @@
           <stentry>Scott Prentice</stentry>
           <stentry>Mention if image is always inline and fig/image is break</stentry>
           <stentry>7 December 2017</stentry>
-          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>Change implemented by CE</stentry>
           <stentry><xref
               href="https://github.com/oasis-tcs/dita-lwdita/commit/0cffcad2ff15314bca757188827669f5b541fa43"
               format="html" scope="external">Completed</xref></stentry>
@@ -80,7 +80,7 @@
             <p>Note the need for map/topicmeta/navtitle in lieu of map/title</p>
           </stentry>
           <stentry>7 December 2017</stentry>
-          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>Change implemented by CE</stentry>
           <stentry><xref
               href="https://github.com/oasis-tcs/dita-lwdita/commit/0cffcad2ff15314bca757188827669f5b541fa43"
               format="html" scope="external">Completed</xref></stentry>
@@ -93,7 +93,7 @@
           <stentry>Scott Prentice</stentry>
           <stentry>Include topicref/@processing-role </stentry>
           <stentry>7 December 2017</stentry>
-          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>Change implemented by AH</stentry>
           <stentry><xref
               href="https://github.com/oasis-tcs/dita-lwdita/commit/0cffcad2ff15314bca757188827669f5b541fa43"
               format="html" scope="external">Completed</xref></stentry>
