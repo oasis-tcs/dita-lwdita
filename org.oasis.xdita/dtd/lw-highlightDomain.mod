@@ -14,7 +14,7 @@
 <!--  Refer to this file by the following public identifier or an
       appropriate system identifier:
 PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
-      Delivered as file "highlightDomain.mod"                      -->
+      Delivered as file "lw-highlightDomain.mod"                      -->
 
 <!-- ============================================================= -->
 <!-- SYSTEM:     Lightweight DITA                                  -->
@@ -35,6 +35,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
 <!--    14 Jun 2017 RDA: Added @outputclass                        -->
 <!--    25 Jul 2017  CE: Changed public identifier to LIGHTWEIGHT  -->
 <!--                     DITA                                      -->
+<!--     1 Mar 2018  CE: Renamed gile to lw-highlightDomain.mod    -->
 <!-- ============================================================= -->
 
 <!--                    LONG NAME: Bold content  -->

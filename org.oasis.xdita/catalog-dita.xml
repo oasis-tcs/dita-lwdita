@@ -32,6 +32,6 @@
   <public publicId="-//OASIS//ELEMENTS LW DITA Topic//EN" uri="dtd/lw-topic.mod"/>
   <public publicId="-//OASIS//ELEMENTS LW DITA Map//EN" uri="dtd/lw-map.mod"/>
 
-  <public publicId="-//OASIS//ELEMENTS LW DITA Highlight Domain//EN" uri="dtd/highlightDomain.mod"/>
+  <public publicId="-//OASIS//ELEMENTS LW DITA Highlight Domain//EN" uri="dtd/lw-highlightDomain.mod"/>
 
 </catalog>

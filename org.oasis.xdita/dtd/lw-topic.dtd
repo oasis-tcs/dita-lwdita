@@ -102,7 +102,7 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 
 <!ENTITY % hi-d-def     PUBLIC
 " -//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
-"highlightDomain.mod"                                                >
+"lw-highlightDomain.mod"                                                >
 %hi-d-def;
 
 
