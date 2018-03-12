@@ -19,7 +19,7 @@ Network light bulbs from your <b>[product-name]</b> work with your light fixture
    
 &lt;p id="power-off">Make sure power to the fixture where you are installing the light bulb is turned OFF.&lt;/p>
    
-<b>&lt;p conref="low-power.html#low-power/disconnect-warning">&lt;/p></b>
+<b>&lt;p data-conref="low-power.html#low-power/disconnect-warning">&lt;/p></b>
 </codeblock>
  </conbody>
 </concept>
