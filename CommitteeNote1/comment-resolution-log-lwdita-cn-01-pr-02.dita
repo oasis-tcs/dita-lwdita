@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_kd4_c4c_pw">
+  <title>Comment resolution log</title>
+  <shortdesc>The table summarizes the comments that were received during the 15-day review  #2 of
+    the committee note "Lightweight DITA: An Introduction" and their resolution. Comments came to
+    the dita-comment, Lightweight DITA SC, and DITA TC mailing lists.</shortdesc>
+  <refbody>
+    <section>
+      <p>A status of "Completed" in the Disposition column indicates that the editors have
+        implemented the changes on which the TC decided, which are outlined in the Resolution
+        column. It also is a hyperlink to the GitHub commit notice.</p>
+      <p>The item number is a hyperlink to the e-mail on the dita-comment or DITA TC mailing
+        lists.</p>
+      <p>The following abbreviations are used:</p>
+      <ul>
+        <li>CE = Carlos Evia</li>
+        <li>KJE = Kristen James Eberlein</li>
+        <li>AH = Alan Houser</li>
+      </ul>
+      <simpletable frame="all" relcolwidth="1.0* 1.02* 1.01* 1.01* 1.14* 1.01* 1.01*">
+        <sthead>
+          <stentry>Item #</stentry>
+          <stentry>Date</stentry>
+          <stentry>Commenter</stentry>
+          <stentry>Description</stentry>
+          <stentry>Date acknowledged</stentry>
+          <stentry>Resolution</stentry>
+          <stentry>Disposition</stentry>
+        </sthead>
+        <strow>
+          <stentry><xref
+              href="https://lists.oasis-open.org/archives/dita-comment/201803/msg00000.html"
+              format="html" scope="external">1</xref></stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Kevin John</stentry>
+          <stentry>
+            <p>LwDITA should be compatible with  DITA 1.3 DTDs</p>
+          </stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>No change required</stentry>
+        </strow>
+        <strow>
+          <stentry><xref
+            href="https://lists.oasis-open.org/archives/dita-comment/201803/msg00000.html"
+              format="html" scope="external">2</xref></stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Kevin John</stentry>
+          <stentry>Include <xmlelement>div</xmlelement> in LwDITA elements/components.</stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>No change required</stentry>
+        </strow>
+        <strow>
+          <stentry><xref
+            href="https://lists.oasis-open.org/archives/dita-comment/201803/msg00000.html"
+              format="html" scope="external">3</xref></stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Kevin John</stentry>
+          <stentry>Include <xmlelement>indexterm</xmlelement> in LwDITA
+            elements/components.</stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>No change required</stentry>
+        </strow>
+        <strow>
+          <stentry><xref
+            href="https://lists.oasis-open.org/archives/dita-comment/201803/msg00000.html"
+              format="html" scope="external">4</xref></stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Kevin John</stentry>
+          <stentry>Include CALS table in LwDITA elements/components.</stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>No change required</stentry>
+        </strow>
+        <strow>
+          <stentry><xref
+            href="https://lists.oasis-open.org/archives/dita-comment/201803/msg00000.html"
+              format="html" scope="external">5</xref></stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Kevin John</stentry>
+          <stentry>Include <xmlelement>othermeta</xmlelement> in LwDITA
+            elements/components.</stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>No change required</stentry>
+        </strow>
+        <strow>
+          <stentry><xref
+            href="https://lists.oasis-open.org/archives/dita-comment/201803/msg00000.html"
+              format="html" scope="external">6</xref></stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Kevin John</stentry>
+          <stentry>Include <xmlelement>titlealts</xmlelement> in LwDITA
+            elements/components.</stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Discussed at subcommittee call</stentry>
+          <stentry>Completed on wiki page</stentry>
+        </strow>
+        <strow>
+          <stentry><xref href="https://github.com/oasis-tcs/dita-lwdita/issues/9" format="html"
+              scope="external">7</xref></stentry>
+          <stentry>28 February 2018</stentry>
+          <stentry>Radu Coravu</stentry>
+          <stentry>Replace instances of <cmdname>topic.mod</cmdname>, <cmdname>topic.dtd</cmdname>,
+            <cmdname>map.mod</cmdname>, and <cmdname>map.dtd</cmdname> for
+            <cmdname>lw-topic.mod</cmdname>, <cmdname>lw-topic.dtd</cmdname>,
+            <cmdname>lw-map.mod</cmdname>, and <cmdname>lw-map.dtd</cmdname>, respectively, in <filepath>catalog-dita.xml</filepath></stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Change implemented by KJE</stentry>
+          <stentry><xref
+              href="https://github.com/oasis-tcs/dita-lwdita/commit/934138e5831082d77c4f940ae3a58ca3938092f4"
+              format="html" scope="external">Completed</xref></stentry>
+        </strow>
+        <strow>
+          <stentry><xref
+              href="https://lists.oasis-open.org/archives/dita-lightweight-dita/201803/msg00003.html"
+              format="html" scope="external">8</xref></stentry>
+          <stentry>1 March 2018</stentry>
+          <stentry>Kris Eberlein</stentry>
+          <stentry><filepath>highlightDomain.mod</filepath> should be renamed to
+              <filepath>lw-highlightDomain.mod</filepath></stentry>
+          <stentry>Not applicable</stentry>
+          <stentry>Change implemented by CE</stentry>
+          <stentry><xref
+              href="https://github.com/oasis-tcs/dita-lwdita/commit/8f505564adc9139e490775fbfe1a150a45210aab"
+              format="html" scope="external">Completed</xref></stentry>
+        </strow>
+        <strow>
+          <stentry><xref href="https://github.com/oasis-tcs/dita-lwdita/pull/11" format="html"
+              scope="external">9</xref></stentry>
+          <stentry>12 March 2018</stentry>
+          <stentry>Roger Sheen</stentry>
+          <stentry>Replace <xmlatt>conref</xmlatt> with <xmlatt>data-conref</xmlatt> in cross-format
+          MDITA sample.</stentry>
+          <stentry>14 March 2018</stentry>
+          <stentry>Pull request merged by CE</stentry>
+          <stentry><xref
+            href="https://github.com/oasis-tcs/dita-lwdita/commit/9dcf2ff987ab27e41eba7ff33e63d7f05743ce3b"
+              format="html" scope="external">Completed</xref></stentry>
+        </strow>
+      </simpletable>
+    </section>
+  </refbody>
+</reference>
