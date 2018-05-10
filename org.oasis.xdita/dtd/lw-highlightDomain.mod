@@ -35,7 +35,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
 <!--    14 Jun 2017 RDA: Added @outputclass                        -->
 <!--    25 Jul 2017  CE: Changed public identifier to LIGHTWEIGHT  -->
 <!--                     DITA                                      -->
-<!--     1 Mar 2018  CE: Renamed gile to lw-highlightDomain.mod    -->
+<!--     1 Mar 2018  CE: Renamed file to lw-highlightDomain.mod    -->
 <!-- ============================================================= -->
 
 <!--                    LONG NAME: Bold content  -->
