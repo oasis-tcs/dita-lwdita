@@ -291,10 +291,22 @@
     <navtitle>Map elements</navtitle>
    </topicmeta>
  
+   <topicref href="lwd-keydef.dita" keys="keydef">
+    <topicref href="lwd-xdita-keydef.dita"/>
+    <topicref href="lwd-hdita-keydef.dita" />
+    <topicref href="lwd-mdita-keydef.dita"/>
+   </topicref>
+   
    <topicref href="lwd-map.dita" keys="map">
     <topicref href="lwd-xdita-map.dita"/>
     <topicref href="lwd-hdita-map.dita" />
     <topicref href="lwd-mdita-map.dita"/>
+   </topicref>
+   
+   <topicref href="lwd-navtitle.dita" keys="navtitle">
+    <topicref href="lwd-xdita-navtitle.dita"/>
+    <topicref href="lwd-hdita-navtitle.dita" />
+    <topicref href="lwd-mdita-navtitle.dita"/>
    </topicref>
    
    <topicref href="lwd-topicref.dita" keys="topicref">
@@ -313,9 +325,14 @@
   
  <topicref>
   <topicmeta>
-   <navtitle>Metadata element</navtitle>
+   <navtitle>Metadata elements</navtitle>
   </topicmeta>
- 
+  
+  <topicref href="lwd-data.dita" keys="data">
+   <topicref href="lwd-xdita-data.dita"/>
+   <topicref href="lwd-hdita-data.dita" />
+   <topicref href="lwd-mdita-data.dita"/>
+  </topicref>
  
   <topicref href="lwd-prolog.dita" keys="prolog">
    <topicref href="lwd-xdita-prolog.dita"/>
@@ -481,6 +498,8 @@
    
    <topicref href="lwd-id.dita" keys="id"/>
    <topicref href="lwd-conref.dita" keys="conref"/>
+   <topicref href="lwd-keyref.dita" keys="keyref"/>
+   <topicref href="lwd-keys.dita" keys="keys"/>
    
   </topicref>
    
