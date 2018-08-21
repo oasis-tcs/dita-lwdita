@@ -94,7 +94,7 @@
    </strow>
    <strow>
     <stentry>Image</stentry>
-    <stentry><xmlelement>image</xmlelement><fn><ph rev="review-3">In XDITA, <xmlelement>img</xmlelement> is always treated as an inline element; an <xmlelement>img</xmlelement> inside a <xmlelement>fig</xmlelement> is treated as a block element</ph></fn></stentry>
+    <stentry><xmlelement>image</xmlelement><fn><ph rev="review-3">In XDITA, <ph rev="committee-note-2-draft01"><xmlelement>image</xmlelement></ph> is always treated as an inline element; an <ph rev="committee-note-2-draft01"><xmlelement>image</xmlelement></ph> inside a <xmlelement>fig</xmlelement> is treated as a block element</ph></fn></stentry>
     <stentry><xmlelement>img</xmlelement></stentry>
     <stentry>![alt text for an image](images/image_name.jpg)</stentry>
    </strow>

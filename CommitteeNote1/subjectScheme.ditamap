@@ -11,6 +11,7 @@
         </subjectdef>
         <subjectdef keys="public-review-1"/>
         <subjectdef rev="public-review-2"/>
+        <subjectdef rev="committee-note-2-draft01"/>
     </subjectdef>
     <subjectdef keys="outputclass-values">
         <subjectdef keys="cover"/>

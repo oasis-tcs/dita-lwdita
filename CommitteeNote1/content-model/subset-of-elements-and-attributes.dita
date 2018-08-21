@@ -13,7 +13,7 @@
      <p>The <ph rev="public-review-1">selected subset contains</ph> the following <ph
             rev="public-review-1">document components:</ph></p>
   <ul>
-   <li>Body</li>
+     <li>Body</li>
     <li>Cross reference</li>
     <li>Data</li>
     <li>Description</li>
