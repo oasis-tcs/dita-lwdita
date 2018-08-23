@@ -67,13 +67,13 @@ Installation of your lighting kit includes installing the light bulbs into light
           can also include prolog metadata about who authored the DITA topic. If included in a
           topic, the YAML front matter header must be the first thing in the MDITA file and must be
           set between triple-dashed lines.</li>
-      <li><ph rev="committee-note-2-draft01">Extensions, adapted from diverse Markdown flavors, like definition list and footnote</ph></li>
+      <li><ph rev="committee-note-2-draft01">Extensions, adapted from diverse Markdown flavors, that enable components like definition list and footnote</ph></li>
       <li>Optional raw HDITA attributes and <ph rev="public-review-1">element types</ph>. Although
           MDITA allows for this kind of syntax extension, its validation will depend on specific
           implementations.</li>
     </ul>
       <p>The following example shows an MDITA extended-profile topic with a YAML header indicating
-        its <xmlatt>id</xmlatt> and author, and an HDITA <ph rev="public-review-1">element type</ph>
+        its <xmlatt>id</xmlatt> and author, <ph rev="committee-note-2-draft01">a definition list, a footnote,</ph> and an HDITA <ph rev="public-review-1">element type</ph>
         that enables the topic to reference a video.<ph rev="committee-note-2-draft01"><!-- (indicated in bold text)--> </ph></p>
      <codeblock><coderef href="../topics/mdita-extended-topic-532.md" format="markdown"/></codeblock>
 
