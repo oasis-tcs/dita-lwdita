@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="install-and-setup">
+  <title>Installing and Setting up Remote Lighting</title>
+  <shortdesc>Installation of your lighting kit includes installing the light bulbs into  light fixtures, preparing the remote control, and programming lighting groups.
+  </shortdesc>
+  <prolog>
+    <data name="author" value="Kevin Lewis"/>
+  </prolog>
+  <body>
+    <section>
+      <title>Steps</title>
+      <ul>
+        <li><p>Install light bulbs.</p></li>
+        <li><p>Prepare remote control.</p></li>
+        <li><p>Program lighting groups.</p></li>
+      </ul>
+    </section> 
+    <section>
+      <title>Example</title>
+      <p>The following video demonstrates a recommended installation:</p>
+      <video>
+        <video-poster value="remote-poster.jpg" />
+        <media-controls />
+        <media-source value="remote.mp4" />
+      </video>
+    </section>
+  </body>
+</topic>

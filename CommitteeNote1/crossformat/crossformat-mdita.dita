@@ -5,9 +5,12 @@
  <shortdesc>The following MDITA extended-profile topic contains a key reference to a product name
   and a content reference to a paragraph from an HDITA topic.</shortdesc>
  <conbody>
-<codeblock>---
+  <codeblock><coderef href="../topics/mdita-topic-544.md" format="markdown"/></codeblock>
+  
+  
+  <!--
+<codeblock>
 id: basic-concepts 
----
 You can network LED light bulbs together to operate wirelessly from a remote control using the RemotaLux app.
 
 # Basic Concepts of Network Lighting
@@ -21,5 +24,7 @@ Network light bulbs from your <b>[product-name]</b> work with your light fixture
    
 <b>&lt;p data-conref="low-power.html#low-power/disconnect-warning">&lt;/p></b>
 </codeblock>
+
+-->
  </conbody>
 </concept>

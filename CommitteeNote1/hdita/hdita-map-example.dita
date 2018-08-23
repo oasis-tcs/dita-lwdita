@@ -4,6 +4,9 @@
  <title>Example of an HDITA map</title>
  <shortdesc>An HDITA map is authored in HTML5.</shortdesc>
  <conbody>
+   <codeblock><coderef href="../topics/hdita-map-523.html" format="html"/></codeblock>
+   
+   <!--
   <codeblock>&lt;nav>
     &lt;h1>Remote Lighting Network&lt;/h1>
     &lt;div class="keydef">
@@ -19,5 +22,6 @@
       &lt;/li>
      &lt;/ul>
    &lt;/nav></codeblock>
+   -->
  </conbody>
 </concept>

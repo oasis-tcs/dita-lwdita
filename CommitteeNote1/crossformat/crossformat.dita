@@ -2,9 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="crossformat">
  <title>Authoring cross-format content with LwDITA</title>
- <shortdesc>LwDITA enables cross-format content sharing. Authors can create topics in XDITA, HDITA,
-  extended-profile MDITA, or DITA 1.3 and then publish them as a unified collection that uses
-  content referencing and key referencing.</shortdesc>
+  <shortdesc>LwDITA enables cross-format content sharing. Authors can create topics in XDITA, HDITA, <ph rev="committee-note-2-draft01"><!--extended-profile--></ph> MDITA, or DITA 1.3 and then publish them as a unified collection. <ph rev="committee-note-2-draft01">With a combination of formats that includes the MDITA extended profile, authors can even use content referencing and key referencing.</ph></shortdesc>
  <conbody>
   <p>In the following example, a team that develops content for a lighting product shares topics
    authored in the LwDITA authoring formats. The team even takes advantage of the <ph rev="review-1"><xmlatt>conref</xmlatt> and <xmlatt>keyref</xmlatt>

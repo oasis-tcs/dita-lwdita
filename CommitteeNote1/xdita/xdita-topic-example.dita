@@ -4,8 +4,12 @@
  <title>Example of an XDITA topic</title>
   <shortdesc>The following topic is authored in XDITA. In addition to basic DITA element <ph
     rev="public-review-1">types</ph>, note
-    the new <xmlelement>video</xmlelement> element <ph rev="public-review-1">type</ph> that is  highlighted in bold.</shortdesc>
+    the new <xmlelement>video</xmlelement> element <ph rev="public-review-1">type</ph>. <ph rev="committee-note-2-draft01"><!-- that is  highlighted in bold.--></ph></shortdesc>
  <conbody>
+   
+   <codeblock><coderef href="../topics/xdita-topic-512.dita"/></codeblock>
+   
+   <!--
     <codeblock>&lt;topic id="install-and-setup">
   &lt;title>Installing and Setting up Remote Lighting&lt;/title>
   &lt;shortdesc>Installation of your lighting kit includes installing the light bulbs into  light fixtures, preparing the remote control, and programming lighting groups.
@@ -34,6 +38,9 @@
   &lt;/body>
 &lt;/topic>
 </codeblock>
+
+-->
+
    <p>XDITA topics are fully compatible with DITA topics. An author can work on an XDITA topic and
       keep it in a collection of LwDITA topics, but that same topic will also be compatible with
       maps and topics authored in DITA 1.3.</p>

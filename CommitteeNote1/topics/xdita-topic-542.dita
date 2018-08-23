@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="bulbs-to-groups">
+  <title>Programming Light Bulbs to a Lighting Group</title>
+  <shortdesc>You can program one or more light bulbs to a lighting group to operate
+    that group with your remote control.</shortdesc>
+  <body>
+   <section id="context">
+    <p>Your <ph keyref="product-name"/> remote control can manage up to 250 network light bulbs on the same lighting network. When you add a light bulb to the network, you can program it to one or more lighting groups.</p>
+    <p id="assign-disclaimer">You must assign a light bulb to at least one lighting
+      group to operate that light bulb.</p>
+      </section>
+    <section id="steps">
+      <ol>
+        <li><p conref="basic-concepts.md#basic-concepts/power-off" /></li> 
+        <li><p>Remove any existing light bulb from the light fixture.</p></li> 
+        <li><p>Install the network light bulb into the light fixture as you would any
+          standard light bulb.</p></li>
+        <li><p>Turn power to the light fixture on.</p></li>
+      </ol>
+    </section>
+  </body>
+</topic>

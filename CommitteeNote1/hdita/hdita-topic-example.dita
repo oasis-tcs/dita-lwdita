@@ -4,11 +4,17 @@
  <title>Example of an HDITA topic</title>
   <shortdesc>The following topic is authored in HDITA. The topic uses HTML5 element <ph
     rev="public-review-1">types</ph> and custom data
-    attributes  for content reuse and compatibility with DITA. The custom data attribute highlighted
-    in bold includes a content reference from a DITA topic with a disclaimer expected from all
+    attributes for content reuse and compatibility with DITA. The custom data attribute <ph rev="committee-note-2-draft01"><!-- highlighted
+      in bold --></ph> includes a content reference from a DITA topic with a disclaimer expected from all
     topics in this fictional scenario. </shortdesc>
  <conbody>
+   
+   <codeblock><coderef href="../topics/hdita-topic-522.html" format="html"/></codeblock>
+   
     <!--<p>In the simplest HDITA workflow, a casual author can create a basic HTML5 topic with any number of W3C-compliant elements and either incorporate it to an existing DITA or LwDITA collection, or create a new collection with HDITA files or a combination of the different LwDITA authoring modes. More advanced authors can add HDITA's custom data attributes to take advantage of DITA's content structure and reuse capabilities.</p>-->
+   
+   
+   <!--
    <codeblock><ph rev="review-1">&lt;!DOCTYPE html>
 &lt;html>
 &lt;head>
@@ -38,6 +44,7 @@
 &lt;/body>
 &lt;/html>
    </ph></codeblock>
+   -->
  
  </conbody>
 </concept>

@@ -5,6 +5,11 @@
  <shortdesc>The following XDITA topic contains a key reference to a product name and a content
   reference to a paragraph from an MDITA topic.</shortdesc>
  <conbody>
+  
+  <codeblock><coderef href="../topics/xdita-topic-542.dita"/></codeblock>
+  <!--
+  
+  
   <codeblock>&lt;topic id="bulbs-to-groups">
    &lt;title>Programming Light Bulbs to a Lighting Group&lt;/title>
    &lt;shortdesc>You can program one or more light bulbs to a lighting group to operate that group with your remote control.&lt;/shortdesc>
@@ -25,5 +30,7 @@
   &lt;/topic>
    
   </codeblock>
+  
+  -->
  </conbody>
 </concept>

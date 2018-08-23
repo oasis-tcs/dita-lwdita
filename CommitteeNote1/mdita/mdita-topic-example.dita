@@ -18,12 +18,22 @@
       <li>Title</li>
       <li>Paragraph</li>
       <li>Section title</li>
+      <li><ph rev="committee-note-2-draft01">Ordered list</ph></li>
       <li>Unordered list</li>
+      <li><ph rev="committee-note-2-draft01">Link</ph></li>
+      <li><ph rev="committee-note-2-draft01">Image</ph></li>
+      <li><ph rev="committee-note-2-draft01">Preformatted text</ph></li>
+      <li><ph rev="committee-note-2-draft01">Italics</ph></li>
+      <li><ph rev="committee-note-2-draft01">Bold</ph></li>
         <li>Table</li>
         <li>Code block</li>
     </ul>
      <p>The MDITA core profile aligns with the GitHub Flavored Markdown Spec. The following example
         shows an MDITA core-profile topic:</p>
+     
+     <codeblock><coderef href="../topics/mdita-core-topic-532.md" format="markdown"/></codeblock>
+     
+<!--     
 <codeblock># Installing and Setting up Remote Lighting
 
 Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.
@@ -37,10 +47,12 @@ Installation of your lighting kit includes installing the light bulbs into light
 ## Example
 
  ![Image](remote.png)</codeblock>
+ 
+ -->
 
      <p>In an MDITA topic, the required topic <xmlatt>id</xmlatt> attribute is generated with a slug
         version of the topic title, following a process similar to the WordPress URL creation for
-        posts.</p>
+        posts. <ph rev="committee-note-2-draft01">In the previous example, the generated <xmlatt>id</xmlatt> for the topic would be <codeph>installing-and-setting-up-remote-lighting</codeph>. The same process applies to sections inside the topic. For example, the <xmlatt>id</xmlatt> for the section titled "Suggested Steps" would be <codeph>suggested-steps</codeph>.</ph></p>
    </section>
    <section>
      <title>MDITA extended profile</title>
@@ -55,17 +67,21 @@ Installation of your lighting kit includes installing the light bulbs into light
           can also include prolog metadata about who authored the DITA topic. If included in a
           topic, the YAML front matter header must be the first thing in the MDITA file and must be
           set between triple-dashed lines.</li>
+      <li><ph rev="committee-note-2-draft01">Extensions, adapted from diverse Markdown flavors, like definition list and footnote</ph></li>
       <li>Optional raw HDITA attributes and <ph rev="public-review-1">element types</ph>. Although
           MDITA allows for this kind of syntax extension, its validation will depend on specific
           implementations.</li>
     </ul>
       <p>The following example shows an MDITA extended-profile topic with a YAML header indicating
         its <xmlatt>id</xmlatt> and author, and an HDITA <ph rev="public-review-1">element type</ph>
-        that enables the topic to reference a video (indicated in bold text).</p>
-<codeblock><b>---
+        that enables the topic to reference a video.<ph rev="committee-note-2-draft01"><!-- (indicated in bold text)--> </ph></p>
+     <codeblock><coderef href="../topics/mdita-extended-topic-532.md" format="markdown"/></codeblock>
+
+<!--
+<codeblock><b>
 id: install-and-setup
 author: Kevin Lewis
----</b>
+</b>
 
 # Installing and Setting up Remote Lighting
 
@@ -85,6 +101,8 @@ The following video demonstrates a recommended installation:
 
 <b>&lt;video src="remote.mp4" controls poster="remote.png">&lt;/video>
 </b>  </codeblock>
+
+--> 
    <p>MDITA topics are designed as a compatible subset of XDITA and HDITA topics.</p>
    </section>
   </conbody>

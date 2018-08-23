@@ -5,6 +5,9 @@
  <shortdesc>The following HDITA topic contains a key reference to a product name and a content
     reference to a paragraph from an XDITA topic.</shortdesc>
  <conbody>
+   <codeblock><coderef href="../topics/hdita-topic-543.html" format="html"/></codeblock>
+   
+   <!--
 <codeblock>&lt;!DOCTYPE html>
 &lt;html>
   &lt;title>Low-Power Networking&lt;/title>   
@@ -15,5 +18,6 @@
     &lt;p id="disconnect-warning" class="note">Even in low power networks, be sure to disconnect all devices before performing maintenance tasks.&lt;/p>
   &lt;/article>
 &lt;/html></codeblock>
+-->
  </conbody>
 </concept>

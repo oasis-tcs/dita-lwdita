@@ -4,6 +4,10 @@
  <title>Example of an XDITA map</title>
  <shortdesc>The following  map is authored in XDITA.</shortdesc>
  <conbody>
+   
+   <codeblock><coderef href="../topics/xdita-map-513.ditamap"/></codeblock>
+   
+   <!--
   <codeblock>&lt;map id="remote-main">
     &lt;topicmeta>
      &lt;navtitle>Remote Lighting Network&lt;/navtitle>
@@ -35,11 +39,13 @@
     &lt;/topicref>
 &lt;/map>
   </codeblock>
+   -->
   
    <p rev="review-3">Note that XDITA requires a <xmlelement>navtitle</xmlelement> inside a
      <xmlelement>topicmeta</xmlelement> to declare a map's title. This decision eliminates the need
      for <xmlelement>title</xmlelement> as a single-purpose element in maps, and also keeps the
      <xmlelement>topicmeta</xmlelement> options parallel for maps and topics.</p>
+    
   
  </conbody>
  
