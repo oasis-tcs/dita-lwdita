@@ -36,7 +36,7 @@
   <p><ph rev="review-1">The XDITA and HDITA content models are designed to be functionally equivalent to each other</ph>, while
    MDITA is a compatible subset. XDITA and HDITA conform with the OASIS DITA and W3C HTML5
    standards, respectively. In its core profile, MDITA aligns with the GitHub Flavored Markdown
-   specification. In its extended profile, MDITA can incorporate extensions from <ph rev="committee-note-2-draft01">Markdown Extra (definition lists), Pandoc (footnotes and YAML front matter headers)</ph> and HDITA
+   specification. In its extended profile, MDITA can incorporate extensions from <ph rev="committee-note-2-draft01">Markdown Extra (definition lists and footnotes), Pandoc (YAML front matter headers)</ph> and HDITA
    element <ph rev="public-review-1">types</ph> and attributes to overcome Markdown limitations as a language for authoring structured
    and reusable content.</p>
   <!-- <p>The multiple authoring formats are designed to enable authors to continue working with the type

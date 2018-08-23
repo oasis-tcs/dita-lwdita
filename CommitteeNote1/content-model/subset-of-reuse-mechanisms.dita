@@ -59,16 +59,15 @@
    
    <dlentry>
     <dt>Variable text</dt>
-    <dd>For variable text, such as product names, authors can use <xmlatt>keyref</xmlatt> on phrase
+     <dd>For variable text, such as product names, authors can use <ph rev="committee-note-2-draft01">key references</ph> on phrase
      (XDITA) or span (HDITA).</dd>
    </dlentry>
    
    
   </dl>
 
-  <p>This design simplifies the DITA authoring experience, as there are no choices to be made. To
-    reuse block-level content, authors will use <xmlatt>conref</xmlatt>. For phrase-level content, authors will use
-    <xmlatt>keyref</xmlatt>.</p>
+   <p>This design simplifies the <ph rev="committee-note-2-draft01"><!--DITA--></ph> authoring experience, as there are no choices to be made. To
+     reuse block-level content, authors will use <ph rev="committee-note-2-draft01">content reference (<xmlatt>conref</xmlatt> or <xmlatt>data-conref</xmlatt>)</ph>. For phrase-level content, authors will use <ph rev="committee-note-2-draft01">key reference (<xmlatt>keyref</xmlatt> or <xmlatt>data-keyref</xmlatt>)</ph>.</p>
    <p id="attsappendix">For a complete list of the DITA 1.3 attributes that are included in LwDITA,
       see <xref href="../elements-and-attributes/lwdita-attributes.dita"/>.</p>
  </conbody>
