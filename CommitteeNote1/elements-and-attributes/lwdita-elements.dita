@@ -49,27 +49,37 @@
     <stentry>Definition description</stentry>
     <stentry><xmlelement>dd</xmlelement></stentry>
     <stentry><xmlelement>dd</xmlelement></stentry>
-    <stentry><b>(MDITA extended profile)</b> <xmlelement>dd</xmlelement> in HDITA syntax </stentry>
+    <stentry><ph rev="committee-note-2-draft01">See definition list</ph>
+     <!--<b>(MDITA extended profile)</b> <xmlelement>dd</xmlelement> in HDITA syntax--></stentry>
    </strow>
    <strow>
     <stentry>Definition list entry</stentry>
     <stentry><xmlelement>dlentry</xmlelement></stentry>
     <stentry><ph rev="review-1">Possible with a combination of data attributes</ph><fn><ph
      rev="review-1">Although the XDITA element <ph rev="public-review-1">type</ph> <xmlelement>dlentry</xmlelement> cannot be mapped directly to HTML5, an author can preserve the structure and attributes of a definition list in HDITA and MDITA with custom data attributes</ph></fn></stentry>
-    <stentry><ph rev="review-1"><b>(MDITA extended profile)</b> Possible with a combination of data
-      attributes</ph></stentry>
+    <stentry><ph rev="committee-note-2-draft01">See definition list</ph>
+     <!--<ph rev="review-1"><b>(MDITA extended profile)</b> Possible with a combination of data
+      attributes</ph>--></stentry>
    </strow>
    <strow>
     <stentry>Definition term</stentry>
     <stentry><xmlelement>dt</xmlelement></stentry>
     <stentry><xmlelement>dt</xmlelement></stentry>
-    <stentry><b>(MDITA extended profile)</b> <xmlelement>dt</xmlelement> in HDITA syntax </stentry>
+    <stentry><ph rev="committee-note-2-draft01">See definition list</ph>
+     <!--
+     <b>(MDITA extended profile)</b> <xmlelement>dt</xmlelement> in HDITA syntax --> </stentry>
    </strow>
    <strow>
     <stentry>Definition list</stentry>
     <stentry><xmlelement>dl</xmlelement></stentry>
     <stentry><xmlelement>dl</xmlelement></stentry>
-    <stentry><b>(MDITA extended profile)</b> <xmlelement>dl</xmlelement> in HDITA syntax </stentry>
+    <stentry><b>(MDITA extended profile)</b>
+     <ph rev="committee-note-2-draft01">"A single-line term followed by a colon and the definition
+      for that term," following the <xref
+       href="https://michelf.ca/projects/php-markdown/extra/#def-list" format="html"
+       scope="external">Markdown Extra syntax for definition list</xref></ph>
+     <!--<xmlelement>dl</xmlelement> in HDITA syntax-->
+    </stentry>
    </strow>
    <strow>
     <stentry>Description</stentry>
@@ -89,8 +99,11 @@
     <stentry>Footnote</stentry>
     <stentry><xmlelement>fn</xmlelement></stentry>
     <stentry><ph rev="review-1"><xmlelement>span class="fn"</xmlelement></ph></stentry>
-    <stentry><b>(MDITA extended profile)</b> <ph rev="review-1"><xmlelement>span
-       class="fn"</xmlelement></ph></stentry>
+    <stentry><b>(MDITA extended profile)</b>
+     <ph rev="committee-note-2-draft01">"A footnote is made of two things: a marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document," following the <xref href="https://michelf.ca/projects/php-markdown/extra/#footnotes" format="html" scope="external">Markdown Extra syntax for footnotes</xref></ph>
+<!--
+     <ph rev="review-1"><xmlelement>span
+       class="fn"</xmlelement></ph>--></stentry>
    </strow>
    <strow>
     <stentry>Image</stentry>
@@ -134,7 +147,7 @@
     <stentry>Note</stentry>
     <stentry><xmlelement>note</xmlelement></stentry>
     <stentry><ph rev="review-1"><xmlelement>div data-class="note"</xmlelement></ph></stentry>
-    <stentry><b>(MDITA extended profile)</b> <ph rev="review-1"><xmlelement>div data-class="note"</xmlelement> in HDITA syntax</ph> </stentry>
+    <stentry><!--<b>(MDITA extended profile)</b> <ph rev="review-1"><xmlelement>div data-class="note"</xmlelement> in HDITA syntax</ph>--><ph rev="committee-note-2-draft01">Not applicable</ph></stentry>
    </strow>
    <strow>
     <stentry>Ordered list</stentry>
@@ -267,7 +280,7 @@
    </strow>
   </simpletable>
   <note type="note"><ph rev="review-1">HDITA is a subset of HTML5 conforming with the W3C HTML
-    standard, and MDITA aligns with the Github Flavored Markdown specification. Instances of valid
+   standard, and MDITA aligns with the Github Flavored Markdown specification <ph rev="committee-note-2-draft01">with some extensions from Markdown Extra and Pandoc</ph>. Instances of valid
     HTML5 syntax and Markdown practices allowed in other flavors outside the proposed LwDITA
     elements can be supported by vendors at their discretion. Those syntax components would be
     handled differently by vendors and might not work across all LwDITA implementations.</ph></note>
