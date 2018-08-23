@@ -8,8 +8,8 @@
         <context>You must turn on, turn off, or dim an entire lighting group together. You cannot
             control one individual light bulb in a group (unless only that light bulb is programmed
             to the group).</context>
-        <prereq>Before you can operate a lighting group you must program
-                the network light bulbs you want included in that lighting group.</prereq>
+        <!--<prereq>Before you can operate a lighting group you must program
+                the network light bulbs you want included in that lighting group.</prereq>-->
         <steps>
             <step>
                 <cmd>Select the lighting group(s) you want to operate:</cmd>

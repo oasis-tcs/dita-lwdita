@@ -9,7 +9,7 @@
       <title>Example</title>
       <p>The following video demonstrates a recommended installation for a supported number of light bulbs:</p>
       <video>
-        <source value="https://www.youtube.com/embed/B7NNYE-G6x0" />
+        <media-source value="https://www.youtube.com/embed/B7NNYE-G6x0" />
         </video>
     </section>
   </body>
