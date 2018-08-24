@@ -17,4 +17,6 @@ The remote control of your [product-name] has components that allow you to progr
 |5|Group number button|Buttons that you press to select a corresponding lighting group to operate. Also use these buttons to program lights into the lighting group. **Caution:** Do not press and hold for longer than 4 seconds unless you are programming a lighting group.|
 |6|All group numbers|Button that you press to select all lighting groups to operate at the same time.|
 |7|Battery compartment|Compartment on the back that holds 2 AA batteries to power the remote control. When batteries run low, the indicator light on the power button periodically flashes amber.|
-|8|Reset button|Button that you press to manage the remote control as follows: Press and release 3 times to connect the remote control to a lighting network that already exists \(for example, if you are replacing a remote control\).Press and hold for 10 seconds to reset the remote control and all lighting group programming on it. **Warning:** If you reset the remote control, you must reprogram all lighting groups on it.|
+|8|Reset button|Button that you press to manage the remote control as follows: Press and release 3 times to connect the remote control to a lighting network that already exists \(for example, if you are replacing a remote control\).Press and hold for 10 seconds to reset the remote control and all lighting group programming on it.[^1]|
+
+[^1]: If you reset the remote control, you must reprogram all lighting groups on it.
