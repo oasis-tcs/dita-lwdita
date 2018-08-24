@@ -194,6 +194,20 @@
     <stentry>Carlos Evia</stentry>
     <stentry>Generated Committee Note 01 version 1</stentry>
    </strow>
+   <strow>
+    <stentry>30</stentry>
+    <stentry>24 August 2018</stentry>
+    <stentry>Carlos Evia</stentry>
+    <stentry><ul>
+     <li>Included Pandoc and Markdown Extra in References and mentioned them as source for YAML headers and footnotes &amp; definition lists, respectively</li>
+     <li>Made all samples valid XML, HTML, and Markdown as coderefs (in "topics" subfolder)</li>
+     <li>Enhanced explanation of slug</li>
+     <li>Revised definition list in MDITA</li>
+     <li>Revised footnote in MDITA</li>
+     <li>Fixed footnote in Appendix A that identified an XDITA image as img</li>
+     <li>Changed note syntax in MDITA to be not available</li>
+    </ul></stentry>
+   </strow>
   </simpletable>
  </conbody>
 </concept>
