@@ -19,6 +19,8 @@
 			<keyword>LwDITA 1.0</keyword>
 			<keyword>Darwin Information Typing Architecture</keyword>
 			<keyword>XML</keyword>
+			<keyword>HTML5</keyword>
+			<keyword>Markdown</keyword>
 		</keywords>
 		<bookrights>
 			<copyrfirst>
@@ -36,9 +38,10 @@
 
 		<mapref href="lwdita-specification-subjectScheme.ditamap" type="subjectScheme"/>
 		<mapref href="lwdita-key-definitions-cover-pages.ditamap" processing-role="resource-only"/>
-		<!--
+
 		<mapref href="common/key-definitions-library-topics.ditamap" format="ditamap"/>
-		<mapref href="base-relationship-tables.ditamap"/>
+
+<!--		<mapref href="base-relationship-tables.ditamap"/> -->
 		<notices platform="dita-tc-publishing">
 			<topicref href="resources/oasis-cover.dita" linking="none" toc="no"/>
 			<topicref href="resources/oasis-notices.dita" linking="none" toc="no"/>
@@ -51,7 +54,7 @@
 			<toc/>
 		</booklists>
 		-->
-		
+
 	</frontmatter>
 	<!--
 	<chapter format="ditamap" href="introduction/introduction.ditamap"/>
@@ -62,13 +65,13 @@
 		<topicref href="langRef/quick-reference/base-elements-a-to-z.dita"/>
 		<mapref href="langRef/base-elements.ditamap"/>
 		<mapref href="langRef/attributes/ditaref-commonatts.ditamap"/>
-		
+
 		<mapref href="langRef/attributes/ditaref-attributes.ditamap"/>
 	</chapter>
 	<chapter href="conformance/conformance.dita"/>
 	<appendix href="acknowledgments/acknowledgments.dita"/>
 	<appendix format="ditamap" href="non-normative/non-normative-information.ditamap"/>
-		
+
 	<backmatter>
 		<booklists><indexlist/></booklists>
 	</backmatter>

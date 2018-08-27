@@ -26,7 +26,7 @@
       </topicmeta>
     </keydef>
   </topichead>
-  
+
   <topichead>
     <topicmeta>
       <navtitle>Specification </navtitle>
@@ -76,7 +76,7 @@
     <!-- KJE 9 May 2017: Need to check with Paul Knight about this -->
     <!--<keydef keys="editions-topic-in-overview" href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part0-overview/introduction/about-the-dita-specification.html#about-the-dita-specification__editions" scope="external" format="html"/>-->
   </topichead>
-  
+
   <topichead>
     <topicmeta>
       <navtitle>This version links</navtitle>
@@ -100,7 +100,7 @@
       href="http://docs.oasis-open.org/dita/dita/v2.0/wd01/dita-v2.0-wd01-dita.zip" scope="external"
       format="zip"/>
   </topichead>
-  
+
   <topichead>
     <topicmeta>
       <navtitle>Previous version links</navtitle>
@@ -118,7 +118,7 @@
       href="http://docs.oasis-open.org/dita/dita/v1.3/errata02/csprd01/complete/part1-base/dita-v1.3-errata02-csprd01-part1-base-complete.pdf"
       scope="external" format="pdf"/>
   </topichead>
-  
+
   <topichead>
     <topicmeta>
       <navtitle>Latest links</navtitle>
@@ -133,7 +133,7 @@
     <keydef keys="oasis-latest-version-pdf"
       href="http://docs.oasis-open.org/dita/dita/v2.0/dita-v2.0.pdf" scope="external" format="pdf"/>
   </topichead>
-  
+
   <topichead>
     <topicmeta>
       <navtitle>Related work</navtitle>
@@ -147,7 +147,7 @@
     <keydef keys="oasis-dita13-part3" format="html" scope="external"
       href="http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part3-all-inclusive.html"/>
   </topichead>
-  
+
   <topichead>
     <topicmeta>
       <navtitle>URIs for status section</navtitle>
@@ -169,7 +169,7 @@
     <keydef keys="oasis-trademark-policy" format="html" scope="external"
       href="https://www.oasis-open.org/policies-guidelines/trademark"/>
   </topichead>
-  
+
   <topichead>
     <topicmeta>
       <navtitle>OASIS file-naming fragments</navtitle>
@@ -178,14 +178,14 @@
     <keydef keys="wp-abbrev">
       <topicmeta>
         <keywords>
-          <keyword>dita</keyword>
+          <keyword>lw-dita</keyword>
         </keywords>
       </topicmeta>
     </keydef>
     <keydef keys="version-id">
       <topicmeta>
         <keywords>
-          <keyword>2.0</keyword>
+          <keyword>1.0</keyword>
         </keywords>
       </topicmeta>
     </keydef>
@@ -198,11 +198,11 @@
     </keydef>
   </topichead>
   <topichead navtitle="Obsolete OASIS file-naming fragments: Part one">
-    <!-- Used in file names and footers 
+    <!-- Used in file names and footers
 KJE 24 May 2018: Style sheets need to be revised to either remove or make these optional
 Originally in dita13-key-definitionspart1metadata.ditamap-->
     <keydef keys="part-number">
-      <!-- KJE 24 May 2018: Must be present or build fails with a fatal error triggered by 
+      <!-- KJE 24 May 2018: Must be present or build fails with a fatal error triggered by
                          org.oasis.specification.pubmeta\xsl\pubMetaToAntProps.xsl:229-->
       <topicmeta>
         <keywords>
@@ -242,7 +242,7 @@ Originally in dita13-key-definitionspart1metadata.ditamap-->
   </topichead>
   <topichead navtitle="Obsolete OASIS file-naming fragments: Common">
     <!--Originally in commonmetadata.ditamap-->
-    
+
     <!-- KJE 24 May 2018: Commented this out and the build failed with the following error:-->
     <!--    System ID: C:\Git\dita\specification\dita-2.0-specification.ditamap
     Scenario: OASIS PDF: DITA 2.0
@@ -250,7 +250,7 @@ Originally in dita13-key-definitionspart1metadata.ditamap-->
     Engine name: DITA-OT
     Severity: fatal
     Description: Transformation failed. Fatal error during transformation using C:\DITA-OT-2.5.4-OASIS\plugins\org.oasis.specification.pubmeta\xsl\pubMetaToAntProps.xsl: Cannot convert supplied value to an integer. NaN; SystemID: file:/C:/DITA-OT-2.5.4-OASIS/plugins/org.oasis.specification.pubmeta/xsl/pubMetaToAntProps.xsl; Line#: 137; Column#: -1-->
-    
+
     <keydef keys="errata-num">
       <topicmeta>
         <keywords>
@@ -258,7 +258,7 @@ Originally in dita13-key-definitionspart1metadata.ditamap-->
         </keywords>
       </topicmeta>
     </keydef>
-    
+
     <!-- KJE Commented out at 12:43 PM on 24 May 2018; build worked without errors -->
     <!--    <keydef keys="revision-num">
       <topicmeta>
@@ -267,8 +267,8 @@ Originally in dita13-key-definitionspart1metadata.ditamap-->
         </keywords>
       </topicmeta>
     </keydef>-->
-    
-    <!-- KJE Commented out at 12:39 PM on 24 May 2018; build worked without errors -->   
+
+    <!-- KJE Commented out at 12:39 PM on 24 May 2018; build worked without errors -->
     <!--    <keydef keys="oasis-dita-uri-base">
       <topicmeta>
         <keywords>
