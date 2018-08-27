@@ -111,8 +111,8 @@
       <p>When referencing this note, the following citation format should be used:</p>
       <dl>
         <dlentry>
-          <dt>[LwDITA-intro-v1.0]</dt>
-          <dd><cite>Lightweight DITA: An Introduction Version 1.0</cite>. Edited by Carlos Evia,
+          <dt>[LwDITA-intro-v2.0]</dt>
+          <dd><cite>Lightweight DITA: An Introduction Version 2.0</cite>. Edited by Carlos Evia,
             Kristen James Eberlein, <ph rev="review-2">and Alan Houser</ph>. <keyword
               keyref="approval-date"/>. OASIS <keyword keyref="publication-level"/>. <xref
               keyref="this-html" outputclass="no-italics"></xref>.
