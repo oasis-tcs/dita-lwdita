@@ -2,8 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="subset-of-reuse-mechanisms">
  <title>Subset of reuse mechanisms</title>
- <shortdesc>LwDITA <ph rev="review-2">offers a subset of the reuse mechanisms <ph
-        rev="public-review-1">that are</ph> available in DITA 1.3.</ph></shortdesc>
+ <shortdesc>LwDITA <ph rev="review-2">offers a subset of the reuse mechanisms</ph> <ph
+   rev="public-review-1">that are available in DITA 1.3. LwDITA simplifies the authoring experience by providing a single way to implement each use case: to reuse block-level content, authors will use content references, and for phrase-level content, authors will use key references.</ph></shortdesc>
  <conbody>
   <dl>
    <dlentry>
@@ -66,8 +66,6 @@
    
   </dl>
 
-   <p>This design simplifies the <ph rev="committee-note-2-draft01"><!--DITA--></ph> authoring experience, as there are no choices to be made. To
-     reuse block-level content, authors will use <ph rev="committee-note-2-draft01">content reference (<xmlatt>conref</xmlatt> or <xmlatt>data-conref</xmlatt>)</ph>. For phrase-level content, authors will use <ph rev="committee-note-2-draft01">key reference (<xmlatt>keyref</xmlatt> or <xmlatt>data-keyref</xmlatt>)</ph>.</p>
    <p id="attsappendix">For a complete list of the DITA 1.3 attributes that are included in LwDITA,
       see <xref href="../elements-and-attributes/lwdita-attributes.dita"/>.</p>
  </conbody>

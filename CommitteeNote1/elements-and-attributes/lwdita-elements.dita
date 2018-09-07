@@ -11,13 +11,13 @@
     <stentry>Component</stentry>
     <stentry>XDITA</stentry>
     <stentry>HDITA</stentry>
-    <stentry>MDITA</stentry>
+    <stentry>MDITA <ph rev="committee-note-2-draft01">(core and extended profiles)</ph></stentry>
    </sthead>
    <strow>
     <stentry>Alternate text</stentry>
     <stentry><xmlelement>alt</xmlelement></stentry>
     <stentry>Attribute on <xmlelement>img</xmlelement></stentry>
-    <stentry>[text]</stentry>
+    <stentry><codeblock>[text]</codeblock></stentry>
    </strow>
    <strow>
     <stentry>Body</stentry>
@@ -29,13 +29,13 @@
     <stentry>Bold</stentry>
     <stentry><xmlelement>b</xmlelement></stentry>
     <stentry><xmlelement>strong</xmlelement></stentry>
-    <stentry>** or __</stentry>
+    <stentry><codeblock>**</codeblock> or <codeblock>__</codeblock></stentry>
    </strow>
    <strow>
     <stentry>Cross reference</stentry>
     <stentry><xmlelement>xref</xmlelement></stentry>
     <stentry><xmlelement>a href</xmlelement></stentry>
-    <stentry>[link](/URI "title")</stentry>
+    <stentry><codeblock>[link](/URI "title")</codeblock></stentry>
    </strow>
    <strow>
     <stentry>Data</stentry>
@@ -109,13 +109,13 @@
     <stentry>Image</stentry>
     <stentry><xmlelement>image</xmlelement><fn><ph rev="review-3">In XDITA, <ph rev="committee-note-2-draft01"><xmlelement>image</xmlelement></ph> is always treated as an inline element; an <ph rev="committee-note-2-draft01"><xmlelement>image</xmlelement></ph> inside a <xmlelement>fig</xmlelement> is treated as a block element</ph></fn></stentry>
     <stentry><xmlelement>img</xmlelement></stentry>
-    <stentry>![alt text for an image](images/image_name.jpg)</stentry>
+    <stentry><codeblock>![alt text for an image](images/image_name.jpg)</codeblock></stentry>
    </strow>
    <strow>
     <stentry>Italics</stentry>
     <stentry><xmlelement>i</xmlelement></stentry>
     <stentry><xmlelement>em</xmlelement></stentry>
-    <stentry>* or _</stentry>
+    <stentry><codeblock>*</codeblock> or <codeblock>_</codeblock></stentry>
    </strow>
    <strow>
     <stentry>Key definition</stentry>
@@ -177,7 +177,7 @@
     <stentry>Preformatted text</stentry>
     <stentry><xmlelement>pre</xmlelement></stentry>
     <stentry><xmlelement>pre</xmlelement></stentry>
-    <stentry>Fenced code blocks (e.g. ```text```)<ph rev="review-1"> or indented code blocks (e.g.     text)</ph></stentry>
+    <stentry>Fenced code blocks (e.g. <cmdname>```text```</cmdname>)or indented code blocks (e.g.<codeblock>     text</codeblock>)</stentry>
    </strow>
    <strow>
     <stentry>Prolog</stentry>
@@ -189,7 +189,7 @@
     <stentry>Section</stentry>
     <stentry><xmlelement>section</xmlelement></stentry>
     <stentry><xmlelement>section</xmlelement></stentry>
-    <stentry>## or ----- underline</stentry>
+    <stentry><codeblock>##</codeblock> or <codeblock>-----</codeblock> underline</stentry>
    </strow>
    <strow>
     <stentry>Short description</stentry>
