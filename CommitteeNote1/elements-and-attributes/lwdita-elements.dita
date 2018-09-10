@@ -17,7 +17,7 @@
     <stentry>Alternate text</stentry>
     <stentry><xmlelement>alt</xmlelement></stentry>
     <stentry>Attribute on <xmlelement>img</xmlelement></stentry>
-    <stentry><codeblock>[text]</codeblock></stentry>
+    <stentry><codeph>[text]</codeph></stentry>
    </strow>
    <strow>
     <stentry>Body</stentry>
@@ -29,13 +29,13 @@
     <stentry>Bold</stentry>
     <stentry><xmlelement>b</xmlelement></stentry>
     <stentry><xmlelement>strong</xmlelement></stentry>
-    <stentry><codeblock>**</codeblock> or <codeblock>__</codeblock></stentry>
+    <stentry><codeph>**</codeph> or <codeph>__</codeph></stentry>
    </strow>
    <strow>
     <stentry>Cross reference</stentry>
     <stentry><xmlelement>xref</xmlelement></stentry>
     <stentry><xmlelement>a href</xmlelement></stentry>
-    <stentry><codeblock>[link](/URI "title")</codeblock></stentry>
+    <stentry><codeph>[link](/URI "title")</codeph></stentry>
    </strow>
    <strow>
     <stentry>Data</stentry>
@@ -109,13 +109,13 @@
     <stentry>Image</stentry>
     <stentry><xmlelement>image</xmlelement><fn><ph rev="review-3">In XDITA, <ph rev="committee-note-2-draft01"><xmlelement>image</xmlelement></ph> is always treated as an inline element; an <ph rev="committee-note-2-draft01"><xmlelement>image</xmlelement></ph> inside a <xmlelement>fig</xmlelement> is treated as a block element</ph></fn></stentry>
     <stentry><xmlelement>img</xmlelement></stentry>
-    <stentry><codeblock>![alt text for an image](images/image_name.jpg)</codeblock></stentry>
+    <stentry><codeph>![alt text for an image](images/image_name.jpg)</codeph></stentry>
    </strow>
    <strow>
     <stentry>Italics</stentry>
     <stentry><xmlelement>i</xmlelement></stentry>
     <stentry><xmlelement>em</xmlelement></stentry>
-    <stentry><codeblock>*</codeblock> or <codeblock>_</codeblock></stentry>
+    <stentry><codeph>*</codeph> or <codeph>_</codeph></stentry>
    </strow>
    <strow>
     <stentry>Key definition</stentry>
@@ -135,7 +135,7 @@
     <stentry>List item</stentry>
     <stentry><xmlelement>li</xmlelement></stentry>
     <stentry><xmlelement>li</xmlelement></stentry>
-    <stentry>' -, +, or * for ul, and 0-9 and . or ) for ol</stentry>
+    <stentry><codeph>-</codeph>, <codeph>+</codeph>, or <codeph>*</codeph> for unoreder list, and <codeph>0</codeph>-<codeph>9</codeph> and <codeph>.</codeph> or <codeph>)</codeph> for ordered list</stentry>
    </strow>
    <strow>
     <stentry>Map</stentry>
@@ -177,7 +177,7 @@
     <stentry>Preformatted text</stentry>
     <stentry><xmlelement>pre</xmlelement></stentry>
     <stentry><xmlelement>pre</xmlelement></stentry>
-    <stentry>Fenced code blocks (e.g. <cmdname>```text```</cmdname>)or indented code blocks (e.g.<codeblock>     text</codeblock>)</stentry>
+    <stentry>Fenced code blocks (e.g. <codeph>```text```</codeph>)or indented code blocks (e.g.<codeph>     text</codeph>)</stentry>
    </strow>
    <strow>
     <stentry>Prolog</stentry>
@@ -189,7 +189,7 @@
     <stentry>Section</stentry>
     <stentry><xmlelement>section</xmlelement></stentry>
     <stentry><xmlelement>section</xmlelement></stentry>
-    <stentry><codeblock>##</codeblock> or <codeblock>-----</codeblock> underline</stentry>
+    <stentry><codeph>##</codeph> or <codeph>-----</codeph> underline</stentry>
    </strow>
    <strow>
     <stentry>Short description</stentry>
@@ -201,8 +201,7 @@
     <stentry>Table</stentry>
     <stentry><xmlelement>simpletable</xmlelement></stentry>
     <stentry><xmlelement>table</xmlelement></stentry>
-    <stentry>Tables in MDITA follow the GitHub Flavored Markdown syntax. See section 4.10 of the GFM
-     spec</stentry>
+    <stentry>Tables in MDITA follow the <xref href="https://github.github.com/gfm/#tables-extension-" format="html" scope="external">GitHub Flavored Markdown syntax</xref>.</stentry>
    </strow>
    <strow>
     <stentry>Simple table entry</stentry>
@@ -244,8 +243,8 @@
 <xmlelement>h2</xmlelement> for section </lines>
     </stentry>
     <stentry>
-     <lines>#  or === underline for topic
-##  or ----- underline for section</lines>
+     <lines><codeph>#</codeph>  or <codeph>===</codeph> underline for topic;
+      <codeph>##</codeph>  or <codeph>-----</codeph> underline for section</lines>
     </stentry>
    </strow>
    <strow>
@@ -264,7 +263,7 @@
     <stentry>Topic reference</stentry>
     <stentry><xmlelement>topicref</xmlelement></stentry>
     <stentry><xmlelement>a href</xmlelement> inside a <xmlelement>li</xmlelement></stentry>
-    <stentry>[link](/URI "title") inside a list item</stentry>
+    <stentry><codeph>[link](/URI "title")</codeph> inside a list item</stentry>
    </strow>
    <strow>
     <stentry>Underline</stentry>
