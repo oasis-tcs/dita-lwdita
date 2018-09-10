@@ -142,7 +142,7 @@
   <!-- Do not change this as the specification advances through the different phases-->
   <!--HTML only -->
   <keydef keys="latest-errata-html"
-   href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/dita-v1.3-errata01-os.html"
+   href="http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/dita-v1.3-errata02-os.html"
    scope="external" format="html"/>
   <keydef keys="latest-part-0-html"
    href="http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part0-overview/dita-v1.3-errata01-os-part0-overview-complete.html"
