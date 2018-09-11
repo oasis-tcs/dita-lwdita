@@ -3,7 +3,7 @@
 <bookmap outputclass="specification" xml:lang="en-us" chunk="to-content">
  <booktitle outputclass="specificationTitles">
   <mainbooktitle outputclass="specificationTitle">Lightweight DITA: An Introduction Version
-   2.0</mainbooktitle>
+   1.0</mainbooktitle>
   <booktitlealt outputclass="specificationSubtitle1"><keyword keyref="publication-level"
    /></booktitlealt>
   <booktitlealt outputclass="specificationLevel">1</booktitlealt>
