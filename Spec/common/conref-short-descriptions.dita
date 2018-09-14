@@ -30,9 +30,9 @@
    quoting a speaker, a way to show which words the speaker stressed.</shortdesc>
   <shortdesc id="image">An image is a reference to artwork that is stored outside of the content. </shortdesc>
   <shortdesc id="keydef"><draft-comment author="robander">Need to take care when converting this to
-    use natural language; our definition of the "key definition" as an element has to be distinct
-    from our concept of a "key defintion" in the DITA architecture.</draft-comment>The
-    <xmlelement>keydef</xmlelement> element is a convenience element that is used to define keys
+   use natural language; our definition of the "key definition" as an element has to be distinct
+   from our concept of a "key defintion" in the DITA architecture.</draft-comment>The
+   <xmlelement>keydef</xmlelement> element is a convenience element that is used to define keys
    without any of the other effects that occur when using a <xmlelement>topicref</xmlelement>
    element: no content is included in output, no title is included in the table of contents, and no
    linking or other relationships are defined. The <xmlelement>keydef</xmlelement> element is not
@@ -67,10 +67,10 @@
   <shortdesc id="shortdesc">A short description describes the purpose or main point of a
    topic.</shortdesc>
   <shortdesc id="simpletable"><draft-comment author="Kristen J Eberlein">
-    <p>Tom: What does regular in structure mean? No spanning </p>
-    <p>Simple tables are tables that do not allow row and column spanning. They are suitable for
-     displaying content that ...</p>
-   </draft-comment>Simple tables are tables that are regular in structure and do not need a caption. </shortdesc>
+   <p>Tom: What does regular in structure mean? No spanning </p>
+   <p>Simple tables are tables that do not allow row and column spanning. They are suitable for
+    displaying content that ...</p>
+  </draft-comment>Simple tables are tables that are regular in structure and do not need a caption. </shortdesc>
   <shortdesc id="stentry">A simple table entry represents a single cell within a simple
    table.</shortdesc>
   <shortdesc id="sthead">A simple table header is a header row for a simple table.</shortdesc>
@@ -81,13 +81,9 @@
    chemical and mathematical formulas.</shortdesc>
   <shortdesc id="title">A title is a heading or label for an object. Titles can be associated with
    topics, maps, sections, examples, figures, tables, and other structures.</shortdesc>
-  <shortdesc id="topic"><draft-comment author="Kristen J Eberlein" time="12 July 2018">
-    <p>Kris: Should we change "standalone" to "independent"?</p>
-    <p>Tom: Should we also mention "small enough to reuse"?</p>
-    <p>A topic is a unit of information that is large enough to be self-contained, but small enough
-     to be reused.</p>
-    <p>Kris: Are we drifting into best practices?</p>
-   </draft-comment>A topic is a standalone unit of information.</shortdesc>
+  <shortdesc id="topic"
+   ><!--<draft-comment author="Kristen J Eberlein" time="12 July 2018"><p>Kris: Should we change "standalone" to "independent"?</p><p>Tom: Should we also mention "small enough to reuse"?</p><p>A topic is a unit of information that is large enough to be self-contained, but small enough to be reused.</p><p>Kris: Are we drifting into best practices?</p></draft-comment>-->A
+   topic is a standalone unit of information.</shortdesc>
   <shortdesc id="topicmeta">Topic metadata is metadata that applies to a topic; this metadata is
    defined in a
    map.<!-- This metadata also applies to other topics in the map that are part of the same containment hierarchy.--></shortdesc>
