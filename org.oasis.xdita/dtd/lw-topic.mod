@@ -70,6 +70,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--    18 Sep 2017 RDA: Adjust media class atts to match main TC  -->
 <!--    16 Oct 2017  CE: Added @props to elements that allow it    -->
 <!--                     in DITA 1.3                               -->
+<!--    14 Sep 2018  CE: Added @reuse to <shortdesc>               -->
+
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
@@ -156,6 +158,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ATTLIST shortdesc
              %localization;
              %filters;
+             %reuse;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/shortdesc ">
 
