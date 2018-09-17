@@ -1,3 +1,3 @@
-# Lightweight DITA DTDs
+# XDITA grammar files
 
-The current preliminary XDITA DTDs are stored here.
+These are pre-release grammar files for XDITA -the XML-based authoring format of Lightweight DITA. 
