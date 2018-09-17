@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
-<topic id="shortdesc">
-  <title>Short description</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/shortdesc"/>
+<topic id="lw-shortdesc">
+  <title>Bold text</title>
+  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/b"/>
     <body>
     <section>
       <title>Usage information</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;shortdesc></p></dd>
+          <dd><p>&lt;b></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>First element in &lt;article>, if it is a &lt;p>, after &lt;title></p></dd>
+          <dd><p>&lt;strong></p></dd>
         </dlentry>
         <dlentry>
-          <dt>MDITA</dt>
-          <dd><p>First block, if it is a paragraph, after title </p></dd>
+          <dt>MDITA (core and extended profiles)</dt>
+          <dd><p>** or __</p></dd>
         </dlentry>
       </dl>
     </section>
@@ -39,8 +39,7 @@
       
       
     </section>
-    <!-- Guidelines for 2.0 include here specialization hierarchy, but we do not need that in LwDITA -->
-    <section>
+        <section>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a short description in an XDITA topic.</p>
       <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
@@ -73,7 +72,7 @@
     
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
+      <p>The following example demonstrates the use of a short description in an MDITA topic.</p>
       <pre>  # Installing and Setting up Remote Lighting
 
   Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</pre>
