@@ -15,7 +15,7 @@
    not have the same expressiveness as XML, they bring with them a set of tools and practices that
    can be a natural fit with a DITA ecosystem. <ph rev="review-2">Lightweight DITA defines a
     lower-function level of interchange and mappings for HTML5 and Markdown, thus becoming the first
-    version of DITA to be truly cross-format &#x2014;allowing authoring and delivery in a mix of
+    version of DITA to be truly cross-format &#x2014; allowing authoring and delivery in a mix of
     native formats that are all mapped to a common semantic standard.</ph></p>
   <p>The Lightweight DITA subcommittee began work by identifying key authoring communities that were
       interested in the benefits that LwDITA could provide; it then identified scenarios including
