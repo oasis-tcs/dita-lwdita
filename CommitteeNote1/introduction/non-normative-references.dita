@@ -70,7 +70,7 @@
     <dt>[Structured-Authoring-wo-XML]</dt>
     <dd><cite>Structured Authoring without XML: Evaluating Lightweight DITA for Technical Documentation</cite> Authored by Carlos Evia and Michael
      Priestley. <cite>Technical Communication</cite>, volume 63, number 1 (February 2016):
-     23-37.<xref href="http://www.ingentaconnect.com/contentone/stc/tc/2016/00000063/00000001/art00004" format="html" scope="external"/>.</dd>
+     23-37. <xref href="http://www.ingentaconnect.com/contentone/stc/tc/2016/00000063/00000001/art00004" format="html" scope="external"/>.</dd>
    </dlentry>
    
    <dlentry><dt>[YAML]</dt><dd><cite>YAML Specification Index</cite>. Edited by Oren Ben-Kiki, Clark Evans, Ingy döt Net. 29 September 2009. <xref href="http://yaml.org/spec//" format="html" scope="external">http://yaml.org/spec/</xref>. Latest version: <xref href="http://yaml.org/spec/1.2/spec.html" format="html" scope="external">http://yaml.org/spec/1.2/spec.html</xref>.</dd></dlentry>
