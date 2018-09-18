@@ -5,7 +5,7 @@
  <shortdesc>The following table contains information about revisions to this document.</shortdesc>
  <conbody>
   <?oxy_comment_start author="Kristen J Eberlein" timestamp="20170617T111741-0400" comment="Be sure to use the following convention in this topic: working draft #&lt;n&gt;."?>
-  <simpletable frame="all" relcolwidth="1.0* 1.75* 2.0* 3.0*" id="simpletable_yc3_dcb_by"><?oxy_comment_end?>
+  <simpletable frame="all" relcolwidth="1.5* 1.75* 1.5* 3.0*" id="simpletable_yc3_dcb_by"><?oxy_comment_end?>
    <sthead>
     <stentry>Revision</stentry>
     <stentry>Date</stentry>
