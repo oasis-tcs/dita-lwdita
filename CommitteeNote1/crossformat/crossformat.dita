@@ -2,10 +2,10 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="crossformat">
  <title>Authoring cross-format content with LwDITA</title>
-  <shortdesc>LwDITA enables cross-format content sharing. Authors can create topics in XDITA, HDITA, <ph rev="committee-note-2-draft01"><!--extended-profile--></ph> MDITA, or DITA 1.3 and then publish them as a unified collection. <ph rev="committee-note-2-draft01">Authors can use content references and key references in LwDITA authoring format (XDITA, HDITA, or MDITA extended profile) with the exception of MDITA core profile.</ph></shortdesc>
+  <shortdesc>LwDITA enables cross-format content sharing. Authors can create topics in XDITA, HDITA, <ph rev="committee-note-2-draft01"><!--extended-profile--></ph> MDITA, or DITA 1.3 and then publish them as a unified collection. <ph rev="committee-note-2-draft01">Authors can use content references and key reference in all LwDITA authoring formats, except the MDITA core profile</ph></shortdesc> 
  <conbody>
   <p>In the following example, a team that develops content for a lighting product shares topics
-    authored in the LwDITA authoring formats. The team even takes advantage of the <ph rev="review-1"><xmlatt>conref</xmlatt>/<ph rev="committee-note-2-draft01"><xmlatt>data-conref</xmlatt></ph> and <xmlatt>keyref</xmlatt>/<ph rev="committee-note-2-draft01"><xmlatt>data-keyref</xmlatt></ph>
+    authored in the LwDITA authoring formats. The team even takes advantage of the <ph rev="review-1"><xmlatt>conref</xmlatt>/<ph rev="committee-note-2-draft01"><xmlatt>data-conref</xmlatt></ph>, and <xmlatt>keyref</xmlatt>/<ph rev="committee-note-2-draft01"><xmlatt>data-keyref</xmlatt></ph>
    mechanisms.</ph> The example contains the following:</p>
  <ul>
  <li>An XDITA map that references topics authored in XDITA, HDITA, MDITA, and DITA 1.3. It also

@@ -41,9 +41,8 @@
     <stentry>Data</stentry>
     <stentry><xmlelement>data</xmlelement></stentry>
     <stentry><xmlelement>meta</xmlelement></stentry>
-    <stentry><b>(MDITA extended profile)</b> Any variables declared in a YAML front matter header.
-     The front matter must be the first block in the file and must be set between triple-dashed
-     lines. </stentry>
+    <stentry><b>(Extended profile)</b> Any variables declared in a YAML front matter header. The
+     front matter must be the first block in the file and must be set between triple-dashed lines. </stentry>
    </strow>
    <strow>
     <stentry>Definition description</stentry>
@@ -73,7 +72,7 @@
     <stentry>Definition list</stentry>
     <stentry><xmlelement>dl</xmlelement></stentry>
     <stentry><xmlelement>dl</xmlelement></stentry>
-    <stentry><b>(MDITA extended profile)</b>
+    <stentry><b>(Extended profile)</b>
      <ph rev="committee-note-2-draft01">"A single-line term followed by a colon and the definition
       for that term," following the <xref
        href="https://michelf.ca/projects/php-markdown/extra/#def-list" format="html"
@@ -99,9 +98,13 @@
     <stentry>Footnote</stentry>
     <stentry><xmlelement>fn</xmlelement></stentry>
     <stentry><ph rev="review-1"><xmlelement>span class="fn"</xmlelement></ph></stentry>
-    <stentry><b>(MDITA extended profile)</b>
-     <ph rev="committee-note-2-draft01">"A footnote is made of two things: a marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document," following the <xref href="https://michelf.ca/projects/php-markdown/extra/#footnotes" format="html" scope="external">Markdown Extra syntax for footnotes</xref></ph>
-<!--
+    <stentry><b>(Extended profile)</b>
+     <ph rev="committee-note-2-draft01">"A footnote is made of two things: a marker in the text that
+      will become a superscript number; a footnote definition that will be placed in a list of
+      footnotes at the end of the document," following the <xref
+       href="https://michelf.ca/projects/php-markdown/extra/#footnotes" format="html"
+       scope="external">Markdown Extra syntax for footnotes</xref></ph>
+     <!--
      <ph rev="review-1"><xmlelement>span
        class="fn"</xmlelement></ph>--></stentry>
    </strow>
@@ -121,14 +124,15 @@
     <stentry>Key definition</stentry>
     <stentry><xmlelement>keydef</xmlelement></stentry>
     <stentry><ph rev="review-1"><xmlelement>div data-class="keydef"</xmlelement></ph></stentry>
-    <stentry><b>MDITA (extended profile)</b> 
-     <ph rev="review-1"><xmlelement>div data-class="keydef"</xmlelement> in HDITA syntax</ph></stentry>
+    <stentry><b>(Extended profile)</b>
+     <ph rev="review-1"><xmlelement>div data-class="keydef"</xmlelement> in HDITA
+     syntax</ph></stentry>
    </strow>
    <strow>
     <stentry>Link text</stentry>
     <stentry><xmlelement>linktext</xmlelement></stentry>
     <stentry><ph rev="review-3"><xmlelement>span data-class="linktext"</xmlelement></ph></stentry>
-    <stentry><b>MDITA (extended profile)</b> 
+    <stentry><b>(Extended profile)</b>
      <ph rev="review-3"><xmlelement>span data-class="linktext"</xmlelement></ph></stentry>
    </strow>
    <strow>
@@ -171,7 +175,8 @@
     <stentry>Phrase</stentry>
     <stentry><xmlelement>ph</xmlelement></stentry>
     <stentry><xmlelement>span</xmlelement></stentry>
-    <stentry><b>(MDITA extended profile)</b> <xmlelement>span</xmlelement> in HDITA syntax </stentry>
+    <stentry><b>(Extended profile)</b>
+     <xmlelement>span</xmlelement> in HDITA syntax </stentry>
    </strow>
    <strow>
     <stentry>Preformatted text</stentry>
@@ -226,13 +231,15 @@
     <stentry>Subscript</stentry>
     <stentry><xmlelement>sub</xmlelement></stentry>
     <stentry><xmlelement>sub</xmlelement></stentry>
-    <stentry><b>(MDITA extended profile)</b> <xmlelement>sub</xmlelement> in HDITA syntax </stentry>
+    <stentry><b>(Extended profile)</b>
+     <xmlelement>sub</xmlelement> in HDITA syntax </stentry>
    </strow>
    <strow>
     <stentry>Superscript</stentry>
     <stentry><xmlelement>sup</xmlelement></stentry>
     <stentry><xmlelement>sup</xmlelement></stentry>
-    <stentry><b>(MDITA extended profile)</b> <xmlelement>sup</xmlelement> in HDITA syntax </stentry>
+    <stentry><b>(Extended profile)</b>
+     <xmlelement>sup</xmlelement> in HDITA syntax </stentry>
    </strow>
    <strow>
     <stentry>Title</stentry>
@@ -278,10 +285,12 @@
     <stentry>See List item</stentry>
    </strow>
   </simpletable>
-  <note type="note"><ph rev="review-1">HDITA is a subset of HTML5 conforming with the W3C HTML
-   standard, and MDITA aligns with the Github Flavored Markdown specification <ph rev="committee-note-2-draft01">with some extensions from Markdown Extra and Pandoc</ph>. Instances of valid
-    HTML5 syntax and Markdown practices allowed in other flavors outside the proposed LwDITA
-    elements can be supported by vendors at their discretion. Those syntax components would be
-    handled differently by vendors and might not work across all LwDITA implementations.</ph></note>
+  <note type="note"><ph rev="review-1">HDITA is a subset of HTML5 that conforms with the W3C HTML
+    standard, and MDITA aligns with the Github Flavored Markdown specification <ph
+     rev="committee-note-2-draft01">with some extensions from Markdown Extra and Pandoc</ph>.
+    Instances of valid HTML5 syntax and Markdown practices allowed in other flavors outside the
+    proposed LwDITA elements can be supported by vendors at their discretion. Those syntax
+    components would be handled differently by vendors and might not work across all LwDITA
+    implementations.</ph></note>
  </conbody>
 </concept>
