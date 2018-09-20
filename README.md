@@ -9,7 +9,7 @@
 <div>
 <h3>Description</h3>
 
-<p>This is an official OASIS TC repository sponsored by the DITA TC, and especially by members of the <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita-lightweight-dita">Lightweight DITA Subcommittee</a>. The purpose of the repository is to support development and maintenance of source files used in specializations and related artifacts, as edited by Subcommittee members.</p>
+<p>This is an official OASIS TC repository sponsored by the DITA TC, and especially by members of the <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita-lightweight-dita">Lightweight DITA Subcommittee</a>. The purpose of the repository is to support development and maintenance of source files used in specializations and related artifacts, as edited by subcommittee members.</p>
 
 </div>
 
