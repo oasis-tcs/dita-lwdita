@@ -44,6 +44,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--    25 Jul 2017  CE: Changed public identifier to LIGHTWEIGHT  -->
 <!--                     DITA                                      -->
 <!--    10 Feb 2018  AH: Added @processing-role to <topicref>      -->
+<!--    20 Sep 2018  CE: Added processing entity for <topicref>    -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
@@ -90,6 +91,10 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
             'dir         CDATA                              #IMPLIED
              xml:lang    CDATA                              #IMPLIED
              translate   CDATA                             #IMPLIED '>
+
+<!ENTITY  % referencing 
+            'processing-role (normal | resource-only)      #IMPLIED'>
+
 
 <!-- ============================================================= -->
 <!--                    ELEMENT DECLARATIONS                       -->
@@ -187,8 +192,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
              %reference-content;
 	         %control-variables;
              %variable-links;
-             processing-role
-                        CDATA       #FIXED      'resource-only'
+             %referencing;
              outputclass  CDATA          #IMPLIED
              class CDATA "- map/topicref ">
 
