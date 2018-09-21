@@ -13,23 +13,23 @@
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>As the attribute @alt in &lt;img></p></dd>
+          <dd><p>@alt attribute on &lt;img></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) provided in an image environment</p></dd>
+          <dd><p>Text inside square brackets ([]) in an image component</p></dd>
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Formatting expectations</title>
-     <p>When present, the content of the alternate text component is displayed as alterantive text
+      <!--<section>
+       <title>Formatting expectations</title>
+     <p>When present, the content of the alternate text component is displayed as alternative text
         for an image that references this component.</p>
-    </section>
-    <section>
+    </section>-->
+    <section> 
       <title>Processing expectations</title>
       <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
+        alternative text for the image that provides it.</p>
     </section>
     <section>
       <title>Attributes</title>
@@ -42,12 +42,38 @@
         <section>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
+      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+&lt;topic id="intro-product">
+  &lt;title>Remote Lighting Overview&lt;/title>
+  &lt;body>
+    &lt;p>The Remote Lighting Network kit includes a wireless smart system that helps make the lighting in your home more energy efficient and easier to manage.&lt;/p>
+    &lt;fig>
+      &lt;image href="images/kit-package.jpg">&lt;alt>Retail package for the Remote Lighting Network kit &lt;/alt>&lt;/image>
+    &lt;/fig>
+  &lt;/body>
+&lt;/topic></pre>
        
     </section>
     
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
+      <pre>&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+  &lt;title>Home&lt;/title>
+&lt;/head>
+&lt;body>
+  &lt;article id="intro-product">
+    &lt;h1>Remote Lighting Overview&lt;/h1>
+    &lt;p>The Remote Lighting Network kit includes a wireless smart system that helps make the lighting in your home more energy efficient and easier to manage.&lt;/p>
+    &lt;figure>
+      &lt;img src="images/kit-package.jpg" alt="Retail package for the Remote Lighting Network kit" />
+&lt;/figure>
+  &lt;/article>
+&lt;/body>
+&lt;/html></pre>
      
     </section>
     
@@ -55,6 +81,11 @@
     <section>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
+      <pre># Remote Lighting Overview
+
+The Remote Lighting Network kit includes a wireless smart system that helps make the lighting in your home more energy efficient and easier to manage.
+
+![Retail package for the Remote Lighting Network kit](images/kit-package.jpg)</pre>
     
       
     </section>
