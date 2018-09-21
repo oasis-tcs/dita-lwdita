@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<topic id="lw-ul">
+  <title>Unordered list</title>
+  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/ul"/>
+    <body>
+    <section>
+      <title>Usage information</title>
+      <dl>
+        <dlentry>
+          <dt>XDITA</dt>
+          <dd><p>&lt;shortdesc></p></dd>
+          </dlentry>
+        <dlentry>
+          <dt>HDITA</dt>
+          <dd><p>First element in &lt;article>, if it is a &lt;p>, after &lt;title></p></dd>
+        </dlentry>
+        <dlentry>
+          <dt>MDITA (core and extended profiles)</dt>
+          <dd><p>First block, if it is a paragraph, after title </p></dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section>
+      <title>Formatting expectations</title>
+     <p>When present, the content of the short description component is displayed as the first
+        paragraph of a topic. It may also be used for other purposes, such as link previews and
+        summaries.</p>
+    </section>
+    <section>
+      <title>Processing expectations</title>
+      <p>Processors <ph>SHOULD</ph> render the content of the short description component as the initial paragraph of a topic</p>
+    </section>
+    <section>
+      <title>Attributes</title>
+      <p>Link to table!</p>
+      
+      
+      
+      
+    </section>
+        <section>
+      <title>XDITA example</title>
+      <p>The following example demonstrates the use of a short description in an XDITA topic.</p>
+      <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
+ &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+ &lt;topic id="install-and-setup">
+   &lt;title>Installing and Setting up Remote Lighting&lt;/title>
+   &lt;shortdesc>Installation of your lighting kit includes installing the light bulbs into
+   light fixtures, preparing the remote control, and programming lighting groups.
+   &lt;/shortdesc>
+  &lt;/topic></pre>  
+    </section>
+    
+    <section>
+      <title>HDITA example</title>
+      <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
+      <pre>  &lt;!DOCTYPE html>
+  &lt;html>
+  &lt;head>
+  &lt;title>Installing and Setting up Remote Lighting&lt;/title>
+  &lt;/head>
+  &lt;body>
+   &lt;article id="install-and-setup">
+    &lt;h1>Installing and Setting up Remote Lighting&lt;/h1>
+    &lt;p>Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.&lt;/p>
+  &lt;/article>
+  &lt;/body>
+  &lt;/html></pre>
+    </section>
+    
+    
+    <section>
+      <title>MDITA example</title>
+      <p>The following example demonstrates the use of a short description in an MDITA topic.</p>
+      <pre>  # Installing and Setting up Remote Lighting
+
+  Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</pre>
+      
+    </section>
+    
+  </body>
+</topic>
