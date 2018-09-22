@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<topic id="common-examples">
+  <title>Common examples</title>
+  <body>
+   <pre id="dl-xdita">&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="franchise-terms">
+  &lt;title>Profit, fun, and flavor under the same brand&lt;/title>
+  &lt;body>
+    &lt;dl>
+      &lt;dlentry>
+        &lt;dt>Initial investment:&lt;/dt>
+        &lt;dd>&lt;p>$700 (includes initial franchise fee)&lt;/p>&lt;/dd>
+      &lt;/dlentry>
+      &lt;dlentry>
+        &lt;dt>Franchise fee:&lt;/dt>
+        &lt;dd>&lt;p>$200&lt;/p>&lt;/dd>
+      &lt;/dlentry>
+    &lt;/dl>
+  &lt;/body>
+&lt;/topic></pre>
+    
+    <pre id="dl-hdita">&lt;!DOCTYPE html>
+&lt;title>Profit, fun, and flavor under the same brand&lt;/title>
+&lt;body>
+  &lt;article id="franchise-terms">
+    &lt;h1>Profit, fun, and flavor under the same brand&lt;/h1>
+    &lt;dl>
+      &lt;dt>Initial investment:&lt;/dt>
+      &lt;dd>
+        &lt;p>$700 (includes initial franchise fee)&lt;/p>
+      &lt;/dd>
+      &lt;dt>Franchise fee:&lt;/dt>
+      &lt;dd>
+        &lt;p>$200&lt;/p>
+      &lt;/dd>
+    &lt;/dl>
+  &lt;/article>
+&lt;/body></pre>
+    
+    <pre id="dl-mdita"># Profit, fun, and flavor under the same brand
+
+Initial investment
+: $700 (includes initial franchise fee)&lt;/p>
+
+Franchise fee
+: $200</pre>
+    
+  </body>
+</topic>

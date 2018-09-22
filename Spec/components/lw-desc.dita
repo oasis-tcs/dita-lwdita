@@ -9,15 +9,18 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;alt></p></dd>
+          <dd>
+            <p>&lt;desc> </p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>As the attribute @alt in &lt;img></p></dd>
+          <dd>
+            <p>&lt;caption> in &lt;table>; &lt;figcaption> in &lt;figure>; not applicable in links
+              ???</p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) provided in an image environment</p></dd>
+          <dd><p>Committee note said not applicable... ??</p></dd>
         </dlentry>
       </dl>
     </section>
@@ -41,20 +44,20 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
+      <p>The following example demonstrates the use of description in an XDITA topic.</p>
        
     </section>
     
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
+      <p>The following example demonstrates the use of description in an HDITA topic.</p>
      
     </section>
     
     
     <section>
-      <title>MDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
+      <title>MDITA example (need?)</title>
+      <p>The following example demonstrates the use of description in an MDITA topic.</p>
     
       
     </section>
