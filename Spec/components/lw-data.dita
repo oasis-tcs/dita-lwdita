@@ -9,15 +9,19 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;alt></p></dd>
+          <dd><p>&lt;data></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>As the attribute @alt in &lt;img></p></dd>
+          <dd>
+            <p>&lt;meta></p>
+          </dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) provided in an image environment</p></dd>
+          <dd>
+            <p>Any variables declared in a YAML front matter header. The front matter must be the
+              first block in the file and must be set between triple- dashed lines. </p></dd>
         </dlentry>
       </dl>
     </section>
