@@ -41,30 +41,32 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of a short description in an XDITA topic.</p>
+      <p>The following example demonstrates the use of bold text in an XDITA topic.</p>
       <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
  &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
- &lt;topic id="install-and-setup">
-   &lt;title>Installing and Setting up Remote Lighting&lt;/title>
-   &lt;shortdesc>Installation of your lighting kit includes installing the light bulbs into
-   light fixtures, preparing the remote control, and programming lighting groups.
-   &lt;/shortdesc>
+ &lt;topic id="max-number-bulbs">
+   &lt;title>Maximum Number of Network Light Bulbs&lt;/title>
+   &lt;p>There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease. 
+  Testing has shown that the lighting network should be limited to a &lt;b>maximum of 250 light bulbs&lt;/b> to maintain reliability in
+  performance.&lt;/p>
   &lt;/topic></pre>  
     </section>
     
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
+      <p>The following example demonstrates the use of bold text in an HDITA topic.</p>
       <pre>  &lt;!DOCTYPE html>
   &lt;html>
   &lt;head>
-  &lt;title>Installing and Setting up Remote Lighting&lt;/title>
+  &lt;title>Maximum Number of Network Light Bulbs&lt;/title>
   &lt;/head>
   &lt;body>
-   &lt;article id="install-and-setup">
-    &lt;h1>Installing and Setting up Remote Lighting&lt;/h1>
-    &lt;p>Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.&lt;/p>
-  &lt;/article>
+   &lt;article id="max-number-bulbs">
+    &lt;h1>Maximum Number of Network Light Bulbs&lt;/h1>
+   &lt;p>There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease. 
+  Testing has shown that the lighting network should be limited to a &lt;strong>maximum of 250 light bulbs&lt;/strong> to maintain reliability in
+  performance.&lt;/p>
+    &lt;/article>
   &lt;/body>
   &lt;/html></pre>
     </section>
@@ -72,10 +74,12 @@
     
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of a short description in an MDITA topic.</p>
-      <pre>  # Installing and Setting up Remote Lighting
+      <p>The following example demonstrates the use of bold text in an MDITA topic.</p>
+      <pre>  # Maximum Number of Network Light Bulbs
 
-  Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</pre>
+  There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease. 
+  Testing has shown that the lighting network should be limited to a **maximum of 250 light bulbs** to maintain reliability in
+  performance.</pre>
       
     </section>
     
