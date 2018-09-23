@@ -21,12 +21,7 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Formatting expectations</title>
-     <p>When present, the content of the short description component is displayed as the first
-        paragraph of a topic. It may also be used for other purposes, such as link previews and
-        summaries.</p>
-    </section>
+  
     <section>
       <title>Processing expectations</title>
       <p>Processors <ph>SHOULD</ph> render the content of the short description component as the initial paragraph of a topic</p>
@@ -34,10 +29,10 @@
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-      
-      
-      
-      
+
+
+
+
     </section>
         <section>
       <title>XDITA example</title>
@@ -46,12 +41,12 @@
  &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
  &lt;topic id="max-number-bulbs">
    &lt;title>Maximum Number of Network Light Bulbs&lt;/title>
-   &lt;p>There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease. 
+   &lt;p>There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease.
   Testing has shown that the lighting network should be limited to a &lt;b>maximum of 250 light bulbs&lt;/b> to maintain reliability in
   performance.&lt;/p>
-  &lt;/topic></pre>  
+  &lt;/topic></pre>
     </section>
-    
+
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of bold text in an HDITA topic.</p>
@@ -63,25 +58,25 @@
   &lt;body>
    &lt;article id="max-number-bulbs">
     &lt;h1>Maximum Number of Network Light Bulbs&lt;/h1>
-   &lt;p>There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease. 
+   &lt;p>There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease.
   Testing has shown that the lighting network should be limited to a &lt;strong>maximum of 250 light bulbs&lt;/strong> to maintain reliability in
   performance.&lt;/p>
     &lt;/article>
   &lt;/body>
   &lt;/html></pre>
     </section>
-    
-    
+
+
     <section>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of bold text in an MDITA topic.</p>
       <pre>  # Maximum Number of Network Light Bulbs
 
-  There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease. 
+  There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease.
   Testing has shown that the lighting network should be limited to a **maximum of 250 light bulbs** to maintain reliability in
   performance.</pre>
-      
+
     </section>
-    
+
   </body>
 </topic>

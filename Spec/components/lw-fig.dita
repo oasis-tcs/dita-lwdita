@@ -21,11 +21,7 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Formatting expectations</title>
-     <p>When present, the content of the alternate text component is displayed as alterantive text
-        for an image that references this component.</p>
-    </section>
+    
     <section>
       <title>Processing expectations</title>
       <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
@@ -34,30 +30,30 @@
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-      
-      
-      
-      
+
+
+
+
     </section>
         <section>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of figure in an XDITA topic.</p>
-       
+
     </section>
-    
+
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of figure in an HDITA topic.</p>
-     
+
     </section>
-    
-    
+
+
     <section>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of figure in an MDITA topic.</p>
-    
-      
+
+
     </section>
-    
+
   </body>
 </topic>

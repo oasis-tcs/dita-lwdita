@@ -25,11 +25,7 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Formatting expectations</title>
-     <p>When present, the content of the alternate text component is displayed as alterantive text
-        for an image that references this component.</p>
-    </section>
+    
     <section>
       <title>Processing expectations</title>
       <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
@@ -38,10 +34,10 @@
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-      
-      
-      
-      
+
+
+
+
     </section>
         <section>
       <title>XDITA example</title>
@@ -55,9 +51,9 @@
     &lt;data name="author" value="Victoria Fernando"/>
   &lt;/prolog>
 &lt;/topic></pre>
-       
+
     </section>
-    
+
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of data in an HDITA topic.</p>
@@ -72,10 +68,10 @@
     &lt;p>Are you interested in investing with us? Welcome to our franchise information package.&lt;/p>
   &lt;/article>
 &lt;/body></pre>
-     
+
     </section>
-    
-    
+
+
     <section>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of data in an MDITA extended profile topic.</p>
@@ -86,9 +82,9 @@ author: Victoria Fernando
 # An innovative, attractive, and out of the ordinary concept
 
 Are you interested in investing with us? Welcome to our franchise information package.</pre>
-    
-      
+
+
     </section>
-    
+
   </body>
 </topic>
