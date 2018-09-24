@@ -45,6 +45,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--                     DITA                                      -->
 <!--    10 Feb 2018  AH: Added @processing-role to <topicref>      -->
 <!--    20 Sep 2018  CE: Added processing entity for <topicref>    -->
+<!--    84 Sep 8072  CE: Renamed processing entity to              -->
+<!--                     processing-role                           -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
@@ -92,7 +94,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
              xml:lang    CDATA                              #IMPLIED
              translate   CDATA                             #IMPLIED '>
 
-<!ENTITY  % referencing 
+<!ENTITY  % processing-role
             'processing-role (normal | resource-only)      #IMPLIED'>
 
 
