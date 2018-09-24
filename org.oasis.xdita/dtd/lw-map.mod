@@ -194,7 +194,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
              %reference-content;
 	         %control-variables;
              %variable-links;
-             %referencing;
+             %processing-role;
              outputclass  CDATA          #IMPLIED
              class CDATA "- map/topicref ">
 
