@@ -43,13 +43,13 @@
       scope="external"/></dd>
    </dlentry>
    
-   <!-- <dlentry>
+    <dlentry>
     <dt>[LwDITA-IXIASOFT]</dt>
     <dd><cite>Lightweight DITA: What Is It and Can I Use It in the IXIASOFT DITA CMS?</cite>
      Authored by Leigh W. White. 28 November 2016. Latest version:  <xref
-      href="http://www.ixiasoft.com/en/news-and-events/blog/2016/lightweight-dita-what-it-and-can-i-use-it-ixiasoft-dita-cms/"
+      href="https://www.ixiasoft.com/lightweight-dita-what-is-it-and-can-i-use-it-in-the-dita-cms/"
       format="html" scope="external"/>.</dd>
-   </dlentry> -->
+   </dlentry>
    <dlentry>
     <dt>[Markdown-Extra]</dt>
     <dd><cite><ph rev="committee-note-2-draft01">PHP Markdown Extra.</ph></cite> <xref href="https://michelf.ca/projects/php-markdown/extra/" format="html" scope="external"/></dd>
