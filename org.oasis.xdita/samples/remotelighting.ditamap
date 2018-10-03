@@ -13,7 +13,10 @@
   <topicref href="xdita/intro-product.dita" format="dita" />
   <topicref href="hdita/intro-network-lighting.html" format="hdita" />
   <topicref href="mdita/remote-components.md" format="mdita" />
+
   <topicref href="xdita/max-number-bulbs.dita" format="dita" />
+
+
   <topicref href="hdita/low-power.html" format="hdita"/>
   <topicref href="hdita/considerations.html" format="hdita"/>
   <topicref href="xdita/program-bulbs-to-groups.dita" format="dita" />
