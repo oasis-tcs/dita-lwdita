@@ -9,15 +9,16 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;alt></p></dd>
+          <dd>
+            <p>&lt;keydef> </p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>As the attribute @alt in &lt;img></p></dd>
+          <dd><p>&lt;div data-class="keydef"></p></dd>
         </dlentry>
         <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) provided in an image environment</p></dd>
+          <dt>MDITA (extended profile)</dt>
+          <dd><p>&lt;div data-class="keydef"></p></dd>
         </dlentry>
       </dl>
     </section>
@@ -41,20 +42,24 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
+      <p>The following example demonstrates the use of key definition in an XDITA map.</p>
+          <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-xdita"/>
        
     </section>
     
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
+      <p>The following example demonstrates the use of key definition in an HDITA map.</p>
+      <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-hdita"/>
      
     </section>
     
     
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
+      <p>The following example demonstrates the use of key definition in an MDITA extended profile
+        map.</p>
+      <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-mdita"/>
     
       
     </section>

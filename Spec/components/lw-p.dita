@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
 <topic id="lw-p">
-  <title>Paraghraph</title>
+  <title>Paragraph</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/p"/>
     <body>
     <section>
@@ -9,22 +9,17 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;alt></p></dd>
+          <dd><p>&lt;p></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>As the attribute @alt in &lt;img></p></dd>
+          <dd><p>&lt;p></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) provided in an image environment</p></dd>
+          <dd><p>Two carriage returns (old fashioned???)</p></dd>
         </dlentry>
       </dl>
-    </section>
-    <section>
-      <title>Formatting expectations</title>
-     <p>When present, the content of the alternate text component is displayed as alterantive text
-        for an image that references this component.</p>
     </section>
     <section>
       <title>Processing expectations</title>
@@ -41,20 +36,39 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
+      <p>The following example demonstrates the use of paragraph in an XDITA topic.</p>
+      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="franchise-intro">
+  &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
+   &lt;body>
+    &lt;p>We offer more than 30 exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.&lt;/p>
+  &lt;/body>
+&lt;/topic></pre>
        
     </section>
     
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
+      <p>The following example demonstrates the use of paragraph in an HDITA topic.</p>
+      <pre>&lt;!DOCTYPE html>
+&lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
+&lt;body>
+  &lt;article id="franchise-intro">
+    &lt;h1>An innovative, attractive, and out of the ordinary concept&lt;/h1>
+    &lt;p>We offer more than 30 exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.&lt;/p>
+  &lt;/article>
+&lt;/body></pre>
      
     </section>
     
     
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
+      <p>The following example demonstrates the use of paragraph in an MDITA topic.</p>
+      <pre># An innovative, attractive, and out of the ordinary concept
+
+We offer more than 30 exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.</pre>
     
       
     </section>

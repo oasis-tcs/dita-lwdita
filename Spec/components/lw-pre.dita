@@ -9,22 +9,17 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;alt></p></dd>
+          <dd><p>&lt;pre></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>As the attribute @alt in &lt;img></p></dd>
+          <dd><p>&lt;pre></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) provided in an image environment</p></dd>
+          <dd><p>Fenced code blocks (e.g. ```text```) or indented code blocks (e.g.     text)</p></dd>
         </dlentry>
       </dl>
-    </section>
-    <section>
-      <title>Formatting expectations</title>
-     <p>When present, the content of the alternate text component is displayed as alterantive text
-        for an image that references this component.</p>
     </section>
     <section>
       <title>Processing expectations</title>
@@ -41,20 +36,52 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
+      <p>The following example demonstrates the use of preformatted text in an XDITA topic.</p>
+      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="sensei-promise">
+  &lt;title>The Sensei Sushi Promise&lt;/title>
+  &lt;body>
+    &lt;pre>
+      Sensei Sushi cares about tradition
+      Sensei Sushi cares about the customer
+      Sensei Sushi cares about fun.
+     &lt;/pre>
+  &lt;/body>
+&lt;/topic></pre>
        
     </section>
     
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
+      <p>The following example demonstrates the use of preformatted text in an HDITA topic.</p>
+      <pre>&lt;!DOCTYPE html>
+&lt;title>The Sensei Sushi Promise&lt;/title>
+&lt;body>
+  &lt;article id="sensei-promise">
+    &lt;h1>The Sensei Sushi Promise&lt;/h1>
+    &lt;pre>
+      Sensei Sushi cares about tradition
+      Sensei Sushi cares about the customer
+      Sensei Sushi cares about fun.
+    &lt;/pre>
+  &lt;/article>
+&lt;/body></pre>
      
     </section>
     
     
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
+      <p>The following example demonstrates the use of preformatted text in an MDITA topic.</p>
+      <pre># The Sensei Sushi Promise
+
+
+          Sensei Sushi cares about tradition
+
+          Sensei Sushi cares about the customer
+
+          Sensei Sushi cares about fun.</pre>
     
       
     </section>

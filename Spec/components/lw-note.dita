@@ -9,22 +9,17 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;alt></p></dd>
+          <dd><p>&lt;note> when do we talk about types???</p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>As the attribute @alt in &lt;img></p></dd>
+          <dd><p>&lt;div data-class="note"></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) provided in an image environment</p></dd>
+          <dd><p>There is no specific markup for note in MDITA</p></dd>
         </dlentry>
       </dl>
-    </section>
-    <section>
-      <title>Formatting expectations</title>
-     <p>When present, the content of the alternate text component is displayed as alterantive text
-        for an image that references this component.</p>
     </section>
     <section>
       <title>Processing expectations</title>
@@ -41,22 +36,56 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
+      <p>The following example demonstrates the use of note in an XDITA topic.</p>
+      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="franchise-terms">
+  &lt;title>Profits, fun, and flavor under the same brand&lt;/title>
+  &lt;body>
+    &lt;dl>
+      &lt;dlentry>
+        &lt;dt>Initial investment:&lt;/dt>
+        &lt;dd>
+          &lt;p>$700&lt;/p>
+          &lt;note type="notice">
+            &lt;p>The initial investment price includes the first franchise fee payment&lt;/p>
+          &lt;/note>
+        &lt;/dd>
+      &lt;/dlentry>
+      &lt;dlentry>
+        &lt;dt>Franchise fee:&lt;/dt>
+        &lt;dd>&lt;p>$200&lt;/p>&lt;/dd>
+      &lt;/dlentry>
+    &lt;/dl>
+  &lt;/body>
+&lt;/topic></pre>
        
     </section>
     
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
+      <p>The following example demonstrates the use of note in an HDITA topic.</p>
+      <pre>&lt;!DOCTYPE html>
+&lt;title>Profits, fun, and flavor under the same brand&lt;/title>
+&lt;body>
+  &lt;article id="franchise-terms">
+    &lt;h1>Profits, fun, and flavor under the same brand&lt;/h1>
+    &lt;dl>
+      &lt;dt>Initial investment:&lt;/dt>
+      &lt;dd>
+        &lt;p>$700&lt;/p>
+        &lt;div data-class="note" data-type="notice">
+          &lt;p>The initial investment price includes the first franchise fee payment&lt;/p>
+        &lt;/div>
+      &lt;/dd>
+      &lt;dt>Franchise fee:&lt;/dt>
+      &lt;dd>
+        &lt;p>$200&lt;/p>
+      &lt;/dd>
+    &lt;/dl>
+  &lt;/article>
+&lt;/body></pre>
      
-    </section>
-    
-    
-    <section>
-      <title>MDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
-    
-      
     </section>
     
   </body>

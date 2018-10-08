@@ -83,6 +83,38 @@ Initial investment
 Franchise fee
 : $200</pre>
     
+    <pre id="keyref-linktext-xdita">&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Map//EN" "lw-map.dtd">
+&lt;map id="remote-main">
+    &lt;topicmeta>
+        &lt;navtitle>Remote Lighting Network&lt;/navtitle>
+    &lt;/topicmeta>
+    &lt;keydef keys="product-name">
+        &lt;topicmeta>
+            &lt;linktext>Remote Network Lighting&lt;/linktext>
+        &lt;/topicmeta>
+    &lt;/keydef>
+&lt;/map></pre>
+    
+    <pre id="keyref-linktext-hdita">&lt;!DOCTYPE html>
+&lt;html>
+  &lt;title>Remote Lighting Network&lt;/title>
+&lt;nav>
+    &lt;h1>Remote Lighting Network&lt;/h1>
+    &lt;div class="keydef">
+    &lt;span class="linktext" data-keys="product-name">Remote Lighting Network&lt;/span>
+    &lt;/div>
+   &lt;/nav>
+   &lt;/html></pre>
+    
+    <pre id="keyref-linktext-mdita"># Remote Lighting Network
+
+&lt;keydef keys="product-name">
+        &lt;topicmeta>
+            &lt;linktext>Remote Network Lighting&lt;/linktext>
+        &lt;/topicmeta>
+&lt;/keydef></pre>
+    
     <pre id="multimedia-xdita">&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="install-and-setup">
@@ -125,6 +157,45 @@ Installation of your Lighting Kit includes installing the light bulbs into light
 The following video demonstrates a recommended installation:
 
 &lt;video src="remote.mp4" controls poster="remote.png">&lt;/video></pre>
+    
+    
+    <pre id="ol-xdita">&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="franchise-plan">
+  &lt;title>Make a plan! Start your future today!&lt;/title>
+  &lt;body>
+    &lt;ol>
+      &lt;li>&lt;p>Contact one of our franchise advisors&lt;/p>&lt;/li>
+      &lt;li>&lt;p>Pick a location for your restaurant&lt;/p>&lt;/li>
+      &lt;li>&lt;p>Follow our franchise guide&lt;/p>&lt;/li>
+    &lt;/ol>
+  &lt;/body>
+&lt;/topic></pre>
+    
+    <pre id="ol-hdita">&lt;!DOCTYPE html>
+&lt;title>Make a plan! Start your future today!&lt;/title>
+&lt;body>
+  &lt;article id="franchise-plan">
+    &lt;h1>Make a plan! Start your future today!&lt;/h1>
+    &lt;ol>
+      &lt;li>
+        &lt;p>Contact one of our franchise advisors&lt;/p>
+      &lt;/li>
+      &lt;li>
+        &lt;p>Pick a location for your restaurant&lt;/p>
+      &lt;/li>
+      &lt;li>
+        &lt;p>Follow our franchise guide&lt;/p>
+      &lt;/li>
+    &lt;/ol>
+  &lt;/article>
+&lt;/body></pre>
+    
+    <pre id="ol-mdita"># Make a plan! Start your future today!
+
+1.  Contact one of our franchise advisors
+2.  Pick a location for your restaurant
+3.  Follow our franchise guide</pre>
     
   </body>
 </topic>
