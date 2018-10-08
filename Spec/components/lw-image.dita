@@ -9,15 +9,18 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;alt></p></dd>
+          <dd>
+            <p>&lt;image>  </p>
+            <p>In XDITA, &lt;image> is always treated as an inline element; an &lt;image> inside a
+                <xref href="lw-fig.dita" format="dita">&lt;fig></xref> is treated as a block element </p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>As the attribute @alt in &lt;img></p></dd>
+          <dd><p>&lt;img></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) provided in an image environment</p></dd>
+          <dd><p>![alt text for an image](images/image_name.jpg)</p></dd>
         </dlentry>
       </dl>
     </section>
@@ -37,20 +40,49 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
+      <p>The following example demonstrates the use of image in an XDITA topic.</p>
+      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="franchise-intro">
+  &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
+  &lt;shortdesc>Are you interested in investing with us? Welcome to our franchise information package.&lt;/shortdesc>
+  &lt;body>
+    &lt;p>We offer &lt;image href="images/plus-sign.jpg">
+        &lt;alt>Icon for a plus sign&lt;/alt>
+      &lt;/image> than 30 exclusive creations for original rolls, from the California roll to sushi
+      with BBQ chicken or grilled steak.&lt;/p>
+  &lt;/body>
+&lt;/topic></pre>
 
     </section>
 
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
+      <p>The following example demonstrates the use of image in an HDITA topic.</p>
+      <pre>&lt;!DOCTYPE html>
+&lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
+&lt;body>
+  &lt;article id="franchise-intro">
+    &lt;h1>An innovative, attractive, and out of the ordinary concept&lt;/h1>
+    &lt;p>Are you interested in investing with us? Welcome to our franchise information package.&lt;/p>
+    &lt;p>We offer &lt;img src="images/plus-sign.jpg" alt="Icon for a plus sign" /> than 30 exclusive creations for original rolls, from the California roll to sushi with BBQ chicken or grilled steak.&lt;/p>
+  &lt;/article>
+&lt;/body></pre>
 
     </section>
 
 
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
+      <p>The following example demonstrates the use of image in an MDITA topic.</p>
+      <pre># An innovative, attractive, and out of the ordinary concept
+
+Are you interested in investing with us? Welcome to our franchise
+information package.
+
+We offer ![Icon for a plus sign](images/plus-sign.jpg) than 30
+exclusive creations for original rolls, from the California roll to
+sushi with BBQ chicken or grilled steak.</pre>
 
 
     </section>

@@ -3,6 +3,42 @@
 <topic id="common-examples">
   <title>Common examples</title>
   <body>
+    
+    <pre id="altfig-xdita">&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+&lt;topic id="intro-product">
+  &lt;title>Remote Lighting Overview&lt;/title>
+  &lt;body>
+    &lt;p>The Remote Lighting Network kit includes a wireless smart system that helps make the lighting in your home more energy efficient and easier to manage.&lt;/p>
+    &lt;fig>
+      &lt;image href="images/kit-package.jpg">&lt;alt>Retail package for the Remote Lighting Network kit &lt;/alt>&lt;/image>
+    &lt;/fig>
+  &lt;/body>
+&lt;/topic></pre>
+    
+    <pre id="altfig-hdita">&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+  &lt;title>Home&lt;/title>
+&lt;/head>
+&lt;body>
+  &lt;article id="intro-product">
+    &lt;h1>Remote Lighting Overview&lt;/h1>
+    &lt;p>The Remote Lighting Network kit includes a wireless smart system that helps make the lighting in your home more energy efficient and easier to manage.&lt;/p>
+    &lt;figure>
+      &lt;img src="images/kit-package.jpg" alt="Retail package for the Remote Lighting Network kit" />
+&lt;/figure>
+  &lt;/article>
+&lt;/body>
+&lt;/html></pre>
+    
+    <pre id="altfig-mdita"># Remote Lighting Overview
+
+The Remote Lighting Network kit includes a wireless smart system that helps make the lighting in your home more energy efficient and easier to manage.
+
+![Retail package for the Remote Lighting Network kit](images/kit-package.jpg)</pre>
+    
+    
    <pre id="dl-xdita">&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="franchise-terms">
@@ -42,7 +78,7 @@
     <pre id="dl-mdita"># Profit, fun, and flavor under the same brand
 
 Initial investment
-: $700 (includes initial franchise fee)&lt;/p>
+: $700 (includes initial franchise fee)
 
 Franchise fee
 : $200</pre>

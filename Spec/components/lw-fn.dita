@@ -9,15 +9,23 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;alt></p></dd>
+          <dd><p>&lt;fn> (The footnote component is composed of two elements: the cross-reference that calls it,
+              and the actual footnote content)</p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>As the attribute @alt in &lt;img></p></dd>
+          <dd><p>&lt;span data-class="fn">. Long explanation follows: The footnote division should have a unique
+              @id. In the body of the text, where the footnote is called from, an internal
+              cross-reference in the form of &lt;a href=“#footnote-id”> should embrace the text you
+              want to make clickable for the footnote. In this example, the clickable text is a
+              number 1 with the superscript (&lt;sup>) format.</p></dd>
         </dlentry>
         <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) provided in an image environment</p></dd>
+          <dt>MDITA (extended profile)</dt>
+          <dd>
+            <p>A footnote is made of two things: a marker in the text that will become a superscript
+              number; a footnote definition that will be placed in a list of footnotes at the end of
+              the document, following the Markdown Extra syntax for footnotes </p></dd>
         </dlentry>
       </dl>
     </section>
@@ -37,20 +45,73 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
+      <p>The following example demonstrates the use of footnote in an XDITA topic.</p>
+      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="franchise-terms">
+  &lt;title>Profits, fun, and flavor under the same brand&lt;/title>
+  &lt;body>
+    &lt;dl>
+      &lt;dlentry>
+        &lt;dt>Initial investment:&lt;/dt>
+        &lt;dd>
+          &lt;p>$700&lt;xref href="#franchise-terms/initial-fee"/>&lt;/p>
+        &lt;/dd>
+      &lt;/dlentry>
+      &lt;dlentry>
+        &lt;dt>Franchise fee:&lt;/dt>
+        &lt;dd>&lt;p>$200&lt;/p>&lt;/dd>
+      &lt;/dlentry>
+    &lt;/dl>
+    &lt;fn id="initial-fee">
+      &lt;p>The initial investment price includes the first franchise fee payment&lt;/p>
+    &lt;/fn> 
+  &lt;/body>
+&lt;/topic></pre>
 
     </section>
 
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
+      <p>The following example demonstrates the use of footnote  in an HDITA topic.</p>
+      <pre>&lt;!DOCTYPE html>
+&lt;title>Profits, fun, and flavor under the same brand&lt;/title>
+&lt;body>
+  &lt;article id="franchise-terms">
+    &lt;h1>Profits, fun, and flavor under the same brand&lt;/h1>
+    &lt;dl>
+      &lt;dt>Initial investment:&lt;/dt>
+      &lt;dd>
+        &lt;p>$700&lt;a href="#initial-fee">&lt;sup>1&lt;/sup>&lt;/a>&lt;/p>
+      &lt;/dd>
+      &lt;dt>Franchise fee:&lt;/dt>
+      &lt;dd>
+        &lt;p>$200&lt;/p>
+      &lt;/dd>
+    &lt;/dl>
+        &lt;div id="initial-fee" data-class="fn">
+          &lt;p>The initial investment price includes the first franchise fee payment&lt;/p>
+        &lt;/div>
+  &lt;/article>
+&lt;/body></pre>
 
     </section>
 
 
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
+      <p>The following example demonstrates the use of footnote in an MDITA extended profile
+        topic.</p>
+      <pre># Profit, fun, and flavor under the same brand
+
+Initial investment
+: $700[^1]
+
+Franchise fee
+: $200
+
+
+[^1]: The initial investment price includes the first franchise fee payment</pre>
 
 
     </section>

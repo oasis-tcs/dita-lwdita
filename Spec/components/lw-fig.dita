@@ -38,12 +38,14 @@
         <section>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of figure in an XDITA topic.</p>
-
+          <pre conref="../common/common-examples.dita#common-examples/altfig-xdita"/>
     </section>
 
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of figure in an HDITA topic.</p>
+
+      <pre conref="../common/common-examples.dita#common-examples/altfig-hdita"/>
 
     </section>
 
@@ -52,7 +54,7 @@
       <title>MDITA example</title>
       <p>The following example demonstrates the use of figure in an MDITA topic.</p>
 
-
+      <pre conref="../common/common-examples.dita#common-examples/altfig-mdita"/>
     </section>
 
   </body>
