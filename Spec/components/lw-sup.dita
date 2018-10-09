@@ -9,15 +9,17 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;shortdesc></p></dd>
+          <dd><p>&lt;sup></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>First element in &lt;article>, if it is a &lt;p>, after &lt;title></p></dd>
+          <dd><p>&lt;sup></p></dd>
         </dlentry>
         <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>First block, if it is a paragraph, after title </p></dd>
+          <dt>MDITA (extended profile)</dt>
+          <dd>
+            <p>&lt;sup> in HDITA syntax</p>
+          </dd>
         </dlentry>
       </dl>
     </section>
@@ -41,30 +43,29 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of a short description in an XDITA topic.</p>
-      <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
- &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
- &lt;topic id="install-and-setup">
-   &lt;title>Installing and Setting up Remote Lighting&lt;/title>
-   &lt;shortdesc>Installation of your lighting kit includes installing the light bulbs into
-   light fixtures, preparing the remote control, and programming lighting groups.
-   &lt;/shortdesc>
-  &lt;/topic></pre>
+      <p>The following example demonstrates the use of superscript in an XDITA topic.</p>
+      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="requirements">
+  &lt;title>Franchise Requirements&lt;/title>
+  &lt;body>
+    &lt;p>Franchised restaurants should be located in areas of at least 200 ft&lt;sup>2&lt;/sup>.&lt;/p>
+  &lt;/body>
+&lt;/topic></pre>
     </section>
 
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
+      <p>The following example demonstrates the use of superscript in an HDITA topic.</p>
       <pre>  &lt;!DOCTYPE html>
   &lt;html>
   &lt;head>
-  &lt;title>Installing and Setting up Remote Lighting&lt;/title>
+  &lt;title>Franchise Requirements&lt;/title>
   &lt;/head>
   &lt;body>
-   &lt;article id="install-and-setup">
-    &lt;h1>Installing and Setting up Remote Lighting&lt;/h1>
-    &lt;p>Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.&lt;/p>
-  &lt;/article>
+   &lt;article id="requirements">
+    &lt;h1>Franchise Requirements&lt;/h1>
+    &lt;p>Franchised restaurants should be located in areas of at least 200 ft&lt;sup>2&lt;/sup>.&lt;/p>
   &lt;/body>
   &lt;/html></pre>
     </section>
@@ -72,10 +73,11 @@
 
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of a short description in an MDITA topic.</p>
-      <pre>  # Installing and Setting up Remote Lighting
+      <p>The following example demonstrates the use of superscript in an MDITA extended profile
+        topic.</p>
+      <pre>  # Franchise Requirements
 
-  Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</pre>
+  Franchised restaurants should be located in areas of at least 200 ft&lt;sup>2&lt;/sup>.</pre>
 
     </section>
 
