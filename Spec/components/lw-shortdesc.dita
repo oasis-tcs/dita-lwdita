@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-shortdesc">
   <title>Short description</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/shortdesc"/>
@@ -30,10 +30,10 @@
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-      
-      
-      
-      
+
+
+
+
     </section>
         <section>
       <title>XDITA example</title>
@@ -45,9 +45,9 @@
    &lt;shortdesc>Installation of your lighting kit includes installing the light bulbs into
    light fixtures, preparing the remote control, and programming lighting groups.
    &lt;/shortdesc>
-  &lt;/topic></pre>  
+  &lt;/topic></pre>
     </section>
-    
+
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
@@ -64,16 +64,16 @@
   &lt;/body>
   &lt;/html></pre>
     </section>
-    
-    
+
+
     <section>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a short description in an MDITA topic.</p>
       <pre>  # Installing and Setting up Remote Lighting
 
   Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</pre>
-      
+
     </section>
-    
+
   </body>
 </topic>

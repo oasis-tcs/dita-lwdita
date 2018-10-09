@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-prolog">
   <title>Prolog</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/prolog"/>
@@ -31,33 +31,33 @@
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-      
-      
-      
-      
+
+
+
+
     </section>
         <section>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of prolog in an XDITA topic.</p>
-       
+
           <pre conref="../common/common-examples.dita#common-examples/data-prolog-xdita"/>
     </section>
-    
+
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of prolog in an HDITA topic.</p>
-     
+
       <pre conref="../common/common-examples.dita#common-examples/data-prolog-hdita"/>
     </section>
-    
-    
+
+
     <section>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of prolog in an MDITA extended profile
         topic.</p>
-    
+
       <pre conref="../common/common-examples.dita#common-examples/data-prolog-mdita"/>
     </section>
-    
+
   </body>
 </topic>

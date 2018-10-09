@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-p">
   <title>Paragraph</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/p"/>
@@ -29,10 +29,10 @@
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-      
-      
-      
-      
+
+
+
+
     </section>
         <section>
       <title>XDITA example</title>
@@ -45,9 +45,9 @@
     &lt;p>We offer more than 30 exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.&lt;/p>
   &lt;/body>
 &lt;/topic></pre>
-       
+
     </section>
-    
+
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of paragraph in an HDITA topic.</p>
@@ -59,19 +59,19 @@
     &lt;p>We offer more than 30 exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.&lt;/p>
   &lt;/article>
 &lt;/body></pre>
-     
+
     </section>
-    
-    
+
+
     <section>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of paragraph in an MDITA topic.</p>
       <pre># An innovative, attractive, and out of the ordinary concept
 
 We offer more than 30 exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.</pre>
-    
-      
+
+
     </section>
-    
+
   </body>
 </topic>

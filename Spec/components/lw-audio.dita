@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-audio">
   <title>Audio</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/audio"/>
@@ -31,10 +31,10 @@
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-      
-      
-      
-      
+
+
+
+
     </section>
         <section>
       <title>XDITA example</title>
@@ -55,9 +55,9 @@
     &lt;/audio>
   &lt;/body>
 &lt;/topic></pre>
-       
+
     </section>
-    
+
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of audio in an HDITA topic.</p>
@@ -72,8 +72,8 @@
 &lt;/audio>
   &lt;/article>
 &lt;/body></pre>
-     
+
     </section>
-    
+
   </body>
 </topic>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-xref">
   <title>Cross reference</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/xref"/>
@@ -29,10 +29,10 @@
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-      
-      
-      
-      
+
+
+
+
     </section>
         <section>
       <title>XDITA example</title>
@@ -51,9 +51,9 @@
     &lt;/ul>
   &lt;/body>
 &lt;/topic></pre>
-       
+
     </section>
-    
+
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a cross reference in an HDITA topic.</p>
@@ -81,10 +81,10 @@
     &lt;/ul>
   &lt;/article>
 &lt;/body></pre>
-     
+
     </section>
-    
-    
+
+
     <section>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a cross reference in an MDITA topic.</p>
@@ -99,9 +99,9 @@
 -   Support through online, email, and telephone channels
 
 -   Access to our [knowledge base](http://senseisushico.com/kb)</pre>
-    
-      
+
+
     </section>
-    
+
   </body>
 </topic>

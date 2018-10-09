@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-ph">
   <title>Phrase</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/ph"/>
@@ -29,10 +29,10 @@
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-      
-      
-      
-      
+
+
+
+
     </section>
         <section>
       <title>XDITA example</title>
@@ -50,9 +50,9 @@
     &lt;/ul>
   &lt;/body>
 &lt;/topic></pre>
-       
+
     </section>
-    
+
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of phrase in an HDITA topic.</p>
@@ -77,10 +77,10 @@
     &lt;/ul>
   &lt;/article>
 &lt;/body></pre>
-     
+
     </section>
-    
-    
+
+
     <section>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of phrase in an MDITA topic.</p>
@@ -93,9 +93,9 @@
 -   Initial training
 
 -   Support through online, email, and telephone channels</pre>
-    
-      
+
+
     </section>
-    
+
   </body>
 </topic>

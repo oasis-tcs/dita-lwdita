@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-ul">
   <title>Unordered list</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/ul"/>
@@ -27,14 +27,14 @@
         paragraph of a topic. It may also be used for other purposes, such as link previews and
         summaries.</p>
     </section>
-   
+
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-      
-      
-      
-      
+
+
+
+
     </section>
         <section>
       <title>XDITA example</title>
@@ -51,9 +51,9 @@
       &lt;li>&lt;p>Support through online, email, and telephone channels&lt;/p>&lt;/li>
     &lt;/ul>
   &lt;/body>
-&lt;/topic></pre>  
+&lt;/topic></pre>
     </section>
-    
+
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an HDITA topic.</p>
@@ -79,8 +79,8 @@
   &lt;/article>
 &lt;/body></pre>
     </section>
-    
-    
+
+
     <section>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an MDITA topic.</p>
@@ -89,8 +89,8 @@
 1.  Contact one of our franchise advisors
 2.  Pick a location for your restaurant
 3.  Follow our franchise guide</pre>
-      
+
     </section>
-    
+
   </body>
 </topic>

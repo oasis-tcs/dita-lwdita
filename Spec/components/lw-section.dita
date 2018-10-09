@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-section">
   <title>Section</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/section"/>
@@ -34,10 +34,10 @@
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-      
-      
-      
-      
+
+
+
+
     </section>
         <section>
       <title>XDITA example</title>
@@ -53,9 +53,9 @@
       &lt;p>Support is reserved for franchises that are without bills past due payment.&lt;/p>
     &lt;/section>
   &lt;/body>
-&lt;/topic></pre>  
+&lt;/topic></pre>
     </section>
-    
+
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of section in an HDITA topic.</p>
@@ -72,8 +72,8 @@
   &lt;/article>
 &lt;/body></pre>
     </section>
-    
-    
+
+
     <section>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of section in an MDITA topic.</p>
@@ -84,8 +84,8 @@ We offer warranty of territory exclusivity, initial training, and support throug
 ## Terms and conditions
 
 Support is reserved for franchises that are without bills past due payment.</pre>
-      
+
     </section>
-    
+
   </body>
 </topic>

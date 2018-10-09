@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-topicref">
   <title>Topic reference</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/topicref"/>
@@ -32,29 +32,29 @@
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-      
-      
-      
-      
+
+
+
+
     </section>
         <section>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a topic reference in an XDITA map.</p>
           <pre conref="../common/common-examples.dita#common-examples/map-xdita"/>
     </section>
-    
+
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a topic reference in an HDITA map.</p>
       <pre conref="../common/common-examples.dita#common-examples/map-hdita"/>
     </section>
-    
-    
+
+
     <section>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a topic reference in an MDITA map.</p>
       <pre conref="../common/common-examples.dita#common-examples/map-mdita"/>
     </section>
-    
+
   </body>
 </topic>
