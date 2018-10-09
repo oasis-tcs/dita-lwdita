@@ -9,15 +9,15 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;alt></p></dd>
+          <dd><p>&lt;xref></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>As the attribute @alt in &lt;img></p></dd>
+          <dd><p>&lt;a href></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) provided in an image environment</p></dd>
+          <dd><p>[link](/URI "title")</p></dd>
         </dlentry>
       </dl>
     </section>
@@ -25,11 +25,6 @@
       <title>Formatting expectations</title>
      <p>When present, the content of the alternate text component is displayed as alterantive text
         for an image that references this component.</p>
-    </section>
-    <section>
-      <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
     </section>
     <section>
       <title>Attributes</title>
@@ -41,20 +36,69 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
+      <p>The following example demonstrates the use of a cross reference in an XDITA topic.</p>
+      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="franchise-offer">
+  &lt;title>What we offer&lt;/title>
+  &lt;body>
+    &lt;ul>
+      &lt;li>&lt;p>"Know-how" license&lt;/p>&lt;/li>
+      &lt;li>&lt;p>Warranty of territory exclusivity&lt;/p>&lt;/li>
+      &lt;li>&lt;p>Initial training&lt;/p>&lt;/li>
+      &lt;li>&lt;p>Support through online, email, and telephone channels&lt;/p>&lt;/li>
+      &lt;li>&lt;p>Access to our &lt;xref href="http://senseisushico.com/kb" scope="external" format="html">knowledge base&lt;/xref>&lt;/p>&lt;/li>
+    &lt;/ul>
+  &lt;/body>
+&lt;/topic></pre>
        
     </section>
     
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
+      <p>The following example demonstrates the use of a cross reference in an HDITA topic.</p>
+      <pre>&lt;!DOCTYPE html>
+&lt;title>What we offer&lt;/title>
+&lt;body>
+  &lt;article id="franchise-offer">
+    &lt;h1>What we offer&lt;/h1>
+    &lt;ul>
+      &lt;li>
+        &lt;p>"Know-how" license&lt;/p>
+      &lt;/li>
+      &lt;li>
+        &lt;p>Warranty of territory exclusivity&lt;/p>
+      &lt;/li>
+      &lt;li>
+        &lt;p>Initial training&lt;/p>
+      &lt;/li>
+      &lt;li>
+        &lt;p>Support through online, email, and telephone channels&lt;/p>
+      &lt;/li>
+      &lt;li>
+        &lt;p>Access to our &lt;a href="http://senseisushico.com/kb" rel="external" type="text/html">knowledge base&lt;/a>&lt;/p>
+      &lt;/li>
+    &lt;/ul>
+  &lt;/article>
+&lt;/body></pre>
      
     </section>
     
     
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
+      <p>The following example demonstrates the use of a cross reference in an MDITA topic.</p>
+      <pre># What we offer
+
+-   "Know-how" license
+
+-   Warranty of territory exclusivity
+
+-   Initial training
+
+-   Support through online, email, and telephone channels
+
+-   Access to our [knowledge base](http://senseisushico.com/kb)</pre>
     
       
     </section>

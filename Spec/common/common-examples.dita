@@ -144,6 +144,59 @@ Franchise fee
         &lt;/topicmeta>
 &lt;/keydef></pre>
     
+    
+<pre id="map-xdita">&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE map PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Map//EN" "lw-map.dtd">
+&lt;map id="remote-main">
+    &lt;topicmeta>
+        &lt;navtitle>Remote Lighting Network&lt;/navtitle>
+    &lt;/topicmeta>
+    &lt;topicref href="introduction.dita">
+        &lt;topicmeta>
+            &lt;navtitle>Introduction&lt;/navtitle>
+        &lt;/topicmeta>
+    &lt;/topicref>
+    &lt;topicref href="alternatives.dita">
+        &lt;topicmeta>
+            &lt;navtitle>Alternative lighting setups&lt;/navtitle>
+        &lt;/topicmeta>
+        &lt;topicref href="low-power.dita">
+            &lt;topicmeta>
+                &lt;navtitle>Low power installation&lt;/navtitle>
+            &lt;/topicmeta>
+        &lt;/topicref>
+        &lt;topicref href="high-power.dita">
+            &lt;topicmeta>
+                &lt;navtitle>High power installation&lt;/navtitle>
+            &lt;/topicmeta>
+        &lt;/topicref>
+    &lt;/topicref>
+&lt;/map></pre>
+    
+    <pre id="map-hdita">&lt;!DOCTYPE html>
+&lt;html>
+  &lt;title>Remote Lighting Network&lt;/title>
+&lt;nav>
+    &lt;h1>Remote Lighting Network&lt;/h1>
+     &lt;ul>
+     &lt;li>&lt;p>&lt;a href="introduction.html">Introduction&lt;/a>&lt;p>&lt;/li>
+     &lt;li>&lt;p>&lt;a href="alternatives.html">Alternative lighting setups&lt;/a>&lt;/p>
+      &lt;ul>
+       &lt;li>&lt;p>&lt;a href="low-power.html">Low power installation&lt;/a>&lt;/p>&lt;/li>
+       &lt;li>&lt;p>&lt;a href="high-power.html">High power installation&lt;/a>&lt;/p>&lt;/li>
+       &lt;/ul>
+       &lt;/li>
+      &lt;/ul>
+   &lt;/nav>
+   &lt;/html></pre>
+    
+    <pre id="map-mdita"># Remote Lighting Network
+   - [Introduction](introduction.md)
+   - [Alternative lighting setups](alternatives.md)
+       - [Low power installation](low-power.md)
+       - [High power installation](high-power.md)</pre>
+    
+    
     <pre id="multimedia-xdita">&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="install-and-setup">
@@ -226,5 +279,100 @@ The following video demonstrates a recommended installation:
 2.  Pick a location for your restaurant
 3.  Follow our franchise guide</pre>
     
+    
+    
+    <pre id="table-xdita">&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="fancy-roll">
+  &lt;title>Fancy Roll&lt;/title>
+  &lt;body>
+    &lt;simpletable>
+      &lt;sthead>
+        &lt;stentry>
+          &lt;p>Ingredient&lt;/p>
+        &lt;/stentry>
+        &lt;stentry>
+          &lt;p>Amount&lt;/p>
+        &lt;/stentry>
+        &lt;stentry>
+          &lt;p>Unit shipped&lt;/p>
+        &lt;/stentry>
+      &lt;/sthead>
+      &lt;strow>
+        &lt;stentry>
+          &lt;p>Gohan rice&lt;/p>
+        &lt;/stentry>
+        &lt;stentry>
+          &lt;p>140 gms.&lt;/p>
+        &lt;/stentry>
+        &lt;stentry>
+          &lt;p>14 kgs.&lt;/p>
+        &lt;/stentry>
+      &lt;/strow>
+      &lt;strow>
+        &lt;stentry>
+          &lt;p>Soya paper sheet&lt;/p>
+        &lt;/stentry>
+        &lt;stentry>
+          &lt;p>1 pc.&lt;/p>
+        &lt;/stentry>
+        &lt;stentry>
+          &lt;p>10 pcs.&lt;/p>
+        &lt;/stentry>
+      &lt;/strow>
+    &lt;/simpletable>
+  &lt;/body>
+&lt;/topic></pre>
+
+<pre id="table-hdita">&lt;!DOCTYPE html>
+&lt;title>Fancy Roll&lt;/title>
+&lt;body>
+  &lt;article id="fancy-roll">
+    &lt;h1>Fancy Roll&lt;/h1>
+    &lt;table>
+      &lt;tr>
+        &lt;th>
+          &lt;p>Ingredient&lt;/p>
+        &lt;/th>
+        &lt;th>
+          &lt;p>Amount&lt;/p>
+        &lt;/th>
+        &lt;th>
+          &lt;p>Unit shipped&lt;/p>
+        &lt;/th>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>
+          &lt;p>Gohan rice&lt;/p>
+        &lt;/td>
+        &lt;td>
+          &lt;p>140 gms.&lt;/p>
+        &lt;/td>
+        &lt;td>
+          &lt;p>14 kgs.&lt;/p>
+        &lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>
+          &lt;p>Soya paper sheet&lt;/p>
+        &lt;/td>
+        &lt;td>
+          &lt;p>1 pc.&lt;/p>
+        &lt;/td>
+        &lt;td>
+          &lt;p>10 pcs.&lt;/p>
+        &lt;/td>
+      &lt;/tr>
+    &lt;/table>
+  &lt;/article>
+&lt;/body></pre>
+
+
+<pre id="table-mdita"># Fancy Roll
+
+| Ingredient       | Amount   | Unit shipped |
+| ---------------- | -------- | ------------ |
+| Gohan rice       | 140 gms. | 14 kgs.      |
+| Soya paper sheet | 1 pc.    | 10 pcs.      |</pre>
   </body>
 </topic>

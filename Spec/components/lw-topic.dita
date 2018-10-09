@@ -9,15 +9,15 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;shortdesc></p></dd>
+          <dd><p>&lt;topic></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>First element in &lt;article>, if it is a &lt;p>, after &lt;title></p></dd>
+          <dd><p>&lt;article></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>First block, if it is a paragraph, after title </p></dd>
+          <dd><p>There is no explicit markup for topic in MDITA (?)</p></dd>
         </dlentry>
       </dl>
     </section>
@@ -26,10 +26,6 @@
      <p>When present, the content of the short description component is displayed as the first
         paragraph of a topic. It may also be used for other purposes, such as link previews and
         summaries.</p>
-    </section>
-    <section>
-      <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the short description component as the initial paragraph of a topic</p>
     </section>
     <section>
       <title>Attributes</title>
@@ -41,7 +37,7 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of a short description in an XDITA topic.</p>
+      <p>The following example demonstrates the use of a topic in XDITA.</p>
       <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
  &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
  &lt;topic id="install-and-setup">
@@ -54,7 +50,7 @@
     
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
+      <p>The following example demonstrates the use of a topic in HDITA.</p>
       <pre>  &lt;!DOCTYPE html>
   &lt;html>
   &lt;head>
@@ -72,7 +68,7 @@
     
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of a short description in an MDITA topic.</p>
+      <p>The following example demonstrates the use of a topic in MDITA.</p>
       <pre>  # Installing and Setting up Remote Lighting
 
   Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</pre>

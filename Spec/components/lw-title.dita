@@ -9,15 +9,20 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;shortdesc></p></dd>
+          <dd><p>&lt;title></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>First element in &lt;article>, if it is a &lt;p>, after &lt;title></p></dd>
+          <dd>
+            <p>&lt;h1> and &lt;title> for <xref href="lw-topic.dita" format="dita">topic</xref>;
+              &lt;h2> for <xref href="lw-section.dita" format="dita">section</xref> (Title should map
+              to both &lt;title> and &lt;h1> in HDITA). Better way to say this?</p>
+          </dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>First block, if it is a paragraph, after title </p></dd>
+          <dd><p># or === underline for topic; ## or ----- underline for section (double check the language in
+              section topic) </p></dd>
         </dlentry>
       </dl>
     </section>
@@ -26,10 +31,6 @@
      <p>When present, the content of the short description component is displayed as the first
         paragraph of a topic. It may also be used for other purposes, such as link previews and
         summaries.</p>
-    </section>
-    <section>
-      <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the short description component as the initial paragraph of a topic</p>
     </section>
     <section>
       <title>Attributes</title>
@@ -41,7 +42,7 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of a short description in an XDITA topic.</p>
+      <p>The following example demonstrates the use of a title in an XDITA topic.</p>
       <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
  &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
  &lt;topic id="install-and-setup">
@@ -54,7 +55,7 @@
     
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
+      <p>The following example demonstrates the use of a title in an HDITA topic.</p>
       <pre>  &lt;!DOCTYPE html>
   &lt;html>
   &lt;head>
@@ -72,7 +73,7 @@
     
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of a short description in an MDITA topic.</p>
+      <p>The following example demonstrates the use of a title in an MDITA topic.</p>
       <pre>  # Installing and Setting up Remote Lighting
 
   Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</pre>
