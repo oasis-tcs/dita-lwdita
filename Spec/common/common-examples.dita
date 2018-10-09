@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="common-examples">
   <title>Common examples</title>
   <body>
@@ -199,38 +199,33 @@ Franchise fee
     
     <pre id="multimedia-xdita">&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="install-and-setup">
-  &lt;title>Installing and Setting up Remote Lighting&lt;/title>
-  &lt;shortdesc>Installation of your lighting kit includes installing the light bulbs into  light fixtures, preparing the remote control, and programming lighting groups.
-  &lt;/shortdesc>
-  &lt;prolog>
-    &lt;data name="author" value="Kevin Lewis"/>
-  &lt;/prolog>
+&lt;topic id="sensei-promise">
+  &lt;title>The Sensei Sushi Promise&lt;/title>
   &lt;body>
-      &lt;p>The following video demonstrates a recommended installation:&lt;/p>
-      &lt;video>
-        &lt;video-poster value="remote-poster.jpg" />
-        &lt;media-controls />
-        &lt;media-source value="remote.mp4" />
-      &lt;/video>
-    &lt;/section>
+    &lt;video>
+      &lt;desc>Video about the Sensei Sushi promise&lt;/desc>
+      &lt;video-poster value="sensei-video.jpg"/>
+      &lt;media-controls value="true"/>
+      &lt;media-autoplay value="false"/>
+      &lt;media-loop value="true"/>
+      &lt;media-muted value="true"/>
+      &lt;media-source value="sensei-video.mp4"/>
+      &lt;media-track value="sensei-video.vtt" type="captions"/>
+    &lt;/video>
   &lt;/body>
 &lt;/topic></pre>
     
     <pre id="multimedia-hdita">&lt;!DOCTYPE html>
-&lt;html>
-&lt;head>
-  &lt;title>Installing and Setting up Remote Lighting&lt;/title>
-&lt;/head>
+&lt;title>The Sensei Sushi Promise&lt;/title>
 &lt;body>
-  &lt;article id="install-and-setup">
-    &lt;h1>Installing and Setting up Remote Lighting&lt;/h1>
-    &lt;p>Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.&lt;/p>
-    &lt;p>The following video demonstrates a recommended installation:&lt;/p>
-    &lt;video src="remote.mp4" controls poster="remote.png">&lt;/video>
+  &lt;article id="sensei-promise">
+    &lt;h1>The Sensei Sushi Promise&lt;/h1>
+    &lt;video title="Video about the Sensei Sushi promise" controls autoplay loop muted poster="sensei-video.jpg">
+  &lt;source src="sensei-video.mp4"/>
+  &lt;track src="sensei-video.vtt" kind="captions"/>
+&lt;/video>
   &lt;/article>
-&lt;/body>
-&lt;/html></pre>
+&lt;/body></pre>
     
     <pre id="multimedia-mdita"># Installing and Setting up Remote Lighting
 

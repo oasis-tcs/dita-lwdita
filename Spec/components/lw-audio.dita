@@ -38,7 +38,7 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of a audio in an XDITA topic.</p>
+      <p>The following example demonstrates the use of audio in an XDITA topic.</p>
       <pre>&lt;&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="sensei-jingle">
