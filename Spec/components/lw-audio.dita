@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<topic id="lw-audio">
+  <title>Audio</title>
+  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/audio"/>
+    <body>
+    <section>
+      <title>Usage information</title>
+      <dl>
+        <dlentry>
+          <dt>XDITA</dt>
+          <dd><p>&lt;audio></p></dd>
+          </dlentry>
+        <dlentry>
+          <dt>HDITA</dt>
+          <dd><p>&lt;audio></p></dd>
+        </dlentry>
+        <dlentry>
+          <dt>MDITA (core and extended profiles)</dt>
+          <dd>
+            <p>No audio for you...</p>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section>
+      <title>Formatting expectations</title>
+     <p>When present, the content of the alternate text component is displayed as  text for an image
+        that references this component.</p>
+    </section>
+    <section>
+      <title>Attributes</title>
+      <p>Link to table!</p>
+      
+      
+      
+      
+    </section>
+        <section>
+      <title>XDITA example</title>
+      <p>The following example demonstrates the use of a audio in an XDITA topic.</p>
+      <pre>&lt;&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="sensei-jingle">
+  &lt;title>The Sensei Sushi Jingle&lt;/title>
+  &lt;body>
+    &lt;audio>
+      &lt;desc>Recording of the Sensei Sushi jingle&lt;/desc>
+      &lt;media-controls value="true"/>
+      &lt;media-autoplay value="false"/>
+      &lt;media-loop value="true"/>
+      &lt;media-muted value="true"/>
+      &lt;media-source value="sensei-audio.mp3"/>
+      &lt;media-track value="sensei-audio.vtt" type="captions"/>
+    &lt;/audio>
+  &lt;/body>
+&lt;/topic></pre>
+       
+    </section>
+    
+    <section>
+      <title>HDITA example</title>
+      <p>The following example demonstrates the use of audio in an HDITA topic.</p>
+      <pre>&lt;!DOCTYPE html>
+&lt;title>The Sensei Sushi Jingle&lt;/title>
+&lt;body>
+  &lt;article id="sensei-jingle">
+    &lt;h1>The Sensei Sushi Jingle&lt;/h1>
+    &lt;audio title="Recording of the Sensei Sushi jingle" controls autoplay loop muted>
+  &lt;source src="sensei-audio.mp3"/>
+  &lt;track src="sensei-audio.vtt" kind="captions"/>
+&lt;/audio>
+  &lt;/article>
+&lt;/body></pre>
+     
+    </section>
+    
+  </body>
+</topic>
