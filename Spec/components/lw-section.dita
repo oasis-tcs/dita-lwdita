@@ -9,15 +9,15 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;shortdesc></p></dd>
+          <dd><p>&lt;section></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>First element in &lt;article>, if it is a &lt;p>, after &lt;title></p></dd>
+          <dd><p>&lt;section></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>First block, if it is a paragraph, after title </p></dd>
+          <dd><p>A level-two heading marked by ## or ----- underline </p></dd>
         </dlentry>
       </dl>
     </section>
@@ -41,41 +41,49 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of a short description in an XDITA topic.</p>
-      <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
- &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
- &lt;topic id="install-and-setup">
-   &lt;title>Installing and Setting up Remote Lighting&lt;/title>
-   &lt;shortdesc>Installation of your lighting kit includes installing the light bulbs into
-   light fixtures, preparing the remote control, and programming lighting groups.
-   &lt;/shortdesc>
-  &lt;/topic></pre>  
+      <p>The following example demonstrates the use of section in an XDITA topic.</p>
+      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="franchise-offer">
+  &lt;title>What we offer&lt;/title>
+  &lt;body>
+    &lt;p>We offer warranty of territory exclusivity, initial training, and support through online, email, and telephone channels.&lt;/p>
+    &lt;section id="terms">
+      &lt;title>Terms and conditions&lt;/title>
+      &lt;p>Support is reserved for franchises that are without bills past due payment.&lt;/p>
+    &lt;/section>
+  &lt;/body>
+&lt;/topic></pre>  
     </section>
     
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
-      <pre>  &lt;!DOCTYPE html>
-  &lt;html>
-  &lt;head>
-  &lt;title>Installing and Setting up Remote Lighting&lt;/title>
-  &lt;/head>
-  &lt;body>
-   &lt;article id="install-and-setup">
-    &lt;h1>Installing and Setting up Remote Lighting&lt;/h1>
-    &lt;p>Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.&lt;/p>
+      <p>The following example demonstrates the use of section in an HDITA topic.</p>
+      <pre>&lt;!DOCTYPE html>
+&lt;title>What we offer&lt;/title>
+&lt;body>
+  &lt;article id="franchise-offer">
+    &lt;h1>What we offer&lt;/h1>
+    &lt;p>We offer warranty of territory exclusivity, initial training, and support through online, email, and telephone channels.&lt;/p>
+    &lt;section id="terms">
+      &lt;h2>Terms and conditions&lt;/h2>
+      &lt;p>Support is reserved for franchises that are without bills past due payment.&lt;/p>
+    &lt;/section>
   &lt;/article>
-  &lt;/body>
-  &lt;/html></pre>
+&lt;/body></pre>
     </section>
     
     
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of a short description in an MDITA topic.</p>
-      <pre>  # Installing and Setting up Remote Lighting
+      <p>The following example demonstrates the use of section in an MDITA topic.</p>
+      <pre># What we offer
 
-  Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</pre>
+We offer warranty of territory exclusivity, initial training, and support through online, email, and telephone channels.
+
+## Terms and conditions
+
+Support is reserved for franchises that are without bills past due payment.</pre>
       
     </section>
     

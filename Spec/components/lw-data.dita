@@ -42,32 +42,16 @@
         <section>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of data in an XDITA topic.</p>
-      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="franchise-intro">
-  &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
-  &lt;shortdesc>Are you interested in investing with us? Welcome to our franchise information package.&lt;/shortdesc>
-  &lt;prolog>
-    &lt;data name="author" value="Victoria Fernando"/>
-  &lt;/prolog>
-&lt;/topic></pre>
-
+      
+          <pre conref="../common/common-examples.dita#common-examples/data-prolog-xdita"/>
+      
     </section>
 
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of data in an HDITA topic.</p>
-      <pre>&lt;!DOCTYPE html>
-&lt;head>
-  &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
-  &lt;meta name="author" content="Victoria Fernando">
-&lt;/head>
-&lt;body>
-  &lt;article id="franchise-intro">
-    &lt;h1>An innovative, attractive, and out of the ordinary concept&lt;/h1>
-    &lt;p>Are you interested in investing with us? Welcome to our franchise information package.&lt;/p>
-  &lt;/article>
-&lt;/body></pre>
+      
+      <pre conref="../common/common-examples.dita#common-examples/data-prolog-hdita"/>
 
     </section>
 
@@ -75,13 +59,7 @@
     <section>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of data in an MDITA extended profile topic.</p>
-      <pre>---
-author: Victoria Fernando
----
-
-# An innovative, attractive, and out of the ordinary concept
-
-Are you interested in investing with us? Welcome to our franchise information package.</pre>
+      <pre conref="../common/common-examples.dita#common-examples/data-prolog-mdita"/>
 
 
     </section>

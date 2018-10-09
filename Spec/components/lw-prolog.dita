@@ -9,22 +9,19 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;alt></p></dd>
+          <dd><p>&lt;prolog></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>As the attribute @alt in &lt;img></p></dd>
+          <dd>
+            <p>&lt;meta> inside &lt;head> </p></dd>
         </dlentry>
         <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) provided in an image environment</p></dd>
+          <dt>MDITA (extended profile)</dt>
+          <dd><p>Any variables declared in a YAML front matter header. The front matter must be the first block in
+              the file and must be set between triple- dashed lines.</p></dd>
         </dlentry>
       </dl>
-    </section>
-    <section>
-      <title>Formatting expectations</title>
-     <p>When present, the content of the alternate text component is displayed as alterantive text
-        for an image that references this component.</p>
     </section>
     <section>
       <title>Processing expectations</title>
@@ -41,22 +38,25 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
+      <p>The following example demonstrates the use of prolog in an XDITA topic.</p>
        
+          <pre conref="../common/common-examples.dita#common-examples/data-prolog-xdita"/>
     </section>
     
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
+      <p>The following example demonstrates the use of prolog in an HDITA topic.</p>
      
+      <pre conref="../common/common-examples.dita#common-examples/data-prolog-hdita"/>
     </section>
     
     
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
+      <p>The following example demonstrates the use of prolog in an MDITA extended profile
+        topic.</p>
     
-      
+      <pre conref="../common/common-examples.dita#common-examples/data-prolog-mdita"/>
     </section>
     
   </body>

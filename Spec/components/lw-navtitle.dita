@@ -3,28 +3,29 @@
 <topic id="lw-navtitle">
   <title>Navigation title</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/navtitle"/>
-    <body>
+  <body>
     <section>
       <title>Usage information</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;alt></p></dd>
-          </dlentry>
+          <dd>
+            <p>&lt;navtitle></p>
+          </dd>
+        </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>As the attribute @alt in &lt;img></p></dd>
+          <dd>
+            <p>There is no specific markup for navigation title in HDITA</p>
+          </dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) provided in an image environment</p></dd>
+          <dd>
+            <p>There is no specific markup for navigation title in MDITA</p>
+          </dd>
         </dlentry>
       </dl>
-    </section>
-    <section>
-      <title>Formatting expectations</title>
-     <p>When present, the content of the alternate text component is displayed as alterantive text
-        for an image that references this component.</p>
     </section>
     <section>
       <title>Processing expectations</title>
@@ -34,30 +35,37 @@
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-      
-      
-      
-      
     </section>
-        <section>
+    <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
-       
+      <p>The following example demonstrates the use of navigation title in an XDITA map.</p>
+      <pre>&lt;pre>&amp;lt;?xml version="1.0" encoding="UTF-8"?>
+&amp;lt;!DOCTYPE map PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Map//EN" "lw-map.dtd">
+&amp;lt;map id="remote-main">
+    &amp;lt;topicmeta>
+        &amp;lt;navtitle>Remote Lighting Network&amp;lt;/navtitle>
+    &amp;lt;/topicmeta>
+    &amp;lt;topicref href="introduction.dita">
+        &amp;lt;topicmeta>
+            &amp;lt;navtitle>Introduction&amp;lt;/navtitle>
+        &amp;lt;/topicmeta>
+    &amp;lt;/topicref>
+    &amp;lt;topicref href="alternatives.dita">
+        &amp;lt;topicmeta>
+            &amp;lt;navtitle>Alternative lighting setups&amp;lt;/navtitle>
+        &amp;lt;/topicmeta>
+        &amp;lt;topicref href="low-power.dita">
+            &amp;lt;topicmeta>
+                &amp;lt;navtitle>Low power installation&amp;lt;/navtitle>
+            &amp;lt;/topicmeta>
+        &amp;lt;/topicref>
+        &amp;lt;topicref href="high-power.dita">
+            &amp;lt;topicmeta>
+                &amp;lt;navtitle>High power installation&amp;lt;/navtitle>
+            &amp;lt;/topicmeta>
+        &amp;lt;/topicref>
+    &amp;lt;/topicref>
+&amp;lt;/map>&lt;/pre></pre>
     </section>
-    
-    <section>
-      <title>HDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
-     
-    </section>
-    
-    
-    <section>
-      <title>MDITA example</title>
-      <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
-    
-      
-    </section>
-    
   </body>
 </topic>

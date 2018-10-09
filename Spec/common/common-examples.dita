@@ -38,6 +38,35 @@ The Remote Lighting Network kit includes a wireless smart system that helps make
 
 ![Retail package for the Remote Lighting Network kit](images/kit-package.jpg)</pre>
     
+    <pre id="data-prolog-xdita">&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="franchise-intro">
+  &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
+  &lt;shortdesc>Are you interested in investing with us? Welcome to our franchise information package.&lt;/shortdesc>
+  &lt;prolog>
+    &lt;data name="author" value="Victoria Fernando"/>
+  &lt;/prolog>
+&lt;/topic></pre>
+    
+    <pre id="data-prolog-hdita">&lt;!DOCTYPE html>
+&lt;head>
+  &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
+  &lt;meta name="author" content="Victoria Fernando">
+&lt;/head>
+&lt;body>
+  &lt;article id="franchise-intro">
+    &lt;h1>An innovative, attractive, and out of the ordinary concept&lt;/h1>
+    &lt;p>Are you interested in investing with us? Welcome to our franchise information package.&lt;/p>
+  &lt;/article>
+&lt;/body></pre>
+    
+    <pre id="data-prolog-mdita">---
+author: Victoria Fernando
+---
+
+# An innovative, attractive, and out of the ordinary concept
+
+Are you interested in investing with us? Welcome to our franchise information package.</pre>
     
    <pre id="dl-xdita">&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
