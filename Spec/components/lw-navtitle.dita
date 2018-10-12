@@ -39,33 +39,7 @@
     <section>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of navigation title in an XDITA map.</p>
-      <pre>&lt;pre>&amp;lt;?xml version="1.0" encoding="UTF-8"?>
-&amp;lt;!DOCTYPE map PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Map//EN" "lw-map.dtd">
-&amp;lt;map id="remote-main">
-    &amp;lt;topicmeta>
-        &amp;lt;navtitle>Remote Lighting Network&amp;lt;/navtitle>
-    &amp;lt;/topicmeta>
-    &amp;lt;topicref href="introduction.dita">
-        &amp;lt;topicmeta>
-            &amp;lt;navtitle>Introduction&amp;lt;/navtitle>
-        &amp;lt;/topicmeta>
-    &amp;lt;/topicref>
-    &amp;lt;topicref href="alternatives.dita">
-        &amp;lt;topicmeta>
-            &amp;lt;navtitle>Alternative lighting setups&amp;lt;/navtitle>
-        &amp;lt;/topicmeta>
-        &amp;lt;topicref href="low-power.dita">
-            &amp;lt;topicmeta>
-                &amp;lt;navtitle>Low power installation&amp;lt;/navtitle>
-            &amp;lt;/topicmeta>
-        &amp;lt;/topicref>
-        &amp;lt;topicref href="high-power.dita">
-            &amp;lt;topicmeta>
-                &amp;lt;navtitle>High power installation&amp;lt;/navtitle>
-            &amp;lt;/topicmeta>
-        &amp;lt;/topicref>
-    &amp;lt;/topicref>
-&amp;lt;/map>&lt;/pre></pre>
+      <pre conref="../common/common-examples.dita#common-examples/map-xdita"></pre>
     </section>
   </body>
 </topic>
