@@ -9,15 +9,19 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;alt></p></dd>
+          <dd>
+            <p>&lt;alt> inside <xref href="lw-image.dita" format="dita">&lt;image>
+              </xref><?oxy_comment_start author="carlosevia" timestamp="20181026T120851-0400" comment="Content model stuff goes here "?></p><?oxy_comment_end?>
+          </dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>@alt attribute on &lt;img></p></dd>
+          <dd><p>@alt attribute on <xref href="lw-image.dita" format="dita">&lt;img></xref></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) in an image component</p></dd>
+          <dd><p>Text inside square brackets ([]) in an <xref href="lw-image.dita" format="dita">image
+                component</xref></p></dd>
         </dlentry>
       </dl>
     </section>

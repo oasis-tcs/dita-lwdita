@@ -18,15 +18,14 @@
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
           <dd>
-            <p>No audio for you...</p>
+            <p>No specific support in core profile. If needed, use an HDITA snippet.</p>
           </dd>
         </dlentry>
       </dl>
     </section>
     <section>
-      <title>Formatting expectations</title>
-     <p>When present, the content of the alternate text component is displayed as  text for an image
-        that references this component.</p>
+      <title>Processing expectations</title>
+     <p>It sounds pretty? See the HTML spec?</p>
     </section>
     <section>
       <title>Attributes</title>
@@ -39,7 +38,7 @@
         <section>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of audio in an XDITA topic.</p>
-      <pre>&lt;&lt;?xml version="1.0" encoding="UTF-8"?>
+      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="sensei-jingle">
   &lt;title>The Sensei Sushi Jingle&lt;/title>
