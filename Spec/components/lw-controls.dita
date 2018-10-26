@@ -13,7 +13,7 @@
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>@controls in &lt;audio> or &lt;video></p></dd>
+          <dd><p>@controls on &lt;audio> or &lt;video></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>

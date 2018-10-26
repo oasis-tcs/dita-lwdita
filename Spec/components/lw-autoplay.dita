@@ -14,7 +14,7 @@
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>@autoplay in &lt;audio> or &lt;video></p>
+            <p>@autoplay on <xref href="lw-audio.dita">&lt;audio></xref> or <xref href="lw-video.dita">&lt;video></xref></p>
           </dd>
         </dlentry>
         <dlentry>
