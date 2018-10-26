@@ -18,7 +18,7 @@
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
           <dd>
-            <p>No specific support in core profile. If needed, use an HDITA snippet.</p>
+            <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/>
           </dd>
         </dlentry>
       </dl>

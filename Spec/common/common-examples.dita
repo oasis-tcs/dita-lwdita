@@ -369,5 +369,7 @@ The following video demonstrates a recommended installation:
 | ---------------- | -------- | ------------ |
 | Gohan rice       | 140 gms. | 14 kgs.      |
 | Soya paper sheet | 1 pc.    | 10 pcs.      |</pre>
+    
+    <p id="no-mdita-core">No specific support in core profile. If needed, use an HDITA snippet.</p>
   </body>
 </topic>
