@@ -9,7 +9,7 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;dlentry></p></dd>
+          <dd><p>&lt;dlentry> inside <xref href="lw-dl.dita">&lt;dl></xref></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>

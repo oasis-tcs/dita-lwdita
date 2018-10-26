@@ -9,13 +9,12 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;li></p></dd>
+          <dd><p>&lt;li> inside <xref href="lw-ol.dita">&lt;ol></xref> or <xref href="lw-ul.dita">&lt;ul></xref></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;li></p>
-          </dd>
+            <p>&lt;li> inside <xref href="lw-ol.dita">&lt;ol></xref> or <xref href="lw-ul.dita">&lt;ul></xref></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>

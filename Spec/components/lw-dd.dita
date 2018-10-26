@@ -9,11 +9,11 @@
       <dl>
         <dlentry>
           <dt>XDITA (say something about dl as a container?)</dt>
-          <dd><p>&lt;dd></p></dd>
+          <dd><p>&lt;dd> inside <xref href="lw-dl.dita">&lt;dl></xref></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;dd></p></dd>
+          <dd><p>&lt;dd> inside <xref href="lw-dl.dita">&lt;dl></xref></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (extended profile)</dt>
