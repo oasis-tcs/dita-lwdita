@@ -21,8 +21,7 @@
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p># or === underline for topic; ## or ----- underline for section (double check the language in
-              section topic) </p></dd>
+          <dd><p># or === underline for <xref href="lw-topic.dita">topic</xref>; ## or ----- underline for <xref href="lw-section.dita">section</xref> </p></dd>
         </dlentry>
       </dl>
     </section>

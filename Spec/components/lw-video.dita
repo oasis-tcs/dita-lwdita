@@ -18,7 +18,8 @@
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
           <dd>
-            <p>No video for you...</p>
+            
+            <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/>
           </dd>
         </dlentry>
       </dl>

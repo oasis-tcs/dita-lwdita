@@ -14,7 +14,7 @@
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;meta></p>
+            <p>&lt;meta> inside &lt;head></p>
           </dd>
         </dlentry>
         <dlentry>

@@ -14,12 +14,12 @@
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;a href> inside a &lt;li></p>
+            <p>&lt;a href> inside a <xref href="lw-li.dita">&lt;li></xref></p>
           </dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>[link](/URI "title") inside a list item </p></dd>
+          <dd><p>[link](/URI "title") inside a <xref href="lw-li.dita">list item</xref> </p></dd>
         </dlentry>
       </dl>
     </section>

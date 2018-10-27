@@ -9,16 +9,17 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;media-track></p></dd>
+          <dd><p>&lt;media-track> inside <xref href="lw-audio.dita">&lt;audio></xref> or <xref href="lw-video.dita">&lt;video></xref></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>@track in &lt;audio> or &lt;video></p></dd>
+          <dd><p>@track on <xref href="lw-audio.dita">&lt;audio></xref> or <xref href="lw-video.dita">&lt;video></xref></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
           <dd>
-            <p>No audio for you...</p>
+            
+            <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/>
           </dd>
         </dlentry>
       </dl>

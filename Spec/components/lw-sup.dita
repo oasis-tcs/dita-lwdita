@@ -18,7 +18,8 @@
         <dlentry>
           <dt>MDITA (extended profile)</dt>
           <dd>
-            <p>&lt;sup> in HDITA syntax</p>
+            
+            <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/>
           </dd>
         </dlentry>
       </dl>

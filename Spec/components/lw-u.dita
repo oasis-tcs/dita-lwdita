@@ -9,15 +9,17 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;shortdesc></p></dd>
+          <dd><p>&lt;u></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>First element in &lt;article>, if it is a &lt;p>, after &lt;title></p></dd>
+          <dd>
+            <p>&lt;u></p>
+          </dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>First block, if it is a paragraph, after title </p></dd>
+          <dd><p>No underline for you</p></dd>
         </dlentry>
       </dl>
     </section>
@@ -40,7 +42,8 @@
 
     </section>
         <section>
-      <title>XDITA example</title>
+      <title>XDITA
+        <?oxy_comment_start author="carlosevia" timestamp="20181027T160352-0400" comment="This topic needs examples"?>example<?oxy_comment_end?></title>
       <p>The following example demonstrates the use of a short description in an XDITA topic.</p>
       <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
  &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">

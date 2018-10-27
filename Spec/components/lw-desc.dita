@@ -10,13 +10,13 @@
         <dlentry>
           <dt>XDITA</dt>
           <dd>
-            <p>&lt;desc> </p></dd>
+            <p>&lt;desc> inside &lt;audio>, &lt;figure>, and &lt;video></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;caption> in &lt;table>; &lt;figcaption> in &lt;figure>; not applicable in links
-              ???</p></dd>
+            <p>&lt;caption> inside &lt;table>; &lt;figcaption> in &lt;figure> &lt;title> in
+              multimedia???</p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>

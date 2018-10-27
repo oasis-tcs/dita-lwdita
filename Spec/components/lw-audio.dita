@@ -40,17 +40,17 @@
       <p>The following example demonstrates the use of audio in an XDITA topic.</p>
       <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="sensei-jingle">
-  &lt;title>The Sensei Sushi Jingle&lt;/title>
+&lt;topic id="theme-song">
+  &lt;title>Theme song for our radio show&lt;/title>
   &lt;body>
     &lt;audio>
-      &lt;desc>Recording of the Sensei Sushi jingle&lt;/desc>
+      &lt;desc>Theme song for the radio show&lt;/desc>
       &lt;media-controls value="true"/>
       &lt;media-autoplay value="false"/>
       &lt;media-loop value="true"/>
       &lt;media-muted value="true"/>
-      &lt;media-source value="sensei-audio.mp3"/>
-      &lt;media-track value="sensei-audio.vtt" type="captions"/>
+      &lt;media-source value="theme-song.mp3"/>
+      &lt;media-track value="theme-song.vtt" type="captions"/>
     &lt;/audio>
   &lt;/body>
 &lt;/topic></pre>
@@ -61,13 +61,13 @@
       <title>HDITA example</title>
       <p>The following example demonstrates the use of audio in an HDITA topic.</p>
       <pre>&lt;!DOCTYPE html>
-&lt;title>The Sensei Sushi Jingle&lt;/title>
+&lt;title>Theme song for our radio show&lt;/title>
 &lt;body>
   &lt;article id="sensei-jingle">
     &lt;h1>The Sensei Sushi Jingle&lt;/h1>
-    &lt;audio title="Recording of the Sensei Sushi jingle" controls autoplay loop muted>
-  &lt;source src="sensei-audio.mp3"/>
-  &lt;track src="sensei-audio.vtt" kind="captions"/>
+    &lt;audio title="Theme song for the radio show" controls autoplay loop muted>
+  &lt;source src="theme-song.mp3"/>
+  &lt;track src="theme-song.vtt" kind="captions"/>
 &lt;/audio>
   &lt;/article>
 &lt;/body></pre>

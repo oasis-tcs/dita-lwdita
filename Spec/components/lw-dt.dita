@@ -17,7 +17,7 @@
         </dlentry>
         <dlentry>
           <dt>MDITA (extended profile)</dt>
-          <dd><p>See the <xref href="lw-dl.dita">definition list</xref> component</p></dd>
+          <dd><p>See the <xref href="lw-dl.dita"/> component</p></dd>
         </dlentry>
       </dl>
     </section>
