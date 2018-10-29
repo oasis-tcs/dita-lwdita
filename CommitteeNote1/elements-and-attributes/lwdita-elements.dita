@@ -139,7 +139,9 @@
     <stentry>List item</stentry>
     <stentry><xmlelement>li</xmlelement></stentry>
     <stentry><xmlelement>li</xmlelement></stentry>
-    <stentry><codeph>-</codeph>, <codeph>+</codeph>, or <codeph>*</codeph> for unoreder list, and <codeph>0</codeph>-<codeph>9</codeph> and <codeph>.</codeph> or <codeph>)</codeph> for ordered list</stentry>
+    <stentry><codeph>-</codeph>, <codeph>+</codeph>, or <codeph>*</codeph> for unordered list, and
+      <codeph>0</codeph>-<codeph>9</codeph> and <codeph>.</codeph> or <codeph>)</codeph> for ordered
+     list</stentry>
    </strow>
    <strow>
     <stentry>Map</stentry>
