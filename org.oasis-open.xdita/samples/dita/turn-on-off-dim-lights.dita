@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="turn-on-off-dim-lights" xml:lang="en-us">
-    <title>Turning On/Off or Dimming a Lights</title>
+    <title>Turning On/Off or Dimming Lights</title>
     <shortdesc>You can turn on, turn off, or dim a lighting group in your <keyword keyref="product-name"/> by pressing the group number
         button and then pressing the power button or the dimmer control.</shortdesc>
      <taskbody>
@@ -10,7 +10,7 @@
         <context>You must turn on, turn off, or dim an entire lighting group together. You cannot
             control one individual light bulb in a group (unless only that light bulb is programmed
             to the group).</context>
-       
+
         <steps>
             <step>
                 <cmd>Select the lighting group(s) you want to operate:</cmd>
