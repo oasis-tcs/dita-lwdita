@@ -16,7 +16,7 @@ Socket
 : E26
 
 Power
-:   7.5W (40W Equivalent)
+: 7.5W (40W Equivalent)
 
 Power Factor
 : >0.7
