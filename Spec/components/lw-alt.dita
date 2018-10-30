@@ -11,7 +11,7 @@
           <dt>XDITA</dt>
           <dd>
             <p>&lt;alt> inside <xref href="lw-image.dita" format="dita">&lt;image>
-              </xref><?oxy_comment_start author="carlosevia" timestamp="20181026T120851-0400" comment="Content model stuff goes here "?></p><?oxy_comment_end?>
+              </xref></p>
           </dd>
           </dlentry>
         <dlentry>
@@ -20,16 +20,10 @@
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets ([]) in an <xref href="lw-image.dita" format="dita">image
-                component</xref></p></dd>
+          <dd><p>Text inside square brackets ([]) in an <xref href="lw-image.dita" format="dita">Image</xref></p></dd>
         </dlentry>
       </dl>
     </section>
-      <!--<section>
-       <title>Formatting expectations</title>
-     <p>When present, the content of the alternate text component is displayed as alternative text
-        for an image that references this component.</p>
-    </section>-->
     <section>
       <title>Processing expectations</title>
       <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
