@@ -3,59 +3,47 @@
 <topic id="lw-stentry">
   <title>Table entry</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/stentry"/>
-    <body>
+  <body>
     <section>
       <title>Usage information</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;stentry> inside <xref href="lw-simpletable.dita">&lt;simpletable></xref></p></dd>
-          </dlentry>
+          <dd>
+            <p>&lt;stentry> inside <xref href="lw-simpletable.dita">&lt;simpletable></xref></p>
+          </dd>
+        </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;th> for headers and &lt;td> for regular cells inside <xref href="lw-simpletable.dita">&lt;table></xref></p>
+            <p>&lt;th> for headers and &lt;td> for regular cells inside <xref
+                href="lw-simpletable.dita">&lt;table></xref></p>
           </dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>See <xref href="lw-simpletable.dita" format="dita">Table</xref></p></dd>
+          <dd>
+            <p>See <xref href="lw-simpletable.dita" format="dita">Table</xref></p>
+          </dd>
         </dlentry>
       </dl>
     </section>
     <section>
       <title>Formatting expectations</title>
-     <p>When present, the content of the short description component is displayed as the first
-        paragraph of a topic. It may also be used for other purposes, such as link previews and
-        summaries.</p>
     </section>
-
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-
-
-
-
     </section>
-        <section>
+    <section>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a table entry in an XDITA topic.</p>
-          <pre conref="../common/common-examples.dita#common-examples/table-xdita"/>
+      <pre conref="../common/common-examples.dita#common-examples/table-xdita"/>
     </section>
-
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a table entry in an HDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/table-hdita"/>
     </section>
-
-
-    <section>
-      <title>MDITA example</title>
-      <p>The following example demonstrates the use of a table entry in an MDITA topic.</p>
-      <pre conref="../common/common-examples.dita#common-examples/table-mdita"/>
-    </section>
-
   </body>
 </topic>

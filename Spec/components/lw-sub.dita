@@ -3,14 +3,16 @@
 <topic id="lw-sub">
   <title>Subscript</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/sub"/>
-    <body>
+  <body>
     <section>
       <title>Usage information</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;sub></p></dd>
-          </dlentry>
+          <dd>
+            <p>&lt;sub></p>
+          </dd>
+        </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
@@ -20,7 +22,6 @@
         <dlentry>
           <dt>MDITA (extended profile)</dt>
           <dd>
-            
             <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/>
           </dd>
         </dlentry>
@@ -28,23 +29,17 @@
     </section>
     <section>
       <title>Formatting expectations</title>
-     <p>When present, the content of the short description component is displayed as the first
-        paragraph of a topic. It may also be used for other purposes, such as link previews and
-        summaries.</p>
     </section>
     <section>
       <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the short description component as the initial paragraph of a topic</p>
+      <p>Processors <ph>SHOULD</ph> render the content of the short description component as the
+        initial paragraph of a topic</p>
     </section>
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-
-
-
-
     </section>
-        <section>
+    <section>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a subscript in an XDITA topic.</p>
       <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -56,7 +51,6 @@
   &lt;/body>
 &lt;/topic></pre>
     </section>
-
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a subscript n in an HDITA topic.</p>
@@ -73,17 +67,5 @@
   &lt;/body>
   &lt;/html></pre>
     </section>
-
-
-    <section>
-      <title>MDITA example</title>
-      <p>The following example demonstrates the use of a subscript in an MDITA extended profile
-        topic.</p>
-      <pre>  # Food Additives for pH Control
-
-  In very rare occasions, our Sensei Sushi kitchen lab technicians can use Sulfuric Acid, FCC (H&lt;sub>2&lt;/sub>SO&lt;sub>4&lt;/sub>) to control pH during processing. Ask your supervisor for more information.</pre>
-
-    </section>
-
   </body>
 </topic>
