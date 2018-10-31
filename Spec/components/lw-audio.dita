@@ -63,8 +63,8 @@
       <pre>&lt;!DOCTYPE html>
 &lt;title>Theme song for our radio show&lt;/title>
 &lt;body>
-  &lt;article id="sensei-jingle">
-    &lt;h1>The Sensei Sushi Jingle&lt;/h1>
+  &lt;article id="theme-song">
+    &lt;h1>Theme song for our radio show&lt;/h1>
     &lt;audio title="Theme song for the radio show" controls autoplay loop muted>
   &lt;source src="theme-song.mp3"/>
   &lt;track src="theme-song.vtt" kind="captions"/>

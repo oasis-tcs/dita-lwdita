@@ -24,7 +24,6 @@
 
     <section>
       <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the short description component as the initial paragraph of a topic</p>
     </section>
     <section>
       <title>Attributes</title>

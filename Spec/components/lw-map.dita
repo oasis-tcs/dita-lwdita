@@ -25,13 +25,9 @@
     </section>
     <section>
       <title>Formatting expectations</title>
-     <p>When present, the content of the alternate text component is displayed as alterantive text
-        for an image that references this component.</p>
     </section>
     <section>
       <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
     </section>
     <section>
       <title>Attributes</title>

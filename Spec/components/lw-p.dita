@@ -17,14 +17,14 @@
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Two carriage returns (old fashioned???)</p></dd>
+          <dd>
+            <p>One or more consecutive lines of text, separated by one or more blank line.</p>
+          </dd>
         </dlentry>
       </dl>
     </section>
     <section>
       <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
     </section>
     <section>
       <title>Attributes</title>

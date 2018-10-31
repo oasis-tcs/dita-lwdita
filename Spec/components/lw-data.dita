@@ -18,18 +18,18 @@
           </dd>
         </dlentry>
         <dlentry>
-          <dt>MDITA (extended profile) (say something about core??)</dt>
+          <dt>MDITA (extended profile) </dt>
           <dd>
-            <p>Any variables declared in a YAML front matter header. The front matter must be the
-              first block in the file and must be set between triple- dashed lines. </p></dd>
+            <p>There is no specific syntax for data in MDITA core profile. In MDITA extended
+              profile, data is represented by any variables declared in a YAML front matter header.
+              The front matter must be the first block in the file and must be set between triple-
+              dashed lines. </p></dd>
         </dlentry>
       </dl>
     </section>
 
     <section>
       <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
     </section>
     <section>
       <title>Attributes</title>

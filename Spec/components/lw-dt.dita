@@ -24,8 +24,6 @@
 
     <section>
       <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
     </section>
     <section>
       <title>Attributes</title>
@@ -46,14 +44,6 @@
       <title>HDITA example</title>
       <p>The following example demonstrates the use of definition term in an HDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/dl-hdita"/>
-
-    </section>
-
-
-    <section>
-      <title>MDITA example</title>
-      <p>The following example demonstrates the use of definition term in an MDITA extended profile topic.</p>
-      <pre conref="../common/common-examples.dita#common-examples/dl-mdita"/>
 
     </section>
 

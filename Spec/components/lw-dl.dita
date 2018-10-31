@@ -19,7 +19,9 @@
           <dt>MDITA (extended profile)</dt>
           <dd>
             <p>A single-line term followed by a colon and the definition for that term, following
-              the Markdown Extra syntax for definition list (link to it??)</p>
+              the <xref href="https://michelf.ca/projects/php-markdown/extra/#def-list"
+                format="html" scope="external">PHP Markdown Extra syntax for definition
+              list</xref></p>
           </dd>
         </dlentry>
       </dl>
@@ -27,8 +29,6 @@
 
     <section>
       <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
     </section>
     <section>
       <title>Attributes</title>

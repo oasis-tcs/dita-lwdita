@@ -19,15 +19,13 @@
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>There is no explicit markup for the body component in MDITA (explain??)</p></dd>
+          <dd><p>There is no explicit markup for the body component in MDITA</p></dd>
         </dlentry>
       </dl>
     </section>
 
     <section>
       <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
     </section>
     <section>
       <title>Attributes</title>
@@ -66,7 +64,7 @@
 
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of body in an MDITA topic. (explain???)</p>
+      <p>The following example demonstrates the equivalent of the body component in an MDITA topic. </p>
       <pre># An innovative, attractive, and out of the ordinary concept
 
 Are you interested in investing with us? Welcome to our franchise information package.</pre>

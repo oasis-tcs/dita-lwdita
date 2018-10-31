@@ -17,7 +17,9 @@
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>&lt;span></p></dd>
+          <dd>
+            <p conref="../common/common-examples.dita#common-examples/no-mdita-core" />
+          </dd>
         </dlentry>
       </dl>
     </section>

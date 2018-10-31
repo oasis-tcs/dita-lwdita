@@ -17,15 +17,13 @@
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Not applicable? image with separating lines?</p></dd>
+          <dd><p>There is no specific syntax for figure in MDITA.</p></dd>
         </dlentry>
       </dl>
     </section>
 
     <section>
       <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
     </section>
     <section>
       <title>Attributes</title>
@@ -47,14 +45,6 @@
 
       <pre conref="../common/common-examples.dita#common-examples/altfig-hdita"/>
 
-    </section>
-
-
-    <section>
-      <title>MDITA example</title>
-      <p>The following example demonstrates the use of figure in an MDITA topic.</p>
-
-      <pre conref="../common/common-examples.dita#common-examples/altfig-mdita"/>
     </section>
 
   </body>

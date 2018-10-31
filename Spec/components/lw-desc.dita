@@ -17,21 +17,19 @@
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;title> in <xref href="lw-audio.dita" format="dita">&lt;audio></xref> and <xref
-                href="lw-video.dita" format="dita">&lt;video></xref>No equivalent for figure...
-              (figcaption=title)</p></dd>
+            <p>@title attribute in <xref href="lw-audio.dita" format="dita">&lt;audio></xref> and
+                <xref href="lw-video.dita" format="dita">&lt;video></xref>. There is no specific
+              syntax for description in a figure component in HDITA.</p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Committee note said not applicable... ??</p></dd>
+          <dd><p>There is no specific syntax for description in MDITA.</p></dd>
         </dlentry>
       </dl>
     </section>
 
     <section>
       <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
     </section>
     <section>
       <title>Attributes</title>
@@ -43,21 +41,29 @@
     </section>
         <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of description in an XDITA topic.</p>
+      <p>The following example demonstrates the use of description in a figure component in an XDITA
+        topic.</p>
+      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+&lt;topic id="intro-product">
+  &lt;title>Remote Lighting Overview&lt;/title>
+  &lt;body>
+    &lt;p>The Remote Lighting Network kit includes a wireless smart system that helps make the lighting in your home more energy efficient and easier to manage.&lt;/p>
+    &lt;fig>
+      &lt;desc>This image shows the retail package for version 2.3 of the Remote Lighting Network kit and does not represent any other versions&lt;/desc>
+      &lt;image href="images/kit-package.jpg">&lt;alt>Retail package for the Remote Lighting Network kit &lt;/alt>&lt;/image>
+    &lt;/fig>
+  &lt;/body>
+&lt;/topic></pre>
+      
 
     </section>
 
     <section>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of description in an HDITA topic.</p>
-
-    </section>
-
-
-    <section>
-      <title>MDITA example (need?)</title>
-      <p>The following example demonstrates the use of description in an MDITA topic.</p>
-
+      <p>The following example demonstrates the use of description in a video component in an HDITA
+        topic.</p>
+      <pre conref="../common/common-examples.dita#common-examples/multimedia-hdita"/>
 
     </section>
 

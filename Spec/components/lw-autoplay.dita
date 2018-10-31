@@ -14,7 +14,8 @@
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>@autoplay on <xref href="lw-audio.dita">&lt;audio></xref> or <xref href="lw-video.dita">&lt;video></xref></p>
+            <p>@autoplay attribute on <xref href="lw-audio.dita">&lt;audio></xref> or <xref
+                href="lw-video.dita">&lt;video></xref></p>
           </dd>
         </dlentry>
         <dlentry>
@@ -28,8 +29,6 @@
     </section>
     <section>
       <title>Formatting expectations</title>
-     <p>When present, the content of the alternate text component is displayed as  text for an image
-        that references this component.</p>
     </section>
     <section>
       <title>Attributes</title>
