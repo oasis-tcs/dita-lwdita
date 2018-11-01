@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="normative-references">
+ <title>Normative
+  <?oxy_comment_start author="carlosevia" timestamp="20181101T131710-0400" comment="We need the XML spec and/or the DITA 1.3 spec here.... both?"?>references<?oxy_comment_end?></title>
+ <body>
+  <dl>
+  <dlentry>
+   <dt>[GFM]</dt>
+   <dd><p>GitHub Flavored Markdown Spec. <xref href="https://github.github.com/gfm/"
+    format="html" scope="external">https://github.github.com/gfm/</xref>.</p> </dd>
+  </dlentry>
+   <dlentry><dt>[HTML5]</dt><dd><p>HTML5 W3C Recommendation. Edited by Ian Hickson, Robin Berjon, Steve Faulkner, Travis Leithead, Erika Doyle Navara, Edward O'Connor, and Silvia Pfeiffer. 28 October 2014. <xref href="http://www.w3.org/TR/2014/REC-html5-20141028/" format="html" scope="external">http://www.w3.org/TR/2014/REC-html5-20141028/</xref>. Latest version: <xref href="http://www.w3.org/TR/html5/" format="html" scope="external">http://www.w3.org/TR/html5/</xref>.</p></dd></dlentry>
+   
+   <dlentry>
+    <dt>[Markdown-Extra]</dt>
+    <dd><p>PHP Markdown Extra. <xref href="https://michelf.ca/projects/php-markdown/extra/" format="html" scope="external"/></p></dd>
+   </dlentry>
+   <dlentry>
+    <dt>[Pandoc]></dt>
+    <dd><p>Pandoc. <xref href="http://www.pandoc.org/" format="html" scope="external"/></p></dd>
+   </dlentry>
+      
+   <dlentry><dt>[YAML]</dt><dd><p>YAML Specification Index. Edited by Oren Ben-Kiki, Clark Evans, Ingy döt Net. 29 September 2009. <xref href="http://yaml.org/spec//" format="html" scope="external">http://yaml.org/spec/</xref>. Latest version: <xref href="http://yaml.org/spec/1.2/spec.html" format="html" scope="external">http://yaml.org/spec/1.2/spec.html</xref>.</p></dd></dlentry>
+   
+  
+  </dl>
+  
+  
+  
+  
+ </body>
+</topic>
