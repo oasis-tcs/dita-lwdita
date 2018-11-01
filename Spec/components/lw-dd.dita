@@ -8,7 +8,7 @@
       <title>Usage information</title>
       <dl>
         <dlentry>
-          <dt>XDITA (say something about dl as a container?)</dt>
+          <dt>XDITA</dt>
           <dd>
             <p>&lt;dd> inside <xref href="lw-dl.dita">&lt;dl></xref></p>
           </dd>
