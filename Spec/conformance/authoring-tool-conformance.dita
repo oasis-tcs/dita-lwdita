@@ -2,7 +2,8 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="topic_td4_xy5_pfb">
   <title>Authoring Tool Conformance</title>
-  <shortdesc>Specifies conformance requirements for Lightweight DITA authoring tools.</shortdesc>
+  <shortdesc>Specifies conformance requirements for Lightweight DITA (LwDITA) authoring
+    tools.</shortdesc>
   <body>
     <p id="p_hfg_hz5_pfb">The OASIS DITA Technical Committee designed LwDITA to be accessible to the
       largest possible set of content contributors. Hence, the conformance requirements for LwDITA

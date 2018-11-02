@@ -18,9 +18,9 @@
         <dt>MDITA</dt>
         <dd><p>A Markdown-based variant</p></dd>
       </dlentry>
-      
+
     </dl>
-    <p>These authoring formats will enable and enhance collaboration across divisional silos. Documents authored in the various authoring
+    <p>These authoring formats enable and enhance collaboration across divisional silos. Documents authored in the various authoring
       formats can be aggregated and published as a single document collection. They also can easily
       integrate into DITA 1.3 collections.</p>
     <p>The XDITA and HDITA content models are designed to be functionally equivalent to each other, while
@@ -29,7 +29,6 @@
       specification. In its extended profile, MDITA can incorporate extensions from PHP Markdown Extra (definition lists and footnotes), Pandoc (YAML front-matter headers) and HDITA
       element types and attributes to overcome Markdown limitations as a language for authoring structured
       and reusable content.</p>
-    
+
   </body>
 </topic>
-

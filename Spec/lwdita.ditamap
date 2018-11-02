@@ -2,7 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Lightweight DITA (LwDITA)</title>
- <topicref href="lwd-introduction.dita" keys="introduction" />
+ <topicref href="introduction/lw-introduction.ditamap" keys="introduction" />
  <topicref href="lwd-rationale.dita" keys="rationale"/>
  <topicref href="lwd-capabilities.dita" keys="capabilities"/>
  <topicref href="lwd-terminology.dita" keys="terminology" />
@@ -23,13 +23,13 @@
 
  <topicref>
   <topicmeta>
-   <navtitle>LwDITA elements</navtitle>
+   <navtitle>LwDITA components</navtitle>
   </topicmeta>
 
  
   <topicref>
    <topicmeta>
-    <navtitle>Basic topic elements</navtitle>
+    <navtitle>Basic topic components</navtitle>
    </topicmeta>
    
    <topicref href="lwd-topic.dita" keys="topic">
