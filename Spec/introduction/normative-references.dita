@@ -2,7 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="normative-references">
  <title>Normative
-  <?oxy_comment_start author="carlosevia" timestamp="20181101T131710-0400" comment="We need the XML spec and/or the DITA 1.3 spec here.... both?"?>references<?oxy_comment_end?></title>
+  <?oxy_comment_start author="carlosevia" timestamp="20181101T131710-0400" comment="We need the XML spec and/or the DITA 1.3 spec here.... both?"?><?oxy_comment_start author="carlosevia" timestamp="20181102T111914-0400" comment="Add Gruber&apos;s Markdown?" mid="1"?>references<?oxy_comment_end?><?oxy_comment_end mid="1"?></title>
  <body>
   <dl>
   <dlentry>

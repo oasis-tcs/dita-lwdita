@@ -4,11 +4,11 @@
   <title>Authoring Tool Conformance</title>
   <shortdesc>Specifies conformance requirements for Lightweight DITA authoring tools.</shortdesc>
   <body>
-    <p id="p_hfg_hz5_pfb">The OASIS DITA Technical Committee designed Lightweight DITA to be
-      accessible to the largest possible set of content contributors. Hence, the conformance
-      requirements for Lightweight DITA authoring applications are intentionally minimally
-      specified, particularly for the HDITA and MDITA authoring formats. Plain-text editors are
-      considered viable tools for authoring HDITA and MDITA formats.</p>
+    <p id="p_hfg_hz5_pfb">The OASIS DITA Technical Committee designed LwDITA to be accessible to the
+      largest possible set of content contributors. Hence, the conformance requirements for LwDITA
+      authoring applications are intentionally minimally specified, particularly for the HDITA and
+      MDITA authoring formats. Plain-text editors are considered viable tools for authoring HDITA
+      and MDITA formats.</p>
     <section id="section_gfg_hz5_pfb">
       <title>Conformance for XDITA authoring applications</title>
       <p id="p_kr3_sz5_pfb">An application that supports XDITA authoring <i>must</i>:</p>
@@ -18,11 +18,11 @@
             defined by this specification, with no or minimal configuration required.</p>
         </li>
         <li>
-          <p id="p_j53_dhv_pfb">Generate valid Lightweight DITA topics.</p>
+          <p id="p_j53_dhv_pfb">Generate valid LwDITA topics.</p>
         </li>
         <li>
           <p id="p_nbg_2nv_pfb">Support authors in authoring valid XDITA maps, to define sets of
-            Lightweight DITA (XDITA, HDITA, or MDITA) topics.</p>
+            LwDITA (XDITA, HDITA, or MDITA) topics.</p>
         </li>
       </ul>
       <p id="p_ufn_zz5_pfb">An application that supports XDITA authoring <i>may</i>:</p>
@@ -39,12 +39,17 @@
           <p id="p_xbc_t3v_pfb">Show or preview representations of XDITA topics with content
             references resolved and filtering applied.</p>
         </li>
+        <li>
+          <p>keyref? authoring support preview?</p>
+        </li>
       </ul>
     </section>
    
     <section id="section_stz_x3v_pfb">
       <title>Conformance for HDITA authoring applications</title>
-      <p id="p_ttz_x3v_pfb">Text editors are considered viable authoring environments for HDITA.</p>
+      <p id="p_ttz_x3v_pfb">Text editors are considered viable authoring environments for HDITA. Any
+        can create valid... (goal)? In order for LwDITA conformance specific... then... html5
+        conformant editor</p>
       <p id="p_utz_x3v_pfb">Applications that support HDITA authoring <i>may</i>:</p>
       <ul id="ul_vtz_x3v_pfb">
         <li>
@@ -56,7 +61,7 @@
         </li>
         <li>
           <p id="p_ytz_x3v_pfb">Limit authors to HDITA components of HTML5, or flag components that,
-            while valid according to the HTML spec,  are not legal in HDITA topics.</p>
+            while valid according to the HTML spec, are not legal in HDITA topics. (must)</p>
         </li>
         <li>
           <p id="p_exd_cnv_pfb">Support authors in authoring HDITA maps to define sets of HDITA
@@ -66,7 +71,8 @@
     </section>
     <section id="section_dq4_rhv_pfb">
       <title>Conformance for MDITA authoring applications</title>
-      <p id="p_apz_whv_pfb">Applications that support MDITA authoring <i>may</i>:</p>
+      <p id="p_apz_whv_pfb">Applications that support MDITA authoring <i>may</i>:  in addition to
+        being an Mdown editor...</p>
       <ul id="ul_pcb_zhv_pfb">
         <li>
           <p id="p_pqz_zhv_pfb">Provide guided authoring for MDITA topics, by presenting MDITA
