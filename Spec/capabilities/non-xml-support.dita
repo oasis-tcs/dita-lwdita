@@ -1,34 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="non-xml-support">
-  <title>Support for non-XML formats</title>
-  <shortdesc>LwDITA adds support for structured authoring in HTML5 and Markdown.</shortdesc>
+<topic id="capabilities">
+  <title>LwDITA capabilities</title>
+  <shortdesc>LwDITA has fewer capabilities... shares many core capabilities from DITA with added cross-format 
+  </shortdesc>
   <body>
-    <p>LwDITA has three authoring formats:</p>
     <dl>
       <dlentry>
-        <dt>XDITA</dt>
-        <dd><p>An XML-based variant</p></dd>
+        <dt>Content collection and organization</dt>
+        <dd><p>Maps</p></dd>
       </dlentry>
       <dlentry>
-        <dt>HDITA</dt>
-        <dd><p>An HTML5-based variant</p></dd>
+        <dt>Linking</dt>
+        <dd><p>xref (crossformat)</p></dd>
       </dlentry>
       <dlentry>
-        <dt>MDITA</dt>
-        <dd><p>A Markdown-based variant</p></dd>
+        <dt>filtering</dt>
+        <dd><p>Props</p></dd>
       </dlentry>
-
+      <dlentry>
+        <dt>conref reuse</dt>
+        <dd><p>link to id and conref (crossformat)</p></dd>
+      </dlentry>
+      <dlentry>
+        <dt>variable management</dt>
+        <dd><p>(keyref on ph)... share across flavors</p></dd>
+      </dlentry>
+      <dlentry>
+        <dt>link redirection</dt>
+        <dd><p>(keyref on xref)</p></dd>
+      </dlentry>
+      <dlentry>
+        <dt>specialization</dt>
+        <dd><p>... also link to @class</p></dd>
+      </dlentry>
     </dl>
-    <p>These authoring formats enable and enhance collaboration across divisional silos. Documents authored in the various authoring
-      formats can be aggregated and published as a single document collection. They also can easily
-      integrate into DITA 1.3 collections.</p>
-    <p>The XDITA and HDITA content models are designed to be functionally equivalent to each other, while
-      MDITA is a compatible subset. XDITA and HDITA conform with the OASIS DITA and W3C HTML5
-      standards, respectively. In its core profile, MDITA aligns with the GitHub Flavored Markdown
-      specification. In its extended profile, MDITA can incorporate extensions from PHP Markdown Extra (definition lists and footnotes), Pandoc (YAML front-matter headers) and HDITA
-      element types and attributes to overcome Markdown limitations as a language for authoring structured
-      and reusable content.</p>
-
   </body>
 </topic>
