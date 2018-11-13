@@ -15,23 +15,23 @@
         <dd><p>xref (crossformat)</p></dd>
       </dlentry>
       <dlentry>
-        <dt>filtering</dt>
+        <dt>Filtering</dt>
         <dd><p>Props</p></dd>
       </dlentry>
       <dlentry>
-        <dt>conref reuse</dt>
+        <dt>Content references for reuse</dt>
         <dd><p>link to id and conref (crossformat)</p></dd>
       </dlentry>
       <dlentry>
-        <dt>variable management</dt>
+        <dt>Variable management</dt>
         <dd><p>(keyref on ph)... share across flavors</p></dd>
       </dlentry>
       <dlentry>
-        <dt>link redirection</dt>
+        <dt>Link redirection</dt>
         <dd><p>(keyref on xref)</p></dd>
       </dlentry>
       <dlentry>
-        <dt>specialization</dt>
+        <dt>Specialization</dt>
         <dd><p>... also link to @class</p></dd>
       </dlentry>
     </dl>
