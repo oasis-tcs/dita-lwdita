@@ -10,10 +10,10 @@
         <dt>Modular content</dt>
         <dd><p>While LwDITA does not require the use of any particular writing practice, its modular approach to
             content supports a variety of best practices for creating both usable and reusable
-            content. In LwDITA, each module is called a topic (link to topic), which can be
-            published directly or collected and organized for publication by a map (link to map).
-            LwDITA topics can be authored and managed as XML (XDITA), HTML (HDITA), and Markdown
-            (MDITA) files as appropriate for diverse authoring communities and tool ecosystems. </p></dd>
+            content. In LwDITA, each module is called a <xref href="../components/lw-topic.dita">topic</xref>, which can be
+          published directly or collected and organized for publication by a <xref href="../components/lw-map.dita">map</xref>.
+          LwDITA topics can be authored and managed as XML (<xref href="../authoring-formats/xdita/xdita-introduction.dita">XDITA</xref>), HTML (<xref href="../authoring-formats/hdita/hdita-introduction.dita">HDITA</xref>), and Markdown
+          (<xref href="../authoring-formats/mdita/mdita-introduction.dita">MDITA</xref>) files as appropriate for diverse authoring communities and tool ecosystems. </p></dd>
       </dlentry>
       <dlentry>
         <dt>Content collection and organization</dt>
@@ -30,18 +30,17 @@
       </dlentry>
       <dlentry>
         <dt>Linking</dt>
-        <dd><p>A LwDITA topic can link to another topic (or location in a topic) using the cross-reference (link
-            to xref) component. Links work across any of the LwDITA authoring formats.  </p></dd>
+        <dd><p>A LwDITA topic can link to another topic (or location in a topic) using the <xref href="../components/lw-xref.dita">cross-reference</xref> component. Links work across any of the LwDITA authoring formats.  </p></dd>
       </dlentry>
       <dlentry>
         <dt>Filtering</dt>
-        <dd><p>LwDITA supports metadata-based filtering (link to props topic) within a topic to selectively
+        <dd><p>LwDITA supports <xref href="../attributes/filtering/nofile.dita">metadata-based filtering (link to props topic)</xref> within a topic to selectively
             include or exclude content for specific contexts.  </p></dd>
       </dlentry>
       <dlentry>
         <dt>Content references for reuse</dt>
-        <dd><p>In LwDITA, content can be reused across topics or maps using the content reference (link to
-            conref!) mechanism to pull block-level content, such as a paragraph or list item, from
+        <dd><p>In LwDITA, content can be reused across topics or maps using the <xref href="../attributes/reuse/nofile.dita">content reference (link to
+          conref!)</xref> mechanism to pull block-level content, such as a paragraph or list item, from
             one location to another. This reuse by reference ensures that content will stay
             consistent and up to date across all the contexts in which it is reused. Content
             references work across any of the LwDITA authoring formats.</p></dd>
