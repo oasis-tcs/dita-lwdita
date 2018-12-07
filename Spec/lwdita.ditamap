@@ -3,23 +3,18 @@
 <map>
  <title>Lightweight DITA (LwDITA)</title>
  <topicref href="introduction/lw-introduction.ditamap" keys="introduction" />
- <topicref href="lwd-rationale.dita" keys="rationale"/>
- <topicref href="lwd-capabilities.dita" keys="capabilities"/>
- <topicref href="lwd-terminology.dita" keys="terminology" />
+ 
  
 
  
-  <topicref href="lwd-modesintro.dita" keys="formatsintro">
-  <topicref href="lwd-xdita.dita" keys="xdita" />
-  <topicref href="lwd-hdita.dita" keys="hdita" />
-  <topicref href="lwd-mdita.dita" keys="mdita" />
-  </topicref>
+  <topicref href="authoring-formats/lwd-formats.ditamap" keys="authoring-formats"/>
+ 
 
-
-  <topicref href="lwd-specialization.dita" keys="specialization">
-  <topicref href="lwd-structuralannotations.dita" keys="structuralannotations"/>
-  <topicref href="lwd-domainannotations.dita" keys="domainannotations"/>
-  </topicref>
+ <topicref href="capabilities/lwd-capabilities.dita" keys="capabilities"/>
+  <topicref href="specialization/lwd-specialization.dita" keys="specialization"/>
+  <!-- <topicref href="lwd-structuralannotations.dita" keys="structuralannotations"/>
+  <topicref href="lwd-domainannotations.dita" keys="domainannotations"/> -->
+ 
 
  <topicref>
   <topicmeta>
@@ -181,7 +176,7 @@
 
    <topicref>
     <topicmeta>
-     <navtitle>Multimedia elements</navtitle>
+     <navtitle>Multimedia components</navtitle>
     </topicmeta>
 
     <topicref href="lwd-audio.dita" keys="audio">
@@ -243,7 +238,7 @@
  
    <topicref>
     <topicmeta>
-     <navtitle>Table elements</navtitle>
+     <navtitle>Table components</navtitle>
     </topicmeta>
     <topicref href="lwd-simpletable.dita" keys="simpletable">
      <topicref href="lwd-xdita-simpletable.dita"/>
@@ -274,7 +269,7 @@
    
   <topicref>
    <topicmeta>
-    <navtitle>Related links elements</navtitle>
+    <navtitle>Related links component</navtitle>
    </topicmeta>
   
    
@@ -288,7 +283,7 @@
   
   <topicref>
    <topicmeta>
-    <navtitle>Map elements</navtitle>
+    <navtitle>Map components</navtitle>
    </topicmeta>
  
    <topicref href="lwd-keydef.dita" keys="keydef">
@@ -325,7 +320,7 @@
   
  <topicref>
   <topicmeta>
-   <navtitle>Metadata elements</navtitle>
+   <navtitle>Metadata components</navtitle>
   </topicmeta>
   
   <topicref href="lwd-data.dita" keys="data">
@@ -344,7 +339,7 @@
  
   <topicref>
    <topicmeta>
-    <navtitle>Highlighting elements</navtitle>
+    <navtitle>Highlighting components</navtitle>
    </topicmeta>
 
    <topicref href="lwd-b.dita" keys="b">
@@ -502,6 +497,8 @@
    <topicref href="lwd-keys.dita" keys="keys"/>
    
   </topicref>
+  
+  <!-- Conformance topics and acknowledgements will go here -->
    
 
  </topicref>
