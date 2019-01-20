@@ -29,6 +29,7 @@
     </section>
     <section>
       <title>Formatting expectations</title>
+      <p>Content should be rendered with a typographical underline.</p>
     </section>
     <section>
       <title>Processing expectations</title>
@@ -40,7 +41,7 @@
     </section>
     <section>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of a short description in an XDITA topic.</p>
+      <p>The following example demonstrates the use of <i>Underline</i> in an XDITA topic.</p>
       <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
  &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
  &lt;topic id="install-and-setup">
