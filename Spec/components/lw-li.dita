@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-li">
   <title>List item</title>
@@ -26,8 +26,7 @@
     </section>
     <section>
       <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
+      <p>In all rendered formats, processors <ph>SHOULD</ph> derive rendering details from the parent <ph>ordered list</ph> or <ph>unordered list</ph> component.</p>
     </section>
     <section>
       <title>Attributes</title>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-pre">
   <title>Preformatted text</title>
@@ -23,8 +23,7 @@
     </section>
     <section>
       <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
+      <p>In text rendering, processors <ph>SHOULD</ph> preserve white space and line breaks in rendering the content of <ph>preformatted text</ph>. Processors <ph>MAY</ph> apply other visual distinctions to the contents of <ph>preformatted text</ph>, such as indentation, highlighting, or background color. In other rendering formats, processors <ph>MAY</ph> apply other embellishments to distinguish the contents of <ph>preformatted text</ph>.</p>
     </section>
     <section>
       <title>Attributes</title>
