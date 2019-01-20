@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-u">
   <title>Underline</title>
@@ -33,7 +33,8 @@
     </section>
     <section>
       <title>Processing expectations</title>
-      <p/>
+
+      <p>In text, processors <ph>SHOULD</ph> render the contents of <ph>underline</ph> with a typographical underline. In audio and other rendering formats, processors MAY distinguish the contents of <ph>underline</ph> in some other way.</p>
     </section>
     <section>
       <title>Attributes</title>

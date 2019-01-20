@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-shortdesc">
   <title>Bold text</title>
@@ -24,6 +24,9 @@
 
     <section>
       <title>Processing expectations</title>
+
+      <p>In text, processors <ph>SHOULD</ph> render the contents of <ph>bold text</ph> in typographical bold. In audio and other rendering formats, processors MAY distinguish the contents of <ph>bold text</ph> in some other way.</p>
+
     </section>
     <section>
       <title>Attributes</title>

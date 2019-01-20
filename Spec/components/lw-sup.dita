@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-sup">
   <title>Superscript</title>
@@ -28,10 +28,11 @@
       </dl>
     </section>
     <section>
-      <title>Formatting expectations</title>
-    </section>
+
     <section>
       <title>Processing expectations</title>
+      <p>In text, processors <ph>SHOULD</ph> render the contents of <ph>superscript</ph> as a typographical superscript. In audio and other rendering formats, processors MAY distinguish the contents of <ph>superscript</ph> in some other way.</p>
+
     </section>
     <section>
       <title>Attributes</title>

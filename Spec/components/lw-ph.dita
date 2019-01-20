@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="lw-ph">
   <title>Phrase</title>
@@ -25,6 +25,9 @@
     </section>
     <section>
       <title>Processing expectations</title>
+
+      <p>In rendering, processors <ph>MAY</ph> distingish the contents of <ph>phrase</ph> in some way based on its attribute values. For example, a Lightweight DITA editor may flag the contents of <ph>phrase</ph> based on its @role or @translate attribute, if set.</p>
+
     </section>
     <section>
       <title>Attributes</title>
