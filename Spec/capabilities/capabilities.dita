@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="capabilities">
+  <title>LwDITA capabilities</title>
+  <shortdesc>LwDITA shares some core capabilities for content structure and reuse with DITA 1.3. By design, it includes fewer capabilities than full DITA XML. LwDITA also includes some unique cross-format features.</shortdesc>
+  <body>
+    <p>LwDITA features the following capabilities:</p>
+    <dl>
+      <dlentry>
+        <dt>Modular content</dt>
+        <dd><p>While LwDITA does not require the use of any particular writing practice, its modular approach to
+            content supports a variety of best practices for creating both usable and reusable
+            content. In LwDITA, each module is called a <xref href="../components/lw-topic.dita">topic</xref>, which can be
+          published directly or collected and organized for publication by a <xref href="../components/lw-map.dita">map</xref>.
+          LwDITA topics can be authored and managed as XML (<xref href="../authoring-formats/xdita/xdita-introduction.dita">XDITA</xref>), HTML (<xref href="../authoring-formats/hdita/hdita-introduction.dita">HDITA</xref>), and Markdown
+          (<xref href="../authoring-formats/mdita/mdita-introduction.dita">MDITA</xref>) files as appropriate for diverse authoring communities and tool ecosystems. </p></dd>
+      </dlentry>
+      <dlentry>
+        <dt>Content collection and organization</dt>
+        <dd><p>In LwDITA, the document type of <xref href="../components/lw-map.dita" format="dita">map</xref>
+            functions as a content collection and organization mechanism, which can be used to
+            manage the linking, navigation and metadata for a group of topics. LwDITA maps can be
+            created in the <xref href="../authoring-formats/xdita/xdita-introduction.dita"
+              >XDITA</xref>, <xref href="../authoring-formats/hdita/hdita-introduction.dita"
+              >HDITA</xref>, and <xref href="../authoring-formats/mdita/mdita-introduction.dita"
+              >MDITA</xref> authoring formats, and they allow for cross-format collection and
+            organization. For example, a map authored in XDITA can collect and organize topics
+            created in any combination of LwDITA formats. The same can be accomplished with maps
+            authored in HDITA and MDITA. </p></dd>
+      </dlentry>
+      <dlentry>
+        <dt>Linking</dt>
+        <dd><p>A LwDITA topic can link to another topic (or location in a topic) using the <xref href="../components/lw-xref.dita">cross-reference</xref> component. Links work across any of the LwDITA authoring formats.  </p></dd>
+      </dlentry>
+      <dlentry>
+        <dt>Filtering</dt>
+        <dd><p>LwDITA supports <xref href="../attributes/filtering/nofile.dita">metadata-based filtering (link to props topic)</xref> within a topic to selectively
+            include or exclude content for specific contexts.  </p></dd>
+      </dlentry>
+      <dlentry>
+        <dt>Content references for reuse</dt>
+        <dd><p>In LwDITA, content can be reused across topics or maps using the <xref href="../attributes/reuse/nofile.dita">content reference (link to
+          conref!)</xref> mechanism to pull block-level content, such as a paragraph or list item, from
+            one location to another. This reuse by reference ensures that content will stay
+            consistent and up to date across all the contexts in which it is reused. Content
+            references work across any of the LwDITA authoring formats.</p></dd>
+      </dlentry>
+      <dlentry>
+        <dt>Variable management</dt>
+        <dd><p>In LwDITA, inline (variable) content can be defined in maps and reused in topics via the key
+            reference mechanism (link to keyref). This reuse by reference ensures that variable
+            content will stay consistent and up to date across all the contexts in which it is
+            reused. Key references work across any of the LwDITA authoring formats.</p></dd>
+      </dlentry>
+      <dlentry>
+        <dt>Link redirection</dt>
+        <dd>
+          <p>LwDITA supports link redirection via the key reference (link to keyref) mechanism. A
+            cross reference (link to xref) component can be combined with a key reference so authors
+            can redirect links to a common topic. Link redirection works across any of the LwDITA
+            authoring formats.</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>Specialization</dt>
+        <dd>
+          <p>LwDITA follows the same specialization architecture as DITA 1.3, although there are
+            some limitations. Because LwDITA spans multiple authoring formats, coordination of the
+            same specialization rules across markup languages poses some unique challenges. Not all
+            LwDITA formats will support specialization to the same degree. For example, XDITA, the
+            LwDITA authoring format based on XML, defines a default class attribute value for each
+            component. This class attribute can be used as basis for specialization. In HDITA and
+            MDITA -the LwDITA authoring formats based on HTML5 and Markdown, respectively-, there is
+            no specific mechanism for specialization (link to topic).    </p></dd>
+      </dlentry>
+    </dl>
+  </body>
+</topic>

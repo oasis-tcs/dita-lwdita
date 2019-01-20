@@ -13,7 +13,7 @@
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>@poster on <xref href="lw-video.dita">&lt;video></xref></p></dd>
+          <dd><p>@poster attribute on <xref href="lw-video.dita">&lt;video></xref></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
@@ -26,8 +26,6 @@
     </section>
     <section>
       <title>Formatting expectations</title>
-     <p>When present, the content of the alternate text component is displayed as  text for an image
-        that references this component.</p>
     </section>
     <section>
       <title>Attributes</title>

@@ -3,41 +3,42 @@
 <topic id="lw-sup">
   <title>Superscript</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/sup"/>
-    <body>
+  <body>
     <section>
       <title>Usage information</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;sup></p></dd>
-          </dlentry>
+          <dd>
+            <p>&lt;sup></p>
+          </dd>
+        </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;sup></p></dd>
+          <dd>
+            <p>&lt;sup></p>
+          </dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (extended profile)</dt>
           <dd>
-            
             <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/>
           </dd>
         </dlentry>
       </dl>
     </section>
     <section>
+
     <section>
       <title>Processing expectations</title>
       <p>In text, processors <ph>SHOULD</ph> render the contents of <ph>superscript</ph> as a typographical superscript. In audio and other rendering formats, processors MAY distinguish the contents of <ph>superscript</ph> in some other way.</p>
+
     </section>
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-
-
-
-
     </section>
-        <section>
+    <section>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of superscript in an XDITA topic.</p>
       <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -49,7 +50,6 @@
   &lt;/body>
 &lt;/topic></pre>
     </section>
-
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of superscript in an HDITA topic.</p>
@@ -65,17 +65,5 @@
   &lt;/body>
   &lt;/html></pre>
     </section>
-
-
-    <section>
-      <title>MDITA example</title>
-      <p>The following example demonstrates the use of superscript in an MDITA extended profile
-        topic.</p>
-      <pre>  # Franchise Requirements
-
-  Franchised restaurants should be located in areas of at least 200 ft&lt;sup>2&lt;/sup>.</pre>
-
-    </section>
-
   </body>
 </topic>

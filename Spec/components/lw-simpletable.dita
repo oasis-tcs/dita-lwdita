@@ -23,15 +23,12 @@
             <p>A table should contain a header row, a delimiter row, and zero or more rows with
               entries. Table entries inside a row should be separated by pipes (|), and the
               delimiter should contain hyphens (-), and optionally, a leading or trailing colon (:),
-              or both, to indicate left, right, or center alignment respectively. (cite GFM?)</p></dd>
+              or both, to indicate left, right, or center alignment respectively. </p></dd>
         </dlentry>
       </dl>
     </section>
     <section>
       <title>Formatting expectations</title>
-     <p>When present, the content of the short description component is displayed as the first
-        paragraph of a topic. It may also be used for other purposes, such as link previews and
-        summaries.</p>
     </section>
     <section>
       <title>Attributes</title>

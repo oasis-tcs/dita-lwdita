@@ -9,14 +9,15 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;title></p></dd>
+          <dd><p>&lt;title> in &lt;topic>, &lt;section>, &lt;fig>... where else?</p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
             <p>&lt;h1> and &lt;title> for <xref href="lw-topic.dita" format="dita">topic</xref>;
-              &lt;h2> for <xref href="lw-section.dita" format="dita">section</xref> (Title should map
-              to both &lt;title> and &lt;h1> in HDITA). Better way to say this?</p>
+              &lt;h2> for <xref href="lw-section.dita" format="dita">section</xref> (Title should
+              map to both &lt;title> and &lt;h1> in HDITA). Better way to say this? &lt;figcaption>
+              in &lt;figure>. Title also applied to audio and video in HDITA as attribute</p>
           </dd>
         </dlentry>
         <dlentry>

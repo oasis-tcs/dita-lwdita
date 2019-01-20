@@ -3,61 +3,47 @@
 <topic id="lw-dd">
   <title>Definition description</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/dd"/>
-    <body>
+  <body>
     <section>
       <title>Usage information</title>
       <dl>
         <dlentry>
-          <dt>XDITA (say something about dl as a container?)</dt>
-          <dd><p>&lt;dd> inside <xref href="lw-dl.dita">&lt;dl></xref></p></dd>
-          </dlentry>
+          <dt>XDITA</dt>
+          <dd>
+            <p>&lt;dd> inside <xref href="lw-dl.dita">&lt;dl></xref></p>
+          </dd>
+        </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;dd> inside <xref href="lw-dl.dita">&lt;dl></xref></p></dd>
+          <dd>
+            <p>&lt;dd> inside <xref href="lw-dl.dita">&lt;dl></xref></p>
+          </dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (extended profile)</dt>
-          <dd><p>See the <xref href="lw-dl.dita" /> component</p></dd>
+          <dd>
+            <p>See the <xref href="lw-dl.dita"/> component</p>
+          </dd>
         </dlentry>
       </dl>
     </section>
-
     <section>
       <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
     </section>
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
-
-
-
-
     </section>
-        <section>
+    <section>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of definition description in an XDITA topic.</p>
-          <pre conref="../common/common-examples.dita#common-examples/dl-xdita"/>
-
+      <pre conref="../common/common-examples.dita#common-examples/dl-xdita"/>
     </section>
-
     <section>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of definition description text in an HDITA
         topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/dl-hdita"/>
-
     </section>
-
-
-    <section>
-      <title>MDITA example</title>
-      <p>The following example demonstrates the use of definition description in an MDITA topic.</p>
-
-      <pre conref="../common/common-examples.dita#common-examples/dl-mdita"/>
-
-    </section>
-
   </body>
 </topic>

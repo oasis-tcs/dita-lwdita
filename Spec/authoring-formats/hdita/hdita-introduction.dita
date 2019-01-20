@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<topic id="hdita">
+  <title>HDITA</title>
+  <shortdesc>HDITA is the authoring format of LwDITA that uses HTML5 to structure information. It also uses custom data attributes to provide interoperability with DITA.</shortdesc>
+  <body>
+    <p>HDITA is designed for users who want to use HTML-authoring tools to write structured content.</p>
+    <p>Target users of HDITA include the following:</p>
+      <ul>
+        <li><p>Marketing writers who want to contribute to DITA-based product documentation without using an
+          XML editor</p></li>
+        <li><p>Software developers who want to contribute to documentation using HTML-authoring tools</p></li>
+        <li><p>Teachers and trainers who want to create course content for a Web site or learning management
+          system (LMS)</p></li>
+        <li><p>Bloggers and content strategists who want to be able to create and edit content using mobile
+          devices</p></li>
+        <li><p>Authors who want to write content for the Web that does not require a transformation process</p></li>
+        <li><p>Non-English-speaking content creators who are comfortable with HTML5 semantic elements</p></li>
+      </ul>
+  </body>
+</topic>

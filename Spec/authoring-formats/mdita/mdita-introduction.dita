@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<topic id="mdita">
+  <title>MDITA</title>
+  <shortdesc>MDITA is the authoring format of LwDITA that uses Markdown to structure
+    information.</shortdesc>
+  <body>
+   <p>LwDITA includes two profiles for authoring MDITA topics:</p>
+      <dl>
+        <dlentry>
+          <dt>Core profile</dt>
+          <dd><p>Aligns with the GitHub Flavored Markdown spec and includes markup common to <i>most</i> Markdown flavors.</p></dd>
+        </dlentry>
+        <dlentry>
+          <dt>Extended profile</dt>
+          <dd><p>Relies upon features only available in specific flavors of Markdown to enable a more consistent DITA-like experience.</p></dd>
+        </dlentry>
+      </dl>
+    <p>MDITA is designed for users who want to write structured content with the minimum of overhead, but who also want to take advantage of the reuse mechanisms associated with the DITA standard and the multi-channel publishing afforded by standard DITA tooling.</p>
+    <p>Potential users of the MDITA core profile include the following:</p>
+<ul>
+  <li><p>Software developers who want to contribute to DITA-based product documentation without using an XML editor</p></li>
+  <li><p>Software developers who want to contribute to product documentation using the tools and markup of their choice</p></li>
+  <li><p>Developers and writers in charge of documenting application programming interfaces (APIs) that need to share content with technical publications</p></li>
+    <li><p>Individuals authoring content using a platform, such as a mobile device, that does not support an XML editor</p></li>
+  <li><p>Individuals authoring content quickly that must be later refactored as structured content</p></li>
+  <li><p>Non-English-speaking authors who want to take advantage of DITA reuse and publishing without depending on XML tags written in English</p></li>
+</ul>
+    <p>Potential users of the MDITA extended profile include the following:</p>
+    <ul>
+      <li><p>Content curators who receive occasional contributions from developers written in Markdown</p></li>
+      <li><p>Technical editors who need to incorporate Markdown files in DITA or XDITA topic collections</p></li>
+      <li><p>Content developers familiar with DITA or XDITA who want to use Markdown as an authoring language on devices that do not support XML editors</p></li>
+    </ul>
+  </body>
+</topic>

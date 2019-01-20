@@ -26,7 +26,9 @@
     </section>
     <section>
       <title>Processing expectations</title>
+
       <p>In all rendered formats, processors <ph>SHOULD</ph> derive rendering details from the parent <ph>ordered list</ph> or <ph>unordered list</ph> component.</p>
+
     </section>
     <section>
       <title>Attributes</title>

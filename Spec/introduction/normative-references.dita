@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="normative-references">
+ <title>Normative references</title>
+ <body>
+  <dl>
+   <dlentry>
+    <dt>[DITA 1.3]</dt>
+    <dd><p>Darwin Information Typing Architecture (DITA) Version 1.3. Edited by Robert D. Anderson and Kristen James Eberlein. 19 June 2018. <xref href="http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part0-overview.html" format="html" scope="external"></xref> </p></dd>
+   </dlentry>
+   <dlentry>
+   <dt>[GFM]</dt>
+   <dd><p>GitHub Flavored Markdown Spec Version 0.28-gfm. 01 August 2017. <xref
+       href="https://github.github.com/gfm/" format="html" scope="external"
+       >https://github.github.com/gfm/</xref>.</p> </dd>
+  </dlentry>
+   <dlentry><dt>[HTML5]</dt><dd><p>HTML5 W3C Recommendation. Edited by Ian Hickson, Robin Berjon, Steve Faulkner, Travis Leithead, Erika Doyle Navara, Edward O'Connor, and Silvia Pfeiffer. 28 October 2014. <xref href="http://www.w3.org/TR/2014/REC-html5-20141028/" format="html" scope="external">http://www.w3.org/TR/2014/REC-html5-20141028/</xref>. Latest version: <xref href="http://www.w3.org/TR/html5/" format="html" scope="external">http://www.w3.org/TR/html5/</xref>.</p></dd></dlentry>
+   <dlentry>
+    <dt>[Markdown]</dt>
+    <dd><p>Markdown 1.0.1. By John Gruber. 17 December 2004. <xref scope="external" format="html" href="https://daringfireball.net/projects/markdown/"/> </p></dd>
+   </dlentry>
+   <dlentry>
+    <dt>[Markdown-Extra]</dt>
+    <dd><p>PHP Markdown Extra. <xref href="https://michelf.ca/projects/php-markdown/extra/" format="html" scope="external"/></p></dd>
+   </dlentry>
+   <dlentry>
+    <dt>[Pandoc]></dt>
+    <dd><p>Pandoc. <xref href="http://www.pandoc.org/" format="html" scope="external"/></p></dd>
+   </dlentry>
+   
+   <dlentry>
+    <dt>[XML 1.1]</dt>
+    <dd><p>Extensible Markup Language (XML) 1.1 (Second Edition).  Edited by Tim Bray, Jean Paoli, C. M. Sperberg-McQueen, Eve Maler, François Yergeau, John Cowan. 16 August 2006. <xref format="html" scope="external" href="http://www.w3.org/TR/2006/REC-xml11-20060816/"/>. Latest version: <xref href="http://www.w3.org/TR/xml11/" scope="external" format="html"/></p></dd>
+   </dlentry>
+   
+   <dlentry><dt>[YAML]</dt><dd><p>YAML Specification Index. Edited by Oren Ben-Kiki, Clark Evans, Ingy döt Net. 29 September 2009.
+       <xref href="http://yaml.org/spec//" format="html" scope="external"
+       >http://yaml.org/spec/</xref>. Latest version: <xref
+       href="http://yaml.org/spec/1.2/spec.html" format="html" scope="external"
+       >http://yaml.org/spec/1.2/spec.html</xref>. </p></dd></dlentry>
+   
+  
+  </dl>
+  
+  
+  
+  
+ </body>
+</topic>

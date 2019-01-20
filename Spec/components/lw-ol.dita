@@ -23,8 +23,10 @@
     </section>
     <section>
       <title>Processing expectations</title>
+
       <p>In text rendering, <ph>list item</ph> children of <ph>ordered list</ph> <ph>SHOULD</ph> be rendered as a typographical ordered list. Audio and other rendering formats MAY embellish the children of <ph>ordered list</ph> to signal that the list items do have an inherent order.</p>
       <p>Processors <ph>SHOULD</ph> consider the nesting level of the <ph>ordered list</ph> component in choosing the indentation level and list item label that is applied to <ph>list item</ph> children.</p>
+
     </section>
     <section>
       <title>Attributes</title>

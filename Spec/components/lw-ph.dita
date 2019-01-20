@@ -17,13 +17,17 @@
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>&lt;span></p></dd>
+          <dd>
+            <p conref="../common/common-examples.dita#common-examples/no-mdita-core" />
+          </dd>
         </dlentry>
       </dl>
     </section>
     <section>
       <title>Processing expectations</title>
+
       <p>In rendering, processors <ph>MAY</ph> distingish the contents of <ph>phrase</ph> in some way based on its attribute values. For example, a Lightweight DITA editor may flag the contents of <ph>phrase</ph> based on its @role or @translate attribute, if set.</p>
+
     </section>
     <section>
       <title>Attributes</title>
@@ -82,7 +86,8 @@
 
     <section>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of phrase in an MDITA topic.</p>
+      <p>The following example demonstrates the use of phrase, via an HDITA snippet, in an MDITA
+        topic.</p>
       <pre># What we offer
 
 -   &lt;span translate="no">"Know how"&lt;/span> license

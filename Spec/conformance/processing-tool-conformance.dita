@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="topic_td4_xy5_pfb">
+  <title>Processing Tool Conformance</title>
+  <shortdesc>Specifies conformance requirements for tools that process Lightweight DITA content,
+    typically for publishing or rendering, but possibly for other content-driven
+    processes.</shortdesc>
+  <body>
+    <p id="p_hfg_hz5_pfb">Processing tools that claim conformance to Lightweight DITA should meet
+      the mandatory and optional requirements specified here with no, or only trivial,
+      configuration. </p>
+    <p id="p_ys1_pjv_pfb">Tools that process Lightweight DITA content <i>must</i>:</p>
+    <ul id="ul_w4k_qjv_pfb">
+      <li>
+        <p id="p_lwg_rjv_pfb">Validate XDITA topic and map content, and report XDITA validation
+          errors.</p>
+      </li>
+      <li>
+        <p id="p_fs5_sjv_pfb">Follow the Processing Expectations and Rendering Expectations sections
+          of this specification for each Lightweight DITA component.</p>
+      </li>
+      <li>
+        <p id="p_gnc_yjv_pfb">Aggregate topic collections as defined by XDITA, MDITA, and HDITA
+          maps, following the rules and limitations for each authoring format. Specifically, XDITA
+          maps may aggregate XDITA, MDITA, and HDITA topics. MDITA maps need only aggregate MDITA
+          topics. HDITA maps need only aggregate HDITA
+          topics.<?oxy_comment_start author="alan" timestamp="20181028T184951-0400" comment="I&apos;m trying to recall the rules/limitations for MDITA and HDITA maps. Do we specify that they must support all Lightweight DITA authoring formats?" id="e54_fpw_qfb"?><?oxy_comment_start author="carlosevia" timestamp="20181101T121830-0400" comment="I think we said that any map can reference all three authoring formats.
+E.G., an MDITA map can reference X, H, and M topics" parentID="e54_fpw_qfb" mid="1"?></p><?oxy_comment_end?><?oxy_comment_end mid="1"?>
+      </li>
+    </ul>
+    <p id="p_rdb_2kv_pfb">Tools that process Lightweight DITA <i>may</i>:</p>
+    <ul id="ul_xsl_fkv_pfb">
+      <li>
+        <p id="p_xz3_hkv_pfb">Identify and report HDITA and MDITA components that do not comprise
+          legal HDITA or MDITA content.  Cessation of processing is an acceptable response when a
+          processing tool encounters such content. However, processing tools are encouraged to
+          attempt graceful degradation on encountering HDITA or MDITA topic or map content that does
+          not conform to the rules of this specification.</p>
+      </li>
+    </ul>
+  </body>
+</topic>

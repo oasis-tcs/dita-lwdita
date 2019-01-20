@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="terminology">
+ <title>Terminology</title>
+ <shortdesc>This section provides information about terminology and how it is used in this committee
+  note.</shortdesc>
+ <conbody>
+  <dl>
+   <!-- <dlentry>
+    <dt>ATX headers</dt>
+    <dd>(MDITA) One or two hash (#) marks at the beginning of a line of text. One hash mark
+     indicates a topic title, and two hash marks indicates a section title.</dd>
+   </dlentry> -->
+   <!--<dlentry>
+    <dt><ph rev="review-1">conref</ph></dt>
+    <dd><ph rev="review-1">A DITA mechanism for reusing content.</ph></dd>
+   </dlentry> -->
+   <dlentry>
+    <dt>core profile</dt>
+    <dd>(MDITA) The authoring profile that aligns with the specification for GitHub Flavored
+     Markdown.</dd>
+   </dlentry>
+   <dlentry>
+    <dt>custom data attributes</dt>
+    <dd>Custom attributes, such as <ph rev="review-1"><xmlatt>data-conref</xmlatt></ph>, that are used in HDITA and the
+     extended profile of MDITA <ph rev="review-2">to use DITA features such as conref and keyref</ph>.</dd>
+   </dlentry>
+   <!-- <dlentry>
+    <dt>document type</dt>
+    <dd>A type of DITA topic or map that is designed for a specific purpose.</dd>
+   </dlentry> -->
+   <dlentry> 
+    <dt>extended profile</dt>
+    <dd>(MDITA) The authoring profile that relies on specific Markdown variants <ph rev="review-2">to access DITA features such</ph> as the <xmlatt>id</xmlatt> attribute on the root element, prolog
+     metadata, <ph rev="committee-note-2-draft01">definition lists, footnotes,</ph> and optional use of HTML element <ph rev="public-review-1">types</ph>.</dd>
+   </dlentry>
+   <dlentry>
+    <dt>HDITA</dt>
+    <dd>The LwDITA authoring format that is based on HTML5.</dd>
+   </dlentry>
+   <!-- <dlentry>
+    <dt><ph rev="review-1">keyref</ph></dt>
+    <dd><ph rev="review-1">A DITA attribute for reusing content.</ph></dd>
+   </dlentry> -->
+   <dlentry>
+    <dt>MDITA</dt>
+    <dd>The LwDITA authoring format that is based on Markdown.</dd>
+   </dlentry>
+   <dlentry>
+    <dt>slug</dt>
+    <dd>A URL-friendly version of a topic title.</dd>
+   </dlentry>
+   <!-- <dlentry>
+    <dt>specialization</dt>
+    <dd>The process of creating a new DITA element or attribute from an existing element or attribute. The new element or attribute inherits characteristics of the element or attribute from which it was specialized, which reduces design work and enables the reuse of existing transformations.</dd>
+   </dlentry> -->
+   <dlentry>
+    <dt>XDITA</dt>
+    <dd>The LwDITA authoring format that is based on XML.</dd>
+   </dlentry>
+  </dl>
+ </conbody>
+</concept>
