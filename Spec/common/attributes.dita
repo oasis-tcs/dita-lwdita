@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="lw-attributes">
+  <title>LwDITA attributes</title>
+  <body>
+    <section id="architecture">
+      <title>Architecture attributes</title>
+      <dl>
+        <dlentry>
+          <dt>ditaarch</dt>
+          <dd>
+            <p>XDITA: @xmlns:ditaarch</p>
+             <p id="hdita-na">HDITA: Not applicable</p>
+  
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>DITAArchVersion</dt>
+          <dd>
+            <p>XDITA: @ditaarch:DITAArchVersion</p>
+            <p conref="#lw-attributes/hdita-na"/>
+           
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Domains</dt>
+          <dd>
+            <p>XDITA: @domains</p>
+           <p conref="#lw-attributes/hdita-na"/>            
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    
+    <section id="localization">
+      <title>Localization attributes</title>
+      <dl>
+        <dlentry>
+          <dt>Direction</dt>
+          <dd>
+            <p>XDITA: @dir</p>
+            <p>HDITA: @dir</p>
+           </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Language</dt>
+          <dd>
+            <p>XDITA: @xml:lang</p>
+            <p>HDITA: @lang</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Translate</dt>
+          <dd>
+            <p>XDITA: @translate</p>
+            <p>HDITA: @translate</p>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    
+    <section id="datadef">
+      <title>Data definition attributes</title>
+      <dl>
+        <dlentry>
+          <dt>Name</dt>
+          <dd>
+            <p>XDITA: @name</p>
+            <p conref="#lw-attributes/hdita-na"/>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Value</dt>
+          <dd>
+            <p>XDITA: @value</p>
+            <p conref="#lw-attributes/hdita-na"/>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section id="figdisplay">
+      <title>Figure display attributes</title>
+      <dl>
+      <dlentry>
+        <dt>Expanse</dt>
+        <dd>
+          <p>XDITA: @expanse</p>
+          <p conref="#lw-attributes/hdita-na"/>
+        </dd>
+      </dlentry>
+        <dlentry>
+          <dt>frame</dt>
+          <dd>
+            <p>XDITA: @frame</p>
+            <p conref="#lw-attributes/hdita-na"/>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Scale</dt>
+          <dd>
+            <p>XDITA: @scale</p>
+            <p conref="#lw-attributes/hdita-na"/>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section id="filtering">
+      <title>Filtering attribute</title>
+      <dl>
+      <dlentry>
+        <dt>Properties</dt>
+        <dd>
+          <p>XDITA: @props</p>
+          <p>HDITA: @data-props</p>
+        </dd>
+      </dlentry>
+      </dl>
+    </section>
+    <section id="footnote">
+      <title>Footnote control attribute</title>
+      <dl>
+        <dlentry>
+          <dt>Callout</dt>
+          <dd>
+            <p>XDITA: @callout</p>
+            <p conref="#lw-attributes/hdita-na"/><!-- We need to revise this -->
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section id="imagesize">
+      <title>Image size attributes</title>
+      <dl>
+        <dlentry>
+          <dt>Height</dt>
+          <dd>
+            <p>XDITA: @height</p>
+            <p>XDITA: @height</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Width</dt>
+          <dd>
+            <p>XDITA: @width</p>
+            <p>XDITA: @width</p>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section id="notetype">
+      <title>Note type attribute</title>
+      <dl>
+        <dlentry>
+          <dt>Type</dt>
+          <dd>
+            <p>XDITA: @type</p>
+            <p>XDITA: @data-type</p>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section id="processing">
+      <title>Processing attribute</title>
+      <dl>
+        <dlentry>
+          <dt>Output class</dt>
+          <dd>
+            <p>XDITA: @outputclass</p>
+            <p>XDITA: @class</p>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section id="reference">
+      <title>Reference attributes</title>
+      <dl>
+        <dlentry>
+          <dt>Link target</dt>
+          <dd>
+            <p>XDITA: @href</p>
+            <p>XDITA: @href</p><!-- How about MDITA? -->
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Format of target resource</dt>
+          <dd>
+            <p>XDITA: @format</p>
+            <p>XDITA: @type</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Processing role</dt>
+          <dd>
+            <p>XDITA: @processing-role</p>
+            <p>XDITA: @data-processing-role</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Relationship of source to target</dt>
+          <dd>
+            <p>XDITA: @scope</p>
+            <p>XDITA: @rel</p>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section id="reuse">
+      <title>Reuse attributes</title>
+      <dl>
+        <dlentry>
+          <dt>Identifier</dt>
+          <dd>
+            <p>XDITA: @id</p>
+            <p>XDITA: @id</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Content reference</dt>
+          <dd>
+            <p>XDITA: @conref</p>
+            <p>XDITA: @data-conref</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Key definition</dt>
+          <dd>
+            <p>XDITA: @keys</p>
+            <p>XDITA: @data-keys</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Key reference</dt>
+          <dd>
+            <p>XDITA: @keyref</p>
+            <p>XDITA: @data-keyref</p>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section id="videosize">
+      <title>Video size attributes</title>
+      <dl>
+        <dlentry>
+          <dt>Height</dt>
+          <dd>
+            <p>XDITA: @height</p>
+            <p>XDITA: @height</p>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Width</dt>
+          <dd>
+            <p>XDITA: @width</p>
+            <p>XDITA: @width</p>
+          </dd>
+        </dlentry>
+        
+      </dl>
+    </section>
+    <section id="mdita-atts">
+      <title>Attributes in MDITA</title>
+      <p>With the exception of key reference, attributes are not available in the MDITA core profile. In the MDITA extended profile, you can express attributes using their HDITA representation.</p>
+      <p>In an MDITA core-profile topic, a key reference is represented using the GitHub Flavored Markdown syntax <!-- link? --> for shortcut reference links: [key-value]. There is no equivalent for content reference in the MDITA core profile.</p>
+    </section>
+   </body>
+</topic>
