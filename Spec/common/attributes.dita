@@ -259,8 +259,8 @@
     </section>
     <section id="mdita-atts">
       <title>Attributes in MDITA</title>
-      <p>With the exception of key reference, attributes are not available in the MDITA core profile. In the MDITA extended profile, you can express attributes using their HDITA representation.</p>
-      <p>In an MDITA core-profile topic, a key reference is represented using the GitHub Flavored Markdown syntax <!-- link? --> for shortcut reference links: [key-value]. There is no equivalent for content reference in the MDITA core profile.</p>
+      <p>With the exception of key reference, attributes are not available in the MDITA core profile. In an MDITA core-profile topic, a key reference is represented using the GitHub Flavored Markdown <xref href="https://github.github.com/gfm/#shortcut-reference-link" format="html" scope="external">syntax for shortcut reference links</xref>: [key-value]. There is no equivalent for content reference in the MDITA core profile.</p>
+      <p>In the MDITA extended profile, you can express attributes using their HDITA representation with HTML5 snippets.</p>
     </section>
    </body>
 </topic>
