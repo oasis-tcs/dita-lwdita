@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="topic_td4_xy5_pfb">
+  <title>Features</title>
+  <shortdesc>Features of Lightweight DITA.</shortdesc>
+  <body>
+    <section>
+      <title>Topic-oriented authoring</title>
+      <p></p>
+    </section>
+    <section>
+      <title>Content Aggregation</title>
+      <p></p>
+    </section>
+    <section>
+      <title>Content Filtering</title>
+      <p></p>
+    </section>
+    <section>
+      <title>Content Reuse</title>
+      <p></p>
+    </section>
+  </body>
+</topic>

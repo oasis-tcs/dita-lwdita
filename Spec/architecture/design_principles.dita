@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="topic_td4_xy5_pfb">
+  <title>Design Principles</title>
+  <shortdesc>Assumptions, goals, and constraints that influenced the design of Lightweight DITA.</shortdesc>
+  <body>
+    <section>
+      <title>Source Format Interoperability</title>
+      <p></p>
+    </section>
+    <section>
+      <title>Source Format Equivalence</title>
+      <p></p>
+    </section>
+    <section>
+      <title>Source Format Persistence</title>
+      <p></p>
+    </section>
+    <section>
+      <title>DITA Compatibility</title>
+      <p></p>
+    </section>
+  </body>
+</topic>
