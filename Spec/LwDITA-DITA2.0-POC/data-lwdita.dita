@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+ "reference.dtd">
+<reference id="data" xml:lang="en-us">
+<title>Data</title>
+  <shortdesc conkeyref="reuse-data/shortdesc"/>
+<refbody>
+  <section id="syntax" platform="lwdita">
+    <title>Syntax</title>
+    <dl platform="lwdita">
+      <dlentry>
+        <dt>XDITA</dt>
+        <dd><xmlelement>data</xmlelement></dd>
+      </dlentry>
+      <dlentry>
+        <dt>HDITA</dt>
+        <dd>
+          <xmlelement>meta</xmlelement> inside <xmlelement>head</xmlelement>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>MDITA (extended profile) </dt>
+        <dd>
+          <p>There is no specific syntax for data in MDITA core profile. In MDITA extended
+            profile, data is represented by any variables declared in a YAML front matter header.
+            The front matter must be the first block in the file and must be set between triple-
+            dashed lines. </p>
+        </dd>
+      </dlentry>
+    </dl>
+    
+  </section>
+    <section conkeyref="reuse-data/usage-information"><title/><p/></section>
+    <section conkeyref="reuse-data/rendering-expectations"><title/><p/></section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <dl>
+        <dlentry>
+          <dt>data attributes</dt>
+          <dd>
+            <dl>
+              <dlentry>
+                <dt>XDITA</dt>
+                <dd><xmlatt>name</xmlatt>, <xmlatt>value</xmlatt></dd>
+              </dlentry>
+              <dlentry>
+                <dt>HDITA</dt>
+                <dd>(On meta tag)</dd>
+                <dd><xmlatt>name</xmlatt>, <xmlatt>content</xmlatt></dd>
+              </dlentry>
+            </dl>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Universal attributes</dt>
+          <dd>
+            <dl>
+              <dlentry>
+                <dt>XDITA</dt>
+                <dd><xmlatt>outputclass</xmlatt>, <xmlatt>class</xmlatt>, <xmlatt>id</xmlatt></dd>
+              </dlentry>
+              <dlentry>
+                <dt>HDITA</dt>
+                <dd><xmlatt>class</xmlatt>, <xmlatt>id</xmlatt></dd>
+              </dlentry>
+            </dl>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Metadata</dt>
+          <dd>
+            <dl>
+              <dlentry>
+                <dt>XDITA</dt>
+                <dd><xmlatt>props</xmlatt></dd>
+              </dlentry>
+              <dlentry>
+                <dt>HDITA</dt>
+                <dd><xmlatt>data-props</xmlatt></dd>
+              </dlentry>
+            </dl>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Localization</dt>
+          <dd>
+            <dl>
+              <dlentry>
+                <dt>XDITA</dt>
+                <dd><xmlatt>dir</xmlatt>, <xmlatt>xml:lang</xmlatt>, <xmlatt>translate</xmlatt></dd>
+              </dlentry>
+              <dlentry>
+                <dt>HDITA</dt>
+                <dd><xmlatt>dir</xmlatt>, <xmlatt>lang</xmlatt>, <xmlatt>translate</xmlatt></dd>
+              </dlentry>
+            </dl>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Linking</dt>
+          <dd>
+            <dl>
+              <dlentry>
+                <dt>XDITA</dt>
+                <dd><xmlatt>href</xmlatt>, <xmlatt>format</xmlatt>, <xmlatt>scope</xmlatt></dd>
+              </dlentry>
+              <dlentry>
+                <dt>HDITA</dt>
+                <dd><xmlatt>href</xmlatt>, <xmlatt>type</xmlatt>, <xmlatt>rel</xmlatt></dd>
+              </dlentry>
+            </dl>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Reuse</dt>
+          <dd>
+            <dl>
+              <dlentry>
+                <dt>XDITA</dt>
+                <dd><xmlatt>keyref</xmlatt></dd>
+              </dlentry>
+              <dlentry>
+                <dt>HDITA</dt>
+                <dd><xmlatt>data-keyref</xmlatt></dd>
+              </dlentry>
+              <dlentry>
+                <dt>MDITA</dt>
+                <dd>In an MDITA core-profile topic, a key reference is represented using the GitHub
+                  Flavored Markdown syntax for shortcut reference links:
+                    <codeph>[key-value]</codeph>. There is no equivalent for content reference in
+                  the MDITA core profile.</dd>
+              </dlentry>
+            </dl>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+    <example>
+      <title>Examples</title>
+      <fig id="fig_lbg_jx2_4hb">
+        <title>XDITA example</title>
+        <p id="p_mbg_jx2_4hb">The following example shows the use of the data component to specify
+          the author of an XDITA topic.</p>
+        <codeblock>&lt;prolog>
+    &lt;data name="author" value="Victoria Fernando"/>
+  &lt;/prolog></codeblock>
+      </fig>
+      <fig id="fig_nbg_jx2_4hb">
+        <title>HDITA example</title>
+        <p id="p_obg_jx2_4hb">The following example shows the use of the data component to specify
+          the author of an HDITA topic, via the HTML5 <xmlelement>meta</xmlelement> tag.</p>
+        <codeblock>&lt;!DOCTYPE html>
+&lt;head>
+  &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
+  &lt;meta name="author" content="Victoria Fernando">
+&lt;/head></codeblock>
+      </fig>
+      <fig id="fig_pbg_jx2_4hb">
+        <title>MDITA example</title>
+        <p id="p_qbg_jx2_4hb">The following example shows the use of the data component to specify
+          the author of an MDITA topic, via a YAML header.</p>
+        <codeblock>
+---
+id: franchise-intro
+author: Victoria Fernando
+---
+# Installing and Setting up Remote Lighting
+
+  Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</codeblock>
+      </fig>
+    </example>
+  </refbody>
+</reference>

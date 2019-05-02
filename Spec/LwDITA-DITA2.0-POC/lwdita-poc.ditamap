@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>DITA and LwDITA POC</title>
+    <keydef keys="data-element">
+        <topicmeta>
+            <linktext>data component</linktext>
+        </topicmeta>
+    </keydef>
+    <keydef keys="shortdesc-element">
+        <topicmeta>
+            <linktext>short description component</linktext>
+        </topicmeta>
+    </keydef>
+    <keydef keys="reuse-data" href="reuse-data.dita"/>
+    <keydef keys="reuse-shortdesc" href="reuse-shortdesc.dita"/>
+    <keydef keys="reuse-xref" href="reuse-xref.dita"/>
+    <topichead>
+        <topicmeta>
+            <navtitle>LwDITA topics</navtitle>
+        </topicmeta>
+        <!--<ditavalref href="lwdita.ditaval"/>-->
+        <topicref href="xref-lwdita.dita"/>
+        <topicref href="data-lwdita.dita"/>
+        <topicref href="shortdesc-lwdita.dita"/>
+    </topichead>
+</map>

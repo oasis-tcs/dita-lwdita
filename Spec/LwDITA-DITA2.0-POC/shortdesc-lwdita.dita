@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="shortdesc" xml:lang="en-us">
+<title>Short description</title>
+  <shortdesc conkeyref="reuse-shortdesc/shortdesc"/>
+<refbody>
+  <section id="syntax">
+    <title>Syntax</title>
+    <dl platform="lwdita">
+      <dlentry>
+        <dt>XDITA</dt>
+        <dd>&lt;shortdesc></dd>
+      </dlentry>
+      <dlentry>
+        <dt>HDITA</dt>
+        <dd>First element in article, if it is a paragraph, after title</dd>
+      </dlentry>
+      <dlentry>
+        <dt>MDITA (core and extended profiles)</dt>
+        <dd>First block, if it is a paragraph, after title </dd>
+      </dlentry>
+    </dl>  </section>
+  <section conref="reuse-shortdesc.dita#shortdesc/usage-information"><title/><p/></section>
+    <section conkeyref="reuse-shortdesc/rendering-expectations"><title/><p/></section>
+
+    <section id="attributes">
+      <title>Attributes</title>
+      <dl>
+        <dlentry>
+          <dt>Universal attributes</dt>
+          <dd>
+            <dl>
+              <dlentry>
+                <dt>XDITA</dt>
+                <dd><xmlatt>outputclass</xmlatt>, <xmlatt>class</xmlatt>, <xmlatt>id</xmlatt></dd>
+              </dlentry>
+              <dlentry>
+                <dt>HDITA</dt>
+                <dd><xmlatt>class</xmlatt>, <xmlatt>id</xmlatt></dd>
+              </dlentry></dl>
+          </dd>
+          
+        </dlentry>
+        <dlentry>
+          <dt>Metadata</dt>
+          <dd>
+            <dl>
+              <dlentry>
+                <dt>XDITA</dt>
+                <dd><xmlatt>props</xmlatt></dd>                          </dlentry>
+              <dlentry>
+                <dt>HDITA</dt>
+                <dd><xmlatt>data-props</xmlatt></dd>
+              </dlentry></dl>
+          </dd>
+          
+        </dlentry>
+        <dlentry>
+          <dt>Localization</dt>
+          <dd>
+            <dl>
+              <dlentry>
+                <dt>XDITA</dt>
+                <dd><xmlatt>dir</xmlatt>, <xmlatt>xml:lang</xmlatt>, <xmlatt>translate</xmlatt></dd>                          </dlentry>
+              <dlentry>
+                <dt>HDITA</dt>
+                <dd><xmlatt>dir</xmlatt>, <xmlatt>lang</xmlatt>, <xmlatt>translate</xmlatt></dd>
+              </dlentry></dl>
+          </dd>
+        </dlentry>
+        <dlentry>
+          <dt>Linking</dt>
+          <dd>
+            <dl>
+              <dlentry>
+                <dt>XDITA</dt>
+                <dd><xmlatt>href</xmlatt>, <xmlatt>format</xmlatt>, <xmlatt>scope</xmlatt></dd>                          </dlentry>
+              <dlentry>
+                <dt>HDITA</dt>
+                <dd><xmlatt>href</xmlatt>, <xmlatt>type</xmlatt>, <xmlatt>rel</xmlatt></dd>
+              </dlentry></dl>
+          </dd>
+          
+        </dlentry>
+        <dlentry>
+          <dt>Reuse</dt>
+          <dd>
+            <dl>
+              <dlentry>
+                <dt>XDITA</dt>
+                <dd><xmlatt>keyref</xmlatt></dd>                          </dlentry>
+              <dlentry>
+                <dt>HDITA</dt>
+                <dd><xmlatt>data-keyref</xmlatt></dd>
+              </dlentry>
+              <dlentry>
+                <dt>MDITA</dt>
+                <dd>In an MDITA core-profile topic, a key reference is represented using the GitHub Flavored Markdown syntax for shortcut reference links: <codeph>[key-value]</codeph>. There is no equivalent for content reference in the MDITA core profile.</dd>
+              </dlentry>
+            </dl>
+          </dd>
+        </dlentry>
+        
+      </dl>
+    </section>
+    <example id="example" otherprops="examples">
+      <fig>
+        <title>XDITA example</title>
+        <p>The following example demonstrates the use of a short description in an XDITA topic.</p>
+        <codeblock> &lt;?xml version="1.0" encoding="UTF-8"?>
+ &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+ &lt;topic id="install-and-setup">
+   &lt;title>Installing and Setting up Remote Lighting&lt;/title>
+   &lt;shortdesc>Installation of your lighting kit includes installing the light bulbs into
+   light fixtures, preparing the remote control, and programming lighting groups.
+   &lt;/shortdesc>
+  &lt;/topic></codeblock>
+      </fig>
+      
+      <fig>
+        <title>HDITA example</title>
+        <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
+        <codeblock>  &lt;!DOCTYPE html>
+  &lt;html>
+  &lt;head>
+  &lt;title>Installing and Setting up Remote Lighting&lt;/title>
+  &lt;/head>
+  &lt;body>
+   &lt;article id="install-and-setup">
+    &lt;h1>Installing and Setting up Remote Lighting&lt;/h1>
+    &lt;p>Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.&lt;/p>
+  &lt;/article>
+  &lt;/body>
+  &lt;/html></codeblock>
+      </fig>
+      
+      
+      <fig>
+        <title>MDITA example</title>
+        <p>The following example demonstrates the use of a short description in an MDITA topic.</p>
+        <codeblock># Installing and Setting up Remote Lighting
+
+  Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</codeblock>
+        
+      </fig>
+    </example>
+  </refbody>
+</reference>

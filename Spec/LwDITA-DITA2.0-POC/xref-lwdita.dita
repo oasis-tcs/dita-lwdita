@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="xref" xml:lang="en-us">
+<title>Cross reference</title>
+  <shortdesc conkeyref="reuse-xref/shortdesc"/>
+<refbody>
+    <section id="syntax">
+      <title>Syntax</title>
+        <dl>
+          <dlentry>
+            <dt>XDITA</dt>
+            <dd>
+              <p>&lt;xref></p>
+            </dd>
+          </dlentry>
+          <dlentry>
+            <dt>HDITA</dt>
+            <dd>
+              <p>&lt;a href></p>
+            </dd>
+          </dlentry>
+          <dlentry>
+            <dt>MDITA (core and extended profiles)</dt>
+            <dd>
+              <p>[link](/URI "title")</p>
+            </dd>
+          </dlentry>
+        </dl>
+     
+    </section>
+      
+          <section id="attributes">
+               <title>Attributes</title>
+              <dl>
+                   <dlentry>
+                        <dt>Universal attributes</dt>
+                        <dd>
+                             <dl>
+                                  <dlentry>
+                                       <dt>XDITA</dt>
+                                       <dd><xmlatt>outputclass</xmlatt>, <xmlatt>class</xmlatt>, <xmlatt>id</xmlatt></dd>
+                                  </dlentry>
+                                  <dlentry>
+                                       <dt>HDITA</dt>
+                                       <dd><xmlatt>class</xmlatt>, <xmlatt>id</xmlatt></dd>
+                                  </dlentry></dl>
+                        </dd>
+                 
+                   </dlentry>
+                   <dlentry>
+                        <dt>Metadata</dt>
+                       <dd>
+                            <dl>
+                             <dlentry>
+                                  <dt>XDITA</dt>
+                                  <dd><xmlatt>props</xmlatt></dd>                          </dlentry>
+                             <dlentry>
+                                  <dt>HDITA</dt>
+                                  <dd><xmlatt>data-props</xmlatt></dd>
+                             </dlentry></dl>
+                             </dd>
+
+                      </dlentry>
+                   <dlentry>
+                        <dt>Localization</dt>
+                        <dd>
+                             <dl>
+                                  <dlentry>
+                                       <dt>XDITA</dt>
+                                       <dd><xmlatt>dir</xmlatt>, <xmlatt>xml:lang</xmlatt>, <xmlatt>translate</xmlatt></dd>                          </dlentry>
+                                  <dlentry>
+                                       <dt>HDITA</dt>
+                                       <dd><xmlatt>dir</xmlatt>, <xmlatt>lang</xmlatt>, <xmlatt>translate</xmlatt></dd>
+                                  </dlentry></dl>
+                        </dd>
+                   </dlentry>
+                        <dlentry>
+                             <dt>Linking</dt>
+                             <dd>
+                                  <dl>
+                                       <dlentry>
+                                            <dt>XDITA</dt>
+                                            <dd><xmlatt>href</xmlatt>, <xmlatt>format</xmlatt>, <xmlatt>scope</xmlatt></dd>                          </dlentry>
+                                       <dlentry>
+                                            <dt>HDITA</dt>
+                                            <dd><xmlatt>href</xmlatt>, <xmlatt>type</xmlatt>, <xmlatt>rel</xmlatt></dd>
+                                       </dlentry></dl>
+                             </dd>
+                             
+                        </dlentry>
+                   <dlentry>
+                        <dt>Reuse</dt>
+                        <dd>
+                             <dl>
+                                  <dlentry>
+                                       <dt>XDITA</dt>
+                                       <dd><xmlatt>keyref</xmlatt></dd>                          </dlentry>
+                                  <dlentry>
+                                       <dt>HDITA</dt>
+                                       <dd><xmlatt>data-keyref</xmlatt></dd>
+                                  </dlentry>
+                                  <dlentry>
+                                       <dt>MDITA</dt>
+                                       <dd>In an MDITA core-profile topic, a key reference is represented using the GitHub Flavored Markdown syntax for shortcut reference links: <codeph>[key-value]</codeph>. There is no equivalent for content reference in the MDITA core profile.</dd>
+                                  </dlentry>
+                             </dl>
+                        </dd>
+                   </dlentry>
+
+              </dl>
+              
+          </section>
+<example id="example" props="lwdita">
+      <title>Examples</title>
+      <fig id="fig_vgv_rnd_t2b">
+        <title>XDITA example</title>
+        <p>The following example demonstrates the use of a cross reference in an XDITA topic.</p>
+        <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
+&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+&lt;topic id="franchise-offer">
+  &lt;title>What we offer&lt;/title>
+  &lt;body>
+    &lt;ul>
+      &lt;li>&lt;p>"Know-how" license&lt;/p>&lt;/li>
+      &lt;li>&lt;p>Warranty of territory exclusivity&lt;/p>&lt;/li>
+      &lt;li>&lt;p>Initial training&lt;/p>&lt;/li>
+      &lt;li>&lt;p>Support through online, email, and telephone channels&lt;/p>&lt;/li>
+      &lt;li>&lt;p>Access to our &lt;xref href="http://senseisushico.com/kb" scope="external" format="html">knowledge base&lt;/xref>&lt;/p>&lt;/li>
+    &lt;/ul>
+  &lt;/body>
+&lt;/topic></codeblock>
+      </fig>
+      <fig id="fig_wgv_rnd_t2b">
+        <title>HDITA example</title>
+        <p>The following example demonstrates the use of a cross reference in an HDITA topic.</p>
+        <codeblock>&lt;!DOCTYPE html>
+&lt;title>What we offer&lt;/title>
+&lt;body>
+  &lt;article id="franchise-offer">
+    &lt;h1>What we offer&lt;/h1>
+    &lt;ul>
+      &lt;li>
+        &lt;p>"Know-how" license&lt;/p>
+      &lt;/li>
+      &lt;li>
+        &lt;p>Warranty of territory exclusivity&lt;/p>
+      &lt;/li>
+      &lt;li>
+        &lt;p>Initial training&lt;/p>
+      &lt;/li>
+      &lt;li>
+        &lt;p>Support through online, email, and telephone channels&lt;/p>
+      &lt;/li>
+      &lt;li>
+        &lt;p>Access to our &lt;a href="http://senseisushico.com/kb" rel="external" type="text/html">knowledge base&lt;/a>&lt;/p>
+      &lt;/li>
+    &lt;/ul>
+  &lt;/article>
+&lt;/body></codeblock>
+      </fig>
+      <fig>
+        <title>MDITA example</title>
+        <p>The following example demonstrates the use of a cross reference in an MDITA topic.</p>
+        <codeblock># What we offer
+
+-   "Know-how" license
+
+-   Warranty of territory exclusivity
+
+-   Initial training
+
+-   Support through online, email, and telephone channels
+
+-   Access to our [knowledge base](http://senseisushico.com/kb)</codeblock>
+      </fig>
+    </example>
+</refbody>
+</reference>
