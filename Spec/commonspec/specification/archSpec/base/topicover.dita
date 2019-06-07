@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
- "concept.dtd">
-<concept id="topicsoverview" xml:lang="en-US">
- <title>DITA topics</title>
- <shortdesc>DITA topics are the basic units of DITA content and the basic units of reuse. Each topic
-  contains a single subject.</shortdesc>
-</concept>
