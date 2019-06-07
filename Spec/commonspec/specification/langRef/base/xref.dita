@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+ "reference.dtd">
+<reference id="xref" xml:lang="en-us">
+<title><xmlelement>xref</xmlelement></title>
+     <shortdesc conkeyref="library-short-descriptions/xref"/>
+<prolog><metadata>
+<keywords><indexterm>cross-references<indexterm>addressing</indexterm><indexterm>best
+                              practises</indexterm><indexterm>overview</indexterm></indexterm>
+                    <indexterm>elements<indexterm>body<indexterm><xmlelement>xref</xmlelement></indexterm></indexterm></indexterm>
+                    <indexterm>links<indexterm>cross-references</indexterm></indexterm></keywords>
+</metadata></prolog>
+<refbody>
+          <section id="attributes">
+               <title>Attributes</title>
+               <p conref="../../common/conref-attribute.dita#conref-attribute/xref-attributes"/>
+          </section>
+<example id="example" otherprops="examples">
+               <title>Examples</title>
+               <fig id="fig_vgv_rnd_t2b">
+<title>Cross reference to another topic, without link text</title>
+                    <p>The following code sample shows a cross reference to another topic; link text
+                         is not provided. Processor typically use the topic title as the link
+                         text.</p><codeblock>&lt;p&gt;Background information about DITA is provided in
+&lt;xref href="overview-of-dita.dita"/&gt;.&lt;/p&gt;</codeblock><p>The
+same cross reference could be created using <xmlatt>keyref</xmlatt> instead of
+<xmlatt>href</xmlatt>; using <xmlatt>keyref</xmlatt> allows the link to be redirected to different
+resources when the topic is used in different contexts.</p>
+</fig>
+<fig id="fig_wgv_rnd_t2b"><title>Cross references with link text specified</title><p>The following code sample shows a cross reference that specifies link text:</p><codeblock>&lt;p&gt;While this set of tutorials gives several simple examples of
+&lt;xref keyref="markup-examples"&gt;common DITA features&lt;/xref&gt;, a comprehensive
+list of DITA features is available in the DITA specification
+&lt;xref keyref="dita-conformance">conformance clause&lt;/xref>.&lt;/p&gt;</codeblock>
+</fig>
+               <fig>
+<title>Cross reference to a URI that contains an ampersand</title>
+<p>The following code sample shows a cross reference that contains an ampersand:</p>
+                    <codeblock>&lt;xref href="https://www.example.com/docview.wss?rs=757<b>&amp;</b>context=SSVNX5"
+scope="external" format="html"&gt;Part number SSVNX5&lt;/xref&gt;</codeblock>
+<p>Because the <xmlatt>href</xmlatt> attribute value needs to be a valid URI, the ampersand must be
+                         escaped, as shown in the revised code sample below: </p>
+<codeblock>&lt;xref href="https://www.example.com/docview.wss?rs=757<b>&amp;amp;</b>context=SSVNX5"
+scope="external" format="html"&gt;Part number SSVNX5&lt;/xref&gt;</codeblock>
+<p>Although the entity is in the DITA source, the entity might not show up when the link target is
+                         displayed in an editor or a Web browser; the URI might be shown as the
+                         following:</p>
+<codeblock>https://www.example.com/docview.wss?rs=757<b>&amp;</b>context=SSVNX5</codeblock>
+</fig>
+          </example>
+</refbody>
+</reference>
+

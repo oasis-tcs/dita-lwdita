@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+ "reference.dtd">
+<reference id="topicCell" xml:lang="en-us">
+<title><xmlelement>topicCell</xmlelement></title>
+<shortdesc>The <xmlelement>topicCell</xmlelement> element contains topics that will be associated
+        with subjects in each following column of the current row in the
+            <xmlelement>topicSubjectTable</xmlelement>.</shortdesc>
+<prolog><metadata>
+<keywords><indexterm>topicCell</indexterm>
+    <indexterm>classification domain elements<indexterm>topicCell</indexterm></indexterm></keywords>
+</metadata></prolog>
+<refbody>
+        <section id="specialization-hierachy">
+            <title>Specialization hierarchy</title>
+            <p>The <xmlelement>topicCell</xmlelement> element is specialized from <xref
+                    keyref="elements-relcell"/>. It is defined in the classification-domain
+                module.</p>
+        </section>
+        <section id="attributes">
+            <title>Attributes</title>
+            <p>The following attributes are available on this element: <xref
+                    keyref="attributes-universal"/> and <xref
+                    keyref="attributes-commonMap"/>. This element also uses
+                    <xmlatt>scope</xmlatt>, <xmlatt>format</xmlatt>, and <xmlatt>type</xmlatt> from
+                    <xref keyref="attributes-linkRelationship"/>.</p>
+        </section>
+        <example id="example" otherprops="examples">
+            <title>Example</title>
+            <p>For a complete example in the context of the
+                    <xmlelement>topicSubjectTable</xmlelement>, see <xref
+                    href="topicSubjectTable.dita#topicSubjectTable/example"/>.</p>
+        </example>
+</refbody>
+</reference>

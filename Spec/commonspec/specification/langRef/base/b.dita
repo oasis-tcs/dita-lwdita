@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="b" xml:lang="en-us">
+<title><xmlelement>b</xmlelement></title>
+  <shortdesc conkeyref="library-short-descriptions/b"/>
+<prolog><metadata>
+<keywords><indexterm>b</indexterm>
+<indexterm>highlighting domain<indexterm>b </indexterm></indexterm>
+</keywords>
+</metadata></prolog>
+<refbody>
+  <section id="specialization-hierarchy">
+   <title>Specialization hierarchy</title>
+   <p>The <xmlelement>b</xmlelement> element is specialized from <xmlelement>ph</xmlelement>. It is
+        defined in the highlighting-domain module.</p>
+  </section>
+  <section id="attributes">
+   <title>Attributes</title>
+   <p conref="../../common/conref-attribute.dita#conref-attribute/only-universal"/>
+  </section>
+<example id="example" otherprops="examples">
+<title>Example</title>
+      
+      <p>The following code sample shows bold highlighting used to draw a reader's attention to a
+        phrase:</p>
+<codeblock>&lt;p&gt;Use the bold tag <b>&lt;b&gt;for visual emphasis only&lt;/b&gt;</b>; do not use it if another phrase-level 
+element better signifies the reason for the emphasis.&lt;/p&gt;</codeblock>
+
+</example>
+</refbody>
+</reference>
+

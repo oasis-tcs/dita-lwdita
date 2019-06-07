@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="fn" xml:lang="en-us">
+<title><xmlelement>fn</xmlelement></title>
+  <shortdesc conkeyref="reuse-fn/shortdesc"/>
+<prolog><metadata>
+<keywords>
+    <indexterm>processing expectations<indexterm><xmlelement>fn</xmlelement></indexterm></indexterm>
+</keywords>
+</metadata></prolog>
+<refbody>
+    <section conkeyref="reuse-fn/usage-information"/>
+    <section conkeyref="reuse-fn/rendering-expectations"><title/><p/></section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <sectiondiv conref="../../common/conref-attribute.dita#conref-attribute/fn-attributes"/>
+    </section>
+<example id="example" otherprops="examples"><title>Examples</title>
+      <fig>
+        <title>Example of a single-use footnote</title>
+        <p>The following code sample shows a single-use footnote. It contains a simple
+            <xmlelement>fn</xmlelement> element, with no <xmlatt>id</xmlatt> or
+            <xmlatt>callout</xmlatt> attribute.</p>
+        <codeblock>The memory storage capacity of the computer is 
+2 GB&lt;fn&gt;A GB (gigabyte) is equal to 
+1000 million bytes&lt;/fn&gt; with error correcting support.</codeblock>
+        <p>When rendered, typically a superscript symbol is placed at the location of the
+            <xmlelement>fn</xmlelement> element; this superscript symbol is hyperlinked to the
+          content of the <xmlelement>fn</xmlelement>, which is typically is placed at the bottom of
+          a PDF page or the end of an online article. The type of symbol used is implementation
+          specific.</p>
+        <p>The above code sample might produce output similar to the following:<lq>
+            <p>The memory storage capacity of the computer is 2 GB<sup>1</sup> with error correcting
+              support.</p>
+            <p><codeph>......</codeph></p>
+            <p><sup>1</sup> A GB (gigabyte) is equal to 1000 million bytes</p>
+            <p>----- [bottom of page]
+              -----------------------------------------------------------------</p>
+          </lq></p>
+      </fig>
+      <fig>
+        <title>Example of a single-use footnote with a <xmlatt>callout</xmlatt> attribute</title>
+        <p>The following code sample shows a single-use footnote that uses a
+            <xmlatt>callout</xmlatt> attribute:</p>
+        <codeblock>The memory storage capacity of the computer is 
+2 GB&lt;fn callout="#"&gt;A GB (gigabyte) is equal to 
+1000 million bytes&lt;/fn&gt; with error correcting support.</codeblock>
+        <p>The rendered output is similar to that of the previous example, although processors that
+          support it will render the footnote symbol as # (hashtag).</p>
+        <!--<p>That DITA markup might produce output similar to the following:<lq><p>The memory storage capacity of the computer is 2 GB<sup>#</sup> with error correcting support.</p><p><codeph>......</codeph></p><p><sup>#</sup> A GB (gigabyte) is equal to 1000 million bytes</p><p>[bottom of page]</p></lq></p>-->
+      </fig>
+      <fig>
+        <title>Example of a use-by-reference footnote</title>
+        <p>The following code sample shows use-by-reference footnotes. The
+            <xmlelement>fn</xmlelement> elements have <xmlatt>id</xmlatt> attributes, and inline
+            <xmlelement>xref</xmlelement> elements reference those <xmlelement>fn</xmlelement>
+          elements:</p>
+        <codeblock>&lt;fn id="dog-name"&gt;Fido&lt;/fn&gt;
+&lt;fn id="cat-name">Puss&lt;/fn>
+&lt;fn id="llama-name">My llama&lt;/fn>
+...
+&lt;p>I like pets. At my house, I have a dog&lt;xref href="#topic/dog-name" type="fn"/&gt;, a
+cat&lt;xref href="#topic/cat-name" type="fn"/&gt;, and a 
+llama&lt;xref href="#topic/llama-name" type="fn"/&gt;.&lt;/p></codeblock>
+        <p>The code sample might produce output similar to the following:<lq>
+            <p><codeph>......</codeph></p>
+            <p>I like pets. At my house, I have a dog<sup>1</sup>, a cat<sup>2</sup>, and a
+                llama<sup>3</sup>.</p>
+            <p><codeph>......</codeph></p>
+            <p><sup>1</sup>Fido</p>
+            <p><sup>2</sup>Puss</p>
+            <p><sup>3</sup>My llama</p>
+            <p>----- [bottom of page]
+              -----------------------------------------------------------------</p>
+          </lq></p>
+      </fig>
+      <fig>
+        <title>Example of a single-use footnote that uses conref</title>
+        <p>The following code sample shows footnotes stored in a shared topic
+            (<filepath>footnotes.dita</filepath>):</p>
+        <codeblock>&lt;!-- Content from footnotes.dita -->
+&lt;topic id="footnotes">
+...
+  &lt;fn id="strunk">Elements of Style&lt;/fn>
+  &lt;fn id="DQTI">Developing Quality Technical Information, 2nd edition&lt;/fn>
+...
+&lt;/topic></codeblock>
+        <p>To use those footnotes, authors conref them into the relevant topics:</p>
+        <codeblock>&lt;p>See the online resource&lt;fn conref="footnotes.dita#footnotes/DQTI"/> for more 
+   information about how to assess the quality of technical documentation ...&lt;/p></codeblock>
+      </fig>
+      <fig>
+        <title>Example of a use-by-reference footnote that uses conref</title>
+        <p>The following code sample shows a use-by-reference footnote that uses conref:</p>
+        <codeblock>&lt;topic id="evaluating-quality">
+  &lt;title>Evaluating documentation quality&lt;/title>
+  &lt;body>
+  ...
+  &lt;fn conref="footnotes.dita#footnotes/DQTI" id="dqti"/>
+  ...
+  &lt;p>See the online resource&lt;xref="./evaluating-quality/dqti" type="fn"/> for more 
+     information about how to assess the quality of technical documentation ...&lt;/p>
+  ...
+  &lt;/body>
+&lt;topic></codeblock>
+      </fig></example>
+</refbody>
+</reference>
+

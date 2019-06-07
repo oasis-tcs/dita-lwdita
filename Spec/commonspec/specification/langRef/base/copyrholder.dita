@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+ "reference.dtd">
+<reference id="copyrholder" xml:lang="en-us">
+<title><xmlelement>copyrholder</xmlelement></title>
+<shortdesc>The <xmlelement>copyrholder</xmlelement> element names the copyright holder that holds
+legal rights to the material contained in the topic.</shortdesc>
+<prolog><metadata>
+<keywords><indexterm>copyrholder</indexterm><indexterm>prolog elements<indexterm>copyrholder</indexterm></indexterm>
+</keywords>
+</metadata></prolog>
+<refbody>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p>The following attributes are available on this element: <xref
+          keyref="attributes-universal"/>.</p>
+    </section>
+<example id="example" otherprops="examples"><title>Example</title><codeblock>&lt;copyright&gt;
+  &lt;copyryear year="2001"&gt;&lt;/copyryear&gt;
+  <b>&lt;copyrholder&gt;</b>IBM<b>&lt;/copyrholder&gt;</b>
+&lt;/copyright&gt;
+</codeblock></example>
+</refbody>
+</reference>
+

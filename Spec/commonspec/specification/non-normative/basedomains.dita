@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+ "reference.dtd">
+<reference id="basedomains" xml:lang="en-us">
+<title>Base domains: Where they are used</title>
+<shortdesc>This section provides a summary of which document types use each of the base OASIS
+domains.</shortdesc>
+<refbody>
+<!--Editor's comment: adding nonbreaking space character into entries where content may be fully filtered out. This prevents collapsing of table cells in final output, which in turn prevents funny display in some rendered formats.-->
+<simpletable frame="all" id="domaintable">
+<sthead>
+<stentry>Domain</stentry>
+<stentry>What includes it</stentry>
+<stentry>What does NOT include it</stentry>
+</sthead>
+ <strow>
+  <stentry>Classify (map)</stentry>
+  <stentry> </stentry>
+  <stentry>
+   <ul>
+    <li>Base map, base topic</li>
+   </ul>
+  </stentry>
+ </strow>
+ 
+<strow>
+<stentry><xmlatt>deliveryTarget</xmlatt> attribute (base)</stentry>
+<stentry>
+<ul>
+<li>Base map, base topic</li>
+</ul>
+</stentry>
+<stentry>
+<ul>
+<li>N/A</li>
+</ul>
+</stentry>
+</strow>
+
+ <strow>
+  <stentry>Ditavalref (map)</stentry>
+  <stentry>
+   <ul>
+    <li>Base map</li>
+   </ul>
+  </stentry>
+  <stentry>
+   <ul>
+    <li>Base topic</li>
+   </ul>
+  </stentry>
+ </strow>
+
+<strow>
+<stentry>Hazard statement (map/topic)</stentry>
+<stentry>
+<ul>
+<li>Base map, base topic</li>
+</ul>
+</stentry>
+<stentry> </stentry>
+</strow>
+ 
+<strow>
+<stentry>Highlighting (map/topic)</stentry>
+<stentry>
+<ul>
+<li>Base map, base topic</li>
+</ul>
+</stentry>
+<stentry>
+<ul>
+<li>N/A</li>
+</ul>
+</stentry>
+</strow>
+ 
+<strow>
+<stentry>Indexing (map/topic)</stentry>
+<stentry>
+<ul>
+<li>Base map, base topic</li>
+</ul>
+</stentry>
+<stentry> </stentry>
+</strow>
+ 
+ <strow>
+  <stentry>Map group (map)</stentry>
+  <stentry>
+   <ul>
+    <li>Base map</li>
+   </ul>
+  </stentry>
+  <stentry>
+   <ul>
+    <li>Base topic</li>
+   </ul>
+  </stentry>
+ </strow>
+ 
+<strow>
+<stentry>Utilities (map/topic)</stentry>
+<stentry>
+<ul>
+<li>Base map, base topic</li>
+</ul>
+</stentry>
+<stentry>
+<ul>
+<li>N/A</li>
+</ul>
+</stentry>
+</strow>
+</simpletable>
+</refbody>
+
+</reference>

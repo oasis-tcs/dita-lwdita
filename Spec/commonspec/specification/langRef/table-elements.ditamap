@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Table elements</title>
+ <topicref href="containers/table-elements.dita" >
+  <topicref href="base/colspec.dita" keys="elements-colspec" />
+  <topicref href="base/entry.dita" keys="elements-entry" />
+  <topicref href="base/row.dita" keys="elements-row" />
+  <topicref href="base/simpletable.dita" keys="elements-simpletable" />
+  <topicref href="base/stentry.dita" keys="elements-stentry" />
+  <topicref href="base/sthead.dita" keys="elements-sthead" />
+  <topicref href="base/strow.dita" keys="elements-strow" />
+  <topicref href="base/table.dita" keys="elements-table" />
+  <topicref href="base/tbody.dita" keys="elements-tbody" />
+  <topicref href="base/tgroup.dita" keys="elements-tgroup" />
+  <topicref href="base/thead.dita" keys="elements-thead" />
+ </topicref>
+</map>

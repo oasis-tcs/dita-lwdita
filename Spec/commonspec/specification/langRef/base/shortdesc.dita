@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="shortdesc" xml:lang="en-us">
+<title><xmlelement>shortdesc</xmlelement></title>
+  <shortdesc conkeyref="reuse-shortdesc/shortdesc"/>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>maps<indexterm>short descriptions in</indexterm></indexterm>
+        <indexterm>rendering expectations<indexterm>link previews</indexterm><indexterm>short
+            descriptions</indexterm></indexterm>
+        <indexterm>short descriptions</indexterm>
+        <indexterm><xmlelement>shortdesc</xmlelement></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+<refbody>
+    <section conkeyref="reuse-shortdesc/usage-information"><title/><p/></section>
+    <section conkeyref="reuse-shortdesc/rendering-expectations"><title/><p/></section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p conref="../../common/conref-attribute.dita#conref-attribute/only-universal"/>
+    </section>
+    <example id="example" otherprops="examples">
+      <title>Examples</title>
+      <fig>
+        <title>Short description in a topic</title>
+        <p>The following code sample shows how a <xmlelement>shortdesc</xmlelement> element can be
+          used in a topic:</p>
+        <codeblock conref="../../common/conref-file.dita#reuse_file/concept-codeblock" id="shortdesc-in-concept"/>
+      </fig>
+      <fig>
+        <title>Short description in a map</title>
+        <p>The following code sample shows how a short description can be used in a DITA map to
+          provide information about a non-DITA resource. The content of the
+            <xmlelement>shortdesc</xmlelement> element is used when a link preview to the Web site
+          for the American Birding Association is generated.</p>
+        <codeblock>&lt;map>
+  &lt;title>Enjoying birds&lt;/title>
+    ...
+    &lt;topicref href="birds-in-colorado.dita"/>
+    &lt;topicref href="bird-calling.dita"/>
+    &lt;topicref href="https://www.birding.example.com/" format="external" type="html">
+      &lt;topicmeta>
+        &lt;shortdesc>The American Birding Association is only organization 
+        in North America that specifically caters to recreational birders.
+        Its mission is to "inspire all people to enjoy and protect wild birds."
+      &lt;/topicmeta>
+    &lt;/topicref>
+    ...
+&lt;/map>
+<!--<topicref href="myThing.dita">
+  <topicmeta>
+    <navtitle>Navigation title for my topic</navtitle>
+    <shortdesc>A description of myThing that is specific to this context.</shortdesc>
+  </topicmeta>
+</topicref>
+<topicref href="http://www.example.org" scope="external">
+  <topicmeta>
+    <navtitle>Example website</navtitle>
+    <shortdesc>The example.org address is often used in examples</shortdesc>
+  </topicmeta>
+</topicref>--></codeblock>
+      </fig>
+    </example>
+  </refbody>
+</reference>
+

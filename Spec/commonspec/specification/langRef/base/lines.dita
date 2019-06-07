@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lines" xml:lang="en-us">
+<title><xmlelement>lines</xmlelement></title>
+<shortdesc>Lines are lines of text where line breaks are significant but white space is not. It can
+    be used to represent dialogs, poetry, or other text fragments where line breaks are
+    significant.</shortdesc>
+<prolog><metadata>
+<keywords><indexterm>elements<indexterm>body<indexterm><xmlelement>lines</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>formatting
+          expectations<indexterm><xmlelement>lines</xmlelement></indexterm></indexterm>
+</keywords>
+</metadata></prolog>
+<refbody>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>Processors <term outputclass="RFC-2119">SHOULD</term> preserve or otherwise indicate line
+                breaks within  the <xmlelement>lines</xmlelement> element. Processors also <term
+                    outputclass="RFC-2119">SHOULD</term> remove leading and trailing white space on
+                a line, as well as sequences of multiple white spaces.</p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p>The following attributes are available on this element: <xref
+          keyref="attributes-universal"/>, <xref
+          keyref="attributes-display"/>, <xref
+          keyref="attributes-common/xmlspace"/>, and <xref
+          keyref="attributes-specialization/spectitle"/>.</p>
+    </section>
+<example id="example" otherprops="examples"><title>Example</title>
+      <p>In the following code sample, a <xmlelement>lines</xmlelement> element contains an excerpt
+        from Sonnet 18, one of the best-known of the 154 sonnets written by the English playwright
+        and poet William Shakespeare.</p><codeblock>
+&lt;lines&gt;
+Shall I compare thee to a summer's day?
+Thou art more lovely and more temperate:
+Rough winds do shake the darling buds of May,
+and summer's lease hath all too short a date:
+...&lt;/lines&gt;
+</codeblock>
+      <!--<p>Though exact formatting will vary, the previous sample will typically be rendered as follows.</p><p>This is a sample of my favorite sonnet<lines>Shall I compare thee to a summer's day?
+Thou art more lovely and more temperate:
+Rough winds do shake the darling buds of May,
+and summer's lease hath all too short a date:
+...</lines></p>--></example>
+</refbody>
+</reference>

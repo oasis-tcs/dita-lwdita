@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="concept_wjd_q55_fq">
+ <title>Classification maps</title>
+ <shortdesc>A classification map is a DITA map in which the classification domain has been made
+    available.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>classification maps</indexterm>
+        <indexterm>classification domain</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p>The classification domain provides elements that enable map authors to indicate information
+      about the subject matter of DITA topics. The subjects are defined in subjectScheme maps, and
+      the map authors reference the subjects using the <xmlatt>keyref</xmlatt> attribute.</p>
+  </conbody>
+</concept>

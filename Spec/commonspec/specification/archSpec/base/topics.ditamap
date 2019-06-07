@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>DITA topics</title>
+    <topicref href="topicover.dita">
+        <topicref href="topicdefined.dita"/>
+        <topicref href="topicbenefits.dita"/>
+        <topicref href="topicorientation.dita"/>
+        <topicref href="information-typing.dita"/>
+        <topicref href="generictopics.dita"/>
+        <topicref href="topicstructure.dita"/>
+        <topicref href="topiccontent.dita"/>
+    </topicref>
+</map>

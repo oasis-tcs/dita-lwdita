@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="printing">
+ <title>Conditional processing to generate multiple deliverable types</title>
+ <shortdesc >By default, the content of most elements is included in all output media.
+  Within maps and topics, elements can specify the delivery targets to which they apply.</shortdesc>
+ <conbody>
+  <p>Within maps, topic references can use the <xmlatt>deliveryTarget</xmlatt> attribute to indicate
+   the delivery targets to which they apply.</p>
+  <p >Within topics, most elements can use the <xmlatt>deliveryTarget</xmlatt>
+   attribute to indicate the delivery targets to which they apply.</p>
+  <p>If a referenced topic should be excluded from all output formats, set the
+    <xmlatt>processing-role</xmlatt> attribute to "resource-only" instead of using the
+    <xmlatt>deliveryTarget</xmlatt>. Content within that topic can still be referenced for display
+   in other locations.</p>
+  <section id="deliveryTarget">
+   <title><xmlatt>deliveryTarget</xmlatt> attribute</title>
+   <dl>
+    <dlentry conref="../../common/conref-file.dita#reuse_file/deliveryTarget">
+     <dt/>
+     <dd/>
+    </dlentry>
+   </dl>
+   <p >The <xmlatt>deliveryTarget</xmlatt> attribute is processed the same way as any
+    other conditional processing attribute. For example, the element <codeph>&lt;topicref
+     deliveryTarget="html5 epub" href="example.dita"/></codeph> uses two values for
+     <xmlatt>deliveryTarget</xmlatt>. A conditional processing profile can then set rules for
+     <xmlatt>deliveryTarget</xmlatt> that determine whether the topic
+     <filepath>example.dita</filepath> is included or excluded when the map is rendered as HTML5 or
+    EPUB.</p>
+  </section>
+ </conbody>
+</concept>

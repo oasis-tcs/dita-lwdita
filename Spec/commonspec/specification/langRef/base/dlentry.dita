@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+ "reference.dtd">
+<reference id="dlentry" xml:lang="en-us">
+<title><xmlelement>dlentry</xmlelement></title>
+  <shortdesc conkeyref="library-short-descriptions/dlentry"/>
+<prolog><metadata>
+<keywords>
+        <indexterm>definition lists<indexterm>entries</indexterm></indexterm>
+        <indexterm>elements<indexterm>body<indexterm><xmlelement>dlentry</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>lists<indexterm>definition<indexterm>entries</indexterm></indexterm></indexterm></keywords>
+</metadata></prolog>
+<refbody>
+    <section id="attributes">
+      <title>Attributes</title>
+    <p conref="../../common/conref-attribute.dita#conref-attribute/only-universal"/>
+    </section>
+<example id="example" otherprops="examples"><title>Example</title>
+<p>See <xref href="dl.dita"/>.</p></example>
+</refbody>
+</reference>

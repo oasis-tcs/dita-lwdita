@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="en-us">
+    <title>DITA markup</title>
+    <topicref href="ditamarkup.dita">
+        <topicref href="fileext.dita"/>
+        <mapref href="subject-scheme-maps.ditamap"/>
+        <mapref href="cascading-metadata.ditamap"/>
+    </topicref>
+</map>

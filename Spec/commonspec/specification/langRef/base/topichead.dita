@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="topichead" xml:lang="en-us">
+<title><xmlelement>topichead</xmlelement></title>
+<shortdesc>A topic head is a title-only entry in a DITA
+    map.<!--The <xmlelement>topichead</xmlelement> element provides a title-only entry in a navigation map, which should appear as a heading when the map is rendered as a table of contents. In print contexts it should also appear as a heading in the rendered content.--></shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>elements<indexterm>mapgroup<indexterm><xmlelement>topichead</xmlelement></indexterm></indexterm></indexterm>
+        <indexterm>formatting
+          expectations<indexterm><xmlelement>topicgroup</xmlelement></indexterm></indexterm>
+        <indexterm>messages issued by processors<indexterm><xmlelement>topichead</xmlelement> with
+            no navigation title</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+<refbody>
+    <section id="rendering-expectations">
+      <title>Rendering expectations</title>
+      <p>The content of the <xmlelement>navtitle</xmlelement> element should appear as a heading
+        when the map is rendered as a table of content. In print contexts, it should also appear as
+        a heading in the rendered content.<draft-comment author="Kristen J Eberlein"
+          time="06 August 2018" audience="tc-reviewers">
+          <p>The above content was in the DITA 1.3 short description. Should it be a normative
+            statement?</p>
+        </draft-comment></p>
+    </section>
+    <section id="processing-expectations">
+      <title>Processing expectations</title>
+      <p>Processors <term outputclass="RFC-2119">SHOULD</term> generate a warning if a navigation
+        title is not specified on a <xmlelement>topichead</xmlelement> element.</p>
+    </section>
+    <section id="specialization-hierarchy">
+      <title>Specialization hierarchy</title>
+      <p>The <xmlelement>topichead</xmlelement> element is specialized from
+          <xmlelement>topicref</xmlelement>. It is defined in the map-group module. </p>
+    </section>
+    <section id="attributes">
+      <title>Attributes</title>
+      <p>The following attributes are available on this element: <xref
+keyref="attributes-universal"/>, <xref keyref="attributes-commonMap"
+/> (except for <xmlatt>locktitle</xmlatt>), and <xmlatt>copy-to</xmlatt> from <xref
+keyref="attributes-topicrefElement"/>. This element also uses
+the <xmlatt>scope</xmlatt>, <xmlatt>format</xmlatt>, and <xmlatt>type</xmlatt> attributes from <xref
+keyref="attributes-linkRelationship"/>.</p>
+    </section>
+<example id="example" otherprops="examples"><title>Example</title><p>In the following example, the <xmlelement>topichead</xmlelement> elements provide titles
+        ("Computers" and "Books") for two groups of topics.</p><codeblock>&lt;map>
+  <b>&lt;topichead></b>
+    &lt;topicmeta>
+      <b>&lt;navtitle>Computers&lt;/navtitle></b>
+    &lt;/topicmeta>
+    &lt;topicref href="eniac.dita"/>
+    &lt;topicref href="system360.dita"/>
+    &lt;topicref href="pdp8.dita"/>
+  <b>&lt;/topichead></b>
+  <b>&lt;topichead></b>
+    &lt;topicmeta>
+      <b>&lt;navtitle>Computers&lt;/navtitle></b>
+    &lt;/topicmeta>
+    &lt;topicref href="hardback.dita"/>
+    &lt;topicref href="paperback.dita"/>
+ <b> &lt;/topichead></b>
+&lt;/map></codeblock></example>
+</refbody>
+</reference>
+
