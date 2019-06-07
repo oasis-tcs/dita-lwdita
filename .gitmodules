@@ -1,0 +1,3 @@
+[submodule "commonspec"]
+	path = commonspec
+	url = https://github.com/oasis-tcs/dita.git
