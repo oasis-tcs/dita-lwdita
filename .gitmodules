@@ -1,3 +1,6 @@
 [submodule "commonspec"]
 	path = commonspec
 	url = https://github.com/oasis-tcs/dita.git
+[submodule "Spec/commonspec"]
+	path = Spec/commonspec
+	url = https://github.com/oasis-tcs/dita.git
