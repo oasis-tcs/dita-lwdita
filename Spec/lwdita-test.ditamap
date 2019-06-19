@@ -7,12 +7,18 @@
             <linktext>data component</linktext>
         </topicmeta>
     </keydef>
+    <keydef keys="desc-element">
+        <topicmeta>
+            <linktext>Description component</linktext>
+        </topicmeta>
+    </keydef>
     <keydef keys="shortdesc-element">
         <topicmeta>
             <linktext>short description component</linktext>
         </topicmeta>
     </keydef>
     <keydef keys="reuse-data" href="commonspec/specification/common/reuse-w-lwdita/reuse-data.dita"/>
+    <keydef keys="reuse-desc" href="commonspec/specification/common/reuse-w-lwdita/reuse-desc.dita"/>
     <keydef keys="reuse-shortdesc" href="commonspec/specification/common/reuse-w-lwdita/reuse-shortdesc.dita"/>
     <!--
     <keydef keys="reuse-xref" href="commonspec/specification/common/reuse-w-lwdita/reuse-xref.dita"/>
@@ -24,6 +30,8 @@
         <!--<ditavalref href="lwdita.ditaval"/>-->
        <!-- <topicref href="components/lw-xref.dita"/> -->
         <topicref href="components/lw-data.dita"/>
+        <topicref href="components/lw-desc.dita"/>
         <topicref href="components/lw-shortdesc.dita"/>
+        
     </topichead>
 </map>
