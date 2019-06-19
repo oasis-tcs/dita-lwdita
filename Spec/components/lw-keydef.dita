@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-keydef">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-keydef">
   <title>Key definition</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/keydef"/>
-    <body>
+  <shortdesc conkeyref="reuse-keydef/shortdesc"/>
+    <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -23,43 +23,40 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Formatting expectations</title>
-    </section>
-    <section>
-      <title>Processing expectations</title>
-    </section>
+      <section conkeyref="reuse-keydef/usage-information"><title/><p/></section>
+ 
     <section>
       <title>Attributes</title>
-      <p>Link to table!</p>
+      <p>Under construction</p>
       
       
       
       
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of key definition in an XDITA map.</p>
           <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-xdita"/>
        
-    </section>
+    </fig>
     
-    <section>
+    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of key definition in an HDITA map.</p>
       <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-hdita"/>
      
-    </section>
+    </fig>
     
     
-    <section>
+    <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of key definition in an MDITA extended profile
         map.</p>
       <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-mdita"/>
     
       
-    </section>
-    
-  </body>
-</topic>
+    </fig>
+        </example>
+  </refbody>
+</reference>
