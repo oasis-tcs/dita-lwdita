@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <title>DITA and LwDITA POC</title>
+    <title>Lightweight DITA</title>
     <keydef keys="data-element">
         <topicmeta>
             <linktext>data component</linktext>
@@ -9,7 +9,12 @@
     </keydef>
     <keydef keys="desc-element">
         <topicmeta>
-            <linktext>Description component</linktext>
+            <linktext>description component</linktext>
+        </topicmeta>
+    </keydef>
+    <keydef keys="fn-element">
+        <topicmeta>
+            <linktext>footnote component</linktext>
         </topicmeta>
     </keydef>
     <keydef keys="shortdesc-element">
@@ -19,6 +24,7 @@
     </keydef>
     <keydef keys="reuse-data" href="commonspec/specification/common/reuse-w-lwdita/reuse-data.dita"/>
     <keydef keys="reuse-desc" href="commonspec/specification/common/reuse-w-lwdita/reuse-desc.dita"/>
+    <keydef keys="reuse-fn" href="commonspec/specification/common/reuse-w-lwdita/reuse-fn.dita"/>
     <keydef keys="reuse-shortdesc" href="commonspec/specification/common/reuse-w-lwdita/reuse-shortdesc.dita"/>
     <!--
     <keydef keys="reuse-xref" href="commonspec/specification/common/reuse-w-lwdita/reuse-xref.dita"/>
@@ -31,6 +37,7 @@
        <!-- <topicref href="components/lw-xref.dita"/> -->
         <topicref href="components/lw-data.dita"/>
         <topicref href="components/lw-desc.dita"/>
+        <topicref href="components/lw-fn.dita"/>
         <topicref href="components/lw-shortdesc.dita"/>
         
     </topichead>

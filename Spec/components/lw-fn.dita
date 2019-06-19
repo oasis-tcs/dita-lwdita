@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-fn">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-fn">
   <title>Footnote</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/fn"/>
-    <body>
+  <shortdesc conkeyref="reuse-fn/shortdesc"/>
+    <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -31,18 +31,18 @@
       </dl>
     </section>
 
-    <section>
-      <title>Processing expectations</title>
-    </section>
+      <section conkeyref="reuse-fn/usage-information"><title/><p/></section>
+      <section conkeyref="reuse-fn/rendering-expectations"><title/><p/></section>
     <section>
       <title>Attributes</title>
-      <p>Link to table!</p>
+      <p>Under construction</p>
 
 
 
 
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of footnote in an XDITA topic.</p>
       <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -68,9 +68,9 @@
   &lt;/body>
 &lt;/topic></pre>
 
-    </section>
+    </fig>
 
-    <section>
+    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of footnote in an HDITA topic.  In this example,
         the clickable text is a number 1 in a <xref href="lw-sup.dita" format="dita"
@@ -96,10 +96,10 @@
   &lt;/article>
 &lt;/body></pre>
 
-    </section>
+    </fig>
 
 
-    <section>
+    <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of footnote in an MDITA extended profile
         topic.</p>
@@ -115,7 +115,8 @@ Franchise fee
 [^1]: The initial investment price includes the first franchise fee payment</pre>
 
 
-    </section>
+    </fig>
+        </example>
 
-  </body>
-</topic>
+  </refbody>
+</reference>
