@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-map">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-map">
   <title>Map</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/map"/>
-    <body>
+  <shortdesc conkeyref="reuse-map/shortdesc"/>
+    <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -23,43 +23,40 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Formatting expectations</title>
-    </section>
-    <section>
-      <title>Processing expectations</title>
-    </section>
+      <section conkeyref="reuse-map/usage-information"><title/><p/></section>
+      <section conkeyref="reuse-map/rendering-expectations"><title/><p/></section>
     <section>
       <title>Attributes</title>
-      <p>Link to table!</p>
+      <p>Under construction</p>
 
 
 
 
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of map in XDITA.</p>
 
             <pre conref="../common/common-examples.dita#common-examples/map-xdita"/>
 
-    </section>
-
-    <section>
+          </fig>
+    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of map in HDITA.</p>
         <pre conref="../common/common-examples.dita#common-examples/map-hdita"/>
 
-    </section>
+    </fig>
 
 
-    <section>
+    <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of map in MDITA.</p>
         <pre conref="../common/common-examples.dita#common-examples/map-mdita"/>
 
 
-    </section>
+    </fig>
+        </example>
 
-  </body>
-</topic>
+  </refbody>
+</reference>
