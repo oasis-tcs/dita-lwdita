@@ -31,12 +31,14 @@
     <section conkeyref="reuse-navtitle/processing-expectations"><title/><p/></section>
     <section>
       <title>Attributes</title>
-      <p>Link to table!</p>
+      <p>Under construction</p>
     </section>
-    <section>
+    <example>
+      <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of navigation title in an XDITA map.</p>
       <pre conref="../common/common-examples.dita#common-examples/map-xdita"></pre>
-    </section>
+      </fig>
+    </example>
   </refbody>
 </reference>
