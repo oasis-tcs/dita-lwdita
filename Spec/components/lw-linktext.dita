@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-linktext">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-linktext">
   <title>Link text</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/linktext"/>
-    <body>
+  <shortdesc conkeyref="reuse-linktext/shortdesc"/>
+    <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -23,41 +23,38 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
-    </section>
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-linktext/usage-information"><title/><p/></section>
         <section>
+      <title>Attributes</title>
+      <p>Under construction</p>
+
+
+
+
+    </section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of link text in an XDITA map.</p>
           <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-xdita"/>
-    </section>
+    </fig>
 
-    <section>
+    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of link text in an HDITA map.</p>
       <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-hdita"/>
 
-    </section>
+    </fig>
 
 
-    <section>
+    <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of link text in an MDITA extended profile
         map.</p>
       <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-mdita"/>
+    </fig>
 
+    </example>
 
-    </section>
-
-  </body>
-</topic>
+  </refbody>
+</reference>
