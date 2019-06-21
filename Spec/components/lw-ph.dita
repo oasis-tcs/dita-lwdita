@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-ph">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-ph">
   <title>Phrase</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/ph"/>
-    <body>
+  <shortdesc conkeyref="reuse-ph/shortdesc"/>
+    <refbody>
     <section>
       <title>Usage information</title>
       <dl>
@@ -23,12 +23,8 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Processing expectations</title>
-
-      <p>In rendering, processors <ph>MAY</ph> distingish the contents of <ph>phrase</ph> in some way based on its attribute values. For example, a Lightweight DITA editor may flag the contents of <ph>phrase</ph> based on its @role or @translate attribute, if set.</p>
-
-    </section>
+    <section conkeyref="reuse-ph/usage-information" />
+     
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
@@ -37,7 +33,8 @@
 
 
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of phrase in an XDITA topic.</p>
       <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -54,9 +51,9 @@
   &lt;/body>
 &lt;/topic></pre>
 
-    </section>
+          </fig>
 
-    <section>
+          <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of phrase in an HDITA topic.</p>
       <pre>&lt;!DOCTYPE html>
@@ -81,10 +78,10 @@
   &lt;/article>
 &lt;/body></pre>
 
-    </section>
+          </fig>
 
 
-    <section>
+          <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of phrase, via an HDITA snippet, in an MDITA
         topic.</p>
@@ -99,7 +96,8 @@
 -   Support through online, email, and telephone channels</pre>
 
 
-    </section>
+          </fig>
+        </example>
 
-  </body>
-</topic>
+  </refbody>
+</reference>

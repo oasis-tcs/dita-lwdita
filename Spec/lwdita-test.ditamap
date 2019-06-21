@@ -49,11 +49,22 @@
             <linktext>note component</linktext>
         </topicmeta>
     </keydef>
+    <keydef keys="ph-element">
+        <topicmeta>
+            <linktext>phrase component</linktext>
+        </topicmeta>
+    </keydef>
+    <keydef keys="pre-element">
+        <topicmeta>
+            <linktext>preformatted text component</linktext>
+        </topicmeta>
+    </keydef>
     <keydef keys="shortdesc-element">
         <topicmeta>
             <linktext>short description component</linktext>
         </topicmeta>
     </keydef>
+   
     <keydef keys="reuse-data" href="commonspec/specification/common/reuse-w-lwdita/reuse-data.dita"/>
     <keydef keys="reuse-desc" href="commonspec/specification/common/reuse-w-lwdita/reuse-desc.dita"/>
     <keydef keys="reuse-fn" href="commonspec/specification/common/reuse-w-lwdita/reuse-fn.dita"/>
@@ -63,6 +74,8 @@
     <keydef keys="reuse-map" href="commonspec/specification/common/reuse-w-lwdita/reuse-map.dita"/>
     <keydef keys="reuse-navtitle" href="commonspec/specification/common/reuse-w-lwdita/reuse-navtitle.dita"/>
     <keydef keys="reuse-note" href="commonspec/specification/common/reuse-w-lwdita/reuse-note.dita"/>
+    <keydef keys="reuse-ph" href="commonspec/specification/common/reuse-w-lwdita/reuse-ph.dita"/>
+    <keydef keys="reuse-pre" href="commonspec/specification/common/reuse-w-lwdita/reuse-pre.dita"/>
     <keydef keys="reuse-shortdesc" href="commonspec/specification/common/reuse-w-lwdita/reuse-shortdesc.dita"/>
     <keydef keys="common-shortdescs" href="commonspec/specification/common/conref-short-descriptions.dita"/>
     <topichead>
@@ -92,6 +105,8 @@
         <topicref href="components/lw-note.dita"/>
         <topicref href="components/lw-ol.dita"/>
         <topicref href="components/lw-p.dita"/>
+        <topicref href="components/lw-ph.dita"/>
+        <topicref href="components/lw-pre.dita"/>
         <topicref href="components/lw-shortdesc.dita"/>
     
         
