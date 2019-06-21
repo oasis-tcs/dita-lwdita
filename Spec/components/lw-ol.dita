@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-ol">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-ol">
   <title>Ordered list</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/ol"/>
-    <body>
+  <shortdesc conkeyref="common-shortdescs/ol"/>
+    <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -21,13 +21,7 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Processing expectations</title>
-
-      <p>In text rendering, <ph>list item</ph> children of <ph>ordered list</ph> <ph>SHOULD</ph> be rendered as a typographical ordered list. Audio and other rendering formats MAY embellish the children of <ph>ordered list</ph> to signal that the list items do have an inherent order.</p>
-      <p>Processors <ph>SHOULD</ph> consider the nesting level of the <ph>ordered list</ph> component in choosing the indentation level and list item label that is applied to <ph>list item</ph> children.</p>
-
-    </section>
+    
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
@@ -36,26 +30,28 @@
 
 
     </section>
-        <section>
+        <example>
+        <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of ordered list in an XDITA topic.</p>
           <pre conref="../common/common-examples.dita#common-examples/ol-xdita"/>
-    </section>
+        </fig>
 
-    <section>
+          <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of ordered list in an HDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/ol-hdita"/>
-    </section>
+          </fig>
 
 
-    <section>
+          <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of ordered list in an MDITA topic.</p>
 
       <pre conref="../common/common-examples.dita#common-examples/ol-mdita"/>
 
-    </section>
+          </fig>
+        </example>
 
-  </body>
-</topic>
+  </refbody>
+</reference>

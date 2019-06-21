@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-shortdesc">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-shortdesc">
   <title>Alternate text</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/alt"/>
-    <body>
+  <shortdesc conkeyref="common-shortdescs/alt"/>
+ 
+    <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -24,42 +25,38 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for the image that provides it.</p>
-    </section>
+   
     <section>
       <title>Attributes</title>
-      <p>Link to table!</p>
+      <p>Under construction</p>
 
 
 
 
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/altfig-xdita"/>
 
-    </section>
+    </fig>
 
-    <section>
+    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
 
       <pre conref="../common/common-examples.dita#common-examples/altfig-hdita"/>
 
-    </section>
+    </fig>
 
 
-    <section>
+    <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/altfig-mdita"/>
+    </fig>
+        </example>
 
-
-    </section>
-
-  </body>
-</topic>
+  </refbody>
+</reference>

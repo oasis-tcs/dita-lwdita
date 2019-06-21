@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-li">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-li">
   <title>List item</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/li"/>
-    <body>
+  <shortdesc conkeyref="common-shortdescs/li"/>
+    <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -24,12 +24,7 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Processing expectations</title>
-
-      <p>In all rendered formats, processors <ph>SHOULD</ph> derive rendering details from the parent <ph>ordered list</ph> or <ph>unordered list</ph> component.</p>
-
-    </section>
+   
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
@@ -38,27 +33,29 @@
 
 
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of list item in an XDITA topic.</p>
           <pre conref="../common/common-examples.dita#common-examples/ol-xdita"/>
 
-    </section>
+          </fig>
 
-    <section>
+          <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of list item in an HDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/ol-hdita"/>
-    </section>
+          </fig>
 
 
-    <section>
+          <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of list item (ordered list) in an MDITA
         topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/ol-mdita"/>
 
-    </section>
+          </fig>
+        </example>
 
-  </body>
-</topic>
+  </refbody>
+</reference>

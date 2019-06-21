@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-i">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-i">
   <title>Italic text</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/i"/>
-    <body>
+  <shortdesc conkeyref="common-shortdescs/i"/>
+    <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -27,12 +27,6 @@
     </section>
 
     <section>
-      <title>Processing expectations</title>
-
-      <p>In text, processors <ph>SHOULD</ph> render the contents of <ph>italic text</ph> in typographical italics. In audio and other rendering formats, processors MAY distinguish the contents of <ph>italic</ph> in some other way.</p>
-
-    </section>
-    <section>
       <title>Attributes</title>
       <p>Link to table!</p>
 
@@ -40,7 +34,8 @@
 
 
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of italic text in an XDITA topic.</p>
       <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -52,9 +47,9 @@
   &lt;/body>
 &lt;/topic></pre>
 
-    </section>
+          </fig>
 
-    <section>
+<fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of italic text in an HDITA topic.</p>
       <pre>&lt;!DOCTYPE html>
@@ -66,18 +61,16 @@
   &lt;/article>
 &lt;/body></pre>
 
-    </section>
+</fig>
 
-
-    <section>
-      <title>MDITA example</title>
+<fig>
+  <title>MDITA example</title>
       <p>The following example demonstrates the use of italic text in an MDITA topic.</p>
       <pre># An innovative, attractive, and out of the ordinary concept
 
 We offer *more than 30* exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.</pre>
 
-
-    </section>
-
-  </body>
-</topic>
+</fig>
+        </example>
+  </refbody>
+</reference>

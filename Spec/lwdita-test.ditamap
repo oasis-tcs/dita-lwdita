@@ -2,6 +2,8 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Lightweight DITA</title>
+    
+    <!-- keydef parade begins... probably will send to a submap one of these days -->
     <keydef keys="data-element">
         <topicmeta>
             <linktext>data component</linktext>
@@ -62,25 +64,36 @@
     <keydef keys="reuse-navtitle" href="commonspec/specification/common/reuse-w-lwdita/reuse-navtitle.dita"/>
     <keydef keys="reuse-note" href="commonspec/specification/common/reuse-w-lwdita/reuse-note.dita"/>
     <keydef keys="reuse-shortdesc" href="commonspec/specification/common/reuse-w-lwdita/reuse-shortdesc.dita"/>
-    <!--
-    <keydef keys="reuse-xref" href="commonspec/specification/common/reuse-w-lwdita/reuse-xref.dita"/>
-    --> 
+    <keydef keys="common-shortdescs" href="commonspec/specification/common/conref-short-descriptions.dita"/>
     <topichead>
         <topicmeta>
             <navtitle>LwDITA topics</navtitle>
         </topicmeta>
-        <!--<ditavalref href="lwdita.ditaval"/>-->
-       <!-- <topicref href="components/lw-xref.dita"/> -->
+        <ditavalref href="lwdita.ditaval"/>
+        <topicref href="components/lw-alt.dita"/>
+        <topicref href="components/lw-b.dita"/>
+        <topicref href="components/lw-body.dita"/>
+      <topicref href="components/lw-xref.dita"/>
         <topicref href="components/lw-data.dita"/>
+        <topicref href="components/lw-dl.dita"/>
+        <topicref href="components/lw-dlentry.dita"/>
+        <topicref href="components/lw-dt.dita"/>
+        <topicref href="components/lw-dd.dita"/>
         <topicref href="components/lw-desc.dita"/>
+        <topicref href="components/lw-fig.dita"/>
         <topicref href="components/lw-fn.dita"/>
         <topicref href="components/lw-image.dita"/>
+        <topicref href="components/lw-i.dita"/>
         <topicref href="components/lw-keydef.dita"/>
         <topicref href="components/lw-linktext.dita"/>
+        <topicref href="components/lw-li.dita"/>
         <topicref href="components/lw-map.dita"/>
         <topicref href="components/lw-navtitle.dita"/>
         <topicref href="components/lw-note.dita"/>
+        <topicref href="components/lw-ol.dita"/>
+        <topicref href="components/lw-p.dita"/>
         <topicref href="components/lw-shortdesc.dita"/>
+    
         
     </topichead>
 </map>

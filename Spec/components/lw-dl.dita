@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-dl">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-dl">
   <title>Definition list</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/dl"/>
-    <body>
+  <shortdesc conkeyref="common-shortdescs/dl"/>
+    <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -27,39 +27,39 @@
       </dl>
     </section>
 
-    <section>
-      <title>Processing expectations</title>
-    </section>
+  
     <section>
       <title>Attributes</title>
-      <p>Link to table!</p>
+      <p>Under construction</p>
 
 
 
 
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a definition list in an XDITA topic.</p>
           <pre conref="../common/common-examples.dita#common-examples/dl-xdita"/>
 
-    </section>
+          </fig>
 
-    <section>
+    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a (need article??) definition list in an HDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/dl-hdita"/>
 
-    </section>
+    </fig>
 
 
-    <section>
+    <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a definition list text in an MDITA extended profile topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/dl-mdita"/>
 
 
-    </section>
+    </fig>
+        </example>
 
-  </body>
-</topic>
+  </refbody>
+</reference>

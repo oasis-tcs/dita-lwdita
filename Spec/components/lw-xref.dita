@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-xref">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-xref">
   <title>Cross reference</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/xref"/>
-    <body>
+  <shortdesc conkeyref="common-shortdescs/xref"/>
+ 
+    <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -21,18 +22,17 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Formatting expectations</title>
-    </section>
+   
     <section>
       <title>Attributes</title>
-      <p>Link to table!</p>
+      <p>Under construction</p>
 
 
 
 
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a cross reference in an XDITA topic.</p>
       <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -49,10 +49,10 @@
     &lt;/ul>
   &lt;/body>
 &lt;/topic></pre>
+          </fig>
+    
 
-    </section>
-
-    <section>
+    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a cross reference in an HDITA topic.</p>
       <pre>&lt;!DOCTYPE html>
@@ -80,10 +80,10 @@
   &lt;/article>
 &lt;/body></pre>
 
-    </section>
+    </fig>
 
 
-    <section>
+    <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a cross reference in an MDITA topic.</p>
       <pre># What we offer
@@ -99,7 +99,8 @@
 -   Access to our [knowledge base](http://senseisushico.com/kb)</pre>
 
 
-    </section>
+    </fig>
+        </example>
 
-  </body>
-</topic>
+  </refbody>
+</reference>

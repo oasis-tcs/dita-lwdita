@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-dt">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-dt">
   <title>Definition term</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/dt"/>
-    <body>
+  <shortdesc conkeyref="common-shortdescs/dt"/>
+    <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -23,9 +23,6 @@
     </section>
 
     <section>
-      <title>Processing expectations</title>
-    </section>
-    <section>
       <title>Attributes</title>
       <p>Link to table!</p>
 
@@ -33,19 +30,21 @@
 
 
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of definition term in an XDITA topic.</p>
           <pre conref="../common/common-examples.dita#common-examples/dl-xdita"/>
 
-    </section>
+          </fig>
 
-    <section>
+          <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of definition term in an HDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/dl-hdita"/>
 
-    </section>
+          </fig>
+        </example>
 
-  </body>
-</topic>
+  </refbody>
+</reference>

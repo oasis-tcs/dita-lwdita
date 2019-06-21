@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-p">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-p">
   <title>Paragraph</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/p"/>
-    <body>
+  <shortdesc conkeyref="common-shortdescs/p"/>
+    <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -23,9 +23,7 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Processing expectations</title>
-    </section>
+    
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
@@ -34,7 +32,8 @@
 
 
     </section>
-        <section>
+        <example>
+        <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of paragraph in an XDITA topic.</p>
       <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -46,9 +45,9 @@
   &lt;/body>
 &lt;/topic></pre>
 
-    </section>
+        </fig>
 
-    <section>
+          <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of paragraph in an HDITA topic.</p>
       <pre>&lt;!DOCTYPE html>
@@ -60,10 +59,10 @@
   &lt;/article>
 &lt;/body></pre>
 
-    </section>
+          </fig>
 
 
-    <section>
+          <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of paragraph in an MDITA topic.</p>
       <pre># An innovative, attractive, and out of the ordinary concept
@@ -71,7 +70,8 @@
 We offer more than 30 exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.</pre>
 
 
-    </section>
+          </fig>
+        </example>
 
-  </body>
-</topic>
+  </refbody>
+</reference>

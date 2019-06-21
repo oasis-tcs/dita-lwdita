@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-dlentry">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-dlentry">
   <title>Definition list entry</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/dlentry"/>
-  <body>
+  <shortdesc conkeyref="common-shortdescs/dlentry"/>
+  <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -28,19 +28,17 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Processing expectations</title>
-      <p>Processors <ph>SHOULD</ph> render the content of the alternate text component as
-        alternative text for an image that references this component</p>
-    </section>
+   
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
     </section>
-    <section>
+    <example>
+      <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of definition list entry in an XDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/dl-xdita"/>
-    </section>
-  </body>
-</topic>
+      </fig>
+    </example>
+  </refbody>
+</reference>
