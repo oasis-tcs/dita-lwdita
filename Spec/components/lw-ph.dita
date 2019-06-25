@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-ph">
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-ph">
   <title>Phrase</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/ph"/>
-    <body>
+  <shortdesc conref="../commonspec/specification/common/reuse-w-lwdita/reuse-ph.dita#shortdesc"/>
+    <refbody>
     <section>
       <title>Usage information</title>
       <dl>
@@ -101,5 +102,5 @@
 
     </section>
 
-  </body>
-</topic>
+  </refbody>
+</reference>

@@ -2,7 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-map">
   <title>Map</title>
-  <shortdesc conkeyref="reuse-map/shortdesc"/>
+<!--  <shortdesc conkeyref="reuse-map/shortdesc"/>-->
+  <shortdesc/>
     <refbody>
     <section>
       <title>Syntax</title>
@@ -23,8 +24,8 @@
         </dlentry>
       </dl>
     </section>
-      <section conkeyref="reuse-map/usage-information"><title/><p/></section>
-      <section conkeyref="reuse-map/rendering-expectations"><title/><p/></section>
+<!--      <section conkeyref="reuse-map/usage-information"><title/><p/></section>
+      <section conkeyref="reuse-map/rendering-expectations"><title/><p/></section>-->
     <section>
       <title>Attributes</title>
       <p>Under construction</p>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-source">
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-source">
   <title>Source</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/source"/>
-    <body>
+  <shortdesc conref="../commonspec/specification/common/reuse-w-lwdita/reuse-media-source.dita#shortdesc"/>
+    <refbody>
     <section>
       <title>Usage information</title>
       <dl>
@@ -51,5 +52,5 @@
      
     </section>
     
-  </body>
-</topic>
+  </refbody>
+</reference>

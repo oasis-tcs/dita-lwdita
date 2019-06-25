@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Lightweight DITA Components</title>
+ <topicref href="lw-alt.dita"/>
+ <topicref href="lw-audio.dita"/>
+ <topicref href="lw-autoplay.dita"/>
+ <topicref href="lw-b.dita"/>
+ <topicref href="lw-body.dita"/>
+ <topicref href="lw-controls.dita"/>
+ <topicref href="lw-data.dita"/>
+ <topicref href="lw-dd.dita"/>
+ <topicref href="lw-desc.dita"/>
+ <topicref href="lw-dl.dita"/>
+ <topicref href="lw-dlentry.dita"/>
+ <topicref href="lw-dt.dita"/>
+ <topicref href="lw-fig.dita"/>
+ <topicref href="lw-fn.dita"/>
+ <topicref href="lw-image.dita"/>
+ <topicref href="lw-italics.dita"/>
+ <topicref href="lw-keydef.dita"/>
+ <topicref href="lw-li.dita"/>
+ <topicref href="lw-linktext.dita"/>
+ <topicref href="lw-loop.dita"/>
+ <topicref href="lw-map.dita"/>
+ <topicref href="lw-muted.dita"/>
+ <topicref href="lw-navtitle.dita"/>
+ <topicref href="lw-note.dita"/>
+ <topicref href="lw-ol.dita"/>
+ <topicref href="lw-p.dita"/>
+ <topicref href="lw-ph.dita"/>
+ <topicref href="lw-poster.dita"/>
+ <topicref href="lw-pre.dita"/>
+ <topicref href="lw-prolog.dita"/>
+ <topicref href="lw-section.dita"/>
+ <topicref href="lw-shortdesc.dita"/>
+ <topicref href="lw-simpletable.dita"/>
+ <topicref href="lw-source.dita"/>
+ <topicref href="lw-stentry.dita"/>
+ <topicref href="lw-sthead.dita"/>
+ <topicref href="lw-strow.dita"/>
+ <topicref href="lw-sub.dita"/>
+ <topicref href="lw-sup.dita"/>
+ <topicref href="lw-title.dita"/>
+ <topicref href="lw-topic.dita"/>
+ <topicref href="lw-topicmeta.dita"/>
+ <topicref href="lw-topicref.dita"/>
+ <topicref href="lw-track.dita"/>
+ <topicref href="lw-u.dita"/>
+ <topicref href="lw-ul.dita"/>
+ <topicref href="lw-video.dita"/>
+ <topicref href="lw-xref.dita"/>
+ 
+</map>

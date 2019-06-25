@@ -27,6 +27,8 @@
     <subjectdef keys="platform-values">
         <subjectdef keys="dita-tc-publishing"/>
         <subjectdef keys="external-publishing-engine"/>
+        <subjectdef keys="dita"/>
+        <subjectdef keys="lwdita"/>
     </subjectdef>
     <subjectdef keys="otherprops-values">
         <subjectdef keys="contains"/>

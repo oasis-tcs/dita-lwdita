@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-dt">
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-dt">
   <title>Definition term</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/dt"/>
-    <body>
+    <refbody>
     <section>
       <title>Usage information</title>
       <dl>
@@ -47,5 +48,5 @@
 
     </section>
 
-  </body>
-</topic>
+  </refbody>
+</reference>

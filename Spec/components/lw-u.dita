@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-u">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-u">
   <title>Underline</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/u"/>
-  <body>
+  <refbody>
     <section>
       <title>Usage information</title>
       <dl>
@@ -68,5 +68,5 @@
   &lt;/body>
   &lt;/html></pre>
     </section>
-  </body>
-</topic>
+  </refbody>
+</reference>

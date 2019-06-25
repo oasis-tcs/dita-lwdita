@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-sthead">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-sthead">
   <title>Table header</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/sthead"/>
-  <body>
+  <refbody>
     <section>
       <title>Usage information</title>
       <dl>
@@ -44,5 +44,5 @@
       <p>The following example demonstrates the use of a table header in an HDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/table-hdita"/>
     </section>
-  </body>
-</topic>
+  </refbody>
+</reference>

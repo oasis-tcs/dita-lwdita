@@ -97,7 +97,7 @@
       href="http://docs.oasis-open.org/dita/lwdita/v1.0/wd01/lwdita-v1.0-wd01-grammars.zip"
       scope="external" format="zip"/>
     <keydef keys="oasis-this-version-dita"
-      href="http://docs.oasis-open.org/dita/lwdita/v1.0/wd01/dita-v1.0-wd01-dita.zip" scope="external"
+      href="http://docs.oasis-open.org/dita/lwdita/v1.0/wd01/lwdita-v1.0-wd01-dita.zip" scope="external"
       format="zip"/>
   </topichead>
 
@@ -217,13 +217,13 @@ Originally in dita13-key-definitionspart1metadata.ditamap-->
         </keywords>
       </topicmeta>
     </keydef>
-<!--    <keydef keys="errata-artifact-type">
+    <keydef keys="errata-artifact-type">
       <topicmeta>
         <keywords>
           <keyword>complete</keyword>
         </keywords>
       </topicmeta>
-    </keydef>-->
+    </keydef>
     <!-- Removed at 12:32 PM 24 May 2018; did not break build -->
     <!--<keydef keys="prev-stage-abbrev">
       <topicmeta>
@@ -251,30 +251,30 @@ Originally in dita13-key-definitionspart1metadata.ditamap-->
     Severity: fatal
     Description: Transformation failed. Fatal error during transformation using C:\DITA-OT-2.5.4-OASIS\plugins\org.oasis.specification.pubmeta\xsl\pubMetaToAntProps.xsl: Cannot convert supplied value to an integer. NaN; SystemID: file:/C:/DITA-OT-2.5.4-OASIS/plugins/org.oasis.specification.pubmeta/xsl/pubMetaToAntProps.xsl; Line#: 137; Column#: -1-->
 
-<!--    <keydef keys="errata-num">
+    <keydef keys="errata-num">
       <topicmeta>
         <keywords>
-          <keyword>02</keyword>
+          <keyword>0</keyword>
         </keywords>
       </topicmeta>
-    </keydef>-->
+    </keydef>
 
     <!-- KJE Commented out at 12:43 PM on 24 May 2018; build worked without errors -->
-    <!--    <keydef keys="revision-num">
+        <keydef keys="revision-num">
       <topicmeta>
         <keywords>
           <keyword>01</keyword>
         </keywords>
       </topicmeta>
-    </keydef>-->
+    </keydef>
 
     <!-- KJE Commented out at 12:39 PM on 24 May 2018; build worked without errors -->
-    <!--    <keydef keys="oasis-dita-uri-base">
+        <keydef keys="oasis-dita-uri-base">
       <topicmeta>
         <keywords>
           <keyword>http://docs.oasis-open.org/dita/</keyword>
         </keywords>
       </topicmeta>
-    </keydef>-->
+    </keydef>
   </topichead>
 </map>

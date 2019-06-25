@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Map//EN" "map.dtd">
+<map id="map_mrd_qc2_rfb">
+    <topicmeta>
+        <navtitle/>
+    </topicmeta>
+    <topicref href="authoring-tool-conformance.dita"/>
+    <topicref href="processing-tool-conformance.dita"/>
+</map>

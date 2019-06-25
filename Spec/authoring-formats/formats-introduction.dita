@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="formats-introduction">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="formats-introduction">
   <title>LwDITA authoring formats</title>
   <shortdesc>Besides the XML structure provided by DITA, LwDITA adds support for structured authoring in HTML5 and Markdown.</shortdesc>
-  <body>
+  <refbody>
+    <section>
+
     <p>LwDITA has three authoring formats:</p>
     <dl>
       <dlentry>
@@ -29,6 +31,7 @@
       specification. In its extended profile, MDITA can incorporate extensions from PHP Markdown Extra (definition lists and footnotes), Pandoc (YAML front-matter headers) and HDITA
       element types and attributes to overcome Markdown limitations as a language for authoring structured
       and reusable content.</p>
-
-  </body>
-</topic>
+      
+    </section>
+  </refbody>
+</reference>

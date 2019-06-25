@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-prolog">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-prolog">
   <title>Prolog</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/prolog"/>
-    <body>
+    <refbody>
     <section>
       <title>Usage information</title>
       <dl>
@@ -57,5 +57,5 @@
       <pre conref="../common/common-examples.dita#common-examples/data-prolog-mdita"/>
     </section>
 
-  </body>
-</topic>
+  </refbody>
+</reference>

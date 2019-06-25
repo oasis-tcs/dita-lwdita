@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-dlentry">
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-dlentry">
   <title>Definition list entry</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/dlentry"/>
-  <body>
+  <refbody>
     <section>
       <title>Usage information</title>
       <dl>
@@ -42,5 +43,5 @@
       <p>The following example demonstrates the use of definition list entry in an XDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/dl-xdita"/>
     </section>
-  </body>
-</topic>
+  </refbody>
+</reference>
