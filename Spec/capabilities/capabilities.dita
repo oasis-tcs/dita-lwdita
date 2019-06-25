@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="capabilities">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="capabilities">
   <title>LwDITA capabilities</title>
   <shortdesc>LwDITA shares some core capabilities for content structure and reuse with DITA 1.3. By design, it includes fewer capabilities than full DITA XML. LwDITA also includes some unique cross-format features.</shortdesc>
-  <body>
+  <conbody>
     <p>LwDITA features the following capabilities:</p>
     <dl>
       <dlentry>
@@ -34,12 +34,12 @@
       </dlentry>
       <dlentry>
         <dt>Filtering</dt>
-        <dd><p>LwDITA supports <xref href="../attributes/filtering/nofile.dita">metadata-based filtering (link to props topic)</xref> within a topic to selectively
+        <dd><p>LwDITA supports <xref href="../attributes/lwdita-attributes.dita">metadata-based filtering (link to props topic)</xref> within a topic to selectively
             include or exclude content for specific contexts.  </p></dd>
       </dlentry>
       <dlentry>
         <dt>Content references for reuse</dt>
-        <dd><p>In LwDITA, content can be reused across topics or maps using the <xref href="../attributes/reuse/nofile.dita">content reference (link to
+        <dd><p>In LwDITA, content can be reused across topics or maps using the <xref href="../attributes/lwdita-attributes.dita">content reference (link to
           conref!)</xref> mechanism to pull block-level content, such as a paragraph or list item, from
             one location to another. This reuse by reference ensures that content will stay
             consistent and up to date across all the contexts in which it is reused. Content
@@ -74,5 +74,5 @@
             no specific mechanism for specialization (link to topic).    </p></dd>
       </dlentry>
     </dl>
-  </body>
-</topic>
+  </conbody>
+</concept>

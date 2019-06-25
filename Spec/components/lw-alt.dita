@@ -3,7 +3,7 @@
 <reference id="lw-shortdesc">
   <title>Alternate text</title>
   <shortdesc conkeyref="common-shortdescs/alt"/>
- 
+
     <refbody>
     <section>
       <title>Syntax</title>
@@ -25,7 +25,7 @@
         </dlentry>
       </dl>
     </section>
-   
+
     <section>
       <title>Attributes</title>
       <p>Under construction</p>
