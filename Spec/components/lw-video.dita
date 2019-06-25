@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-video">
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-video">
   <title>Video</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/video"/>
-    <body>
+    <refbody>
     <section>
       <title>Usage information</title>
       <dl>
@@ -48,5 +49,5 @@
       <pre conref="../common/common-examples.dita#common-examples/multimedia-hdita"/>
     </section>
 
-  </body>
-</topic>
+  </refbody>
+</reference>

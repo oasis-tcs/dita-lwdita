@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-topicmeta">
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-topicmeta">
   <title>Topic metadata</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/topicmeta"/>
-    <body>
+  <shortdesc conref="../commonspec/specification/common/reuse-w-lwdita/reuse-topicmeta.dita#shortdesc"/>
+    <refbody>
     <section>
       <title>Usage information</title>
       <dl>
@@ -40,5 +41,5 @@
           <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-xdita"/>
     </section>
 
-  </body>
-</topic>
+  </refbody>
+</reference>

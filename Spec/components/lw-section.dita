@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="lw-section">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-section">
   <title>Section</title>
   <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/section"/>
-    <body>
+    <refbody>
     <section>
       <title>Usage information</title>
       <dl>
@@ -83,5 +83,5 @@ Support is reserved for franchises that are without bills past due payment.</pre
 
     </section>
 
-  </body>
-</topic>
+  </refbody>
+</reference>

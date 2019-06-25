@@ -3,7 +3,7 @@
 <reference id="lw-xref">
   <title>Cross reference</title>
   <shortdesc conkeyref="common-shortdescs/xref"/>
- 
+
     <refbody>
     <section>
       <title>Syntax</title>
@@ -22,7 +22,7 @@
         </dlentry>
       </dl>
     </section>
-   
+
     <section>
       <title>Attributes</title>
       <p>Under construction</p>
@@ -50,7 +50,7 @@
   &lt;/body>
 &lt;/topic></pre>
           </fig>
-    
+
 
     <fig>
       <title>HDITA example</title>
