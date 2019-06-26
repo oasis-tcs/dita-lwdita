@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="topic_td4_xy5_pfb">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="topic_td4_xy5_pfb">
   <title>Processing Tool Conformance</title>
   <shortdesc>Specifies conformance requirements for tools that process Lightweight DITA content,
     typically for publishing or rendering, but possibly for other content-driven
     processes.</shortdesc>
-  <body>
+  <refbody>
+    <section>
     <p id="p_hfg_hz5_pfb">Processing tools that claim conformance to Lightweight DITA should meet
       the mandatory and optional requirements specified here with no, or only trivial,
       configuration. </p>
@@ -38,5 +39,6 @@ E.G., an MDITA map can reference X, H, and M topics" parentID="e54_fpw_qfb" mid=
           not conform to the rules of this specification.</p>
       </li>
     </ul>
-  </body>
-</topic>
+    </section>
+  </refbody>
+</reference>
