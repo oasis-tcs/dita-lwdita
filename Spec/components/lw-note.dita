@@ -23,7 +23,7 @@
       </dl>
     </section>
 
-<!--      <section conkeyref="reuse-note/usage-information"><title/><p/></section>-->
+<section conkeyref="reuse-note/usage-information" />
 
     <section>
       <title>Attributes</title>

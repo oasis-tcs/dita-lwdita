@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-navtitle">
   <title>Navigation title</title>
-  <!--<shortdesc conkeyref="reuse-navtitle/shortdesc"/>-->
-  <shortdesc/>
+  <shortdesc conkeyref="reuse-navtitle/shortdesc" />
+
   <refbody>
     <section>
       <title>Syntax</title>
@@ -28,8 +28,8 @@
         </dlentry>
       </dl>
     </section>
-<!--    <section conkeyref="reuse-navtitle/usage-information"><title/><p/></section>
-    <section conkeyref="reuse-navtitle/processing-expectations"><title/><p/></section>-->
+<section conkeyref="reuse-navtitle/usage-information" />
+    <section conkeyref="reuse-navtitle/processing-expectations" />
     <section>
       <title>Attributes</title>
       <p>Under construction</p>

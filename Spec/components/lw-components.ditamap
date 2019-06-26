@@ -17,7 +17,7 @@
  <topicref href="lw-fig.dita"/>
  <topicref href="lw-fn.dita"/>
  <topicref href="lw-image.dita"/>
- <topicref href="lw-italics.dita"/>
+ <topicref href="lw-i.dita"/>
  <topicref href="lw-keydef.dita"/>
  <topicref href="lw-li.dita"/>
  <topicref href="lw-linktext.dita"/>
@@ -50,5 +50,5 @@
  <topicref href="lw-ul.dita"/>
  <topicref href="lw-video.dita"/>
  <topicref href="lw-xref.dita"/>
- 
+
 </map>
