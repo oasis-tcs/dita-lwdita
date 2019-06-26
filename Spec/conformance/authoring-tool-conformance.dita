@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-<topic id="topic_td4_xy5_pfb">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="topic_td4_xy5_pfb">
   <title>Authoring Tool Conformance</title>
   <shortdesc>Specifies conformance requirements for Lightweight DITA (LwDITA) authoring
     tools.</shortdesc>
-  <body>
+  <refbody>
+    <section>
     <p id="p_hfg_hz5_pfb">The OASIS DITA Technical Committee designed LwDITA to be accessible to the
       largest possible set of content contributors. Hence, the conformance requirements for LwDITA
       authoring applications are intentionally minimally specified, particularly for the HDITA and
       MDITA authoring formats. Plain-text editors are considered viable tools for authoring HDITA
       and MDITA formats.</p>
+    </section>
     <section id="section_gfg_hz5_pfb">
       <title>Conformance for XDITA authoring applications</title>
       <p id="p_kr3_sz5_pfb">An application that supports XDITA authoring <i>must</i>:</p>
@@ -49,8 +51,7 @@
     <section id="section_stz_x3v_pfb">
       <title>Conformance for HDITA authoring applications</title>
       <p id="p_ttz_x3v_pfb">Text editors are considered viable authoring environments for HDITA. Any
-        can create valid... (goal)? In order for LwDITA conformance specific... then... html5
-        conformant editor</p>
+        can create valid HTML5.</p>
       <p id="p_utz_x3v_pfb">Applications that support HDITA authoring <i>may</i>:</p>
       <ul id="ul_vtz_x3v_pfb">
         <li>
@@ -95,5 +96,5 @@
         </li>
       </ul>
     </section>
-  </body>
-</topic>
+  </refbody>
+</reference>

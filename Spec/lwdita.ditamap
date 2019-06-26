@@ -237,7 +237,7 @@
 
   </chapter>
  
- <part>
+ <chapter>
   <topicmeta>
    <navtitle>LwDITA attributes</navtitle>
   </topicmeta>
@@ -362,7 +362,10 @@
   <!-- Conformance topics and acknowledgements will go here -->
    
 
- </part>
+ </chapter>
+ 
+ <chapter href="conformance/lw-conformance.ditamap" keys="conformance" format="ditamap"/>
+ 
  
 <!-- <chapter href="lwd-common.dita" toc="no" keys="lwd-common" processing-role="resource-only"/>-->
 </bookmap>
