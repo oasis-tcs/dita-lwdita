@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-linktext">
   <title>Link text</title>
-<!--  <shortdesc conkeyref="reuse-linktext/shortdesc"/>-->
-  <shortdesc/>
+ <shortdesc conkeyref="reuse-linktext/shortdesc"/>
+ 
     <refbody>
     <section>
       <title>Syntax</title>
@@ -24,7 +24,8 @@
         </dlentry>
       </dl>
     </section>
-      <!--<section conkeyref="reuse-linktext/usage-information"><title/><p/></section>-->
+      <section conkeyref="reuse-linktext/usage-information" />
+      
         <section>
       <title>Attributes</title>
       <p>Under construction</p>

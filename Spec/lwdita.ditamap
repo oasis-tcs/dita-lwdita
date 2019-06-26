@@ -83,6 +83,8 @@
     <navtitle>Basic topic components</navtitle>
    </topicmeta>
    
+   <keydef keys="common-shortdescs" href="commonspec/specification/common/conref-short-descriptions.dita"/>
+   
    <topicref href="components/lw-topic.dita" keys="topic"/>
    
    <topicref href="components/lw-title.dita" keys="title"/>
