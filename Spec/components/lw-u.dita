@@ -2,10 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-u">
   <title>Underline</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/u"/>
+  <shortdesc conkeyref="common-shortdescs/u"/>
   <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -27,20 +27,13 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Formatting expectations</title>
-      <p>Content should be rendered with a typographical underline.</p>
-    </section>
-    <section>
-      <title>Processing expectations</title>
-
-      <p>In text, processors <ph>SHOULD</ph> render the contents of <ph>underline</ph> with a typographical underline. In audio and other rendering formats, processors MAY distinguish the contents of <ph>underline</ph> in some other way.</p>
-    </section>
+   
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
     </section>
-    <section>
+    <example>
+      <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of <i>Underline</i> in an XDITA topic.</p>
       <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
@@ -51,8 +44,8 @@
    light fixtures, preparing the remote control, and programming lighting groups.
    &lt;/shortdesc>
   &lt;/topic></pre>
-    </section>
-    <section>
+      </fig>
+    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
       <pre>  &lt;!DOCTYPE html>
@@ -67,6 +60,7 @@
   &lt;/article>
   &lt;/body>
   &lt;/html></pre>
-    </section>
+    </fig>
+    </example>
   </refbody>
 </reference>

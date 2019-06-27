@@ -2,10 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-title">
   <title>Title</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/title"/>
+  <shortdesc conkeyref="common-shortdescs/title"/>
     <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -26,12 +26,7 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Formatting expectations</title>
-     <p>When present, the content of the short description component is displayed as the first
-        paragraph of a topic. It may also be used for other purposes, such as link previews and
-        summaries.</p>
-    </section>
+    
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
@@ -40,7 +35,8 @@
 
 
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a title in an XDITA topic.</p>
       <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
@@ -51,9 +47,9 @@
    light fixtures, preparing the remote control, and programming lighting groups.
    &lt;/shortdesc>
   &lt;/topic></pre>
-    </section>
+          </fig>
 
-    <section>
+    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a title in an HDITA topic.</p>
       <pre>  &lt;!DOCTYPE html>
@@ -68,17 +64,18 @@
   &lt;/article>
   &lt;/body>
   &lt;/html></pre>
-    </section>
+    </fig>
 
 
-    <section>
+    <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a title in an MDITA topic.</p>
       <pre>  # Installing and Setting up Remote Lighting
 
   Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</pre>
 
-    </section>
+    </fig>
+        </example>
 
   </refbody>
 </reference>

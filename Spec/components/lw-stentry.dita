@@ -2,10 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-stentry">
   <title>Table entry</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/stentry"/>
+  <shortdesc conkeyref="common-shortdescs/stentry"/>
   <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -28,22 +28,22 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Formatting expectations</title>
-    </section>
+   
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
     </section>
-    <section>
+    <example>
+      <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a table entry in an XDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/table-xdita"/>
-    </section>
-    <section>
+      </fig>
+    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a table entry in an HDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/table-hdita"/>
-    </section>
+    </fig>
+    </example>
   </refbody>
 </reference>

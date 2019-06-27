@@ -2,10 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-ul">
   <title>Unordered list</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/ul"/>
+  <shortdesc conkeyref="common-shortdescs/ul"/>
     <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -21,14 +21,9 @@
         </dlentry>
       </dl>
     </section>
-    <section>
 
-      <title>Processing expectations</title>
-      <p>In text rendering, <ph>list item</ph> children of <ph>unordered list</ph> <ph>SHOULD</ph> be rendered as a typographical unordered list. Audio and other rendering formats MAY embellish the children of <ph>unordered list</ph> to signal that the list items are without inherent order.</p>
-      <p>Processors <ph>SHOULD</ph> consider the nesting level of the <ph>unordered list</ph> component in choosing the indentation level and list item label that is applied to <ph>list item</ph> children.</p>
 
-    </section>
-
+   
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
@@ -37,7 +32,8 @@
 
 
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an XDITA topic.</p>
       <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -53,9 +49,9 @@
     &lt;/ul>
   &lt;/body>
 &lt;/topic></pre>
-    </section>
+          </fig>
 
-    <section>
+          <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an HDITA topic.</p>
       <pre>&lt;!DOCTYPE html>
@@ -79,10 +75,10 @@
     &lt;/ul>
   &lt;/article>
 &lt;/body></pre>
-    </section>
+          </fig>
 
 
-    <section>
+          <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an MDITA topic.</p>
       <pre># Make a plan! Start your future today!
@@ -91,7 +87,8 @@
 2.  Pick a location for your restaurant
 3.  Follow our franchise guide</pre>
 
-    </section>
+    </fig>
+        </example>
 
   </refbody>
 </reference>

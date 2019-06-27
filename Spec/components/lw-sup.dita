@@ -2,10 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-sup">
   <title>Superscript</title>
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/sup"/>
+  <shortdesc conkeyref="common-shortdescs/sup"/>
   <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -29,15 +29,11 @@
     </section>
 
     <section>
-      <title>Processing expectations</title>
-      <p>In text, processors <ph>SHOULD</ph> render the contents of <ph>superscript</ph> as a typographical superscript. In audio and other rendering formats, processors MAY distinguish the contents of <ph>superscript</ph> in some other way.</p>
-
-    </section>
-    <section>
       <title>Attributes</title>
       <p>Link to table!</p>
     </section>
-    <section>
+    <example>
+      <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of superscript in an XDITA topic.</p>
       <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
@@ -48,8 +44,8 @@
     &lt;p>Franchised restaurants should be located in areas of at least 200 ft&lt;sup>2&lt;/sup>.&lt;/p>
   &lt;/body>
 &lt;/topic></pre>
-    </section>
-    <section>
+    </fig>
+    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of superscript in an HDITA topic.</p>
       <pre>  &lt;!DOCTYPE html>
@@ -63,6 +59,7 @@
     &lt;p>Franchised restaurants should be located in areas of at least 200 ft&lt;sup>2&lt;/sup>.&lt;/p>
   &lt;/body>
   &lt;/html></pre>
-    </section>
+    </fig>
+    </example>
   </refbody>
 </reference>
