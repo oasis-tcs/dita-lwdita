@@ -2,10 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-ph">
   <title>Phrase</title>
-  <shortdesc conkeyref="reuse-ph/shortdesc"/>
+  <shortdesc conkeyref="reuse-ph/shortdesc" />
     <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>

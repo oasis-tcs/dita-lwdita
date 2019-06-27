@@ -3,10 +3,10 @@
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-topicmeta">
   <title>Topic metadata</title>
-  <shortdesc conref="../commonspec/specification/common/reuse-w-lwdita/reuse-topicmeta.dita#shortdesc"/>
+  <shortdesc conkeyref="reuse-topicmeta/shortdesc"/>
     <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -24,9 +24,9 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Formatting expectations</title>
-    </section>
+      <section conkeyref="reuse-topicmeta/usage-information" />
+      
+    
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
@@ -35,11 +35,12 @@
 
 
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of topic metadata in an XDITA map.</p>
           <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-xdita"/>
-    </section>
-
+    </fig>
+        </example>
   </refbody>
 </reference>

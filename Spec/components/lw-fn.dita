@@ -31,9 +31,9 @@
       </dl>
     </section>
 
-      <section conkeyref="reuse-fn/usage-information"><title/><p/></section>
-      <section conkeyref="reuse-fn/rendering-expectations"><title/><p/></section>
-    <section>
+      <section conkeyref="reuse-fn/usage-information" />
+      <section conkeyref="reuse-fn/rendering-expectations" />
+       <section>
       <title>Attributes</title>
       <p>Under construction</p>
 

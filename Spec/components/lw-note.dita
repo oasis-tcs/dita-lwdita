@@ -2,8 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-note">
   <title>Note</title>
-<!--  <shortdesc conkeyref="reuse-note/shortdesc"/>-->
-  <shortdesc conref="../common/conref-short-descriptions.dita#conref-short-descriptions/note"/>
+ <shortdesc conkeyref="reuse-note/shortdesc" />
+ 
     <refbody>
     <section>
       <title>Syntax</title>

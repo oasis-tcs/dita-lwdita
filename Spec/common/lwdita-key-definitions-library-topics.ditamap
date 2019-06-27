@@ -64,10 +64,25 @@
             <linktext>preformatted text component</linktext>
         </topicmeta>
     </keydef>
+    <keydef keys="section-element">
+        <topicmeta>
+            <linktext>section component</linktext>
+        </topicmeta>
+    </keydef>
     <keydef keys="shortdesc-element">
         <topicmeta>
             <linktext>short description component</linktext>
-        </topicmeta>
+        </topicmeta> 
+    </keydef>
+    <keydef keys="simpletable-element">
+        <topicmeta>
+            <linktext>table component</linktext>
+        </topicmeta> 
+    </keydef>
+    <keydef keys="topicmeta-element">
+        <topicmeta>
+            <linktext>topic metadata component</linktext>
+        </topicmeta> 
     </keydef>
     <keydef keys="reuse-audio" href="../commonspec/specification/common/reuse-w-lwdita/reuse-audio.dita"/>
     <keydef keys="reuse-data" href="../commonspec/specification/common/reuse-w-lwdita/reuse-data.dita"/>
@@ -81,6 +96,9 @@
     <keydef keys="reuse-note" href="../commonspec/specification/common/reuse-w-lwdita/reuse-note.dita"/>
     <keydef keys="reuse-ph" href="../commonspec/specification/common/reuse-w-lwdita/reuse-ph.dita"/>
     <keydef keys="reuse-pre" href="../commonspec/specification/common/reuse-w-lwdita/reuse-pre.dita"/>
+    <keydef keys="reuse-section" href="../commonspec/specification/common/reuse-w-lwdita/reuse-section.dita"/>
     <keydef keys="reuse-shortdesc" href="../commonspec/specification/common/reuse-w-lwdita/reuse-shortdesc.dita"/>
+    <keydef keys="reuse-simpletable" href="../commonspec/specification/common/reuse-w-lwdita/reuse-simpletable.dita"/>
+    <keydef keys="reuse-topicmeta" href="../commonspec/specification/common/reuse-w-lwdita/reuse-topicmeta.dita"/>
     <keydef keys="common-shortdescs" href="../commonspec/specification/common/conref-short-descriptions.dita"/>
 </map>

@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-shortdesc">
   <title>Short description</title>
-  <shortdesc conkeyref="reuse-shortdesc/shortdesc"/>
+  <shortdesc conkeyref="reuse-shortdesc/shortdesc" />
     <refbody>
       <section id="syntax">
         <title>Syntax</title>
@@ -20,8 +20,8 @@
             <dd>First block, if it is a paragraph, after title </dd>
           </dlentry>
         </dl>  </section>
-      <section conkeyref="reuse-shortdesc/usage-information"><title/><p/></section>
-      <section conkeyref="reuse-shortdesc/rendering-expectations"><title/><p/></section>
+      <section conkeyref="reuse-shortdesc/usage-information" />
+      <section conkeyref="reuse-shortdesc/rendering-expectations" />
       
       <section id="attributes">
         <title>Attributes</title>

@@ -3,7 +3,7 @@
 <reference id="lw-map">
   <title>Map</title>
 <shortdesc conkeyref="reuse-map/shortdesc" />
-  <shortdesc/>
+
     <refbody>
     <section>
       <title>Syntax</title>

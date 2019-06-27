@@ -24,8 +24,8 @@
         </dlentry>
       </dl>
     </section>
-      <section conkeyref="reuse-image/rendering-expectations"><title/><p/></section>
-    <section>
+      <section conkeyref="reuse-image/rendering-expectations" />
+        <section>
       <title>Attributes</title>
       <p>Under construction</p>
 
