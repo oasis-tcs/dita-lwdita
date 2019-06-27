@@ -4,7 +4,12 @@
     <title>Key definitions: Library topics for LwDITA</title>
     <keydef keys="library-short-descriptions" href="commonspec/specification/common/conref-short-descriptions.dita"/>
 
-    <keydef keys="data-element">
+    <keydef keys="audio-element">
+        <topicmeta>
+            <linktext>audio component</linktext>
+        </topicmeta>
+    </keydef>
+      <keydef keys="data-element">
         <topicmeta>
             <linktext>data component</linktext>
         </topicmeta>

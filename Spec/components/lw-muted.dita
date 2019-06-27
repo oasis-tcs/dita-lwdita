@@ -3,10 +3,10 @@
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-muted">
   <title>Muted</title>
-  <shortdesc conref="../commonspec/specification/common/reuse-w-lwdita/reuse-media-muted.dita#shortdesc"/>
+  <shortdesc conkeyref="reuse-media-muted/shortdesc" />
     <refbody>
     <section>
-      <title>Usage information</title>
+      <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
@@ -25,9 +25,8 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Formatting expectations</title>
-    </section>
+      <section conkeyref="reuse-media-muted/usage-information" />
+      
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
@@ -36,19 +35,21 @@
       
       
     </section>
-        <section>
+        <example>
+          <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of muted in an XDITA topic.</p>
           <pre conref="../common/common-examples.dita#common-examples/multimedia-xdita"/>
        
-    </section>
+    </fig>
     
-    <section>
+    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of muted in an HDITA topic.</p>
       <pre conref="../common/common-examples.dita#common-examples/multimedia-hdita"/>
      
-    </section>
+    </fig>
+        </example>
     
   </refbody>
 </reference>

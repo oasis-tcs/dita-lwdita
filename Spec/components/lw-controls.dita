@@ -3,7 +3,7 @@
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-controls">
   <title>Controls</title>
-  <shortdesc conkeyref="common-shortdescs/media-controls"/>
+  <shortdesc conkeyref="reuse-media-controls/shortdesc" />
     <refbody>
     <section>
       <title>Syntax</title>
@@ -25,9 +25,8 @@
         </dlentry>
       </dl>
     </section>
-    <section>
-      <title>Formatting expectations</title>
-    </section>
+      <section conkeyref="reuse-media-controls/usage-information" />
+      
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
