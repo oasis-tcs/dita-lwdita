@@ -3,6 +3,12 @@
 <map>
     <title>Key definitions: Library topics for LwDITA</title>
     <keydef keys="library-short-descriptions" href="../commonspec/specification/common/conref-short-descriptions.dita"/>
+    
+    <keydef keys="audio-element">
+        <topicmeta>
+            <linktext>audio component</linktext>
+        </topicmeta>
+    </keydef>
     <keydef keys="data-element">
         <topicmeta>
             <linktext>data component</linktext>
@@ -63,6 +69,7 @@
             <linktext>short description component</linktext>
         </topicmeta>
     </keydef>
+    <keydef keys="reuse-audio" href="../commonspec/specification/common/reuse-w-lwdita/reuse-audio.dita"/>
     <keydef keys="reuse-data" href="../commonspec/specification/common/reuse-w-lwdita/reuse-data.dita"/>
     <keydef keys="reuse-desc" href="../commonspec/specification/common/reuse-w-lwdita/reuse-desc.dita"/>
     <keydef keys="reuse-fn" href="../commonspec/specification/common/reuse-w-lwdita/reuse-fn.dita"/>

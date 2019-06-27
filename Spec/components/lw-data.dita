@@ -27,8 +27,8 @@
         </dlentry>
       </dl>
     </section>
-      <section conkeyref="reuse-data/usage-information"><title/><p/></section>
-      <section conkeyref="reuse-data/rendering-expectations"><title/><p/></section>
+      <section conkeyref="reuse-data/usage-information" />
+      <section conkeyref="reuse-data/rendering-expectations" />
       
     
     <section>

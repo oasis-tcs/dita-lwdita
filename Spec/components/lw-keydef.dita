@@ -23,8 +23,8 @@
         </dlentry>
       </dl>
     </section>
-      <section conkeyref="reuse-keydef/usage-information"><title/><p/></section>
- 
+      <section conkeyref="reuse-keydef/usage-information" />
+      
     <section>
       <title>Attributes</title>
       <p>Under construction</p>
