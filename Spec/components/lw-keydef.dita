@@ -24,38 +24,39 @@
       </dl>
     </section>
       <section conkeyref="reuse-keydef/usage-information" />
-      
+
     <section>
       <title>Attributes</title>
       <p>Under construction</p>
-      
-      
-      
-      
+
+
+
+
     </section>
         <example>
+          <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of key definition in an XDITA map.</p>
           <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-xdita"/>
-       
+
     </fig>
-    
+
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of key definition in an HDITA map.</p>
       <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-hdita"/>
-     
+
     </fig>
-    
-    
+
+
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of key definition in an MDITA extended profile
         map.</p>
       <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-mdita"/>
-    
-      
+
+
     </fig>
         </example>
   </refbody>

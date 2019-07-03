@@ -2,7 +2,7 @@
 <!DOCTYPE reference
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-video">
-  <title>Video</title> 
+  <title>Video</title>
   <shortdesc conkeyref="reuse-video/shortdesc" />
     <refbody>
     <section>
@@ -19,7 +19,7 @@
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
           <dd>
-            
+
             <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/>
           </dd>
         </dlentry>
@@ -27,8 +27,8 @@
     </section>
       <section conkeyref="reuse-video/usage-information" />
       <section conkeyref="reuse-video/rendering-expectations" />
-      
-    
+
+
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
@@ -38,6 +38,7 @@
 
     </section>
         <example>
+          <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of video in an XDITA topic.</p>

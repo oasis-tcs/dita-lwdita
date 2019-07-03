@@ -3,7 +3,7 @@
 <reference id="lw-linktext">
   <title>Link text</title>
  <shortdesc conkeyref="reuse-linktext/shortdesc"/>
- 
+
     <refbody>
     <section>
       <title>Syntax</title>
@@ -25,7 +25,7 @@
       </dl>
     </section>
       <section conkeyref="reuse-linktext/usage-information" />
-      
+
         <section>
       <title>Attributes</title>
       <p>Under construction</p>
@@ -35,6 +35,7 @@
 
     </section>
         <example>
+          <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of link text in an XDITA map.</p>

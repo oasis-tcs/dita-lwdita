@@ -21,11 +21,11 @@
         </dlentry>
       </dl>
     </section>
-   
+
       <section conkeyref="reuse-section/usage-information" />
       <section conkeyref="reuse-section/rendering-expectations" />
-     
-   
+
+
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
@@ -35,6 +35,7 @@
 
     </section>
         <example>
+          <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of section in an XDITA topic.</p>

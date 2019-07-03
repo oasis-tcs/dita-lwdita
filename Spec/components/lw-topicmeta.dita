@@ -25,8 +25,8 @@
       </dl>
     </section>
       <section conkeyref="reuse-topicmeta/usage-information" />
-      
-    
+
+
     <section>
       <title>Attributes</title>
       <p>Link to table!</p>
@@ -36,6 +36,7 @@
 
     </section>
         <example>
+          <title>Example</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of topic metadata in an XDITA map.</p>

@@ -22,7 +22,7 @@
         </dl>  </section>
       <section conkeyref="reuse-shortdesc/usage-information" />
       <section conkeyref="reuse-shortdesc/rendering-expectations" />
-      
+
       <section id="attributes">
         <title>Attributes</title>
         <dl>
@@ -39,7 +39,7 @@
                   <dd><xmlatt>class</xmlatt>, <xmlatt>id</xmlatt></dd>
                 </dlentry></dl>
             </dd>
-            
+
           </dlentry>
           <dlentry>
             <dt>Metadata</dt>
@@ -53,7 +53,7 @@
                   <dd><xmlatt>data-props</xmlatt></dd>
                 </dlentry></dl>
             </dd>
-            
+
           </dlentry>
           <dlentry>
             <dt>Localization</dt>
@@ -80,7 +80,7 @@
                   <dd><xmlatt>href</xmlatt>, <xmlatt>type</xmlatt>, <xmlatt>rel</xmlatt></dd>
                 </dlentry></dl>
             </dd>
-            
+
           </dlentry>
           <dlentry>
             <dt>Reuse</dt>
@@ -100,10 +100,11 @@
               </dl>
             </dd>
           </dlentry>
-          
+
         </dl>
       </section>
       <example id="example" otherprops="examples">
+        <title>Examples</title>
         <fig>
           <title>XDITA example</title>
           <p>The following example demonstrates the use of a short description in an XDITA topic.</p>
@@ -116,7 +117,7 @@
             &lt;/shortdesc>
             &lt;/topic></codeblock>
         </fig>
-        
+
         <fig>
           <title>HDITA example</title>
           <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
@@ -133,15 +134,15 @@
             &lt;/body>
             &lt;/html></codeblock>
         </fig>
-        
-        
+
+
         <fig>
           <title>MDITA example</title>
           <p>The following example demonstrates the use of a short description in an MDITA topic.</p>
           <codeblock># Installing and Setting up Remote Lighting
-            
+
             Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</codeblock>
-          
+
         </fig>
       </example>
     </refbody>

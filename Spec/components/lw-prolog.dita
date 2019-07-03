@@ -23,7 +23,7 @@
         </dlentry>
       </dl>
     </section>
-    
+
     <section>
       <title>Attributes</title>
       <p>Under construction</p>
@@ -33,13 +33,14 @@
 
     </section>
         <example>
+          <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of prolog in an XDITA topic.</p>
 
           <pre conref="../common/common-examples.dita#common-examples/data-prolog-xdita"/>
           </fig>
-     
+
 
     <fig>
       <title>HDITA example</title>

@@ -3,7 +3,7 @@
 <reference id="lw-note">
   <title>Note</title>
  <shortdesc conkeyref="reuse-note/shortdesc" />
- 
+
     <refbody>
     <section>
       <title>Syntax</title>
@@ -34,6 +34,7 @@
 
     </section>
         <example>
+          <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of note in an XDITA topic.</p>
