@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
-<reference id="Notices" xml:lang="en-us" outputclass="frontmatternotices">
+<reference id="Notices" xml:lang="en-us">
   <title>Notices</title>
   <refbody>
     <section id="section-1">
-      <p outputclass="no-space-before">Copyright © OASIS Open 2019. All Rights Reserved.</p>
+      <p>Copyright © OASIS Open 2019. All Rights Reserved.</p>
       <p>All capitalized terms in the following text have the meanings assigned to them in the OASIS
         Intellectual Property Rights Policy (the "OASIS IPR Policy"). The full <xref keyref="oasis-ipr">Policy</xref> may be found at the OASIS website.</p>
       <p>This document and translations of it may be copied and furnished to others, and derivative

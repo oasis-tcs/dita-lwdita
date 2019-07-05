@@ -6,26 +6,22 @@
   <refbody>
     <section platform="dita-tc-publishing" id="section-1">
       <title>This version</title>
-      <sl outputclass="no-indent">
-        <sli><xref keyref="oasis-this-version-html"><!--<keyword keyref="part-0-html"/>--></xref>
-          (Authoritative version) </sli>
-        <sli><xref keyref="oasis-this-version-pdf"
-          ><!--<keyword keyref="part-0-pdf"/>--></xref></sli>
+      <sl>
+        <sli><xref keyref="oasis-this-version-html"/> (Authoritative version) </sli>
+        <sli><xref keyref="oasis-this-version-pdf"/></sli>
       </sl>
     </section>
     <section platform="dita-tc-publishing" id="section-2">
       <title>Previous version</title>
-      <!--<sl outputclass="no-indent"><sli/></sl>-->
+      <!--<sl><sli/></sl>-->
       <p>N/A</p>
     </section>
     <section platform="dita-tc-publishing" id="section-3">
       <title>Latest version</title>
-      <sl outputclass="no-indent">
+      <sl>
         <sli>
-          <xref keyref="oasis-latest-version-html"
-            ><!--<keyword keyref="latest-part-0-html"/>--></xref> (Authoritative version) </sli>
-        <sli><xref keyref="oasis-latest-version-pdf"
-            ><!--<keyword keyref="latest-part-0-pdf"/>--></xref></sli>
+          <xref keyref="oasis-latest-version-html"/> (Authoritative version) </sli>
+        <sli><xref keyref="oasis-latest-version-pdf"/></sli>
       </sl>
     </section>
     <section conref="../common/conref-cover-pages.dita#reuse/technical-committee" id="section-4"/>
