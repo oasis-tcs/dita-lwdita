@@ -3,8 +3,8 @@
 <bookmap xml:lang="en-us">
  <booktitle>
   <mainbooktitle>Lightweight DITA Version 1.0</mainbooktitle>
-  <booktitlealt outputclass="documentStage"><keyword keyref="oasis-specification-level"/></booktitlealt>
-  <booktitlealt outputclass="stageDate"/>
+  <booktitlealt outputclass="documentStage"><keyword keyref="stage"/></booktitlealt>
+  <booktitlealt outputclass="stageDate"><keyword keyref="stage-date"/></booktitlealt>
  </booktitle>
  <bookmeta>
   <shortdesc>Lightweight DITA 1.0 specification</shortdesc>
