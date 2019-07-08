@@ -10,13 +10,13 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;media-autoplay> inside <xref href="lw-audio.dita">&lt;audio></xref> or <xref href="lw-video.dita">&lt;video></xref></p></dd>
+          <dd><p><xmlelement>media-autoplay</xmlelement> inside <xref href="lw-audio.dita"><xmlelement>audio></xmlelement></xref> or <xref href="lw-video.dita"><xmlelement>video</xmlelement></xref></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>@autoplay attribute on <xref href="lw-audio.dita">&lt;audio></xref> or <xref
-                href="lw-video.dita">&lt;video></xref></p>
+            <p><xmlatt>autoplay</xmlatt> attribute on <xref href="lw-audio.dita"><xmlelement>audio</xmlelement></xref> or <xref
+                href="lw-video.dita"><xmlelement>video</xmlelement></xref></p>
           </dd>
         </dlentry>
         <dlentry>

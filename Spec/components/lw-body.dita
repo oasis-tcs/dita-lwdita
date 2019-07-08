@@ -9,12 +9,12 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;body></p></dd>
+          <dd><p><xmlelement>body</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;body></p>
+            <p><xmlelement>body</xmlelement></p>
           </dd>
         </dlentry>
         <dlentry>
@@ -37,26 +37,26 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of body in an XDITA topic.</p>
-      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="franchise-intro">
   &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
   &lt;shortdesc>Are you interested in investing with us? Welcome to our franchise information package.&lt;/shortdesc>
-&lt;/topic></pre>
+&lt;/topic></codeblock>
 
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of body in an HDITA topic.</p>
-      <pre>&lt;!DOCTYPE html>
+      <codeblock>&lt;!DOCTYPE html>
 &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
 &lt;body>
   &lt;article id="franchise-intro">
     &lt;h1>An innovative, attractive, and out of the ordinary concept&lt;/h1>
     &lt;p>Are you interested in investing with us? Welcome to our franchise information package.&lt;/p>
   &lt;/article>
-&lt;/body></pre>
+&lt;/body></codeblock>
 
     </fig>
 
@@ -64,9 +64,9 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the equivalent of the body component in an MDITA topic. </p>
-      <pre># An innovative, attractive, and out of the ordinary concept
+      <codeblock># An innovative, attractive, and out of the ordinary concept
 
-Are you interested in investing with us? Welcome to our franchise information package.</pre>
+Are you interested in investing with us? Welcome to our franchise information package.</codeblock>
 
 
     </fig>

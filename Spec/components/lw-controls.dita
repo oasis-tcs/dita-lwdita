@@ -3,19 +3,19 @@
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-controls">
   <title>Controls</title>
-  <shortdesc conkeyref="reuse-media-controls/shortdesc" />
+  <shortdesc conkeyref="reuse-media-controls/shortdesc"/>
     <refbody>
     <section>
       <title>Syntax</title>
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;media-controls> inside <xref href="lw-audio.dita">&lt;audio></xref> or <xref href="lw-video.dita">&lt;video></xref></p></dd>
+          <dd><p><xmlelement>media-controls</xmlelement> inside <xref href="lw-audio.dita"><xmlelement>audio</xmlelement></xref> or <xref href="lw-video.dita"><xmlelement>video</xmlelement></xref></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>@controls attribute on <xref href="lw-audio.dita">&lt;audio></xref> or <xref href="lw-video.dita"
-                >&lt;video></xref></p></dd>
+          <dd><p><xmlatt>controls</xmlatt> attribute on <xref href="lw-audio.dita"><xmlelement>audio</xmlelement></xref> or <xref href="lw-video.dita"
+            ><xmlelement>video</xmlelement></xref></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
@@ -25,7 +25,7 @@
         </dlentry>
       </dl>
     </section>
-      <section conkeyref="reuse-media-controls/usage-information" />
+      <section conkeyref="reuse-media-controls/usage-information"/>
       
     <section>
       <title>Attributes</title>

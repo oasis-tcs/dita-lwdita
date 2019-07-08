@@ -9,12 +9,12 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;data></p></dd>
+          <dd><p><xmlelement>data</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;meta> inside &lt;head></p>
+            <p><xmlelement>meta</xmlelement> inside <xmlelement>head</xmlelement></p>
           </dd>
         </dlentry>
         <dlentry>

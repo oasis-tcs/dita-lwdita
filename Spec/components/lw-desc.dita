@@ -10,15 +10,15 @@
         <dlentry>
           <dt>XDITA</dt>
           <dd>
-            <p>&lt;desc> inside <xref href="lw-audio.dita" format="dita">&lt;audio></xref>,<xref
-                href="lw-fig.dita" format="dita">&lt;fig></xref>, and <xref href="lw-video.dita"
-                format="dita">&lt;video></xref></p></dd>
+            <p><xmlelement>desc</xmlelement> inside <xref href="lw-audio.dita" format="dita"><xmlelement>audio></xmlelement></xref>,<xref
+                href="lw-fig.dita" format="dita"><xmlelement>fig></xmlelement></xref>, and <xref href="lw-video.dita"
+                format="dita"><xmlelement>video></xmlelement></xref></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>@title attribute in <xref href="lw-audio.dita" format="dita">&lt;audio></xref> and
-                <xref href="lw-video.dita" format="dita">&lt;video></xref>. There is no specific
+            <p><xmlatt>title</xmlatt> attribute in <xref href="lw-audio.dita" format="dita"><xmlelement>audio</xmlelement></xref> and
+              <xref href="lw-video.dita" format="dita"><xmlelement>video</xmlelement></xref>. There is no specific
               syntax for description in a figure component in HDITA.</p></dd>
         </dlentry>
         <dlentry>
@@ -42,7 +42,7 @@
       <title>XDITA example</title>
       <p>The following example demonstrates the use of description in a figure component in an XDITA
         topic.</p>
-      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
 &lt;topic id="intro-product">
   &lt;title>Remote Lighting Overview&lt;/title>
@@ -53,7 +53,7 @@
       &lt;image href="images/kit-package.jpg">&lt;alt>Retail package for the Remote Lighting Network kit &lt;/alt>&lt;/image>
     &lt;/fig>
   &lt;/body>
-&lt;/topic></pre>
+&lt;/topic></codeblock>
       
 
     </fig>

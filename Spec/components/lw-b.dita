@@ -9,15 +9,15 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;b></p></dd>
+          <dd><p><xmlelement>b</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;strong></p></dd>
+          <dd><p><xmlelement>strong</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>** or __</p></dd>
+          <dd><p><codeph>**</codeph> or <codeph>__</codeph></p></dd>
         </dlentry>
       </dl>
     </section>
@@ -35,19 +35,19 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of bold text in an XDITA topic.</p>
-      <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock> &lt;?xml version="1.0" encoding="UTF-8"?>
  &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
  &lt;topic id="max-number-bulbs">
    &lt;title>Maximum Number of Network Light Bulbs&lt;/title>
    &lt;p>There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease.
   Testing has shown that the lighting network should be limited to a &lt;b>maximum of 250 light bulbs&lt;/b> to maintain reliability in
   performance.&lt;/p>
-  &lt;/topic></pre>
+  &lt;/topic></codeblock>
           </fig>
    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of bold text in an HDITA topic.</p>
-      <pre>  &lt;!DOCTYPE html>
+      <codeblock>  &lt;!DOCTYPE html>
   &lt;html>
   &lt;head>
   &lt;title>Maximum Number of Network Light Bulbs&lt;/title>
@@ -60,18 +60,18 @@
   performance.&lt;/p>
     &lt;/article>
   &lt;/body>
-  &lt;/html></pre>
+  &lt;/html></codeblock>
     </fig>
 
 
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of bold text in an MDITA topic.</p>
-      <pre>  # Maximum Number of Network Light Bulbs
+      <codeblock>  # Maximum Number of Network Light Bulbs
 
   There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease.
   Testing has shown that the lighting network should be limited to a **maximum of 250 light bulbs** to maintain reliability in
-  performance.</pre>
+  performance.</codeblock>
 
     </fig>
         </example>

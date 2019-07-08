@@ -9,11 +9,11 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;audio></p></dd>
+          <dd><p><xmlelement>audio</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;audio></p></dd>
+          <dd><p><xmlelement>audio</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
@@ -39,7 +39,7 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of audio in an XDITA topic.</p>
-      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="theme-song">
   &lt;title>Theme song for our radio show&lt;/title>
@@ -54,14 +54,14 @@
       &lt;media-track value="theme-song.vtt" type="captions"/>
     &lt;/audio>
   &lt;/body>
-&lt;/topic></pre>
+&lt;/topic></codeblock>
 
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of audio in an HDITA topic.</p>
-      <pre>&lt;!DOCTYPE html>
+      <codeblock>&lt;!DOCTYPE html>
 &lt;title>Theme song for our radio show&lt;/title>
 &lt;body>
   &lt;article id="theme-song">
@@ -71,7 +71,7 @@
   &lt;track src="theme-song.vtt" kind="captions"/>
 &lt;/audio>
   &lt;/article>
-&lt;/body></pre>
+&lt;/body></codeblock>
 
     </fig>
 
