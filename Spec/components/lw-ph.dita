@@ -9,11 +9,11 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;ph></p></dd>
+          <dd><p><xmlelement>ph</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;span></p></dd>
+          <dd><p><xmlelement>span</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
@@ -38,7 +38,7 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of phrase in an XDITA topic.</p>
-      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="franchise-offer">
   &lt;title>What we offer&lt;/title>
@@ -50,14 +50,14 @@
       &lt;li>&lt;p>Support through online, email, and telephone channels&lt;/p>&lt;/li>
     &lt;/ul>
   &lt;/body>
-&lt;/topic></pre>
+&lt;/topic></codeblock>
 
           </fig>
 
           <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of phrase in an HDITA topic.</p>
-      <pre>&lt;!DOCTYPE html>
+      <codeblock>&lt;!DOCTYPE html>
 &lt;title>What we offer&lt;/title>
 &lt;body>
   &lt;article id="franchise-offer">
@@ -77,7 +77,7 @@
       &lt;/li>
     &lt;/ul>
   &lt;/article>
-&lt;/body></pre>
+&lt;/body></codeblock>
 
           </fig>
 
@@ -86,7 +86,7 @@
       <title>MDITA example</title>
       <p>The following example demonstrates the use of phrase, via an HDITA snippet, in an MDITA
         topic.</p>
-      <pre># What we offer
+      <codeblock># What we offer
 
 -   &lt;span translate="no">"Know how"&lt;/span> license
 
@@ -94,7 +94,7 @@
 
 -   Initial training
 
--   Support through online, email, and telephone channels</pre>
+-   Support through online, email, and telephone channels</codeblock>
 
 
           </fig>

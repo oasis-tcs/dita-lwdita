@@ -9,11 +9,11 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;ol></p></dd>
+          <dd><p><xmlelement>ol</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;ol></p></dd>
+          <dd><p><xmlelement>ol</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>

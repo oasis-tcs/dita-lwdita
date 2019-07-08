@@ -9,11 +9,11 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;p></p></dd>
+          <dd><p><xmlelement>p</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;p></p></dd>
+          <dd><p><xmlelement>p</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
@@ -37,28 +37,28 @@
         <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of paragraph in an XDITA topic.</p>
-      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="franchise-intro">
   &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
    &lt;body>
     &lt;p>We offer more than 30 exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.&lt;/p>
   &lt;/body>
-&lt;/topic></pre>
+&lt;/topic></codeblock>
 
         </fig>
 
           <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of paragraph in an HDITA topic.</p>
-      <pre>&lt;!DOCTYPE html>
+      <codeblock>&lt;!DOCTYPE html>
 &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
 &lt;body>
   &lt;article id="franchise-intro">
     &lt;h1>An innovative, attractive, and out of the ordinary concept&lt;/h1>
     &lt;p>We offer more than 30 exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.&lt;/p>
   &lt;/article>
-&lt;/body></pre>
+&lt;/body></codeblock>
 
           </fig>
 
@@ -66,9 +66,9 @@
           <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of paragraph in an MDITA topic.</p>
-      <pre># An innovative, attractive, and out of the ordinary concept
+      <codeblock># An innovative, attractive, and out of the ordinary concept
 
-We offer more than 30 exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.</pre>
+We offer more than 30 exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.</codeblock>
 
 
           </fig>

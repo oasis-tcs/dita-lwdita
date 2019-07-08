@@ -11,7 +11,7 @@
         <dlentry>
           <dt>XDITA</dt>
           <dd>
-            <p>&lt;navtitle></p>
+            <p><xmlelement>navtitle</xmlelement></p>
           </dd>
         </dlentry>
         <dlentry>

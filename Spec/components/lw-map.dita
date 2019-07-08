@@ -10,11 +10,11 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;map></p></dd>
+          <dd><p><xmlelement>map</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;nav></p></dd>
+          <dd><p><xmlelement>nav</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>

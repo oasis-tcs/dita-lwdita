@@ -10,12 +10,12 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;media-muted> inside <xref href="lw-audio.dita">&lt;audio></xref> or <xref href="lw-video.dita">&lt;video></xref></p></dd>
+          <dd><p><xmlelement>media-muted</xmlelement> inside <xref href="lw-audio.dita"><xmlelement>audio</xmlelement></xref> or <xref href="lw-video.dita"><xmlelement>video</xmlelement></xref></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>@muted attribute on <xref href="lw-audio.dita">&lt;audio></xref> or <xref href="lw-video.dita"
-                >&lt;video></xref></p></dd>
+          <dd><p><xmlatt>muted</xmlatt> attribute on <xref href="lw-audio.dita"><xmlelement>audio</xmlelement></xref> or <xref href="lw-video.dita"
+            ><xmlelement>video</xmlelement></xref></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>

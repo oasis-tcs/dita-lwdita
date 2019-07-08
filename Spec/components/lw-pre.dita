@@ -9,15 +9,15 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;pre></p></dd>
+          <dd><p><xmlelement>pre</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;pre></p></dd>
+          <dd><p><xmlelement>pre</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Fenced code blocks (e.g. ```text```) or indented code blocks (e.g.     text)</p></dd>
+          <dd><p>Fenced code blocks (e.g. <codeph>```text```</codeph>) or indented code blocks (e.g.     <codeph>textK</codeph>)</p></dd>
         </dlentry>
       </dl>
     </section>
@@ -36,7 +36,7 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of preformatted text in an XDITA topic.</p>
-      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="sensei-promise">
   &lt;title>The Sensei Sushi Promise&lt;/title>
@@ -47,14 +47,14 @@
       Sensei Sushi cares about fun.
      &lt;/pre>
   &lt;/body>
-&lt;/topic></pre>
+&lt;/topic></codeblock>
 
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of preformatted text in an HDITA topic.</p>
-      <pre>&lt;!DOCTYPE html>
+      <codeblock>&lt;!DOCTYPE html>
 &lt;title>The Sensei Sushi Promise&lt;/title>
 &lt;body>
   &lt;article id="sensei-promise">
@@ -65,7 +65,7 @@
       Sensei Sushi cares about fun.
     &lt;/pre>
   &lt;/article>
-&lt;/body></pre>
+&lt;/body></codeblock>
 
     </fig>
 
@@ -73,14 +73,14 @@
           <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of preformatted text in an MDITA topic.</p>
-      <pre># The Sensei Sushi Promise
+      <codeblock># The Sensei Sushi Promise
 
 
           Sensei Sushi cares about tradition
 
           Sensei Sushi cares about the customer
 
-          Sensei Sushi cares about fun.</pre>
+          Sensei Sushi cares about fun.</codeblock>
 
 
           </fig>
