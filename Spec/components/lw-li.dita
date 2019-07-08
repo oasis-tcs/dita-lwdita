@@ -9,17 +9,17 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;li> inside <xref href="lw-ol.dita">&lt;ol></xref> or <xref href="lw-ul.dita">&lt;ul></xref></p></dd>
+          <dd><p><xmlelement>li</xmlelement> inside <xref href="lw-ol.dita"><xmlelement>ol</xmlelement></xref> or <xref href="lw-ul.dita"><xmlelement>ul</xmlelement></xref></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;li> inside <xref href="lw-ol.dita">&lt;ol></xref> or <xref href="lw-ul.dita">&lt;ul></xref></p></dd>
+            <p><xmlelement>li</xmlelement> inside <xref href="lw-ol.dita"><xmlelement>ol</xmlelement></xref> or <xref href="lw-ul.dita"><xmlelement>ul</xmlelement></xref></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
           <dd>
-            <p>-, +, or * for unordered list, and 0-9 and . or ) for ordered list</p>
+            <p><codeph>-</codeph>, <codeph>+</codeph>, or <codeph>*</codeph> for unordered list, and <codeph>0</codeph>-<codeph>9</codeph> and <codeph>.</codeph> or <codeph>)</codeph> for ordered list</p>
           </dd>
         </dlentry>
       </dl>

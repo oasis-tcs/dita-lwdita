@@ -10,17 +10,17 @@
         <dlentry>
           <dt>XDITA</dt>
           <dd>
-            <p>&lt;image>  </p>
-            <p>In XDITA, &lt;image> is always treated as an inline element; an &lt;image> inside a
-                <xref href="lw-fig.dita" format="dita">&lt;fig></xref> is treated as a block element </p></dd>
+            <p><xmlelement>image</xmlelement></p>
+            <p>In XDITA, <xmlelement>image</xmlelement> is always treated as an inline element; an <xmlelement>image</xmlelement> inside a
+              <xref href="lw-fig.dita" format="dita"><xmlelement>fig</xmlelement></xref> is treated as a block element </p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;img></p></dd>
+          <dd><p><xmlelement>img</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>![alt text for an image](images/image_name.jpg)</p></dd>
+          <dd><p><codeph>![alt text for an image](images/image_name.jpg)</codeph></p></dd>
         </dlentry>
       </dl>
     </section>
@@ -38,7 +38,7 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of image in an XDITA topic.</p>
-      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="franchise-intro">
   &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
@@ -49,14 +49,14 @@
       &lt;/image> than 30 exclusive creations for original rolls, from the California roll to sushi
       with BBQ chicken or grilled steak.&lt;/p>
   &lt;/body>
-&lt;/topic></pre>
+&lt;/topic></codeblock>
 
     </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of image in an HDITA topic.</p>
-      <pre>&lt;!DOCTYPE html>
+      <codeblock>&lt;!DOCTYPE html>
 &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
 &lt;body>
   &lt;article id="franchise-intro">
@@ -64,7 +64,7 @@
     &lt;p>Are you interested in investing with us? Welcome to our franchise information package.&lt;/p>
     &lt;p>We offer &lt;img src="images/plus-sign.jpg" alt="Icon for a plus sign" /> than 30 exclusive creations for original rolls, from the California roll to sushi with BBQ chicken or grilled steak.&lt;/p>
   &lt;/article>
-&lt;/body></pre>
+&lt;/body></codeblock>
 
     </fig>
 
@@ -72,14 +72,14 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of image in an MDITA topic.</p>
-      <pre># An innovative, attractive, and out of the ordinary concept
+      <codeblock># An innovative, attractive, and out of the ordinary concept
 
 Are you interested in investing with us? Welcome to our franchise
 information package.
 
 We offer ![Icon for a plus sign](images/plus-sign.jpg) than 30
 exclusive creations for original rolls, from the California roll to
-sushi with BBQ chicken or grilled steak.</pre>
+sushi with BBQ chicken or grilled steak.</codeblock>
 
 
     </fig>

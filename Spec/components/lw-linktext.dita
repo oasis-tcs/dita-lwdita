@@ -11,11 +11,11 @@
         <dlentry>
           <dt>XDITA</dt>
           <dd>
-            <p>&lt;linktext> </p></dd>
+            <p><xmlelement>linktext</xmlelement> </p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;span data-class="linktext"></p></dd>
+          <dd><p><xmlelement>span data-class="linktext"</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (extended profile)</dt>

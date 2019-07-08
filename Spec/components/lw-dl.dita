@@ -9,16 +9,16 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;dl></p></dd>
+          <dd><p><xmlelement>dl</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;dl></p></dd>
+          <dd><p><xmlelement>dl</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (extended profile)</dt>
           <dd>
-            <p>A single-line term followed by a colon and the definition for that term, following
+            <p>A single-line term followed by a colon (<codeph>:</codeph>) and the definition for that term, following
               the <xref href="https://michelf.ca/projects/php-markdown/extra/#def-list"
                 format="html" scope="external">PHP Markdown Extra syntax for definition
               list</xref></p>

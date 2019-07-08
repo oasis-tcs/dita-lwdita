@@ -10,11 +10,11 @@
         <dlentry>
           <dt>XDITA</dt>
           <dd>
-            <p>&lt;keydef> </p></dd>
+            <p><xmlelement>keydef</xmlelement> </p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;div data-class="keydef"></p></dd>
+          <dd><p><xmlelement>div data-class="keydef"</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (extended profile)</dt>
