@@ -9,20 +9,20 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;title> in &lt;topic>, &lt;section>, &lt;fig>... where else?</p></dd>
+          <dd><p><xmlelement>title</xmlelement> in <xmlelement>topic</xmlelement>, <xmlelement>section</xmlelement>, <xmlelement>fig</xmlelement>... where else???</p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;h1> and &lt;title> for <xref href="lw-topic.dita" format="dita">topic</xref>;
-              &lt;h2> for <xref href="lw-section.dita" format="dita">section</xref> (Title should
-              map to both &lt;title> and &lt;h1> in HDITA). Better way to say this? &lt;figcaption>
-              in &lt;figure>. Title also applied to audio and video in HDITA as attribute</p>
+            <p><xmlelement>h1</xmlelement> and <xmlelement>title</xmlelement> for <xref href="lw-topic.dita" format="dita">topic</xref>;
+              <xmlelement>h2</xmlelement> for <xref href="lw-section.dita" format="dita">section</xref> (Title should
+              map to both <xmlelement>title</xmlelement> and <xmlelement>h1</xmlelement> in HDITA). Better way to say this??? <xmlelement>figcaption</xmlelement>
+              in <xmlelement>figure</xmlelement>. Title also applied to audio and video in HDITA as attribute???</p>
           </dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p># or === underline for <xref href="lw-topic.dita">topic</xref>; ## or ----- underline for <xref href="lw-section.dita">section</xref> </p></dd>
+          <dd><p><codeph>#</codeph> or <codeph>===</codeph> underline for <xref href="lw-topic.dita">topic</xref>; <codeph>##</codeph> or <codeph>-----</codeph> underline for <xref href="lw-section.dita">section</xref> </p></dd>
         </dlentry>
       </dl>
     </section>
@@ -40,20 +40,20 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a title in an XDITA topic.</p>
-      <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock> &lt;?xml version="1.0" encoding="UTF-8"?>
  &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
  &lt;topic id="install-and-setup">
    &lt;title>Installing and Setting up Remote Lighting&lt;/title>
    &lt;shortdesc>Installation of your lighting kit includes installing the light bulbs into
    light fixtures, preparing the remote control, and programming lighting groups.
    &lt;/shortdesc>
-  &lt;/topic></pre>
+  &lt;/topic></codeblock>
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a title in an HDITA topic.</p>
-      <pre>  &lt;!DOCTYPE html>
+      <codeblock>  &lt;!DOCTYPE html>
   &lt;html>
   &lt;head>
   &lt;title>Installing and Setting up Remote Lighting&lt;/title>
@@ -64,16 +64,16 @@
     &lt;p>Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.&lt;/p>
   &lt;/article>
   &lt;/body>
-  &lt;/html></pre>
+  &lt;/html></codeblock>
     </fig>
 
 
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a title in an MDITA topic.</p>
-      <pre>  # Installing and Setting up Remote Lighting
+      <codeblock>  # Installing and Setting up Remote Lighting
 
-  Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</pre>
+  Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</codeblock>
 
     </fig>
         </example>

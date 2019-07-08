@@ -10,13 +10,13 @@
         <dlentry>
           <dt>XDITA</dt>
           <dd>
-            <p>&lt;u></p>
+            <p><xmlelement>u</xmlelement></p>
           </dd>
         </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;u></p>
+            <p><xmlelement>u</xmlelement></p>
           </dd>
         </dlentry>
         <dlentry>
@@ -37,19 +37,19 @@
       <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of <i>Underline</i> in an XDITA topic.</p>
-      <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock> &lt;?xml version="1.0" encoding="UTF-8"?>
  &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
  &lt;topic id="install-and-setup">
    &lt;title>Installing and Setting up Remote Lighting&lt;/title>
    &lt;shortdesc>Installation of your &lt;u>Remote Lighting Network&lt;/u> kit includes installing the light bulbs into
    light fixtures, preparing the remote control, and programming lighting groups.
    &lt;/shortdesc>
-  &lt;/topic></pre>
+  &lt;/topic></codeblock>
       </fig>
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
-      <pre>  &lt;!DOCTYPE html>
+      <codeblock>  &lt;!DOCTYPE html>
   &lt;html>
   &lt;head>
   &lt;title>Installing and Setting up Remote Lighting&lt;/title>
@@ -60,7 +60,7 @@
     &lt;p>Installation of your &lt;u>Remote Lighting Network&lt;/u> kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.&lt;/p>
   &lt;/article>
   &lt;/body>
-  &lt;/html></pre>
+  &lt;/html></codeblock>
     </fig>
     </example>
   </refbody>

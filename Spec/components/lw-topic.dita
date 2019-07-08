@@ -9,11 +9,11 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;topic></p></dd>
+          <dd><p><xmlelement>topic</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;article></p></dd>
+          <dd><p><xmlelement>article</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
@@ -34,20 +34,20 @@
         <fig>
          <title>XDITA example</title>
       <p>The following example demonstrates the use of a topic in XDITA.</p>
-      <pre> &lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock> &lt;?xml version="1.0" encoding="UTF-8"?>
  &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
  &lt;topic id="install-and-setup">
    &lt;title>Installing and Setting up Remote Lighting&lt;/title>
    &lt;shortdesc>Installation of your lighting kit includes installing the light bulbs into
    light fixtures, preparing the remote control, and programming lighting groups.
    &lt;/shortdesc>
-  &lt;/topic></pre>
+  &lt;/topic></codeblock>
     </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a topic in HDITA.</p>
-      <pre>  &lt;!DOCTYPE html>
+      <codeblock>  &lt;!DOCTYPE html>
   &lt;html>
   &lt;head>
   &lt;title>Installing and Setting up Remote Lighting&lt;/title>
@@ -58,16 +58,16 @@
     &lt;p>Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.&lt;/p>
   &lt;/article>
   &lt;/body>
-  &lt;/html></pre>
+  &lt;/html></codeblock>
     </fig>
 
 
          <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a topic in MDITA.</p>
-      <pre>  # Installing and Setting up Remote Lighting
+      <codeblock>  # Installing and Setting up Remote Lighting
 
-  Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</pre>
+  Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</codeblock>
 
          </fig>
 

@@ -10,15 +10,15 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;xref></p></dd>
+          <dd><p><xmlelement>xref</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;a href></p></dd>
+          <dd><p><xmlelement>a href</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>[link](/URI "title")</p></dd>
+          <dd><p><codeph>[link](/URI "title")</codeph></p></dd>
         </dlentry>
       </dl>
     </section>
@@ -36,7 +36,7 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a cross reference in an XDITA topic.</p>
-      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="franchise-offer">
   &lt;title>What we offer&lt;/title>
@@ -49,14 +49,14 @@
       &lt;li>&lt;p>Access to our &lt;xref href="http://senseisushico.com/kb" scope="external" format="html">knowledge base&lt;/xref>&lt;/p>&lt;/li>
     &lt;/ul>
   &lt;/body>
-&lt;/topic></pre>
+&lt;/topic></codeblock>
           </fig>
 
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a cross reference in an HDITA topic.</p>
-      <pre>&lt;!DOCTYPE html>
+      <codeblock>&lt;!DOCTYPE html>
 &lt;title>What we offer&lt;/title>
 &lt;body>
   &lt;article id="franchise-offer">
@@ -79,7 +79,7 @@
       &lt;/li>
     &lt;/ul>
   &lt;/article>
-&lt;/body></pre>
+&lt;/body></codeblock>
 
     </fig>
 
@@ -87,7 +87,7 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a cross reference in an MDITA topic.</p>
-      <pre># What we offer
+      <codeblock># What we offer
 
 -   "Know-how" license
 
@@ -97,7 +97,7 @@
 
 -   Support through online, email, and telephone channels
 
--   Access to our [knowledge base](http://senseisushico.com/kb)</pre>
+-   Access to our [knowledge base](http://senseisushico.com/kb)</codeblock>
 
 
     </fig>

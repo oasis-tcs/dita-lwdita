@@ -10,7 +10,7 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;topicmeta></p></dd>
+          <dd><p><xmlelement>topicmeta</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>

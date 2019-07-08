@@ -9,11 +9,11 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;ul></p></dd>
+          <dd><p><xmlelement>ul</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;ul></p></dd>
+          <dd><p><xmlelement>ul</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
@@ -37,7 +37,7 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an XDITA topic.</p>
-      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="franchise-offer">
   &lt;title>What we offer&lt;/title>
@@ -49,13 +49,13 @@
       &lt;li>&lt;p>Support through online, email, and telephone channels&lt;/p>&lt;/li>
     &lt;/ul>
   &lt;/body>
-&lt;/topic></pre>
+&lt;/topic></codeblock>
           </fig>
 
           <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an HDITA topic.</p>
-      <pre>&lt;!DOCTYPE html>
+      <codeblock>&lt;!DOCTYPE html>
 &lt;title>What we offer&lt;/title>
 &lt;body>
   &lt;article id="franchise-offer">
@@ -75,18 +75,18 @@
       &lt;/li>
     &lt;/ul>
   &lt;/article>
-&lt;/body></pre>
+&lt;/body></codeblock>
           </fig>
 
 
           <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an MDITA topic.</p>
-      <pre># Make a plan! Start your future today!
+      <codeblock># Make a plan! Start your future today!
 
 1.  Contact one of our franchise advisors
 2.  Pick a location for your restaurant
-3.  Follow our franchise guide</pre>
+3.  Follow our franchise guide</codeblock>
 
     </fig>
         </example>
