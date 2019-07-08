@@ -3,7 +3,7 @@
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-source">
   <title>Source</title>
-  <shortdesc conref="../commonspec/specification/common/reuse-w-lwdita/reuse-media-source.dita#shortdesc"/>
+  <shortdesc conkeyref="reuse-media-source/shortdesc" />
     <refbody>
     <section>
       <title>Syntax</title>
@@ -25,6 +25,8 @@
         </dlentry>
       </dl>
     </section>
+      
+      <section conkeyref="reuse-media-source/usage-information" />
     
     <section>
       <title>Attributes</title>
