@@ -9,17 +9,17 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;prolog></p></dd>
+          <dd><p><xmlelement>prolog</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;meta> inside &lt;head> </p></dd>
+            <p><xmlelement>meta</xmlelement> inside <xmlelement>head</xmlelement> </p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (extended profile)</dt>
           <dd><p>Any variables declared in a YAML front matter header. The front matter must be the first block in
-              the file and must be set between triple- dashed lines.</p></dd>
+              the file and must be set between triple-dashed lines.</p></dd>
         </dlentry>
       </dl>
     </section>

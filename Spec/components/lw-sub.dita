@@ -10,13 +10,13 @@
         <dlentry>
           <dt>XDITA</dt>
           <dd>
-            <p>&lt;sub></p>
+            <p><xmlelement>sub</xmlelement></p>
           </dd>
         </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;sub></p>
+            <p><xmlelement>sub</xmlelement></p>
           </dd>
         </dlentry>
         <dlentry>
@@ -37,19 +37,19 @@
       <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a subscript in an XDITA topic.</p>
-      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="food-additives">
   &lt;title>Food Additives for pH Control&lt;/title>
   &lt;body>
     &lt;p>In very rare occasions, our Sensei Sushi kitchen lab technicians can use Sulfuric Acid, FCC (H&lt;sub>2&lt;/sub>SO&lt;sub>4&lt;/sub>) to control pH during processing. Ask your supervisor for more information.&lt;/p>
   &lt;/body>
-&lt;/topic></pre>
+&lt;/topic></codeblock>
       </fig>
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a subscript n in an HDITA topic.</p>
-      <pre>  &lt;!DOCTYPE html>
+      <codeblock>  &lt;!DOCTYPE html>
   &lt;html>
   &lt;head>
   &lt;title>Food Additives for pH Control&lt;/title>
@@ -60,7 +60,7 @@
     &lt;p>In very rare occasions, our Sensei Sushi kitchen lab technicians can use Sulfuric Acid, FCC (H&lt;sub>2&lt;/sub>SO&lt;sub>4&lt;/sub>) to control pH during processing. Ask your supervisor for more information.&lt;/p>
   &lt;/article>
   &lt;/body>
-  &lt;/html></pre>
+  &lt;/html></codeblock>
     </fig>
     </example>
   </refbody>

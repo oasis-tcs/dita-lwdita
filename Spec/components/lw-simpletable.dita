@@ -9,20 +9,20 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;simpletable></p></dd>
+          <dd><p><xmlelement>simpletable</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;table></p>
+            <p><xmlelement>table</xmlelement></p>
           </dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
           <dd>
             <p>A table should contain a header row, a delimiter row, and zero or more rows with
-              entries. Table entries inside a row should be separated by pipes (|), and the
-              delimiter should contain hyphens (-), and optionally, a leading or trailing colon (:),
+              entries. Table entries inside a row should be separated by pipes (<codeph>|</codeph>), and the
+              delimiter should contain hyphens (<codeph>-</codeph>), and optionally, a leading or trailing colon (<codeph>:</codeph>),
               or both, to indicate left, right, or center alignment respectively. </p></dd>
         </dlentry>
       </dl>

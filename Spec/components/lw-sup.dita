@@ -10,13 +10,13 @@
         <dlentry>
           <dt>XDITA</dt>
           <dd>
-            <p>&lt;sup></p>
+            <p><xmlelement>sup</xmlelement></p>
           </dd>
         </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p>&lt;sup></p>
+            <p><xmlelement>sup</xmlelement></p>
           </dd>
         </dlentry>
         <dlentry>
@@ -37,19 +37,19 @@
       <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of superscript in an XDITA topic.</p>
-      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="requirements">
   &lt;title>Franchise Requirements&lt;/title>
   &lt;body>
     &lt;p>Franchised restaurants should be located in areas of at least 200 ft&lt;sup>2&lt;/sup>.&lt;/p>
   &lt;/body>
-&lt;/topic></pre>
+&lt;/topic></codeblock>
     </fig>
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of superscript in an HDITA topic.</p>
-      <pre>  &lt;!DOCTYPE html>
+      <codeblock>  &lt;!DOCTYPE html>
   &lt;html>
   &lt;head>
   &lt;title>Franchise Requirements&lt;/title>
@@ -59,7 +59,7 @@
     &lt;h1>Franchise Requirements&lt;/h1>
     &lt;p>Franchised restaurants should be located in areas of at least 200 ft&lt;sup>2&lt;/sup>.&lt;/p>
   &lt;/body>
-  &lt;/html></pre>
+  &lt;/html></codeblock>
     </fig>
     </example>
   </refbody>

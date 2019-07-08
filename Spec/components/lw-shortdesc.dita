@@ -9,7 +9,7 @@
         <dl platform="lwdita">
           <dlentry>
             <dt>XDITA</dt>
-            <dd>&lt;shortdesc></dd>
+            <dd><xmlelement>shortdesc</xmlelement></dd>
           </dlentry>
           <dlentry>
             <dt>HDITA</dt>

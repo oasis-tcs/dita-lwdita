@@ -9,15 +9,15 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p>&lt;section></p></dd>
+          <dd><p><xmlelement>section</xmlelement></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p>&lt;section></p></dd>
+          <dd><p><xmlelement>section</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>A level-two heading marked by ## or ----- underline </p></dd>
+          <dd><p>A level-two heading marked by <codeph>##</codeph> or <codeph>-----</codeph> underline </p></dd>
         </dlentry>
       </dl>
     </section>
@@ -39,7 +39,7 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of section in an XDITA topic.</p>
-      <pre>&lt;?xml version="1.0" encoding="UTF-8"?>
+      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
 &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 &lt;topic id="franchise-offer">
   &lt;title>What we offer&lt;/title>
@@ -50,13 +50,13 @@
       &lt;p>Support is reserved for franchises that are without bills past due payment.&lt;/p>
     &lt;/section>
   &lt;/body>
-&lt;/topic></pre>
+&lt;/topic></codeblock>
     </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of section in an HDITA topic.</p>
-      <pre>&lt;!DOCTYPE html>
+      <codeblock>&lt;!DOCTYPE html>
 &lt;title>What we offer&lt;/title>
 &lt;body>
   &lt;article id="franchise-offer">
@@ -67,20 +67,20 @@
       &lt;p>Support is reserved for franchises that are without bills past due payment.&lt;/p>
     &lt;/section>
   &lt;/article>
-&lt;/body></pre>
+&lt;/body></codeblock>
     </fig>
 
 
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of section in an MDITA topic.</p>
-      <pre># What we offer
+      <codeblock># What we offer
 
 We offer warranty of territory exclusivity, initial training, and support through online, email, and telephone channels.
 
 ## Terms and conditions
 
-Support is reserved for franchises that are without bills past due payment.</pre>
+Support is reserved for franchises that are without bills past due payment.</codeblock>
 
     </fig>
         </example>
