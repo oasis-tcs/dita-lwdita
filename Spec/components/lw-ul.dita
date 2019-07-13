@@ -37,56 +37,20 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an XDITA topic.</p>
-      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="franchise-offer">
-  &lt;title>What we offer&lt;/title>
-  &lt;body>
-    &lt;ul>
-      &lt;li>&lt;p>"Know-how" license&lt;/p>&lt;/li>
-      &lt;li>&lt;p>Warranty of exclusive territory&lt;/p>&lt;/li>
-      &lt;li>&lt;p>Initial training&lt;/p>&lt;/li>
-      &lt;li>&lt;p>Support through online, email, and telephone channels&lt;/p>&lt;/li>
-    &lt;/ul>
-  &lt;/body>
-&lt;/topic></codeblock>
+      <codeblock><coderef href="examples/lw-ul.xdita"/></codeblock>
           </fig>
 
           <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an HDITA topic.</p>
-      <codeblock>&lt;!DOCTYPE html>
-&lt;title>What we offer&lt;/title>
-&lt;body>
-  &lt;article id="franchise-offer">
-    &lt;h1>What we offer&lt;/h1>
-    &lt;ul>
-      &lt;li>
-        &lt;p>"Know-how" license&lt;/p>
-      &lt;/li>
-      &lt;li>
-        &lt;p>Warranty of exclusive territory&lt;/p>
-      &lt;/li>
-      &lt;li>
-        &lt;p>Initial training&lt;/p>
-      &lt;/li>
-      &lt;li>
-        &lt;p>Support through online, email, and telephone channels&lt;/p>
-      &lt;/li>
-    &lt;/ul>
-  &lt;/article>
-&lt;/body></codeblock>
+      <codeblock><coderef href="examples/lw-ul.hdita"/></codeblock>
           </fig>
 
 
           <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an MDITA topic.</p>
-      <codeblock># Make a plan! Start your future today!
-
-1.  Contact one of our franchise advisors
-2.  Pick a location for your restaurant
-3.  Follow our franchise guide</codeblock>
+      <codeblock><coderef href="examples/lw-ul.mdita"/></codeblock>
 
     </fig>
         </example>

@@ -39,13 +39,13 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of link text in an XDITA map.</p>
-          <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-xdita"/>
+          <codeblock><coderef href="examples/lw-keyref-linktext.xdita"/></codeblock>
     </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of link text in an HDITA map.</p>
-      <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-hdita"/>
+      <codeblock><coderef href="examples/lw-keyref-linktext.hdita"/></codeblock>
 
     </fig>
 
@@ -54,7 +54,7 @@
       <title>MDITA example</title>
       <p>The following example demonstrates the use of link text in an MDITA extended profile
         map.</p>
-      <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-mdita"/>
+      <codeblock><coderef href="examples/lw-keyref-linktext.mdita"/></codeblock>
     </fig>
 
     </example>

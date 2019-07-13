@@ -141,32 +141,19 @@
         <title>XDITA example</title>
         <p id="p_mbg_jx2_4hb">The following example shows the use of the data component to specify
           the author of an XDITA topic.</p>
-        <codeblock>&lt;prolog>
-    &lt;data name="author" value="Victoria Fernando"/>
-  &lt;/prolog></codeblock>
+        <codeblock><coderef href="examples/data.xdita"/></codeblock>
       </fig>
       <fig id="fig_nbg_jx2_4hb">
         <title>HDITA example</title>
         <p id="p_obg_jx2_4hb">The following example shows the use of the data component to specify
           the author of an HDITA topic, via the HTML5 <xmlelement>meta</xmlelement> tag.</p>
-        <codeblock>&lt;!DOCTYPE html>
-&lt;head>
-  &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
-  &lt;meta name="author" content="Victoria Fernando">
-&lt;/head></codeblock>
+        <codeblock><coderef href="examples/data.hdita"/></codeblock>
       </fig>
       <fig id="fig_pbg_jx2_4hb">
         <title>MDITA example</title>
         <p id="p_qbg_jx2_4hb">The following example shows the use of the data component to specify
           the author of an MDITA topic, via a YAML header.</p>
-        <codeblock>
----
-id: franchise-intro
-author: Victoria Fernando
----
-# Installing and Setting up Remote Lighting
-
-  Installation of your lighting kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.</codeblock>
+        <codeblock><coderef href="examples/data.mdita"/></codeblock>
       </fig>
     </example>
   </refbody>

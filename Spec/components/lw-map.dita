@@ -40,13 +40,13 @@
       <title>XDITA example</title>
       <p>The following example demonstrates the use of map in XDITA.</p>
 
-            <pre conref="../common/common-examples.dita#common-examples/map-xdita"/>
+            <codeblock><coderef href="examples/lw-map.xdita"/></codeblock>
 
           </fig>
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of map in HDITA.</p>
-        <pre conref="../common/common-examples.dita#common-examples/map-hdita"/>
+        <codeblock><coderef href="examples/lw-map.hdita"/></codeblock>
 
     </fig>
 
@@ -54,7 +54,7 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of map in MDITA.</p>
-        <pre conref="../common/common-examples.dita#common-examples/map-mdita"/>
+        <codeblock><coderef href="examples/lw-map.mdita"/></codeblock>
 
 
     </fig>

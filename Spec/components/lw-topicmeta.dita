@@ -40,7 +40,7 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of topic metadata in an XDITA map.</p>
-          <pre conref="../common/common-examples.dita#common-examples/keyref-linktext-xdita"/>
+          <codeblock><coderef href="examples/lw-keyref-linktext.xdita"/></codeblock>
     </fig>
         </example>
   </refbody>

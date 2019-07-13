@@ -37,30 +37,12 @@
       <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of <i>Underline</i> in an XDITA topic.</p>
-      <codeblock> &lt;?xml version="1.0" encoding="UTF-8"?>
- &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
- &lt;topic id="install-and-setup">
-   &lt;title>Installing and Setting up Remote Lighting&lt;/title>
-   &lt;shortdesc>Installation of your &lt;u>Remote Lighting Network&lt;/u> kit includes installing the light bulbs into
-   light fixtures, preparing the remote control, and programming lighting groups.
-   &lt;/shortdesc>
-  &lt;/topic></codeblock>
+      <codeblock><coderef href="examples/lw-u.xdita"/></codeblock>
       </fig>
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
-      <codeblock>  &lt;!DOCTYPE html>
-  &lt;html>
-  &lt;head>
-  &lt;title>Installing and Setting up Remote Lighting&lt;/title>
-  &lt;/head>
-  &lt;body>
-   &lt;article id="install-and-setup">
-    &lt;h1>Installing and Setting up Remote Lighting&lt;/h1>
-    &lt;p>Installation of your &lt;u>Remote Lighting Network&lt;/u> kit includes installing the light bulbs into light fixtures, preparing the remote control, and programming lighting groups.&lt;/p>
-  &lt;/article>
-  &lt;/body>
-  &lt;/html></codeblock>
+      <codeblock><coderef href="examples/lw-u.hdita"/></codeblock>
     </fig>
     </example>
   </refbody>

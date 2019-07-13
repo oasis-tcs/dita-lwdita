@@ -39,48 +39,20 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of section in an XDITA topic.</p>
-      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="franchise-offer">
-  &lt;title>What we offer&lt;/title>
-  &lt;body>
-    &lt;p>We offer warranty of territory exclusivity, initial training, and support through online, email, and telephone channels.&lt;/p>
-    &lt;section id="terms">
-      &lt;title>Terms and conditions&lt;/title>
-      &lt;p>Support is reserved for franchises that are without bills past due payment.&lt;/p>
-    &lt;/section>
-  &lt;/body>
-&lt;/topic></codeblock>
+      <codeblock><coderef href="examples/lw-section.xdita"/></codeblock>
     </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of section in an HDITA topic.</p>
-      <codeblock>&lt;!DOCTYPE html>
-&lt;title>What we offer&lt;/title>
-&lt;body>
-  &lt;article id="franchise-offer">
-    &lt;h1>What we offer&lt;/h1>
-    &lt;p>We offer warranty of territory exclusivity, initial training, and support through online, email, and telephone channels.&lt;/p>
-    &lt;section id="terms">
-      &lt;h2>Terms and conditions&lt;/h2>
-      &lt;p>Support is reserved for franchises that are without bills past due payment.&lt;/p>
-    &lt;/section>
-  &lt;/article>
-&lt;/body></codeblock>
+      <codeblock><coderef href="examples/lw-section.hdita"/></codeblock>
     </fig>
 
 
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of section in an MDITA topic.</p>
-      <codeblock># What we offer
-
-We offer warranty of territory exclusivity, initial training, and support through online, email, and telephone channels.
-
-## Terms and conditions
-
-Support is reserved for franchises that are without bills past due payment.</codeblock>
+      <codeblock><coderef href="examples/lw-section.mdita"/></codeblock>
 
     </fig>
         </example>

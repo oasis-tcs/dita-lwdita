@@ -38,7 +38,7 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
-      <pre conref="../common/common-examples.dita#common-examples/altfig-xdita"/>
+      <codeblock><coderef href="examples/lw-altfig.xdita"/></codeblock>
 
     </fig>
 
@@ -46,7 +46,7 @@
       <title>HDITA example</title>
       <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
 
-      <pre conref="../common/common-examples.dita#common-examples/altfig-hdita"/>
+      <codeblock><coderef href="examples/lw-altfig.hdita"/></codeblock>
 
     </fig>
 
@@ -54,7 +54,7 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
-      <pre conref="../common/common-examples.dita#common-examples/altfig-mdita"/>
+      <codeblock><coderef href="examples/lw-altfig.mdita"/></codeblock>
     </fig>
         </example>
 

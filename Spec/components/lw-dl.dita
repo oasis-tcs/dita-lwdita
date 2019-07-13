@@ -40,14 +40,14 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a definition list in an XDITA topic.</p>
-          <pre conref="../common/common-examples.dita#common-examples/dl-xdita"/>
+          <codeblock><coderef href="examples/lw-dl.xdita"/></codeblock>
 
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a (need article??) definition list in an HDITA topic.</p>
-      <pre conref="../common/common-examples.dita#common-examples/dl-hdita"/>
+      <codeblock><coderef href="examples/lw-dl.hdita"/></codeblock>
 
     </fig>
 
@@ -55,7 +55,7 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a definition list text in an MDITA extended profile topic.</p>
-      <pre conref="../common/common-examples.dita#common-examples/dl-mdita"/>
+      <codeblock><coderef href="examples/lw-dl.mdita"/></codeblock>
 
 
     </fig>

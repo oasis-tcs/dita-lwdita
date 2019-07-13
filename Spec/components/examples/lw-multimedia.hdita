@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<title>The Sensei Sushi Promise</title>
+<body>
+  <article id="sensei-promise">
+    <h1>The Sensei Sushi Promise</h1>
+    <video title="Video about the Sensei Sushi promise" controls autoplay loop muted poster="sensei-video.jpg">
+  <source src="sensei-video.mp4"/>
+  <track src="sensei-video.vtt" kind="captions"/>
+</video>
+  </article>
+</body>

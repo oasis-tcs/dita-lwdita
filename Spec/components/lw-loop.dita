@@ -41,14 +41,14 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of loop in an XDITA topic.</p>
-          <pre conref="../common/common-examples.dita#common-examples/multimedia-xdita"/>
+          <codeblock><coderef href="examples/lw-multimedia.xdita"/></codeblock>
 
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of loop in an HDITA topic.</p>
-      <pre conref="../common/common-examples.dita#common-examples/multimedia-hdita"/>
+      <codeblock><coderef href="examples/lw-multimedia.hdita"/></codeblock>
 
     </fig>
         </example>
