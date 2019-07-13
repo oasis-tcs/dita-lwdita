@@ -38,37 +38,21 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of italic text in an XDITA topic.</p>
-      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="franchise-intro">
-  &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
-  &lt;body>
-    &lt;p>We offer &lt;i>more than 30&lt;/i> exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.&lt;/p>
-  &lt;/body>
-&lt;/topic></codeblock>
+      <codeblock><coderef href="examples/lw-i.xdita"/></codeblock>
 
           </fig>
 
 <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of italic text in an HDITA topic.</p>
-      <codeblock>&lt;!DOCTYPE html>
-&lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
-&lt;body>
-  &lt;article id="franchise-intro">
-    &lt;h1>An innovative, attractive, and out of the ordinary concept&lt;/h1>
-    &lt;p>We offer &lt;em>more than 30&lt;/em> exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.&lt;/p>
-  &lt;/article>
-&lt;/body></codeblock>
+      <codeblock><coderef href="examples/lw-i.hdita"/></codeblock>
 
 </fig>
 
 <fig>
   <title>MDITA example</title>
       <p>The following example demonstrates the use of italic text in an MDITA topic.</p>
-      <codeblock># An innovative, attractive, and out of the ordinary concept
-
-We offer *more than 30* exclusive creations of original rolls, from the California roll to sushi with BBQ chicken or grilled steak.</codeblock>
+      <codeblock><coderef href="examples/lw-i.mdita"/></codeblock>
 
 </fig>
         </example>

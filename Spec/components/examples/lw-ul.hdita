@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<title>What we offer</title>
+<body>
+  <article id="franchise-offer">
+    <h1>What we offer</h1>
+    <ul>
+      <li>
+        <p>"Know-how" license</p>
+      </li>
+      <li>
+        <p>Warranty of exclusive territory</p>
+      </li>
+      <li>
+        <p>Initial training</p>
+      </li>
+      <li>
+        <p>Support through online, email, and telephone channels</p>
+      </li>
+    </ul>
+  </article>
+</body>

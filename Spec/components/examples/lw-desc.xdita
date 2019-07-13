@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "topic.dtd">
+<topic id="intro-product">
+  <title>Remote Lighting Overview</title>
+  <body>
+    <p>The Remote Lighting Network kit includes a wireless smart system that helps make the lighting in your home more energy efficient and easier to manage.</p>
+    <fig>
+      <desc>This image shows the retail package for version 2.3 of the Remote Lighting Network kit and does not represent any other versions</desc>
+      <image href="images/kit-package.jpg"><alt>Retail package for the Remote Lighting Network kit </alt></image>
+    </fig>
+  </body>
+</topic>

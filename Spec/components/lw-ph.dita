@@ -38,46 +38,14 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of phrase in an XDITA topic.</p>
-      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="franchise-offer">
-  &lt;title>What we offer&lt;/title>
-  &lt;body>
-    &lt;ul>
-      &lt;li>&lt;p>&lt;ph translate="no">Know-how&lt;/ph> license&lt;/p>&lt;/li>
-      &lt;li>&lt;p>Warranty of territory exclusivity&lt;/p>&lt;/li>
-      &lt;li>&lt;p>Initial training&lt;/p>&lt;/li>
-      &lt;li>&lt;p>Support through online, email, and telephone channels&lt;/p>&lt;/li>
-    &lt;/ul>
-  &lt;/body>
-&lt;/topic></codeblock>
+      <codeblock><coderef href="examples/lw-ph.xdita"/></codeblock>
 
           </fig>
 
           <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of phrase in an HDITA topic.</p>
-      <codeblock>&lt;!DOCTYPE html>
-&lt;title>What we offer&lt;/title>
-&lt;body>
-  &lt;article id="franchise-offer">
-    &lt;h1>What we offer&lt;/h1>
-    &lt;ul>
-      &lt;li>
-        &lt;p>&lt;span translate="no">"Know-how"&lt;/span> license&lt;/p>
-      &lt;/li>
-      &lt;li>
-        &lt;p>Warranty of territory exclusivity&lt;/p>
-      &lt;/li>
-      &lt;li>
-        &lt;p>Initial training&lt;/p>
-      &lt;/li>
-      &lt;li>
-        &lt;p>Support through online, email, and telephone channels&lt;/p>
-      &lt;/li>
-    &lt;/ul>
-  &lt;/article>
-&lt;/body></codeblock>
+      <codeblock><coderef href="examples/lw-ph.hdita"/></codeblock>
 
           </fig>
 
@@ -86,15 +54,7 @@
       <title>MDITA example</title>
       <p>The following example demonstrates the use of phrase, via an HDITA snippet, in an MDITA
         topic.</p>
-      <codeblock># What we offer
-
--   &lt;span translate="no">"Know how"&lt;/span> license
-
--   Warranty of territory exclusivity
-
--   Initial training
-
--   Support through online, email, and telephone channels</codeblock>
+      <codeblock><coderef href="examples/lw-ph.mdita"/></codeblock>
 
 
           </fig>

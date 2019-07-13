@@ -37,30 +37,12 @@
       <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a subscript in an XDITA topic.</p>
-      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="food-additives">
-  &lt;title>Food Additives for pH Control&lt;/title>
-  &lt;body>
-    &lt;p>In very rare occasions, our Sensei Sushi kitchen lab technicians can use Sulfuric Acid, FCC (H&lt;sub>2&lt;/sub>SO&lt;sub>4&lt;/sub>) to control pH during processing. Ask your supervisor for more information.&lt;/p>
-  &lt;/body>
-&lt;/topic></codeblock>
+      <codeblock><coderef href="examples/lw-sub.xdita"/></codeblock>
       </fig>
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a subscript n in an HDITA topic.</p>
-      <codeblock>  &lt;!DOCTYPE html>
-  &lt;html>
-  &lt;head>
-  &lt;title>Food Additives for pH Control&lt;/title>
-  &lt;/head>
-  &lt;body>
-   &lt;article id="food-additives">
-    &lt;h1>Food Additives for pH Control&lt;/h1>
-    &lt;p>In very rare occasions, our Sensei Sushi kitchen lab technicians can use Sulfuric Acid, FCC (H&lt;sub>2&lt;/sub>SO&lt;sub>4&lt;/sub>) to control pH during processing. Ask your supervisor for more information.&lt;/p>
-  &lt;/article>
-  &lt;/body>
-  &lt;/html></codeblock>
+      <codeblock><coderef href="examples/lw-sub.hdita"/></codeblock>
     </fig>
     </example>
   </refbody>

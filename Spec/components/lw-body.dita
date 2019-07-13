@@ -37,26 +37,14 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of body in an XDITA topic.</p>
-      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="franchise-intro">
-  &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
-  &lt;shortdesc>Are you interested in investing with us? Welcome to our franchise information package.&lt;/shortdesc>
-&lt;/topic></codeblock>
+      <codeblock><coderef href="examples/lw-body.xdita"/></codeblock>
 
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of body in an HDITA topic.</p>
-      <codeblock>&lt;!DOCTYPE html>
-&lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
-&lt;body>
-  &lt;article id="franchise-intro">
-    &lt;h1>An innovative, attractive, and out of the ordinary concept&lt;/h1>
-    &lt;p>Are you interested in investing with us? Welcome to our franchise information package.&lt;/p>
-  &lt;/article>
-&lt;/body></codeblock>
+      <codeblock><coderef href="examples/lw-body.hdita"/></codeblock>
 
     </fig>
 
@@ -64,9 +52,7 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the equivalent of the body component in an MDITA topic. </p>
-      <codeblock># An innovative, attractive, and out of the ordinary concept
-
-Are you interested in investing with us? Welcome to our franchise information package.</codeblock>
+      <codeblock><coderef href="examples/lw-body.mdita"/></codeblock>
 
 
     </fig>

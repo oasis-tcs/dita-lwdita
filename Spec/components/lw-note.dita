@@ -38,54 +38,14 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of note in an XDITA topic.</p>
-      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="franchise-terms">
-  &lt;title>Profits, fun, and flavor under the same brand&lt;/title>
-  &lt;body>
-    &lt;dl>
-      &lt;dlentry>
-        &lt;dt>Initial investment:&lt;/dt>
-        &lt;dd>
-          &lt;p>$700&lt;/p>
-          &lt;note type="notice">
-            &lt;p>The initial investment price includes the first franchise fee payment&lt;/p>
-          &lt;/note>
-        &lt;/dd>
-      &lt;/dlentry>
-      &lt;dlentry>
-        &lt;dt>Franchise fee:&lt;/dt>
-        &lt;dd>&lt;p>$200&lt;/p>&lt;/dd>
-      &lt;/dlentry>
-    &lt;/dl>
-  &lt;/body>
-&lt;/topic></codeblock>
+      <codeblock><coderef href="examples/lw-note.xdita"/></codeblock>
 
           </fig>
 
 <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of note in an HDITA topic.</p>
-      <codeblock>&lt;!DOCTYPE html>
-&lt;title>Profits, fun, and flavor under the same brand&lt;/title>
-&lt;body>
-  &lt;article id="franchise-terms">
-    &lt;h1>Profits, fun, and flavor under the same brand&lt;/h1>
-    &lt;dl>
-      &lt;dt>Initial investment:&lt;/dt>
-      &lt;dd>
-        &lt;p>$700&lt;/p>
-        &lt;div data-class="note" data-type="notice">
-          &lt;p>The initial investment price includes the first franchise fee payment&lt;/p>
-        &lt;/div>
-      &lt;/dd>
-      &lt;dt>Franchise fee:&lt;/dt>
-      &lt;dd>
-        &lt;p>$200&lt;/p>
-      &lt;/dd>
-    &lt;/dl>
-  &lt;/article>
-&lt;/body></codeblock>
+      <codeblock><coderef href="examples/lw-note.hdita"/></codeblock>
 
 </fig>
         </example>

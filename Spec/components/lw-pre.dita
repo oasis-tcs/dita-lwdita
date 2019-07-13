@@ -36,36 +36,14 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of preformatted text in an XDITA topic.</p>
-      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="sensei-promise">
-  &lt;title>The Sensei Sushi Promise&lt;/title>
-  &lt;body>
-    &lt;pre>
-      Sensei Sushi cares about tradition
-      Sensei Sushi cares about the customer
-      Sensei Sushi cares about fun.
-     &lt;/pre>
-  &lt;/body>
-&lt;/topic></codeblock>
+      <codeblock><coderef href="examples/lw-pre.xdita"/></codeblock>
 
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of preformatted text in an HDITA topic.</p>
-      <codeblock>&lt;!DOCTYPE html>
-&lt;title>The Sensei Sushi Promise&lt;/title>
-&lt;body>
-  &lt;article id="sensei-promise">
-    &lt;h1>The Sensei Sushi Promise&lt;/h1>
-    &lt;pre>
-      Sensei Sushi cares about tradition
-      Sensei Sushi cares about the customer
-      Sensei Sushi cares about fun.
-    &lt;/pre>
-  &lt;/article>
-&lt;/body></codeblock>
+      <codeblock><coderef href="examples/lw-pre.hdita"/></codeblock>
 
     </fig>
 
@@ -73,14 +51,7 @@
           <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of preformatted text in an MDITA topic.</p>
-      <codeblock># The Sensei Sushi Promise
-
-
-          Sensei Sushi cares about tradition
-
-          Sensei Sushi cares about the customer
-
-          Sensei Sushi cares about fun.</codeblock>
+      <codeblock><coderef href="examples/lw-pre.mdita"/></codeblock>
 
 
           </fig>

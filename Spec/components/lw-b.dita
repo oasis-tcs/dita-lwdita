@@ -35,43 +35,19 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of bold text in an XDITA topic.</p>
-      <codeblock> &lt;?xml version="1.0" encoding="UTF-8"?>
- &lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
- &lt;topic id="max-number-bulbs">
-   &lt;title>Maximum Number of Network Light Bulbs&lt;/title>
-   &lt;p>There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease.
-  Testing has shown that the lighting network should be limited to a &lt;b>maximum of 250 light bulbs&lt;/b> to maintain reliability in
-  performance.&lt;/p>
-  &lt;/topic></codeblock>
+      <codeblock><coderef href="examples/lw-shortdesc.xdita"/></codeblock>
           </fig>
    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of bold text in an HDITA topic.</p>
-      <codeblock>  &lt;!DOCTYPE html>
-  &lt;html>
-  &lt;head>
-  &lt;title>Maximum Number of Network Light Bulbs&lt;/title>
-  &lt;/head>
-  &lt;body>
-   &lt;article id="max-number-bulbs">
-    &lt;h1>Maximum Number of Network Light Bulbs&lt;/h1>
-   &lt;p>There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease.
-  Testing has shown that the lighting network should be limited to a &lt;strong>maximum of 250 light bulbs&lt;/strong> to maintain reliability in
-  performance.&lt;/p>
-    &lt;/article>
-  &lt;/body>
-  &lt;/html></codeblock>
+      <codeblock><coderef href="examples/lw-shortdesc.hdita"/></codeblock>
     </fig>
 
 
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of bold text in an MDITA topic.</p>
-      <codeblock>  # Maximum Number of Network Light Bulbs
-
-  There is a limit to the number of light bulbs at which the performance of the Remote Lighting Network begins to decrease.
-  Testing has shown that the lighting network should be limited to a **maximum of 250 light bulbs** to maintain reliability in
-  performance.</codeblock>
+      <codeblock><coderef href="examples/lw-shortdesc.mdita"/></codeblock>
 
     </fig>
         </example>

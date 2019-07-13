@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<title>Theme song for our radio show</title>
+<body>
+  <article id="theme-song">
+    <h1>Theme song for our radio show</h1>
+    <audio title="Theme song for the radio show" controls autoplay loop muted>
+  <source src="theme-song.mp3"/>
+  <track src="theme-song.vtt" kind="captions"/>
+</audio>
+  </article>
+</body>

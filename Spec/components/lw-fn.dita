@@ -45,56 +45,15 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of footnote in an XDITA topic.</p>
-      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="franchise-terms">
-  &lt;title>Profits, fun, and flavor under the same brand&lt;/title>
-  &lt;body>
-    &lt;dl>
-      &lt;dlentry>
-        &lt;dt>Initial investment:&lt;/dt>
-        &lt;dd>
-          &lt;p>$700&lt;xref href="#franchise-terms/initial-fee"/>&lt;/p>
-        &lt;/dd>
-      &lt;/dlentry>
-      &lt;dlentry>
-        &lt;dt>Franchise fee:&lt;/dt>
-        &lt;dd>&lt;p>$200&lt;/p>&lt;/dd>
-      &lt;/dlentry>
-    &lt;/dl>
-    &lt;fn id="initial-fee">
-      &lt;p>The initial investment price includes the first franchise fee payment&lt;/p>
-    &lt;/fn>
-  &lt;/body>
-&lt;/topic></codeblock>
+      <codeblock><coderef href="examples/lw-fn.xdita"/></codeblock>
 
     </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of footnote in an HDITA topic.  In this example,
-        the clickable text is a number 1 in a <xref href="lw-sup.dita" format="dita"
-          >superscript</xref> (<xmlelement>sup</xmlelement>) component.</p>
-      <codeblock>&lt;!DOCTYPE html>
-&lt;title>Profits, fun, and flavor under the same brand&lt;/title>
-&lt;body>
-  &lt;article id="franchise-terms">
-    &lt;h1>Profits, fun, and flavor under the same brand&lt;/h1>
-    &lt;dl>
-      &lt;dt>Initial investment:&lt;/dt>
-      &lt;dd>
-        &lt;p>$700&lt;a href="#initial-fee">&lt;sup>1&lt;/sup>&lt;/a>&lt;/p>
-      &lt;/dd>
-      &lt;dt>Franchise fee:&lt;/dt>
-      &lt;dd>
-        &lt;p>$200&lt;/p>
-      &lt;/dd>
-    &lt;/dl>
-        &lt;div id="initial-fee" data-class="fn">
-          &lt;p>The initial investment price includes the first franchise fee payment&lt;/p>
-        &lt;/div>
-  &lt;/article>
-&lt;/body></codeblock>
+        the clickable text is a number 1 in a <xref href="lw-sup.dita" format="dita">superscript</xref> (<xmlelement>sup</xmlelement>) component.</p>
+      <codeblock><coderef href="examples/lw-fn.hdita"/></codeblock>
 
     </fig>
 
@@ -103,16 +62,7 @@
       <title>MDITA example</title>
       <p>The following example demonstrates the use of footnote in an MDITA extended profile
         topic.</p>
-      <codeblock># Profit, fun, and flavor under the same brand
-
-Initial investment
-: $700[^1]
-
-Franchise fee
-: $200
-
-
-[^1]: The initial investment price includes the first franchise fee payment</codeblock>
+      <codeblock><coderef href="examples/lw-fn.mdita"/></codeblock>
 
 
     </fig>

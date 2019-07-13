@@ -39,39 +39,14 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of audio in an XDITA topic.</p>
-      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="theme-song">
-  &lt;title>Theme song for our radio show&lt;/title>
-  &lt;body>
-    &lt;audio>
-      &lt;desc>Theme song for the radio show&lt;/desc>
-      &lt;media-controls value="true"/>
-      &lt;media-autoplay value="false"/>
-      &lt;media-loop value="true"/>
-      &lt;media-muted value="true"/>
-      &lt;media-source value="theme-song.mp3"/>
-      &lt;media-track value="theme-song.vtt" type="captions"/>
-    &lt;/audio>
-  &lt;/body>
-&lt;/topic></codeblock>
+      <codeblock><coderef href="examples/lw-audio.xdita"/></codeblock>
 
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of audio in an HDITA topic.</p>
-      <codeblock>&lt;!DOCTYPE html>
-&lt;title>Theme song for our radio show&lt;/title>
-&lt;body>
-  &lt;article id="theme-song">
-    &lt;h1>Theme song for our radio show&lt;/h1>
-    &lt;audio title="Theme song for the radio show" controls autoplay loop muted>
-  &lt;source src="theme-song.mp3"/>
-  &lt;track src="theme-song.vtt" kind="captions"/>
-&lt;/audio>
-  &lt;/article>
-&lt;/body></codeblock>
+      <codeblock><coderef href="examples/lw-audio.hdita"/></codeblock>
 
     </fig>
 

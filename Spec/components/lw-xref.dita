@@ -36,50 +36,14 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a cross reference in an XDITA topic.</p>
-      <codeblock>&lt;?xml version="1.0" encoding="UTF-8"?>
-&lt;!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
-&lt;topic id="franchise-offer">
-  &lt;title>What we offer&lt;/title>
-  &lt;body>
-    &lt;ul>
-      &lt;li>&lt;p>"Know-how" license&lt;/p>&lt;/li>
-      &lt;li>&lt;p>Warranty of territory exclusivity&lt;/p>&lt;/li>
-      &lt;li>&lt;p>Initial training&lt;/p>&lt;/li>
-      &lt;li>&lt;p>Support through online, email, and telephone channels&lt;/p>&lt;/li>
-      &lt;li>&lt;p>Access to our &lt;xref href="http://senseisushico.com/kb" scope="external" format="html">knowledge base&lt;/xref>&lt;/p>&lt;/li>
-    &lt;/ul>
-  &lt;/body>
-&lt;/topic></codeblock>
+      <codeblock><coderef href="examples/lw-xref.xdita"/></codeblock>
           </fig>
 
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a cross reference in an HDITA topic.</p>
-      <codeblock>&lt;!DOCTYPE html>
-&lt;title>What we offer&lt;/title>
-&lt;body>
-  &lt;article id="franchise-offer">
-    &lt;h1>What we offer&lt;/h1>
-    &lt;ul>
-      &lt;li>
-        &lt;p>"Know-how" license&lt;/p>
-      &lt;/li>
-      &lt;li>
-        &lt;p>Warranty of territory exclusivity&lt;/p>
-      &lt;/li>
-      &lt;li>
-        &lt;p>Initial training&lt;/p>
-      &lt;/li>
-      &lt;li>
-        &lt;p>Support through online, email, and telephone channels&lt;/p>
-      &lt;/li>
-      &lt;li>
-        &lt;p>Access to our &lt;a href="http://senseisushico.com/kb" rel="external" type="text/html">knowledge base&lt;/a>&lt;/p>
-      &lt;/li>
-    &lt;/ul>
-  &lt;/article>
-&lt;/body></codeblock>
+      <codeblock><coderef href="examples/lw-xref.hdita"/></codeblock>
 
     </fig>
 
@@ -87,17 +51,7 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a cross reference in an MDITA topic.</p>
-      <codeblock># What we offer
-
--   "Know-how" license
-
--   Warranty of territory exclusivity
-
--   Initial training
-
--   Support through online, email, and telephone channels
-
--   Access to our [knowledge base](http://senseisushico.com/kb)</codeblock>
+      <codeblock><coderef href="examples/lw-xref.mdita"/></codeblock>
 
 
     </fig>

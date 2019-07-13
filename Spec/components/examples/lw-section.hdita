@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<title>What we offer</title>
+<body>
+  <article id="franchise-offer">
+    <h1>What we offer</h1>
+    <p>We offer warranty of territory exclusivity, initial training, and support through online, email, and telephone channels.</p>
+    <section id="terms">
+      <h2>Terms and conditions</h2>
+      <p>Support is reserved for franchises that are without bills past due payment.</p>
+    </section>
+  </article>
+</body>
