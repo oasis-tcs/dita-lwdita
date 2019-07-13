@@ -35,13 +35,13 @@
         <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of ordered list in an XDITA topic.</p>
-          <pre conref="../common/common-examples.dita#common-examples/ol-xdita"/>
+          <codeblock><coderef href="examples/lw-ol.xdita"/></codeblock>
         </fig>
 
           <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of ordered list in an HDITA topic.</p>
-      <pre conref="../common/common-examples.dita#common-examples/ol-hdita"/>
+      <codeblock><coderef href="examples/lw-ol.hdita"/></codeblock>
           </fig>
 
 
@@ -49,7 +49,7 @@
       <title>MDITA example</title>
       <p>The following example demonstrates the use of ordered list in an MDITA topic.</p>
 
-      <pre conref="../common/common-examples.dita#common-examples/ol-mdita"/>
+      <codeblock><coderef href="examples/lw-ol.mdita"/></codeblock>
 
           </fig>
         </example>

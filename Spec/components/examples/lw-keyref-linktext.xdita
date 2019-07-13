@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Map//EN" "lw-map.dtd">
+<map id="remote-main">
+    <topicmeta>
+        <navtitle>Remote Lighting Network</navtitle>
+    </topicmeta>
+    <keydef keys="product-name">
+        <topicmeta>
+            <linktext>Remote Network Lighting</linktext>
+        </topicmeta>
+    </keydef>
+</map>

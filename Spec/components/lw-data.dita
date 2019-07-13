@@ -139,7 +139,7 @@
       <title>XDITA example</title>
       <p>The following example demonstrates the use of data in an XDITA topic.</p>
 
-          <pre conref="../common/common-examples.dita#common-examples/data-prolog-xdita"/>
+          <codeblock><coderef href="examples/lw-data-prolog.xdita"/></codeblock>
 
 </fig>>
 
@@ -147,7 +147,7 @@
       <title>HDITA example</title>
       <p>The following example demonstrates the use of data in an HDITA topic.</p>
 
-      <pre conref="../common/common-examples.dita#common-examples/data-prolog-hdita"/>
+      <codeblock><coderef href="examples/lw-data-prolog.hdita"/></codeblock>
 
     </fig>
 
@@ -155,7 +155,7 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of data in an MDITA extended profile topic.</p>
-      <pre conref="../common/common-examples.dita#common-examples/data-prolog-mdita"/>
+      <codeblock><coderef href="examples/lw-data-prolog.mdita"/></codeblock>
 
 
     </fig>

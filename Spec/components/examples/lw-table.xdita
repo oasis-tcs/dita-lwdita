@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="fancy-roll">
+  <title>Fancy Roll</title>
+  <body>
+    <simpletable>
+      <sthead>
+        <stentry>
+          <p>Ingredient</p>
+        </stentry>
+        <stentry>
+          <p>Amount</p>
+        </stentry>
+        <stentry>
+          <p>Unit shipped</p>
+        </stentry>
+      </sthead>
+      <strow>
+        <stentry>
+          <p>Gohan rice</p>
+        </stentry>
+        <stentry>
+          <p>140 gms.</p>
+        </stentry>
+        <stentry>
+          <p>14 kgs.</p>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <p>Soya paper sheet</p>
+        </stentry>
+        <stentry>
+          <p>1 pc.</p>
+        </stentry>
+        <stentry>
+          <p>10 pcs.</p>
+        </stentry>
+      </strow>
+    </simpletable>
+  </body>
+</topic>

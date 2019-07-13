@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+</head>
+<body>
+  <article id="intro-product">
+    <h1>Remote Lighting Overview</h1>
+    <p>The Remote Lighting Network kit includes a wireless smart system that helps make the lighting in your home more energy efficient and easier to manage.</p>
+    <figure>
+      <img src="images/kit-package.jpg" alt="Retail package for the Remote Lighting Network kit" />
+</figure>
+  </article>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
+<topic id="sensei-promise">
+  <title>The Sensei Sushi Promise</title>
+  <body>
+    <video>
+      <desc>Video about the Sensei Sushi promise</desc>
+      <video-poster value="sensei-video.jpg"/>
+      <media-controls value="true"/>
+      <media-autoplay value="false"/>
+      <media-loop value="true"/>
+      <media-muted value="true"/>
+      <media-source value="sensei-video.mp4"/>
+      <media-track value="sensei-video.vtt" type="captions"/>
+    </video>
+  </body>
+</topic>

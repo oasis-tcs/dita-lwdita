@@ -37,7 +37,7 @@
       <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of definition list entry in an XDITA topic.</p>
-      <pre conref="../common/common-examples.dita#common-examples/dl-xdita"/>
+      <codeblock><coderef href="examples/lw-dl.xdita"/></codeblock>
       </fig>
     </example>
   </refbody>

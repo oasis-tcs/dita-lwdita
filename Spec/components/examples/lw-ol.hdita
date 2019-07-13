@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<title>Make a plan! Start your future today!</title>
+<body>
+  <article id="franchise-plan">
+    <h1>Make a plan! Start your future today!</h1>
+    <ol>
+      <li>
+        <p>Contact one of our franchise advisors</p>
+      </li>
+      <li>
+        <p>Pick a location for your restaurant</p>
+      </li>
+      <li>
+        <p>Follow our franchise guide</p>
+      </li>
+    </ol>
+  </article>
+</body>
