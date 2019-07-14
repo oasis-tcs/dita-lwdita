@@ -44,6 +44,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--    25 Jul 2017  CE: Changed public identifier to LIGHTWEIGHT  -->
 <!--                     DITA                                      -->
 <!--    10 Feb 2018  AH: Added @processing-role to <topicref>      -->
+<!--    14 Jul 2019 KJE: Alphabeticize element declarations        -->
+<!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
@@ -95,6 +97,27 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--                    ELEMENT DECLARATIONS                       -->
 <!-- ============================================================= -->
 
+<!--                    LONG NAME: Key Definition  -->
+<!ELEMENT keydef	(topicmeta?, data*)        >
+<!ATTLIST keydef
+              %localization;
+              %filters;
+              %reference-content;
+              keys
+                        CDATA
+                                  #REQUIRED
+              processing-role
+                        CDATA       #FIXED      'resource-only'
+              outputclass  CDATA          #IMPLIED
+              class CDATA "+ map/topicref mapgroup-d/keydef ">
+              
+<!--                    LONG NAME: Link text-->
+<!ELEMENT linktext     (#PCDATA | %ph;)* >
+<!ATTLIST linktext
+             %localization;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "- map/linktext ">
+             
 <!--                    LONG NAME: Map  -->
 <!ELEMENT map		(topicmeta?, (topicref | keydef)*)  >
 <!ATTLIST map
@@ -106,77 +129,19 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "- map/map ">
 
-
-<!--                    LONG NAME: Metadata-->
-<!ELEMENT topicmeta     (navtitle?, linktext?, data*) >
-<!ATTLIST topicmeta
-             %localization;
-             class CDATA "- map/topicmeta ">
-
 <!--                    LONG NAME: Navigation title -->
 <!ELEMENT navtitle (#PCDATA|%ph;)* >
 <!ATTLIST navtitle
              %localization;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/navtitle ">
+             class CDATA "- topic/navtitle "> 
 
-<!--                    LONG NAME: Link text-->
-<!ELEMENT linktext     (#PCDATA | %ph;)* >
-<!ATTLIST linktext
+<!--                    LONG NAME: Metadata-->
+<!ELEMENT topicmeta     (navtitle?, linktext?, data*) >
+<!ATTLIST topicmeta
              %localization;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- map/linktext ">
-
-<!--                    LONG NAME: Data  -->
-<!ELEMENT data             (#PCDATA|%data;)*        >
-<!ATTLIST data
-             %localization;
-             name       CDATA                            #IMPLIED
-             value      CDATA                            #IMPLIED
-             %reference-content;
-             %variable-content;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/data ">
-
-<!--                    LONG NAME: Phrase content  -->
-<!ELEMENT ph             (%all-inline;)*        >
-<!ATTLIST ph
-             %localization;
-             %variable-content;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/ph ">
-
-<!--                    LONG NAME: Image  -->
-<!ELEMENT image             (alt?)        >
-<!ATTLIST image
-             %reference-content;
-             height     NMTOKEN                          #IMPLIED
-             width      NMTOKEN                          #IMPLIED
-             %localization;
-             %variable-content;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/image ">
-
-
-<!--                    LONG NAME: Alternative content  -->
-<!ELEMENT alt           (#PCDATA|%ph;|%data;)*        >
-<!ATTLIST alt
-             %localization;
-             %variable-content;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/alt ">
-
-<!--                    LONG NAME: Reference  -->
-<!ELEMENT xref          (%common-inline;)*        >
-<!ATTLIST xref
-             %reference-content;
-             %localization;
-             %variable-links;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/xref ">
-
-
-
+             class CDATA "- map/topicmeta ">            
+             
 <!--                    LONG NAME: Topic or Map Reference  -->
 <!ELEMENT topicref	(topicmeta?, topicref*)        >
 <!ATTLIST topicref
@@ -192,17 +157,50 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "- map/topicref ">
 
-<!--                    LONG NAME: Key Definition  -->
-<!ELEMENT keydef	(topicmeta?, data*)        >
-<!ATTLIST keydef
-              %localization;
-              %filters;
-              %reference-content;
-              keys
-                        CDATA
-                                  #REQUIRED
-              processing-role
-                        CDATA       #FIXED      'resource-only'
-              outputclass  CDATA          #IMPLIED
-              class CDATA "+ map/topicref mapgroup-d/keydef "
->
+<!--                    LONG NAME: Alternative content  -->
+<!ELEMENT alt           (#PCDATA|%ph;|%data;)*        >
+<!ATTLIST alt
+             %localization;
+             %variable-content;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "- topic/alt ">
+
+<!--                    LONG NAME: Data  -->
+<!ELEMENT data             (#PCDATA|%data;)*        >
+<!ATTLIST data
+             %localization;
+             name       CDATA                            #IMPLIED
+             value      CDATA                            #IMPLIED
+             %reference-content;
+             %variable-content;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "- topic/data ">
+             
+<!--                    LONG NAME: Image  -->
+<!ELEMENT image             (alt?)        >
+<!ATTLIST image
+             %reference-content;
+             height     NMTOKEN                          #IMPLIED
+             width      NMTOKEN                          #IMPLIED
+             %localization;
+             %variable-content;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "- topic/image ">             
+
+<!--                    LONG NAME: Phrase content  -->
+<!ELEMENT ph             (%all-inline;)*        >
+<!ATTLIST ph
+             %localization;
+             %variable-content;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "- topic/ph ">
+
+<!--                    LONG NAME: Reference  -->
+<!ELEMENT xref          (%common-inline;)*        >
+<!ATTLIST xref
+             %reference-content;
+             %localization;
+             %variable-links;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "- topic/xref ">
+
