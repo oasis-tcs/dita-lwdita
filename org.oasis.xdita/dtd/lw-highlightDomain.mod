@@ -35,7 +35,9 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
 <!--    14 Jun 2017 RDA: Added @outputclass                        -->
 <!--    25 Jul 2017  CE: Changed public identifier to LIGHTWEIGHT  -->
 <!--                     DITA                                      -->
-<!--     1 Mar 2018  CE: Renamed file to lw-highlightDomain.mod    -->
+<!--    01 Mar 2018  CE: Renamed file to lw-highlightDomain.mod    -->
+<!--    14 Jul 2019 KJE: Alphabeticized element declarations       -->
+<!--                                                               -->
 <!-- ============================================================= -->
 
 <!--                    LONG NAME: Bold content  -->
@@ -53,6 +55,22 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
              %variable-content;
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/ph hi-d/i ">
+             
+<!--                    LONG NAME: Subscript content  -->
+<!ELEMENT sub             (%all-inline;)*        >
+<!ATTLIST sub
+             %localization;
+             %variable-content;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "+ topic/ph hi-d/sub ">             
+             
+<!--                    LONG NAME: Superscript content  -->
+<!ELEMENT sup             (%all-inline;)*        >
+<!ATTLIST sup
+             %localization;
+             %variable-content;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "+ topic/ph hi-d/sup ">             
 
 <!--                    LONG NAME: Underlined content  -->
 <!ELEMENT u             (%all-inline;)*        >
@@ -62,18 +80,6 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/ph hi-d/u ">
 
-<!--                    LONG NAME: Superscript content  -->
-<!ELEMENT sup             (%all-inline;)*        >
-<!ATTLIST sup
-             %localization;
-             %variable-content;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/ph hi-d/sup ">
 
-<!--                    LONG NAME: Subscript content  -->
-<!ELEMENT sub             (%all-inline;)*        >
-<!ATTLIST sub
-             %localization;
-             %variable-content;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/ph hi-d/sub ">
+
+
