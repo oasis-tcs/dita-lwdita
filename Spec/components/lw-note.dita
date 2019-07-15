@@ -24,15 +24,20 @@
     </section>
 
 <section conkeyref="reuse-note/usage-information" />
-
-    <section>
-      <title>Attributes</title>
-      <p>Under construction</p>
-
-
-
-
-    </section>
+      
+      <section>
+        <title>XDITA attributes</title>
+      
+      
+      
+      </section>
+      
+      <section>
+        <title>HDITA attributes</title>
+        <p></p>
+      </section>
+      
+    
         <example>
           <title>Examples</title>
           <fig>
