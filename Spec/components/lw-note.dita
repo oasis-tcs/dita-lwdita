@@ -25,18 +25,38 @@
 
 <section conkeyref="reuse-note/usage-information" />
       
-      <section>
-        <title>XDITA attributes</title>
+<section>
+  <title>Attributes</title>
+  <p>Reused para from 2.0</p>
+  <dl>
+    <dlentry>
+    <dt>Type</dt>
+      <dd><p>This is a sentence for all flavors... comes reused from 2.0 with proper @ids at the p level?</p>
+            <simpletable frame="all" relcolwidth="1* 1*" id="simpletable_qrg_zf5_k3b">
+              <sthead>
+                <stentry>Authoring format</stentry>
+                <stentry>Syntax</stentry>
+              </sthead>
+              <strow>
+                <stentry>XDITA</stentry>
+                <stentry><xmlatt>type</xmlatt></stentry>
+              </strow>
+              <strow>
+                <stentry>HDITA</stentry>
+                <stentry><xmlatt>data-type</xmlatt></stentry>
+              </strow>
+            </simpletable>
+        
+      </dd>
+            
+        </dlentry>
+  </dl>
+  
+  <p>Conrefed para about MDITA attributes goes here</p>
+</section>      
       
-      
-      
-      </section>
-      
-      <section>
-        <title>HDITA attributes</title>
-        <p></p>
-      </section>
-      
+  
+  
     
         <example>
           <title>Examples</title>
