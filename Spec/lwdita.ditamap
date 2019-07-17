@@ -120,7 +120,7 @@
 
   <topicref href="components/lw-li.dita" keys="li"/>
 
-  <topicref href="components/lw-image.dita" keys="note"/>
+  <topicref href="components/lw-note.dita" keys="note"/>
 
   <topicref href="components/lw-ol.dita" keys="ol"/>
 
