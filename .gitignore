@@ -1,5 +1,7 @@
-
+Spec/out
+Spec/temp
 .DS_Store
 Spec/.DS_Store
 Spec/.DS_Store
 org.oasis.xdita/.DS_Store
+.gitignore

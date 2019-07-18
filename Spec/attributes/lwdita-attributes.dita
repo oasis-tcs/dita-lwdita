@@ -28,7 +28,7 @@
      </row>
      <row>
       <entry>DITAArchVersion</entry>
-      <entry><ph rev="review-2"><xmlatt>ditaarch:DITAArchVersion</xmlatt></ph></entry>
+      <entry><xmlatt>ditaarch:DITAArchVersion</xmlatt></entry>
       <entry>Not applicable</entry>
      </row>
      <row>
@@ -94,7 +94,7 @@
      <row>
       <entry>Props</entry>
       <entry><xmlatt>props</xmlatt></entry>
-      <entry><ph rev="review-1"><xmlatt>data-props</xmlatt></ph></entry>
+      <entry><xmlatt>data-props</xmlatt></entry>
      </row>
      <row>
       <entry namest="c1" nameend="c3"><b>Footnote control</b></entry>
@@ -123,7 +123,7 @@
      <row>
       <entry>Type</entry>
       <entry><xmlatt>type</xmlatt></entry>
-      <entry><ph rev="review-1"><xmlatt>data-type</xmlatt></ph></entry>
+      <entry><xmlatt>data-type</xmlatt></entry>
      </row>
      <row>
       <entry><b>Processing attribute</b></entry>
@@ -152,9 +152,9 @@
       <entry><xmlatt>type</xmlatt></entry>
      </row>
      <row>
-      <entry><ph rev="review-3">Processing role</ph></entry>
-      <entry><ph rev="review-3"><xmlatt>processing-role</xmlatt></ph></entry>
-      <entry><ph rev="review-3"><xmlatt>data-processing-role</xmlatt></ph></entry>
+      <entry>Processing role</entry>
+      <entry><xmlatt>processing-role</xmlatt></entry>
+      <entry><xmlatt>data-processing-role</xmlatt></entry>
      </row>
      <row>
       <entry>Relationship of source to target</entry>
@@ -175,17 +175,17 @@
      <row>
       <entry>Content reference</entry>
       <entry><xmlatt>conref</xmlatt></entry>
-      <entry><ph rev="review-1"><xmlatt>data-conref</xmlatt></ph></entry>
+      <entry><xmlatt>data-conref</xmlatt></entry>
      </row>
      <row>
-      <entry><ph rev="review-3">Key definition</ph></entry>
-      <entry><ph rev="review-3"><xmlatt>keys</xmlatt></ph></entry>
-      <entry><ph rev="review-3"><xmlatt>data-keys</xmlatt></ph></entry>
+      <entry>Key definition</entry>
+      <entry><xmlatt>keys</xmlatt></entry>
+      <entry><xmlatt>data-keys</xmlatt></entry>
      </row>
      <row>
-      <entry><ph rev="public-review-1">Key reference</ph></entry>
-      <entry><ph rev="public-review-1"><xmlatt>keyref</xmlatt></ph></entry>
-      <entry><ph rev="public-review-1"><xmlatt>data-keyref</xmlatt></ph></entry>
+      <entry>Key reference</entry>
+      <entry><xmlatt>keyref</xmlatt></entry>
+      <entry><xmlatt>data-keyref</xmlatt></entry>
      </row>
      <row>
       <entry namest="c1" nameend="c3"><b>Video size</b></entry>
