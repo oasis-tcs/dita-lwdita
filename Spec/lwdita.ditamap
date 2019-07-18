@@ -361,6 +361,7 @@
 
 
  </chapter>
+ <chapter format="ditamap" href="commonspec/specification/langRef/attributes/ditaref-attributes.ditamap"/>
 
  <chapter href="conformance/lw-conformance.ditamap" keys="conformance" format="ditamap"/>
 

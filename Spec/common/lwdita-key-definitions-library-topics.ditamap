@@ -85,6 +85,8 @@
             <linktext>topic metadata component</linktext>
         </topicmeta>
     </keydef>
+    <keydef keys="rendering"
+        href="../commonspec/specification/common/conref-rendering-expectations.dita"/>
     <keydef keys="reuse-alt" href="../commonspec/specification/common/reuse-w-lwdita/reuse-alt.dita"/>
     <keydef keys="reuse-audio" href="../commonspec/specification/common/reuse-w-lwdita/reuse-audio.dita"/>
     <keydef keys="reuse-b" href="../commonspec/specification/common/reuse-w-lwdita/reuse-b.dita"/>
