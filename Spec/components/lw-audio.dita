@@ -27,14 +27,7 @@
       <section conkeyref="reuse-audio/rendering-expectations" />
       <section conkeyref="reuse-audio/processing-expectations" />
    
-    <section>
-      <title>Attributes</title>
-      <p>Under construction</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-audio/attributes"/>  
         <example>
           <fig>
       <title>XDITA example</title>

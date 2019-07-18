@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-fig">
   <title>Figure</title>
-  <shortdesc conkeyref="common-shortdescs/fig"/>
+  <shortdesc conkeyref="reuse-fig/shortdesc"/>
     <refbody>
     <section>
       <title>Syntax</title>
@@ -23,14 +23,7 @@
     </section>
 
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-fig/attributes"/>  
         <example>
           <fig>
       <title>XDITA example</title>

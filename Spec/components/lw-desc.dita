@@ -29,14 +29,7 @@
     </section>
       <section conkeyref="reuse-desc/usage-information" />
       <section conkeyref="reuse-desc/rendering-expectations" />
-      <section>
-      <title>Attributes</title>
-      <p>Under construction</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-desc/attributes"/>  
         <example>
           <fig>
       <title>XDITA example</title>

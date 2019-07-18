@@ -28,14 +28,7 @@
       
       <section conkeyref="reuse-media-source/usage-information" />
     
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-media-source/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

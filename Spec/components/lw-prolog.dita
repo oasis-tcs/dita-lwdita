@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-prolog">
   <title>Prolog</title>
-  <shortdesc conkeyref="common-shortdescs/prolog"/>
+  <shortdesc conkeyref="reuse-prolog/shortdesc"/>
     <refbody>
     <section>
       <title>Syntax</title>
@@ -24,14 +24,7 @@
       </dl>
     </section>
 
-    <section>
-      <title>Attributes</title>
-      <p>Under construction</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-prolog/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

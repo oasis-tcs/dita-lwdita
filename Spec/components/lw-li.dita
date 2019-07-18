@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-li">
   <title>List item</title>
-  <shortdesc conkeyref="common-shortdescs/li"/>
+  <shortdesc conkeyref="reuse-li/shortdesc"/>
     <refbody>
     <section>
       <title>Syntax</title>
@@ -25,14 +25,7 @@
       </dl>
     </section>
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-li/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

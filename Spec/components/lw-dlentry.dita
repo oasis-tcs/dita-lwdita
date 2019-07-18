@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-dlentry">
   <title>Definition list entry</title>
-  <shortdesc conkeyref="common-shortdescs/dlentry"/>
+  <shortdesc conkeyref="reuse-dlentry/shortdesc"/>
   <refbody>
     <section>
       <title>Syntax</title>
@@ -29,10 +29,7 @@
       </dl>
     </section>
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-    </section>
+    <section conkeyref="reuse-dlentry/attributes"/>  
     <example>
       <fig>
       <title>XDITA example</title>

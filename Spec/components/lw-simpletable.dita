@@ -31,14 +31,7 @@
       <section conkeyref="reuse-simpletable/usage-information" />
 
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-simpletable/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

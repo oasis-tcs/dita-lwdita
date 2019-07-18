@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-topic">
   <title>Topic</title>
-  <shortdesc conkeyref="common-shortdescs/topic"/>
+  <shortdesc conkeyref="reuse-topic/shortdesc"/>
     <refbody>
     <section>
       <title>Syntax</title>
@@ -21,14 +21,7 @@
         </dlentry>
       </dl>
     </section>
-     <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-topic/attributes"/>  
        <example>
          <title>Examples</title>
         <fig>

@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-body">
   <title>Body</title>
-  <shortdesc conkeyref="common-shortdescs/body"/>
+  <shortdesc conkeyref="reuse-body/shortdesc"/>
     <refbody>
     <section>
       <title>Syntax</title>
@@ -25,14 +25,7 @@
     </section>
 
 
-    <section>
-      <title>Attributes</title>
-      <p>Under construction</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-body/attributes"/>  
         <example>
           <fig>
       <title>XDITA example</title>

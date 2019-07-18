@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-xref">
   <title>Cross reference</title>
-  <shortdesc conkeyref="common-shortdescs/xref"/>
+  <shortdesc conkeyref="reuse-xref/shortdesc"/>
 
     <refbody>
     <section>
@@ -23,14 +23,7 @@
       </dl>
     </section>
 
-    <section>
-      <title>Attributes</title>
-      <p>Under construction</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-xref/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

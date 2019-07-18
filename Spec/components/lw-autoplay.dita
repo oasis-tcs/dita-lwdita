@@ -30,14 +30,7 @@
     </section>
       <section conkeyref="reuse-media-autoplay/usage-information" />
       
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-media-autoplay/attributes"/>  
         <example>
           <fig>
       <title>XDITA example</title>

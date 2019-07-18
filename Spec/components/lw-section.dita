@@ -26,14 +26,7 @@
       <section conkeyref="reuse-section/rendering-expectations" />
 
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-section/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

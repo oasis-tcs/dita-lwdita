@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-p">
   <title>Paragraph</title>
-  <shortdesc conkeyref="common-shortdescs/p"/>
+  <shortdesc conkeyref="reuse-p/shortdesc"/>
     <refbody>
     <section>
       <title>Syntax</title>
@@ -24,14 +24,7 @@
       </dl>
     </section>
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-p/attributes"/>  
         <example>
           <title>Examples</title>
         <fig>

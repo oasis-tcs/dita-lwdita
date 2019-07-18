@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-u">
   <title>Underline</title>
-  <shortdesc conkeyref="common-shortdescs/u"/>
+  <shortdesc conkeyref="reuse-u/shortdesc"/>
   <refbody>
     <section>
       <title>Syntax</title>
@@ -27,11 +27,7 @@
         </dlentry>
       </dl>
     </section>
-
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-    </section>
+    <section conkeyref="reuse-u/attributes"/>  
     <example>
       <title>Examples</title>
       <fig>

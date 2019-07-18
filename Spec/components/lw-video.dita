@@ -29,14 +29,7 @@
       <section conkeyref="reuse-video/rendering-expectations" />
 
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-video/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

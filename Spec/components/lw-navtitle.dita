@@ -30,10 +30,7 @@
     </section>
 <section conkeyref="reuse-navtitle/usage-information" />
     <section conkeyref="reuse-navtitle/processing-expectations" />
-    <section>
-      <title>Attributes</title>
-      <p>Under construction</p>
-    </section>
+    <section conkeyref="reuse-navtitle/attributes"/>  
     <example>
       <title>Example</title>
       <fig>

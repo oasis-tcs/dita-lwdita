@@ -27,15 +27,8 @@
       <section conkeyref="reuse-topicmeta/usage-information" />
 
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
-        <example>
+      <section conkeyref="reuse-topicmeta/attributes"/>  
+      <example>
           <title>Example</title>
           <fig>
       <title>XDITA example</title>

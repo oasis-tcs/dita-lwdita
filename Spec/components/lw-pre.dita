@@ -23,14 +23,7 @@
     </section>
     <section conkeyref="reuse-pre/rendering-expectations" />
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-pre/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

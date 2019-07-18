@@ -26,14 +26,7 @@
     </section>
 <section conkeyref="reuse-map/usage-information" />
       <section conkeyref="reuse-map/rendering-expectations" />
-        <section>
-      <title>Attributes</title>
-      <p>Under construction</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-map/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

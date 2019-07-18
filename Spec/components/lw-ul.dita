@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-ul">
   <title>Unordered list</title>
-  <shortdesc conkeyref="common-shortdescs/ul"/>
+  <shortdesc conkeyref="reuse-ul/shortdesc"/>
     <refbody>
     <section>
       <title>Syntax</title>
@@ -24,14 +24,7 @@
 
 
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-ul/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

@@ -25,14 +25,7 @@
     </section>
     <section conkeyref="reuse-ph/usage-information" />
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-ph/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

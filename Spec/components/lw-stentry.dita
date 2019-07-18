@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-stentry">
   <title>Table entry</title>
-  <shortdesc conkeyref="common-shortdescs/stentry"/>
+  <shortdesc conkeyref="reuse-stentry/shortdesc"/>
   <refbody>
     <section>
       <title>Syntax</title>
@@ -29,10 +29,7 @@
       </dl>
     </section>
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-    </section>
+    <section conkeyref="reuse-stentry/attributes"/>  
     <example>
       <title>Examples</title>
       <fig>

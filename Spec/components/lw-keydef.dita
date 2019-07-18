@@ -25,14 +25,7 @@
     </section>
       <section conkeyref="reuse-keydef/usage-information" />
 
-    <section>
-      <title>Attributes</title>
-      <p>Under construction</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-keydef/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

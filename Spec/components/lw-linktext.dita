@@ -26,14 +26,7 @@
     </section>
       <section conkeyref="reuse-linktext/usage-information" />
 
-        <section>
-      <title>Attributes</title>
-      <p>Under construction</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-linktext/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

@@ -25,14 +25,7 @@
       </dl>
     </section>
       <section conkeyref="reuse-image/rendering-expectations" />
-        <section>
-      <title>Attributes</title>
-      <p>Under construction</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-image/attributes"/>  
         <example>
           <title>Examples</title>
           <fig>

@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-ol">
   <title>Ordered list</title>
-  <shortdesc conkeyref="common-shortdescs/ol"/>
+  <shortdesc conkeyref="reuse-ol/shortdesc"/>
     <refbody>
     <section>
       <title>Syntax</title>
@@ -22,14 +22,7 @@
       </dl>
     </section>
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-ol/attributes"/>  
         <example>
           <title>Examples</title>
         <fig>

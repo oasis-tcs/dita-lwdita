@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-sup">
   <title>Superscript</title>
-  <shortdesc conkeyref="common-shortdescs/sup"/>
+  <shortdesc conkeyref="reuse-sup/shortdesc"/>
   <refbody>
     <section>
       <title>Syntax</title>
@@ -28,10 +28,7 @@
       </dl>
     </section>
 
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-    </section>
+    <section conkeyref="reuse-sup/attributes"/>  
     <example>
       <title>Examples</title>
       <fig>

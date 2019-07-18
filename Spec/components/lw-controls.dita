@@ -27,14 +27,7 @@
     </section>
       <section conkeyref="reuse-media-controls/usage-information"/>
       
-    <section>
-      <title>Attributes</title>
-      <p>Link to table!</p>
-
-
-
-
-    </section>
+      <section conkeyref="reuse-media-controls/attributes"/>  
         <example>
           <fig>
       <title>XDITA example</title>
