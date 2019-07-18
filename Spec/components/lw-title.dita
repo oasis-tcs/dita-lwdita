@@ -14,9 +14,8 @@
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p><xmlelement>h1</xmlelement> and <xmlelement>title</xmlelement> for <xref href="lw-topic.dita" format="dita">topic</xref>;
-              <xmlelement>h2</xmlelement> for <xref href="lw-section.dita" format="dita">section</xref> (Title should
-              map to both <xmlelement>title</xmlelement> and <xmlelement>h1</xmlelement> in HDITA). Better way to say this??? <xmlelement>figcaption</xmlelement>
+            <p><xmlelement>h1</xmlelement> and <xmlelement>title</xmlelement> for <xref href="lw-topic.dita" format="dita">topic</xref> (The content for Title in an HDITA topic <term outputclass="RFC-2119">MUST</term> map to both <xmlelement>title</xmlelement> and <xmlelement>h1</xmlelement>). 
+              <xmlelement>h2</xmlelement> for <xref href="lw-section.dita" format="dita">section</xref>. <xmlelement>figcaption</xmlelement>
               in <xmlelement>figure</xmlelement>. Title also applied to audio and video in HDITA as attribute???</p>
           </dd>
         </dlentry>
