@@ -22,8 +22,8 @@
    </dlentry>
    <dlentry>
     <dt>custom data attributes</dt>
-    <dd>Custom attributes, such as <ph rev="review-1"><xmlatt>data-conref</xmlatt></ph>, that are used in HDITA and the
-     extended profile of MDITA <ph rev="review-2">to use DITA features such as conref and keyref</ph>.</dd>
+    <dd>Custom attributes, such as <ph><xmlatt>data-conref</xmlatt></ph>, that are used in HDITA and the
+     extended profile of MDITA <ph>to use DITA features such as conref and keyref</ph>.</dd>
    </dlentry>
    <!-- <dlentry>
     <dt>document type</dt>
@@ -31,8 +31,9 @@
    </dlentry> -->
    <dlentry> 
     <dt>extended profile</dt>
-    <dd>(MDITA) The authoring profile that relies on specific Markdown variants <ph rev="review-2">to access DITA features such</ph> as the <xmlatt>id</xmlatt> attribute on the root element, prolog
-     metadata, <ph rev="committee-note-2-draft01">definition lists, footnotes,</ph> and optional use of HTML element <ph rev="public-review-1">types</ph>.</dd>
+    <dd>(MDITA) The authoring profile that relies on specific Markdown variants to access DITA
+     features such as the <xmlatt>id</xmlatt> attribute on the root element, prolog metadata,
+      <ph>definition lists, footnotes,</ph> and optional use of HTML element types.</dd>
    </dlentry>
    <dlentry>
     <dt>HDITA</dt>
