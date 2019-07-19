@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map id="map_mrd_qc2_rfb">
-    <topichead>
-        <topicmeta>
-            <navtitle>Introduction</navtitle>
-        </topicmeta>
-<!--        <topicref href="introduction.dita"/>-->
+<map id="introduction">
+    <title>Introduction</title>
+    <topicref href="introduction-lwdita-spec.dita">
+        <topicref href="about-the-lightweight-dita-specification.dita"/>
+        <topicref href="../commonspec/specification/introduction/terminology.dita"/>
+        <topicref href="../commonspec/specification/introduction/ipr-policy.dita"/>
         <topicref href="normative-references.dita"/>
         <topicref href="non-normative-references(needs%20work).dita"/>
-        <topicref href="terminology.dita"/>
-    </topichead>
+        <topicref
+            href="../commonspec/specification/introduction/formatting-conventions-xhtml-output.dita">
+            <topicref href="../commonspec/specification/introduction/link-previews.dita"/>
+            <topicref href="../commonspec/specification/introduction/navigation-links.dita"/>
+        </topicref>
+    </topicref>
 </map>
