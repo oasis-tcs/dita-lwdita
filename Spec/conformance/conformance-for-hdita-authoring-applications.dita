@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="conformance-for-hdita-authoring-applications">
+    <title>Conformance for HDITA authoring applications</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <section id="section-1">
+            <p>Text editors are considered viable authoring environments for HDITA. Any can create
+                valid HTML5.</p>
+            <p>Applications that support HDITA authoring <term outputclass="RFC-2119">MAY</term>:<ul>
+                    <li>Provide guided authoring for HDITA topics, by presenting HDITA components in
+                        valid order and number.</li>
+                    <li>Support authors in inserting valid HDITA components.</li>
+                    <li>Limit authors to HDITA components of HTML5, or flag components that, while
+                        valid according to the HTML spec, are not legal in HDITA topics. (must)</li>
+                    <li>Support authors in authoring HDITA maps to define sets of HDITA topics.</li>
+                </ul></p>
+        </section>
+    </conbody>
+</concept>
