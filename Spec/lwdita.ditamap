@@ -62,9 +62,7 @@
   <topicref href="authoring-formats/formats-introduction.dita"/>
   <topicref href="capabilities/capabilities.dita"/>
  </chapter>
- <chapter>
-  <mapref href="components/lw-components.ditamap"/>
- </chapter>
+ <chapter format="ditamap" href="components/lw-components.ditamap"/>
  <chapter format="ditamap"
   href="commonspec/specification/langRef/attributes/ditaref-attributes.ditamap"/>
  <appendix>
