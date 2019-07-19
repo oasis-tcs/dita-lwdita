@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map id="map_mrd_qc2_rfb">
-    <topicmeta>
-        <navtitle/>
-    </topicmeta>
-    <topicref href="authoring-tool-conformance.dita"/>
-    <topicref href="processing-tool-conformance.dita"/>
+<map id="conformance">
+    <title>Conformance</title>
+    <topicref href="conformance.dita">
+        <topicref href="authoring-tool-conformance.dita">
+            <topicref href="conformance-for-xdita-authoring-applications.dita"/>
+            <topicref href="conformance-for-hdita-authoring-applications.dita"/>
+            <topicref href="conformance-for-mdita-authoring-applications.dita"/>
+        </topicref>
+        <topicref href="processing-tool-conformance.dita"/>
+    </topicref>
 </map>
