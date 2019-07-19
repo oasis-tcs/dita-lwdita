@@ -3,20 +3,24 @@
 <bookmap xml:lang="en-us">
  <booktitle>
   <mainbooktitle>Lightweight DITA Version 1.0</mainbooktitle>
-  <booktitlealt outputclass="documentStage"><keyword keyref="stage"/></booktitlealt>
-  <booktitlealt outputclass="stageDate"><keyword keyref="stage-date"/></booktitlealt>
+  <booktitlealt outputclass="documentStage">
+   <keyword keyref="stage"/>
+  </booktitlealt>
+  <booktitlealt outputclass="stageDate">
+   <keyword keyref="stage-date"/>
+  </booktitlealt>
  </booktitle>
  <bookmeta>
   <shortdesc>Lightweight DITA 1.0 specification</shortdesc>
   <author>OASIS DITA Technical Committee</author>
   <keywords>
-   <keyword>LwDITA 1.0</keyword>
-   <keyword>Lightweight DITA 1.0</keyword>
-   <keyword>DITA 2.0</keyword>
    <keyword>Darwin Information Typing Architecture</keyword>
-   <keyword>XML</keyword>
-   <keyword>Markdown</keyword>
+   <keyword>DITA 2.0</keyword>
    <keyword>HTML5</keyword>
+   <keyword>Lightweight DITA 1.0</keyword>
+   <keyword>LwDITA 1.0</keyword>
+   <keyword>Markdown</keyword>
+   <keyword>XML</keyword>
   </keywords>
   <bookrights>
    <copyrfirst>
@@ -31,11 +35,11 @@
   </bookrights>
  </bookmeta>
  <frontmatter>
-
-  <mapref href="common/lwdita-specification-subjectScheme.ditamap" type="subjectScheme"/>
+  <mapref href="common/lwdita-specification-subjectScheme.ditamap" processing-role="resource-only"
+   type="subjectScheme"/>
   <mapref href="common/lwdita-key-definitions-cover-pages.ditamap" processing-role="resource-only"/>
   <mapref href="commonspec/specification/common/key-definitions-library-topics.ditamap"
-   format="ditamap"/>
+   processing-role="resource-only"/>
   <!--  <mapref href="base-relationship-tables.ditamap"/>-->
   <notices platform="dita-tc-publishing">
    <topicref href="resources/oasis-cover.dita" linking="none" toc="no"/>
@@ -49,323 +53,187 @@
    <toc/>
   </booklists>
  </frontmatter>
-
-
-
-
-
- <chapter href="introduction/lw-introduction.ditamap" keys="introduction" format="ditamap"/>
-
-
-
-
- <chapter href="authoring-formats/formats-introduction.dita" keys="authoring-formats"/>
-
-
- <chapter href="capabilities/capabilities.dita" keys="capabilities"/>
- <!-- <chapter href="specialization/lw-specialization.dita" keys="specialization"/>-->
- <!-- <chapter href="lwd-structuralannotations.dita" keys="structuralannotations"/>
-  <chapter href="lwd-domainannotations.dita" keys="domainannotations"/> -->
-
-
+ <chapter href="introduction/lw-introduction.ditamap" format="ditamap"/>
  <chapter>
   <topicmeta>
-   <navtitle>LwDITA components</navtitle>
+   <navtitle>Overview</navtitle>
   </topicmeta>
+  <topicref href="introduction/introduction.dita"/>
+  <topicref href="authoring-formats/formats-introduction.dita"/>
+  <topicref href="capabilities/capabilities.dita"/>
  </chapter>
-
  <chapter>
   <topicmeta>
-   <navtitle>Basic topic components</navtitle>
+   <navtitle>Component reference</navtitle>
   </topicmeta>
-
-  <keydef keys="common-shortdescs"
-   href="commonspec/specification/common/conref-short-descriptions.dita"/>
-
-  <topicref href="components/lw-topic.dita" keys="topic"/>
-
-  <topicref href="components/lw-title.dita" keys="title"/>
-
-  <topicref href="components/lw-shortdesc.dita" keys="shortdesc"/>
-
-  <topicref href="components/lw-body.dita" keys="body"/>
-
- </chapter>
-
- <chapter>
-  <topicmeta>
-   <navtitle>Body components</navtitle>
-  </topicmeta>
-
-
-  <topicref href="components/lw-alt.dita" keys="alt"/>
-
-  <topicref href="components/lw-dd.dita" keys="dd"/>
-
-  <topicref href="components/lw-desc.dita" keys="desc"/>
-
-  <topicref href="components/lw-dl.dita" keys="dl"/>
-
-  <topicref href="components/lw-dlentry.dita" navtitle="dlentry"/>
-
-  <topicref href="components/lw-dt.dita" navtitle="dt"/>
-
-
-  <topicref href="components/lw-fig.dita" keys="fig"/>
-
-  <topicref href="components/lw-fn.dita" keys="fn"/>
-
-
-  <topicref href="components/lw-image.dita" keys="image"/>
-
-
-  <topicref href="components/lw-li.dita" keys="li"/>
-
-  <topicref href="components/lw-note.dita" keys="note"/>
-
-  <topicref href="components/lw-ol.dita" keys="ol"/>
-
-  <topicref href="components/lw-p.dita" keys="p"/>
-
-
-  <topicref href="components/lw-ph.dita" keys="phrase"/>
-
-  <topicref href="components/lw-pre.dita" keys="pre"/>
-
-  <topicref href="components/lw-section.dita" keys="section"/>
-
-  <topicref href="components/lw-ul.dita" keys="ul"/>
-
-  <topicref href="components/lw-xref.dita" keys="xref"/>
-
- </chapter>
-
- <chapter>
-  <topicmeta>
-   <navtitle>Multimedia components</navtitle>
-  </topicmeta>
-
-  <topicref href="components/lw-audio.dita" keys="audio"/>
-
-  <topicref href="components/lw-autoplay.dita" keys="autoplay"/>
-
-  <topicref href="components/lw-controls.dita" keys="controls"/>
-
-  <topicref href="components/lw-loop.dita" keys="loop"/>
-
-  <topicref href="components/lw-muted.dita" keys="muted"/>
-
-  <topicref href="components/lw-poster.dita" keys="poster"/>
-
-  <topicref href="components/lw-source.dita" keys="source"/>
-
-  <topicref href="components/lw-track.dita" keys="track"/>
-
-  <topicref href="components/lw-video.dita" keys="video"/>
-
- </chapter>
-
-
- <chapter>
-  <topicmeta>
-   <navtitle>Table components</navtitle>
-  </topicmeta>
-  <topicref href="components/lw-simpletable.dita" keys="simpletable"/>
-
-  <topicref href="components/lw-stentry.dita" keys="stentry"/>
-
-  <topicref href="components/lw-sthead.dita" keys="sthead"/>
-
-  <topicref href="components/lw-strow.dita" keys="strow"/>
-
- </chapter>
-
-
- <chapter>
-  <topicmeta>
-   <navtitle>Related links component</navtitle>
-  </topicmeta>
-
-
-  <topicref href="components/lw-linktext.dita" keys="linktext"/>
-
- </chapter>
-
- <chapter>
-  <topicmeta>
-   <navtitle>Map components</navtitle>
-  </topicmeta>
-
-  <topicref href="components/lw-keydef.dita" keys="keydef"/>
-
-  <topicref href="components/lw-map.dita" keys="map"/>
-
-  <topicref href="components/lw-navtitle.dita" keys="navtitle"/>
-
-  <topicref href="components/lw-topicref.dita" keys="topicref"/>
-
-  <topicref href="components/lw-topicmeta.dita" keys="topicmeta"/>
-
- </chapter>
-
- <chapter>
-  <topicmeta>
-   <navtitle>Metadata components</navtitle>
-  </topicmeta>
-
-  <topicref href="components/lw-data.dita" keys="data"/>
-
-  <topicref href="components/lw-prolog.dita" keys="prolog"/>
-
- </chapter>
-
- <chapter>
-  <topicmeta>
-   <navtitle>Highlighting components</navtitle>
-  </topicmeta>
-
-  <topicref href="components/lw-b.dita" keys="b"/>
-
-  <topicref href="components/lw-i.dita" keys="italics"/>
-
-  <topicref href="components/lw-sub.dita" keys="sub"/>
-
-  <topicref href="components/lw-sup.dita" keys="sup"/>
-
-  <topicref href="components/lw-u.dita" keys="u"/>
-
- </chapter>
-
- <chapter>
-  <topicmeta>
-   <navtitle>LwDITA attributes</navtitle>
-  </topicmeta>
-
-  <!--  <chapter>
+  <topichead>
    <topicmeta>
-   <navtitle>Architecture attributes</navtitle>
+    <navtitle>Basic topic components</navtitle>
+   </topicmeta>
+   <topicref href="components/lw-body.dita" keys="body"/>
+   <topicref href="components/lw-shortdesc.dita" keys="shortdesc"/>
+   <topicref href="components/lw-title.dita" keys="title"/>
+   <topicref href="components/lw-topic.dita" keys="topic"/>
+  </topichead>
+  <topichead>
+   <topicmeta>
+    <navtitle>Body components</navtitle>
+   </topicmeta>
+   <topicref href="components/lw-alt.dita" keys="alt"/>
+   <topicref href="components/lw-dd.dita" keys="dd"/>
+   <topicref href="components/lw-desc.dita" keys="desc"/>
+   <topicref href="components/lw-dl.dita" keys="dl"/>
+   <topicref href="components/lw-dlentry.dita"/>
+   <topicref href="components/lw-dt.dita"/>
+   <topicref href="components/lw-fig.dita" keys="fig"/>
+   <topicref href="components/lw-fn.dita" keys="fn"/>
+   <topicref href="components/lw-image.dita" keys="image"/>
+   <topicref href="components/lw-li.dita" keys="li"/>
+   <topicref href="components/lw-note.dita" keys="note"/>
+   <topicref href="components/lw-ol.dita" keys="ol"/>
+   <topicref href="components/lw-p.dita" keys="p"/>
+   <topicref href="components/lw-ph.dita" keys="phrase"/>
+   <topicref href="components/lw-pre.dita" keys="pre"/>
+   <topicref href="components/lw-section.dita" keys="section"/>
+   <topicref href="components/lw-ul.dita" keys="ul"/>
+   <topicref href="components/lw-xref.dita" keys="xref"/>
+  </topichead>
+  <topichead>
+   <topicmeta>
+    <navtitle>Multimedia components</navtitle>
+   </topicmeta>
+   <topicref href="components/lw-audio.dita" keys="audio"/>
+   <topicref href="components/lw-autoplay.dita" keys="autoplay"/>
+   <topicref href="components/lw-controls.dita" keys="controls"/>
+   <topicref href="components/lw-loop.dita" keys="loop"/>
+   <topicref href="components/lw-muted.dita" keys="muted"/>
+   <topicref href="components/lw-poster.dita" keys="poster"/>
+   <topicref href="components/lw-source.dita" keys="source"/>
+   <topicref href="components/lw-track.dita" keys="track"/>
+   <topicref href="components/lw-video.dita" keys="video"/>
+  </topichead>
+  <topichead>
+   <topicmeta>
+    <navtitle>Table components</navtitle>
+   </topicmeta>
+   <topicref href="components/lw-simpletable.dita" keys="simpletable"/>
+   <topicref href="components/lw-stentry.dita" keys="stentry"/>
+   <topicref href="components/lw-sthead.dita" keys="sthead"/>
+   <topicref href="components/lw-strow.dita" keys="strow"/>
+  </topichead>
+  <topichead>
+   <topicmeta>
+    <navtitle>Related links component</navtitle>
+   </topicmeta>
+   <topicref href="components/lw-linktext.dita" keys="linktext"/>
+  </topichead>
+  <topichead>
+   <topicmeta>
+    <navtitle>Map components</navtitle>
+   </topicmeta>
+   <topicref href="components/lw-keydef.dita" keys="keydef"/>
+   <topicref href="components/lw-map.dita" keys="map"/>
+   <topicref href="components/lw-navtitle.dita" keys="navtitle"/>
+   <topicref href="components/lw-topicref.dita" keys="topicref"/>
+   <topicref href="components/lw-topicmeta.dita" keys="topicmeta"/>
+  </topichead>
+  <topichead>
+   <topicmeta>
+    <navtitle>Metadata components</navtitle>
+   </topicmeta>
+   <topicref href="components/lw-data.dita" keys="data"/>
+   <topicref href="components/lw-prolog.dita" keys="prolog"/>
+  </topichead>
+  <topichead>
+   <topicmeta>
+    <navtitle>Highlighting components</navtitle>
+   </topicmeta>
+   <topicref href="components/lw-b.dita" keys="b"/>
+   <topicref href="components/lw-i.dita" keys="italics"/>
+   <topicref href="components/lw-sub.dita" keys="sub"/>
+   <topicref href="components/lw-sup.dita" keys="sup"/>
+   <topicref href="components/lw-u.dita" keys="u"/>
+  </topichead>
+ </chapter>
+ <chapter format="ditamap"
+  href="commonspec/specification/langRef/attributes/ditaref-attributes.ditamap"/>
+ <appendix>
+  <topicmeta>
+   <navtitle>Conformance</navtitle>
   </topicmeta>
-  
-   <topicref href="attributes/lw-ditaarch.dita" keys="ditaarch"/>
-   <topicref href="attributes/lw-ditaarchversion.dita" keys="ditaarchversion"/>
-   <topicref href="attributes/lw-domains.dita" keys="domains"/>
- 
-  </chapter>-->
-
-
-  <!--  <chapter>
+  <mapref href="conformance/lw-conformance.ditamap"/>
+ </appendix>
+ <appendix href="introduction/revision-history.dita"/>
+</bookmap>
+<!--  <chapter>
    <topicmeta>
     <navtitle>Localization attributes</navtitle>
    </topicmeta>
- 
    <topicref href="attributes/lw-dir.dita" keys="dir"/>
    <topicref href="attributes/lw-lang.dita" keys="lang"/>
    <topicref href="attributes/lw-translate.dita" keys="translate"/>
-   
-  </chapter>
- 
- 
+   </chapter>
   <chapter>
    <topicmeta>
     <navtitle>Data definition attributes</navtitle>
-   </topicmeta>
-   
+   </topicmeta>   
    <topicref href="lwd-name.dita" keys="name"/>
-   <topicref href="lwd-value.dita" keys="value"/>
- 
-  </chapter>
-    
-    
+   <topicref href="lwd-value.dita" keys="value"/> 
+  </chapter>    
   <chapter>
    <topicmeta>
     <navtitle>Figure display attributes</navtitle>
-   </topicmeta>
-   
+   </topicmeta>   
    <topicref href="lwd-expanse.dita" keys="expanse"/>
    <topicref href="lwd-frame.dita" keys="frame"/>
-   <topicref href="lwd-scale.dita" keys="scale"/>
-   
-  </chapter>
-  
+   <topicref href="lwd-scale.dita" keys="scale"/>   
+  </chapter>  
   <chapter>
    <topicmeta>
     <navtitle>Filtering attribute</navtitle>
-   </topicmeta>
-   
-   <topicref href="lwd-props.dita" keys="props"/>
-   
-  </chapter>
-  
+   </topicmeta>  
+   <topicref href="lwd-props.dita" keys="props"/>   
+  </chapter>  
   <chapter>
    <topicmeta>
     <navtitle>Footnote control attribute</navtitle>
-   </topicmeta>
-  
-   <topicref href="att.dita" keys="callout"/>
-   
-  </chapter>
-  
+   </topicmeta> 
+   <topicref href="att.dita" keys="callout"/>   
+  </chapter>  
   <chapter>
    <topicmeta>
     <navtitle>Image and video size attributes</navtitle>
-   </topicmeta>
-   
+   </topicmeta>   
    <topicref href="lwd-height.dita" keys="height"/>
    <topicref href="lwd-width.dita" keys="width"/>
-
   </chapter>
-
-
   <chapter>
    <topicmeta>
     <navtitle>Note type attribute</navtitle>
    </topicmeta>
-
-   <topicref href="lwd-type.dita" keys="type"/>
-   
-  </chapter>
-  
+   <topicref href="lwd-type.dita" keys="type"/>   
+  </chapter>  
   <chapter>
    <topicmeta>
     <navtitle>Processing attribute</navtitle>
-   </topicmeta>
-   
-   <topicref href="lwd-outputclass.dita" keys="outputclass"/>
-   
-  </chapter>
-  
+   </topicmeta>   
+   <topicref href="lwd-outputclass.dita" keys="outputclass"/>   
+  </chapter>  
   <chapter>
    <topicmeta>
     <navtitle>Reference attributes</navtitle>
-   </topicmeta>
-   
+   </topicmeta>   
    <topicref href="lwd-href.dita" keys="href"/>
    <topicref href="lwd-format.dita" keys="format"/>
    <topicref href="lwd-scope.dita" keys="scope"/>
-
   </chapter>
-
-
   <chapter>
    <topicmeta>
     <navtitle>Reuse attributes</navtitle>
-   </topicmeta>
-   
+   </topicmeta>   
    <topicref href="lwd-id.dita" keys="id"/>
    <topicref href="lwd-conref.dita" keys="conref"/>
    <topicref href="lwd-keyref.dita" keys="keyref"/>
-   <topicref href="lwd-keys.dita" keys="keys"/>
-   
+   <topicref href="lwd-keys.dita" keys="keys"/>   
   </chapter>-->
-
-  <!-- Conformance topics and acknowledgements will go here -->
-
-
- </chapter>
- <chapter format="ditamap" href="commonspec/specification/langRef/attributes/ditaref-attributes.ditamap"/>
-
- <chapter href="conformance/lw-conformance.ditamap" keys="conformance" format="ditamap"/>
-
-
- <!-- <chapter href="lwd-common.dita" toc="no" keys="lwd-common" processing-role="resource-only"/>-->
-</bookmap>
+<!-- <chapter href="lwd-common.dita" toc="no" keys="lwd-common" processing-role="resource-only"/>-->
