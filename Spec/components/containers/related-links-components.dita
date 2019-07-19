@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+ "reference.dtd">
+<reference id="related-link-components" xml:lang="en-us">
+<title>Related links component</title>
+<shortdesc>The related-links section of LwDITA topics is a special structure
+that contains links. Links support navigation from a topic to other
+related topics or resources.</shortdesc>
+
+</reference>

@@ -2,53 +2,72 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Lightweight DITA Components</title>
- <topicref href="lw-alt.dita"/>
- <topicref href="lw-audio.dita"/>
- <topicref href="lw-autoplay.dita"/>
- <topicref href="lw-b.dita"/>
- <topicref href="lw-body.dita"/>
- <topicref href="lw-controls.dita"/>
- <topicref href="lw-data.dita"/>
- <topicref href="lw-dd.dita"/>
- <topicref href="lw-desc.dita"/>
- <topicref href="lw-dl.dita"/>
- <topicref href="lw-dlentry.dita"/>
- <topicref href="lw-dt.dita"/>
- <topicref href="lw-fig.dita"/>
- <topicref href="lw-fn.dita"/>
- <topicref href="lw-image.dita"/>
- <topicref href="lw-i.dita"/>
- <topicref href="lw-keydef.dita"/>
- <topicref href="lw-li.dita"/>
- <topicref href="lw-linktext.dita"/>
- <topicref href="lw-loop.dita"/>
- <topicref href="lw-map.dita"/>
- <topicref href="lw-muted.dita"/>
- <topicref href="lw-navtitle.dita"/>
- <topicref href="lw-note.dita"/>
- <topicref href="lw-ol.dita"/>
- <topicref href="lw-p.dita"/>
- <topicref href="lw-ph.dita"/>
- <topicref href="lw-poster.dita"/>
- <topicref href="lw-pre.dita"/>
- <topicref href="lw-prolog.dita"/>
- <topicref href="lw-section.dita"/>
- <topicref href="lw-shortdesc.dita"/>
- <topicref href="lw-simpletable.dita"/>
- <topicref href="lw-source.dita"/>
- <topicref href="lw-stentry.dita"/>
- <topicref href="lw-sthead.dita"/>
- <topicref href="lw-strow.dita"/>
- <topicref href="lw-sub.dita"/>
- <topicref href="lw-sup.dita"/>
- <topicref href="lw-title.dita"/>
- <topicref href="lw-topic.dita"/>
- <topicref href="lw-topicmeta.dita"/>
- <topicref href="lw-topicref.dita"/>
- <topicref href="lw-track.dita"/>
- <topicref href="lw-u.dita"/>
- <topicref href="lw-ul.dita"/>
- <topicref href="lw-video.dita"/>
- <topicref href="lw-xref.dita"/>
+ <topicref href="component-reference.dita">
+  <topicref href="containers/basic-topic-components.dita">
+   <topicref href="topics/lw-topic.dita"/>
+   <topicref href="topics/lw-title.dita"/>
+   <topicref href="topics/lw-shortdesc.dita"/>
+   <topicref href="topics/lw-body.dita"/>
+  </topicref>
+  <topicref href="containers/body-components.dita">
+   <topicref href="topics/lw-alt.dita"/>
+   <topicref href="topics/lw-dl.dita"/>
+   <topicref href="topics/lw-dlentry.dita"/>
+   <topicref href="topics/lw-dt.dita"/>
+   <topicref href="topics/lw-dd.dita"/>
+   <topicref href="topics/lw-desc.dita"/>
+   <topicref href="topics/lw-fig.dita"/>
+   <topicref href="topics/lw-fn.dita"/>
+   <topicref href="topics/lw-image.dita"/>
+   <topicref href="topics/lw-note.dita"/>
+   <topicref href="topics/lw-ol.dita"/>
+   <topicref href="topics/lw-ul.dita"/>
+   <topicref href="topics/lw-li.dita"/>
+   <topicref href="topics/lw-p.dita"/>
+   <topicref href="topics/lw-ph.dita"/>
+   <topicref href="topics/lw-pre.dita"/>
+   <topicref href="topics/lw-section.dita"/>
+   <topicref href="topics/lw-xref.dita"/>
+  </topicref>
+  <topicref href="containers/highlighting-components.dita">
+   <topicref href="topics/lw-b.dita"/>
+   <topicref href="topics/lw-i.dita"/>
+   <topicref href="topics/lw-sub.dita"/>
+   <topicref href="topics/lw-sup.dita"/>
+   <topicref href="topics/lw-u.dita"/>
+ </topicref>
+  <topicref href="containers/map-components.dita">
+   <topicref href="topics/lw-keydef.dita"/>
+   <topicref href="topics/lw-map.dita"/>
+   <topicref href="topics/lw-navtitle.dita"/>
+   <topicref href="topics/lw-topicref.dita"/>
+   <topicref href="topics/lw-topicmeta.dita"/>
+  </topicref>
+  <topicref href="containers/metadata-components.dita">
+   <topicref href="topics/lw-data.dita"/>
+   <topicref href="topics/lw-prolog.dita"/>
+  </topicref>
+  <topicref href="containers/multimedia-components.dita">
+   <topicref href="topics/lw-audio.dita"/>
+   <topicref href="topics/lw-autoplay.dita"/>
+   <topicref href="topics/lw-controls.dita"/>
+   <topicref href="topics/lw-loop.dita"/>
+   <topicref href="topics/lw-muted.dita"/>
+   <topicref href="topics/lw-poster.dita"/>
+   <topicref href="topics/lw-source.dita"/>
+   <topicref href="topics/lw-track.dita"/>
+   <topicref href="topics/lw-video.dita"/>
+  </topicref>
+  <topicref href="containers/related-links-components.dita">
+   <topicref href="topics/lw-linktext.dita"/>
+  </topicref>
+  <topicref href="containers/table-components.dita">
+   <topicref href="topics/lw-simpletable.dita"/>
+   <topicref href="topics/lw-stentry.dita"/>
+   <topicref href="topics/lw-sthead.dita"/>
+   <topicref href="topics/lw-strow.dita"/>
+  </topicref>
+ </topicref>
+ 
 
 </map>

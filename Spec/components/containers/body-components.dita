@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+ "reference.dtd">
+<reference id="body-components" xml:lang="en-us">
+<title>Body components</title>
+<shortdesc>The body components support the most common types of content
+authoring for topics: paragraphs, lists, phrases, figures, and other
+common types of exhibits in a document.</shortdesc>
+
+</reference>
+
