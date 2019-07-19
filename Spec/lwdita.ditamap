@@ -65,12 +65,8 @@
  <chapter format="ditamap" href="components/lw-components.ditamap"/>
  <chapter format="ditamap"
   href="commonspec/specification/langRef/attributes/ditaref-attributes.ditamap"/>
- <appendix>
-  <topicmeta>
-   <navtitle>Conformance</navtitle>
-  </topicmeta>
-  <mapref href="conformance/lw-conformance.ditamap"/>
- </appendix>
+ <chapter format="ditamap" href="conformance/lw-conformance.ditamap"/>
+ <appendix href="acknowledgements/acknowledgements.dita"/>
  <appendix href="introduction/revision-history.dita"/>
 </bookmap>
 <!--  <chapter>
