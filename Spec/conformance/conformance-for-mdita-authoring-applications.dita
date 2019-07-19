@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="conformance-for-mdita-authoring-applications">
+    <title>Conformance for MDITA authoring applications</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <section id="section-1">
+            <p>Applications that support MDITA authoring <term outputclass="RFC-2119">MAY</term>: in
+                addition to being an Mdown editor...<ul>
+                    <li>Provide guided authoring for MDITA topics, by presenting MDITA components in
+                        valid order and number.</li>
+                    <li>Support authors in inserting components from the MDITA extended profile,
+                        where necessary, to use Lightweight DITA features that are not available in
+                        the MDITA core profile.</li>
+                    <li>Limit authors to components of GitHub Flavored Markdown that are legal in
+                        MDITA core profile topics, or flag components that are not legal in MDITA
+                        <?oxy_comment_start author="carlosevia" timestamp="20181101T121617-0400" comment="Need to say something about extended profile going beyond GFM"?>topics<?oxy_comment_end?>.</li>
+                    <li>Support authors in authoring MDITA maps to define sets of MDITA topics.</li>
+                </ul></p>
+        </section>
+    </conbody>
+</concept>

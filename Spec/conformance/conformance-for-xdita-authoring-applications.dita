@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="conformance-for-xdita-authoring-applications">
+    <title>Conformance for XDITA authoring applications</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <section id="section-1">
+            <p>An application that supports XDITA authoring <term outputclass="RFC-2119">MUST</term>:<ul>
+                    <li>Constrain the set of available elements and attributes to those defined by
+                        this specification, with no or minimal configuration required.</li>
+                    <li>Generate valid LwDITA topics.</li>
+                    <li>Support authors in authoring valid XDITA maps, to define sets of LwDITA
+                        (XDITA, HDITA, or MDITA) topics.</li>
+                </ul></p>
+            <p>An application that supports XDITA authoring <term outputclass="RFC-2119">MAY</term>:<ul>
+                    <li>Support authors, possibly in a graphical user interface, in setting the
+                        @props filtering attribute.</li>
+                    <li>Support authors, possibly in a graphical user interface, in inserting valid
+                        content references.</li>
+                    <li>Show or preview representations of XDITA topics with content references
+                        resolved and filtering applied.</li>
+                    <li>keyref? authoring support preview?</li>
+                </ul></p>
+        </section>
+    </conbody>
+</concept>
