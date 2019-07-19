@@ -5,6 +5,9 @@
     <shortdesc>(Non-normative) Many members of the OASIS DITA Technical Committee participated in
         the creation of this specification and are gratefully acknowledged.</shortdesc>
     <conbody>
+        <p>Michael Priestley from IBM had the original idea of Lightweight DITA and has chaired or
+            co-chaired the Lightweight DITA subcommittee with OASIS since its foundation in
+            2014.</p>
         <sl>
             <sli>XXX</sli>
             <sli>XXX</sli>
@@ -12,8 +15,8 @@
         <p>In addition, the OASIS DITA Technical Committee also would like to recognize the
             following people for their insights and support:</p>
         <sl>
-            <sli>XXX</sli>
-            <sli>XXX</sli>
+            <sli>Jarno Elovirta</sli>
+            <sli>Garen Torikian</sli>
         </sl>
     </conbody>
 </concept>
