@@ -70,8 +70,9 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--    18 Sep 2017 RDA: Adjust media class atts to match main TC  -->
 <!--    16 Oct 2017  CE: Added @props to elements that allow it    -->
 <!--                     in DITA 1.3                               -->
-<!--    14 Sep 2018  CE: Added @reuse to <shortdesc>               -->
+<!--    14 Sep 2018  CE: Added %reuse to <shortdesc>               -->
 <!--    13 Jul 2019 KJE: Alphabetized element definitions          -->
+<!--    22 Jul 2019  CE: Added %reuse to <fig>                     -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
@@ -213,6 +214,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %display-atts;
              %localization;
              %filters;
+             %reuse;
              outputclass CDATA #IMPLIED
              class CDATA "- topic/fig " >   
              
