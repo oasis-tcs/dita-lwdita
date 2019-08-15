@@ -26,19 +26,19 @@
     </section>
       <section conkeyref="reuse-linktext/usage-information" />
 
-      <section conkeyref="reuse-linktext/attributes"/>  
+      <section conkeyref="reuse-linktext/attributes"/>
         <example>
           <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of link text in an XDITA map.</p>
-          <codeblock><coderef href="examples/lw-keyref-linktext.xdita"/></codeblock>
+          <codeblock><coderef href="examples/lw-keyref-linktext.dita"/></codeblock>
     </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of link text in an HDITA map.</p>
-      <codeblock><coderef href="examples/lw-keyref-linktext.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-keyref-linktext.html" format="hdita"/></codeblock>
 
     </fig>
 
@@ -47,7 +47,7 @@
       <title>MDITA example</title>
       <p>The following example demonstrates the use of link text in an MDITA extended profile
         map.</p>
-      <codeblock><coderef href="examples/lw-keyref-linktext.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-keyref-linktext.md" format="mdita"/></codeblock>
     </fig>
 
     </example>

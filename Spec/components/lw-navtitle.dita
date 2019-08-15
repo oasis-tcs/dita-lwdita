@@ -30,13 +30,13 @@
     </section>
 <section conkeyref="reuse-navtitle/usage-information" />
     <section conkeyref="reuse-navtitle/processing-expectations" />
-    <section conkeyref="reuse-navtitle/attributes"/>  
+    <section conkeyref="reuse-navtitle/attributes"/>
     <example>
       <title>Example</title>
       <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of navigation title in an XDITA map.</p>
-      <codeblock><coderef href="examples/lw-map.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-map.dita"/></codeblock>
       </fig>
     </example>
   </refbody>

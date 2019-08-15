@@ -25,20 +25,20 @@
     </section>
     <!--<section conkeyref="reuse-audio/rendering-expectations"/>-->
       <section conkeyref="reuse-audio/processing-expectations"/>
-   
-      <section conkeyref="reuse-audio/attributes"/>  
+
+      <section conkeyref="reuse-audio/attributes"/>
         <example>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of audio in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-audio.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-audio.dita"/></codeblock>
 
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of audio in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-audio.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-audio.html" format="hdita"/></codeblock>
 
     </fig>
 

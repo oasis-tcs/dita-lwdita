@@ -29,15 +29,15 @@
     </section>
       <section conkeyref="reuse-data/usage-information" />
       <section conkeyref="reuse-data/rendering-expectations" />
-      
-    
-      <section conkeyref="reuse-data/attributes"/>  
+
+
+      <section conkeyref="reuse-data/attributes"/>
         <example>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of data in an XDITA topic.</p>
 
-          <codeblock><coderef href="examples/lw-data-prolog.xdita"/></codeblock>
+          <codeblock><coderef href="examples/lw-data-prolog.dita"/></codeblock>
 
 </fig>>
 
@@ -45,7 +45,7 @@
       <title>HDITA example</title>
       <p>The following example demonstrates the use of data in an HDITA topic.</p>
 
-      <codeblock><coderef href="examples/lw-data-prolog.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-data-prolog.html" format="hdita"/></codeblock>
 
     </fig>
 
@@ -53,7 +53,7 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of data in an MDITA extended profile topic.</p>
-      <codeblock><coderef href="examples/lw-data-prolog.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-data-prolog.md" format="mdita"/></codeblock>
 
 
     </fig>

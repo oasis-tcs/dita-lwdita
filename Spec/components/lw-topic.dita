@@ -27,20 +27,20 @@
         <fig>
          <title>XDITA example</title>
       <p>The following example demonstrates the use of a topic in XDITA.</p>
-      <codeblock><coderef href="examples/lw-topic.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-topic.dita"/></codeblock>
     </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a topic in HDITA.</p>
-      <codeblock><coderef href="examples/lw-topic.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-topic.html" format="hdita"/></codeblock>
     </fig>
 
 
          <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a topic in MDITA.</p>
-      <codeblock><coderef href="examples/lw-topic.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-topic.md" format="mdita"/></codeblock>
 
          </fig>
 

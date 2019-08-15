@@ -26,12 +26,12 @@
       </dl>
     </section>
 
-      <section conkeyref="reuse-alt/attributes"/>  
+      <section conkeyref="reuse-alt/attributes"/>
         <example>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of alternate text in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-altfig.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-altfig.dita"/></codeblock>
 
     </fig>
 
@@ -39,7 +39,7 @@
       <title>HDITA example</title>
       <p>The following example demonstrates the use of alternate text in an HDITA topic.</p>
 
-      <codeblock><coderef href="examples/lw-altfig.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-altfig.html" format="hdita"/></codeblock>
 
     </fig>
 
@@ -47,7 +47,7 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of alternate text in an MDITA topic.</p>
-      <codeblock><coderef href="examples/lw-altfig.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-altfig.md" format="mdita"/></codeblock>
     </fig>
         </example>
 

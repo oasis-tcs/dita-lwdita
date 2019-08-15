@@ -26,26 +26,26 @@
       <section conkeyref="reuse-section/rendering-expectations" />
 
 
-      <section conkeyref="reuse-section/attributes"/>  
+      <section conkeyref="reuse-section/attributes"/>
         <example>
           <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of section in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-section.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-section.dita"/></codeblock>
     </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of section in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-section.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-section.html" format="hdita"/></codeblock>
     </fig>
 
 
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of section in an MDITA topic.</p>
-      <codeblock><coderef href="examples/lw-section.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-section.md" format="mdita"/></codeblock>
 
     </fig>
         </example>

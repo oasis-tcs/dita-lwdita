@@ -30,14 +30,14 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of body in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-body.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-body.dita"/></codeblock>
 
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of body in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-body.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-body.html" format="hdita"/></codeblock>
 
     </fig>
 
@@ -45,7 +45,7 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the equivalent of the body component in an MDITA topic. </p>
-      <codeblock><coderef href="examples/lw-body.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-body.md" format="mdita"/></codeblock>
 
 
     </fig>

@@ -27,13 +27,13 @@
       <section conkeyref="reuse-topicmeta/usage-information" />
 
 
-      <section conkeyref="reuse-topicmeta/attributes"/>  
+      <section conkeyref="reuse-topicmeta/attributes"/>
       <example>
           <title>Example</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of topic metadata in an XDITA map.</p>
-          <codeblock><coderef href="examples/lw-keyref-linktext.xdita"/></codeblock>
+          <codeblock><coderef href="examples/lw-keyref-linktext.dita"/></codeblock>
     </fig>
         </example>
   </refbody>

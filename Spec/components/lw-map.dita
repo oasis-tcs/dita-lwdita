@@ -26,20 +26,20 @@
     </section>
 <section conkeyref="reuse-map/usage-information" />
       <section conkeyref="reuse-map/rendering-expectations" />
-      <section conkeyref="reuse-map/attributes"/>  
+      <section conkeyref="reuse-map/attributes"/>
         <example>
           <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of map in XDITA.</p>
 
-            <codeblock><coderef href="examples/lw-map.xdita"/></codeblock>
+            <codeblock><coderef href="examples/lw-map.dita"/></codeblock>
 
           </fig>
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of map in HDITA.</p>
-        <codeblock><coderef href="examples/lw-map.hdita"/></codeblock>
+        <codeblock><coderef href="examples/lw-map.html" format="hdita"/></codeblock>
 
     </fig>
 
@@ -47,7 +47,7 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of map in MDITA.</p>
-        <codeblock><coderef href="examples/lw-map.mdita"/></codeblock>
+        <codeblock><coderef href="examples/lw-map.md" format="mdita"/></codeblock>
 
 
     </fig>

@@ -25,20 +25,20 @@
     </section>
     <section conkeyref="reuse-ph/usage-information" />
 
-      <section conkeyref="reuse-ph/attributes"/>  
+      <section conkeyref="reuse-ph/attributes"/>
         <example>
           <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of phrase in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-ph.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-ph.dita"/></codeblock>
 
           </fig>
 
           <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of phrase in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-ph.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-ph.html" format="hdita"/></codeblock>
 
           </fig>
 
@@ -47,7 +47,7 @@
       <title>MDITA example</title>
       <p>The following example demonstrates the use of phrase, via an HDITA snippet, in an MDITA
         topic.</p>
-      <codeblock><coderef href="examples/lw-ph.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-ph.md" format="hdita"/></codeblock>
 
 
           </fig>

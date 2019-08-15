@@ -29,20 +29,20 @@
       <section conkeyref="reuse-video/rendering-expectations" />
 
 
-      <section conkeyref="reuse-video/attributes"/>  
+      <section conkeyref="reuse-video/attributes"/>
         <example>
           <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of video in an XDITA topic.</p>
-          <codeblock><coderef href="examples/lw-multimedia.xdita"/></codeblock>
+          <codeblock><coderef href="examples/lw-multimedia.dita"/></codeblock>
 
     </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of video in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-multimedia.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-multimedia.html" format="hdita"/></codeblock>
     </fig>
         </example>
 

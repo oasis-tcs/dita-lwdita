@@ -29,12 +29,12 @@
       </dl>
     </section>
 
-    <section conkeyref="reuse-dlentry/attributes"/>  
+    <section conkeyref="reuse-dlentry/attributes"/>
     <example>
       <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of definition list entry in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-dl.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-dl.dita"/></codeblock>
       </fig>
     </example>
   </refbody>

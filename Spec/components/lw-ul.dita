@@ -24,26 +24,26 @@
 
 
 
-      <section conkeyref="reuse-ul/attributes"/>  
+      <section conkeyref="reuse-ul/attributes"/>
         <example>
           <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-ul.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-ul.dita"/></codeblock>
           </fig>
 
           <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-ul.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-ul.html" format="hdita"/></codeblock>
           </fig>
 
 
           <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of an unordered list in an MDITA topic.</p>
-      <codeblock><coderef href="examples/lw-ul.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-ul.md" format="mdita"/></codeblock>
 
     </fig>
         </example>

@@ -23,26 +23,26 @@
       <section conkeyref="reuse-shortdesc/usage-information" />
       <section conkeyref="reuse-shortdesc/rendering-expectations" />
 
-      <section conkeyref="reuse-shortdesc/attributes"/>  
+      <section conkeyref="reuse-shortdesc/attributes"/>
       <example id="example" otherprops="examples">
         <title>Examples</title>
         <fig>
           <title>XDITA example</title>
           <p>The following example demonstrates the use of a short description in an XDITA topic.</p>
-          <codeblock><coderef href="examples/lw-shortdesc.xdita"/></codeblock>
+          <codeblock><coderef href="examples/lw-shortdesc.dita"/></codeblock>
         </fig>
 
         <fig>
           <title>HDITA example</title>
           <p>The following example demonstrates the use of a short description in an HDITA topic.</p>
-          <codeblock><coderef href="examples/lw-shortdesc.hdita"/></codeblock>
+          <codeblock><coderef href="examples/lw-shortdesc.html" format="hdita"/></codeblock>
         </fig>
 
 
         <fig>
           <title>MDITA example</title>
           <p>The following example demonstrates the use of a short description in an MDITA topic.</p>
-          <codeblock><coderef href="examples/lw-shortdesc.mdita"/></codeblock>
+          <codeblock><coderef href="examples/lw-shortdesc.md" format="mdita"/></codeblock>
 
         </fig>
       </example>

@@ -22,27 +22,27 @@
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
           <dd>
-            
+
             <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/>
           </dd>
         </dlentry>
       </dl>
     </section>
       <section conkeyref="reuse-media-autoplay/usage-information" />
-      
-      <section conkeyref="reuse-media-autoplay/attributes"/>  
+
+      <section conkeyref="reuse-media-autoplay/attributes"/>
         <example>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of autoplay in an XDITA topic.</p>
-          <codeblock><coderef href="examples/lw-multimedia.xdita"/></codeblock>
+          <codeblock><coderef href="examples/lw-multimedia.dita"/></codeblock>
 
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of autoplay in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-multimedia.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-multimedia.html" format="hdita"/></codeblock>
 
     </fig>
         </example>

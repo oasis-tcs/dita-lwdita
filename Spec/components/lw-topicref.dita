@@ -24,26 +24,26 @@
       </dl>
     </section>
 
-      <section conkeyref="reuse-topicref/attributes"/>  
+      <section conkeyref="reuse-topicref/attributes"/>
         <example>
           <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a topic reference in an XDITA map.</p>
-          <codeblock><coderef href="examples/lw-map.xdita"/></codeblock>
+          <codeblock><coderef href="examples/lw-map.dita"/></codeblock>
           </fig>
 
           <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a topic reference in an HDITA map.</p>
-      <codeblock><coderef href="examples/lw-map.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-map.html" format="hdita"/></codeblock>
           </fig>
 
 
           <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a topic reference in an MDITA map.</p>
-      <codeblock><coderef href="examples/lw-map.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-map.md" format="mdita"/></codeblock>
           </fig>
 
         </example>

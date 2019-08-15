@@ -28,19 +28,19 @@
     </section>
 
 
-      <section conkeyref="reuse-dl/attributes"/>  
+      <section conkeyref="reuse-dl/attributes"/>
         <example>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a definition list in an XDITA topic.</p>
-          <codeblock><coderef href="examples/lw-dl.xdita"/></codeblock>
+          <codeblock><coderef href="examples/lw-dl.dita"/></codeblock>
 
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a (need article??) definition list in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-dl.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-dl.html" format="hdita"/></codeblock>
 
     </fig>
 
@@ -48,7 +48,7 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a definition list text in an MDITA extended profile topic.</p>
-      <codeblock><coderef href="examples/lw-dl.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-dl.md" format="mdita"/></codeblock>
 
 
     </fig>

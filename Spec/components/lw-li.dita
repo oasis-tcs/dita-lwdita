@@ -25,20 +25,20 @@
       </dl>
     </section>
 
-      <section conkeyref="reuse-li/attributes"/>  
+      <section conkeyref="reuse-li/attributes"/>
         <example>
           <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of list item in an XDITA topic.</p>
-          <codeblock><coderef href="examples/lw-ol.xdita"/></codeblock>
+          <codeblock><coderef href="examples/lw-ol.dita"/></codeblock>
 
           </fig>
 
           <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of list item in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-ol.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-ol.html" format="hdita"/></codeblock>
           </fig>
 
 
@@ -46,7 +46,7 @@
       <title>MDITA example</title>
       <p>The following example demonstrates the use of list item (ordered list) in an MDITA
         topic.</p>
-      <codeblock><coderef href="examples/lw-ol.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-ol.md" format="mdita"/></codeblock>
 
           </fig>
         </example>

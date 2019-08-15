@@ -29,14 +29,14 @@
     </section>
       <section conkeyref="reuse-desc/usage-information" />
       <section conkeyref="reuse-desc/rendering-expectations" />
-      <section conkeyref="reuse-desc/attributes"/>  
+      <section conkeyref="reuse-desc/attributes"/>
         <example>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of description in a figure component in an XDITA
         topic.</p>
-      <codeblock><coderef href="examples/lw-desc.xdita"/></codeblock>
-      
+      <codeblock><coderef href="examples/lw-desc.dita"/></codeblock>
+
 
     </fig>
 
@@ -44,7 +44,7 @@
       <title>HDITA example</title>
       <p>The following example demonstrates the use of description in a video component in an HDITA
         topic.</p>
-      <codeblock><coderef href="examples/lw-multimedia.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-multimedia.html" format="hdita"/></codeblock>
 
     </fig>
         </example>

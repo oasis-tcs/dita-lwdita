@@ -24,24 +24,24 @@
     </section>
 
 <section conkeyref="reuse-note/usage-information" />
-    <section conkeyref="reuse-note/attributes"/>      
-      
-  
-  
-    
+    <section conkeyref="reuse-note/attributes"/>
+
+
+
+
         <example>
           <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of note in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-note.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-note.dita"/></codeblock>
 
           </fig>
 
 <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of note in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-note.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-note.html" format="hdita"/></codeblock>
 
 </fig>
         </example>

@@ -31,26 +31,26 @@
       <section conkeyref="reuse-simpletable/usage-information" />
 
 
-      <section conkeyref="reuse-simpletable/attributes"/>  
+      <section conkeyref="reuse-simpletable/attributes"/>
         <example>
           <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a table in an XDITA topic.</p>
-          <codeblock><coderef href="examples/lw-table.xdita"/></codeblock>
+          <codeblock><coderef href="examples/lw-table.dita"/></codeblock>
     </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a table in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-table.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-table.html" format="hdita"/></codeblock>
     </fig>
 
 
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of a table in an MDITA topic.</p>
-      <codeblock><coderef href="examples/lw-table.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-table.md" format="mdita"/></codeblock>
     </fig>
         </example>
 

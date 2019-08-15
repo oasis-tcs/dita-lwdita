@@ -33,12 +33,12 @@
 
       <section conkeyref="reuse-fn/usage-information" />
       <section conkeyref="reuse-fn/rendering-expectations" />
-      <section conkeyref="reuse-fn/attributes"/>  
+      <section conkeyref="reuse-fn/attributes"/>
         <example>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of footnote in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-fn.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-fn.dita"/></codeblock>
 
     </fig>
 
@@ -46,7 +46,7 @@
       <title>HDITA example</title>
       <p>The following example demonstrates the use of footnote in an HDITA topic.  In this example,
         the clickable text is a number 1 in a <xref href="lw-sup.dita" format="dita">superscript</xref> (<xmlelement>sup</xmlelement>) component.</p>
-      <codeblock><coderef href="examples/lw-fn.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-fn.html" format="hdita"/></codeblock>
 
     </fig>
 
@@ -55,7 +55,7 @@
       <title>MDITA example</title>
       <p>The following example demonstrates the use of footnote in an MDITA extended profile
         topic.</p>
-      <codeblock><coderef href="examples/lw-fn.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-fn.md" format="mdita"/></codeblock>
 
 
     </fig>

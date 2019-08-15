@@ -24,20 +24,20 @@
       </dl>
     </section>
 
-      <section conkeyref="reuse-p/attributes"/>  
+      <section conkeyref="reuse-p/attributes"/>
         <example>
           <title>Examples</title>
         <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of paragraph in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-p.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-p.dita"/></codeblock>
 
         </fig>
 
           <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of paragraph in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-p.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-p.html" format="hdita"/></codeblock>
 
           </fig>
 
@@ -45,7 +45,7 @@
           <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of paragraph in an MDITA topic.</p>
-      <codeblock><coderef href="examples/lw-p.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-p.md" format="mdita"/></codeblock>
 
 
           </fig>

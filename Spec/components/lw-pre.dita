@@ -23,20 +23,20 @@
     </section>
     <section conkeyref="reuse-pre/rendering-expectations" />
 
-      <section conkeyref="reuse-pre/attributes"/>  
+      <section conkeyref="reuse-pre/attributes"/>
         <example>
           <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of preformatted text in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-pre.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-pre.dita"/></codeblock>
 
           </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of preformatted text in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-pre.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-pre.html" format="hdita"/></codeblock>
 
     </fig>
 
@@ -44,7 +44,7 @@
           <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of preformatted text in an MDITA topic.</p>
-      <codeblock><coderef href="examples/lw-pre.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-pre.md" format="mdita"/></codeblock>
 
 
           </fig>

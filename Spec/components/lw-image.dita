@@ -25,20 +25,20 @@
       </dl>
     </section>
       <section conkeyref="reuse-image/rendering-expectations" />
-      <section conkeyref="reuse-image/attributes"/>  
+      <section conkeyref="reuse-image/attributes"/>
         <example>
           <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of image in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-image.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-image.dita"/></codeblock>
 
     </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of image in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-image.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-image.html" format="hdita"/></codeblock>
 
     </fig>
 
@@ -46,7 +46,7 @@
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of image in an MDITA topic.</p>
-      <codeblock><coderef href="examples/lw-image.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-image.md" format="mdita"/></codeblock>
 
 
     </fig>

@@ -26,7 +26,7 @@
       </dl>
     </section>
 
-      <section conkeyref="reuse-i/attributes"/>  
+      <section conkeyref="reuse-i/attributes"/>
         <example>
           <fig>
       <title>XDITA example</title>
@@ -38,14 +38,14 @@
 <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of italic text in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-i.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-i.hdita" format="hdita"/></codeblock>
 
 </fig>
 
 <fig>
   <title>MDITA example</title>
       <p>The following example demonstrates the use of italic text in an MDITA topic.</p>
-      <codeblock><coderef href="examples/lw-i.mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-i.mdita" format="mdita"/></codeblock>
 
 </fig>
         </example>

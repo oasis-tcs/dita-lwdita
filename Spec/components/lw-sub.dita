@@ -28,18 +28,18 @@
       </dl>
     </section>
 
-    <section conkeyref="reuse-sub/attributes"/>  
+    <section conkeyref="reuse-sub/attributes"/>
     <example>
       <title>Examples</title>
       <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a subscript in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-sub.xdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-sub.dita"/></codeblock>
       </fig>
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of a subscript n in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-sub.hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-sub.html" format="hdita"/></codeblock>
     </fig>
     </example>
   </refbody>
