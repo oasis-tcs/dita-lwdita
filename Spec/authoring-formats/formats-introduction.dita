@@ -22,9 +22,9 @@
       </dlentry>
 
     </dl>
-    <p>These authoring formats enable and enhance collaboration across divisional silos. Documents authored in the various authoring
-      formats can be aggregated and published as a single document collection. They also can easily
-      integrate into DITA 1.3 collections.</p>
+    <p>These authoring formats enable and enhance collaboration across divisional silos. Documents
+        authored in the various authoring formats can be aggregated and published as a single
+        document collection. They also can easily integrate into DITA collections.</p>
     <p>The XDITA and HDITA content models are designed to be functionally equivalent to each other, while
       MDITA is a compatible subset. XDITA and HDITA conform with the OASIS DITA and W3C HTML5
       standards, respectively. In its core profile, MDITA aligns with the GitHub Flavored Markdown

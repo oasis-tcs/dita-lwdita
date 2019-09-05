@@ -2,7 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="capabilities">
   <title>LwDITA capabilities</title>
-  <shortdesc>LwDITA shares some core capabilities for content structure and reuse with DITA 1.3. By design, it includes fewer capabilities than full DITA XML. LwDITA also includes some unique cross-format features.</shortdesc>
+  <shortdesc>LwDITA shares some core capabilities for content structure and reuse with DITA. By
+    design, it includes fewer capabilities than full DITA XML. LwDITA also includes some unique
+    cross-format features.</shortdesc>
   <conbody>
     <p>LwDITA features the following capabilities:</p>
     <dl>
@@ -64,14 +66,14 @@
       <dlentry>
         <dt>Specialization</dt>
         <dd>
-          <p>LwDITA follows the same specialization architecture as DITA 1.3, although there are
-            some limitations. Because LwDITA spans multiple authoring formats, coordination of the
-            same specialization rules across markup languages poses some unique challenges. Not all
+          <p>LwDITA follows the same specialization architecture as DITA, although there are some
+            limitations. Because LwDITA spans multiple authoring formats, coordination of the same
+            specialization rules across markup languages poses some unique challenges. Not all
             LwDITA formats will support specialization to the same degree. For example, XDITA, the
             LwDITA authoring format based on XML, defines a default class attribute value for each
             component. This class attribute can be used as basis for specialization. In HDITA and
             MDITA -the LwDITA authoring formats based on HTML5 and Markdown, respectively-, there is
-            no specific mechanism for specialization (link to topic).    </p></dd>
+            no specific mechanism for specialization (link to topic). </p></dd>
       </dlentry>
     </dl>
   </conbody>
