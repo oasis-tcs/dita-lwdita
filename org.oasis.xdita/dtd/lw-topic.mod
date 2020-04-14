@@ -213,7 +213,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              
              
 <!--                    LONG NAME: Example  -->
-<!ELEMENT example   (title?, (%fig-blocks;)) >
+<!ELEMENT example   (title?, (%fig-blocks;)*)  >
 <!ATTLIST example
              %display-atts;
              %localization;
