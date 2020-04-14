@@ -75,6 +75,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--    22 Jul 2019  CE: Added %reuse to <fig>                     -->
 <!--    14 Apr 2020  CE: Added <title>, @colspan, @rowspan,        -->
 <!--                     @headers, @scope to <simpletable>         -->
+<!--    14 Apr 2020  CE: Added <example>                           -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
@@ -101,11 +102,11 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 
 <!ENTITY % common-inline  "#PCDATA|%ph;|image|%data;">
 <!ENTITY % all-inline  "#PCDATA|%ph;|image|xref|%data;">
-<!ENTITY % simple-blocks  "p|ul|ol|dl|pre|audio|video|fn|note|%data;">
+<!ENTITY % simple-blocks  "p|ul|ol|dl|pre|audio|video|example|fn|note|%data;">
 <!ENTITY % fn-blocks  "p|ul|ol|dl|%data;">
-<!ENTITY % all-blocks  "p|ul|ol|dl|pre|audio|video|simpletable|fig|fn|note|%data;">
-<!ENTITY % list-blocks "p|ul|ol|dl|pre|audio|video|simpletable|fig|note|%data;">
-<!ENTITY % fig-blocks  "p|ul|ol|dl|pre|audio|video|simpletable|%data;">
+<!ENTITY % all-blocks  "p|ul|ol|dl|pre|audio|video|simpletable|fig|fn|example|note|%data;">
+<!ENTITY % list-blocks "p|ul|ol|dl|pre|audio|video|simpletable|fig|example|note|%data;">
+<!ENTITY % fig-blocks  "p|ul|ol|dl|pre|audio|video|example|simpletable|%data;">
 
 <!-- common attributes -->
 <!ENTITY % filters
@@ -209,6 +210,17 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %reuse;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/dt ">     
+             
+             
+<!--                    LONG NAME: Example  -->
+<!ELEMENT example   (title?, (%fig-blocks;)) >
+<!ATTLIST example
+             %display-atts;
+             %localization;
+             %filters;
+             %reuse;
+             outputclass CDATA #IMPLIED
+             class CDATA "- topic/example " >               
              
 <!--                    LONG NAME: Figure  -->
 <!ELEMENT fig   (title?, desc?, (%fig-blocks;|image|xref)*)    >
