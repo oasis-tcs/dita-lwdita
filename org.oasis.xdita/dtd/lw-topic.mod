@@ -73,6 +73,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--    14 Sep 2018  CE: Added %reuse to <shortdesc>               -->
 <!--    13 Jul 2019 KJE: Alphabetized element definitions          -->
 <!--    22 Jul 2019  CE: Added %reuse to <fig>                     -->
+<!--    14 Apr 2020  CE: Added <title>, @colspan, @rowspan,        -->
+<!--                     @headers, @scope to <simpletable>         -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
@@ -323,7 +325,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              class CDATA "- topic/shortdesc ">
              
 <!--                    LONG NAME: Table -->
-<!ELEMENT simpletable (sthead?, strow+)        >
+<!ELEMENT simpletable (title?, sthead?, strow+)        >
 <!ATTLIST simpletable
              %localization;
              %filters;
@@ -338,6 +340,13 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %filters;
              %reuse;
              outputclass  CDATA          #IMPLIED
+             colspan  NMTOKEN            #IMPLIED
+             rowspan  NMTOKEN            #IMPLIED
+             scope  (row | 
+                     col |
+                     rowgroup |
+                     colgroup)           #IMPLIED
+             headers  NMTOKENS           #IMPLIED
              class CDATA "- topic/stentry ">             
 
 <!--                    LONG NAME: Table header row -->
