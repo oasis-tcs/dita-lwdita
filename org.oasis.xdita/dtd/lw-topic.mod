@@ -107,6 +107,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ENTITY % all-blocks  "p|ul|ol|dl|pre|audio|video|simpletable|fig|fn|example|note|%data;">
 <!ENTITY % list-blocks "p|ul|ol|dl|pre|audio|video|simpletable|fig|example|note|%data;">
 <!ENTITY % fig-blocks  "p|ul|ol|dl|pre|audio|video|example|simpletable|%data;">
+<!ENTITY % example-blocks "p|ul|ol|dl|pre|audio|video|simpletable|fig|fn|note|%data;">
 
 <!-- common attributes -->
 <!ENTITY % filters
@@ -213,7 +214,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              
              
 <!--                    LONG NAME: Example  -->
-<!ELEMENT example   (title?, (%fig-blocks;)*)  >
+<!ELEMENT example   (title?, (%example-blocks;)*)  >
 <!ATTLIST example
              %display-atts;
              %localization;
