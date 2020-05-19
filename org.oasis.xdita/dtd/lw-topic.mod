@@ -104,8 +104,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ENTITY % all-inline  "#PCDATA|%ph;|image|xref|%data;">
 <!ENTITY % simple-blocks  "p|ul|ol|dl|pre|audio|video|example|fn|note|%data;">
 <!ENTITY % fn-blocks  "p|ul|ol|dl|%data;">
-<!ENTITY % all-blocks  "p|ul|ol|dl|pre|audio|video|simpletable|fig|fn|example|note|%data;">
-<!ENTITY % list-blocks "p|ul|ol|dl|pre|audio|video|simpletable|fig|example|note|%data;">
+<!ENTITY % all-blocks  "p|ul|ol|dl|pre|audio|video|example|simpletable|fig|fn|note|%data;">
+<!ENTITY % list-blocks "p|ul|ol|dl|pre|audio|video|example|simpletable|fig|note|%data;">
 <!ENTITY % fig-blocks  "p|ul|ol|dl|pre|audio|video|example|simpletable|%data;">
 <!ENTITY % example-blocks "p|ul|ol|dl|pre|audio|video|simpletable|fig|fn|note|%data;">
 
