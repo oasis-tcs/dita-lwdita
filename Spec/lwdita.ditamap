@@ -24,10 +24,10 @@
   </keywords>
   <bookrights>
    <copyrfirst>
-    <year>2019</year>
+    <year>2020</year>
    </copyrfirst>
    <copyrlast>
-    <year>2019</year>
+    <year>2020</year>
    </copyrlast>
    <bookowner>
     <organization>OASIS</organization>
@@ -59,7 +59,11 @@
    <navtitle>Overview</navtitle>
   </topicmeta>
   <topicref href="introduction/introduction.dita"/>
-  <topicref href="authoring-formats/formats-introduction.dita"/>
+  <topicref href="authoring-formats/formats-introduction.dita">
+   <topicref href="authoring-formats/xdita/xdita-introduction.dita"/>
+   <topicref href="authoring-formats/hdita/hdita-introduction.dita"/>
+   <topicref href="authoring-formats/mdita/mdita-introduction.dita"/>
+  </topicref>
   <topicref href="capabilities/capabilities.dita"/>
  </chapter>
  <chapter format="ditamap" href="components/lw-components.ditamap"/>
