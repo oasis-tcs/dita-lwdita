@@ -10,9 +10,9 @@
         <dlentry>
           <dt>XDITA</dt>
           <dd>
-            <p><xmlelement>desc</xmlelement> inside <xref href="lw-audio.dita" format="dita"><xmlelement>audio></xmlelement></xref>,<xref
-                href="lw-fig.dita" format="dita"><xmlelement>fig></xmlelement></xref>, and <xref href="lw-video.dita"
-                format="dita"><xmlelement>video></xmlelement></xref></p></dd>
+            <p><xmlelement>desc</xmlelement> inside <xref href="lw-audio.dita" format="dita"><xmlelement>audio</xmlelement></xref>,<xref
+                href="lw-fig.dita" format="dita"><xmlelement>fig</xmlelement></xref>, and <xref href="lw-video.dita"
+                format="dita"><xmlelement>video</xmlelement></xref></p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>

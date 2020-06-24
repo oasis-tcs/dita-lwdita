@@ -9,14 +9,14 @@
       <dl>
         <dlentry>
           <dt>XDITA</dt>
-          <dd><p><xmlelement>title</xmlelement> in <xmlelement>topic</xmlelement>, <xmlelement>section</xmlelement>, <xmlelement>fig</xmlelement>... where else???</p></dd>
+          <dd><p><xmlelement>title</xmlelement> in <xmlelement>topic</xmlelement>, <xmlelement>section</xmlelement>, <xmlelement>fig</xmlelement>, and <xmlelement>simpletable</xmlelement>.</p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
           <dd>
             <p><xmlelement>h1</xmlelement> and <xmlelement>title</xmlelement> for <xref href="lw-topic.dita" format="dita">topic</xref> (The content for Title in an HDITA topic <term outputclass="RFC-2119">MUST</term> map to both <xmlelement>title</xmlelement> and <xmlelement>h1</xmlelement>). 
               <xmlelement>h2</xmlelement> for <xref href="lw-section.dita" format="dita">section</xref>. <xmlelement>figcaption</xmlelement>
-              in <xmlelement>figure</xmlelement>. Title also applied to audio and video in HDITA as attribute???</p>
+              in <xmlelement>figure</xmlelement>.<xmlelement>caption</xmlelement> for <xref href="lw-simpletable.dita" format="dita">table</xref>. Title also applied to audio and video in HDITA as attribute???</p>
           </dd>
         </dlentry>
         <dlentry>
