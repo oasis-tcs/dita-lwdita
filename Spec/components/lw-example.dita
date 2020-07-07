@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-example">
+  <title>Example</title>
+  <shortdesc conkeyref="reuse-example/shortdesc"/>
+    <refbody>
+    <section>
+      <title>Syntax</title>
+      <dl>
+        <dlentry>
+          <dt>XDITA</dt>
+          <dd>
+            <p><xmlelement>example</xmlelement></p></dd>
+          </dlentry>
+        <dlentry>
+          <dt>HDITA</dt>
+          <dd><p><xmlelement>div data-class="example"</xmlelement></p></dd>
+        </dlentry>
+        <dlentry>
+          <dt>MDITA (extended profile)</dt>
+          <dd><p>A level-two heading marked by <codeph>##</codeph> or <codeph>-----</codeph> underline and the class value <codeph>{.example}</codeph> following the <xref href="https://pandoc.org/MANUAL.html#extension-header_attributes" scope="external" format="html">Pandoc syntax for header attributes</xref>.</p></dd>
+        </dlentry>
+      </dl>
+    </section>
+      <section conkeyref="reuse-example/usage-information" />
+     <!-- <section conkeyref="reuse-example/attributes"/> -->
+        <example>
+          <fig>
+      <title>XDITA example</title>
+      <p>The following example demonstrates the use of example in an XDITA
+        topic.</p>
+      <codeblock><coderef href="examples/lw-example.dita"/></codeblock>
+
+
+    </fig>
+
+    <fig>
+      <title>HDITA example</title>
+      <p>The following example demonstrates the use of example in an HDITA
+        topic.</p>
+      <codeblock><coderef href="examples/lw-example.html" format="hdita"/></codeblock>
+
+    </fig>
+          <fig>
+            <title>MDITA example</title>
+            <p>The following example demonstrates the use of example in an MDITA
+              topic.</p>
+            <codeblock><coderef href="examples/lw-example.md" format="mdita"/></codeblock>
+            
+          </fig>
+        </example>
+
+  </refbody>
+</reference>
