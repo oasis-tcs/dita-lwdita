@@ -28,7 +28,12 @@
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p><codeph>#</codeph> or <codeph>===</codeph> underline for <xref href="lw-topic.dita">topic</xref>; <codeph>##</codeph> or <codeph>-----</codeph> underline for <xref href="lw-section.dita">section</xref> </p></dd>
+          <dd><p><codeph>#</codeph> or <codeph>===</codeph> underline for <xref href="lw-topic.dita">topic</xref>; <codeph>##</codeph> or <codeph>-----</codeph> underline for <xref href="lw-section.dita">section</xref>. For <xref
+            href="lw-simpletable.dita" format="dita">table</xref>, MDITA uses the <xref href="https://pandoc.org/MANUAL.html#tables" scope="external" format="html">table_captions</xref> extension from Pandoc, which is described as follows:</p>
+            <lq>A caption is a paragraph beginning with the string <codeph>Table:</codeph> (or just
+                <codeph>:</codeph>), which will be stripped off. It may appear either before or
+              after the table.</lq>
+          </dd>
         </dlentry>
       </dl>
     </section>

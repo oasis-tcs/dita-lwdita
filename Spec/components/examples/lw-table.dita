@@ -4,6 +4,7 @@
   <title>Fancy Roll</title>
   <body>
     <simpletable>
+      <title>Fancy roll ingredients</title>
       <sthead>
         <stentry>
           <p>Ingredient</p>
