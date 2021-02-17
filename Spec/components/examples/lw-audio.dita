@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN" "lw-topic.dtd">
 <topic id="theme-song">
-  <title>Theme song for our radio show</title>
+  <title>Theme song for our podcast</title>
   <body>
-    <audio>
-      <desc>Theme song for the radio show</desc>
-      <media-controls value="true"/>
-      <media-autoplay value="false"/>
-      <media-loop value="true"/>
-      <media-muted value="true"/>
+    <audio autoplay="false"
+      controls="true"
+      loop="false"
+      muted="false">
+      <desc>Theme song for the LwDITA podcast</desc>
+      <fallback>The theme song is not available.</fallback>
       <media-source value="theme-song.mp3"/>
-      <media-track value="theme-song.vtt" type="captions"/>
+      <media-track srclang="en" value="theme-song.vtt"/>
     </audio>
   </body>
 </topic>

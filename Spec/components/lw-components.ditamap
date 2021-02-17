@@ -50,11 +50,6 @@
   </topicref>
   <topicref href="containers/multimedia-components.dita">
    <topicref href="lw-audio.dita"/>
-   <topicref href="lw-autoplay.dita"/>
-   <topicref href="lw-controls.dita"/>
-   <topicref href="lw-loop.dita"/>
-   <topicref href="lw-muted.dita"/>
-   <topicref href="lw-poster.dita"/>
    <topicref href="lw-source.dita"/>
    <topicref href="lw-track.dita"/>
    <topicref href="lw-video.dita"/>
