@@ -3,15 +3,21 @@
 <topic id="sensei-promise">
   <title>The Sensei Sushi Promise</title>
   <body>
-    <video>
-      <desc>Video about the Sensei Sushi promise</desc>
-      <video-poster value="sensei-video.jpg"/>
-      <media-controls value="true"/>
-      <media-autoplay value="false"/>
-      <media-loop value="true"/>
-      <media-muted value="true"/>
-      <media-source value="sensei-video.mp4"/>
-      <media-track value="sensei-video.vtt" type="captions"/>
-    </video>
+    <video height="300px"
+      loop="false"
+      muted="false"
+      poster="sensei-video.jpg"
+      width="400px">
+      <desc>Video about the Sensei Sushi promise.</desc>
+      <fallback>
+        <image href="video-not-available.png">
+          <alt>This video cannot be displayed.</alt>
+        </image>
+      </fallback>
+      <media-source href="sensei-video.mp4"/>
+      <media-source href="sensei-video.ogg"/>
+      <media-source href="sensei-video.webm"/>
+      <media-track srclang="en" value="sensei-video.vtt"/> 
+    </video>    
   </body>
 </topic>
