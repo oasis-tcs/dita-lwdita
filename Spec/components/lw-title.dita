@@ -28,12 +28,7 @@
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p><codeph>#</codeph> or <codeph>===</codeph> underline for <xref href="lw-topic.dita">topic</xref>; <codeph>##</codeph> or <codeph>-----</codeph> underline for <xref href="lw-section.dita">section</xref>. For <xref
-            href="lw-simpletable.dita" format="dita">table</xref>, MDITA uses the <xref href="https://pandoc.org/MANUAL.html#tables" scope="external" format="html">table_captions</xref> extension from Pandoc, which is described as follows:</p>
-            <lq>A caption is a paragraph beginning with the string <codeph>Table:</codeph> (or just
-                <codeph>:</codeph>), which will be stripped off. It may appear either before or
-              after the table.</lq>
-          </dd>
+          <dd><p><codeph>#</codeph> or <codeph>===</codeph> underline for <xref href="lw-topic.dita">topic</xref>; <codeph>##</codeph> or <codeph>-----</codeph> underline for <xref href="lw-section.dita">section</xref> </p></dd>
         </dlentry>
       </dl>
     </section>
@@ -56,10 +51,20 @@
 
     <fig>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of a title in an MDITA topic.</p>
-      <codeblock><coderef href="examples/lw-title.md" format="mdita"/></codeblock>
+      <p>The following example demonstrates the use of a title in an MDITA topic
+        using ATX headings.</p>
+      <codeblock><coderef href="examples/lw-title-atx.md" format="mdita"/></codeblock>
 
     </fig>
+
+          <fig>
+            <title>MDITA example</title>
+            <p>The following example demonstrates the use of a title in an MDITA topic
+              using Setext headings.</p>
+            <codeblock><coderef href="examples/lw-title-setext.md" format="mdita"/></codeblock>
+            
+          </fig>
+          
         </example>
 
   </refbody>
