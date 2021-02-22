@@ -3,7 +3,7 @@
 <concept id="introduction">
  <title>Introduction</title>
   <shortdesc>Lightweight DITA (LwDITA) is a simplified version of the Darwin Information Typing
-  Architecture (DITA). In comparison to DITA 1.3, LwDITA has a smaller component and attribute set,
+  Architecture (DITA). In comparison to DITA, LwDITA has a smaller component and attribute set,
   <?oxy_comment_start author="carlosevia" timestamp="20181101T123226-0400" comment="After all these years, I still think that saying &quot;stricter&quot; makes LwDITA sound more complicated than it actually is (and we want it to be)"?>stricter<?oxy_comment_end?>
   content models, and a reduced feature set. LwDITA also defines mappings between XML, HTML5, and
   Markdown, enabling authoring, collaboration, and publishing across different markup
