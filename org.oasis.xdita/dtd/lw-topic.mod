@@ -71,14 +71,14 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--    16 Oct 2017  CE: Added @props to elements that allow it    -->
 <!--                     in DITA 1.3                               -->
 <!--    14 Sep 2018  CE: Added @reuse to <shortdesc>               -->
+<!--    27 May 2021 KJE: Updated for DITA 2.0                      -->
+<!-- ============================================================= -->
 
 <!-- ============================================================= -->
-<!-- ============================================================= -->
-<!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
+<!--                    SPECIALIZATION ATTRIBUTE OVERRIDE          -->
 <!-- ============================================================= -->
 
 <!ENTITY included-domains "">
-<!ENTITY xdita-constraint "(topic xdita-c)">
 <!ENTITY excluded-attributes "">
 
 <!-- ============================================================= -->
@@ -140,8 +140,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ATTLIST topic
              id       ID          #REQUIRED
              xmlns:ditaarch CDATA #FIXED "http://dita.oasis-open.org/architecture/2005/"
-	         ditaarch:DITAArchVersion CDATA "1.3"
-             domains CDATA "&xdita-constraint; &included-domains;"
+	         ditaarch:DITAArchVersion CDATA "2.0"
+             specializations CDATA "&included-domains;"
              outputclass  CDATA    #IMPLIED
              %localization;
              class CDATA "- topic/topic ">
@@ -306,7 +306,11 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %localization;
              %filters;
              %reuse;
-             outputclass  CDATA          #IMPLIED
+             colspan NMTOKEN #IMPLIED
+             rowspan NMTOKEN #IMPLIED                     
+             scope (row | col |rowgroup | colgroup) #IMPLIED
+             headers NMTOKENS #IMPLIED
+             outputclass  CDATA    #IMPLIED
              class CDATA "- topic/stentry ">
 
 <!--                    LONG NAME: Figure  -->
@@ -381,91 +385,63 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 
 
 <!--                    LONG NAME: Audio -->
-<!ELEMENT audio (desc?, media-controls?, media-autoplay?, media-loop?, media-muted?, media-source*, media-track*)        >
+<!ELEMENT audio ((desc)?,(media-source)*,(media-track)*)*       >
 <!ATTLIST audio
-             %localization;
-             %filters;
-             %reuse;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/object media-d/audio ">
+              autoplay   (true | false )    #IMPLIED
+              controls   (true | false )    #IMPLIED
+              loop       (true |false )     #IMPLIED
+              muted      (true |false )     #IMPLIED
+              keyref      CDATA             #IMPLIED
+              tabindex      NMTOKEN         #IMPLIED
+              %localization;
+              %filters;
+              %reuse;
+              %reference-content;
+              outputclass  CDATA            #IMPLIED
+              class CDATA "- topic/audio ">
 
 <!--                    LONG NAME: Video -->
-<!ELEMENT video (desc?, video-poster?, media-controls?, media-autoplay?, media-loop?, media-muted?, media-source*, media-track*)        >
+<!ELEMENT video ((desc)?,(media-source)*,(media-track)*)*       >
 <!ATTLIST video
-             %localization;
-             %filters;
-             %reuse;
-             outputclass  CDATA          #IMPLIED
-             height     NMTOKEN                          #IMPLIED
-             width      NMTOKEN                          #IMPLIED
-             class CDATA "+ topic/object media-d/video ">
+              autoplay     (true | false )    #IMPLIED
+              controls     (true | false )    #IMPLIED
+              loop         (true |false )     #IMPLIED
+              muted        (true |false )     #IMPLIED
+              poster        CDATA             #IMPLIED
+              posterkeyref  CDATA             #IMPLIED
+              tabindex      NMTOKEN           #IMPLIED
+              %localization;
+              %filters;
+              %reference-content;
+              %reuse;
+              outputclass  CDATA              #IMPLIED
+              height     NMTOKEN              #IMPLIED
+              width      NMTOKEN              #IMPLIED
+              class CDATA "- topic/video ">
 
 
 
-<!--                    LONG NAME: Display controls  -->
-<!ELEMENT media-controls 	EMPTY        >
-<!ATTLIST media-controls
-             %localization;
-             name       CDATA            #FIXED "controls"
-             value (true|false)          #IMPLIED
-             outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param media-d/media-controls ">
-<!-- value      CDATA         (y|n)  "y" -->
-
-<!--                    LONG NAME: Media autoplay  -->
-<!ELEMENT media-autoplay 	EMPTY        >
-<!ATTLIST media-autoplay
-             %localization;
-             name       CDATA            #FIXED "autoplay"
-             value (true|false)          #IMPLIED
-             outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param media-d/media-autoplay ">
-
-<!--                    LONG NAME: <Media loop  -->
-<!ELEMENT media-loop 	EMPTY        >
-<!ATTLIST media-loop
-             %localization;
-             name       CDATA            #FIXED "loop"
-             value (true|false)          #IMPLIED
-             outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param media-d/media-loop ">
-
-<!--                    LONG NAME: Media muted  -->
-<!ELEMENT media-muted 	EMPTY        >
-<!ATTLIST media-muted
-             %localization;
-             name       CDATA            #FIXED "muted"
-             value (true|false)          #IMPLIED
-             outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param media-d/media-muted ">
-
-<!--                    LONG NAME: Poster image  -->
-<!ELEMENT video-poster		EMPTY        >
-<!ATTLIST video-poster
-             %localization;
-             name       CDATA         #FIXED "poster"
-             value      CDATA         #IMPLIED
-             outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param media-d/video-poster ">
-
-<!--                    LONG NAME: Source  -->
-<!ELEMENT media-source		EMPTY        >
+<!--                    LONG NAME: Media source  -->
+<!ELEMENT media-source 	EMPTY        >
 <!ATTLIST media-source
              %localization;
-             name       CDATA           #FIXED "source"
-             value      CDATA           #IMPLIED
+             %reference-content;
+             keyref     CDATA            #IMPLIED
              outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param media-d/media-source ">
+             class CDATA "- topic/media-source ">
+
+
 
 <!--                    LONG NAME: Track for captions  -->
-<!ELEMENT media-track		EMPTY        >
+<!ELEMENT media-track		(#PCDATA)        >
 <!ATTLIST media-track
              %localization;
-             name       CDATA           #FIXED "track"
-             value      CDATA           #IMPLIED
-             type (subtitles | captions | descriptions | chapters | metadata) #IMPLIED
+             %reference-content;
+             keyref     CDATA            #IMPLIED
+             kind (subtitles | captions | descriptions | chapters | metadata) #IMPLIED
+             srclang     CDATA           #IMPLIED
              outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/param media-d/media-track ">
+             class CDATA "- topic/media-track ">
 
 <!--                    LONG NAME: Footnote  -->
 <!ELEMENT fn ( %fn-blocks; )*  >

@@ -45,13 +45,13 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--                     DITA                                      -->
 <!--    10 Feb 2018  AH: Added @processing-role to <topicref>      -->
 <!--    20 Sep 2018  CE: Added processing entity for <topicref>    -->
+<!--    27 May 2021 KJE: Updated for DITA 2.0                      -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
-<!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
+<!--                    SPECIALIZATIONS ATTRIBUTE OVERRIDE         -->
 <!-- ============================================================= -->
 
 <!ENTITY included-domains "">
-<!ENTITY xdita-constraint "(map xdita-c)">
 <!ENTITY excluded-attributes "">
 
 <!-- ============================================================= -->
@@ -105,32 +105,38 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!ATTLIST map
              id       ID          #IMPLIED
              xmlns:ditaarch CDATA #FIXED "http://dita.oasis-open.org/architecture/2005/"
-	         ditaarch:DITAArchVersion CDATA "1.3"
-             domains    CDATA                    "&xdita-constraint; &included-domains;"
+	         ditaarch:DITAArchVersion CDATA "2.0"
+             specializations    CDATA                    "&included-domains;"
              %localization;
              outputclass  CDATA          #IMPLIED
              class CDATA "- map/map ">
 
 
 <!--                    LONG NAME: Metadata-->
-<!ELEMENT topicmeta     (navtitle?, linktext?, data*) >
+<!ELEMENT topicmeta     (navtitle?, keytext?, data*) >
 <!ATTLIST topicmeta
              %localization;
              class CDATA "- map/topicmeta ">
+             
+<!--                    LONG NAME: Key text                        -->
+<!ELEMENT keytext         (#PCDATA | %ph;)*  >
+<!ATTLIST keytext
+             %localization;
+             class CDATA "- map/keytext ">            
 
 <!--                    LONG NAME: Navigation title -->
 <!ELEMENT navtitle (#PCDATA|%ph;)* >
 <!ATTLIST navtitle
              %localization;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/navtitle ">
+             class CDATA "+ topic/titlealt alternativeTitles-d/navtitle ">
 
-<!--                    LONG NAME: Link text-->
+<!--<!-\-                    LONG NAME: Link text-\->
 <!ELEMENT linktext     (#PCDATA | %ph;)* >
 <!ATTLIST linktext
              %localization;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- map/linktext ">
+             class CDATA "- map/linktext ">-->
 
 <!--                    LONG NAME: Data  -->
 <!ELEMENT data             (#PCDATA|%data;)*        >
@@ -186,7 +192,6 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!ELEMENT topicref	(topicmeta?, topicref*)        >
 <!ATTLIST topicref
              %localization;
-             locktitle CDATA      			 #FIXED 'yes'
 	         %reuse;
              %filters;
              %reference-content;
