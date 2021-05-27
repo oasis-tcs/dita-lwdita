@@ -44,15 +44,14 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--    25 Jul 2017  CE: Changed public identifier to LIGHTWEIGHT  -->
 <!--                     DITA                                      -->
 <!--    10 Feb 2018  AH: Added @processing-role to <topicref>      -->
-<!--    14 Jul 2019 KJE: Alphabeticize element declarations        -->
-<!--                                                               -->
+<!--    20 Sep 2018  CE: Added processing entity for <topicref>    -->
+<!--    27 May 2021 KJE: Updated for DITA 2.0                      -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
-<!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
+<!--                    SPECIALIZATIONS ATTRIBUTE OVERRIDE         -->
 <!-- ============================================================= -->
 
 <!ENTITY included-domains "">
-<!ENTITY xdita-constraint "(map xdita-c)">
 <!ENTITY excluded-attributes "">
 
 <!-- ============================================================= -->
