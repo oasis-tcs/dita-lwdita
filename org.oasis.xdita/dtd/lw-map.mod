@@ -96,66 +96,6 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--                    ELEMENT DECLARATIONS                       -->
 <!-- ============================================================= -->
 
-<!--                    LONG NAME: Key Definition  -->
-<!ELEMENT keydef	(topicmeta?, data*)        >
-<!ATTLIST keydef
-              %localization;
-              %filters;
-              %reference-content;
-              keys
-                        CDATA
-                                  #REQUIRED
-              processing-role
-                        CDATA       #FIXED      'resource-only'
-              outputclass  CDATA          #IMPLIED
-              class CDATA "+ map/topicref mapgroup-d/keydef ">
-              
-<!--                    LONG NAME: Link text-->
-<!ELEMENT linktext     (#PCDATA | %ph;)* >
-<!ATTLIST linktext
-             %localization;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- map/linktext ">
-             
-<!--                    LONG NAME: Map  -->
-<!ELEMENT map		(topicmeta?, (topicref | keydef)*)  >
-<!ATTLIST map
-             id       ID          #IMPLIED
-             xmlns:ditaarch CDATA #FIXED "http://dita.oasis-open.org/architecture/2005/"
-	         ditaarch:DITAArchVersion CDATA "1.3"
-             domains    CDATA                    "&xdita-constraint; &included-domains;"
-             %localization;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- map/map ">
-
-<!--                    LONG NAME: Navigation title -->
-<!ELEMENT navtitle (#PCDATA|%ph;)* >
-<!ATTLIST navtitle
-             %localization;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/navtitle "> 
-
-<!--                    LONG NAME: Metadata-->
-<!ELEMENT topicmeta     (navtitle?, linktext?, data*) >
-<!ATTLIST topicmeta
-             %localization;
-             class CDATA "- map/topicmeta ">            
-             
-<!--                    LONG NAME: Topic or Map Reference  -->
-<!ELEMENT topicref	(topicmeta?, topicref*)        >
-<!ATTLIST topicref
-             %localization;
-             locktitle CDATA      			 #FIXED 'yes'
-	         %reuse;
-             %filters;
-             %reference-content;
-	         %control-variables;
-             %variable-links;
-             processing-role
-                        CDATA       #FIXED      'resource-only'
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- map/topicref ">
-
 <!--                    LONG NAME: Alternative content  -->
 <!ELEMENT alt           (#PCDATA|%ph;|%data;)*        >
 <!ATTLIST alt
@@ -184,8 +124,48 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
              %localization;
              %variable-content;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/image ">             
+             class CDATA "- topic/image ">              
+             
+<!--                    LONG NAME: Key Definition  -->
+<!ELEMENT keydef	(topicmeta?, data*)        >
+<!ATTLIST keydef
+              %localization;
+              %filters;
+              %reference-content;
+              keys
+                        CDATA
+                                  #REQUIRED
+              processing-role
+                        CDATA       #FIXED      'resource-only'
+              outputclass  CDATA          #IMPLIED
+              class CDATA "+ map/topicref mapgroup-d/keydef "
+>
 
+<!--                    LONG NAME: Key text                        -->
+<!ELEMENT keytext         (#PCDATA | %ph;)*  >
+<!ATTLIST keytext
+             %localization;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "- map/linktext ">
+             
+<!--                    LONG NAME: Map  -->
+<!ELEMENT map		(topicmeta?, (topicref | keydef)*)  >
+<!ATTLIST map
+             id       ID          #IMPLIED
+             xmlns:ditaarch CDATA #FIXED "http://dita.oasis-open.org/architecture/2005/"
+	         ditaarch:DITAArchVersion CDATA "2.0"
+             specializations    CDATA                    "&included-domains;"
+             %localization;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "- map/map ">
+
+<!--                    LONG NAME: Navigation title -->
+<!ELEMENT navtitle (#PCDATA|%ph;)* >
+<!ATTLIST navtitle
+             %localization;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "+ topic/titlealt alternativeTitles-d/navtitle ">             
+             
 <!--                    LONG NAME: Phrase content  -->
 <!ELEMENT ph             (%all-inline;)*        >
 <!ATTLIST ph
@@ -193,6 +173,25 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
              %variable-content;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/ph ">
+             
+<!--                    LONG NAME: Metadata-->
+<!ELEMENT topicmeta     (navtitle?, keytext?, data*) >
+<!ATTLIST topicmeta
+             %localization;
+             class CDATA "- map/topicmeta ">            
+             
+<!--                    LONG NAME: Topic or Map Reference  -->
+<!ELEMENT topicref	(topicmeta?, topicref*)        >
+<!ATTLIST topicref
+             %localization;
+	     %reuse;
+             %filters;
+             %reference-content;
+	         %control-variables;
+             %variable-links;
+             %referencing;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "- map/topicref ">            
 
 <!--                    LONG NAME: Reference  -->
 <!ELEMENT xref          (%common-inline;)*        >
