@@ -131,13 +131,6 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/titlealt alternativeTitles-d/navtitle ">
 
-<!--<!-\-                    LONG NAME: Link text-\->
-<!ELEMENT linktext     (#PCDATA | %ph;)* >
-<!ATTLIST linktext
-             %localization;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- map/linktext ">-->
-
 <!--                    LONG NAME: Data  -->
 <!ELEMENT data             (#PCDATA|%data;)*        >
 <!ATTLIST data
