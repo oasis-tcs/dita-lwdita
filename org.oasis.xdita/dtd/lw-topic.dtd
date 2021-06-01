@@ -60,7 +60,7 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 <!--                    DECLARE USE OF ELEMENT/ATTRIBUTE DOMAINS                 -->
 <!-- ============================================================= -->
 
-<!ENTITY included-domains                         "(topic hi-d) (topic h5m-d)"           >
+<!ENTITY included-domains                         "(topic hi-d)"           >
 
 <!-- ============================================================= -->
 <!--                    REMOVE ATTRIBUTE/ELEMENT GROUPS                    -->
