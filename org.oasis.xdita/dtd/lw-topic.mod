@@ -75,8 +75,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--    22 Jul 2019  CE: Added %reuse to <fig>                     -->
 <!--    14 Apr 2020  CE: Added <title>, @colspan, @rowspan,        -->
 <!--                     @headers, @scope to <simpletable>         -->
-<!--    14 Apr 2020  CE: Added <example>  
-<!--    27 May 2021 KJE: Updated for DITA 2.0                         -->
+<!--    14 Apr 2020  CE: Added <example>                           -->
+<!--    27 May 2021 KJE: Updated for DITA 2.0                      -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
