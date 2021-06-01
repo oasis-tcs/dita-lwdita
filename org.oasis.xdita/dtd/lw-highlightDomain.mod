@@ -37,6 +37,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
 <!--                     DITA                                      -->
 <!--    01 Mar 2018  CE: Renamed file to lw-highlightDomain.mod    -->
 <!--    14 Jul 2019 KJE: Alphabeticized element declarations       -->
+<!--    01 Jun 2021  CE: Added <em> and <strong>                   -->
 <!--                                                               -->
 <!-- ============================================================= -->
 
@@ -48,6 +49,14 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/ph hi-d/b ">
 
+<!--                    LONG NAME: Emphasized text  -->
+<!ELEMENT em             (%all-inline;)*        >
+<!ATTLIST em
+             %localization;
+             %variable-content;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "+ topic/ph hi-d/em ">   
+
 <!--                    LONG NAME: Italic content  -->
 <!ELEMENT i             (%all-inline;)*        >
 <!ATTLIST i
@@ -55,6 +64,16 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
              %variable-content;
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/ph hi-d/i ">
+             
+
+             
+<!--                    LONG NAME: Strong text  -->
+<!ELEMENT strong             (%all-inline;)*        >
+<!ATTLIST strong
+             %localization;
+             %variable-content;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "+ topic/ph hi-d/strong ">
              
 <!--                    LONG NAME: Subscript content  -->
 <!ELEMENT sub             (%all-inline;)*        >

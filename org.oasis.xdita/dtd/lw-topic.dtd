@@ -35,6 +35,7 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 <!--    20 Jun 2017  CE: Added prefix lw- to filename              -->
 <!--    25 Jul 2017  CE: Changed public identifier to LIGHTWEIGHT  -->
 <!--                     DITA                                      -->
+<!--    01 Jun 2021  CE: Added <em> and <strong>                   -->
 <!-- ============================================================= -->
 
 
@@ -43,7 +44,7 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 <!-- ============================================================= -->
 
 <!-- hi-d -->
-<!ENTITY % ph           "ph | b | i |u | sup | sub"       >
+<!ENTITY % ph           "b | em | i | ph | strong | sub | sup | u"       >
 
 
 <!-- ============================================================= -->
