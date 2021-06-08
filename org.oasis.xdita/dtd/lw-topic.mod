@@ -77,6 +77,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--                     @headers, @scope to <simpletable>         -->
 <!--    14 Apr 2020  CE: Added <example>                           -->
 <!--    27 May 2021 KJE: Updated for DITA 2.0                      -->
+<!--    08 Jun 2021  CE: Added <fallback> to <audio> and <video>   -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
@@ -418,7 +419,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 
 <!-- Multimedia elements -->
 <!--                    LONG NAME: Audio -->
-<!ELEMENT audio ((desc)?,(media-source)*,(media-track)*)*       >
+<!ELEMENT audio ((desc)?,(fallback)?,(media-source)*,(media-track)*)*       >
 <!ATTLIST audio
               autoplay   (true | false )    #IMPLIED
               controls   (true | false )    #IMPLIED
@@ -432,7 +433,15 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
               %reference-content;
               outputclass  CDATA            #IMPLIED
               class CDATA "- topic/audio ">
-              
+
+<!ELEMENT fallback		(%common-inline;)*        >
+<!ATTLIST fallback
+             %localization;
+             %filters;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "- topic/fallback ">   
+
+
 <!--                    LONG NAME: Media source  -->
 <!ELEMENT media-source 	EMPTY        >
 <!ATTLIST media-source
@@ -454,7 +463,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              class CDATA "- topic/media-track ">              
 
 <!--                    LONG NAME: Video -->
-<!ELEMENT video ((desc)?,(media-source)*,(media-track)*)*       >
+<!ELEMENT video ((desc)?,(fallback)?,(media-source)*,(media-track)*)*       >
 <!ATTLIST video
               autoplay     (true | false )    #IMPLIED
               controls     (true | false )    #IMPLIED

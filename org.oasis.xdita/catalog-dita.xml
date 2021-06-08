@@ -7,10 +7,14 @@
 
   <public publicId="-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN" uri="dtd/lw-topic.mod"/>
   <public publicId="-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN" uri="dtd/lw-map.mod"/>
-
+  
   <public publicId="-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN" uri="dtd/lw-highlightDomain.mod"/>
+  
+  <public publicId="-//OASIS//ELEMENTS LIGHTWEIGHT DITA Emphasis Domain//EN" uri="dtd/lw-emphasisDomain.mod"/>
+
 
   <!-- The following values are deprecated, kept only for compatibility with the previous version -->
+  
 
   <public publicId="-//OASIS//DTD XDITA Topic//EN" uri="dtd/lw-topic.dtd"/>
   <public publicId="-//OASIS//DTD XDITA Map//EN" uri="dtd/lw-map.dtd"/>

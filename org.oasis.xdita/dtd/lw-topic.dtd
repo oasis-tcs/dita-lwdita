@@ -35,7 +35,7 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 <!--    20 Jun 2017  CE: Added prefix lw- to filename              -->
 <!--    25 Jul 2017  CE: Changed public identifier to LIGHTWEIGHT  -->
 <!--                     DITA                                      -->
-<!--    01 Jun 2021  CE: Added <em> and <strong>                   -->
+<!--    08 Jun 2021  CE: Added Emphasis domain                     -->
 <!-- ============================================================= -->
 
 
@@ -60,7 +60,7 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 <!--                    DECLARE USE OF ELEMENT/ATTRIBUTE DOMAINS                 -->
 <!-- ============================================================= -->
 
-<!ENTITY included-domains                         "(topic hi-d)"           >
+<!ENTITY included-domains                         "(topic hi-d)(topic em-d)"           >
 
 <!-- ============================================================= -->
 <!--                    REMOVE ATTRIBUTE/ELEMENT GROUPS                    -->
@@ -105,6 +105,11 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 " -//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
 "lw-highlightDomain.mod"                                                >
 %hi-d-def;
+
+<!ENTITY % hi-emph-def     PUBLIC
+" -//OASIS//ELEMENTS LIGHTWEIGHT DITA Emphasis Domain//EN"
+"lw-emphasisDomain.mod"                                                >
+%hi-emph-def;
 
 
 <!-- ============== End LIGHTWEIGHT DITA Topic DTD  =============== -->
