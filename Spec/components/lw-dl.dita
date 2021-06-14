@@ -29,7 +29,7 @@
 
 
       <section conkeyref="reuse-dl/attributes"/>
-        <example>
+        <example><title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a definition list in an XDITA topic.</p>
