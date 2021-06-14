@@ -23,8 +23,16 @@
         </dlentry>
       </dl>
     </section>
-
-      <section conkeyref="reuse-p/attributes"/>
+     
+        <section conkeyref="reuse-p/attributes"/>
+      <section id="hdita-attributes">
+        <title>HDITA attributes</title>
+        <p>Blah blah HDITA that is not reused from DITA spec</p>
+      </section>
+      <section id="mdita-attributes">
+        <title>MDITA attributes</title>
+        <p>Blah blah MDITA that is not reused from DITA spec</p>
+      </section>
         <example>
           <title>Examples</title>
         <fig>
