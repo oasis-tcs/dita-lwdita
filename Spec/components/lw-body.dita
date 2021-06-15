@@ -27,6 +27,7 @@
 
       <section conkeyref="reuse-body/attributes"/>  
         <example>
+      <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of body in an XDITA topic.</p>

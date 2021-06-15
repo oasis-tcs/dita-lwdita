@@ -31,14 +31,14 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of key definition in an XDITA map.</p>
-          <codeblock><coderef href="examples/lw-keyref-linktext.dita"/></codeblock>
+          <codeblock><coderef href="examples/lw-keyref-keytext.dita"/></codeblock>
 
     </fig>
 
     <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of key definition in an HDITA map.</p>
-      <codeblock><coderef href="examples/lw-keyref-linktext.html" format="hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-keyref-keytext.html" format="hdita"/></codeblock>
 
     </fig>
 
@@ -47,7 +47,7 @@
       <title>MDITA example</title>
       <p>The following example demonstrates the use of key definition in an MDITA extended profile
         map.</p>
-      <codeblock><coderef href="examples/lw-keyref-linktext.md" format="mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-keyref-keytext.md" format="mdita"/></codeblock>
 
 
     </fig>

@@ -35,6 +35,7 @@
       <section conkeyref="reuse-fn/rendering-expectations" />
       <section conkeyref="reuse-fn/attributes"/>
         <example>
+          <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of footnote in an XDITA topic.</p>

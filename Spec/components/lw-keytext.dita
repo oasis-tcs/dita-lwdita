@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="lw-linktext">
-  <title>Link text</title>
- <shortdesc conkeyref="reuse-linktext/shortdesc"/>
+<reference id="lw-keytext">
+  <title>Key text</title>
+ <shortdesc conkeyref="reuse-keytext/shortdesc"/>
 
     <refbody>
     <section>
@@ -11,11 +11,11 @@
         <dlentry>
           <dt>XDITA</dt>
           <dd>
-            <p><xmlelement>linktext</xmlelement> </p></dd>
+            <p><xmlelement>keytext</xmlelement> </p></dd>
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p><xmlelement>span data-class="linktext"</xmlelement></p></dd>
+          <dd><p><xmlelement>span data-class="keytext"</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (extended profile)</dt>
@@ -24,30 +24,31 @@
         </dlentry>
       </dl>
     </section>
+      <!-- Update for keytext 
       <section conkeyref="reuse-linktext/usage-information" />
 
-      <section conkeyref="reuse-linktext/attributes"/>
+      <section conkeyref="reuse-linktext/attributes"/> -->
         <example>
           <title>Examples</title>
           <fig>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of link text in an XDITA map.</p>
-          <codeblock><coderef href="examples/lw-keyref-linktext.dita"/></codeblock>
+      <p>The following example demonstrates the use of key text in an XDITA map.</p>
+          <codeblock><coderef href="examples/lw-keyref-keytext.dita"/></codeblock>
     </fig>
 
     <fig>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of link text in an HDITA map.</p>
-      <codeblock><coderef href="examples/lw-keyref-linktext.html" format="hdita"/></codeblock>
+      <p>The following example demonstrates the use of key text in an HDITA map.</p>
+      <codeblock><coderef href="examples/lw-keyref-keytext.html" format="hdita"/></codeblock>
 
     </fig>
 
 
     <fig>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of link text in an MDITA extended profile
+      <p>The following example demonstrates the use of key text in an MDITA extended profile
         map.</p>
-      <codeblock><coderef href="examples/lw-keyref-linktext.md" format="mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-keyref-keytext.md" format="mdita"/></codeblock>
     </fig>
 
     </example>

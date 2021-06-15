@@ -25,6 +25,7 @@
       <section conkeyref="reuse-example/usage-information" />
      <!-- <section conkeyref="reuse-example/attributes"/> -->
         <example>
+          <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of example in an XDITA

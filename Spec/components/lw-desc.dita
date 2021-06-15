@@ -31,6 +31,7 @@
       <section conkeyref="reuse-desc/rendering-expectations" />
       <section conkeyref="reuse-desc/attributes"/>
         <example>
+          <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of description in a figure component in an XDITA

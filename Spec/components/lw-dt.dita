@@ -24,6 +24,7 @@
 
       <section conkeyref="reuse-dt/attributes"/>
         <example>
+          <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of definition term in an XDITA topic.</p>

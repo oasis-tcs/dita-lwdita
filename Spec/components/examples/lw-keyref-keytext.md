@@ -5,3 +5,5 @@
             <linktext>Remote Network Lighting</linktext>
         </topicmeta>
 </keydef>
+
+Replace with YAML!

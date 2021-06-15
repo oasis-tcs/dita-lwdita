@@ -51,6 +51,7 @@
   
   <topicref href="containers/map-components.dita">
    <topicref href="lw-keydef.dita"/>
+   <topicref href="lw-keytext.dita"/>
    <topicref href="lw-map.dita"/>
    <topicref href="lw-navtitle.dita"/>
    <topicref href="lw-topicmeta.dita"/>
@@ -67,9 +68,6 @@
    <topicref href="lw-source.dita"/>
    <topicref href="lw-track.dita"/>
    <topicref href="lw-video.dita"/>
-  </topicref>
-  <topicref href="containers/related-links-components.dita">
-   <topicref href="lw-linktext.dita"/>
   </topicref>
   <topicref href="containers/table-components.dita">
    <topicref href="lw-simpletable.dita"/>

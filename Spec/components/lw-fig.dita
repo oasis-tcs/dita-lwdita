@@ -25,6 +25,7 @@
 
       <section conkeyref="reuse-fig/attributes"/>
         <example>
+          <title>Examples</title>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of figure in an XDITA topic.</p>
