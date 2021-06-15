@@ -146,7 +146,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!ATTLIST keytext
              %localization;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- map/linktext ">
+             class CDATA "- map/keytext ">
              
 <!--                    LONG NAME: Map  -->
 <!ELEMENT map		(topicmeta?, (topicref | keydef)*)  >
