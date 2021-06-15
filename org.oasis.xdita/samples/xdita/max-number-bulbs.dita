@@ -10,7 +10,12 @@
       <p>The following video demonstrates a recommended installation for a supported number of light bulbs:</p>
       <video>
         <desc>Installation video</desc>
-        <media-source value="https://www.youtube.com/embed/B7NNYE-G6x0" />
+        <media-source href="https://www.youtube.com/embed/B7NNYE-G6x0"/>
+        <fallback>
+          <image href="../images/video-not-available.png">
+            <alt>This video cannot be displayed.</alt>
+          </image>
+        </fallback>
       
         </video>
     </section>

@@ -1,8 +1,4 @@
----
-id: led-specifications
----
-
-# LED Light Bulb Specifications
+# LED Light Bulb Specifications {#led-specifications}
 
 Specifications describing the electronics and technology inside the LED light bulb.
 
@@ -24,4 +20,4 @@ Power Factor
 Energy
 : Energy Star Certified EEL Rating: A|
 
-<p data-conref="intro-product.dita#intro-product/warning" />
+<p data-conref="intro-product.dita#intro-product/warning"/>

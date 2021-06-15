@@ -7,7 +7,7 @@
 
   <keydef keys="product-name">
   <topicmeta>
-    <linktext>Remote Lighting Network</linktext>
+    <keytext>Remote Lighting Network</keytext>
   </topicmeta>
   </keydef>
   <topicref href="xdita/intro-product.dita" format="dita" />

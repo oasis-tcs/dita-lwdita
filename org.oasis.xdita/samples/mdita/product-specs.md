@@ -1,8 +1,4 @@
----
-id: product-specs
----
-
-# Product Specifications
+# Product Specifications {#product-specs}
 
 The [product-name] components have specific electronic and technical specifications.
 
