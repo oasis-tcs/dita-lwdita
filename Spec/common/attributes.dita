@@ -3,6 +3,25 @@
 <topic id="lw-attributes">
   <title>LwDITA attributes</title>
   <body>
+    <section id="universal">
+      <title>Universal attribute group</title>
+      <p>Definition conrefed from 2.0</p>
+      
+      <ul>
+        <li><p>class</p></li>
+        <li><p>conref</p></li>
+        <li><p>dir</p></li>
+        <li><p>id</p></li>
+        <li><p>outputclass</p></li>
+        <li><p>props</p></li>
+        <li><p>translate</p></li>
+        <li><p>translate</p></li>
+        
+      
+      </ul>      
+      
+    </section>
+    
     <section id="architecture">
       <title>Architecture attributes</title>
       <dl>
@@ -259,8 +278,20 @@
     </section>
     <section id="mdita-atts">
       <title>Attributes in MDITA</title>
-      <p>With the exception of key reference, attributes are not available in the MDITA core profile. In an MDITA core-profile topic, a key reference is represented using the GitHub Flavored Markdown <xref href="https://github.github.com/gfm/#shortcut-reference-link" format="html" scope="external">syntax for shortcut reference links</xref>: [key-value]. There is no equivalent for content reference in the MDITA core profile.</p>
+      <p>With the exception of ID, outputclass, and key reference, attributes are not available in
+        the MDITA core profile. In an MDITA core-profile topic, a key reference is represented using
+        the GitHub Flavored Markdown <xref
+          href="https://github.github.com/gfm/#shortcut-reference-link" format="html"
+          scope="external">syntax for shortcut reference links</xref>: [key-value]. There is no
+        equivalent for content reference in the MDITA core profile. Add data definition in YAML</p>
       <p>In the MDITA extended profile, you can express attributes using their HDITA representation with HTML5 snippets.</p>
     </section>
    </body>
+  <!-- Add @specialization for map-->
+  <!-- Add @colspan and @rowspan for stentry -->
+  <!-- Add autoplay controls loop muted to audio  -->
+  <!-- Add kind and srclang to media-track -->
+  <!-- Add autoplay controls loop muted poster posterkeyref tabindex to video -->
+  <!-- Add MDITA YAML attributes for map -->
+  
 </topic>
