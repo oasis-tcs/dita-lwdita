@@ -14,15 +14,16 @@
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p><xmlelement>span data-class="fn"</xmlelement>. The footnote division should have a unique <xmlatt>id</xmlatt> attribute. In the body
-              of the text, where the footnote is called from, an internal cross-reference in the
-              form of <codeph>&lt;a href="#footnote-id"></codeph> should embrace the text that you want to make
+          <dd><p><xmlelement>span data-class="fn"</xmlelement>. The footnote division should have a unique
+                <xmlatt>id</xmlatt> attribute. In the body of the text, where the footnote is called
+              from, an internal cross-reference in the form of <codeph>&lt;a
+                href="#footnote-id"></codeph> should include the text that you want to make
               clickable for the footnote.</p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (extended profile)</dt>
           <dd>
-            <p>A footnote is made of two elements: a marker in the text that will become a
+            <p>A footnote is composed of two elements: a marker in the text that will become a
               superscript number; a footnote definition that will be placed in a list of footnotes
               at the end of the document, following the <xref
                 href="https://michelf.ca/projects/php-markdown/extra/#footnotes" format="html"
