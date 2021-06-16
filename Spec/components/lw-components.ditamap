@@ -39,15 +39,10 @@
    <topicref href="lw-sup.dita"/>
    <topicref href="lw-u.dita"/>
  </topicref>
-  
-  <!--
-   
-   <topicref href="containers/emphasis-components.dita">
+  <topicref href="containers/emphasis-components.dita">
    <topicref href="lw-em.dita"/>
    <topicref href="lw-strong.dita"/>
  </topicref>
-   
-   -->
   
   <topicref href="containers/map-components.dita">
    <topicref href="lw-keydef.dita"/>
@@ -64,7 +59,7 @@
   </topicref>
   <topicref href="containers/multimedia-components.dita">
    <topicref href="lw-audio.dita"/>
-   <!--  <topicref href="lw-fallback.dita"/> -->
+   <topicref href="lw-fallback.dita"/>
    <topicref href="lw-source.dita"/>
    <topicref href="lw-track.dita"/>
    <topicref href="lw-video.dita"/>

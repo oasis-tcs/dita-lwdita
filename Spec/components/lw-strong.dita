@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-strong">
+  <title>Strong text</title>
+  <shortdesc conkeyref="reuse-strong/shortdesc"/>
+    <refbody>
+    <section>
+      <title>Syntax</title>
+      <dl>
+        <dlentry>
+          <dt>XDITA</dt>
+          <dd><p><xmlelement>strong</xmlelement></p></dd>
+          </dlentry>
+        <dlentry>
+          <dt>HDITA</dt>
+          <dd><p><xmlelement>strong</xmlelement></p></dd>
+        </dlentry>
+        <dlentry>
+          <dt>MDITA (core and extended profiles)</dt>
+          <dd><p><codeph>**</codeph> or <codeph>__</codeph></p></dd>
+        </dlentry>
+      </dl>
+    </section>
+
+
+      <section conkeyref="reuse-strong/attributes"/>
+        <example>
+          <title>Examples</title>
+          <fig>
+      <title>XDITA example</title>
+      <p>The following example demonstrates the use of strong text in an XDITA topic.</p>
+      <codeblock><coderef href="examples/lw-strong.dita"/></codeblock>
+          </fig>
+   <fig>
+      <title>HDITA example</title>
+      <p>The following example demonstrates the use of strong text in an HDITA topic.</p>
+      <codeblock><coderef href="examples/lw-strong.html" format="hdita"/></codeblock>
+    </fig>
+
+
+    <fig>
+      <title>MDITA example</title>
+      <p>The following example demonstrates the use of strong text in an MDITA topic.</p>
+      <codeblock><coderef href="examples/lw-strong.md" format="mdita"/></codeblock>
+
+    </fig>
+        </example>
+
+  </refbody>
+</reference>
