@@ -67,6 +67,7 @@
   <topicref href="capabilities/capabilities.dita"/>
  </chapter>
  <chapter format="ditamap" href="components/lw-components.ditamap"/>
+ <chapter format="ditamap" href="attributes/lw-attributes.ditamap"/>
  <!-- <chapter format="ditamap"
   href="commonspec/specification/langRef/attributes/ditaref-attributes.ditamap"/> -->
  <chapter format="ditamap" href="conformance/lw-conformance.ditamap"/>
