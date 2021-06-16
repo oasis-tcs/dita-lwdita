@@ -15,12 +15,12 @@
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p><xmlelement>em</xmlelement> </p></dd>
+            <p><xmlelement>i</xmlelement> </p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
           <dd>
-            <p><codeph>*</codeph> or <codeph>_</codeph> </p>
+            <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/>
           </dd>
         </dlentry>
       </dl>

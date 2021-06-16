@@ -29,19 +29,19 @@
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of emphasized text in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-strong.dita"/></codeblock>
+      <codeblock><coderef href="examples/lw-em.dita"/></codeblock>
           </fig>
    <fig>
       <title>HDITA example</title>
       <p>The following example demonstrates the use of emphasized text in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-strong.html" format="hdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-em.html" format="hdita"/></codeblock>
     </fig>
 
 
     <fig>
       <title>MDITA example</title>
       <p>The following example demonstrates the use of emphasized text in an MDITA topic.</p>
-      <codeblock><coderef href="examples/lw-strong.md" format="mdita"/></codeblock>
+      <codeblock><coderef href="examples/lw-em.md" format="mdita"/></codeblock>
 
     </fig>
         </example>

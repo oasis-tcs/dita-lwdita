@@ -13,11 +13,11 @@
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p><xmlelement>strong</xmlelement></p></dd>
+          <dd><p><xmlelement>b</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
-          <dd><p><codeph>**</codeph> or <codeph>__</codeph></p></dd>
+          <dd><p conref="../common/common-examples.dita#common-examples/no-mdita-core"/></dd>
         </dlentry>
       </dl>
     </section>
