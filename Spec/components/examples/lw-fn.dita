@@ -15,8 +15,10 @@
         <dd><p>$200</p></dd>
       </dlentry>
     </dl>
+    <div>
     <fn id="initial-fee">
       <p>The initial investment price includes the first franchise fee payment</p>
     </fn>
+    </div>
   </body>
 </topic>
