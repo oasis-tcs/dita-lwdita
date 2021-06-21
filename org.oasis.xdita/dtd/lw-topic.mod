@@ -78,6 +78,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--    14 Apr 2020  CE: Added <example>                           -->
 <!--    27 May 2021 KJE: Updated for DITA 2.0                      -->
 <!--    08 Jun 2021  CE: Added <fallback> to <audio> and <video>   -->
+<!--    21 Jun 2021  CE: Added <div> as a wrapper for <fn>         -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
@@ -104,7 +105,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 
 <!ENTITY % common-inline  "#PCDATA|%ph;|image|%data;">
 <!ENTITY % all-inline  "#PCDATA|%ph;|image|xref|%data;">
-<!ENTITY % simple-blocks  "p|ul|ol|dl|pre|audio|video|example|fn|note|%data;">
+<!ENTITY % simple-blocks  "p|ul|ol|dl|pre|audio|video|example|note|%data;">
+<!ENTITY % fallback-blocks "p|ul|ol|dl|pre|note|%data;">
 <!ENTITY % fn-blocks  "p|ul|ol|dl|%data;">
 <!ENTITY % all-blocks  "p|ul|ol|dl|pre|audio|video|example|simpletable|fig|fn|note|%data;">
 <!ENTITY % list-blocks "p|ul|ol|dl|pre|audio|video|example|simpletable|fig|note|%data;">
@@ -152,7 +154,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              class CDATA "- topic/alt ">
              
 <!--                    LONG NAME: Body                  -->
-<!ELEMENT body          ((%list-blocks;)*, section*)        >
+<!ELEMENT body          ((%list-blocks;)*, section*, div?)        >
 <!ATTLIST body
              %localization;
              outputclass  CDATA          #IMPLIED
@@ -187,6 +189,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/desc ">             
 
+
 <!--                    LONG NAME: Description list -->
 <!ELEMENT dl             (dlentry)+       >
 <!ATTLIST dl
@@ -214,6 +217,14 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/dt ">     
              
+<!--                    LONG NAME: Division  -->
+<!ELEMENT div		(fn+)        >
+<!ATTLIST div
+             %localization;
+             %filters;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "- topic/div ">   
+
              
 <!--                    LONG NAME: Example  -->
 <!ELEMENT example   (title?, (%example-blocks;)*)  >
@@ -434,7 +445,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
               outputclass  CDATA            #IMPLIED
               class CDATA "- topic/audio ">
 
-<!ELEMENT fallback		(%common-inline;)*        >
+<!--       LONG NAME: Fallback  -->
+<!ELEMENT fallback   (%fallback-blocks;)  >
 <!ATTLIST fallback
              %localization;
              %filters;
