@@ -106,7 +106,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ENTITY % common-inline  "#PCDATA|%ph;|image|%data;">
 <!ENTITY % all-inline  "#PCDATA|%ph;|image|xref|%data;">
 <!ENTITY % simple-blocks  "p|ul|ol|dl|pre|audio|video|example|note|%data;">
-<!ENTITY % fallback-blocks "p|ul|ol|dl|pre|note|%data;">
+<!ENTITY % fallback-blocks "image|alt|p|ul|ol|dl|pre|note|%data;">
 <!ENTITY % fn-blocks  "p|ul|ol|dl|%data;">
 <!ENTITY % all-blocks  "p|ul|ol|dl|pre|audio|video|example|simpletable|fig|fn|note|%data;">
 <!ENTITY % list-blocks "p|ul|ol|dl|pre|audio|video|example|simpletable|fig|note|%data;">
@@ -152,14 +152,14 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %variable-content;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/alt ">
-             
+
 <!--                    LONG NAME: Body                  -->
 <!ELEMENT body          ((%list-blocks;)*, section*, div?)        >
 <!ATTLIST body
              %localization;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/body ">
-             
+
 <!--                    LONG NAME: Data  -->
 <!ELEMENT data             (#PCDATA|%data;)*        >
 <!ATTLIST data
@@ -170,8 +170,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %variable-content;
              %filters;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/data ">             
-             
+             class CDATA "- topic/data ">
+
 <!--                    LONG NAME: Description   -->
 <!ELEMENT dd             (%list-blocks;)*        >
 <!ATTLIST dd
@@ -179,15 +179,15 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %filters;
              %reuse;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/dd ">  	     
-             
+             class CDATA "- topic/dd ">
+
 <!--                    LONG NAME: Description  -->
 <!ELEMENT desc		(%common-inline;)*        >
 <!ATTLIST desc
              %localization;
              %filters;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/desc ">             
+             class CDATA "- topic/desc ">
 
 
 <!--                    LONG NAME: Description list -->
@@ -215,17 +215,17 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %filters;
              %reuse;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/dt ">     
-             
+             class CDATA "- topic/dt ">
+
 <!--                    LONG NAME: Division  -->
 <!ELEMENT div		(fn+)        >
 <!ATTLIST div
              %localization;
              %filters;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/div ">   
+             class CDATA "- topic/div ">
 
-             
+
 <!--                    LONG NAME: Example  -->
 <!ELEMENT example   (title?, (%example-blocks;)*)  >
 <!ATTLIST example
@@ -234,8 +234,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %filters;
              %reuse;
              outputclass CDATA #IMPLIED
-             class CDATA "- topic/example " >               
-             
+             class CDATA "- topic/example " >
+
 <!--                    LONG NAME: Figure  -->
 <!ELEMENT fig   (title?, desc?, (%fig-blocks;|image|xref)*)    >
 <!ATTLIST fig
@@ -245,7 +245,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %reuse;
              outputclass CDATA #IMPLIED
              class CDATA "- topic/fig " >
-             
+
 <!--                    LONG NAME: Footnote  -->
 <!ELEMENT fn ( %fn-blocks; )*  >
 <!ATTLIST fn
@@ -255,8 +255,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              callout     CDATA          #IMPLIED
              outputclass CDATA          #IMPLIED
              id          NMTOKEN        #REQUIRED
-             class       CDATA "- topic/fn ">             
-             
+             class       CDATA "- topic/fn ">
+
 <!--                    LONG NAME: Image  -->
 <!ELEMENT image             (alt?)        >
 <!ATTLIST image
@@ -267,8 +267,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %filters;
              %variable-content;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/image ">               
-             
+             class CDATA "- topic/image ">
+
 <!--                    LONG NAME: List item -->
 <!ELEMENT li            (%list-blocks;)*        >
 <!ATTLIST li
@@ -277,7 +277,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %reuse;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/li ">
-             
+
 <!--                    LONG NAME: Note  -->
 <!ELEMENT note ( %simple-blocks; )*  >
 <!ATTLIST note
@@ -286,8 +286,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %reuse;
              type (caution|warning|danger|trouble|notice|note) "note"
              outputclass  CDATA          #IMPLIED
-             class        CDATA "- topic/note ">             
-             
+             class        CDATA "- topic/note ">
+
 <!--                    LONG NAME: Ordered list  -->
 <!ELEMENT ol             (li)+        >
 <!ATTLIST ol
@@ -296,7 +296,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %reuse;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/ol ">
-             
+
 
 <!--                    LONG NAME: Paragraph  -->
 <!ELEMENT p             (%all-inline;)*        >
@@ -306,7 +306,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %reuse;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/p ">
-             
+
 <!--                    LONG NAME: Phrase content  -->
 <!ELEMENT ph             (%all-inline;)*        >
 <!ATTLIST ph
@@ -314,8 +314,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %filters;
              %variable-content;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/ph ">             
-             
+             class CDATA "- topic/ph ">
+
 <!--                    LONG NAME: Preformatted content -->
 <!ELEMENT pre            (#PCDATA|%ph;|xref|%data;)*        >
 <!ATTLIST pre
@@ -324,7 +324,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %filters;
              %reuse;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/pre ">             
+             class CDATA "- topic/pre ">
 
 <!--                    LONG NAME: Prolog-->
 <!ELEMENT prolog (%data;)* >
@@ -332,7 +332,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %localization;
              %filters;
              class CDATA "- topic/prolog ">
-             
+
  <!--                    LONG NAME: Section             -->
 <!ELEMENT section       (title?, (%all-blocks;)*)        >
 <!ATTLIST section
@@ -340,8 +340,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %filters;
              %reuse;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/section ">             
-             
+             class CDATA "- topic/section ">
+
 <!--                    LONG NAME: Short description-->
 <!ELEMENT shortdesc     (%all-inline;)* >
 <!ATTLIST shortdesc
@@ -350,7 +350,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %reuse;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/shortdesc ">
-             
+
 <!--                    LONG NAME: Table -->
 <!ELEMENT simpletable (title?, sthead?, strow+)        >
 <!ATTLIST simpletable
@@ -359,7 +359,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %reuse;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/simpletable ">
-             
+
 <!--                    LONG NAME: Table cell -->
 <!ELEMENT stentry (%simple-blocks;)*        >
 <!ATTLIST stentry
@@ -371,7 +371,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              rowspan  NMTOKEN            #IMPLIED
              scope (row | col |rowgroup | colgroup) #IMPLIED
              headers  NMTOKENS           #IMPLIED
-             class CDATA "- topic/stentry ">             
+             class CDATA "- topic/stentry ">
 
 <!--                    LONG NAME: Table header row -->
 <!ELEMENT sthead (stentry+)        >
@@ -389,7 +389,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %filters;
              %reuse;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/strow ">             
+             class CDATA "- topic/strow ">
 
 <!--                    LONG NAME: Title -->
 <!ELEMENT title (%common-inline;)* >
@@ -397,7 +397,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %localization;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/title ">
-             
+
 <!--                    LONG NAME: Topic  -->
 <!ELEMENT topic   (title, shortdesc?, prolog?, body?)  >
 <!ATTLIST topic
@@ -446,12 +446,12 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
               class CDATA "- topic/audio ">
 
 <!--       LONG NAME: Fallback  -->
-<!ELEMENT fallback   (%fallback-blocks;)  >
+<!ELEMENT fallback   (%fallback-blocks;)* >
 <!ATTLIST fallback
              %localization;
              %filters;
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/fallback ">   
+             class CDATA "- topic/fallback ">
 
 
 <!--                    LONG NAME: Media source  -->
@@ -472,7 +472,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              kind (subtitles | captions | descriptions | chapters | metadata) #IMPLIED
              srclang     CDATA           #IMPLIED
              outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/media-track ">              
+             class CDATA "- topic/media-track ">
 
 <!--                    LONG NAME: Video -->
 <!ELEMENT video ((desc)?,(fallback)?,(media-source)*,(media-track)*)*       >
@@ -492,5 +492,3 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
               height     NMTOKEN              #IMPLIED
               width      NMTOKEN              #IMPLIED
               class CDATA "- topic/video ">
-
-
