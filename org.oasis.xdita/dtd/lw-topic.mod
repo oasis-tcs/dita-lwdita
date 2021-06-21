@@ -108,10 +108,10 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ENTITY % simple-blocks  "p|ul|ol|dl|pre|audio|video|example|note|%data;">
 <!ENTITY % fallback-blocks "image|alt|p|ul|ol|dl|pre|note|%data;">
 <!ENTITY % fn-blocks  "p|ul|ol|dl|%data;">
-<!ENTITY % all-blocks  "p|ul|ol|dl|pre|audio|video|example|simpletable|fig|fn|note|%data;">
+<!ENTITY % all-blocks  "p|ul|ol|dl|pre|audio|video|example|simpletable|fig|note|%data;">
 <!ENTITY % list-blocks "p|ul|ol|dl|pre|audio|video|example|simpletable|fig|note|%data;">
 <!ENTITY % fig-blocks  "p|ul|ol|dl|pre|audio|video|example|simpletable|%data;">
-<!ENTITY % example-blocks "p|ul|ol|dl|pre|audio|video|simpletable|fig|fn|note|%data;">
+<!ENTITY % example-blocks "p|ul|ol|dl|pre|audio|video|simpletable|fig|note|%data;">
 
 <!-- common attributes -->
 <!ENTITY % filters
