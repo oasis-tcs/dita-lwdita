@@ -11,7 +11,7 @@
         lighting groups. You must assign a light bulb to at least one lighting group to
         operate that light bulb  A network light bulb that is not programmed to a
         lighting group will still operate when controlling all network light bulbs from
-        the remote control.</p>
+        the remote control. For non-residential installations, please consult the electrical standards from the Occupational Safety and Health Administration<xref href="#program-bulbs-to-groups/osha-electric"/>.</p>
     </section>
     <section id="steps">
    <ol>
@@ -50,6 +50,11 @@
           excluded fixtures that you turned off.</p></li>
     </ol>
     </section>
-
+    <div>
+      <fn id="osha-electric">
+        <p>Available at <xref href="https://www.osha.gov/electrical" format="html" scope="external"/></p>
+      </fn>
+    </div>
+    
   </body>
 </topic>
