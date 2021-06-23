@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-common-atts">
+    <title>LwDITA universal attribute group</title>
+    <shortdesc>The universal attribute group defines a set of common attributes that are available on
+        most XDITA and HDITA components, and have limited equivalence in MDITA components. The universal attribute group includes all attributes from the ID, metadata,
+        and localization attribute groups, plus the <xmlatt>class</xmlatt> attribute.</shortdesc>
+    <refbody>
+  <section> 
+    <dl>
+        <dlentry>
+            <dt><xmlatt>class</xmlatt></dt>
+            <dd><b>XDITA:</b> (reuse from the 2.0 topic "universalAttributes.dita" with proper conditional text in the source topic to avoid DITA generalization)</dd>
+            <dd><b>HDITA:</b> There is no direct equivalent for this attribute in HDITA. (This clause should probably be conrefed since we are going to use it a lot).</dd>
+            <dd><b>MDITA:</b> There is no direct equivalent for this attribute in HDITA. (This clause should probably be conrefed since we are going to use it a lot).</dd>
+        </dlentry>  
+        <dlentry> 
+            <dt><xmlatt>outputclass</xmlatt></dt>
+            <dd><b>XDITA:</b> (reuse from the 2.0 topic "universalAttributes.dita" with proper conditional text in the source topic to avoid DITA generalization)</dd>
+            <dd><b>HDITA:</b> The <xmlatt>outputclass</xmlatt> attribute is expressed using the HTML5 attribute <xmlatt>class</xmlatt>. Authors combining XDITA (or DITA 2.0) and HDITA as formats for content creation in a single project or repository should (do we need RFC-2119?) be careful not to confuse this HDITA attribute with similarly named <xmlatt>class</xmlatt> in XDITA, which does not have a direct equivalent in HDITA.</dd>
+            <dd><b>MDITA:</b> The <xmlatt>outputclass</xmlatt> attribute is only available in the
+                            <xmlelement>topic</xmlelement> and <xmlelement>section</xmlelement>
+                        components, and is expressed using a value for the attribute preceded by a period and enclosed in curly brackets following the <xref
+                            href="https://pandoc.org/MANUAL.html#extension-header_attributes"
+                            format="html" scope="external">Pandoc heading identifier syntax</xref>. (Need to link to a topic with syntax and example?). </dd>
+        </dlentry> 
+    </dl>
+  
+        </section>
+    </refbody>
+</reference>

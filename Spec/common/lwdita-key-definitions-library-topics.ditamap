@@ -133,4 +133,7 @@
    
     <keydef keys="reuse-xref" href="../commonspec/specification/common/reuse-w-lwdita/reuse-xref.dita"/>
     <keydef keys="common-shortdescs" href="../commonspec/specification/common/conref-short-descriptions.dita"/>
+    <keydef href="../commonspec/specification/langRef/attributes/attributes.dita" keys="attributes-container-topic"/>
+    <keydef href="../commonspec/specification/langRef/attributes/universalAttributes.dita" keys="attributes-universal"/>
+    <keydef href="../commonspec/specification/langRef/attributes/commonAttributes.dita" keys="attributes-common"/>
 </map>

@@ -2,19 +2,9 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Lightweight DITA Attributes</title>
+ <topicref href="lwdita-attributes.dita"/>
  <topicref href="lw-universalAttributes.dita"/>
- <topicref href="lw-architectureAttributes.dita"/>
- <topicref href="lw-localizationAttributes.dita"/>
- <topicref href="lw-dataAttributes.dita"/>
- <topicref href="lw-figuredisplayAttributes.dita"/>
- <topicref href="lw-filteringAttribute.dita"/>
- <topicref href="lw-footnoteAttribute.dita"/>
- <topicref href="lw-imageAttributes.dita"/>
- <topicref href="lw-notetypeAttribute.dita"/>
- <topicref href="lw-processingAttribute.dita"/>
- <topicref href="lw-referenceAttributes.dita"/>
- <topicref href="lw-reuseAttributes.dita"/>
- 
+ <topicref href="lw-commonAttributes.dita"/>
  
 
 </map>
