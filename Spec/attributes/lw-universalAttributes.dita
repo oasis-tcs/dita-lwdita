@@ -5,7 +5,7 @@
     <shortdesc>The universal attribute group defines a set of common attributes that are available
         on most XDITA and HDITA components, and have limited equivalence in MDITA components. The
         universal attribute group includes all attributes from the ID, metadata, and localization
-        attribute groups, plus the <xmlatt>class</xmlatt> and <xmlatt>outputclass</xmlatt>
+        attribute groups, plus the <b>class</b> and <b>outputclass</b>
         attributes.</shortdesc>
     <refbody>
         <section id="summary">
@@ -39,42 +39,51 @@
             <p>The universal attributes for OASIS Lightweight DITA components are defined below.</p>
             <dl>
                <dlentry id="class">
-                    <dt id="attr-class"><b>class</b> (<xmlatt>class</xmlatt> in XDITA)
-                        <i>(not for use by authors)</i></dt>
+                    <dt id="attr-class"><b>class</b></dt>
+                   <dd><xmlatt>class</xmlatt> in XDITA <i>(not for use by authors)</i></dd>
                     <dd>To be conkeyrefed.</dd>
                    <dd>Say something about HDITA</dd>
                 </dlentry>
                 <dlentry id="conref">
-                    <dt id="attr-conref"><b>conref</b> (<xmlatt>conref</xmlatt> in XDITA and  <xmlatt>data-conref</xmlatt> in HDITA and MDITA extended profile)</dt>
+                    <dt id="attr-conref"><b>conref</b></dt>
+                    <dd><xmlatt>conref</xmlatt> in XDITA and <xmlatt>data-conref</xmlatt> in HDITA and MDITA extended profile</dd>
                     <dd>To be conkeyrefed.</dd>
                 </dlentry>
                 <dlentry id="dir">
-                    <dt id="attr-dir"><b>dir</b> (<xmlatt>dir</xmlatt> in XDITA and HDITA)</dt>
+                    <dt id="attr-dir"><b>dir</b></dt>
+                    <dd><xmlatt>dir</xmlatt> in XDITA and HDITA</dd>
                     <dd>To be conkeyrefed.</dd>
                 </dlentry>
                 <dlentry id="id">
-                    <dt id="attr-id"><b>id</b> (<xmlatt>id</xmlatt> in XDITA and HDITA; <b>{#identifier)</b> in MDITA following the <xref href="https://pandoc.org/MANUAL.html#extension-header_attributes" format="html" scope="external"><cmdname>header_attributes</cmdname></xref> Pandoc extension in MDITA)</dt>
+                    <dt id="attr-id"><b>id</b></dt>
+                    <dd><xmlatt>id</xmlatt> in XDITA and HDITA; <b>{#identifier)</b> in MDITA following the <xref href="https://pandoc.org/MANUAL.html#extension-header_attributes" format="html" scope="external"><cmdname>header_attributes</cmdname></xref> Pandoc extension in MDITA)</dd>
                     <dd>To be conkeyrefed.</dd>
                 </dlentry>
                 <dlentry id="outputclass">
-                    <dt id="attr-outputclass"><b>outputclass</b> (<xmlatt>outputclass</xmlatt> in XDITA, <xmlatt>class</xmlatt> in HDITA, and <b>{.outputclass)</b> in MDITA following the <xref href="https://pandoc.org/MANUAL.html#extension-header_attributes" format="html" scope="external"><cmdname>header_attributes</cmdname></xref> Pandoc extension in MDITA) </dt>
+                    <dt id="attr-outputclass"><b>outputclass</b></dt>
+                    <dd><xmlatt>outputclass</xmlatt> in XDITA, <xmlatt>class</xmlatt> in HDITA, and <b>{.outputclass)</b> in MDITA following the <xref href="https://pandoc.org/MANUAL.html#extension-header_attributes" format="html" scope="external"><cmdname>header_attributes</cmdname></xref> Pandoc extension in MDITA) </dd>
                     <dd>Names a role that the component is playing. The role must be consistent with the basic
                         semantic and expectations for the element. In particular, the
                         <xmlatt>outputclass</xmlatt> XDITA attribute can be used for styling during output
                         processing; HTML output will typically preserve <xmlatt>outputclass</xmlatt> for CSS
-                        processing. Authors combining XDITA (or DITA) and HDITA as formats for content creation in a single project or repository <term outputclass="RFC-2119">MUST NOT</term> confuse the HDITA <xmlatt>class</xmlatt> attribute with the similarly named <xmlatt>class</xmlatt> in XDITA, which does not have a direct equivalent in HDITA. In, MDITA the <b>outputclass</b> attribute is only available in the <b>topic</b> and <b>section</b> components,</dd>
+                        processing.</dd>
+                    <dd>Authors combining XDITA (or DITA) and HDITA as formats for content creation in a single project or repository <term outputclass="RFC-2119">MUST NOT</term> confuse the HDITA <xmlatt>class</xmlatt> attribute with the similarly named <xmlatt>class</xmlatt> in XDITA, which does not have a direct equivalent in HDITA.</dd>
+                    <dd>In, MDITA the <b>outputclass</b> attribute is only available in the <b>topic</b> and <b>section</b> components.</dd>
                 </dlentry>
                 <dlentry id="props">
-                    <dt id="attr-props"><b>props</b> (<xmlatt>props</xmlatt> in XDITA and <xmlatt>data-props</xmlatt> in HDITA and MDITA extended profile)</dt>
-                    <dd>Generic conditional processing attribute that can take different space-delimited values based on authors’ needs. </dd>
+                    <dt id="attr-props"><b>props</b></dt>
+                    <dd><xmlatt>props</xmlatt> in XDITA and <xmlatt>data-props</xmlatt> in HDITA and MDITA extended profile)</dd>
+                    <dd>Generic conditional processing attribute that can take different space-delimited values based on authors’ needs.</dd>
                     </dlentry>
                 <dlentry id="translate">
-                    <dt id="attr-translate"><b>translate</b> (<xmlatt>translate</xmlatt> in XDITA and MDITA)</dt>
+                    <dt id="attr-translate"><b>translate</b></dt>
+                    <dd><xmlatt>translate</xmlatt> in XDITA and MDITA</dd>
                     <dd>Indicates whether the content of the element should be translated or not. Allowable
                         values are <keyword>yes</keyword>, and <keyword>no</keyword>.</dd>
                 </dlentry>
                 <dlentry id="language">
-                    <dt id="attr-language"><b>language</b> (<xmlatt>xml:lang</xmlatt> in XDITA and <xmlatt>lang</xmlatt> in HDITA)</dt>
+                    <dt id="attr-language"><b>language</b></dt>
+                    <dd><xmlatt>xml:lang</xmlatt> in XDITA and <xmlatt>lang</xmlatt> in HDITA)</dd>
                     <dd>To be conkeyrefed.</dd>
                 </dlentry>
             </dl>
