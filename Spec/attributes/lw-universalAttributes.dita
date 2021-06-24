@@ -2,30 +2,83 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-univ-atts">
     <title>LwDITA universal attribute group</title>
-    <shortdesc>The universal attribute group defines a set of common attributes that are available on
-        most XDITA and HDITA components, and have limited equivalence in MDITA components. The universal attribute group includes all attributes from the ID, metadata,
-        and localization attribute groups, plus the <xmlatt>class</xmlatt> attribute.</shortdesc>
+    <shortdesc>The universal attribute group defines a set of common attributes that are available
+        on most XDITA and HDITA components, and have limited equivalence in MDITA components. The
+        universal attribute group includes all attributes from the ID, metadata, and localization
+        attribute groups, plus the <xmlatt>class</xmlatt> and <xmlatt>outputclass</xmlatt>
+        attributes.</shortdesc>
     <refbody>
-  <section> 
-    <dl>
-        <dlentry>
-            <dt><xmlatt>class</xmlatt></dt>
-            <dd><b>XDITA:</b> (reuse from the 2.0 topic "universalAttributes.dita" with proper conditional text in the source topic to avoid DITA generalization)</dd>
-            <dd><b>HDITA:</b> There is no direct equivalent for this attribute in HDITA. (This clause should probably be conrefed since we are going to use it a lot).</dd>
-            <dd><b>MDITA:</b> There is no direct equivalent for this attribute in HDITA. (This clause should probably be conrefed since we are going to use it a lot).</dd>
-        </dlentry>  
-        <dlentry> 
-            <dt><xmlatt>outputclass</xmlatt></dt>
-            <dd><b>XDITA:</b> (reuse from the 2.0 topic "universalAttributes.dita" with proper conditional text in the source topic to avoid DITA generalization)</dd>
-            <dd><b>HDITA:</b> The <xmlatt>outputclass</xmlatt> attribute is expressed using the HTML5 attribute <xmlatt>class</xmlatt>. Authors combining XDITA (or DITA 2.0) and HDITA as formats for content creation in a single project or repository should (do we need RFC-2119?) be careful not to confuse this HDITA attribute with similarly named <xmlatt>class</xmlatt> in XDITA, which does not have a direct equivalent in HDITA.</dd>
-            <dd><b>MDITA:</b> The <xmlatt>outputclass</xmlatt> attribute is only available in the
-                            <xmlelement>topic</xmlelement> and <xmlelement>section</xmlelement>
-                        components, and is expressed using a value for the attribute preceded by a period and enclosed in curly brackets following the <xref
-                            href="https://pandoc.org/MANUAL.html#extension-header_attributes"
-                            format="html" scope="external">Pandoc heading identifier syntax</xref>. (Need to link to a topic with syntax and example?). </dd>
-        </dlentry> 
-    </dl>
-  
+        <section id="summary">
+            <title>Common attribute groups</title>
+            <p>The following groups are referenced in this specification, and are also used in grammar
+                files when defining attributes for components.</p>
+            <dl>
+                <dlentry id="lw-universalatts">
+                    <dt>Universal attributes</dt>
+                    <dd>Includes <b>class</b> and <b>outputclass</b>, along with every
+                        attribute in the ID, Localization, and Metadata attribute groups.</dd>
+                </dlentry>
+                <dlentry id="lw-idatts">
+                    <dt>ID attributes</dt>
+                    <dd>Includes attributes that enable the naming and referencing of elements in topics and
+                        maps: <xmlatt>conref</xmlatt> and <xmlatt>id</xmlatt>.</dd>
+                </dlentry>
+                <dlentry id="lw-localizationatts">
+                    <dt>Localization attributes</dt>
+                    <dd>Includes attributes that are related to translation and localization:
+                        <b>dir</b>, <b>translate</b>, and <b>lang</b>.</dd>
+                </dlentry>
+                <dlentry id="lw-metadataatt">
+                    <dt>Metadata attribute</dt>
+                    <dd>Includes the generic conditional processing attribute <b>props</b>.</dd>
+                </dlentry>
+            </dl>
         </section>
+        <section id="definitions">
+            <title>Universal attribute definitions</title>
+            <p>The universal attributes for OASIS Lightweight DITA components are defined below.</p>
+            <dl>
+               <dlentry id="class">
+                    <dt id="attr-class"><b>class</b> (<xmlatt>class</xmlatt> in XDITA)
+                        <i>(not for use by authors)</i></dt>
+                    <dd>To be conkeyrefed.</dd>
+                   <dd>Say something about HDITA</dd>
+                </dlentry>
+                <dlentry id="conref">
+                    <dt id="attr-conref"><b>conref</b> (<xmlatt>conref</xmlatt> in XDITA and  <xmlatt>data-conref</xmlatt> in HDITA and MDITA extended profile)</dt>
+                    <dd>To be conkeyrefed.</dd>
+                </dlentry>
+                <dlentry id="dir">
+                    <dt id="attr-dir"><b>dir</b> (<xmlatt>dir</xmlatt> in XDITA and HDITA)</dt>
+                    <dd>To be conkeyrefed.</dd>
+                </dlentry>
+                <dlentry id="id">
+                    <dt id="attr-id"><b>id</b> (<xmlatt>id</xmlatt> in XDITA and HDITA; <b>{#identifier)</b> in MDITA following the <xref href="https://pandoc.org/MANUAL.html#extension-header_attributes" format="html" scope="external"><cmdname>header_attributes</cmdname></xref> Pandoc extension in MDITA)</dt>
+                    <dd>To be conkeyrefed.</dd>
+                </dlentry>
+                <dlentry id="outputclass">
+                    <dt id="attr-outputclass"><b>outputclass</b> (<xmlatt>outputclass</xmlatt> in XDITA, <xmlatt>class</xmlatt> in HDITA, and <b>{.outputclass)</b> in MDITA following the <xref href="https://pandoc.org/MANUAL.html#extension-header_attributes" format="html" scope="external"><cmdname>header_attributes</cmdname></xref> Pandoc extension in MDITA) </dt>
+                    <dd>Names a role that the component is playing. The role must be consistent with the basic
+                        semantic and expectations for the element. In particular, the
+                        <xmlatt>outputclass</xmlatt> XDITA attribute can be used for styling during output
+                        processing; HTML output will typically preserve <xmlatt>outputclass</xmlatt> for CSS
+                        processing. Authors combining XDITA (or DITA) and HDITA as formats for content creation in a single project or repository <term outputclass="RFC-2119">MUST NOT</term> confuse the HDITA <xmlatt>class</xmlatt> attribute with the similarly named <xmlatt>class</xmlatt> in XDITA, which does not have a direct equivalent in HDITA. In, MDITA the <b>outputclass</b> attribute is only available in the <b>topic</b> and <b>section</b> components,</dd>
+                </dlentry>
+                <dlentry id="props">
+                    <dt id="attr-props"><b>props</b> (<xmlatt>props</xmlatt> in XDITA and <xmlatt>data-props</xmlatt> in HDITA and MDITA extended profile)</dt>
+                    <dd>Generic conditional processing attribute that can take different space-delimited values based on authors’ needs. </dd>
+                    </dlentry>
+                <dlentry id="translate">
+                    <dt id="attr-translate"><b>translate</b> (<xmlatt>translate</xmlatt> in XDITA and MDITA)</dt>
+                    <dd>Indicates whether the content of the element should be translated or not. Allowable
+                        values are <keyword>yes</keyword>, and <keyword>no</keyword>.</dd>
+                </dlentry>
+                <dlentry id="language">
+                    <dt id="attr-language"><b>language</b> (<xmlatt>xml:lang</xmlatt> in XDITA and <xmlatt>lang</xmlatt> in HDITA)</dt>
+                    <dd>To be conkeyrefed.</dd>
+                </dlentry>
+            </dl>
+        </section>
+  
     </refbody>
 </reference>

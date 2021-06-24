@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<!-- this is the good map with key definitions for topics... there's another one that needs to go away -->
+<map>
+    <title>Key definitions: Attributes for LwDITA</title>
+    
+    <keydef href="../commonspec/specification/langRef/attributes/attributes.dita" keys="attributes-container-topic"/>
+    <keydef href="../commonspec/specification/langRef/attributes/universalAttributes.dita" keys="attributes-universal"/>
+    <keydef href="../commonspec/specification/langRef/attributes/commonAttributes.dita" keys="attributes-common"/>
+</map>

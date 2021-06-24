@@ -37,6 +37,7 @@
  <frontmatter>
   <mapref href="common/lwdita-specification-subjectScheme.ditamap" processing-role="resource-only"
    type="subjectScheme"/>
+  <mapref href="common/lwdita-key-definitions-atts.ditamap" processing-role="resource-only"/>
   <mapref href="common/lwdita-key-definitions-cover-pages.ditamap" processing-role="resource-only"/>
   <mapref href="commonspec/specification/common/key-definitions-library-topics.ditamap"
    processing-role="resource-only"/>
