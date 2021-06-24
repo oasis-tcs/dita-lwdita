@@ -21,12 +21,12 @@
                 <dlentry id="lw-idatts">
                     <dt>ID attributes</dt>
                     <dd>Includes attributes that enable the naming and referencing of elements in topics and
-                        maps: <xmlatt>conref</xmlatt> and <xmlatt>id</xmlatt>.</dd>
+                        maps: <b>conref</b> and <b>id</b>.</dd>
                 </dlentry>
                 <dlentry id="lw-localizationatts">
                     <dt>Localization attributes</dt>
                     <dd>Includes attributes that are related to translation and localization:
-                        <b>dir</b>, <b>translate</b>, and <b>lang</b>.</dd>
+                        <b>dir</b>, <b>translate</b>, and <b>language</b>.</dd>
                 </dlentry>
                 <dlentry id="lw-metadataatt">
                     <dt>Metadata attribute</dt>
