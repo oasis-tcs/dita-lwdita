@@ -15,7 +15,7 @@
         <dlentry>
           <dt>HDITA</dt>
           <dd>
-            <p><xmlatt>div</xmlatt></p></dd>
+            <p><xmlelement>div</xmlelement></p></dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
