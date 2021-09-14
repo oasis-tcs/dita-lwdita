@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-desc">
   <title>Division</title>
-  <shortdesc conkeyref="reuse-div/shortdesc"/>
+  <!--<shortdesc conkeyref="reuse-div/shortdesc"/>-->
     <refbody>
     <section>
       <title>Syntax</title>
