@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-strong">
   <title>Strong text</title>
-  <shortdesc conkeyref="reuse-strong/shortdesc"/>
+  <!--<shortdesc conkeyref="reuse-strong/shortdesc"/>-->
     <refbody>
     <section>
       <title>Syntax</title>
@@ -21,9 +21,7 @@
         </dlentry>
       </dl>
     </section>
-
-
-      <section conkeyref="reuse-strong/attributes"/>
+    <!--<section conkeyref="reuse-strong/attributes"/>-->
         <example>
           <title>Examples</title>
           <fig>

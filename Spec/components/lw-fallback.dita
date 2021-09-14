@@ -3,7 +3,7 @@
   PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-fallback">
   <title>Fallback</title>
-  <shortdesc conkeyref="reuse-fallback/shortdesc" />
+  <!--<shortdesc conkeyref="reuse-fallback/shortdesc"/>-->
     <refbody>
     <section>
       <title>Syntax</title>
@@ -25,10 +25,7 @@
         </dlentry>
       </dl>
     </section>
-   
-
-
-      <section conkeyref="reuse-fallback/attributes"/>
+    <!--<section conkeyref="reuse-fallback/attributes"/>-->
         <example>
           <title>Examples</title>
           <fig>
