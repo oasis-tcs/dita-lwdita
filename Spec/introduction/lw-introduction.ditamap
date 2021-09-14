@@ -9,7 +9,7 @@
         <topicref href="normative-references.dita"/>
         <topicref href="non-normative-references(needs%20work).dita"/>
         <topicref
-            href="../commonspec/specification/introduction/formatting-conventions-xhtml-output.dita">
+            href="../commonspec/specification/introduction/formatting-conventions-html-output.dita">
             <topicref href="../commonspec/specification/introduction/link-previews.dita"/>
             <topicref href="../commonspec/specification/introduction/navigation-links.dita"/>
         </topicref>
