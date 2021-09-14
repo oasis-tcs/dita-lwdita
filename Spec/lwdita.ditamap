@@ -55,18 +55,13 @@
   </booklists>
  </frontmatter>
  <chapter href="introduction/lw-introduction.ditamap" format="ditamap"/>
- <chapter>
-  <topicmeta>
-   <navtitle>Overview</navtitle>
-  </topicmeta>
-  <topicref href="introduction/introduction.dita"/>
-  <topicref href="authoring-formats/formats-introduction.dita">
-   <topicref href="authoring-formats/xdita/xdita-introduction.dita"/>
-   <topicref href="authoring-formats/hdita/hdita-introduction.dita"/>
-   <topicref href="authoring-formats/mdita/mdita-introduction.dita"/>
-  </topicref>
-  <topicref href="capabilities/capabilities.dita"/>
- </chapter>
+ <chapter href="introduction/introduction.dita"/>
+  <chapter href="authoring-formats/formats-introduction.dita">
+    <topicref href="authoring-formats/xdita/xdita-introduction.dita"/>
+    <topicref href="authoring-formats/hdita/hdita-introduction.dita"/>
+    <topicref href="authoring-formats/mdita/mdita-introduction.dita"/>
+    <topicref href="capabilities/capabilities.dita"/>
+  </chapter>
  <chapter format="ditamap" href="components/lw-components.ditamap"/>
  <chapter format="ditamap" href="attributes/lw-attributes.ditamap"/>
  <!-- <chapter format="ditamap"

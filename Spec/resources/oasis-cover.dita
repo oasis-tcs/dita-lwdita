@@ -2,27 +2,22 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
  "reference.dtd">
 <reference id="Cover" xml:lang="en-us" outputclass="cover">
-  <title>Specification URIs</title>
+  <title>Cover page information</title>
   <refbody>
     <section platform="dita-tc-publishing" id="section-1">
       <title>This version</title>
-      <sl>
-        <sli><xref keyref="oasis-this-version-html"/> (Authoritative version) </sli>
-        <sli><xref keyref="oasis-this-version-pdf"/></sli>
-      </sl>
+      <p>Not yet available</p>
+      <!--<sl><sli><xref keyref="oasis-this-version-html"/> (Authoritative version) </sli><sli><xref keyref="oasis-this-version-pdf"/></sli></sl>-->
     </section>
     <section platform="dita-tc-publishing" id="section-2">
       <title>Previous version</title>
-      <!--<sl><sli/></sl>-->
+      <!--<sl outputclass="no-indent"><sli/></sl>-->
       <p>N/A</p>
     </section>
     <section platform="dita-tc-publishing" id="section-3">
       <title>Latest version</title>
-      <sl>
-        <sli>
-          <xref keyref="oasis-latest-version-html"/> (Authoritative version) </sli>
-        <sli><xref keyref="oasis-latest-version-pdf"/></sli>
-      </sl>
+      <p>Not yet available</p>
+      <!--<sl><sli> <xref keyref="oasis-latest-version-html"/> (Authoritative version) </sli><sli><xref keyref="oasis-latest-version-pdf"/></sli></sl>-->
     </section>
     <section conref="../common/conref-cover-pages.dita#reuse/technical-committee" id="section-4"/>
     <section conref="../common/conref-cover-pages.dita#reuse/chair" id="section-5"/>
@@ -30,26 +25,19 @@
     <section platform="dita-tc-publishing" id="section-7">
       <title>Additional artifacts</title>
       <p> This prose specification is one component of a work product that also includes: </p>
-      <ul>
-        <li><!--<ph conref="../common/conref-cover-pages.dita#reuse/dita-source-desc"/>-->
-          <xref keyref="oasis-this-version-dita"><!--<keyword keyref="part-0-dita-zip"/>--></xref>
-          (DITA source)</li>
-        <li><!--<ph conref="../common/conref-cover-pages.dita#reuse/grammar-files-desc"/>-->
-          <xref keyref="oasis-this-version-grammars"/> (grammar files)</li>
-      </ul>
+      <!--<ul><li> <xref keyref="oasis-this-version-dita"/> (DITA source)</li><li> <xref keyref="oasis-this-version-grammars"/> (grammar files)</li></ul>-->
     </section>
-    <section id="related-work">
+    <section>
       <title>Related work</title>
       <p id="p_mx4_5vz_d3b">Lightweight DITA is based on DITA 2.0, defined in <cite>Darwin
           Information Typing Architecture (DITA) Version 2.0</cite>, an OASIS Standard.</p>
       <ul id="ul_nx4_5vz_d3b">
-        <li><cite>Darwin Information Typing Architecture (DITA) Version 2.0</cite>
-          <xref href="http://docs.oasis-open.org/dita/dita/v2.0dita-v2.0-os.html" format="html"
-            scope="external"/></li>
-        <li><cite>Darwin Information Typing Architecture (DITA) Version 2.0, DITA for Technical
-            Content</cite>
-          <xref href="http://docs.oasis-open.org/dita/dita/v2.0dita-v2.0-os.html" format="html"
-            scope="external"/></li>
+        <li><cite>Darwin Information Typing Architecture (DITA) Version
+            2.0</cite>
+          <!--<xref href="http://docs.oasis-open.org/dita/dita/v2.0dita-v2.0-os.html" format="html" scope="external"/>--></li>
+        <li><cite>Darwin Information Typing Architecture (DITA) Version
+            2.0, DITA for Technical Content</cite>
+          <!--<xref href="http://docs.oasis-open.org/dita/dita/v2.0dita-v2.0-os.html" format="html" scope="external"/>--></li>
       </ul>
     </section>
     <section conref="../common/conref-cover-pages.dita#reuse/abstract" id="section-8"/>
@@ -60,10 +48,10 @@
       <dl>
         <dlentry>
           <dt>[LWDITA-v1.0]</dt>
-          <dd><cite>Lightweight DITA (LwDITA) 1.0</cite>. Edited by Carlos Evia, Alan Houser, and
-            Michael Priestley. <keyword keyref="stage-date"/>. <keyword keyref="stage"/>. <xref
-              keyref="oasis-this-version-html"/>. Latest version: <xref
-              keyref="oasis-latest-version-html"/>.</dd>
+          <dd><cite>Lightweight DITA (LwDITA) 1.0</cite>. Edited by Carlos
+            Evia, Alan Houser, and Michael Priestley. <keyword
+              keyref="stage-date"/>. <keyword keyref="stage"/>.
+            <!--<xref keyref="oasis-this-version-html"/>. Latest version: <xref keyref="oasis-latest-version-html"/>-->.</dd>
         </dlentry>
       </dl>
     </section>
