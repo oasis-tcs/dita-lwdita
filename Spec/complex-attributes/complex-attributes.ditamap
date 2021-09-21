@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Complex attributes</title>
+  <topicref href="complex-attribute-topics.dita">
+    <topicref
+      href="../commonspec/specification/archSpec/base/ditauseconreftarget.dita"
+      keys="attributes-useconreftarget"/>
+    <topicref
+      href="../commonspec/specification/archSpec/base/theconrefattribute.dita"
+      keys="attributes-conref"/>
+    <topicref
+      href="../commonspec/specification/archSpec/base/theformatattribute.dita"
+      keys="attributes-format"/>
+    <topicref
+      href="../commonspec/specification/archSpec/base/thehrefattribute.dita"
+      keys="attributes-href"/>
+    <topicref
+      href="../commonspec/specification/archSpec/base/thekeyrefattribute.dita"
+      keys="attributes-keyref"/>
+    <topicref
+      href="../commonspec/specification/archSpec/base/thekeysattribute.dita"
+      keys="attributes-keys"/>
+    <topicref
+      href="../commonspec/specification/archSpec/base/the-key-scope-attribute.dita"
+      keys="attributes-scope"/>
+  </topicref>
+</map>
