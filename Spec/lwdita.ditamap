@@ -67,6 +67,8 @@
  <!-- <chapter format="ditamap"
   href="commonspec/specification/langRef/attributes/ditaref-attributes.ditamap"/> -->
  <chapter format="ditamap" href="conformance/lw-conformance.ditamap"/>
+  <chapter format="ditamap"
+    href="complex-attributes/complex-attributes.ditamap"/>
  <appendix href="acknowledgements/acknowledgements.dita"/>
  <appendix href="introduction/revision-history.dita"/>
 </bookmap>
