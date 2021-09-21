@@ -23,7 +23,7 @@
         </dlentry>
       </dl>
     </section>
-    <section conkeyref="reuse-audio/rendering-expectations"/>
+    <!--<section conkeyref="reuse-audio/rendering-expectations"><title/><p/></section>-->
       
 
       <section conkeyref="reuse-audio/attributes"/>
