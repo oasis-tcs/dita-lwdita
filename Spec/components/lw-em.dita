@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-em">
   <title>Emphasized text</title>
-  <!--<shortdesc conkeyref="reuse-em/shortdesc"/>-->
+  <shortdesc conkeyref="reuse-em/shortdesc"/>
     <refbody>
     <section>
       <title>Syntax</title>
@@ -21,7 +21,7 @@
         </dlentry>
       </dl>
     </section>
-    <!--<section conkeyref="reuse-em/attributes"/>-->
+    <section conkeyref="reuse-em/attributes"/>
         <example>
           <title>Examples</title>
           <fig>
