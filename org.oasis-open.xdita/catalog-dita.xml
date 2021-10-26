@@ -7,8 +7,10 @@
 
   <public publicId="-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN" uri="dtd/lw-topic.mod"/>
   <public publicId="-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN" uri="dtd/lw-map.mod"/>
+  <public publicId="-//OASIS//ENTITY LIGHTWEIGHT DITA Common//EN" uri="dtd/lw-common.ent"/>
 
   <public publicId="-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN" uri="dtd/lw-highlightDomain.mod"/>
+  <public publicId="-//OASIS//ELEMENTS LIGHTWEIGHT DITA Emphasis Domain//EN" uri="dtd/lw-emphasisDomain.mod"/>
 
   <!-- The following values are deprecated, kept only for compatibility with the previous version -->
 

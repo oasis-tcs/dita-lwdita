@@ -47,6 +47,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--    20 Sep 2018  CE: Added processing entity for <topicref>    -->
 <!--    84 Sep 8072  CE: Renamed processing entity to              -->
 <!--                     processing-role                           -->
+<!--    26 Oct 2021  ES: split common entites to its own file      -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
@@ -71,28 +72,6 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!ENTITY % common-inline  "#PCDATA|%ph;|image|%data;">
 <!ENTITY % all-inline  "#PCDATA|%ph;|image|xref|%data;">
 
-
-<!--common attributes-->
-<!ENTITY % filters
-            'props      CDATA                              #IMPLIED
-             %filter-adds;                          ' >
-<!ENTITY % reuse
-            'id      NMTOKEN                            #IMPLIED
-             conref  CDATA                              #IMPLIED  ' >
-<!ENTITY % reference-content
-            'href      CDATA                            #IMPLIED
-             format    CDATA                            #IMPLIED
-             scope     (local | peer | external)        #IMPLIED '>
-<!ENTITY % control-variables
-            'keys      CDATA                            #IMPLIED '>
-<!ENTITY % variable-content
-            'keyref      CDATA                            #IMPLIED '>
-<!ENTITY % variable-links
-            'keyref      CDATA                            #IMPLIED '>
-<!ENTITY % localization
-            'dir         CDATA                              #IMPLIED
-             xml:lang    CDATA                              #IMPLIED
-             translate   CDATA                             #IMPLIED '>
 
 <!ENTITY  % processing-role
             'processing-role (normal | resource-only)      #IMPLIED'>
