@@ -79,6 +79,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--    27 May 2021 KJE: Updated for DITA 2.0                      -->
 <!--    08 Jun 2021  CE: Added <fallback> to <audio> and <video>   -->
 <!--    21 Jun 2021  CE: Added <div> as a wrapper for <fn>         -->
+<!--    26 Oct 2021  ES: split common entites to its own file      -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
@@ -114,27 +115,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ENTITY % example-blocks "p|ul|ol|dl|pre|audio|video|simpletable|fig|note|%data;">
 
 <!-- common attributes -->
-<!ENTITY % filters
-            'props      CDATA                           #IMPLIED
-             %filter-adds;                          ' >
-<!ENTITY % reuse
-            'id      NMTOKEN                            #IMPLIED
-             conref  CDATA                              #IMPLIED  ' >
-<!ENTITY % reference-content
-            'href      CDATA                            #IMPLIED
-             format    CDATA                            #IMPLIED
-             scope     (local | peer | external)        #IMPLIED '>
-<!-- %fn-reuse; used for <fn> only, so you can remove this if you want -->
-<!ENTITY % fn-reuse
-            'conref  CDATA                              #IMPLIED  ' >
-<!ENTITY % variable-content
-            'keyref      CDATA                          #IMPLIED '>
-<!ENTITY % variable-links
-            'keyref      CDATA                          #IMPLIED '>
-<!ENTITY % localization
-            'dir         CDATA                          #IMPLIED
-             xml:lang    CDATA                          #IMPLIED
-             translate   CDATA                          #IMPLIED '>
+
 <!ENTITY % display-atts
              "scale ( 50|60|70|80|90|100|110|120|140|160|180|200 ) #IMPLIED
               frame ( all|bottom|none|sides|top|topbot )           #IMPLIED
