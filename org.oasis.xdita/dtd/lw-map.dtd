@@ -87,6 +87,10 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Map//EN"
 <!-- ============================================================= -->
 <!--                    INCLUDE MAP MODULE          -->
 <!-- ============================================================= -->
+<!ENTITY % common-ent   PUBLIC
+"-//OASIS//ENTITIES LIGHTWEIGHT DITA Common//EN"
+"lw-common.ent"                                                       >
+%common-ent;
 
 <!--                    Embed map module to get generic elements -->
 <!ENTITY % map-type     PUBLIC

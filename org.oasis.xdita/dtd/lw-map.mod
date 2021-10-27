@@ -46,6 +46,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--    10 Feb 2018  AH: Added @processing-role to <topicref>      -->
 <!--    20 Sep 2018  CE: Added processing entity for <topicref>    -->
 <!--    27 May 2021 KJE: Updated for DITA 2.0                      -->
+<!--    26 Oct 2021  ES: split common entites to its own file      -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    SPECIALIZATIONS ATTRIBUTE OVERRIDE         -->
@@ -60,7 +61,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 
 <!ENTITY % ph  "ph">
 <!ENTITY % data  "data">
-<!ENTITY % filter-adds " ">
+
 
 <!-- ============================================================= -->
 <!--                    COMMON DECLARATIONS                       -->
@@ -69,28 +70,10 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!ENTITY % common-inline  "#PCDATA|%ph;|image|%data;">
 <!ENTITY % all-inline  "#PCDATA|%ph;|image|xref|%data;">
 
-
 <!--common attributes-->
-<!ENTITY % filters
-            'props      CDATA                              #IMPLIED
-             %filter-adds;                          ' >
-<!ENTITY % reuse
-            'id      NMTOKEN                            #IMPLIED
-             conref  CDATA                              #IMPLIED  ' >
-<!ENTITY % reference-content
-            'href      CDATA                            #IMPLIED
-             format    CDATA                            #IMPLIED
-             scope     (local | peer | external)        #IMPLIED '>
-<!ENTITY % control-variables
-            'keys      CDATA                            #IMPLIED '>
-<!ENTITY % variable-content
-            'keyref      CDATA                            #IMPLIED '>
-<!ENTITY % variable-links
-            'keyref      CDATA                            #IMPLIED '>
-<!ENTITY % localization
-            'dir         CDATA                              #IMPLIED
-             xml:lang    CDATA                              #IMPLIED
-             translate   CDATA                             #IMPLIED '>
+<!ENTITY  % processing-role
+            'processing-role (normal | resource-only)      #IMPLIED'>
+
 
 <!-- ============================================================= -->
 <!--                    ELEMENT DECLARATIONS                       -->

@@ -87,11 +87,19 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 <!--                    INCLUDE TOPIC AND SECTION MODULES          -->
 <!-- ============================================================= -->
 
+<!ENTITY % common-ent   PUBLIC
+"-//OASIS//ENTITIES LIGHTWEIGHT DITA Common//EN"
+"lw-common.ent"                                                       >
+%common-ent;
+
 <!--                    Embed topic module to get generic elements -->
+
 <!ENTITY % topic-type   PUBLIC
 "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 "lw-topic.mod"                                                       >
 %topic-type;
+
+
 
 <!--                    Embed section modules                      -->
 <!-- none -->
