@@ -115,10 +115,10 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ENTITY % example-blocks "p|ul|ol|dl|pre|audio|video|simpletable|fig|note|%data;">
 
 <!-- common attributes -->
+
 <!-- %fn-reuse; used for <fn> only, so you can remove this if you want -->
 <!ENTITY % fn-reuse
             'conref  CDATA                              #IMPLIED  ' >
-            
 <!ENTITY % display-atts
              "scale ( 50|60|70|80|90|100|110|120|140|160|180|200 ) #IMPLIED
               frame ( all|bottom|none|sides|top|topbot )           #IMPLIED
