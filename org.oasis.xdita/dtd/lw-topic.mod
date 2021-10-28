@@ -79,7 +79,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--    27 May 2021 KJE: Updated for DITA 2.0                      -->
 <!--    08 Jun 2021  CE: Added <fallback> to <audio> and <video>   -->
 <!--    21 Jun 2021  CE: Added <div> as a wrapper for <fn>         -->
-<!--    26 Oct 2021  ES: split common entites to its own file      -->
+<!--    26 Oct 2021  ES: split common entites element to their     -->
+<!--                     own files                                 -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
@@ -93,8 +94,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--                    EXTENSION POINTS                           -->
 <!-- ============================================================= -->
 
-<!ENTITY % ph    "ph">
-<!ENTITY % data  "data">
+
 <!ENTITY % fig   "fig">
 
 
@@ -104,8 +104,6 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 
 <!-- common content models -->
 
-<!ENTITY % common-inline  "#PCDATA|%ph;|image|%data;">
-<!ENTITY % all-inline  "#PCDATA|%ph;|image|xref|%data;">
 <!ENTITY % simple-blocks  "p|ul|ol|dl|pre|audio|video|example|note|%data;">
 <!ENTITY % fallback-blocks "image|alt|p|ul|ol|dl|pre|note|%data;">
 <!ENTITY % fn-blocks  "p|ul|ol|dl|%data;">
@@ -128,14 +126,6 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--                    ELEMENT DECLARATIONS                       -->
 <!-- ============================================================= -->
 
-<!--                    LONG NAME: Alternative content  -->
-<!ELEMENT alt           (#PCDATA|%ph;|%data;)*        >
-<!ATTLIST alt
-             %localization;
-             %filters;
-             %variable-content;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/alt ">
 
 <!--                    LONG NAME: Body                  -->
 <!ELEMENT body          ((%list-blocks;)*, section*, div?)        >
@@ -144,17 +134,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/body ">
 
-<!--                    LONG NAME: Data  -->
-<!ELEMENT data             (#PCDATA|%data;)*        >
-<!ATTLIST data
-             %localization;
-             name       CDATA                            #IMPLIED
-             value      CDATA                            #IMPLIED
-             %reference-content;
-             %variable-content;
-             %filters;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/data ">
+
 
 <!--                    LONG NAME: Description   -->
 <!ELEMENT dd             (%list-blocks;)*        >
@@ -241,17 +221,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              id          NMTOKEN        #REQUIRED
              class       CDATA "- topic/fn ">
 
-<!--                    LONG NAME: Image  -->
-<!ELEMENT image             (alt?)        >
-<!ATTLIST image
-             %reference-content;
-             height     NMTOKEN                          #IMPLIED
-             width      NMTOKEN                          #IMPLIED
-             %localization;
-             %filters;
-             %variable-content;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/image ">
+
 
 <!--                    LONG NAME: List item -->
 <!ELEMENT li            (%list-blocks;)*        >
@@ -290,15 +260,6 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              %reuse;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/p ">
-
-<!--                    LONG NAME: Phrase content  -->
-<!ELEMENT ph             (%all-inline;)*        >
-<!ATTLIST ph
-             %localization;
-             %filters;
-             %variable-content;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/ph ">
 
 <!--                    LONG NAME: Preformatted content -->
 <!ELEMENT pre            (#PCDATA|%ph;|xref|%data;)*        >
@@ -402,15 +363,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/ul ">
 
-<!--                    LONG NAME: Reference  -->
-<!ELEMENT xref          (%common-inline;)*        >
-<!ATTLIST xref
-             %reference-content;
-             %localization;
-             %filters;
-             %variable-links;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/xref ">
+
 
 <!-- Multimedia elements -->
 <!--                    LONG NAME: Audio -->
