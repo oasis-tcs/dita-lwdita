@@ -1,14 +1,20 @@
 <!-- ============================================================= -->
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
-<!--  MODULE:    Lightweight DITA Common                           -->
+<!--  MODULE:    Lightweight DITA Common Entities                          -->
 <!--  VERSION:   1.0                                               -->
 <!--  DATE:      XXX                                               -->
 <!--                                                               -->
-<!--    26 Oct 2021  ES: split common entites to its own file      -->
+<!--    26 Oct 2021  ES: split common entites element to their     -->
+<!--                     own files                                 -->
 <!-- ============================================================= -->
 
+<!ENTITY % ph    "ph">
+<!ENTITY % data  "data">
 <!ENTITY % filter-adds " ">
+
+<!ENTITY % common-inline  "#PCDATA|%ph;|image|%data;">
+<!ENTITY % all-inline  "#PCDATA|%ph;|image|xref|%data;">
 
 
 <!ENTITY % filters

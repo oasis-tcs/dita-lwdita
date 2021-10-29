@@ -36,6 +36,8 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 <!--    25 Jul 2017  CE: Changed public identifier to LIGHTWEIGHT  -->
 <!--                     DITA                                      -->
 <!--    08 Jun 2021  CE: Added Emphasis domain                     -->
+<!--    26 Oct 2021  ES: split common entites element to their     -->
+<!--                     own files                                 -->
 <!-- ============================================================= -->
 
 
@@ -91,6 +93,12 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 "-//OASIS//ENTITIES LIGHTWEIGHT DITA Common//EN"
 "lw-common.ent"                                                       >
 %common-ent;
+
+
+<!ENTITY % common-defn   PUBLIC
+"-//OASIS//ELEMENTS LIGHTWEIGHT DITA Common//EN"
+"lw-common.mod"                                                       >
+%common-defn;
 
 <!--                    Embed topic module to get generic elements -->
 

@@ -5,6 +5,8 @@
 <!--  VERSION:   1.0                                               -->
 <!--  DATE:      XXX                                               -->
 <!--                                                               -->
+<!--    26 Oct 2021  ES: split common entites element to their     -->
+<!--                     own files                                 -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
@@ -79,35 +81,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--                    ELEMENT DECLARATIONS                       -->
 <!-- ============================================================= -->
 
-<!--                    LONG NAME: Alternative content  -->
-<!ELEMENT alt           (#PCDATA|%ph;|%data;)*        >
-<!ATTLIST alt
-             %localization;
-             %variable-content;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/alt ">
-
-<!--                    LONG NAME: Data  -->
-<!ELEMENT data             (#PCDATA|%data;)*        >
-<!ATTLIST data
-             %localization;
-             name       CDATA                            #IMPLIED
-             value      CDATA                            #IMPLIED
-             %reference-content;
-             %variable-content;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/data ">
-             
-<!--                    LONG NAME: Image  -->
-<!ELEMENT image             (alt?)        >
-<!ATTLIST image
-             %reference-content;
-             height     NMTOKEN                          #IMPLIED
-             width      NMTOKEN                          #IMPLIED
-             %localization;
-             %variable-content;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/image ">              
+           
              
 <!--                    LONG NAME: Key Definition  -->
 <!ELEMENT keydef	(topicmeta?, data*)        >
@@ -149,13 +123,6 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/titlealt alternativeTitles-d/navtitle ">             
              
-<!--                    LONG NAME: Phrase content  -->
-<!ELEMENT ph             (%all-inline;)*        >
-<!ATTLIST ph
-             %localization;
-             %variable-content;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/ph ">
              
 <!--                    LONG NAME: Metadata-->
 <!ELEMENT topicmeta     (navtitle?, keytext?, data*) >
@@ -175,12 +142,5 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "- map/topicref ">            
 
-<!--                    LONG NAME: Reference  -->
-<!ELEMENT xref          (%common-inline;)*        >
-<!ATTLIST xref
-             %reference-content;
-             %localization;
-             %variable-links;
-             outputclass  CDATA          #IMPLIED
-             class CDATA "- topic/xref ">
+
 

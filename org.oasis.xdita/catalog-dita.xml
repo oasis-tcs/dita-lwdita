@@ -7,6 +7,7 @@
 
   <public publicId="-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN" uri="dtd/lw-topic.mod"/>
   <public publicId="-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN" uri="dtd/lw-map.mod"/>
+  <public publicId="-//OASIS//ELEMENTS LIGHTWEIGHT DITA Common//EN" uri="dtd/lw-common.mod"/>
   <public publicId="-//OASIS//ENTITIES LIGHTWEIGHT DITA Common//EN" uri="dtd/lw-common.ent"/>
 
   <public publicId="-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN" uri="dtd/lw-highlightDomain.mod"/>
@@ -30,6 +31,7 @@
 
   <public publicId="-//OASIS//ELEMENTS XDITA Topic//EN" uri="dtd/lw-topic.mod"/>
   <public publicId="-//OASIS//ELEMENTS XDITA Map//EN" uri="dtd/lw-map.mod"/>
+  <public publicId="-//OASIS//ELEMENTS XDITA Common//EN" uri="dtd/lw-common.mod"/>
   <public publicId="-//OASIS//ENTITIES XDITA Common//EN" uri="dtd/lw-common.ent"/>
 
   <public publicId="-//OASIS//DTD LW DITA Topic//EN" uri="dtd/lw-topic.dtd"/>

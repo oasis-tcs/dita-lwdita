@@ -37,6 +37,8 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Map//EN"
 <!--    25 Jul 2017  CE: Changed public identifier to LIGHTWEIGHT  -->
 <!--                     DITA                                      -->
 <!--    08 Jun 2021  CE: Added Emphasis domain                     -->
+<!--    26 Oct 2021  ES: split common entites element to their     -->
+<!--                     own files                                 -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
@@ -85,17 +87,24 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Map//EN"
 <!ENTITY excluded-domains                         " "                >
 
 <!-- ============================================================= -->
-<!--                    INCLUDE MAP MODULE          -->
+<!--                    INCLUDE MAP AND COMMON MODULE              -->
 <!-- ============================================================= -->
+
+
 <!ENTITY % common-ent   PUBLIC
 "-//OASIS//ENTITIES LIGHTWEIGHT DITA Common//EN"
 "lw-common.ent"                                                       >
 %common-ent;
 
+<!ENTITY % common-defn   PUBLIC
+"-//OASIS//ELEMENTS LIGHTWEIGHT DITA Common//EN"
+"lw-common.mod"                                                       >   
+%common-defn;
+
 <!--                    Embed map module to get generic elements -->
 <!ENTITY % map-type     PUBLIC
 "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
-"lw-map.mod"                                                            >
+"lw-map.mod"                                                          >
 %map-type;
 
 
