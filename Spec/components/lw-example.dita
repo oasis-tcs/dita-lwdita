@@ -21,8 +21,13 @@
           <dd><p>A level-two heading marked by <codeph>##</codeph> or <codeph>-----</codeph> underline and the class value <codeph>{.example}</codeph> following the <xref href="https://pandoc.org/MANUAL.html#extension-header_attributes" scope="external" format="html">Pandoc syntax for header attributes</xref>.</p></dd>
         </dlentry>
       </dl>
+      <draft-comment author="Kristen J Eberlein" time="21 September 2022">
+        <p>I commented out the following element, as it did not resolve,
+          and I wanted Frank to be able to build without any errors.</p>
+        <codeblock>&lt;section conkeyref="reuse-example/usage-information"/></codeblock>
+      </draft-comment>
     </section>
-      <section conkeyref="reuse-example/usage-information" />
+    <!--<section conkeyref="reuse-example/usage-information"/>-->
      <!-- <section conkeyref="reuse-example/attributes"/> -->
         <example>
           <title>Examples</title>
