@@ -29,6 +29,7 @@
     </section>
     <!--<section conkeyref="reuse-example/usage-information"/>-->
      <!-- <section conkeyref="reuse-example/attributes"/> -->
+    <section conkeyref="reuse-example/attributes"/>
         <example>
           <title>Examples</title>
           <fig>
