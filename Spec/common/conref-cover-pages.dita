@@ -20,9 +20,14 @@
     <section id="editors">
       <title>Editors</title>
       <sl>
-        <sli>Carlos Evia (<xref format="mailto" href="mailto:cevia@vt.edu"
-            scope="external">cevia@vt.edu</xref>), <xref href="http://www.vt.edu"
-            format="html" scope="external">Virginia Tech</xref></sli>      
+        <sli>Frank Wegmann (<xref format="mailto"
+            href="Frank.Wegmann@softwareag.com" scope="external"
+            >Frank.Wegmann@softwareag.com</xref>), Individual member</sli>
+        <sli>Kristen James Eberlein (<xref format="mailto"
+            href="mailto:kris@eberleinconsulting.com" scope="external"
+            >kris@eberleinconsulting.com</xref>), <xref
+            href="http://eberleinconsulting.com/" format="html"
+            scope="external">Eberlein Consulting LLC</xref></sli>      
       </sl>
     </section>
     <section id="section-1">
