@@ -2,8 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="non-normative-references">
  <title>Non-normative references</title>
- <shortdesc>The following are references to external documents or resources that readers of this
-  document might find useful.</shortdesc>
+  <shortdesc rev="2.0">The following referenced documents are not required
+    for the application of this document but might assist the reader with
+    regard to a particular subject area.</shortdesc>
  <conbody>
   <dl>
  <dlentry>

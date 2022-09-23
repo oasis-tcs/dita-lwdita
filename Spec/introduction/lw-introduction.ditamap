@@ -5,9 +5,11 @@
     <topicref href="introduction-lwdita-spec.dita">
         <topicref href="about-the-lightweight-dita-specification.dita"/>
         <topicref href="../commonspec/specification/introduction/terminology.dita"/>
-        <topicref href="../commonspec/specification/introduction/ipr-policy.dita"/>
-        <topicref href="normative-references.dita"/>
-        <topicref href="non-normative-references(needs%20work).dita"/>
+    <topicref
+      href="../commonspec/specification/introduction/references.dita">
+      <topicref href="normative-references.dita"/>
+      <topicref href="non-normative-references(needs%20work).dita"/>
+    </topicref>
         <topicref
             href="../commonspec/specification/introduction/formatting-conventions-html-output.dita">
             <topicref href="../commonspec/specification/introduction/link-previews.dita"/>

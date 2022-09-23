@@ -2,6 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="normative-references">
  <title>Normative references</title>
+  <shortdesc rev="2.0">The following documents are referenced in such a way
+    that some or all of their content constitutes requirements of this
+    document.</shortdesc>
  <conbody>
 
   <dl>
