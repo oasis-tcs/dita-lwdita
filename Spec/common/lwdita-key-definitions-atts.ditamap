@@ -7,6 +7,4 @@
     <keydef href="../commonspec/specification/langRef/attributes/attributes.dita" keys="attributes-container-topic"/>
     <keydef href="../commonspec/specification/langRef/attributes/universalAttributes.dita" keys="attributes-universal"/>
     <keydef href="../commonspec/specification/langRef/attributes/commonAttributes.dita" keys="attributes-common"/>
-  <keydef keys="lwattr"
-    href="../commonspec/specification/common/reuse-w-lwdita/lwdita-attributes.dita"/>
 </map>

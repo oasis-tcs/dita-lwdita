@@ -37,18 +37,22 @@
  <frontmatter>
   <mapref href="common/lwdita-specification-subjectScheme.ditamap" processing-role="resource-only"
    type="subjectScheme"/>
-  <mapref href="common/lwdita-key-definitions-atts.ditamap" processing-role="resource-only"/>
+    <!--<mapref href="common/lwdita-key-definitions-atts.ditamap" processing-role="resource-only"/>-->
   <mapref href="common/lwdita-key-definitions-cover-pages.ditamap" processing-role="resource-only"/>
   <mapref href="commonspec/specification/common/key-definitions-library-topics.ditamap"
    processing-role="resource-only"/>
+    <mapref
+      href="commonspec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap"
+      processing-role="resource-only"/>
   <!--  <mapref href="base-relationship-tables.ditamap"/>-->
   <notices platform="dita-tc-publishing">
    <topicref href="resources/oasis-cover.dita" linking="none" toc="no"/>
-   <topicref href="resources/oasis-notices.dita" linking="none" toc="no"/>
+   <topicref href="commonspec/specification/resources/oasis-notices.dita"
+        linking="none" toc="no"/>
   </notices>
   <notices platform="external-publishing-engine">
    <topicref href="resources/oasis-cover.dita"/>
-   <topicref href="resources/oasis-notices.dita"/>
+   <topicref href="commonspec/specification/resources/oasis-notices.dita"/>
   </notices>
   <booklists>
    <toc/>
@@ -63,14 +67,16 @@
     <topicref href="capabilities/capabilities.dita"/>
   </chapter>
  <chapter format="ditamap" href="components/lw-components.ditamap"/>
- <chapter format="ditamap" href="attributes/lw-attributes.ditamap"/>
- <!-- <chapter format="ditamap"
-  href="commonspec/specification/langRef/attributes/ditaref-attributes.ditamap"/> -->
- <chapter format="ditamap" href="conformance/lw-conformance.ditamap"/>
+  <chapter format="ditamap" href="attributes/lw-attributes.ditamap"/>
   <chapter format="ditamap"
-    href="complex-attributes/complex-attributes.ditamap"/>
+    href="commonspec/specification/langRef/attributes/ditaref-attributes.ditamap"/>
+ <chapter format="ditamap" href="conformance/lw-conformance.ditamap"/>
  <appendix href="acknowledgements/acknowledgements.dita"/>
+  <appendix
+    href="commonspec/specification/non-normative/aggregated-RFC-2119-statements.dita"/>
  <appendix href="introduction/revision-history.dita"/>
+  <appendix href="complex-attributes/complex-attributes.ditamap"
+    format="ditamap"/>
 </bookmap>
 <!--  <chapter>
    <topicmeta>
