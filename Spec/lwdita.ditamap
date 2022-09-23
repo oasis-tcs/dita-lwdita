@@ -74,8 +74,7 @@
   <appendix
     href="commonspec/specification/non-normative/aggregated-RFC-2119-statements.dita"/>
  <appendix href="introduction/revision-history.dita"/>
-  <appendix href="complex-attributes/complex-attributes.ditamap"
-    format="ditamap"/>
+  <!--<appendix href="complex-attributes/complex-attributes.ditamap" format="ditamap"/>-->
 </bookmap>
 <!--  <chapter>
    <topicmeta>
