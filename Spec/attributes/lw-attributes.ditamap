@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Lightweight DITA Attributes</title>
- <topicref href="lwdita-attributes.dita"/>
- <topicref href="lw-universalAttributes.dita"/>
+ <title><!--Lightweight DITA -->Attributes</title>
+  <topicref href="attributes.dita">
+    <topicref
+      href="../commonspec/specification/langRef/attributes/attribute-groups.dita"/>
+    <topicref href="lwdita-attributes.dita"/>
+    <topicref href="lwdita-attributes-a-to-z.dita"/>
+  </topicref>
+  <!--<topicref href="lw-universalAttributes.dita"/>-->
  
 
 </map>
