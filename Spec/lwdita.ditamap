@@ -59,7 +59,6 @@
   </booklists>
  </frontmatter>
  <chapter href="introduction/lw-introduction.ditamap" format="ditamap"/>
- <chapter href="introduction/introduction.dita"/>
   <chapter href="authoring-formats/formats-introduction.dita">
     <topicref href="authoring-formats/xdita/xdita-introduction.dita"/>
     <topicref href="authoring-formats/hdita/hdita-introduction.dita"/>
