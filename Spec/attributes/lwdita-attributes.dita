@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="lwdita-attributes">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lwdita-attributes">
  <title>DITA 2.0 attributes in LwDITA</title>
  <shortdesc>This topic lists the DITA 2.0 attributes that are available in
     LwDITA and how to represent them in XDITA and HDITA. </shortdesc>
- <conbody>
+ <refbody><section>
   <table frame="all" rowsep="1" colsep="1" id="table_cjh_ss5_31b">
    <tgroup cols="3">
     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -203,7 +203,7 @@
     </tbody>
    </tgroup>
   </table>
-  <section id="section_njh_1c5_31b">
+  </section><section id="section_njh_1c5_31b">
    <title>Representing attributes in MDITA</title>
    <p>With the exception of key reference, attributes are not available in the MDITA core profile.
     In the MDITA extended profile, you can express attributes using their HDITA representation.</p>
@@ -214,5 +214,5 @@
     Markdown syntax for shortcut reference links: <codeph>[key-value]</codeph>. There is no
     equivalent for content reference in the MDITA core profile.</p>
   </section>
-   </conbody>
-</concept>
+   </refbody>
+</reference>
