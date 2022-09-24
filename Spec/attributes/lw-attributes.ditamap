@@ -5,6 +5,8 @@
   <topicref href="attributes.dita">
     <topicref
       href="../commonspec/specification/langRef/attributes/attribute-groups.dita"/>
+    <topicref
+      href="../commonspec/specification/langRef/attributes/lwdita-common-attributes.dita"/>
     <topicref href="lwdita-attributes.dita"/>
     <topicref href="lwdita-attributes-a-to-z.dita"/>
   </topicref>
