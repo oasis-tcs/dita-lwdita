@@ -27,6 +27,7 @@
     </section>
 
       <section conkeyref="reuse-media-source/usage-information" />
+    <section conkeyref="reuse-media-source/rendering-expectations"/>
 
       <section conkeyref="reuse-media-source/attributes"/>
         <example>
