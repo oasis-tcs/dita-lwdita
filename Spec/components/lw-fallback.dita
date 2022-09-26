@@ -25,6 +25,7 @@
         </dlentry>
       </dl>
     </section>
+    <section conkeyref="reuse-fallback/processing-expectations"/>
     <section conkeyref="reuse-fallback/attributes"/>
         <example>
           <title>Examples</title>
