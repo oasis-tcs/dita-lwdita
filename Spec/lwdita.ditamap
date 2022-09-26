@@ -38,19 +38,18 @@
   <mapref
       href="commonspec/specification/dita-2.0-specification-subjectScheme.ditamap"
       processing-role="resource-only" type="subjectScheme"/>
-    <mapref href="common/lwdita-key-definitions-cover-pages.ditamap"
-      processing-role="resource-only"/>
-    <!--<mapref href="common/lwdita-key-definitions-atts.ditamap" processing-role="resource-only"/>-->
-  <mapref href="commonspec/specification/common/key-definitions-library-topics.ditamap"
-   processing-role="resource-only"/>
+    <mapref href="common/lwdita-key-definitions-cover-pages.ditamap"/>
     <mapref
-      href="commonspec/specification/common/key-definitions-reuse-w-lwdita.ditamap"
-      processing-role="resource-only"/>
+      href="commonspec/specification/common/key-definitions-oasis-boilerplate.ditamap"/>
+    <!--<mapref href="common/lwdita-key-definitions-atts.ditamap" processing-role="resource-only"/>-->
+  <mapref
+      href="commonspec/specification/common/key-definitions-library-topics.ditamap"/>
+    <mapref
+      href="commonspec/specification/common/key-definitions-reuse-w-lwdita.ditamap"/>
     <mapref
       href="commonspec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap"/>
     <mapref
-      href="commonspec/specification/common/key-definitions-complex-attributes.ditamap"
-      processing-role="resource-only"/>
+      href="commonspec/specification/common/key-definitions-complex-attributes.ditamap"/>
   <notices platform="dita-tc-publishing">
    <topicref href="resources/oasis-cover.dita" linking="none" toc="no"/>
    <topicref href="commonspec/specification/resources/oasis-notices.dita"
@@ -152,4 +151,3 @@
    <topicref href="lwd-keyref.dita" keys="keyref"/>
    <topicref href="lwd-keys.dita" keys="keys"/>   
   </chapter>-->
-<!-- <chapter href="lwd-common.dita" toc="no" keys="lwd-common" processing-role="resource-only"/>-->

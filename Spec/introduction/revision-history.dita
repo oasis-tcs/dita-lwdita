@@ -32,12 +32,14 @@
             </strow>
       <strow>
         <stentry>04</stentry>
-        <stentry>23 September 2022</stentry>
+        <stentry>26 September 2022</stentry>
         <stentry>Kristen James Eberlein</stentry>
         <stentry>Generated working draft #4, which includes the following changes:<ul>
             <li>Updated list of editors and citation format</li>
             <li>Added appendix for aggregated RFC-2119 statements</li>
             <li>Updates to OASIS boilerplate content</li>
+            <li>Updated to key definition maps</li>
+            <li>Added LwDITA attributes content</li>
           </ul></stentry>
       </strow>
         </simpletable>
