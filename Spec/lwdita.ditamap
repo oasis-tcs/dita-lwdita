@@ -38,13 +38,19 @@
   <mapref
       href="commonspec/specification/dita-2.0-specification-subjectScheme.ditamap"
       processing-role="resource-only" type="subjectScheme"/>
-<mapref href="common/lwdita-key-definitions-atts.ditamap" processing-role="resource-only"/>
+    <mapref href="common/lwdita-key-definitions-cover-pages.ditamap"
+      processing-role="resource-only"/>
+    <!--<mapref href="common/lwdita-key-definitions-atts.ditamap" processing-role="resource-only"/>-->
   <mapref href="commonspec/specification/common/key-definitions-library-topics.ditamap"
    processing-role="resource-only"/>
     <mapref
-      href="commonspec/specification/common/key-definitions-reuse-w-lwdita.ditamap"/>
+      href="commonspec/specification/common/key-definitions-reuse-w-lwdita.ditamap"
+      processing-role="resource-only"/>
     <mapref
-      href="commonspec/specification/common/key-definitions-complex-attributes.ditamap"/>
+      href="commonspec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap"/>
+    <mapref
+      href="commonspec/specification/common/key-definitions-complex-attributes.ditamap"
+      processing-role="resource-only"/>
   <notices platform="dita-tc-publishing">
    <topicref href="resources/oasis-cover.dita" linking="none" toc="no"/>
    <topicref href="commonspec/specification/resources/oasis-notices.dita"
