@@ -35,16 +35,19 @@
   </bookrights>
  </bookmeta>
  <frontmatter>
-  <mapref href="common/lwdita-specification-subjectScheme.ditamap" processing-role="resource-only"
-   type="subjectScheme"/>
-    <!--<mapref href="common/lwdita-key-definitions-atts.ditamap" processing-role="resource-only"/>-->
+  <mapref
+      href="commonspec/specification/dita-2.0-specification-subjectScheme.ditamap"
+      processing-role="resource-only" type="subjectScheme"/>
   <mapref href="common/lwdita-key-definitions-cover-pages.ditamap" processing-role="resource-only"/>
   <mapref href="commonspec/specification/common/key-definitions-library-topics.ditamap"
    processing-role="resource-only"/>
     <mapref
+      href="commonspec/specification/common/key-definitions-reuse-w-lwdita.ditamap"/>
+    <mapref
+      href="commonspec/specification/common/key-definitions-complex-attributes.ditamap"/>
+    <mapref
       href="commonspec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap"
       processing-role="resource-only"/>
-  <!--  <mapref href="base-relationship-tables.ditamap"/>-->
   <notices platform="dita-tc-publishing">
    <topicref href="resources/oasis-cover.dita" linking="none" toc="no"/>
    <topicref href="commonspec/specification/resources/oasis-notices.dita"
