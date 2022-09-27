@@ -51,6 +51,8 @@
       href="commonspec/specification/langRef/attributes/key-definitions-ditaref-attributes.ditamap"/>
     <mapref
       href="commonspec/specification/common/key-definitions-complex-attributes.ditamap"/>
+    <keydef keys="reuse-cover"
+      href="commonspec/specification/common/conref-cover-pages.dita"/>
   <notices platform="dita-tc-publishing">
    <topicref href="resources/oasis-cover.dita" linking="none" toc="no"/>
    <topicref href="commonspec/specification/resources/oasis-notices.dita"
