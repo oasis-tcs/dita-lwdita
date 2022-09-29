@@ -1,218 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lwdita-attributes">
- <title>DITA 2.0 attributes in LwDITA</title>
- <shortdesc>This topic lists the DITA 2.0 attributes that are available in
-    LwDITA and how to represent them in XDITA and HDITA. </shortdesc>
- <refbody><section>
-  <table frame="all" rowsep="1" colsep="1" id="table_cjh_ss5_31b">
-   <tgroup cols="3">
-    <colspec colname="c1" colnum="1" colwidth="1*"/>
-    <colspec colname="c2" colnum="2" colwidth="1*"/>
-    <colspec colname="c3" colnum="3" colwidth="1*"/>
-    <thead>
-     <row>
-      <entry>Component/Set</entry>
-      <entry>XDITA</entry>
-      <entry>HDITA</entry>
-     </row>
-    </thead>
-    <tbody>
-     <row>
-      <entry namest="c1" nameend="c3"><b>Architecture attributes</b></entry>
-     </row>
-     <row>
-      <entry>ditaarch</entry>
-      <entry><xmlatt>xmlns:ditaarch</xmlatt></entry>
-      <entry>Not applicable</entry>
-     </row>
-     <row>
-      <entry>DITAArchVersion</entry>
-      <entry><xmlatt>ditaarch:DITAArchVersion</xmlatt></entry>
-      <entry>Not applicable</entry>
-     </row>
-     <row>
-      <entry>Domains</entry>
-      <entry><xmlatt>domains</xmlatt></entry>
-      <entry>Not applicable</entry>
-     </row>
-     <row>
-      <entry namest="c1" nameend="c3"><b>Localization attributes</b></entry>
-     </row>
-     <row>
-      <entry>Direction</entry>
-      <entry>
-       <p><xmlatt>dir</xmlatt>
-       </p>
-      </entry>
-      <entry><xmlatt>dir</xmlatt></entry>
-     </row>
-     <row>
-      <entry>Language</entry>
-      <entry><xmlatt>xml:lang</xmlatt></entry>
-      <entry><xmlatt>lang</xmlatt></entry>
-     </row>
-     <row>
-      <entry>Translate</entry>
-      <entry><xmlatt>translate</xmlatt></entry>
-      <entry><xmlatt>translate</xmlatt></entry>
-     </row>
-     <row>
-      <entry namest="c1" nameend="c3"><b>Data definition</b></entry>
-     </row>
-     <row>
-      <entry>Name</entry>
-      <entry><xmlatt>name</xmlatt></entry>
-      <entry>Not applicable</entry>
-     </row>
-     <row>
-      <entry>Value</entry>
-      <entry><xmlatt>value</xmlatt></entry>
-      <entry>Not applicable</entry>
-     </row>
-     <row>
-      <entry namest="c1" nameend="c3"><b>Figure display attributes</b></entry>
-     </row>
-     <row>
-      <entry>Expanse</entry>
-      <entry><xmlatt>expanse</xmlatt></entry>
-      <entry>Not applicable</entry>
-     </row>
-     <row>
-      <entry>Frame</entry>
-      <entry><xmlatt>frame</xmlatt></entry>
-      <entry>Not applicable</entry>
-     </row>
-     <row>
-      <entry>Scale</entry>
-      <entry><xmlatt>scale</xmlatt></entry>
-      <entry>Not applicable</entry>
-     </row>
-     <row>
-      <entry namest="c1" nameend="c3"><b>Filtering attribute</b></entry>
-     </row>
-     <row>
-      <entry>Props</entry>
-      <entry><xmlatt>props</xmlatt></entry>
-      <entry><xmlatt>data-props</xmlatt></entry>
-     </row>
-     <row>
-      <entry namest="c1" nameend="c3"><b>Footnote control</b></entry>
-     </row>
-     <row>
-      <entry>Callout</entry>
-      <entry><xmlatt>callout</xmlatt></entry>
-      <entry>Not applicable</entry>
-     </row>
-     <row>
-      <entry namest="c1" nameend="c3"><b>Image size</b></entry>
-     </row>
-     <row>
-      <entry>Height</entry>
-      <entry><xmlatt>height</xmlatt></entry>
-      <entry><xmlatt>height</xmlatt></entry>
-     </row>
-     <row>
-      <entry>Width</entry>
-      <entry><xmlatt>width</xmlatt></entry>
-      <entry><xmlatt>width</xmlatt></entry>
-     </row>
-     <row>
-      <entry namest="c1" nameend="c3"><b>Note type</b></entry>
-     </row>
-     <row>
-      <entry>Type</entry>
-      <entry><xmlatt>type</xmlatt></entry>
-      <entry><xmlatt>data-type</xmlatt></entry>
-     </row>
-     <row>
-      <entry><b>Processing attribute</b></entry>
-      <entry/>
-      <entry/>
-     </row>
-     <row>
-      <entry>Output class</entry>
-      <entry><xmlatt>outputclass</xmlatt></entry>
-      <entry><xmlatt>class</xmlatt></entry>
-     </row>
-     <row>
-      <entry namest="c1" nameend="c3"><b>Reference attributes</b></entry>
-     </row>
-     <row>
-      <entry>Link target</entry>
-      <entry>
-       <p><xmlatt>href</xmlatt>
-       </p>
-      </entry>
-      <entry><xmlatt>href</xmlatt></entry>
-     </row>
-     <row>
-      <entry>Format of target resource</entry>
-      <entry><xmlatt>format</xmlatt></entry>
-      <entry><xmlatt>type</xmlatt></entry>
-     </row>
-     <row>
-      <entry>Processing role</entry>
-      <entry><xmlatt>processing-role</xmlatt></entry>
-      <entry><xmlatt>data-processing-role</xmlatt></entry>
-     </row>
-     <row>
-      <entry>Relationship of source to target</entry>
-      <entry><xmlatt>scope</xmlatt></entry>
-      <entry><xmlatt>rel</xmlatt></entry>
-     </row>
-     <row>
-      <entry namest="c1" nameend="c3"><b>Reuse attributes</b></entry>
-     </row>
-     <row>
-      <entry>Identifier</entry>
-      <entry>
-       <p><xmlatt>id</xmlatt>
-       </p>
-      </entry>
-      <entry><xmlatt>id</xmlatt></entry>
-     </row>
-     <row>
-      <entry>Content reference</entry>
-      <entry><xmlatt>conref</xmlatt></entry>
-      <entry><xmlatt>data-conref</xmlatt></entry>
-     </row>
-     <row>
-      <entry>Key definition</entry>
-      <entry><xmlatt>keys</xmlatt></entry>
-      <entry><xmlatt>data-keys</xmlatt></entry>
-     </row>
-     <row>
-      <entry>Key reference</entry>
-      <entry><xmlatt>keyref</xmlatt></entry>
-      <entry><xmlatt>data-keyref</xmlatt></entry>
-     </row>
-     <row>
-      <entry namest="c1" nameend="c3"><b>Video size</b></entry>
-     </row>
-     <row>
-      <entry>Height</entry>
-      <entry><xmlatt>height</xmlatt></entry>
-      <entry><xmlatt>height</xmlatt></entry>
-     </row>
-     <row>
-      <entry>Width</entry>
-      <entry><xmlatt>width</xmlatt></entry>
-      <entry><xmlatt>width</xmlatt></entry>
-     </row>
-    </tbody>
-   </tgroup>
-  </table>
-  </section><section id="section_njh_1c5_31b">
-   <title>Representing attributes in MDITA</title>
-   <p>With the exception of key reference, attributes are not available in the MDITA core profile.
-    In the MDITA extended profile, you can express attributes using their HDITA representation.</p>
-  </section>
-  <section>
-   <title>Reuse attribute in MDITA</title>
-  <p>In an MDITA core-profile topic, a key reference is represented using the GitHub Flavored
-    Markdown syntax for shortcut reference links: <codeph>[key-value]</codeph>. There is no
-    equivalent for content reference in the MDITA core profile.</p>
-  </section>
-   </refbody>
+  <title>DITA 2.0 attributes in LwDITA</title>
+  <shortdesc>This topic lists the XDITA attributes and their equivalents in
+    HDITA and MDITA.</shortdesc>
+  <refbody>
+    <section>
+      <table frame="all" rowsep="1" colsep="1" id="table_cjh_ss5_31b">
+        <tgroup cols="5">
+          <colspec colname="newCol1" colnum="1" colwidth="1.0*"/>
+          <colspec colname="c1" colnum="2" colwidth="1.75*"/>
+          <colspec colname="c2" colnum="3" colwidth="1.25*"/>
+          <colspec colname="c3" colnum="4" colwidth="1*"/>
+          <colspec colname="newCol4" colnum="5" colwidth="1*"/>
+          <thead>
+            <row>
+              <entry>Attribute group</entry>
+              <entry>XDITA</entry>
+              <entry>HDITA</entry>
+              <entry>MDITA core profile</entry>
+              <entry>MDITA extended profile</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry morerows="2"><b>Architectural attributes</b></entry>
+              <entry><xmlatt>xmlns:ditaarch</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+            <row>
+              <entry><xmlatt>ditaarch:DITAArchVersion</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+            <row>
+              <entry><xmlatt>specializations</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+            <row>
+              <entry><b>Common map attributes</b></entry>
+              <entry><xmlatt>processing-role</xmlatt></entry>
+              <entry><xmlatt>data-processing-role</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry morerows="1"><b>Data-element attributes</b></entry>
+              <entry><xmlatt>name</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+            <row>
+              <entry><xmlatt>value</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+            <row>
+              <entry morerows="1"><b>Dimension attributes</b></entry>
+              <entry><xmlatt>height</xmlatt></entry>
+              <entry><xmlatt>height</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry><xmlatt>width</xmlatt></entry>
+              <entry><xmlatt>width</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry morerows="2"><b>Display attributes</b></entry>
+              <entry><xmlatt>expanse</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+            <row>
+              <entry><xmlatt>frame</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+            <row>
+              <entry><xmlatt>scale</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+            <row>
+              <entry morerows="1"><b>ID and conref attributes</b></entry>
+              <entry><xmlatt>id</xmlatt>
+              </entry>
+              <entry><xmlatt>id</xmlatt>
+              </entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry><xmlatt>conref</xmlatt></entry>
+              <entry><xmlatt>data-conref</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry morerows="2"><b>Link relationship
+                attributes</b></entry>
+              <entry><xmlatt>href</xmlatt>
+              </entry>
+              <entry><xmlatt>href</xmlatt>
+              </entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry><xmlatt>format</xmlatt></entry>
+              <entry><xmlatt>type</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry><xmlatt>scope</xmlatt></entry>
+              <entry><xmlatt>rel</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry morerows="2"><b>Localization attributes</b></entry>
+              <entry><xmlatt>dir</xmlatt></entry>
+              <entry><xmlatt>dir</xmlatt>
+              </entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry><xmlatt>translate</xmlatt></entry>
+              <entry><xmlatt>translate</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry><xmlatt>xml:lang</xmlatt></entry>
+              <entry><xmlatt>lang</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry morerows="4"><b>Multimedia attributes</b></entry>
+              <entry><xmlatt>autoplay</xmlatt></entry>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry><xmlatt>controls</xmlatt></entry>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry><xmlatt>loop</xmlatt></entry>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry><xmlatt>muted</xmlatt></entry>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry><xmlatt>tabindex</xmlatt></entry>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry morerows="1"><b>Universal attributes</b></entry>
+              <entry><xmlatt>class</xmlatt></entry>
+              <entry>?</entry>
+              <entry>Not applicable</entry>
+              <entry>?</entry>
+            </row>
+            <row>
+              <entry><xmlatt>outputclass</xmlatt></entry>
+              <entry><xmlatt>class</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry morerows="2"><b>Ungrouped attributes</b></entry>
+              <entry><xmlatt>keys</xmlatt></entry>
+              <entry><xmlatt>data-keys</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry><xmlatt>keyref</xmlatt></entry>
+              <entry><xmlatt>data-keyref</xmlatt></entry>
+              <entry><codeph>[key-value]</codeph></entry>
+              <entry>?</entry>
+            </row>
+            <row>
+              <entry><xmlatt>props</xmlatt></entry>
+              <entry><xmlatt>data-props</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>HDITA representation</entry>
+            </row>
+            <row>
+              <entry morerows="1"><b>Attributes defined directly in
+                  topics</b></entry>
+              <entry><xmlatt>callout</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+            <row>
+              <entry><xmlatt>type</xmlatt></entry>
+              <entry><xmlatt>data-type</xmlatt></entry>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </section>
+    <section id="section_njh_1c5_31b">
+      <title>Representing attributes in MDITA</title>
+      <p>With the exception of key reference, attributes are not available
+        in the MDITA core profile. In the MDITA extended profile, you can
+        express attributes using their HDITA representation.</p>
+    </section>
+    <section>
+      <title>Reuse attribute in MDITA</title>
+      <p>In an MDITA core-profile topic, a key reference is represented
+        using the GitHub Flavored Markdown syntax for shortcut reference
+        links: <codeph>[key-value]</codeph>. There is no equivalent for
+        content reference in the MDITA core profile.</p>
+    </section>
+  </refbody>
 </reference>
