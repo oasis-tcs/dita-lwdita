@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lwdita-attributes">
-  <title>DITA 2.0 attributes in LwDITA</title>
+  <title>LwDITA attributes in the authoring formats</title>
   <shortdesc>This topic lists the XDITA attributes and their equivalents in
     HDITA and MDITA.</shortdesc>
   <refbody>
@@ -183,6 +183,31 @@
               <entry/>
             </row>
             <row>
+              <entry morerows="3"><b>Simple table attributes</b></entry>
+              <entry><xmlatt>colspan</xmlatt></entry>
+              <entry/>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+            <row>
+              <entry><xmlatt>headers</xmlatt></entry>
+              <entry/>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+            <row>
+              <entry><xmlatt>rowspan</xmlatt></entry>
+              <entry/>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+            <row>
+              <entry><xmlatt>scope</xmlatt></entry>
+              <entry/>
+              <entry>Not applicable</entry>
+              <entry>Not applicable</entry>
+            </row>
+            <row>
               <entry morerows="1"><b>Universal attributes</b></entry>
               <entry><xmlatt>class</xmlatt></entry>
               <entry>?</entry>
@@ -215,7 +240,7 @@
               <entry>HDITA representation</entry>
             </row>
             <row>
-              <entry morerows="1"><b>Attributes defined directly in
+              <entry morerows="6"><b>Attributes defined directly in
                   topics</b></entry>
               <entry><xmlatt>callout</xmlatt></entry>
               <entry>Not applicable</entry>
@@ -223,10 +248,40 @@
               <entry>Not applicable</entry>
             </row>
             <row>
+              <entry><xmlatt>kind</xmlatt></entry>
+              <entry><xmlatt>kind</xmlatt></entry>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry><xmlatt>poster</xmlatt></entry>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry><xmlatt>posterkeyref</xmlatt></entry>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry><xmlatt>srclang</xmlatt></entry>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
               <entry><xmlatt>type</xmlatt></entry>
               <entry><xmlatt>data-type</xmlatt></entry>
               <entry>Not applicable</entry>
               <entry>Not applicable</entry>
+            </row>
+            <row>
+              <entry><xmlatt>xml:space</xmlatt></entry>
+              <entry/>
+              <entry/>
+              <entry/>
             </row>
           </tbody>
         </tgroup>
