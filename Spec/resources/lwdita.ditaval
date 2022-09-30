@@ -19,7 +19,7 @@
     <prop att="audience" val="spec-editors" action="exclude"/>
     
     <!-- Values used to generate revision marking -->
-    <revprop action="flag" color="red" val="errata-01">
+    <revprop action="flag" backcolor="yellow" val="spec-editors">
         <startflag>
             <alt-text>►</alt-text>
         </startflag>
