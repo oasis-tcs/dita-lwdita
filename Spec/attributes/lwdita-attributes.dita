@@ -67,13 +67,13 @@
               <entry><xmlatt>height</xmlatt></entry>
               <entry><xmlatt>height</xmlatt></entry>
               <entry>Not applicable</entry>
-              <entry>HDITA representation</entry>
+              <entry rev="spec-editors">HDITA representation</entry>
             </row>
             <row>
               <entry><xmlatt>width</xmlatt></entry>
               <entry><xmlatt>width</xmlatt></entry>
               <entry>Not applicable</entry>
-              <entry>HDITA representation</entry>
+              <entry rev="spec-editors">HDITA representation</entry>
             </row>
             <row>
               <entry morerows="2"><b>Display attributes</b></entry>
@@ -154,65 +154,65 @@
             <row>
               <entry morerows="4"><b>Multimedia attributes</b></entry>
               <entry><xmlatt>autoplay</xmlatt></entry>
-              <entry/>
-              <entry/>
-              <entry/>
+              <entry rev="spec-editors"><xmlatt>autoplay</xmlatt></entry>
+              <entry rev="spec-editors">Not applicable</entry>
+              <entry rev="spec-editors">HDITA representation</entry>
             </row>
             <row>
               <entry><xmlatt>controls</xmlatt></entry>
-              <entry/>
-              <entry/>
-              <entry/>
+              <entry rev="spec-editors"><xmlatt>controls</xmlatt></entry>
+              <entry rev="spec-editors">Not applicable</entry>
+              <entry rev="spec-editors">HDITA representation</entry>
             </row>
             <row>
               <entry><xmlatt>loop</xmlatt></entry>
-              <entry/>
-              <entry/>
-              <entry/>
+              <entry rev="spec-editors"><xmlatt>loop</xmlatt></entry>
+              <entry rev="spec-editors">Not applicable</entry>
+              <entry rev="spec-editors">HDITA representation</entry>
             </row>
             <row>
               <entry><xmlatt>muted</xmlatt></entry>
-              <entry/>
-              <entry/>
-              <entry/>
+              <entry rev="spec-editors"><xmlatt>muted</xmlatt></entry>
+              <entry rev="spec-editors">Not applicable</entry>
+              <entry rev="spec-editors">HDITA representation</entry>
             </row>
             <row>
               <entry><xmlatt>tabindex</xmlatt></entry>
-              <entry/>
-              <entry/>
-              <entry/>
+              <entry rev="spec-editors"><xmlatt>tabindex</xmlatt></entry>
+              <entry rev="spec-editors">Not applicable</entry>
+              <entry rev="spec-editors">HDITA representation</entry>
             </row>
             <row>
               <entry morerows="3"><b>Simple table attributes</b></entry>
               <entry><xmlatt>colspan</xmlatt></entry>
-              <entry/>
+              <entry rev="spec-editors"><xmlatt>colspan</xmlatt></entry>
               <entry>Not applicable</entry>
               <entry>Not applicable</entry>
             </row>
             <row>
               <entry><xmlatt>headers</xmlatt></entry>
-              <entry/>
+              <entry rev="spec-editors"><xmlatt>headers</xmlatt></entry>
               <entry>Not applicable</entry>
               <entry>Not applicable</entry>
             </row>
             <row>
               <entry><xmlatt>rowspan</xmlatt></entry>
-              <entry/>
+              <entry rev="spec-editors"><xmlatt>rowspan</xmlatt></entry>
               <entry>Not applicable</entry>
               <entry>Not applicable</entry>
             </row>
             <row>
               <entry><xmlatt>scope</xmlatt></entry>
-              <entry/>
+              <entry rev="spec-editors"><xmlatt>scope</xmlatt></entry>
               <entry>Not applicable</entry>
               <entry>Not applicable</entry>
             </row>
             <row>
               <entry morerows="1"><b>Universal attributes</b></entry>
               <entry><xmlatt>class</xmlatt></entry>
-              <entry>?</entry>
+              <entry rev="spec-editors">Not applicable</entry>
               <entry>Not applicable</entry>
-              <entry>?</entry>
+              <entry rev="spec-editors">Not applicable</entry>
             </row>
             <row>
               <entry><xmlatt>outputclass</xmlatt></entry>
@@ -231,7 +231,7 @@
               <entry><xmlatt>keyref</xmlatt></entry>
               <entry><xmlatt>data-keyref</xmlatt></entry>
               <entry><codeph>[key-value]</codeph></entry>
-              <entry>?</entry>
+              <entry rev="spec-editors"><codeph>[key-value]</codeph></entry>
             </row>
             <row>
               <entry><xmlatt>props</xmlatt></entry>
@@ -249,9 +249,9 @@
             </row>
             <row>
               <entry><xmlatt>kind</xmlatt></entry>
-              <entry><xmlatt>kind</xmlatt></entry>
-              <entry/>
-              <entry/>
+              <entry rev="spec-editors"><xmlatt>kind</xmlatt></entry>
+              <entry rev="spec-editors">Not applicable</entry>
+              <entry rev="spec-editors">Not applicable</entry>
             </row>
             <row>
               <entry><xmlatt>poster</xmlatt></entry>
@@ -267,9 +267,9 @@
             </row>
             <row>
               <entry><xmlatt>srclang</xmlatt></entry>
-              <entry/>
-              <entry/>
-              <entry/>
+              <entry rev="spec-editors"><xmlatt>srclang</xmlatt></entry>
+              <entry rev="spec-editors">Not applicable</entry>
+              <entry rev="spec-editors">Not applicable</entry>
             </row>
             <row>
               <entry><xmlatt>type</xmlatt></entry>
@@ -279,9 +279,9 @@
             </row>
             <row>
               <entry><xmlatt>xml:space</xmlatt></entry>
-              <entry/>
-              <entry/>
-              <entry/>
+              <entry rev="spec-editors">Not applicable</entry>
+              <entry rev="spec-editors">Not applicable</entry>
+              <entry rev="spec-editors">Not applicable</entry>
             </row>
           </tbody>
         </tgroup>
