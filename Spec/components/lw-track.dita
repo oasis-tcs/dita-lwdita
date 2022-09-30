@@ -14,7 +14,12 @@
           </dlentry>
         <dlentry>
           <dt>HDITA</dt>
-          <dd><p><xmlatt>track</xmlatt> attribute on <xref href="lw-audio.dita"><xmlelement>audio</xmlelement></xref> or <xref href="lw-video.dita"><xmlelement>video</xmlelement></xref></p></dd>
+          <dd rev="2.0">
+            <p><xmlelement>track</xmlelement> in <xref href="lw-audio.dita"
+                  ><xmlelement>audio</xmlelement></xref> or <xref
+                href="lw-video.dita"
+              ><xmlelement>video</xmlelement></xref></p>
+          </dd>
         </dlentry>
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
