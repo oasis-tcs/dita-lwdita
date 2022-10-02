@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lwdita-attributes-a-to-z">
+    <title>Lightweight DITA components, A to Z</title>
+    <shortdesc>This topic contains links to all of the LwDITA components.
+    They are listed in alphabetical order.</shortdesc>
+  <refbody>
+    <section>
+      <sl>
+        <sli><xref keyref="elements-lwdita-alt"> Alternate
+          text</xref></sli>
+        <sli><xref keyref="elements-lwdita-body">Body</xref></sli>
+        <sli><xref keyref="elements-lwdita-b">Bold text</xref></sli>
+        <sli><xref keyref="elements-lwdita-xref">Cross reference</xref></sli>
+        <sli><xref keyref="elements-lwdita-data">Data</xref></sli>
+        <sli><xref keyref="elements-lwdita-dd">Definition description</xref></sli>
+        <sli><xref keyref="elements-lwdita-desc">Description</xref></sli>
+        <sli><xref keyref="elements-lwdita-div">Division</xref></sli>
+        <sli><xref keyref="elements-lwdita-dl">Definition list</xref></sli>
+        <sli><xref keyref="elements-lwdita-dlentry">Definition list
+          entry</xref></sli>
+        <sli><xref keyref="elements-lwdita-dt">Definition term</xref></sli>
+        <sli><xref keyref="elements-lwdita-em">Emphasized text</xref></sli>
+        <sli><xref keyref="elements-lwdita-example">Example</xref></sli>
+        <sli><xref keyref="elements-lwdita-fig">Figure</xref></sli>
+        <sli><xref keyref="elements-lwdita-fn">Footnote</xref></sli>
+        <sli><xref keyref="elements-lwdita-image">Image</xref></sli>
+        <sli><xref keyref="elements-lwdita-i">Italic text</xref></sli>
+        <sli><xref keyref="elements-lwdita-keydef">Key definition</xref></sli>
+        <sli><xref keyref="elements-lwdita-keytext">Key text</xref></sli>
+        <sli><xref keyref="elements-lwdita-li">List item</xref></sli>
+        <sli><xref keyref="elements-lwdita-map">Map</xref></sli>
+        <sli><xref keyref="elements-lwdita-navtitle">Navigation title</xref></sli>
+        <sli><xref keyref="elements-lwdita-note">Note</xref></sli>
+        <sli><xref keyref="elements-lwdita-ol">Ordered list</xref></sli>
+        <sli><xref keyref="elements-lwdita-p">Paragraph</xref></sli>
+        <sli><xref keyref="elements-lwdita-ph">Phrase</xref></sli>
+        <sli><xref keyref="elements-lwdita-pre">Preformatted text</xref></sli>
+        <sli><xref keyref="elements-lwdita-prolog">Prolog</xref></sli>
+        <sli><xref keyref="elements-lwdita-section">Section</xref></sli>
+        <sli><xref keyref="elements-lwdita-shortdesc">Short description</xref></sli>
+        <sli><xref keyref="elements-lwdita-strong">Strong text</xref></sli>
+        <sli><xref keyref="elements-lwdita-sub">Subscript</xref></sli>
+        <sli><xref keyref="elements-lwdita-sup">Superscript</xref></sli>
+        <sli><xref keyref="elements-lwdita-title">Title</xref></sli>
+        <sli><xref keyref="elements-lwdita-topic">Topic</xref></sli>
+        <sli><xref keyref="elements-lwdita-topicmeta">Topic metadata</xref></sli>
+        <sli><xref keyref="elements-lwdita-topicref">Topic reference</xref></sli>
+        <sli><xref keyref="elements-lwdita-u">Underline</xref></sli>
+        <sli><xref keyref="elements-lwdita-ul">Unordered list</xref></sli>
+      </sl>
+    </section>
+  </refbody>
+</reference>

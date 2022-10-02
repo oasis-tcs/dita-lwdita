@@ -50,7 +50,10 @@
             <li>Added HDITA and MDITA attributes content</li>
             <li>Updated table in <xref
                 href="../attributes/lwdita-attributes.dita">4.3 "LwDITA
-                attributes in the authoring formats"</xref>.</li>
+                attributes in the authoring formats"</xref></li>
+            <li>Added <xref
+                href="../components/lwdita-components-a-to-z.dita">"LwDITA
+                components, A to Z"</xref></li>
           </ul></stentry>
       </strow>
         </simpletable>

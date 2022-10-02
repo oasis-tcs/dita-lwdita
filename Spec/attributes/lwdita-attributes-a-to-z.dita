@@ -2,6 +2,53 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lwdita-attributes-a-to-z">
     <title>Lightweight DITA attributes, A to Z</title>
-    <shortdesc>This topic contains links to all the LwDITA attributes. They
-    are listed in alphabetical order.</shortdesc>
+    <shortdesc>This topic contains links to all of the LwDITA attributes.
+    They are listed in alphabetical order.</shortdesc>
+  <refbody>
+    <section>
+      <sl>
+        <sli><xmlatt>autoplay</xmlatt></sli>
+        <sli><xmlatt>callout</xmlatt></sli>
+        <sli><xmlatt>class</xmlatt></sli>
+        <sli><xmlatt>colspan</xmlatt></sli>
+        <sli><xmlatt>controls</xmlatt></sli>
+        <sli><xmlatt>conref</xmlatt></sli>
+        <sli><xmlatt>dir</xmlatt></sli>
+        <sli><xmlatt>DITAArchVersion</xmlatt></sli>
+        <sli><xmlatt>expanse</xmlatt></sli>
+        <sli><xmlatt>format</xmlatt></sli>
+        <sli><xmlatt>frame</xmlatt></sli>
+        <sli><xmlatt>headers</xmlatt></sli>
+        <sli><xmlatt>height</xmlatt></sli>
+        <sli><xmlatt>href</xmlatt></sli>
+        <sli><xmlatt>id</xmlatt></sli>
+        <sli><xmlatt>keyref</xmlatt></sli>
+        <sli><xmlatt>keys</xmlatt></sli>
+        <sli><xmlatt>kind</xmlatt></sli>
+        <sli><xmlatt>loop</xmlatt></sli>
+        <sli><xmlatt>muted</xmlatt></sli>
+        <sli><xmlatt>outputclass</xmlatt></sli>
+        <sli><xmlatt>poster</xmlatt></sli>
+        <sli><xmlatt>posterkeyref</xmlatt></sli>
+        <sli><xmlatt>name</xmlatt></sli>
+        <sli><xmlatt>processing-role</xmlatt></sli>
+        <sli><xmlatt>props</xmlatt></sli>
+        <sli><xmlatt>rowspan</xmlatt></sli>
+        <sli><xmlatt>scale</xmlatt></sli>
+        <sli><xmlatt>scope</xmlatt> (link relationship group</sli>
+        <sli><xmlatt>scope</xmlatt> on
+          <xmlelement>stentry</xmlelement></sli>
+        <sli><xmlatt>scrlang</xmlatt></sli>
+        <sli><xmlatt>specializations</xmlatt></sli>
+        <sli><xmlatt>tabindex</xmlatt></sli>
+        <sli><xmlatt>translate</xmlatt></sli>
+        <sli><xmlatt>type</xmlatt></sli>
+        <sli><xmlatt>value</xmlatt></sli>
+        <sli><xmlatt>width</xmlatt></sli>
+        <sli><xmlatt>xml:lang</xmlatt></sli>
+        <sli><xmlatt>xml:space</xmlatt></sli>
+        <sli><xmlatt>xmlns:ditaarch</xmlatt></sli>
+      </sl>
+    </section>
+  </refbody>
 </reference>

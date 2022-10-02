@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Key definitions: LwDITA components</title>
+  <keydef keys="elements-lwdita-alt" href="../components/lw-alt.dita"/>
+  <keydef keys="elements-lwdita-audio" href="../components/lw-audio.dita"/>
+  <keydef keys="elements-lwdita-b" href="../components/lw-b.dita"/>
+  <keydef keys="elements-lwdita-body" href="../components/lw-body.dita"/>
+  <keydef keys="elements-lwdita-data" href="../components/lw-data.dita"/>
+  <keydef keys="elements-lwdita-dd" href="../components/lw-dd.dita"/>
+  <keydef keys="elements-lwdita-desc"
+    href="../components/lw-desc.dita"/>
+  <keydef keys="elements-lwdita-div"
+    href="../components/lw-div.dita"/>
+  <keydef keys="elements-lwdita-dl"
+    href="../components/lw-dl.dita"/>
+  <keydef keys="elements-lwdita-dlentry"
+    href="../components/lw-dlentry.dita"/>
+  <keydef keys="elements-lwdita-dt"
+    href="../components/lw-dt.dita"/>
+  <keydef keys="elements-lwdita-em"
+    href="../components/lw-em.dita"/>
+  <keydef keys="elements-lwdita-example"
+    href="../components/lw-example.dita"/>
+  <keydef keys="elements-lwdita-fallback"
+    href="../components/lw-fallback.dita"/>
+  <keydef keys="elements-lwdita-fn"
+    href="../components/lw-fn.dita"/>
+  <keydef keys="elements-lwdita-fig"
+    href="../components/lw-fig.dita"/>
+  <keydef keys="elements-lwdita-i"
+    href="../components/lw-i.dita"/>
+  <keydef keys="elements-lwdita-image"
+    href="../components/lw-image.dita"/>
+  <keydef keys="elements-lwdita-keydef"
+    href="../components/lw-keydef.dita"/>
+  <keydef keys="elements-lwdita-keytext"
+    href="../components/lw-keytext.dita"/>
+  <keydef keys="elements-lwdita-li"
+    href="../components/lw-li.dita"/>
+  <keydef keys="elements-lwdita-map"
+    href="../components/lw-map.dita"/>
+  <keydef keys="elements-lwdita-media-source"
+    href="../components/lw-source.dita"/>
+  <keydef keys="elements-lwdita-media-track"
+    href="../components/lw-track.dita"/>
+  <keydef keys="elements-lwdita-navtitle"
+    href="../components/lw-navtitle.dita"/>
+  <keydef keys="elements-lwdita-note"
+    href="../components/lw-note.dita"/>
+  <keydef keys="elements-lwdita-ol"
+    href="../components/lw-ol.dita"/>
+  <keydef keys="elements-lwdita-p"
+    href="../components/lw-p.dita"/>
+  <keydef keys="elements-lwdita-ph"
+    href="../components/lw-ph.dita"/>
+  <keydef keys="elements-lwdita-pre"
+    href="../components/lw-pre.dita"/>
+  <keydef keys="elements-lwdita-prolog"
+    href="../components/lw-prolog.dita"/>
+  <keydef keys="elements-lwdita-section"
+    href="../components/lw-section.dita"/>
+  <keydef keys="elements-lwdita-shortdesc"
+    href="../components/lw-shortdesc.dita"/>
+  <keydef keys="elements-lwdita-simpletable"
+    href="../components/lw-simpletable.dita"/>
+  <keydef keys="elements-lwdita-stentry"
+    href="../components/lw-stentry.dita"/>
+  <keydef keys="elements-lwdita-sthead"
+    href="../components/lw-sthead.dita"/>
+  <keydef keys="elements-lwdita-strong"
+    href="../components/lw-strong.dita"/>
+  <keydef keys="elements-lwdita-strow"
+    href="../components/lw-strow.dita"/>
+  <keydef keys="elements-lwdita-sub"
+    href="../components/lw-sub.dita"/>
+  <keydef keys="elements-lwdita-sup"
+    href="../components/lw-sup.dita"/>
+  <keydef keys="elements-lwdita-title"
+    href="../components/lw-title.dita"/>
+  <keydef keys="elements-lwdita-topic"
+    href="../components/lw-topic.dita"/>
+  <keydef keys="elements-lwdita-topicmeta"
+    href="../components/lw-topicmeta.dita"/>
+  <keydef keys="elements-lwdita-topicref"
+    href="../components/lw-topicref.dita"/>
+  <keydef keys="elements-lwdita-u"
+    href="../components/lw-u.dita"/>
+  <keydef keys="elements-lwdita-ul"
+    href="../components/lw-ul.dita"/>
+  <keydef keys="elements-lwdita-video"
+    href="../components/lw-video.dita"/>
+  <keydef keys="elements-lwdita-xref"
+    href="../components/lw-xref.dita"/>
+</map>
