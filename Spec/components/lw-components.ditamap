@@ -3,6 +3,7 @@
 <map>
  <title>Lightweight DITA Components</title>
  <topicref href="component-reference.dita">
+    <topicref href="lwdita-components-a-to-z.dita"/>
   <topicref href="containers/basic-topic-components.dita">
    <topicref href="lw-body.dita"/>
    <topicref href="lw-shortdesc.dita"/>
