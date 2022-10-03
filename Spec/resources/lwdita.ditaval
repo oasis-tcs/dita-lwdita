@@ -6,6 +6,7 @@
    
     <!-- Values for @otherprops; used to avoid DITA-OT informational errors -->
     <prop att="otherprops" val="examples" action="include"/>
+    <prop att="otherprops" val="attr-list-label" action="exclude"/>
     
 
     

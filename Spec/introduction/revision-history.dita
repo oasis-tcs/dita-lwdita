@@ -5,40 +5,40 @@
     <shortdesc>The following table contains information about revisions to this
         document.</shortdesc>
     <refbody>
-        <simpletable frame="all" relcolwidth="1.0* 1.75* 2.0* 3.0*">
-            <sthead>
-                <stentry>Revision</stentry>
-                <stentry>Date</stentry>
-                <stentry>Editor</stentry>
-                <stentry>Description of changes</stentry>
-            </sthead>
-            <strow>
-                <stentry>01</stentry>
-                <stentry>22 July 2019</stentry>
-                <stentry>Kristen James Eberlein and Carlos Evia</stentry>
-                <stentry>Generated working draft #01</stentry>
-            </strow>
-            <strow>
-                <stentry>02</stentry>
-                <stentry>19 May 2020</stentry>
-                <stentry>Carlos Evia</stentry>
-                <stentry>Generated working draft #02</stentry>
-            </strow>
-            <strow>
-                <stentry>03</stentry>
-                <stentry>30 Aug 2021</stentry>
-                <stentry>Carlos Evia</stentry>
-                <stentry>Generated working draft #03</stentry>
-            </strow>
+        <simpletable frame="all" relcolwidth="0.90* 1.75* 2.0* 3.5*">
+      <sthead>
+        <stentry>Revision</stentry>
+        <stentry>Date</stentry>
+        <stentry>Editor</stentry>
+        <stentry>Description of changes</stentry>
+      </sthead>
+      <strow>
+        <stentry>01</stentry>
+        <stentry>22 July 2019</stentry>
+        <stentry>Kristen James Eberlein and Carlos Evia</stentry>
+        <stentry>Generated working draft #01</stentry>
+      </strow>
+      <strow>
+        <stentry>02</stentry>
+        <stentry>19 May 2020</stentry>
+        <stentry>Carlos Evia</stentry>
+        <stentry>Generated working draft #02</stentry>
+      </strow>
+      <strow>
+        <stentry>03</stentry>
+        <stentry>30 Aug 2021</stentry>
+        <stentry>Carlos Evia</stentry>
+        <stentry>Generated working draft #03</stentry>
+      </strow>
       <strow>
         <stentry>04</stentry>
         <stentry>26 September 2022</stentry>
         <stentry>Kristen James Eberlein</stentry>
-        <stentry>Generated working draft #4, which includes the following changes:<ul>
+        <stentry>Generated working draft #04, which includes the following changes:<ul>
             <li>Updated list of editors and citation format</li>
             <li>Added appendix for aggregated RFC-2119 statements</li>
             <li>Updated OASIS boilerplate content</li>
-            <li>Updated  key definition maps</li>
+            <li>Updated key definition maps</li>
             <li>Added XDITA attributes content</li>
           </ul></stentry>
       </strow>
@@ -46,7 +46,7 @@
         <stentry>05</stentry>
         <stentry>03 October 2022</stentry>
         <stentry>Kristen James Eberlein</stentry>
-        <stentry>Generated working draft #5, which includes the following changes:<ul>
+        <stentry>Generated working draft #05, which includes the following changes:<ul>
             <li>Added HDITA and MDITA attributes content</li>
             <li>Updated table in <xref
                 href="../attributes/lwdita-attributes.dita">4.3 "LwDITA
@@ -54,8 +54,10 @@
             <li>Added <xref
                 href="../components/lwdita-components-a-to-z.dita">"LwDITA
                 components, A to Z"</xref></li>
+            <li>Updated company affiliations in the "Acknowledgements"
+              topic</li>
           </ul></stentry>
       </strow>
-        </simpletable>
+    </simpletable>
     </refbody>
 </reference>
