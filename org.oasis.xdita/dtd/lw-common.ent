@@ -7,6 +7,9 @@
 <!--                                                               -->
 <!--    26 Oct 2021  ES: split common entites element to their     -->
 <!--                     own files                                 -->
+<!--    04 Oct 2022 KJE: Removed entities that only contained a    -->
+<!--                     single attribute: control-variables,      -->
+<!--                     variable-content, and variable-links      -->
 <!-- ============================================================= -->
 
 <!ENTITY % ph    "ph">
@@ -27,12 +30,6 @@
             'href      CDATA                            #IMPLIED
              format    CDATA                            #IMPLIED
              scope     (local | peer | external)        #IMPLIED '>
-<!ENTITY % control-variables
-            'keys      CDATA                            #IMPLIED '>
-<!ENTITY % variable-content
-            'keyref      CDATA                            #IMPLIED '>
-<!ENTITY % variable-links
-            'keyref      CDATA                            #IMPLIED '>
 <!ENTITY % localization
             'dir         CDATA                              #IMPLIED
              xml:lang    CDATA                              #IMPLIED

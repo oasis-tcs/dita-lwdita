@@ -37,14 +37,15 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
 <!--                     DITA                                      -->
 <!--    01 Mar 2018  CE: Renamed file to lw-highlightDomain.mod    -->
 <!--    14 Jul 2019 KJE: Alphabeticized element declarations       -->
-<!--                                                               -->
+<!--    04 Oct 2022 KJE: Defined @keyref directly on elements,     -->
+<!--                     replacing control-variables entity        -->
 <!-- ============================================================= -->
 
 <!--                    LONG NAME: Bold content  -->
 <!ELEMENT b             (%all-inline;)*        >
 <!ATTLIST b
              %localization;
-             %variable-content;
+             keyref       CDATA          #IMPLIED
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/ph hi-d/b ">
 
@@ -53,7 +54,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
 <!ELEMENT i             (%all-inline;)*        >
 <!ATTLIST i
              %localization;
-             %variable-content;
+             keyref       CDATA          #IMPLIED
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/ph hi-d/i ">
              
@@ -62,7 +63,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
 <!ELEMENT sub             (%all-inline;)*        >
 <!ATTLIST sub
              %localization;
-             %variable-content;
+             keyref       CDATA          #IMPLIED
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/ph hi-d/sub ">             
              
@@ -70,7 +71,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
 <!ELEMENT sup             (%all-inline;)*        >
 <!ATTLIST sup
              %localization;
-             %variable-content;
+             keyref       CDATA          #IMPLIED
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/ph hi-d/sup ">             
 
@@ -78,7 +79,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
 <!ELEMENT u             (%all-inline;)*        >
 <!ATTLIST u
              %localization;
-             %variable-content;
+             keyref       CDATA          #IMPLIED
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/ph hi-d/u ">
 

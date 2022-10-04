@@ -72,8 +72,6 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 
 <!--ENTITY % filters " " -->
 <!--ENTITY % reuse " " -->
-<!--ENTITY % variable-content " " -->
-<!--ENTITY % variable-links " " -->
 <!--ENTITY % localization " " -->
 <!--ENTITY % nested-blocks "p" -->
 
