@@ -72,10 +72,7 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Map//EN"
 
 <!--ENTITY % filters " " -->
 <!--ENTITY % reuse " " -->
-<!--ENTITY % variable-content " " -->
-<!--ENTITY % variable-links " " -->
 <!--ENTITY % reference-content " " -->
-<!--ENTITY % control-variables " " -->
 <!--ENTITY % localization " " -->
 
 <!--For each group removed add a corresponding constraint value to

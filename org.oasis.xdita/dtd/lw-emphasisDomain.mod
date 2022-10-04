@@ -30,16 +30,17 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Emphasis Domain//EN"
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
 <!--                                                               -->
-<!--    08 Jun 2021  CE: Created emphasis domain and uploaded to
-                         GitHub                                    -->
-<!--                                                               -->
+<!--    08 Jun 2021  CE: Created emphasis domain and uploaded to   -->
+<!--                     GitHub                                    -->
+<!--    04 Oct 2022 KJE: Defined @keyref directly on elements,     -->
+<!--                     replacing control-variables entity        -->
 <!-- ============================================================= -->
 
 <!--                    LONG NAME: Emphasized text  -->
 <!ELEMENT em             (%all-inline;)*        >
 <!ATTLIST em
              %localization;
-             %variable-content;
+             keyref       CDATA          #IMPLIED
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/ph emph-d/em ">   
 
@@ -49,6 +50,6 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Emphasis Domain//EN"
 <!ELEMENT strong             (%all-inline;)*        >
 <!ATTLIST strong
                 %localization;
-                %variable-content;
+                keyref       CDATA          #IMPLIED
                 outputclass  CDATA          #IMPLIED
                 class CDATA "+ topic/ph emph-d/strong ">

@@ -49,6 +49,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--    20 Sep 2018  CE: Added processing entity for <topicref>    -->
 <!--    27 May 2021 KJE: Updated for DITA 2.0                      -->
 <!--    26 Oct 2021  ES: split common entites to its own file      -->
+<!--    04 Oct 2022 KJE: Added @outputclass to <topicmeta>         -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    SPECIALIZATIONS ATTRIBUTE OVERRIDE         -->
@@ -108,12 +109,12 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--                    LONG NAME: Map  -->
 <!ELEMENT map		(topicmeta?, (topicref | keydef)*)  >
 <!ATTLIST map
-             id       ID          #IMPLIED
-             xmlns:ditaarch CDATA #FIXED "http://dita.oasis-open.org/architecture/2005/"
-	         ditaarch:DITAArchVersion CDATA "2.0"
-             specializations    CDATA                    "&included-domains;"
              %localization;
-             outputclass  CDATA          #IMPLIED
+	           ditaarch:DITAArchVersion CDATA "2.0"
+             id                       ID          #IMPLIED
+             specializations          CDATA       "&included-domains;"
+             xmlns:ditaarch           CDATA       #FIXED "http://dita.oasis-open.org/architecture/2005/"
+             outputclass              CDATA        #IMPLIED
              class CDATA "- map/map ">
 
 <!--                    LONG NAME: Navigation title -->
@@ -128,19 +129,20 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!ELEMENT topicmeta     (navtitle?, keytext?, data*) >
 <!ATTLIST topicmeta
              %localization;
+             outputclass  CDATA          #IMPLIED
              class CDATA "- map/topicmeta ">            
              
 <!--                    LONG NAME: Topic or Map Reference  -->
 <!ELEMENT topicref	(topicmeta?, topicref*)        >
 <!ATTLIST topicref
-             %localization;
-	     %reuse;
              %filters;
+             %localization;
              %reference-content;
-	         %control-variables;
-             %variable-links;
+	           %reuse;
+	           keyref       CDATA          #IMPLIED
+             keys         CDATA          #IMPLIED
              outputclass  CDATA          #IMPLIED
-             class CDATA "- map/topicref ">            
+             class        CDATA "- map/topicref ">            
 
 
 

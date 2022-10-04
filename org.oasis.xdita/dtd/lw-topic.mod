@@ -81,6 +81,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--    21 Jun 2021  CE: Added <div> as a wrapper for <fn>         -->
 <!--    26 Oct 2021  ES: split common entites element to their     -->
 <!--                     own files                                 -->
+<!--    04 Oct 2022 KJE: Added @outputclass to <topicmeta>         -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
@@ -114,9 +115,6 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 
 <!-- common attributes -->
 
-<!-- %fn-reuse; used for <fn> only, so you can remove this if you want -->
-<!ENTITY % fn-reuse
-            'conref  CDATA                              #IMPLIED  ' >
 <!ENTITY % display-atts
              "scale ( 50|60|70|80|90|100|110|120|140|160|180|200 ) #IMPLIED
               frame ( all|bottom|none|sides|top|topbot )           #IMPLIED
@@ -213,12 +211,12 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--                    LONG NAME: Footnote  -->
 <!ELEMENT fn ( %fn-blocks; )*  >
 <!ATTLIST fn
-             %localization;
              %filters;
-             %fn-reuse;
+             %localization;
              callout     CDATA          #IMPLIED
-             outputclass CDATA          #IMPLIED
+             conref      CDATA          #IMPLIED
              id          NMTOKEN        #REQUIRED
+             outputclass CDATA          #IMPLIED
              class       CDATA "- topic/fn ">
 
 
@@ -264,10 +262,10 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--                    LONG NAME: Preformatted content -->
 <!ELEMENT pre            (#PCDATA|%ph;|xref|%data;)*        >
 <!ATTLIST pre
-             xml:space  (preserve)               #FIXED 'preserve'
              %localization;
              %filters;
              %reuse;
+             xml:space  (preserve)               #FIXED 'preserve'
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/pre ">
 
@@ -276,6 +274,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!ATTLIST prolog
              %localization;
              %filters;
+             outputclass  CDATA          #IMPLIED
              class CDATA "- topic/prolog ">
 
  <!--                    LONG NAME: Section             -->
