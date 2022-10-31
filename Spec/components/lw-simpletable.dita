@@ -20,15 +20,15 @@
         <dlentry>
           <dt>MDITA (core and extended profiles)</dt>
           <dd>
-            <p>A table should contain a header row, a delimiter row, and zero or more rows with
-              entries. Table entries inside a row should be separated by pipes (<codeph>|</codeph>), and the
-              delimiter should contain hyphens (<codeph>-</codeph>), and optionally, a leading or trailing colon (<codeph>:</codeph>),
-              or both, to indicate left, right, or center alignment respectively. </p></dd>
+            <p>A table should contain a header row, a delimiter row, and
+              zero or more rows with entries. Table entries inside a row
+              should be separated by pipes (<codeph>|</codeph>), and the
+              delimiter should contain hyphens (<codeph>-</codeph>).</p></dd>
         </dlentry>
       </dl>
     </section>
 
-      <section conkeyref="reuse-simpletable/usage-information" />
+      <section conkeyref="reuse-simpletable/usage-information"/>
 
 
       <section conkeyref="reuse-simpletable/attributes"/>
