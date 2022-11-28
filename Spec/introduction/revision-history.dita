@@ -54,8 +54,19 @@
             <li>Added <xref
                 href="../components/lwdita-components-a-to-z.dita">"LwDITA
                 components, A to Z"</xref></li>
-            <li>Updated company affiliations in the "Acknowledgements"
+            <li>Updated company affiliations in the "Acknowledgments"
               topic</li>
+          </ul></stentry>
+      </strow>
+      <strow>
+        <stentry>06</stentry>
+        <stentry>28 November 2022</stentry>
+        <stentry>Kristen James Eberlein</stentry>
+        <stentry>Generated working draft #05, which includes the following changes:<ul>
+            <li>Updated <xref
+                href="../components/lwdita-components-a-to-z.dita">"LwDITA
+                components, A to Z"</xref> to include all elements</li>
+            <li>Corrected syntax for MDITA representation of  a table</li>
           </ul></stentry>
       </strow>
     </simpletable>
