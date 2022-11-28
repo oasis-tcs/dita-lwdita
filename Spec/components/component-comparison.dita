@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="component-comparison">
+  <title>Component comparison</title>
+  <shortdesc>The following table compares the mapping between XDITA and
+    HDITA elements. It also lists the value of the
+      <xmlatt>data-class</xmlatt> attribute for the HDITA
+    element.</shortdesc>
+  <refbody>
+    <simpletable frame="all" relcolwidth="1* 2* 1*">
+      <sthead>
+        <stentry><p/>XDITA element</stentry>
+        <stentry>HDITA representation</stentry>
+        <stentry>HDITA: Value of <xmlatt>data-class</xmlatt>
+          attribute</stentry>
+      </sthead>
+      <strow>
+        <stentry><xmlelement>alt</xmlelement></stentry>
+        <stentry><xmlatt>alt</xmlatt> on
+          <xmlelement>img</xmlelement></stentry>
+        <stentry>Not applicable?</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>audio</xmlelement></stentry>
+        <stentry><xmlelement>audio</xmlelement></stentry>
+        <stentry>audio</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>b</xmlelement></stentry>
+        <stentry><xmlelement>b</xmlelement></stentry>
+        <stentry>b</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>body</xmlelement></stentry>
+        <stentry><xmlelement>body</xmlelement></stentry>
+        <stentry>body</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>data</xmlelement></stentry>
+        <stentry><xmlelement>meta</xmlelement></stentry>
+        <stentry/>
+      </strow>
+      <strow>
+        <stentry><xmlelement>dd</xmlelement></stentry>
+        <stentry><xmlelement>dd</xmlelement></stentry>
+        <stentry>dd</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>desc</xmlelement></stentry>
+        <stentry><xmlatt>title</xmlatt> on <xmlelement>audio</xmlelement>
+          and <xmlelement>video</xmlelement></stentry>
+        <stentry>Not applicable?</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>div</xmlelement></stentry>
+        <stentry><xmlelement>div</xmlelement></stentry>
+        <stentry>div</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>dl</xmlelement></stentry>
+        <stentry><xmlelement>dl</xmlelement></stentry>
+        <stentry>dl</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>dlentry</xmlelement></stentry>
+        <stentry>Not applicable</stentry>
+        <stentry>Not applicable</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>dt</xmlelement></stentry>
+        <stentry><xmlelement>dt</xmlelement></stentry>
+        <stentry>dt</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>em</xmlelement></stentry>
+        <stentry><xmlelement>em</xmlelement></stentry>
+        <stentry>em</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>example</xmlelement></stentry>
+        <stentry><codeph>&lt;div data-class="example"></codeph></stentry>
+        <stentry>example</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>fallback</xmlelement></stentry>
+        <stentry/>
+        <stentry/>
+      </strow>
+      <strow>
+        <stentry><xmlelement>fig</xmlelement></stentry>
+        <stentry><xmlelement>figure</xmlelement></stentry>
+        <stentry>figure? fig?</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>fn</xmlelement></stentry>
+        <stentry><codeph>&lt;div data-class="fn"></codeph></stentry>
+        <stentry>fn</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>i</xmlelement></stentry>
+        <stentry><xmlelement>i</xmlelement></stentry>
+        <stentry>i</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>image</xmlelement></stentry>
+        <stentry><xmlelement>img</xmlelement></stentry>
+        <stentry>img? image?</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>keydef</xmlelement></stentry>
+        <stentry><codeph>&lt;div data-class="keydef"></codeph></stentry>
+        <stentry>keydef</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>keytext</xmlelement></stentry>
+        <stentry><codeph>&lt;div data-class="keytext"></codeph></stentry>
+        <stentry>keytext</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>li</xmlelement></stentry>
+        <stentry><xmlelement>li</xmlelement></stentry>
+        <stentry>li</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>map</xmlelement></stentry>
+        <stentry><xmlelement>nav</xmlelement></stentry>
+        <stentry>nav</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>media-source</xmlelement></stentry>
+        <stentry><xmlelement>source</xmlelement></stentry>
+        <stentry>source? media-source?</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>media-track</xmlelement></stentry>
+        <stentry><xmlelement>track</xmlelement></stentry>
+        <stentry>track? media-track?</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>navtitle</xmlelement></stentry>
+        <stentry>Not applicable</stentry>
+        <stentry/>
+      </strow>
+      <strow>
+        <stentry><xmlelement>note</xmlelement></stentry>
+        <stentry><codeph>div data-class="note"></codeph></stentry>
+        <stentry>note</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>ol</xmlelement></stentry>
+        <stentry><xmlelement>ol</xmlelement></stentry>
+        <stentry>ol</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>p</xmlelement></stentry>
+        <stentry><xmlelement>p</xmlelement></stentry>
+        <stentry>p</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>ph</xmlelement></stentry>
+        <stentry><xmlelement>span</xmlelement></stentry>
+        <stentry>span</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>pre</xmlelement></stentry>
+        <stentry><xmlelement>pre</xmlelement></stentry>
+        <stentry>pre</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>prolog</xmlelement></stentry>
+        <stentry><xmlelement>meta</xmlelement></stentry>
+        <stentry/>
+      </strow>
+      <strow>
+        <stentry><xmlelement>section</xmlelement></stentry>
+        <stentry><xmlelement>section</xmlelement></stentry>
+        <stentry>section</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>shortdesc</xmlelement></stentry>
+        <stentry/>
+        <stentry/>
+      </strow>
+      <strow>
+        <stentry><xmlelement>simpletable</xmlelement></stentry>
+        <stentry><xmlelement>table</xmlelement></stentry>
+        <stentry>table</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>stentry</xmlelement></stentry>
+        <stentry><xmlelement>td</xmlelement></stentry>
+        <stentry>td</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>sthead</xmlelement></stentry>
+        <stentry><xmlelement>th</xmlelement></stentry>
+        <stentry>th</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>strong</xmlelement></stentry>
+        <stentry><xmlelement>strong</xmlelement></stentry>
+        <stentry>strong</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>strow</xmlelement></stentry>
+        <stentry><xmlelement>tr</xmlelement></stentry>
+        <stentry>tr</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>sub</xmlelement></stentry>
+        <stentry><xmlelement>sub</xmlelement></stentry>
+        <stentry>sub</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>sup</xmlelement></stentry>
+        <stentry><xmlelement>sup</xmlelement></stentry>
+        <stentry>sup</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>title</xmlelement></stentry>
+        <stentry/>
+        <stentry/>
+      </strow>
+      <strow>
+        <stentry><xmlelement>topic</xmlelement></stentry>
+        <stentry><xmlelement>article</xmlelement></stentry>
+        <stentry>article? topic?</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>topicmeta</xmlelement></stentry>
+        <stentry>Not applicable</stentry>
+        <stentry>Not applicable</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>topicref</xmlelement></stentry>
+        <stentry/>
+        <stentry/>
+      </strow>
+      <strow>
+        <stentry><xmlelement>u</xmlelement></stentry>
+        <stentry><xmlelement>u</xmlelement></stentry>
+        <stentry>u</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>ul</xmlelement></stentry>
+        <stentry><xmlelement>ul</xmlelement></stentry>
+        <stentry>ul</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>video</xmlelement></stentry>
+        <stentry><xmlelement>video</xmlelement></stentry>
+        <stentry>video</stentry>
+      </strow>
+      <strow>
+        <stentry><xmlelement>xref</xmlelement></stentry>
+        <stentry><xmlatt>href</xmlatt> on
+          <xmlelement>a</xmlelement></stentry>
+        <stentry>Not applicable?</stentry>
+      </strow>
+    </simpletable>
+  </refbody>
+</reference>
