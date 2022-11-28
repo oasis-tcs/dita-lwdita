@@ -9,6 +9,7 @@
       <sl>
         <sli><xref keyref="elements-lwdita-alt"> Alternate
           text</xref></sli>
+        <sli><xref keyref="elements-lwdita-audio"/></sli>
         <sli><xref keyref="elements-lwdita-body">Body</xref></sli>
         <sli><xref keyref="elements-lwdita-b">Bold text</xref></sli>
         <sli><xref keyref="elements-lwdita-xref">Cross reference</xref></sli>
@@ -22,6 +23,7 @@
         <sli><xref keyref="elements-lwdita-dt">Definition term</xref></sli>
         <sli><xref keyref="elements-lwdita-em">Emphasized text</xref></sli>
         <sli><xref keyref="elements-lwdita-example">Example</xref></sli>
+        <sli><xref keyref="elements-lwdita-fallback"/></sli>
         <sli><xref keyref="elements-lwdita-fig">Figure</xref></sli>
         <sli><xref keyref="elements-lwdita-fn">Footnote</xref></sli>
         <sli><xref keyref="elements-lwdita-image">Image</xref></sli>
@@ -39,15 +41,22 @@
         <sli><xref keyref="elements-lwdita-prolog">Prolog</xref></sli>
         <sli><xref keyref="elements-lwdita-section">Section</xref></sli>
         <sli><xref keyref="elements-lwdita-shortdesc">Short description</xref></sli>
+        <sli><xref keyref="elements-lwdita-media-source"/></sli>
         <sli><xref keyref="elements-lwdita-strong">Strong text</xref></sli>
         <sli><xref keyref="elements-lwdita-sub">Subscript</xref></sli>
         <sli><xref keyref="elements-lwdita-sup">Superscript</xref></sli>
+        <sli><xref keyref="elements-lwdita-simpletable"/></sli>
+        <sli><xref keyref="elements-lwdita-stentry"/></sli>
+        <sli><xref keyref="elements-lwdita-sthead"/></sli>
+        <sli><xref keyref="elements-lwdita-strow"/></sli>
         <sli><xref keyref="elements-lwdita-title">Title</xref></sli>
         <sli><xref keyref="elements-lwdita-topic">Topic</xref></sli>
         <sli><xref keyref="elements-lwdita-topicmeta">Topic metadata</xref></sli>
         <sli><xref keyref="elements-lwdita-topicref">Topic reference</xref></sli>
+        <sli><xref keyref="elements-lwdita-media-track"/></sli>
         <sli><xref keyref="elements-lwdita-u">Underline</xref></sli>
         <sli><xref keyref="elements-lwdita-ul">Unordered list</xref></sli>
+        <sli><xref keyref="elements-lwdita-video"/></sli>
       </sl>
     </section>
   </refbody>
