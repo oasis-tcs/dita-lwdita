@@ -6,25 +6,60 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd><p><xmlelement>dl</xmlelement></p></dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd><p><xmlelement>dl</xmlelement></p></dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (extended profile)</dt>
-          <dd>
-            <p>A single-line term followed by a colon (<codeph>:</codeph>) and the definition for that term, following
-              the <xref href="https://michelf.ca/projects/php-markdown/extra/#def-list"
-                format="html" scope="external">PHP Markdown Extra syntax for definition
-              list</xref></p>
-          </dd>
-        </dlentry>
-      </dl>
+      <p>The syntax for representing this component varies depending on the
+        authoring format.</p>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>dl</xmlelement></p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlelement>dl</xmlelement></p></dd></dlentry><dlentry><dt>MDITA (extended profile)</dt><dd><p>A single-line term followed by a colon (<codeph>:</codeph>) and the definition for that term, following the <xref href="https://michelf.ca/projects/php-markdown/extra/#def-list" format="html" scope="external">PHP Markdown Extra syntax for definition list</xref></p></dd></dlentry></dl>-->
+      <simpletable relcolwidth="1* 2* 2.5*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax</stentry>
+          <stentry>Example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry><xmlelement>dl</xmlelement></stentry>
+          <stentry>
+            <codeblock><b>&lt;dl></b>
+  &lt;dlentry>
+    &lt;dt>Initial investment&lt;/dt>
+    &lt;dd>$700 (includes initial franchise fee)&lt;/dd>
+  &lt;/dlentry>
+  &lt;dlentry>
+    &lt;dt>Franchise fee&lt;/dt>
+    &lt;dd>$200&lt;/dd>
+  &lt;/dlentry><b>
+&lt;/dl></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry><xmlelement>dl</xmlelement></stentry>
+          <stentry>
+            <codeblock><b>&lt;dl></b>
+  &lt;dt>Initial investment&lt;/dt>
+  &lt;dd>$700 (includes initial franchise fee)&lt;/dd>
+  &lt;dt>Franchise fee&lt;/dt>
+  &lt;dd>$200&lt;/dd><b>
+&lt;/dl></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>Each definition pair uses the following format:<ul>
+              <li>A line that contains the term</li>
+              <li>A second line that starts with a colon (:) and follows
+                with the definition</li>
+            </ul>Each definition pair must be separated by a blank
+            line</stentry>
+          <stentry>
+            <codeblock>raspberry
+: edible fruit of plant species in the genus Rubus of the rose family
+
+blackberry
+: edible fruit of species in the genus Rubus in the family Rosaceae</codeblock>
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
 
 
