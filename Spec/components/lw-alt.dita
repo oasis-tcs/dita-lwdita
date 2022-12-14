@@ -7,23 +7,41 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd>
-            <p><xmlelement>alt</xmlelement> inside <xref href="lw-image.dita" format="dita"><xmlelement>image</xmlelement>
-              </xref></p>
-          </dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd><p><xmlatt>alt</xmlatt> attribute on <xref href="lw-image.dita" format="dita"><xmlelement>img</xmlelement></xref></p></dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>Text inside square brackets (<codeph>[]</codeph>) in an <xref href="lw-image.dita" format="dita">Image</xref></p></dd>
-        </dlentry>
-      </dl>
+      <p conkeyref="lwdita-reuse-general/syntax-section-intro"/>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>alt</xmlelement> inside <xref href="lw-image.dita" format="dita"><xmlelement>image</xmlelement> </xref></p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlatt>alt</xmlatt> attribute on <xmlelement>img</xmlelement></p></dd></dlentry><dlentry><dt>MDITA (core and extended profiles)</dt><dd><p>Text inside square brackets ([]) , as part of the markup for an image</p></dd></dlentry></dl>-->
+      <!--<simpletable frame="all" relcolwidth="1* 1.75* 2.50*" keycol="1"><sthead><stentry>Authoring format</stentry><stentry>Syntax</stentry><stentry>Example</stentry></sthead><strow><stentry>XDITA</stentry><stentry><xmlelement>alt</xmlelement> inside <xmlelement>image</xmlelement></stentry><stentry><codeblock>&lt;image href="save.gif>
+  <b>&lt;alt>Save icon&lt;/alt></b>
+&lt;/image></codeblock></stentry></strow><strow><stentry>HDITA</stentry><stentry><xmlatt>alt</xmlatt> attribute on <xmlelement>img</xmlelement></stentry><stentry><codeblock>&lt;img <b>alt="Save icon"</b> href="save.gif"/></codeblock></stentry></strow><strow><stentry>MDITA</stentry><stentry>Text inside square brackets (<codeph>[]</codeph>), as part of the markup for an image</stentry><stentry><codeblock>!<b>[Save icon]</b> (save.gif]</codeblock></stentry></strow></simpletable>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p><xmlelement>alt</xmlelement></p>
+            <codeblock>&lt;image href="save.gif>
+  <b>&lt;alt>Save icon&lt;/alt></b>
+&lt;/image></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p><xmlatt>alt</xmlatt></p>
+            <codeblock>&lt;img <b>alt="Save icon"</b> href="save.gif"/></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>
+            <p>Text inside square brackets (<codeph>[]</codeph>), as part
+              of the markup for an image</p>
+            <codeblock>!<b>[Save icon]</b> (save.gif]</codeblock>
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
 
       <section conkeyref="reuse-alt/attributes"/>

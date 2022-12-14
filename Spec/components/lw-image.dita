@@ -6,25 +6,39 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd>
+      <p conkeyref="lwdita-reuse-general/syntax-section-intro"/>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>image</xmlelement></p><p>In XDITA, <xmlelement>image</xmlelement> is always treated as an inline element; an <xmlelement>image</xmlelement> inside a <xref href="lw-fig.dita" format="dita"><xmlelement>fig</xmlelement></xref> is treated as a block element </p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlelement>img</xmlelement></p></dd></dlentry><dlentry><dt>MDITA (core and extended profiles)</dt><dd><p><codeph>![alt text](image-name.jpg)</codeph></p></dd></dlentry></dl>-->
+      <!--<simpletable frame="all" relcolwidth="1* 1.75* 2.50*" keycol="1"><sthead><stentry>Authoring format</stentry><stentry>Syntax</stentry><stentry>Example</stentry></sthead><strow><stentry>XDITA</stentry><stentry><xmlelement>image</xmlelement></stentry><stentry><codeblock><b>&lt;image href="save.gif></b>
+  &lt;alt>Save icon&lt;/alt>
+<b>&lt;/image></b></codeblock></stentry></strow><strow><stentry>HDITA</stentry><stentry><xmlelement>img</xmlelement></stentry><stentry><codeblock><b>&lt;img alt="Save icon" href="save.gif"/></b></codeblock></stentry></strow><strow><stentry>MDITA</stentry><stentry><codeph>![alt text](image-name.jpg)</codeph></stentry><stentry><codeblock><b>![Save icon] (save.gif]</b></codeblock></stentry></strow></simpletable>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
             <p><xmlelement>image</xmlelement></p>
-            <p>In XDITA, <xmlelement>image</xmlelement> is always treated as an inline element; an <xmlelement>image</xmlelement> inside a
-              <xref href="lw-fig.dita" format="dita"><xmlelement>fig</xmlelement></xref> is treated as a block element </p></dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd><p><xmlelement>img</xmlelement></p></dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd><p><codeph>![alt text for an image](images/image_name.jpg)</codeph></p></dd>
-        </dlentry>
-      </dl>
+            <codeblock><b>&lt;image href="save.gif></b>
+  &lt;alt>Save icon&lt;/alt>
+<b>&lt;/image></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p><xmlelement>img</xmlelement><codeblock><b>&lt;img alt="Save icon" href="save.gif"/></b></codeblock></p>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry><codeph>![alt
+            text](image-name.jpg)</codeph><codeblock><b>![Save icon] (save.gif]</b></codeblock></stentry>
+        </strow>
+      </simpletable>
     </section>
-      <section conkeyref="reuse-image/rendering-expectations" />
+      <section conkeyref="reuse-image/rendering-expectations"/>
       <section conkeyref="reuse-image/attributes"/>
         <example>
           <title>Examples</title>

@@ -6,22 +6,46 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd><p><xmlelement>audio</xmlelement></p></dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd><p><xmlelement>audio</xmlelement></p></dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd>
-            <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/>
-          </dd>
-        </dlentry>
-      </dl>
+      <p conkeyref="lwdita-reuse-general/syntax-section-intro"/>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>audio</xmlelement></p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlelement>audio</xmlelement></p></dd></dlentry><dlentry><dt>MDITA (core and extended profiles)</dt><dd><p conref="../common/common-examples.dita#common-examples/no-mdita-core"/></dd></dlentry></dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p><xmlelement>audio</xmlelement></p>
+            <codeblock><b>&lt;audio autoplay="false" controls="true" loop="false"
+       muted="false"></b>
+  &lt;desc>Theme song for the LwDITA podcast&lt;/desc>
+  &lt;fallback>The theme song is not available.&lt;/fallback>
+  &lt;media-source value="theme-song.mp3"/>
+  &lt;media-track srclang="en" value="theme-song.vtt"/><b>
+&lt;/audio></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p><xmlelement>audio</xmlelement></p>
+            <codeblock><b>&lt;audio title="Theme song for the LwDITA podcast" controls></b>
+  &lt;source src="theme-song.mp3">
+  &lt;track src="theme-song.vtt" kind="captions" srclang="en">
+  &lt;p data-class="fallback">The theme song is not available.&lt;/p>
+<b>&lt;/audio></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>
+            <p
+              conref="../common/common-examples.dita#common-examples/no-mdita-core"
+            />
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
     <section conkeyref="reuse-audio/usage-information"/>
     <section conkeyref="reuse-audio/rendering-expectations"/>

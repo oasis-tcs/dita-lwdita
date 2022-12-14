@@ -6,20 +6,44 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd><p><xmlelement>em</xmlelement></p></dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd><p><xmlelement>em</xmlelement></p></dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd><p><codeph>*</codeph> or <codeph>_</codeph></p></dd>
-        </dlentry>
-      </dl>
+      <p conkeyref="lwdita-reuse-general/syntax-section-intro"/>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>em</xmlelement></p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlelement>em</xmlelement></p></dd></dlentry><dlentry><dt>MDITA (core and extended profiles)</dt><dd><p><codeph>*</codeph> or <codeph>_</codeph></p></dd></dlentry></dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p><xmlelement>em</xmlelement></p>
+            <codeblock>&lt;p>We offer more than 30 <b>&lt;em>exclusive&lt;/em></b> creations of original 
+   rolls, from the California roll to sushi with BBQ chicken or 
+   grilled steak.
+&lt;/p></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p><xmlelement>em</xmlelement></p>
+            <codeblock>&lt;p>We offer more than 30 <b>&lt;em>exclusive&lt;/em></b> creations of original 
+   rolls, from the California roll to sushi with BBQ chicken or 
+   grilled steak.
+&lt;/p></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA (core and extended profiles)</stentry>
+          <stentry>
+            <p>Asterisk (<codeph>*</codeph>) or underscore
+                (<codeph>_</codeph>)</p>
+            <codeblock>We offer more than 30 <b>*exclusive*</b> creations of original
+rolls, from the California roll to sushi with BBQ chicken or 
+grilled steak.</codeblock>
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
     <section conkeyref="reuse-em/attributes"/>
         <example>
