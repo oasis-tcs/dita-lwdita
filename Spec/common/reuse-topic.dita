@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reuse-topic">
+    <title>Reuse topic</title>
+    <shortdesc>This topic contains elements that are reused in the LwDITA
+    spec.</shortdesc>
+    <refbody>
+    <section>
+      <title>Component reference topics</title>
+      <p id="syntax-section-intro">The syntax for representing this
+        component varies depending on the authoring format:</p>
+    </section>
+    <section>
+      <title>Template for syntax table</title>
+      <simpletable frame="all" relcolwidth="1* 1.75* 2.50*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax</stentry>
+          <stentry>Example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry/>
+          <stentry>
+            <codeblock/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry/>
+          <stentry>
+            <codeblock/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry/>
+          <stentry>
+            <codeblock/>
+          </stentry>
+        </strow>
+      </simpletable>
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p/>
+            <codeblock/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p/>
+            <codeblock/>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>There is no specific syntax for description in
+            MDITA.</stentry>
+        </strow>
+      </simpletable>
+    </section>
+  </refbody>
+</reference>
