@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="mdita-syntax">
+    <title>MDITA syntax</title>
+    <shortdesc>As a text-based format, Markdown lacks the structure that
+    DITA and HMTL provides.</shortdesc>
+    <refbody>
+    <section>
+      <p>The following table provides a quick reference to the document
+        components that can be authored directly in MDITA.</p>
+      <simpletable relcolwidth="1* 2* 3* 1*" keycol="1">
+        <sthead>
+          <stentry>Component</stentry>
+          <stentry>Syntax</stentry>
+          <stentry>Example</stentry>
+          <stentry>Notes</stentry>
+        </sthead>
+        <strow>
+          <stentry>Definition list</stentry>
+          <stentry>Each definition pair uses the following format:<ul>
+              <li>A line that contains the term</li>
+              <li>A second line that starts with a colon (:) and follows
+                with the definition</li>
+            </ul>Each definition pair must be separated by a blank
+            line</stentry>
+          <stentry>
+            <codeblock>raspberry
+: edible fruit in the genus Rubus of the rose family
+
+blackberry
+: edible fruit in the genus Rubus of the rose family</codeblock>
+          </stentry>
+          <stentry>PHP Markdown Extra</stentry>
+        </strow>
+        <strow>
+          <stentry>Ordered list</stentry>
+          <stentry>Each list item must be on a separate line and introduced
+            by one of the following characters or character strings,
+            followed by a space:<ul>
+              <li>Period (.)</li>
+              <li>A numeral (0 - 9), followed by a period or a right
+                parentheses </li>
+            </ul></stentry>
+          <stentry>
+            <codeblock>1. Start the application.
+1. Add text to the document.
+1. Save the document.</codeblock>
+          </stentry>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry>Unordered list</stentry>
+          <stentry>A grouping of list items. Each list item is a unit of
+            text, preceded by one of the following characters:<ul>
+              <li>Asterisk (*)</li>
+              <li>Hyphen (-)</li>
+              <li>Plus sign (+)</li>
+            </ul></stentry>
+          <stentry>
+            <codeblock>Each list item is a unit of text,
+preceded by one of the following characters:
+
+- Asterisk (*)
+- Hyphen (-)
+- Plus sign (+)</codeblock>
+          </stentry>
+          <stentry>Markdown</stentry>
+        </strow>
+        <strow>
+          <stentry>Paragraph</stentry>
+          <stentry>One or more consecutive lines of text, separated by one
+            or more blank lines. Do not indent paragraphs with spaces or
+            tabs.</stentry>
+          <stentry>
+            <codeblock>This is a paragraph.
+
+This is another paragraph. It contains line
+breaks, but Markdown will not convert them to
+hard line breaks.</codeblock>
+          </stentry>
+          <stentry>Markdown</stentry>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+        <strow>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+          <stentry/>
+        </strow>
+      </simpletable>
+    </section>
+  </refbody>
+</reference>
