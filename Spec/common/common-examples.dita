@@ -3,6 +3,7 @@
 <topic id="common-examples">
   <title>Common examples</title>
   <body>    
-    <p id="no-mdita-core">There is no specific support in MDITA core profile. If needed, use an HDITA snippet.</p>
+    <p id="no-mdita-core">There is no specific support in the MDITA core
+      profile. If needed, use an HDITA snippet.</p>
   </body>
 </topic>
