@@ -92,4 +92,6 @@
     href="../components/lw-video.dita"/>
   <keydef keys="elements-lwdita-xref"
     href="../components/lw-xref.dita"/>
+  <keydef keys="elements-lwdita-video-poster"
+    href="../components/lw-video-poster.dita"/>
 </map>
