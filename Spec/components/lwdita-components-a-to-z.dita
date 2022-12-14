@@ -57,6 +57,7 @@
         <sli><xref keyref="elements-lwdita-u">Underline</xref></sli>
         <sli><xref keyref="elements-lwdita-ul">Unordered list</xref></sli>
         <sli><xref keyref="elements-lwdita-video"/></sli>
+        <sli><xref keyref="elements-lwdita-video-poster"/></sli>
       </sl>
     </section>
   </refbody>

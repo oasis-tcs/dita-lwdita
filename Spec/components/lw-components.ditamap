@@ -64,6 +64,7 @@
    <topicref href="lw-source.dita"/>
    <topicref href="lw-track.dita"/>
    <topicref href="lw-video.dita"/>
+      <topicref href="lw-video-poster.dita"/>
   </topicref>
   <topicref href="containers/table-components.dita">
    <topicref href="lw-simpletable.dita"/>

@@ -62,11 +62,20 @@
         <stentry>06</stentry>
         <stentry>28 November 2022</stentry>
         <stentry>Kristen James Eberlein</stentry>
-        <stentry>Generated working draft #05, which includes the following changes:<ul>
+        <stentry>Generated working draft #06, which includes the following changes:<ul>
             <li>Updated <xref
                 href="../components/lwdita-components-a-to-z.dita">"LwDITA
                 components, A to Z"</xref> to include all elements</li>
-            <li>Corrected syntax for MDITA representation of  a table</li>
+            <li>Corrected syntax for MDITA representation of a table</li>
+          </ul></stentry>
+      </strow>
+      <strow>
+        <stentry>07</stentry>
+        <stentry>14 December 2022</stentry>
+        <stentry>Kristen James Eberlein</stentry>
+        <stentry>Generated working draft #07, which includes the following changes:<ul>
+            <li>Addition of the <xmlelement>video-poster</xmlelement>
+              element</li>
           </ul></stentry>
       </strow>
     </simpletable>

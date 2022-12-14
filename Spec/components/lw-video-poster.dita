@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference
+  PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-video">
+  <title>Video poster</title>
+  <shortdesc conkeyref="reuse-video-poster/shortdesc" />
+    <refbody>
+    <section>
+      <title>Syntax</title>
+      <dl>
+        <dlentry>
+          <dt>XDITA</dt>
+          <dd><p><xmlelement>video-poster</xmlelement></p></dd>
+          </dlentry>
+        <dlentry>
+          <dt>HDITA</dt>
+          <dd><p><xmlatt>poster</xmlatt> on <xmlelement>video</xmlelement></p></dd>
+        </dlentry>
+        <dlentry>
+          <dt>MDITA (core and extended profiles)</dt>
+          <dd>
+
+            <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/>
+          </dd>
+        </dlentry>
+      </dl>
+    </section>
+      <section conkeyref="reuse-video-poster/usage-information"/>
+
+
+      <section conkeyref="reuse-video-poster/attributes"/>
+        <example>
+          <title>Examples</title>
+          <fig>
+      <title>XDITA example</title>
+      <p>The following example demonstrates the use of video poster in an
+          XDITA topic.</p>
+          <codeblock>Example needed</codeblock>
+
+    </fig>
+
+    <fig>
+      <title>HDITA example</title>
+      <p>The following example demonstrates the use of video-poster in an
+          HDITA topic.</p>
+      <codeblock>Example needed</codeblock>
+    </fig>
+        </example>
+
+  </refbody>
+</reference>
