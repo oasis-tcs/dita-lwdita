@@ -76,6 +76,7 @@
     href="../components/lw-sub.dita"/>
   <keydef keys="elements-lwdita-sup"
     href="../components/lw-sup.dita"/>
+  <keydef keys="elements-lwdita-tt" href="../components/lw-tt.dita"/>
   <keydef keys="elements-lwdita-title"
     href="../components/lw-title.dita"/>
   <keydef keys="elements-lwdita-topic"

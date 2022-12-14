@@ -38,6 +38,7 @@
    <topicref href="lw-i.dita"/>
    <topicref href="lw-sub.dita"/>
    <topicref href="lw-sup.dita"/>
+      <topicref href="lw-tt.dita"/>
    <topicref href="lw-u.dita"/>
  </topicref>
   <topicref href="containers/emphasis-components.dita">

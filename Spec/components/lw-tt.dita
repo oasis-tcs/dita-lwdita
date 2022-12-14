@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="lw-shortdesc">
+  <title>Teletype text</title>
+  <shortdesc conkeyref="reuse-tt/shortdesc"/>
+    <refbody>
+    <section>
+      <title>Syntax</title>
+      <dl>
+        <dlentry>
+          <dt>XDITA</dt>
+          <dd><p><xmlelement>tt</xmlelement></p></dd>
+          </dlentry>
+        <dlentry>
+          <dt>HDITA</dt>
+          <dd><p><xmlelement>code</xmlelement></p></dd>
+        </dlentry>
+        <dlentry>
+          <dt>MDITA (core and extended profiles)</dt>
+          <dd>Backtick</dd>
+        </dlentry>
+      </dl>
+    </section>
+
+
+      <section conkeyref="reuse-tt/attributes"/>
+        <example>
+          <title>Examples</title>
+          <fig>
+      <title>XDITA example</title>
+      <p>The following example demonstrates the use of teletype text in an
+          XDITA topic.</p>
+      <codeblock>Example needed</codeblock>
+          </fig>
+   <fig>
+      <title>HDITA example</title>
+      <p>The following example demonstrates the use of teletype text in an
+          HDITA topic.</p>
+      <codeblock>Example needed</codeblock>
+    </fig>
+
+        </example>
+
+  </refbody>
+</reference>

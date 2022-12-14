@@ -49,6 +49,7 @@
         <sli><xref keyref="elements-lwdita-stentry"/></sli>
         <sli><xref keyref="elements-lwdita-sthead"/></sli>
         <sli><xref keyref="elements-lwdita-strow"/></sli>
+        <sli><xref keyref="elements-lwdita-tt"/></sli>
         <sli><xref keyref="elements-lwdita-title">Title</xref></sli>
         <sli><xref keyref="elements-lwdita-topic">Topic</xref></sli>
         <sli><xref keyref="elements-lwdita-topicmeta">Topic metadata</xref></sli>

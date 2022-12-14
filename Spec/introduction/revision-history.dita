@@ -74,6 +74,7 @@
         <stentry>14 December 2022</stentry>
         <stentry>Kristen James Eberlein</stentry>
         <stentry>Generated working draft #07, which includes the following changes:<ul>
+            <li>Addition of the <xmlelement>tt</xmlelement> element</li>
             <li>Addition of the <xmlelement>video-poster</xmlelement>
               element</li>
           </ul></stentry>
