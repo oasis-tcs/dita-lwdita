@@ -19,10 +19,12 @@
             <p><xmlelement>audio</xmlelement></p>
             <codeblock><b>&lt;audio autoplay="false" controls="true" loop="false"
        muted="false"></b>
-  &lt;desc>Theme song for the LwDITA podcast&lt;/desc>
-  &lt;fallback>The theme song is not available.&lt;/fallback>
-  &lt;media-source value="theme-song.mp3"/>
-  &lt;media-track srclang="en" value="theme-song.vtt"/><b>
+        &lt;desc>Theme song for the LwDITA podcast&lt;/desc>
+        &lt;fallback>
+          &lt;p>The theme song is not available.&lt;/p>
+        &lt;/fallback>
+        &lt;media-source href="theme-song.mp3"/>
+        &lt;media-track srclang="en" href="theme-song.vtt"/><b>
 &lt;/audio></b></codeblock>
           </stentry>
         </strow>
