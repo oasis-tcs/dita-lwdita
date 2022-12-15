@@ -39,10 +39,13 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
 <!--    14 Jul 2019 KJE: Alphabeticized element declarations       -->
 <!--    04 Oct 2022 KJE: Defined @keyref directly on elements,     -->
 <!--                     replacing control-variables entity        -->
+<!--    15 Dec 2022 KJE: Changed the element content model to the  -->
+<!--                     inline.noimage entity; added <tt>         -->
+<!--                     element                                   -->
 <!-- ============================================================= -->
 
 <!--                    LONG NAME: Bold content  -->
-<!ELEMENT b             (%all-inline;)*        >
+<!ELEMENT b             (%inline.noimage;)*        >
 <!ATTLIST b
              %localization;
              keyref       CDATA          #IMPLIED
@@ -51,7 +54,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
 
 
 <!--                    LONG NAME: Italic content  -->
-<!ELEMENT i             (%all-inline;)*        >
+<!ELEMENT i             (%inline.noimage;)*        >
 <!ATTLIST i
              %localization;
              keyref       CDATA          #IMPLIED
@@ -60,7 +63,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
              
              
 <!--                    LONG NAME: Subscript content  -->
-<!ELEMENT sub             (%all-inline;)*        >
+<!ELEMENT sub             (%inline.noimage;)*        >
 <!ATTLIST sub
              %localization;
              keyref       CDATA          #IMPLIED
@@ -68,15 +71,23 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
              class CDATA "+ topic/ph hi-d/sub ">             
              
 <!--                    LONG NAME: Superscript content  -->
-<!ELEMENT sup             (%all-inline;)*        >
+<!ELEMENT sup             (%inline.noimage;)*         >
 <!ATTLIST sup
              %localization;
              keyref       CDATA          #IMPLIED
              outputclass  CDATA          #IMPLIED
-             class CDATA "+ topic/ph hi-d/sup ">             
+             class CDATA "+ topic/ph hi-d/sup ">   
+             
+<!--                    LONG NAME: Teletype content  -->
+<!ELEMENT tt             (%inline.noimage;)*          >
+<!ATTLIST tt
+             %localization;
+             keyref       CDATA          #IMPLIED
+             outputclass  CDATA          #IMPLIED
+             class CDATA "+ topic/ph hi-d/tt ">             
 
 <!--                    LONG NAME: Underlined content  -->
-<!ELEMENT u             (%all-inline;)*        >
+<!ELEMENT u             (%inline.noimage;)*          >
 <!ATTLIST u
              %localization;
              keyref       CDATA          #IMPLIED

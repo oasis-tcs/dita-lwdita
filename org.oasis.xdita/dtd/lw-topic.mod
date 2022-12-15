@@ -144,7 +144,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              class CDATA "- topic/dd ">
 
 <!--                    LONG NAME: Description  -->
-<!ELEMENT desc		(%common-inline;)*        >
+<!ELEMENT desc		(%inline.noxref;)*        >
 <!ATTLIST desc
              %localization;
              %filters;
@@ -171,7 +171,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              class CDATA "- topic/dlentry ">
 
 <!--                    LONG NAME: Description term  -->
-<!ELEMENT dt             (%all-inline;)*        >
+<!ELEMENT dt             (%inline;)*        >
 <!ATTLIST dt
              %localization;
              %filters;
@@ -251,7 +251,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 
 
 <!--                    LONG NAME: Paragraph  -->
-<!ELEMENT p             (%all-inline;)*        >
+<!ELEMENT p             (%inline;)*        >
 <!ATTLIST p
              %localization;
              %filters;
@@ -287,7 +287,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              class CDATA "- topic/section ">
 
 <!--                    LONG NAME: Short description-->
-<!ELEMENT shortdesc     (%all-inline;)* >
+<!ELEMENT shortdesc     (%inline;)* >
 <!ATTLIST shortdesc
              %localization;
              %filters;
@@ -336,7 +336,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              class CDATA "- topic/strow ">
 
 <!--                    LONG NAME: Title -->
-<!ELEMENT title (%common-inline;)* >
+<!ELEMENT title (%inline.noxref;)* >
 <!ATTLIST title
              %localization;
              outputclass  CDATA          #IMPLIED
