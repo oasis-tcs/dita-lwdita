@@ -35,9 +35,10 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 <!--    20 Jun 2017  CE: Added prefix lw- to filename              -->
 <!--    25 Jul 2017  CE: Changed public identifier to LIGHTWEIGHT  -->
 <!--                     DITA                                      -->
-<!--    08 Jun 2021  CE: Added Emphasis domain                     -->
-<!--    26 Oct 2021  ES: split common entites element to their     -->
+<!--    08 Jun 2021  CE: Added emphasis domain                     -->
+<!--    26 Oct 2021  ES: split common entities element to their    -->
 <!--                     own files                                 -->
+<!--    15 Dec 2022 KJE: Added <tt> as specialization of <ph>      -->
 <!-- ============================================================= -->
 
 
@@ -45,8 +46,8 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 <!--                    ADD PHRASE ELEMENTS                        -->
 <!-- ============================================================= -->
 
-<!-- hi-d -->
-<!ENTITY % ph           "b | em | i | ph | strong | sub | sup | u"       >
+<!-- hi-d and emphasis-d -->
+<!ENTITY % ph           "b | em | i | ph | strong | sub | sup | tt | u"       >
 
 
 <!-- ============================================================= -->

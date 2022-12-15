@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
-<!--  MODULE:    Lightweight DITA Emphasis Domain              -->
+<!--  MODULE:    Lightweight DITA Emphasis Domain                  -->
 <!--  VERSION:   1.0                                               -->
 <!--  DATE:      XXX                                               -->
 <!--                                                               -->
@@ -34,10 +34,12 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Emphasis Domain//EN"
 <!--                     GitHub                                    -->
 <!--    04 Oct 2022 KJE: Defined @keyref directly on elements,     -->
 <!--                     replacing control-variables entity        -->
+<!--    15 Dec 2022 KJE: Changed the element content model to the  -->
+<!--                     inline.noimage entity                     -->
 <!-- ============================================================= -->
 
 <!--                    LONG NAME: Emphasized text  -->
-<!ELEMENT em             (%all-inline;)*        >
+<!ELEMENT em             (%inline.noimage;)*        >
 <!ATTLIST em
              %localization;
              keyref       CDATA          #IMPLIED
@@ -47,7 +49,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Emphasis Domain//EN"
              
                           
 <!--                    LONG NAME: Strong text  -->
-<!ELEMENT strong             (%all-inline;)*        >
+<!ELEMENT strong             (%inline.noimage;)*        >
 <!ATTLIST strong
                 %localization;
                 keyref       CDATA          #IMPLIED

@@ -5,20 +5,24 @@
 <!--  VERSION:   1.0                                               -->
 <!--  DATE:      XXX                                               -->
 <!--                                                               -->
-<!--    26 Oct 2021  ES: split common entites element to their     -->
+<!--    26 Oct 2021  ES: split common entities element to their    -->
 <!--                     own files                                 -->
 <!--    04 Oct 2022 KJE: Removed entities that only contained a    -->
 <!--                     single attribute: control-variables,      -->
 <!--                     variable-content, and variable-links      -->
+<!--    15 Dec 2022 KJE: Added the inline.noimage entity,          -->
+<!--                     which is used for highlight and emphasis  -->
+<!--                     domain elements; changed "all-inline" to  -->
+<!--                     "inline" in entity names                  -->
 <!-- ============================================================= -->
 
 <!ENTITY % ph    "ph">
 <!ENTITY % data  "data">
 <!ENTITY % filter-adds " ">
 
-<!ENTITY % common-inline  "#PCDATA|%ph;|image|%data;">
-<!ENTITY % all-inline  "#PCDATA|%ph;|image|xref|%data;">
-
+<!ENTITY % inline           "#PCDATA|%ph;|image|xref|%data;">
+<!ENTITY % inline.noimage   "#PCDATA|%ph;|xref|%data;">
+<!ENTITY % inline.noxref    "#PCDATA|%ph;|image|%data;">
 
 <!ENTITY % filters
             'props      CDATA                              #IMPLIED

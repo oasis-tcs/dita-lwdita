@@ -70,9 +70,6 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--                    COMMON DECLARATIONS                       -->
 <!-- ============================================================= -->
 
-<!ENTITY % common-inline  "#PCDATA|%ph;|image|%data;">
-<!ENTITY % all-inline  "#PCDATA|%ph;|image|xref|%data;">
-
 <!--common attributes-->
 <!ENTITY  % processing-role
             'processing-role (normal | resource-only)      #IMPLIED'>

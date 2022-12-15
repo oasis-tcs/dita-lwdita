@@ -43,7 +43,7 @@
                 class CDATA "- topic/data ">
 
 <!--                    LONG NAME: Phrase content  -->
-<!ELEMENT ph             (%all-inline;)*        >
+<!ELEMENT ph             (%inline;)*        >
 <!ATTLIST ph
                 %filters;
                 %localization;
@@ -52,7 +52,7 @@
                 class CDATA "- topic/ph ">
                 
 <!--                    LONG NAME: Reference  -->
-<!ELEMENT xref          (%common-inline;)*        >
+<!ELEMENT xref          (%inline.noxref;)*        >
 <!ATTLIST xref
              %filters;
              %localization;
