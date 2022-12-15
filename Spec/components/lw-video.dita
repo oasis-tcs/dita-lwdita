@@ -19,17 +19,18 @@
           <stentry>
             <p><xmlelement>video</xmlelement></p>
             <codeblock><b>&lt;video height="300px" width="400px" loop="false"
-                muted="false" poster="sensei-video.jpg"></b>
+                muted="false"></b>
   &lt;desc>Video about the Sensei Sushi promise.&lt;/desc>
   &lt;fallback>
     &lt;image href="video-not-available.png">
       &lt;alt>This video cannot be displayed.&lt;/alt>
     &lt;/image>
   &lt;/fallback>
+  &lt;video-poster href="sensei-video.jpg"/>
   &lt;media-source href="sensei-video.mp4"/>
   &lt;media-source href="sensei-video.ogg"/>
   &lt;media-source href="sensei-video.webm"/>
-  &lt;media-track srclang="en" value="sensei-video.vtt"/> <b>
+  &lt;media-track srclang="en" href="sensei-video.vtt"/> <b>
 &lt;/video></b></codeblock>
           </stentry>
         </strow>

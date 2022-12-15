@@ -82,6 +82,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--    26 Oct 2021  ES: split common entites element to their     -->
 <!--                     own files                                 -->
 <!--    04 Oct 2022 KJE: Added @outputclass to <topicmeta>         -->
+<!--    15 Dec 2022 KJE: Added <video-poster>; updated <video>     -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
@@ -411,14 +412,12 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              class CDATA "- topic/media-track ">
 
 <!--                    LONG NAME: Video -->
-<!ELEMENT video ((desc)?,(fallback)?,(media-source)*,(media-track)*)*       >
+<!ELEMENT video ((desc)?,(fallback)?,(video-poster)?,(media-source)*,(media-track)*)*       >
 <!ATTLIST video
               autoplay     (true | false )    #IMPLIED
               controls     (true | false )    #IMPLIED
               loop         (true |false )     #IMPLIED
               muted        (true |false )     #IMPLIED
-              poster        CDATA             #IMPLIED
-              posterkeyref  CDATA             #IMPLIED
               tabindex      NMTOKEN           #IMPLIED
               %localization;
               %filters;
@@ -428,3 +427,15 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
               height     NMTOKEN              #IMPLIED
               width      NMTOKEN              #IMPLIED
               class CDATA "- topic/video ">
+              
+<!--                    LONG NAME: Video poster-->
+<!ELEMENT video-poster  EMPTY       >
+<!ATTLIST video-poster
+              %localization;
+              %filters;
+              %reference-content;
+              %reuse;
+              keyref     CDATA                #IMPLIED
+              outputclass  CDATA              #IMPLIED
+              class CDATA "- topic/video-poster ">              
+              

@@ -7,23 +7,57 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd><p><xmlelement>video-poster</xmlelement></p></dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd><p><xmlatt>poster</xmlatt> on <xmlelement>video</xmlelement></p></dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd>
-
-            <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/>
-          </dd>
-        </dlentry>
-      </dl>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>video-poster</xmlelement></p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlatt>poster</xmlatt> on <xmlelement>video</xmlelement></p></dd></dlentry><dlentry><dt>MDITA (core and extended profiles)</dt><dd><p conref="../common/common-examples.dita#common-examples/no-mdita-core"/></dd></dlentry></dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p><xmlelement>video-poster</xmlelement></p>
+            <codeblock>&lt;video height="300px" width="400px" loop="false"
+                muted="false">
+  &lt;desc>Video about the Sensei Sushi promise.&lt;/desc>
+  &lt;fallback>
+    &lt;image href="video-not-available.png">
+      &lt;alt>This video cannot be displayed.&lt;/alt>
+    &lt;/image>
+  &lt;/fallback>
+  <b>&lt;video-poster href="sensei-video.jpg"/></b>
+  &lt;media-source href="sensei-video.mp4"/>
+  &lt;media-source href="sensei-video.ogg"/>
+  &lt;media-source href="sensei-video.webm"/>
+  &lt;media-track srclang="en" href="sensei-video.vtt"/> <b>
+&lt;/video></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p><xmlatt>poster</xmlatt> on
+              <xmlelement>video</xmlelement></p>
+            <codeblock>&lt;video height="300" width="400" 
+         title="Video about the Sensei Sushi promise" controls 
+        <b> poster="sensei-video.jpg"</b>>
+  &lt;source src="sensei-video.mp4"/>
+  &lt;source src="sensei-video.ogg"/>
+  &lt;source src="sensei-video.webm"/> 
+  &lt;track srclang="en" src="sensei-video.vtt"/>
+  &lt;img src="video-not-available.png" alt="This video cannot be displayed."/>
+<b>&lt;/video></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>
+            <p
+              conref="../common/common-examples.dita#common-examples/no-mdita-core"
+            />
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
       <section conkeyref="reuse-video-poster/usage-information"/>
 

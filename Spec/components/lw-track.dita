@@ -21,9 +21,11 @@
             <codeblock>&lt;audio autoplay="false" controls="true" loop="false"
        muted="false">
   &lt;desc>Theme song for the LwDITA podcast&lt;/desc>
-  &lt;fallback>The theme song is not available.&lt;/fallback>
-  &lt;media-source value="theme-song.mp3"/>
-  <b>&lt;media-track srclang="en" value="theme-song.vtt"/></b>
+  &lt;fallback>
+    &lt;p>The theme song is not available.&lt;/p>
+  &lt;/fallback>
+  &lt;media-source href="theme-song.mp3"/>
+  <b>&lt;media-track srclang="en" href="theme-song.vtt"/></b>
 &lt;/audio></codeblock>
           </stentry>
         </strow>
