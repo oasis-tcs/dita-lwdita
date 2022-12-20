@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="map-components" xml:lang="en-us">
 <title>Map components</title>
-<shortdesc>Map components include the core components of LwDITA maps,
-such as <xmlelement>topicref</xmlelement> and <xmlelement>reltable</xmlelement> (needs to be updated for LwDITA).</shortdesc>
+<shortdesc>Map components include the core components of LwDITA maps, such
+    as key definition, key text, and topic reference.</shortdesc>
 </reference>
 

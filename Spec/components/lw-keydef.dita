@@ -6,51 +6,58 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd>
-            <p><xmlelement>keydef</xmlelement> </p></dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd><p><xmlelement>div data-class="keydef"</xmlelement></p></dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (extended profile)</dt>
-          <dd>
-            <p conref="../common/common-examples.dita#common-examples/no-mdita-core"/></dd>
-        </dlentry>
-      </dl>
+      <p conkeyref="lwdita-reuse-general/syntax-section-intro"/>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>keydef</xmlelement> </p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlelement>div data-class="keydef"</xmlelement></p></dd></dlentry><dlentry><dt>MDITA (extended profile)</dt><dd><p conref="../common/common-examples.dita#common-examples/no-mdita-core"/></dd></dlentry></dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p><xmlelement>keydef</xmlelement></p>
+            <codeblock><b>&lt;keydef keys="product-name"></b>
+  &lt;topicmeta>
+    &lt;keytext>Remote Network Lighting&lt;/keytext>
+  &lt;/topicmeta><b>
+&lt;/keydef></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p><xmlelement>div data-class="keydef"</xmlelement></p>
+            <codeblock><b>div data-class="keydef"></b>
+  &lt;span data-class="keytext" data-keys="product-name">Remote Lighting Network&lt;/span>
+<b>&lt;/div></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>
+            <p
+              conref="../common/common-examples.dita#common-examples/no-mdita-core"
+            />
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
       <section conkeyref="reuse-keydef/usage-information" />
 
       <section conkeyref="reuse-keydef/attributes"/>
         <example>
           <title>Examples</title>
-          <fig>
-      <title>XDITA example</title>
-      <p>The following example demonstrates the use of key definition in an XDITA map.</p>
-          <codeblock><coderef href="examples/lw-keyref-keytext.dita"/></codeblock>
-
-    </fig>
-
-    <fig>
-      <title>HDITA example</title>
-      <p>The following example demonstrates the use of key definition in an HDITA map.</p>
-      <codeblock><coderef href="examples/lw-keyref-keytext.html" format="hdita"/></codeblock>
-
-    </fig>
-
-
-    <fig>
-      <title>MDITA example</title>
-      <p>The following example demonstrates the use of key definition in an MDITA extended profile
-        map.</p>
-      <codeblock><coderef href="examples/lw-keyref-keytext.md" format="mdita"/></codeblock>
-
-
-    </fig>
+      <p>The section contains examples of how the key definition component
+        can be used. Key definitions can be used to define keys for topics,
+        as well as variable text.</p>
+      <draft-comment author="Kristen J Eberlein" time="20 December 2022">
+        <p>For HDITA, can keys be defined for topics, or simply variable
+          text?</p>
+      </draft-comment>
+      <!--<fig><title>XDITA example</title><p>The following example demonstrates the use of key definition in an XDITA map.</p><codeblock><coderef href="examples/lw-keyref-keytext.dita"/></codeblock></fig>-->
+      <!--<fig><title>HDITA example</title><p>The following example demonstrates the use of key definition in an HDITA map.</p><codeblock><coderef href="examples/lw-keyref-keytext.html" format="hdita"/></codeblock></fig>-->
+      <!--<fig><title>MDITA example</title><p>The following example demonstrates the use of key definition in an MDITA extended profile map.</p><codeblock><coderef href="examples/lw-keyref-keytext.md" format="mdita"/></codeblock></fig>-->
         </example>
   </refbody>
 </reference>

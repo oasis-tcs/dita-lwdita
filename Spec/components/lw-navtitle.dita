@@ -2,34 +2,43 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="lw-navtitle">
   <title>Navigation title</title>
-  <shortdesc conkeyref="reuse-navtitle/shortdesc" />
+  <shortdesc conkeyref="reuse-navtitle/shortdesc"/>
 
   <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd>
+      <p conkeyref="lwdita-reuse-general/syntax-section-intro"/>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>navtitle</xmlelement></p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p>There is no specific markup for navigation title in HDITA</p></dd></dlentry><dlentry><dt>MDITA (core and extended profiles)</dt><dd><p>There is no specific markup for navigation title in MDITA</p></dd></dlentry></dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
             <p><xmlelement>navtitle</xmlelement></p>
-          </dd>
-        </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd>
-            <p>There is no specific markup for navigation title in HDITA</p>
-          </dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd>
-            <p>There is no specific markup for navigation title in MDITA</p>
-          </dd>
-        </dlentry>
-      </dl>
+            <codeblock>&lt;topicref href="alternatives.dita">
+  <b>&lt;topicmeta></b>
+    &lt;navtitle>Alternative lighting setups&lt;/navtitle>
+  <b>&lt;/topicmeta></b>
+&lt;/topicref></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>There is no specific markup for navigation
+            title.</stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>There is no specific markup for navigation
+            title.</stentry>
+        </strow>
+      </simpletable>
     </section>
-<section conkeyref="reuse-navtitle/usage-information" />
-    <section conkeyref="reuse-navtitle/processing-expectations" />
+    <!--<section conkeyref="reuse-navtitle/usage-information"/>-->
+    <!--<section conkeyref="reuse-navtitle/processing-expectations"/>-->
     <section conkeyref="reuse-navtitle/attributes"/>
     <example>
       <title>Example</title>
