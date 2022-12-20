@@ -6,26 +6,47 @@
   <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd>
-            <p><xmlelement>strow</xmlelement> inside <xref href="lw-simpletable.dita"><xmlelement>simpletable></xmlelement></xref></p>
-          </dd>
-        </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd>
-            <p><xmlelement>tr</xmlelement> inside <xref href="lw-simpletable.dita"><xmlelement>table</xmlelement></xref></p>
-          </dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd>
-            <p>See <xref href="lw-simpletable.dita" format="dita">table</xref></p>
-          </dd>
-        </dlentry>
-      </dl>
+      <p conkeyref="lwdita-reuse-general/syntax-section-intro"/>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>strow</xmlelement> inside <xref href="lw-simpletable.dita"><xmlelement>simpletable></xmlelement></xref></p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlelement>tr</xmlelement> inside <xref href="lw-simpletable.dita"><xmlelement>table</xmlelement></xref></p></dd></dlentry><dlentry><dt>MDITA (core and extended profiles)</dt><dd><p>See <xref href="lw-simpletable.dita" format="dita">table</xref></p></dd></dlentry></dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p><xmlelement>strow</xmlelement></p>
+            <codeblock><b>&lt;strow></b>
+  &lt;stentry>&lt;p>Gohan rice&lt;/p>&lt;/stentry>
+  &lt;stentry>&lt;p>140 gm&lt;/p>&lt;/stentry>
+  &lt;stentry>&lt;p>14 kg&lt;/p>&lt;/stentry><b>
+&lt;/strow></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p><xmlelement>tr</xmlelement></p>
+            <codeblock><b>&lt;tr></b>
+  &lt;td>&lt;p>Gohan rice&lt;/p>&lt;/td>
+  &lt;td>&lt;p>140 gm&lt;/p>&lt;/td>
+  &lt;td>&lt;p>14 kg&lt;/p>&lt;/td><b>
+&lt;/tr></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>
+            <codeblock>| Ingredient       | Amount   | Unit shipped |
+| ---------------- | -------- | ------------ |
+<b>| Gohan rice       | 140 gm   | 14 kg        |</b>
+| Soya paper sheet | 1 pc     | 10 pc        |
+
+Table:  Fancy roll ingredients</codeblock>
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
 
     <section conkeyref="reuse-strow/attributes"/>

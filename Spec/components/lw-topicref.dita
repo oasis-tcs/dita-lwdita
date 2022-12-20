@@ -6,22 +6,45 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd><p><xmlelement>topicref</xmlelement></p></dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd>
-            <p><xmlelement>a href</xmlelement> inside a <xref href="lw-li.dita"><xmlelement>li</xmlelement></xref></p>
-          </dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd><p><codeph>[link](/URI "title")</codeph> inside a <xref href="lw-li.dita">list item</xref> </p></dd>
-        </dlentry>
-      </dl>
+      <p conkeyref="lwdita-reuse-general/syntax-section-intro"/>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>topicref</xmlelement></p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlelement>a href</xmlelement> inside a <xref href="lw-li.dita"><xmlelement>li</xmlelement></xref></p></dd></dlentry><dlentry><dt>MDITA (core and extended profiles)</dt><dd><p><codeph>[link](/URI "title")</codeph> inside a <xref href="lw-li.dita">list item</xref> </p></dd></dlentry></dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p><xmlelement>topicref</xmlelement></p>
+            <codeblock><b>&lt;topicref href="alternatives.dita"></b>
+  &lt;topicref href="low-power.dita"/>
+  &lt;topicref href="high-power.dita"/><b>
+&lt;/topicref></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p><xmlelement>a href</xmlelement> instead of a list item</p>
+            <codeblock><b>&lt;li>&lt;p>&lt;a href="alternatives.html">Alternative lighting setups&lt;/a>&lt;/p></b>
+  &lt;ul>
+    &lt;li>&lt;p>&lt;a href="low-power.html">Low power installation&lt;/a>&lt;/p>&lt;/li>
+    &lt;li>&lt;p>&lt;a href="high-power.html">High power installation&lt;/a>&lt;/p>&lt;/li>
+  &lt;/ul><b>
+&lt;/li></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>
+            <p><codeph>[link text](URI)</codeph> inside of a list item</p>
+            <codeblock><b>- [Alternative lighting setups](alternatives.md)</b>
+ - [Low power installation](low-power.md)
+ - [High power installation](high-power.md)</codeblock>
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
 
       <section conkeyref="reuse-topicref/attributes"/>

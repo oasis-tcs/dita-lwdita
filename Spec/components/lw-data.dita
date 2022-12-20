@@ -6,29 +6,47 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd><p><xmlelement>data</xmlelement></p></dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd>
-            <p><xmlelement>meta</xmlelement> inside <xmlelement>head</xmlelement></p>
-          </dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (extended profile) </dt>
-          <dd>
-            <p>There is no specific syntax for data in MDITA core profile. In MDITA extended
-              profile, data is represented by any variables declared in a YAML front matter header.
-              The front matter must be the first block in the file and must be set between triple-
-              dashed lines. </p></dd>
-        </dlentry>
-      </dl>
+      <p conkeyref="lwdita-reuse-general/syntax-section-intro"/>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>data</xmlelement></p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlelement>meta</xmlelement> inside <xmlelement>head</xmlelement></p></dd></dlentry><dlentry><dt>MDITA (extended profile) </dt><dd><p>There is no specific syntax for data in the MDITA core profile. In MDITA extended profile, data is represented by any variables declared in a YAML front matter header. The front matter must be the first block in the file and must be set between triple-dashed lines. </p></dd></dlentry></dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p><xmlelement>data</xmlelement></p>
+            <codeblock><b>&lt;data name="author" value="Victoria Fernando"/></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p><xmlelement>meta</xmlelement></p>
+            <codeblock>&lt;head>
+  &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
+  <b>&lt;meta name="author" content="Victoria Fernando"></b>
+&lt;/head></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>
+            <p>There is no specific syntax for data in MDITA core profile.
+              In MDITA extended profile, data is represented by any
+              variables declared in a YAML front matter header. The front
+              matter must be the first block in the file and must be set
+              between triple-dashed lines. </p>
+            <codeblock><b>---
+author: Victoria Fernando
+---</b></codeblock>
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
-      <section conkeyref="reuse-data/usage-information" />
-      <section conkeyref="reuse-data/rendering-expectations" />
+      <section conkeyref="reuse-data/usage-information"/>
+      <section conkeyref="reuse-data/rendering-expectations"/>
 
 
       <section conkeyref="reuse-data/attributes"/>

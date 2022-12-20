@@ -3,7 +3,8 @@
  "reference.dtd">
 <reference id="table-components" xml:lang="en-us">
 <title>Table components</title>
-<shortdesc>Need a LwDITA-relevant shortdesc</shortdesc>
+<shortdesc>Table components include table, table header, table row, and
+    table cell entry.</shortdesc>
 
 </reference>
 

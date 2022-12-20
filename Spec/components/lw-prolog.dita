@@ -6,22 +6,42 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd><p><xmlelement>prolog</xmlelement></p></dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd>
-            <p><xmlelement>meta</xmlelement> inside <xmlelement>head</xmlelement> </p></dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (extended profile)</dt>
-          <dd><p>Any variables declared in a YAML front matter header. The front matter must be the first block in
-              the file and must be set between triple-dashed lines.</p></dd>
-        </dlentry>
-      </dl>
+      <p conkeyref="lwdita-reuse-general/syntax-section-intro"/>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>prolog</xmlelement></p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlelement>meta</xmlelement> inside <xmlelement>head</xmlelement> </p></dd></dlentry><dlentry><dt>MDITA (extended profile)</dt><dd><p>Any variables declared in a YAML front matter header. The front matter must be the first block in the file and must be set between triple-dashed lines.</p></dd></dlentry></dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p><xmlelement>prolog</xmlelement></p>
+            <codeblock><b>&lt;prolog></b>
+  &lt;data name="author" value="Victoria Fernando"/><b>
+&lt;/prolog></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p>There is no equivalent to
+              <xmlelement>prolog</xmlelement>.</p>
+            <!--<p><xmlelement>meta</xmlelement></p><codeblock>&lt;head>
+  &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
+  <b>&lt;meta name="author" content="Victoria Fernando"></b>
+&lt;/head></codeblock>-->
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>
+            <p>There is no equivalent to
+              <xmlelement>prolog</xmlelement>.</p>
+            <!--<p>Any variables declared in a YAML front matter header. The front matter must be the first block in the file and must be set between triple-dashed lines.</p><codeblock>Example needed</codeblock>-->
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
 
       <section conkeyref="reuse-prolog/attributes"/>

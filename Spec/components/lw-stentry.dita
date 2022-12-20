@@ -6,27 +6,45 @@
   <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd>
-            <p><xmlelement>stentry</xmlelement> inside <xref href="lw-simpletable.dita"><xmlelement>simpletable</xmlelement></xref></p>
-          </dd>
-        </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd>
-            <p><xmlelement>th</xmlelement> for headers and <xmlelement>td</xmlelement> for regular cells inside <xref
-              href="lw-simpletable.dita"><xmlelement>table</xmlelement></xref></p>
-          </dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd>
-            <p>See <xref href="lw-simpletable.dita" format="dita">Table</xref></p>
-          </dd>
-        </dlentry>
-      </dl>
+      <p conkeyref="lwdita-reuse-general/syntax-section-intro"/>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>stentry</xmlelement> inside <xref href="lw-simpletable.dita"><xmlelement>simpletable</xmlelement></xref></p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlelement>th</xmlelement> for headers and <xmlelement>td</xmlelement> for regular cells inside <xref href="lw-simpletable.dita"><xmlelement>table</xmlelement></xref></p></dd></dlentry><dlentry><dt>MDITA (core and extended profiles)</dt><dd><p>See <xref href="lw-simpletable.dita" format="dita">Table</xref></p></dd></dlentry></dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p><xmlelement>stentry</xmlelement></p>
+            <codeblock><b>&lt;stentry></b>
+  &lt;p>Gohan rice&lt;/p><b>
+&lt;/stentry></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p><xmlelement>td</xmlelement></p>
+            <codeblock><b>&lt;td></b>
+  &lt;p>Gohan rice&lt;/p><b>
+&lt;/td></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>
+            <p>Table entries inside a row are separated by pipes
+                (<codeph>|</codeph></p>
+            <codeblock>| Ingredient       | Amount   | Unit shipped |
+| ---------------- | -------- | ------------ |
+<b>| Gohan rice       |</b> 140 gm   | 14 kg        |
+| Soya paper sheet | 1 pc     | 10 pc        |
+
+Table:  Fancy roll ingredients</codeblock>
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
 
     <section conkeyref="reuse-stentry/attributes"/>

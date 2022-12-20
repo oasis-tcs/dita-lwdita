@@ -3,9 +3,7 @@
  "reference.dtd">
 <reference id="metadata-components" xml:lang="en-us">
 <title>Metadata components</title>
-<shortdesc>Metadata components include information that is located within
-the <xmlelement>topicmeta</xmlelement> element (in maps) or <xmlelement>prolog</xmlelement> element (in topics),
-as well as indexing elements that can be placed in additional locations
-within topic content. (Needs to be updated for LwDITA)</shortdesc>
+<shortdesc>Metadata components include prolog and data
+    components.</shortdesc>
 </reference>
 

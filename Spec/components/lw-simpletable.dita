@@ -6,26 +6,77 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd><p><xmlelement>simpletable</xmlelement></p></dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd>
+      <p conkeyref="lwdita-reuse-general/syntax-section-intro"/>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>simpletable</xmlelement></p></dd></dlentry><dlentry><dt>HDITA</dt><dd><p><xmlelement>table</xmlelement></p></dd></dlentry><dlentry><dt>MDITA (core and extended profiles)</dt><dd><p>A table should contain a header row, a delimiter row, and zero or more rows with entries. Table entries inside a row should be separated by pipes (<codeph>|</codeph>), and the delimiter should contain hyphens (<codeph>-</codeph>).</p></dd></dlentry></dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p><xmlelement>simpletable</xmlelement></p>
+            <codeblock><b>&lt;simpletable></b>
+  &lt;title>Fancy roll ingredients&lt;/title>
+  &lt;sthead>
+    &lt;stentry>&lt;p>Ingredient&lt;/stentry>
+    &lt;stentry>&lt;p>Amount&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>Unit shipped&lt;/p>&lt;/stentry>
+  &lt;/sthead>
+  &lt;strow>
+    &lt;stentry>&lt;p>Gohan rice&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>140 gm&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>14 kg&lt;/p>&lt;/stentry>
+  &lt;/strow>
+  &lt;strow>
+    &lt;stentry>&lt;p>Soya paper sheet&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>1 pc&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>10 pc&lt;/p>&lt;/stentry>
+  &lt;/strow><b>
+&lt;/simpletable></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
             <p><xmlelement>table</xmlelement></p>
-          </dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd>
+            <codeblock><b>&lt;table></b>
+  &lt;caption>Fancy roll ingredients&lt;/caption>
+  &lt;tr>
+    &lt;th>&lt;p>Ingredient&lt;/p>&lt;/th>
+    &lt;th>&lt;p>Amount&lt;/p>&lt;/th>
+    &lt;th>&lt;p>Unit shipped&lt;/p>&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>&lt;p>Gohan rice&lt;/p>&lt;/td>
+    &lt;td>&lt;p>140 gm&lt;/p>&lt;/td>
+    &lt;td>&lt;p>14 kg&lt;/p>&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>&lt;p>Soya paper sheet&lt;/p>&lt;/td>
+    &lt;td>&lt;p>1 pc.&lt;/p>&lt;/td>
+    &lt;td>&lt;p>10 pcs.&lt;/p>&lt;/td>
+  &lt;/tr><b>
+&lt;/table></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>
             <p>A table should contain a header row, a delimiter row, and
               zero or more rows with entries. Table entries inside a row
               should be separated by pipes (<codeph>|</codeph>), and the
-              delimiter should contain hyphens (<codeph>-</codeph>).</p></dd>
-        </dlentry>
-      </dl>
+              delimiter should contain hyphens (<codeph>-</codeph>).</p>
+            <codeblock><b>| Ingredient       | Amount   | Unit shipped |
+| ---------------- | -------- | ------------ |
+| Gohan rice       | 140 gm   | 14 kg        |
+| Soya paper sheet | 1 pc     | 10 pc        |
+
+Table:  Fancy roll ingredients</b></codeblock>
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
 
       <section conkeyref="reuse-simpletable/usage-information"/>
@@ -34,6 +85,9 @@
       <section conkeyref="reuse-simpletable/attributes"/>
         <example>
           <title>Examples</title>
+      <draft-comment author="Kristen J Eberlein" time="19 December 2022">
+        <p>The examples need to show spanning.</p>
+      </draft-comment>
           <fig>
       <title>XDITA example</title>
       <p>The following example demonstrates the use of a table in an XDITA topic.</p>
