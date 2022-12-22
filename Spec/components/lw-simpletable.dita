@@ -162,8 +162,8 @@ Table:  Fancy roll ingredients</b></codeblock>
           represented in MDITA. Note that MDITA does not have a formal way
           to associate a title with a table, nor does it have a way to
           associate an ID with the table.</p>
-        <codeblock>| Dog breed         | Size         | Life expectancy |
-| ----------------- | ------------ | --------------- |
+        <codeblock>| Dog breed          | Size        | Life expectancy |
+| ------------------ | ----------- | --------------- |
 | Australian Shepard | Large       | 12-15 years     |
 | Beagle             | Medium      | 10-15 years     |
 | Great Dane         | Extra-large | 7-10 years      |</codeblock>
