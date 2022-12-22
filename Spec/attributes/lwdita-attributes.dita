@@ -210,9 +210,9 @@
             <row>
               <entry morerows="1"><b>Universal attributes</b></entry>
               <entry><xmlatt>class</xmlatt></entry>
-              <entry rev="spec-editors">Not applicable</entry>
+              <entry rev="spec-editors"><xmlatt>data-class</xmlatt></entry>
               <entry>Not applicable</entry>
-              <entry rev="spec-editors">Not applicable</entry>
+              <entry rev="spec-editors">HDITA representation</entry>
             </row>
             <row>
               <entry><xmlatt>outputclass</xmlatt></entry>
