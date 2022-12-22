@@ -116,8 +116,10 @@ Table:  Fancy roll ingredients</b></codeblock>
   &lt;/strow>
 <b>&lt;/simpletable></b></codeblock>
         <p>Note that the table has a title, as well as an
-            <xmlatt>id</xmlatt> attribute which makes it possible to reuse
+            <xmlatt>id</xmlatt> attribute that makes it possible to reuse
           this table in other contexts.</p>
+        <p>For an example of a table with spanned rows, see <xref
+            keyref="elements-lwdita-simpletable/example-table-xdita"/>.</p>
         <!--<simpletable id="dog-breeds-table"><sthead><stentry><p>Breed</p></stentry><stentry><p>Average size</p></stentry><stentry><p>Life expectancy</p></stentry></sthead><strow><stentry><p>Australian Shepard</p></stentry><stentry><p>Medium</p></stentry><stentry><p>12-15 years</p></stentry></strow><strow><stentry><p>Beagle</p></stentry><stentry><p>Small</p></stentry><stentry><p>10-15 years</p></stentry></strow><strow><stentry><p>Great Dane</p></stentry><stentry><p>Extra-large</p></stentry><stentry><p>7-10 years</p></stentry></strow></simpletable>-->
       </fig>
       <fig id="example-table-hdita">
@@ -149,8 +151,10 @@ Table:  Fancy roll ingredients</b></codeblock>
   &lt;/tr>
 <b>&lt;/table></b></codeblock>
         <p>Note that the table has a title, as well as an
-            <xmlatt>id</xmlatt> attribute which makes it possible to reuse
+            <xmlatt>id</xmlatt> attribute that makes it possible to reuse
           this table in other contexts.</p>
+        <p>For an example of a table with spanned rows, see <xref
+            keyref="elements-lwdita-simpletable/example-table-hdita"/>.</p>
       </fig>
       <fig id="example-table-mdita">
         <title>MDITA table</title>
@@ -163,14 +167,6 @@ Table:  Fancy roll ingredients</b></codeblock>
 | Australian Shepard | Large       | 12-15 years     |
 | Beagle             | Medium      | 10-15 years     |
 | Great Dane         | Extra-large | 7-10 years      |</codeblock>
-        <p>
-          <draft-comment author="Kristen J Eberlein"
-            time="22 December 2022">
-            <p>How could an author use an HDITA snippet to associate an @id
-              with the table? And is there any way in Markdown to put a
-              wrapper around the "table" and a pseudo table title?</p>
-          </draft-comment>
-        </p>
       </fig>
         </example>
 

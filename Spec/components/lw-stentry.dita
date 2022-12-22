@@ -124,12 +124,6 @@ Table:  Fancy roll ingredients</codeblock>
       <fig>
         <title>MDITA table with spanned rows</title>
         <p>MDITA does not support tables with spans.</p>
-        <p>
-          <draft-comment author="Kristen J Eberlein"
-            time="22 December 2022">
-            <p>Is there a workaround for this?</p>
-          </draft-comment>
-        </p>
       </fig>
     </example>
   </refbody>
