@@ -85,27 +85,93 @@ Table:  Fancy roll ingredients</b></codeblock>
       <section conkeyref="reuse-simpletable/attributes"/>
         <example>
           <title>Examples</title>
-      <draft-comment author="Kristen J Eberlein" time="19 December 2022">
-        <p>The examples need to show spanning.</p>
-      </draft-comment>
-          <fig>
-      <title>XDITA example</title>
-      <p>The following example demonstrates the use of a table in an XDITA topic.</p>
-          <codeblock><coderef href="examples/lw-table.dita"/></codeblock>
-    </fig>
-
-    <fig>
-      <title>HDITA example</title>
-      <p>The following example demonstrates the use of a table in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-table.html" format="hdita"/></codeblock>
-    </fig>
-
-
-    <fig>
-      <title>MDITA example</title>
-      <p>The following example demonstrates the use of a table in an MDITA topic.</p>
-      <codeblock><coderef href="examples/lw-table.md" format="mdita"/></codeblock>
-    </fig>
+      <p>This section contains examples of how the table component can be
+        use in the three authoring components:</p>
+      <fig id="example-table-xdita">
+        <title>XDITA table</title>
+        <p>The following code sample shows how the
+            <xmlelement>simpletable</xmlelement> element can be used to
+          represent a table that presents information about dog breeds:</p>
+        <codeblock><b>&lt;simpletable id="dog-breeds-table"></b>
+  &lt;title>Dog breeds&lt;/title>
+  &lt;sthead>
+    &lt;stentry>&lt;p>Breed&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>Average size&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>Life expectancy&lt;/p>&lt;/stentry>
+  &lt;/sthead>
+  &lt;strow>
+    &lt;stentry>&lt;p>Australian Shepard&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>Medium&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>12-15 years&lt;/p>&lt;/stentry>
+  &lt;/strow>
+  &lt;strow>
+    &lt;stentry>&lt;p>Beagle&lt;p>&lt;/stentry>
+    &lt;stentry>&lt;p>Small&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>10-15 years&lt;/p>&lt;/stentry>
+  &lt;/strow>
+  &lt;strow>
+    &lt;stentry>&lt;p>Great Dane&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>Extra-large&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>7-10 years&lt;/p>&lt;/stentry>
+  &lt;/strow>
+<b>&lt;/simpletable></b></codeblock>
+        <p>Note that the table has a title, as well as an
+            <xmlatt>id</xmlatt> attribute which makes it possible to reuse
+          this table in other contexts.</p>
+        <!--<simpletable id="dog-breeds-table"><sthead><stentry><p>Breed</p></stentry><stentry><p>Average size</p></stentry><stentry><p>Life expectancy</p></stentry></sthead><strow><stentry><p>Australian Shepard</p></stentry><stentry><p>Medium</p></stentry><stentry><p>12-15 years</p></stentry></strow><strow><stentry><p>Beagle</p></stentry><stentry><p>Small</p></stentry><stentry><p>10-15 years</p></stentry></strow><strow><stentry><p>Great Dane</p></stentry><stentry><p>Extra-large</p></stentry><stentry><p>7-10 years</p></stentry></strow></simpletable>-->
+      </fig>
+      <fig id="example-table-hdita">
+        <title>HDITA table</title>
+        <p>The following code sample shows how the
+            <xmlelement>table</xmlelement> element can be used to represent
+          a table that presents information about dog breeds:</p>
+        <codeblock><b>&lt;table id="dog-breeds-table"></b>
+  &lt;caption>Dog breeds&lt;/caption>
+  &lt;tr>
+    &lt;th>&lt;p>Breed&lt;/p>&lt;/th>
+    &lt;th>&lt;p>Size&lt;/p>&lt;/th>
+    &lt;th>&lt;p>Life expectancy&lt;/p>&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>&lt;p>Australian Shepard&lt;/p>&lt;/td>
+    &lt;td>&lt;p>Medium&lt;/p>&lt;/td>
+    &lt;td>&lt;p>10-15 years&lt;/p>&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>&lt;p>Beagle&lt;/p>&lt;/td>
+    &lt;td>&lt;p>Small&lt;/p>&lt;/td>
+    &lt;td>&lt;p>12-15 years&lt;/p>&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>&lt;p>Great Dane&lt;/p>&lt;/td>
+    &lt;td>&lt;p>Extra-large&lt;/p>&lt;/td>
+    &lt;td>&lt;p>7-10 years&lt;/p>&lt;/td>
+  &lt;/tr>
+<b>&lt;/table></b></codeblock>
+        <p>Note that the table has a title, as well as an
+            <xmlatt>id</xmlatt> attribute which makes it possible to reuse
+          this table in other contexts.</p>
+      </fig>
+      <fig id="example-table-mdita">
+        <title>MDITA table</title>
+        <p>The following code sample shows how a simple table can be
+          represented in MDITA. Note that MDITA does not have a formal way
+          to associate a title with a table, nor does it have a way to
+          associate an ID with the table.</p>
+        <codeblock>| Dog breed         | Size         | Life expectancy |
+| ----------------- | ------------ | --------------- |
+| Australian Shepard | Large       | 12-15 years     |
+| Beagle             | Medium      | 10-15 years     |
+| Great Dane         | Extra-large | 7-10 years      |</codeblock>
+        <p>
+          <draft-comment author="Kristen J Eberlein"
+            time="22 December 2022">
+            <p>How could an author use an HDITA snippet to associate an @id
+              with the table? And is there any way in Markdown to put a
+              wrapper around the "table" and a pseudo table title?</p>
+          </draft-comment>
+        </p>
+      </fig>
         </example>
 
   </refbody>

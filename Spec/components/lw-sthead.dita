@@ -52,16 +52,10 @@ Table:  Fancy roll ingredients</codeblock></stentry>
     <section conkeyref="reuse-sthead/attributes"/>
     <example>
       <title>Examples</title>
-      <fig>
-      <title>XDITA example</title>
-      <p>The following example demonstrates the use of a table header in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-table.dita"/></codeblock>
-      </fig>
-    <fig>
-      <title>HDITA example</title>
-      <p>The following example demonstrates the use of a table header in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-table.html" format="hdita"/></codeblock>
-    </fig>
+      <p>See <xref keyref="elements-lwdita-simpletable/example-table-xdita"
+        />, <xref keyref="elements-lwdita-simpletable/example-table-hdita"
+        />, and <xref
+          keyref="elements-lwdita-simpletable/example-table-mdita"/>.</p>
     </example>
   </refbody>
 </reference>
