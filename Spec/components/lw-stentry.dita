@@ -50,16 +50,81 @@ Table:  Fancy roll ingredients</codeblock>
     <section conkeyref="reuse-stentry/attributes"/>
     <example>
       <title>Examples</title>
+      <p>This section contains examples of how the table entry component
+        can be use in the three authoring components. The examples focus on
+        tables that include spanned rows.</p>
       <fig>
-      <title>XDITA example</title>
-      <p>The following example demonstrates the use of a table entry in an XDITA topic.</p>
-      <codeblock><coderef href="examples/lw-table.dita"/></codeblock>
+      <title>XDITA table with spanned rows</title>
+        <p>The following code sample shows how the table entry component
+          can be used to span rows in a table:</p>
+      <codeblock>&lt;simpletable id="dog-breed-categories">
+  &lt;title>Categories of dog breeds&lt;/title>
+  &lt;sthead>
+    &lt;stentry>&lt;p>Category&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>Breed&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>Size&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>Life expectancy&lt;/p>&lt;/stentry>
+  &lt;/sthead>
+  &lt;strow>
+    <b>&lt;stentry rowspan="3"></b>&lt;p>Hound group&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>American Foxhound&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>Large&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>11-13 years&lt;/p>&lt;/stentry>
+  &lt;/strow>
+  &lt;strow>
+    &lt;stentry>&lt;p>Basset Hound&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>Medium&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>12-13 years&lt;/p>&lt;/stentry>
+  &lt;/strow>
+  &lt;strow>
+    &lt;stentry>&lt;p>Rhodesian Ridgeback&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>Large&lt;/p>&lt;/stentry>
+    &lt;stentry>&lt;p>10-12 years&lt;/p>&lt;/stentry>
+  &lt;/strow>
+  &lt;!-- ... -->
+&lt;/simpletable></codeblock>
+        <p>Note that the table has a title, as well as an
+            <xmlatt>id</xmlatt> attribute which makes it possible to reuse
+          this table in other contexts.</p>
       </fig>
     <fig>
-      <title>HDITA example</title>
-      <p>The following example demonstrates the use of a table entry in an HDITA topic.</p>
-      <codeblock><coderef href="examples/lw-table.html" format="hdita"/></codeblock>
+      <title>HDITA table with spanned rows</title>
+        <p>The following code sample shows how the table entry component
+          can be used to span rows in a table:</p>
+      <codeblock>&lt;table id="dog-breed-categories">
+  &lt;caption>Categories of dog breeds&lt;/caption>
+  &lt;tr>
+    &lt;th>&lt;p>Category&lt;/p>&lt;/th>
+    &lt;th>&lt;p>Breed&lt;/p>&lt;/th>
+    &lt;th>&lt;p>Size&lt;/p>&lt;/th>
+    &lt;th>&lt;p>Life expectancy&lt;/p>&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    <b>&lt;td rowspan="3"></b>&lt;p>Hound group&lt;/p>&lt;/td>
+    &lt;td>&lt;p>American Foxhound&lt;/p>&lt;/td>
+    &lt;td>&lt;p>Large&lt;/p>&lt;/td>
+    &lt;td>&lt;p>11-13 years&lt;/p>&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>&lt;p>Basset Hound&lt;/p>&lt;/td>
+    &lt;td>&lt;p>Medium&lt;/p>&lt;/td>
+    &lt;td>&lt;p>12-13 years&lt;/p>&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>&lt;p>Rhodesian Ridgeback&lt;/p>&lt;/td>
+    &lt;td>&lt;p>Large&lt;/p>&lt;/td>
+    &lt;td>&lt;p>10-12 years&lt;/p>&lt;/td>
+  &lt;/tr>
+  &lt;!-- ... -->
+&lt;/table></codeblock>
+        <p>Note that the table has a title, as well as an
+            <xmlatt>id</xmlatt> attribute which makes it possible to reuse
+          this table in other contexts.</p>
     </fig>
+      <fig>
+        <title>MDITA table with spanned rows</title>
+        <p>MDITA does not support tables with spans.</p>
+      </fig>
     </example>
   </refbody>
 </reference>
