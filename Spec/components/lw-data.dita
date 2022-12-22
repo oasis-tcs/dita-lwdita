@@ -34,16 +34,20 @@
           <stentry>MDITA</stentry>
           <stentry>
             <p>There is no specific syntax for data in MDITA core profile.
-              In MDITA extended profile, data is represented by any
-              variables declared in a YAML front matter header. The front
-              matter must be the first block in the file and must be set
-              between triple-dashed lines. </p>
+              In the MDITA extended profile, data is represented by
+              variables declared in a YAML front-matter header. The front
+              matter must be the first block in the file, and it must be
+              set between triple-dashed lines. </p>
             <codeblock><b>---
 author: Victoria Fernando
 ---</b></codeblock>
           </stentry>
         </strow>
       </simpletable>
+      <draft-comment author="Kristen J Eberlein" time="22 December 2022">
+        <p>I think we need a topic where we talk about the use of YAML in
+          the MDITA extended profile.</p>
+      </draft-comment>
     </section>
       <section conkeyref="reuse-data/usage-information"/>
       <section conkeyref="reuse-data/rendering-expectations"/>
@@ -52,21 +56,61 @@ author: Victoria Fernando
       <section conkeyref="reuse-data/attributes"/>
         <example>
           <title>Examples</title>
+      <p>This section contains examples of how the data component can be
+        used in the three authoring components:</p>
       <fig>
         <title>XDITA example</title>
-        <p>The following example demonstrates the use of data in an XDITA topic.</p>
-        <codeblock><coderef href="examples/lw-data-prolog.dita"/></codeblock>
+        <p>The following code sample shows how the
+            <xmlelement>data</xmlelement> element can be used to trigger
+          specialized processing in an XDITA topic. The company has
+          implemented specialized processing that renders a list of
+          prerequisite items at the location of the
+            <xmlelement>data</xmlelement> element.</p>
+        <codeblock>&lt;topic id="installing-acme-test-suite">
+  &lt;title>Installing the Acme Test Suite&lt;/title>
+  &lt;shortdesc>Install the Acme Test Suite in order to test whether your
+             applications will work with the Acme core code.&lt;/shortdesc>
+  &lt;body>
+    &lt;section>
+      &lt;title>Before you begin&lt;/title>
+      &lt;p>You will need the following items:&lt;/p>
+      <b>&lt;data name="trigger" value="generatePrereqList"/></b>
+    &lt;/section>
+    &lt;!-- ... -->
+  &lt;/body>
+&lt;/topic></codeblock>
+        <p>For an example of how the <xmlelement>data</xmlelement> element
+          can be used in the topic prolog to specify metadata, see <xref
+            keyref="elements-lwdita-prolog/example"
+              ><xmlelement>data</xmlelement></xref>.</p>
       </fig>
       <fig>
         <title>HDITA example</title>
-        <p>The following example demonstrates the use of data in an HDITA topic.</p>
-        <codeblock><coderef href="examples/lw-data-prolog.html" format="hdita"/></codeblock>
+        <p>The following code sample shows how data components can specify
+          metadata that applies to the topic as a whole. The
+            <xmlelement>head</xmlelement> element holds three
+            <xmlelement>meta</xmlelement> elements, which store metadata
+          about the author, product, and user goal that is associated with
+          the topic.</p>
+        <codeblock>&lt;head>
+  &lt;title>Installing the Acme Test Suite&lt;/title>
+  <b>&lt;meta name="author" content="Carolyn Miller"/>
+  &lt;meta name="product" content="Acme Test Suite"/>
+  &lt;meta name="goal" content="installing"/></b>
+&lt;/head></codeblock>
       </fig>
       <fig>
         <title>MDITA example</title>
-        <p>The following example demonstrates the use of data in an MDITA extended profile
-          topic.</p>
-        <codeblock><coderef href="examples/lw-data-prolog.md" format="mdita"/></codeblock>
+        <p>The following code sample shows how topic-level metadata can be
+          represented an MDITA extended profile topic. The data components
+          are represented by variables declared in a YAML front-matter
+          header, which provide information about the author, product, and
+          user goal that is associated with the topic.</p>
+        <codeblock><b>---
+author: Carolyn Harris
+product: Acme Test Suite
+goal: installing
+---</b></codeblock>
       </fig>
     </example>
   </refbody>
