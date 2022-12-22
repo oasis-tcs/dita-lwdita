@@ -71,7 +71,7 @@
       </strow>
       <strow>
         <stentry>07</stentry>
-        <stentry>20 December 2022</stentry>
+        <stentry>22 December 2022</stentry>
         <stentry>Kristen James Eberlein</stentry>
         <stentry>Generated working draft #07, which includes the following changes:<ul>
             <li>Addition of the <xmlelement>tt</xmlelement> element</li>
@@ -79,6 +79,7 @@
               element</li>
             <li>New format for "Syntax" section in the map, metadata,
               multimedia, and table components topics</li>
+            <li>Updated "Examples" sections in table component topics</li>
           </ul></stentry>
       </strow>
     </simpletable>
