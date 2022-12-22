@@ -3,7 +3,7 @@
  "reference.dtd">
 <reference id="metadata-components" xml:lang="en-us">
 <title>Metadata components</title>
-<shortdesc>Metadata components include prolog and data
+<shortdesc>Metadata components include data and prolog
     components.</shortdesc>
 </reference>
 
