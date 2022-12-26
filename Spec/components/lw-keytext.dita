@@ -47,23 +47,58 @@
     <section conkeyref="reuse-keytext/attributes"/>
     <example>
       <title>Examples</title>
-      <fig>
-        <title>XDITA example</title>
-        <p>The following example demonstrates the use of key text in an
-          XDITA map.</p>
-        <codeblock><coderef href="examples/lw-keyref-keytext.dita"/></codeblock>
+      <p>This section contains examples of how the key text component can
+        be used.</p>
+      <fig id="xdita-example">
+        <title>XDITA key text</title>
+        <p>The following code sample shows how the
+            <xmlelement>keytext</xmlelement> element can be used to create
+          variable text for a product name, as well as alternate text for
+          an image referenced by <xmlatt>keyref</xmlatt>:</p>
+        <codeblock><b>&lt;!-- Key definitions for images --></b>
+  &lt;keydef keys="icon-save" href="icons/save.gif" format="gif" scope="local">
+    <b>&lt;keytext>Save icon&lt;/keytext></b>
+  &lt;/keydef>
+  <b>&lt;!-- Variable text definition --></b>
+  &lt;keydef keys="product-greenhouse">
+    &lt;topicmeta>
+      <b>&lt;keytext>Acme Greenhouse&lt;/keytext></b>
+    &lt;/topicmeta>
+  &lt;/keydef></codeblock>
       </fig>
-      <fig>
-        <title>HDITA example</title>
-        <p>The following example demonstrates the use of key text in an
-          HDITA map.</p>
-        <codeblock><coderef href="examples/lw-keyref-keytext.html" format="hdita"/></codeblock>
+      <fig id="hdita-example">
+        <title>HDITA key text</title>
+        <p>The following code sample shows how the
+            <xmlelement>keytext</xmlelement> element can be used to create
+          variable text for a product name, as well as alternate text for
+          an image referenced by <xmlatt>keyref</xmlatt>:</p>
+        <codeblock><b>&lt;!-- Key definitions for images --></b>
+  &lt;div data-class="keydef" 
+       data-keys="icon-save" 
+       href="icons/save.gif" format="gif" scope="local">
+    &lt;span data-class="keytext">Acme Greenhouse&lt;/span>
+  &lt;/div>
+  <b>&lt;!-- Variable text definition --></b>
+  &lt;div data-class="keydef" data-keys="product-greenhouse">
+    &lt;span data-class="keytext">Acme Greenhouse&lt;/span>
+  &lt;/div></codeblock>
       </fig>
-      <fig>
-        <title>MDITA example</title>
-        <p>The following example demonstrates the use of key text in an
-          MDITA extended profile map.</p>
-        <codeblock><coderef href="examples/lw-keyref-keytext.md" format="mdita"/></codeblock>
+      <fig id="mdita-example">
+        <title>MDITA key text</title>
+        <p>The following code sample shows how the
+            <xmlelement>keytext</xmlelement> element can be used to create
+          variable text for a product name, as well as alternate text for
+          an image referenced by <xmlatt>keyref</xmlatt>:</p>
+        <codeblock><b>&lt;!-- Key definitions for images --></b>
+  &lt;div data-class="keydef" 
+       data-keys="icon-save" 
+       href="icons/save.gif" format="gif" scope="local">
+    &lt;span data-class="keytext">Acme Greenhouse&lt;/span>
+  &lt;/div>
+  <b>&lt;!-- Variable text definition --></b>
+  &lt;div data-class="keydef" data-keys="product-greenhouse">
+    &lt;span data-class="keytext">Acme Greenhouse&lt;/span>
+  &lt;/div></codeblock>
       </fig>
     </example>
   </refbody>

@@ -42,11 +42,35 @@
     <section conkeyref="reuse-navtitle/attributes"/>
     <example>
       <title>Example</title>
-      <fig>
-      <title>XDITA example</title>
-      <p>The following example demonstrates the use of navigation title in an XDITA map.</p>
-      <codeblock><coderef href="examples/lw-map.dita"/></codeblock>
-      </fig>
+      <p>The following code sample shows how the
+          <xmlelement>navtitle</xmlelement> element can provide a title for
+        the map and a navigation title for a topic:</p>
+      <codeblock>&lt;map>
+  &lt;topicmeta>
+    <b>&lt;!-- 1. Applies a title for the map -->
+    &lt;navtitle>Developing a reuse strategy&lt;/navtitle></b>
+  &lt;/topicmeta>
+  &lt;topicref keyref="developing-reuse-strategy">
+    &lt;topicref keyref="define-business-requirements"/>
+    &lt;topicref keyref="prototype-sample-source"/>
+    &lt;topicref keyref="select-reuse-methods"/>
+    &lt;topicref keyref="test-reuse-methods"/>
+    &lt;topicref keyref="correct-reuse-strategy">
+      &lt;topicmeta>
+        <b>&lt;!-- 2. Applies a navigation title for the resource -->
+        &lt;navtitle>Refine reuse strategy&lt;/navtitle></b>
+      &lt;/topicmeta>
+    &lt;/topicref>
+    &lt;!-- … -->
+  &lt;/topicref>
+&lt;/map></codeblock>
+      <p>In the above code sample, the <xmlelement>navtitle</xmlelement>
+        element appears twice:</p>
+      <ol>
+        <li>It supplies a title for the DITA map.</li>
+        <li>It supplies a navigation title of "Refine reuse strategy" for
+          the resource referenced by the key "correct-reuse-strategy."</li>
+      </ol>
     </example>
   </refbody>
 </reference>

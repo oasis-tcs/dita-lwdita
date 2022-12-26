@@ -67,25 +67,110 @@
       <section conkeyref="reuse-map/attributes"/>
         <example>
           <title>Examples</title>
+      <p>The section contains examples of how the map component can be
+        used.</p>
           <fig>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of map in XDITA.</p>
+        <p>The following code sample shows a simple XDITA map. It contains
+          key definitions, including one for variable text, as well as
+          topic references that create a hierarchical table of contents
+          (TOC):</p>
 
-            <codeblock><coderef href="examples/lw-map.dita"/></codeblock>
+            <codeblock><b>&lt;map></b>
+  &lt;topicmeta>
+    &lt;navtitle>Planting a winter garden&lt;/navtitle>
+  &lt;/topicmeta>
+  <b>&lt;!-- Key definitions for topics --></b>
+  &lt;keydef keys="winter-garden" href="garden/winter-garden.dita"/>
+  &lt;keydef keys="crop-types" href="garden/crops/crop-types.dita"/>
+  &lt;keydef keys="selecting-plants" href="garden/tasks/selecting-plants.dita"/>
+  <b>&lt;!-- Variable text definition --></b>
+  &lt;keydef keys="product-greenhouse">
+    &lt;topicmeta>
+      &lt;keytext>Acme Greenhouse&lt;/keytext>
+    &lt;/topicmeta>
+  &lt;/keydef>
+  <b>&lt;!-- TOC hierarchy --></b>
+  &lt;topicref keyref="winter-garden">
+    &lt;topicref keyref="crop-types"/>
+    &lt;topicref keyref="selecting-plants"/>
+    &lt;topicref href="garden/tasks/planting-short-season-crops.dita"/>
+    &lt;topicref href="garden/tasks/planting-long-season-crops.dita"/>
+    &lt;topicref href="garden/tasks/extending-growing-season.dita"/>
+    &lt;!-- … -->
+  &lt;/topicref><b>
+&lt;/map>
+</b></codeblock>
 
           </fig>
     <fig>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of map in HDITA.</p>
-        <codeblock><coderef href="examples/lw-map.html" format="hdita"/></codeblock>
+        <p>The following code sample shows a simple HDITA map. It contains
+          key definitions, including one for variable text, as well as
+          topic references that create a hierarchical table of contents
+          (TOC):</p>
+        <codeblock><b>&lt;nav></b>
+  &lt;h1>Planting a winter garden&lt;/h1>
+  <b>&lt;!-- Key definitions for topics --></b>
+  &lt;div data-class="keydef" data-keys="winter-garden" href="garden/winter-garden.html"/>
+  &lt;div data-class="keydef" data-keys="crop-types" href="garden/crop-types.html"/>
+  &lt;div data-class="keydef" data-keys="selecting-plants" href="garden/selecting-plants.html"/>
+  &lt;div data-class="keydef" data-keys="plant-short-season" href="garden/plant-short-season.html"/>
+  &lt;div data-class="keydef" data-keys="plant-long-season" href="garden/plant-long-season.html"/>
+  &lt;div data-class="keydef" data-keys="extending-season" href="garden/extending-season.html"/>
+  <b>&lt;!-- Variable text definition --></b>
+  &lt;div data-class="keydef" data-keys="product-greenhouse">
+    &lt;span data-class="keytext">Acme Greenhouse&lt;/span>
+  &lt;/div>
+  <b>&lt;!-- TOC hierarchy --></b>
+  &lt;ul>
+    &lt;li>&lt;a data-keyref="winter-garden">Planting a winter garden&lt;/a>
+      &lt;ul>
+        &lt;li>&lt;a data-keyref="crop-types">Crops for a winter garden&lt;/a>&lt;/li>
+        &lt;li>&lt;a data-keyref="selecting-plants">Selecting your winter crops&lt;/a>&lt;/li>
+        &lt;li>&lt;a data-keyref="plant-short-season">Planting short-season crops&lt;/a>&lt;/li>
+        &lt;li>&lt;a data-keyref="plant-long-season">Planting long-season crops&lt;/a>&lt;/li>
+        &lt;li>&lt;a data-keyref="extending-season">Extending the growing season&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/li>
+  &lt;/ul><b>
+&lt;/nav></b></codeblock>
 
     </fig>
 
 
     <fig>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of map in MDITA.</p>
-        <codeblock><coderef href="examples/lw-map.md" format="mdita"/></codeblock>
+        <p>The following code sample shows a simple MDITA map. It contains
+          key definitions, including one for variable text, as well as
+          topic references that create a hierarchical table of contents
+          (TOC):</p>
+        <codeblock># Planting a winter garden
+  <b>&lt;!-- Key definitions for topics --></b>
+  &lt;div data-class="keydef" data-keys="winter-garden" href="garden/winter-garden.md"/>
+  &lt;div data-class="keydef" data-keys="crop-types" href="garden/crop-types.md"/>
+  &lt;div data-class="keydef" data-keys="selecting-plants" href="garden/selecting-plants.md"/>
+  &lt;div data-class="keydef" data-keys="plant-short-season" href="garden/plant-short-season.md"/>
+  &lt;div data-class="keydef" data-keys="plant-long-season" href="garden/plant-long-season.md"/>
+  &lt;div data-class="keydef" data-keys="extending-season" href="garden/extending-season.md"/>
+  <b>&lt;!-- Variable text definition --></b>
+  &lt;div data-class="keydef" data-keys="product-greenhouse">
+    &lt;span data-class="keytext">Acme Greenhouse&lt;/span>
+  &lt;/div>
+  <b>&lt;!-- TOC hierarchy --></b>
+ - [Planting a winter garden](winter-garden)
+   - [Crops for a winter garden](crop-types)
+   - [Selecting your winter crops](selecting-plants)
+   - [Planting short-season crops](plant-short-season)
+   - [Planting long-season crops](plant-long-season)
+   - [Extending the growing season](extending-season)</codeblock>
+        <p>
+          <draft-comment author="Kristen J Eberlein"
+            time="26 December 2022">
+            <p>Is the above syntax correct for specifying @keyref on a
+              topic reference component?</p>
+          </draft-comment>
+        </p>
 
 
     </fig>
