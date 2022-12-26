@@ -51,13 +51,77 @@
       <p>The section contains examples of how the key definition component
         can be used. Key definitions can be used to define keys for topics,
         as well as variable text.</p>
-      <draft-comment author="Kristen J Eberlein" time="20 December 2022">
-        <p>For HDITA, can keys be defined for topics, or simply variable
-          text?</p>
-      </draft-comment>
-      <!--<fig><title>XDITA example</title><p>The following example demonstrates the use of key definition in an XDITA map.</p><codeblock><coderef href="examples/lw-keyref-keytext.dita"/></codeblock></fig>-->
-      <!--<fig><title>HDITA example</title><p>The following example demonstrates the use of key definition in an HDITA map.</p><codeblock><coderef href="examples/lw-keyref-keytext.html" format="hdita"/></codeblock></fig>-->
-      <!--<fig><title>MDITA example</title><p>The following example demonstrates the use of key definition in an MDITA extended profile map.</p><codeblock><coderef href="examples/lw-keyref-keytext.md" format="mdita"/></codeblock></fig>-->
+      <fig>
+        <title>XDITA example</title>
+        <p>The following code sample shows how the
+            <xmlelement>keydef</xmlelement> element can be used to define
+          keys for resources:</p>
+        <codeblock>&lt;map>
+  <b>&lt;!-- Key definitions --></b>
+  &lt;keydef keys="winter-garden" href="garden/winter-garden.dita"/>
+  &lt;keydef keys="crop-types" href="crop-types.html" format="html" scope="local"/>
+  &lt;keydef keys="selecting-plants" href="garden/tasks/selecting-plants.dita"/>
+  &lt;!-- ... -->
+&lt;/map></codeblock>
+        <p>For an example of a key definition used to define variable text,
+          see <xref keyref="elements-lwdita-keytext/xdita-example"/>.</p>
+      </fig>
+      <fig>
+        <title>HDITA example</title>
+        <p>The following code sample shows how the
+            <xmlelement>keydef</xmlelement> element can be used to define
+          keys for resources:</p>
+        <codeblock><b>&lt;nav></b>
+  &lt;h1>Planting a winter garden&lt;/h1>
+<b>&lt;!-- Key definitions --></b>
+  &lt;div data-class="keydef" 
+       data-keys="winter-garden" 
+       href="garden/winter-garden.html"/>
+  &lt;div data-class="keydef" 
+       data-keys="crop-types" 
+       href="garden/crop-types.html"/>
+  &lt;div data-class="keydef" 
+       data-keys="selecting-plants" 
+       href="garden/selecting-plants.html"/>
+  &lt;!-- ... -->
+  <b>
+&lt;/nav></b></codeblock>
+        <p>
+          <draft-comment author="Kristen J Eberlein"
+            time="26 December 2022">
+            <p>Does the above code sample need @format and @scope?</p>
+          </draft-comment>
+        </p>
+        <p>For an example of a key definition used to define variable text,
+          see <xref keyref="elements-lwdita-keytext/hdita-example"/>.</p>
+      </fig>
+      <fig>
+        <title>MDITA example</title>
+        <p>The following code sample shows how the
+            <xmlelement>keydef</xmlelement> element can be used to define
+          keys for resources. Note that in an MDITA map, the HDITA
+          representation for key definitions must be used.</p>
+        <codeblock># Planting a winter garden
+  <b>&lt;!-- Key definitions --></b>
+  &lt;div data-class="keydef" 
+       data-keys="winter-garden" 
+       href="garden/winter-garden.md"/>
+  &lt;div data-class="keydef" 
+       data-keys="crop-types" 
+       href="garden/crop-types.md"/>
+  &lt;div data-class="keydef" 
+       data-keys="selecting-plants" 
+       href="garden/selecting-plants.md"/>
+  &lt;!-- ... --></codeblock>
+        <p>
+          <draft-comment author="Kristen J Eberlein"
+            time="26 December 2022">
+            <p>Does the above code sample need @format and @scope?</p>
+          </draft-comment>
+        </p>
+        <p>For an example of a key definition used to define variable text,
+          see <xref keyref="elements-lwdita-keytext/mdita-example"/>.</p>
+      </fig>
         </example>
   </refbody>
 </reference>

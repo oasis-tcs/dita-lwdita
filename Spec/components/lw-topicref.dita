@@ -26,13 +26,13 @@
         <strow>
           <stentry>HDITA</stentry>
           <stentry>
-            <p><xmlelement>a href</xmlelement> instead of a list item</p>
-            <codeblock><b>&lt;li>&lt;p>&lt;a href="alternatives.html">Alternative lighting setups&lt;/a>&lt;/p></b>
+            <p><xmlelement>a href</xmlelement> inside of a list item</p>
+            <codeblock>&lt;li><b>&lt;a href="alternatives.html">Alternative lighting setups&lt;/a></b>
   &lt;ul>
-    &lt;li>&lt;p>&lt;a href="low-power.html">Low power installation&lt;/a>&lt;/p>&lt;/li>
-    &lt;li>&lt;p>&lt;a href="high-power.html">High power installation&lt;/a>&lt;/p>&lt;/li>
-  &lt;/ul><b>
-&lt;/li></b></codeblock>
+    &lt;li>&lt;a href="low-power.html">Low power installation&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="high-power.html">High power installation&lt;/a>&lt;/li>
+  &lt;/ul>
+&lt;/li></codeblock>
           </stentry>
         </strow>
         <strow>
@@ -50,23 +50,81 @@
       <section conkeyref="reuse-topicref/attributes"/>
         <example>
           <title>Examples</title>
+      <p>This section contains examples of how the topic reference
+        component can be used.</p>
           <fig>
       <title>XDITA example</title>
-      <p>The following example demonstrates the use of a topic reference in an XDITA map.</p>
-          <codeblock><coderef href="examples/lw-map.dita"/></codeblock>
+      <p>The following code sample shows a simple DITA map that represents
+          the <cite>Acme Widget User Guide</cite>. Each of the
+            <xmlelement>topicref</xmlelement> elements represents the
+          top-level topic for a chapter, and indirect addressing is used to
+          reference the DITA topics.</p>
+          <codeblock>map>
+  &lt;topicmeta>
+    &lt;navtitle>Acme Widget User Guide&lt;/navtitle>
+  &lt;/topicmeta>
+  &lt;keydef href="key-definitions.ditamap"/>
+  <b>&lt;topicref keyref="installing"></b>
+    &lt;!-- … -->
+  &lt;/topicref>
+  <b>&lt;topicref keyref="configuring"></b>
+    &lt;!-- … -->
+  &lt;/topicref>
+  <b>&lt;topicref keyref="administering"></b>
+    &lt;!-- … -->
+  &lt;/topicref>
+  <b>&lt;topicref keyref="developing"></b>
+    &lt;!-- … -->
+  &lt;/topicref>
+  <b>&lt;topicref keyref="troubleshooting"></b>
+    &lt;!-- … -->
+  &lt;/topicref>
+&lt;/map></codeblock>
           </fig>
 
           <fig>
       <title>HDITA example</title>
-      <p>The following example demonstrates the use of a topic reference in an HDITA map.</p>
-      <codeblock><coderef href="examples/lw-map.html" format="hdita"/></codeblock>
+        <p>The following code sample shows a simple DITA map that
+          represents the <cite>Acme Widget User Guide</cite>. Each of the
+          topic reference components represents the top-level topic for a
+          chapter, and direct addressing is used to reference the HDITA
+          topics.</p>
+      <codeblock>&lt;ul>
+  &lt;li><b>&lt;a href="installing.html">Installing Acme Widget&lt;/a></b>
+      &lt;! ... -->
+  &lt;/li>
+  &lt;li><b>&lt;a href="configuring.html">Configuring Acme Widget&lt;/a></b>
+      &lt;! ... -->
+  &lt;/li>
+  &lt;li><b>&lt;a href="administering.html">Administering Acme Widget&lt;/a></b>
+      &lt;! ... -->
+  &lt;/li>
+  &lt;li><b>&lt;a href="developing.html">Developing Acme Widget applications&lt;/a></b>
+      &lt;! ... -->
+  &lt;/li>
+  &lt;li><b>&lt;a href="troubleshooting.html">Troubleshooting Acme Widget&lt;/a></b>
+      &lt;! ... -->
+  &lt;/li>
+&lt;/ul></codeblock>
           </fig>
 
 
           <fig>
       <title>MDITA example</title>
-      <p>The following example demonstrates the use of a topic reference in an MDITA map.</p>
-      <codeblock><coderef href="examples/lw-map.md" format="mdita"/></codeblock>
+        <p>The following code sample shows a simple DITA map that
+          represents the <cite>Acme Widget User Guide</cite>. Each of the
+          topic reference components represents the top-level topic for a
+          chapter, and direct addressing is used to reference the MDITA
+          topics.</p>
+      <codeblock><b>- [Installing Acme Widget](installing.md)</b>
+ &lt;!-- ... --><b>
+- [Configuring Acme Widget](configuring.md)</b>
+ &lt;!-- ... --><b>
+- [Administering Acme Widget] (configuring.md)</b>
+ &lt;!-- ... --><b>
+- [Developing Acme Widget apps (developing.md)</b>
+ &lt;!-- ... --><b>
+- [Troubleshooting Acme Widget (troubleshooting.md)</b></codeblock>
           </fig>
 
         </example>
