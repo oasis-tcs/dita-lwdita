@@ -44,6 +44,8 @@
         </strow>
       </simpletable>
     </section>
+    <section conkeyref="reuse-keytext/processing-expectations"
+      ><title/><p/></section>
     <section conkeyref="reuse-keytext/attributes"/>
     <example>
       <title>Examples</title>
