@@ -51,7 +51,7 @@ Table:  Fancy roll ingredients</codeblock>
     <example>
       <title>Examples</title>
       <p>This section contains examples of how the table entry component
-        can be use in the three authoring components. The examples focus on
+        can be used in the three authoring formats. The examples focus on
         tables that include spanned rows.</p>
       <fig>
       <title>XDITA table with spanned rows</title>

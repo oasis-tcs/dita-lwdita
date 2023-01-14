@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="component-comparison">
+  <title>Component comparison</title>
+  <shortdesc>The following table compares the mapping between XDITA, HDITA,
+    and MDITA components.</shortdesc>
+  <refbody>
+    <table frame="all"><tgroup cols="5">
+        <colspec colname="c1" colwidth="1*"/>
+        <colspec colname="c2" colwidth="1*"/>
+        <colspec colname="c3" colwidth="1*"/>
+        <colspec colname="c4" colwidth="1*"/>
+        <colspec colname="c5" colwidth="1*"/>
+        <thead>
+          <row>
+            <entry>Grouping</entry>
+            <entry>Component</entry>
+            <entry>XDITA</entry>
+            <entry>HDITA</entry>
+            <entry>MDITA</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry morerows="3">Basic topic components</entry>
+            <entry>Body</entry>
+            <entry><xmlelement>body</xmlelement></entry>
+            <entry><xmlelement>body</xmlelement></entry>
+            <entry>None</entry>
+          </row>
+          <row>
+            <entry>Short description</entry>
+            <entry><xmlelement>shortdesc</xmlelement></entry>
+            <entry>First element in article, if it is a paragraph, after
+                title<p>KJE: This must be rewritten.</p></entry>
+            <entry>First block, if it is a paragraph, after title <p>KJE:
+                This must be rewritten.</p></entry>
+          </row>
+          <row>
+            <entry>Title</entry>
+            <entry><xmlelement>title</xmlelement></entry>
+            <entry>
+              <p><xmlelement>h1</xmlelement> and
+                  <xmlelement>title</xmlelement> for <xref
+                  href="lw-topic.dita" format="dita">topic</xref> (The
+                content for Title in an HDITA topic <term
+                  outputclass="RFC-2119">MUST</term> map to both
+                  <xmlelement>title</xmlelement> and
+                  <xmlelement>h1</xmlelement>). <xmlelement>h2</xmlelement>
+                for <xref href="lw-section.dita" format="dita"
+                  >section</xref> and <xref href="lw-example.dita"
+                  format="dita">example</xref>.
+                  <xmlelement>figcaption</xmlelement> in
+                  <xmlelement>figure</xmlelement>.<xmlelement>caption</xmlelement>
+                for <xref href="lw-simpletable.dita" format="dita"
+                  >table</xref>. Title also applied to audio and video in
+                HDITA as attribute???</p>
+              <p>KJE: This must be rewritten. Also, is the value of
+                  <xmlatt>title</xmlatt> on <xmlelement>audio</xmlelement>
+                and <xmlelement>video</xmlelement> a title or
+                description?</p>
+            </entry>
+            <entry>
+              <p><codeph>#</codeph> or <codeph>===</codeph> underline for
+                topic; <codeph>##</codeph> or <codeph>-----</codeph>
+                underline for section </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Topic</entry>
+            <entry><xmlelement>topic</xmlelement></entry>
+            <entry><xmlelement>article</xmlelement></entry>
+            <entry>None</entry>
+          </row>
+          <row>
+            <entry>Body components</entry>
+            <entry>Alternate text</entry>
+            <entry><xmlelement>alt</xmlelement></entry>
+            <entry><xmlatt>alt on
+              </xmlatt><xmlelement>img</xmlelement></entry>
+            <entry>Text inside square brackets (<codeph>[]</codeph>), as
+              part of the markup for an image</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Definition description</entry>
+            <entry><xmlelement>dd</xmlelement></entry>
+            <entry><xmlelement>dd</xmlelement></entry>
+            <entry>See definition list.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Description</entry>
+            <entry><xmlelement>desc</xmlelement></entry>
+            <entry><xmlatt>title on </xmlatt><xmlelement>audio</xmlelement>
+              and <xmlelement>video</xmlelement></entry>
+            <entry>None.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Division</entry>
+            <entry><xmlelement>div</xmlelement></entry>
+            <entry><xmlelement>div</xmlelement></entry>
+            <entry>None.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Definition list</entry>
+            <entry><xmlelement>dl</xmlelement></entry>
+            <entry><xmlelement>dl</xmlelement></entry>
+            <entry>Each definition pair uses the following format:<ul>
+                <li>A line that contains the term</li>
+                <li>A second line that starts with a colon (:) and follows
+                  with the definition</li>
+              </ul>Each definition pair must be separated by a blank
+              line.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Definition list entry</entry>
+            <entry><xmlelement>dlentry</xmlelement></entry>
+            <entry>None.</entry>
+            <entry>None.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Definition term</entry>
+            <entry><xmlelement>dt</xmlelement></entry>
+            <entry><xmlelement>dt</xmlelement></entry>
+            <entry>See definition list.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Example</entry>
+            <entry><xmlelement>example</xmlelement></entry>
+            <entry><codeph>&lt;div data-class="example"></codeph></entry>
+            <entry>
+              <p>A level-two heading marked by <codeph>##</codeph> or
+                  <codeph>-----</codeph> underline and the class value
+                  <codeph>{.example}</codeph> following the <xref
+                  href="https://pandoc.org/MANUAL.html#extension-header_attributes"
+                  scope="external" format="html">Pandoc syntax for header
+                  attributes</xref>.</p>
+            </entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Figure</entry>
+            <entry><xmlelement>fig</xmlelement></entry>
+            <entry><xmlelement>figure</xmlelement></entry>
+            <entry>None.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Footnote</entry>
+            <entry><xmlelement>fn</xmlelement></entry>
+            <entry><codeph>&lt;div data-class="fn"></codeph></entry>
+            <entry>
+              <p>A footnote is composed of two elements: a marker in the
+                text that will become a superscript number; a footnote
+                definition that will be placed in a list of footnotes at
+                the end of the document, following the <xref
+                  href="https://michelf.ca/projects/php-markdown/extra/#footnotes"
+                  format="html" scope="external">PHP Markdown Extra syntax
+                  for footnotes</xref>.</p>
+            </entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Image</entry>
+            <entry><xmlelement>image</xmlelement></entry>
+            <entry><xmlelement>img</xmlelement></entry>
+            <entry><codeph>![alt text](image-name.jpg)</codeph></entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>List item</entry>
+            <entry><xmlelement>li</xmlelement></entry>
+            <entry><xmlelement>li</xmlelement></entry>
+            <entry>
+              <p><codeph>-</codeph>, <codeph>+</codeph>, or
+                  <codeph>*</codeph> for unordered list, and
+                  <codeph>0</codeph>-<codeph>9</codeph> and
+                  <codeph>.</codeph> or <codeph>)</codeph> for ordered
+                list</p>
+            </entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Note</entry>
+            <entry><xmlelement>note</xmlelement></entry>
+            <entry><codeph>&lt;div data-class="note"></codeph></entry>
+            <entry>None.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Ordered list</entry>
+            <entry>
+              <xmlelement>ol</xmlelement></entry>
+            <entry><xmlelement>ol</xmlelement></entry>
+            <entry>See list item.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Paragraph</entry>
+            <entry><xmlelement>p</xmlelement></entry>
+            <entry><xmlelement>p</xmlelement></entry>
+            <entry>
+              <p>One or more consecutive lines of text, separated by one or
+                more blank line.</p>
+            </entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Phrase</entry>
+            <entry><xmlelement>ph</xmlelement></entry>
+            <entry><xmlelement>span</xmlelement></entry>
+            <entry>None.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Preformatted text</entry>
+            <entry><xmlelement>pre</xmlelement></entry>
+            <entry><xmlelement>pre</xmlelement></entry>
+            <entry>
+              <p>Fenced code blocks (e.g. <codeph>```text```</codeph>) or
+                indented code blocks (e.g. <codeph>text</codeph>) (how to
+                indicate an indent???)</p>
+            </entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Section</entry>
+            <entry><xmlelement>section</xmlelement></entry>
+            <entry><xmlelement>section</xmlelement></entry>
+            <entry>
+              <p>A level-two heading marked by <codeph>##</codeph> or
+                  <codeph>-----</codeph> underline </p>
+            </entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Unordered list</entry>
+            <entry><xmlelement>ul</xmlelement></entry>
+            <entry><xmlelement>ul</xmlelement></entry>
+            <entry>See list item.</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>Cross reference</entry>
+            <entry><xmlelement>xref</xmlelement></entry>
+            <entry><xmlatt>href</xmlatt> on
+              <xmlelement>a</xmlelement></entry>
+            <entry><codeph>[link](/URI "title")</codeph></entry>
+          </row>
+          <row>
+            <entry morerows="5">Highlighting components</entry>
+            <entry>Bold text</entry>
+            <entry><xmlelement>b</xmlelement></entry>
+            <entry><xmlelement>b</xmlelement></entry>
+            <entry>None.</entry>
+          </row>
+          <row>
+            <entry>Italic text</entry>
+            <entry><xmlelement>i</xmlelement></entry>
+            <entry><xmlelement>i</xmlelement></entry>
+            <entry>None.</entry>
+          </row>
+          <row>
+            <entry>Subscript</entry>
+            <entry><xmlelement>sub</xmlelement></entry>
+            <entry><xmlelement>sub</xmlelement></entry>
+            <entry>None.</entry>
+          </row>
+          <row>
+            <entry>Superscript</entry>
+            <entry><xmlelement>sup</xmlelement></entry>
+            <entry><xmlelement>sup</xmlelement></entry>
+            <entry>None.</entry>
+          </row>
+          <row>
+            <entry>Teletype</entry>
+            <entry><xmlelement>tt</xmlelement></entry>
+            <entry><xmlelement>code</xmlelement></entry>
+            <entry>Backtick.</entry>
+          </row>
+          <row>
+            <entry>Underline</entry>
+            <entry><xmlelement>u</xmlelement></entry>
+            <entry><xmlelement>u</xmlelement></entry>
+            <entry>None</entry>
+          </row>
+          <row>
+            <entry morerows="1">Emphasis components</entry>
+            <entry>Emphasized text</entry>
+            <entry><xmlelement>em</xmlelement></entry>
+            <entry><xmlelement>em</xmlelement></entry>
+            <entry>
+              <p>Asterisk (<codeph>*</codeph>) or underscore
+                  (<codeph>_</codeph>)</p>
+            </entry>
+          </row>
+          <row>
+            <entry>Strong text</entry>
+            <entry><xmlelement>strong</xmlelement></entry>
+            <entry><xmlelement>strong</xmlelement></entry>
+            <entry>
+              <p>Two asterisks (<codeph>**</codeph>) or two underscores
+                  (<codeph>__</codeph>)</p>
+            </entry>
+          </row>
+          <row>
+            <entry morerows="5">Map components</entry>
+            <entry>Key definition</entry>
+            <entry><xmlelement>keydef</xmlelement></entry>
+            <entry><codeph>div data-class="keydef"</codeph></entry>
+            <entry>None. Use HDITA smippet.</entry>
+          </row>
+          <row>
+            <entry>Key text</entry>
+            <entry><xmlelement>keytext</xmlelement></entry>
+            <entry><codeph>span data-class="keytext"</codeph></entry>
+            <entry>None. Use HDITA smippet.</entry>
+          </row>
+          <row>
+            <entry>Map</entry>
+            <entry>
+              <xmlelement>map</xmlelement></entry>
+            <entry><xmlelement>nav</xmlelement></entry>
+            <entry>
+              <p>A Markdown file with a title and an unordered list of
+                titles for topics and their associated file names</p>
+            </entry>
+          </row>
+          <row>
+            <entry>Navigation title</entry>
+            <entry><xmlelement>navtitle</xmlelement></entry>
+            <entry>None</entry>
+            <entry>None.</entry>
+          </row>
+          <row>
+            <entry>Topic metadata</entry>
+            <entry><xmlelement>topicmeta</xmlelement></entry>
+            <entry>None.</entry>
+            <entry>None.</entry>
+          </row>
+          <row>
+            <entry>Topic reference</entry>
+            <entry><xmlelement>topicref</xmlelement></entry>
+            <entry>None.</entry>
+            <entry>
+              <p><codeph>[link text](URI)</codeph> inside of a list
+                item.</p>
+            </entry>
+          </row>
+          <row>
+            <entry morerows="1">Metadata components</entry>
+            <entry>Data</entry>
+            <entry><xmlelement>data</xmlelement></entry>
+            <entry><xmlelement>meta</xmlelement></entry>
+            <entry>
+              <p>There is no specific syntax for data in MDITA core
+                profile. In the MDITA extended profile, data is represented
+                by variables declared in a YAML front-matter header. The
+                front matter must be the first block in the file, and it
+                must be set between triple-dashed lines. </p>
+            </entry>
+          </row>
+          <row>
+            <entry>Prolog</entry>
+            <entry><xmlelement>prolog</xmlelement></entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry morerows="5">Multimedia components</entry>
+            <entry>Audio</entry>
+            <entry><xmlelement>audio</xmlelement></entry>
+            <entry><xmlelement>audio</xmlelement></entry>
+            <entry>None. Use HDITA smippet.</entry>
+          </row>
+          <row>
+            <entry>Fallback</entry>
+            <entry><xmlelement>fallback</xmlelement></entry>
+            <entry><codeph>&lt;p data-class="fallback"></codeph></entry>
+            <entry>None. Use HDITA smippet.</entry>
+          </row>
+          <row>
+            <entry>Source</entry>
+            <entry><xmlelement>media-source</xmlelement></entry>
+            <entry><xmlelement>source</xmlelement></entry>
+            <entry>None. Use HDITA smippet.</entry>
+          </row>
+          <row>
+            <entry>Track</entry>
+            <entry><xmlelement>media-track</xmlelement></entry>
+            <entry><xmlelement>track</xmlelement></entry>
+            <entry>None. Use HDITA smippet.</entry>
+          </row>
+          <row>
+            <entry>Video</entry>
+            <entry><xmlelement>video</xmlelement></entry>
+            <entry><xmlelement>video</xmlelement></entry>
+            <entry>None. Use HDITA smippet.</entry>
+          </row>
+          <row>
+            <entry>Video poster</entry>
+            <entry><xmlelement>video-poster</xmlelement></entry>
+            <entry><xmlatt>poster on
+                </xmlatt><xmlelement>video</xmlelement></entry>
+            <entry>None. Use HDITA smippet.</entry>
+          </row>
+          <row>
+            <entry morerows="3">Table components</entry>
+            <entry>Table</entry>
+            <entry><xmlelement>simpletable</xmlelement></entry>
+            <entry><xmlelement>table</xmlelement></entry>
+            <entry morerows="3">
+              <p>A table should contain a header row, a delimiter row, and
+                zero or more rows with entries. Table entries inside a row
+                should be separated by pipes (<codeph>|</codeph>), and the
+                delimiter should contain hyphens (<codeph>-</codeph>).</p>
+            </entry>
+          </row>
+          <row>
+            <entry>Table entry</entry>
+            <entry><xmlelement>stentry</xmlelement></entry>
+            <entry><xmlelement>td</xmlelement></entry>
+          </row>
+          <row>
+            <entry>Table header</entry>
+            <entry><xmlelement>sthead</xmlelement></entry>
+            <entry><xmlelement>th</xmlelement></entry>
+          </row>
+          <row>
+            <entry>Table row</entry>
+            <entry><xmlelement>strow</xmlelement></entry>
+            <entry><xmlelement>tr</xmlelement></entry>
+          </row>
+        </tbody>
+      </tgroup></table>
+  </refbody>
+</reference>

@@ -28,7 +28,7 @@
           <stentry>HDITA</stentry>
           <stentry>
             <p><xmlelement>div data-class="keydef"</xmlelement></p>
-            <codeblock><b>div data-class="keydef"></b>
+            <codeblock><b>&lt;div data-class="keydef"></b>
   &lt;span data-class="keytext" data-keys="product-name">Remote Lighting Network&lt;/span>
 <b>&lt;/div></b></codeblock>
           </stentry>
