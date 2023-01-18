@@ -83,6 +83,16 @@
               and table component topics</li>
           </ul></stentry>
       </strow>
+      <strow>
+        <stentry/>
+        <stentry>18 January 2023</stentry>
+        <stentry>Kristen James Eberlein</stentry>
+        <stentry>Added "Rendering expectations" sections to the following topics:<ul>
+            <li>Emphasis domain</li>
+            <li>Highlighting domain</li>
+            <li>Note topic</li>
+          </ul></stentry>
+      </strow>
     </simpletable>
     </refbody>
 </reference>
