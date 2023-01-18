@@ -24,6 +24,8 @@
     </section>
 
 <section conkeyref="reuse-note/usage-information" />
+    <section conkeyref="reuse-note/rendering-expectations"
+      ><title/><p/></section>
     <section conkeyref="reuse-note/attributes"/>
 
 

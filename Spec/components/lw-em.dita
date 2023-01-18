@@ -45,6 +45,8 @@ grilled steak.</codeblock>
         </strow>
       </simpletable>
     </section>
+    <section conkeyref="reuse-em/rendering-expectations"
+      ><title/><p/></section>
     <section conkeyref="reuse-em/attributes"/>
         <example>
           <title>Examples</title>
