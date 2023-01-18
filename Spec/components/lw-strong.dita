@@ -37,6 +37,8 @@
         </strow>
       </simpletable>
     </section>
+    <section conkeyref="reuse-strong/rendering-expectations"
+      ><title/><p/></section>
     <section conkeyref="reuse-strong/attributes"/>
         <example>
           <title>Examples</title>
