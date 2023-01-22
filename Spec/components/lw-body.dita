@@ -6,22 +6,49 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd><p><xmlelement>body</xmlelement></p></dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd>
+      <p conkeyref="lwdita-reuse-general/syntax-section-intro"/>  
+      <!-- <dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>body</xmlelement></p></dd></dlentry>
+               <dlentry><dt>HDITA</dt><dd><p><xmlelement>body</xmlelement></p></dd></dlentry>
+               <dlentry><dt>MDITA (core and extended profiles)</dt><dd><p>There is no explicit markup for the body component in MDITA</p></dd></dlentry>
+      </dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
             <p><xmlelement>body</xmlelement></p>
-          </dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>There is no explicit markup for the body component in MDITA</p></dd>
-        </dlentry>
-      </dl>
+            <codeblock>&lt;topic id="franchise-intro">
+  &lt;title>An innovative, attractive, and out of the ordinary concept&lt;/title>
+  <b>&lt;body></b>
+    &lt;p>Are you interested in investing with us? Welcome to our franchise information package.&lt;/p>
+  <b>&lt;/body></b>
+&lt;/topic></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p><xmlelement>body</xmlelement></p>
+            <codeblock><b>&lt;body></b>
+  &lt;article id="franchise-intro">
+    &lt;h1>An innovative, attractive, and out of the ordinary concept&lt;/h1>
+    &lt;p>Are you interested in investing with us? Welcome to our franchise information package.&lt;/p>
+  &lt;/article>
+<b>&lt;/body></b></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>
+            <p
+              conref="../common/common-examples.dita#common-examples/no-mdita-core"
+            />
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
 
 
