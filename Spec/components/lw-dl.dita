@@ -61,6 +61,8 @@ blackberry
         </strow>
       </simpletable>
     </section>
+    <section conkeyref="reuse-dl/rendering-expectatons"
+      ><title/><p/></section>
 
 
       <section conkeyref="reuse-dl/attributes"/>
