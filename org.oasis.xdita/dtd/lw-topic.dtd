@@ -47,7 +47,7 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 <!-- ============================================================= -->
 
 <!-- hi-d and emphasis-d -->
-<!ENTITY % ph           "b | em | i | ph | strong | sub | sup | tt | u"       >
+<!ENTITY % ph           "b | em | i | ph | strong | sub | sup | tt | u" >
 
 
 <!-- ============================================================= -->
@@ -60,13 +60,13 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 
 
 <!-- ============================================================= -->
-<!--                    DECLARE USE OF ELEMENT/ATTRIBUTE DOMAINS                 -->
+<!--                    DECLARE USE OF ELEMENT/ATTRIBUTE DOMAINS   -->
 <!-- ============================================================= -->
 
 <!ENTITY included-domains                         ""                 >
 
 <!-- ============================================================= -->
-<!--                    REMOVE ATTRIBUTE/ELEMENT GROUPS                    -->
+<!--                    REMOVE ATTRIBUTE/ELEMENT GROUPS            -->
 <!-- ============================================================= -->
 
 <!-- Remove a group by uncommenting its redefinition below -->
@@ -90,13 +90,13 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 
 <!ENTITY % common-ent   PUBLIC
 "-//OASIS//ENTITIES LIGHTWEIGHT DITA Common//EN"
-"lw-common.ent"                                                       >
+"lw-common.ent"                                                      >
 %common-ent;
 
 
 <!ENTITY % common-defn   PUBLIC
 "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Common//EN"
-"lw-common.mod"                                                       >
+"lw-common.mod"                                                      >
 %common-defn;
 
 <!--                    Embed topic module to get generic elements -->
@@ -118,12 +118,12 @@ PUBLIC "-//OASIS//DTD LIGHTWEIGHT DITA Topic//EN"
 
 <!ENTITY % hi-d-def     PUBLIC
 " -//OASIS//ELEMENTS LIGHTWEIGHT DITA Highlight Domain//EN"
-"lw-highlightDomain.mod"                                                >
+"lw-highlightDomain.mod"                                             >
 %hi-d-def;
 
 <!ENTITY % hi-emph-def     PUBLIC
 " -//OASIS//ELEMENTS LIGHTWEIGHT DITA Emphasis Domain//EN"
-"lw-emphasisDomain.mod"                                                >
+"lw-emphasisDomain.mod"                                              >
 %hi-emph-def;
 
 

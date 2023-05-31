@@ -50,6 +50,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!--    27 May 2021 KJE: Updated for DITA 2.0                      -->
 <!--    26 Oct 2021  ES: split common entites to its own file      -->
 <!--    04 Oct 2022 KJE: Added @outputclass to <topicmeta>         -->
+<!--    31 May 2023  FW: Removed <data>                            -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    SPECIALIZATIONS ATTRIBUTE OVERRIDE         -->
@@ -59,12 +60,10 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
 <!ENTITY excluded-attributes "">
 
 <!-- ============================================================= -->
-<!--                    EXTENSION POINTS                 -->
+<!--                    EXTENSION POINTS                           -->
 <!-- ============================================================= -->
 
 <!ENTITY % ph  "ph">
-<!ENTITY % data  "data">
-
 
 <!-- ============================================================= -->
 <!--                    COMMON DECLARATIONS                       -->
@@ -82,7 +81,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
            
              
 <!--                    LONG NAME: Key Definition  -->
-<!ELEMENT keydef	(topicmeta?, data*)        >
+<!ELEMENT keydef	(topicmeta)        >
 <!ATTLIST keydef
               %localization;
               %filters;
@@ -121,9 +120,8 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "+ topic/titlealt alternativeTitles-d/navtitle ">             
              
-             
 <!--                    LONG NAME: Metadata-->
-<!ELEMENT topicmeta     (navtitle?, keytext?, data*) >
+<!ELEMENT topicmeta     (navtitle?, keytext?, othermeta*) >
 <!ATTLIST topicmeta
              %localization;
              outputclass  CDATA          #IMPLIED

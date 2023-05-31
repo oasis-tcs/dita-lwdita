@@ -83,6 +83,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 <!--                     own files                                 -->
 <!--    04 Oct 2022 KJE: Added @outputclass to <topicmeta>         -->
 <!--    15 Dec 2022 KJE: Added <video-poster>; updated <video>     -->
+<!--    05 May 2023  FW: Removed <data>, added <metadata>          -->
 <!-- ============================================================= -->
 
 <!-- ============================================================= -->
@@ -106,13 +107,13 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
 
 <!-- common content models -->
 
-<!ENTITY % simple-blocks  "p|ul|ol|dl|pre|audio|video|example|note|%data;">
-<!ENTITY % fallback-blocks "image|alt|p|ul|ol|dl|pre|note|%data;">
-<!ENTITY % fn-blocks  "p|ul|ol|dl|%data;">
-<!ENTITY % all-blocks  "p|ul|ol|dl|pre|audio|video|example|simpletable|fig|note|%data;">
-<!ENTITY % list-blocks "p|ul|ol|dl|pre|audio|video|example|simpletable|fig|note|%data;">
-<!ENTITY % fig-blocks  "p|ul|ol|dl|pre|audio|video|example|simpletable|%data;">
-<!ENTITY % example-blocks "p|ul|ol|dl|pre|audio|video|simpletable|fig|note|%data;">
+<!ENTITY % simple-blocks  "p|ul|ol|dl|pre|audio|video|example|note">
+<!ENTITY % fallback-blocks "image|alt|p|ul|ol|dl|pre|note">
+<!ENTITY % fn-blocks  "p|ul|ol|dl">
+<!ENTITY % all-blocks  "p|ul|ol|dl|pre|audio|video|example|simpletable|fig|note">
+<!ENTITY % list-blocks "p|ul|ol|dl|pre|audio|video|example|simpletable|fig|note">
+<!ENTITY % fig-blocks  "p|ul|ol|dl|pre|audio|video|example|simpletable">
+<!ENTITY % example-blocks "p|ul|ol|dl|pre|audio|video|simpletable|fig|note">
 
 <!-- common attributes -->
 
@@ -261,7 +262,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              class CDATA "- topic/p ">
 
 <!--                    LONG NAME: Preformatted content -->
-<!ELEMENT pre            (#PCDATA|%ph;|xref|%data;)*        >
+<!ELEMENT pre            (#PCDATA|%ph;|xref)*        >
 <!ATTLIST pre
              %localization;
              %filters;
@@ -270,15 +271,27 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Topic//EN"
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/pre ">
 
+<!--                    LONG NAME: Metadata             -->
+<!ELEMENT metadata (othermeta)*>
+<!ATTLIST metadata 
+             %localization;
+             %filters;
+             %reuse;
+             outputclass  CDATA          #IMPLIED
+             class CDATA "- topic/metadata ">
+
 <!--                    LONG NAME: Prolog-->
-<!ELEMENT prolog (%data;)* >
+<!ELEMENT prolog (metadata)* >
 <!ATTLIST prolog
              %localization;
              %filters;
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/prolog ">
 
- <!--                    LONG NAME: Section             -->
+
+
+
+<!--                    LONG NAME: Section             -->
 <!ELEMENT section       (title?, (%all-blocks;)*)        >
 <!ATTLIST section
              %localization;
