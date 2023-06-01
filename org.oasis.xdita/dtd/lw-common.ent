@@ -21,7 +21,7 @@
 <!ENTITY % filter-adds " ">
 
 <!ENTITY % inline           "#PCDATA|%ph;|image|xref">
-<!ENTITY % inline.noimage   "#PCDATA|%ph;|xref|">
+<!ENTITY % inline.noimage   "#PCDATA|%ph;|xref">
 <!ENTITY % inline.noxref    "#PCDATA|%ph;|image">
 
 <!ENTITY % filters

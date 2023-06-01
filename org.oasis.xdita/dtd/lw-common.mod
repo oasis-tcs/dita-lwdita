@@ -57,7 +57,7 @@
              %localization;
              name         CDATA          #REQUIRED
              content      CDATA          #REQUIRED
-             class        CDATA "- map/othermeta ">            
+             class        CDATA "- topic/othermeta ">            
 
 
 

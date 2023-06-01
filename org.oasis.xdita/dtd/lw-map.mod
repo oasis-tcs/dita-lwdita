@@ -81,7 +81,7 @@ PUBLIC "-//OASIS//ELEMENTS LIGHTWEIGHT DITA Map//EN"
            
              
 <!--                    LONG NAME: Key Definition  -->
-<!ELEMENT keydef	(topicmeta)        >
+<!ELEMENT keydef	(topicmeta?)        >
 <!ATTLIST keydef
               %localization;
               %filters;
