@@ -1,7 +1,7 @@
 <!-- ============================================================= -->
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
-<!--  MODULE:    Lightweight DITA Common Entities                          -->
+<!--  MODULE:    Lightweight DITA Common Entities                  -->
 <!--  VERSION:   1.0                                               -->
 <!--  DATE:      XXX                                               -->
 <!--                                                               -->
@@ -14,15 +14,15 @@
 <!--                     which is used for highlight and emphasis  -->
 <!--                     domain elements; changed "all-inline" to  -->
 <!--                     "inline" in entity names                  -->
+<!--    05 May 2023  FW: Removed data                              -->
 <!-- ============================================================= -->
 
 <!ENTITY % ph    "ph">
-<!ENTITY % data  "data">
 <!ENTITY % filter-adds " ">
 
-<!ENTITY % inline           "#PCDATA|%ph;|image|xref|%data;">
-<!ENTITY % inline.noimage   "#PCDATA|%ph;|xref|%data;">
-<!ENTITY % inline.noxref    "#PCDATA|%ph;|image|%data;">
+<!ENTITY % inline           "#PCDATA|%ph;|image|xref">
+<!ENTITY % inline.noimage   "#PCDATA|%ph;|xref">
+<!ENTITY % inline.noxref    "#PCDATA|%ph;|image">
 
 <!ENTITY % filters
             'props      CDATA                              #IMPLIED

@@ -5,14 +5,15 @@
 <!--  VERSION:   1.0                                               -->
 <!--  DATE:      XXX                                               -->
 <!--                                                               -->
-<!--    26 Oct 2021  ES: split common entites element to their     -->
+<!--    26 Oct 2021  ES: split common entities element to their    -->
 <!--                     own files                                 -->
 <!--    04 Oct 2022 KJE: Defined @keyref directly on elements,     -->
 <!--                     replacing control-variables entity        -->
+<!--    31 May 2023  FW: Added <othermeta>, removed <data>         -->
 <!-- ============================================================= -->
 
 <!--                    LONG NAME: Alternative content  -->
-<!ELEMENT alt           (#PCDATA|%ph;|%data;)*        >
+<!ELEMENT alt           (#PCDATA|%ph;)*        >
 <!ATTLIST alt
              %localization;
              keyref       CDATA          #IMPLIED
@@ -30,17 +31,6 @@
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/image ">   
 
-<!--                    LONG NAME: Data  -->
-<!ELEMENT data             (#PCDATA|%data;)*        >
-<!ATTLIST data
-                %filters;
-                %localization;
-                %reference-content;
-                keyref       CDATA          #IMPLIED
-                outputclass  CDATA          #IMPLIED
-                name         CDATA          #IMPLIED
-                value        CDATA          #IMPLIED
-                class CDATA "- topic/data ">
 
 <!--                    LONG NAME: Phrase content  -->
 <!ELEMENT ph             (%inline;)*        >
@@ -60,6 +50,14 @@
              keyref       CDATA          #IMPLIED
              outputclass  CDATA          #IMPLIED
              class CDATA "- topic/xref ">
+
+<!--                    LONG NAME: Other Metadata                  -->
+<!ELEMENT othermeta        EMPTY>
+<!ATTLIST othermeta
+             %localization;
+             name         CDATA          #REQUIRED
+             content      CDATA          #REQUIRED
+             class        CDATA "- topic/othermeta ">            
 
 
 
