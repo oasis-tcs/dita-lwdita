@@ -20,4 +20,4 @@ Power Factor
 Energy
 : Energy Star Certified EEL Rating: A|
 
-<p data-conref="intro-product.dita#intro-product/warning"/>
+<p data-conref="../xdita/intro-product.dita#intro-product/warning"/>
