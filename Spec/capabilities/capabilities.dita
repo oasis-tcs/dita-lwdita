@@ -66,14 +66,9 @@
       <dlentry>
         <dt>Specialization</dt>
         <dd>
-          <p>LwDITA follows the same specialization architecture as DITA, although there are some
-            limitations. Because LwDITA spans multiple authoring formats, coordination of the same
-            specialization rules across markup languages poses some unique challenges. Not all
-            LwDITA formats will support specialization to the same degree. For example, XDITA, the
-            LwDITA authoring format based on XML, defines a default class attribute value for each
-            component. This class attribute can be used as basis for specialization. In HDITA and
-            MDITA—the LwDITA authoring formats based on HTML5 and Markdown, respectively—, there is
-            no  mechanism for specialization (link to topic). </p></dd>
+          <p>In principle, LwDITA follows the same specialization architecture as DITA, although
+            there are  limitations depending on the authoring format. However, specialization is
+            beyond the scope of this version of the specification.</p></dd>
       </dlentry>
     </dl>
   </conbody>
