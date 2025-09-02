@@ -6,31 +6,56 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd><p><xmlelement>title</xmlelement> in <xmlelement>topic</xmlelement>,
-                <xmlelement>section</xmlelement>,  <xmlelement>example</xmlelement>,
-                <xmlelement>fig</xmlelement>, and <xmlelement>simpletable</xmlelement>.</p></dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd>
+      <!--<dl>  <dlentry> <dt>XDITA</dt><dd><p><xmlelement>title</xmlelement> in <xmlelement>topic</xmlelement>,                <xmlelement>section</xmlelement>,  <xmlelement>example</xmlelement>,  <xmlelement>fig</xmlelement>, and <xmlelement>simpletable</xmlelement>.</p></dd></dlentry>  <dlentry><dt>HDITA</dt><dd><p><xmlelement>h1</xmlelement> and <xmlelement>title</xmlelement> for <xref
+                href="lw-topic.dita" format="dita">topic</xref> (The content for Title in an HDITA
+              topic <term outputclass="RFC-2119">MUST</term> map to both  <xmlelement>title</xmlelement> and <xmlelement>h1</xmlelement>).   <xmlelement>h2</xmlelement> for <xref href="lw-section.dita" format="dita">section</xref> and <xref href="lw-example.dita" format="dita">example</xref>. <xmlelement>figcaption</xmlelement> in                <xmlelement>figure</xmlelement>.<xmlelement>caption</xmlelement> for <xref   href="lw-simpletable.dita" format="dita">table</xref>. Title also applied to audio   and video in HDITA as attribute???</p></dd></dlentry><dlentry>
+          <dt>MDITA (core and extended profiles)</dt><dd><p><codeph>#</codeph> or <codeph>===</codeph> underline for <xref href="lw-topic.dita">topic</xref>; <codeph>##</codeph> or <codeph>-\-\-\-\-</codeph> underline for <xref href="lw-section.dita">section</xref> </p></dd></dlentry>  </dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p><xmlelement>title</xmlelement> in <xmlelement>topic</xmlelement>,
+              <xmlelement>section</xmlelement>,  <xmlelement>example</xmlelement>,
+              <xmlelement>fig</xmlelement>, and <xmlelement>simpletable</xmlelement>.</p>
+            <codeblock>&lt;topic id="mytopic">
+    <b>&lt;title>My Topic Title&lt;/title></b>
+    &lt;body>
+        &lt;section>
+            <b>&lt;title>My Section Title&lt;/title></b>
+            &lt;p>&lt;/p>
+        &lt;/section></codeblock>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
             <p><xmlelement>h1</xmlelement> and <xmlelement>title</xmlelement> for <xref
                 href="lw-topic.dita" format="dita">topic</xref> (The content for Title in an HDITA
               topic <term outputclass="RFC-2119">MUST</term> map to both
-                <xmlelement>title</xmlelement> and <xmlelement>h1</xmlelement>).
-                <xmlelement>h2</xmlelement> for <xref href="lw-section.dita" format="dita">section</xref> and <xref href="lw-example.dita" format="dita">example</xref>. <xmlelement>figcaption</xmlelement> in
-                <xmlelement>figure</xmlelement>.<xmlelement>caption</xmlelement> for <xref
-                href="lw-simpletable.dita" format="dita">table</xref>. Title also applied to audio
-              and video in HDITA as attribute???</p>
-          </dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd><p><codeph>#</codeph> or <codeph>===</codeph> underline for <xref href="lw-topic.dita">topic</xref>; <codeph>##</codeph> or <codeph>-----</codeph> underline for <xref href="lw-section.dita">section</xref> </p></dd>
-        </dlentry>
-      </dl>
+                <xmlelement>title</xmlelement> and <xmlelement>h1</xmlelement>).</p>
+            <p><xmlelement>h2</xmlelement> for <xref href="lw-section.dita" format="dita"
+                >section</xref> and <xref href="lw-example.dita" format="dita">example</xref>.
+                <xmlelement>figcaption</xmlelement> in <xmlelement>figure</xmlelement>.</p>
+            <p><xmlelement>caption</xmlelement> for <xref href="lw-simpletable.dita" format="dita"
+                >table</xref>. <draft-comment author="mark giffin" time="2025-09-01">Title also
+                applied to audio and video in HDITA as attribute???</draft-comment></p>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA</stentry>
+          <stentry>
+            <p><codeph>#</codeph> or <codeph>===</codeph> underline for <xref href="lw-topic.dita"
+                >topic</xref>.</p>
+            <p><codeph>##</codeph> or <codeph>-----</codeph> underline for <xref
+                href="lw-section.dita">section</xref>.</p>
+          </stentry>
+        </strow>
+      </simpletable>
+      
     </section>
 
       <section conkeyref="reuse-title/attributes"/>  

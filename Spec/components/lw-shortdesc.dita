@@ -6,20 +6,33 @@
     <refbody>
       <section id="syntax">
         <title>Syntax</title>
-        <dl platform="lwdita">
-          <dlentry>
-            <dt>XDITA</dt>
-            <dd><xmlelement>shortdesc</xmlelement></dd>
-          </dlentry>
-          <dlentry>
-            <dt>HDITA</dt>
-            <dd>First element in article, if it is a paragraph, after title</dd>
-          </dlentry>
-          <dlentry>
-            <dt>MDITA (core and extended profiles)</dt>
-            <dd>First block, if it is a paragraph, after title </dd>
-          </dlentry>
-        </dl>  </section>
+        <!--<dl platform="lwdita"><dlentry><dt>XDITA</dt><dd><xmlelement>shortdesc</xmlelement></dd></dlentry><dlentry><dt>HDITA</dt>            <dd>First element in article, if it is a paragraph, after title</dd> </dlentry>
+          <dlentry><dt>MDITA (core and extended profiles)</dt><dd>First block, if it is a paragraph, after title </dd></dlentry></dl>-->
+        <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+          <sthead>
+            <stentry>Authoring format</stentry>
+            <stentry>Syntax and example</stentry>
+          </sthead>
+          <strow>
+            <stentry>XDITA</stentry>
+            <stentry>
+              <p><b><xmlelement>shortdesc</xmlelement></b></p>
+            </stentry>
+          </strow>
+          <strow>
+            <stentry>HDITA</stentry>
+            <stentry>
+              <p>First element in article, if it is a paragraph, after title</p>
+            </stentry>
+          </strow>
+          <strow>
+            <stentry>MDITA (core and extended profiles)</stentry>
+            <stentry>
+              <p>First block, if it is a paragraph, after title</p>
+            </stentry>
+          </strow>
+        </simpletable>
+      </section>
       <section conkeyref="reuse-shortdesc/usage-information"/>
       <section conkeyref="reuse-shortdesc/rendering-expectations"/>
     <section conkeyref="reuse-shortdesc/attributes"/>

@@ -6,20 +6,33 @@
     <refbody>
     <section>
       <title>Syntax</title>
-      <dl>
-        <dlentry>
-          <dt>XDITA</dt>
-          <dd><p><xmlelement>topic</xmlelement></p></dd>
-          </dlentry>
-        <dlentry>
-          <dt>HDITA</dt>
-          <dd><p><xmlelement>article</xmlelement></p></dd>
-        </dlentry>
-        <dlentry>
-          <dt>MDITA (core and extended profiles)</dt>
-          <dd><p>There is no specific syntax for topic in MDITA</p></dd>
-        </dlentry>
-      </dl>
+      <!--<dl><dlentry><dt>XDITA</dt><dd><p><xmlelement>topic</xmlelement></p></dd></dlentry>
+        <dlentry><dt>HDITA</dt><dd><p><xmlelement>article</xmlelement></p></dd></dlentry>
+        <dlentry><dt>MDITA (core and extended profiles)</dt><dd><p>There is no specific syntax for topic in MDITA</p></dd></dlentry></dl>-->
+      <simpletable frame="all" relcolwidth="1* 3.0*" keycol="1">
+        <sthead>
+          <stentry>Authoring format</stentry>
+          <stentry>Syntax and example</stentry>
+        </sthead>
+        <strow>
+          <stentry>XDITA</stentry>
+          <stentry>
+            <p><b><xmlelement>topic</xmlelement></b></p>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>HDITA</stentry>
+          <stentry>
+            <p><b><xmlelement>article</xmlelement></b></p>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>MDITA (core and extended profiles)</stentry>
+          <stentry>
+            <p>There is no specific syntax for topic in MDITA</p>
+          </stentry>
+        </strow>
+      </simpletable>
     </section>
       <section conkeyref="reuse-topic/attributes"/>  
        <example>
